@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.admin.EditorExtensionTagAdapter" translationreference="editor" stylesheetfile="../cis/styles/CIS_DEFAULT.css" darkbackground="true" casaindex="1" >
+
+
+        <pagebody horizdist="false" takefullheight="true" paddingtop="5" paddingbottom="5" casaindex="2" >
+
+
+                <itr height="100%" width="100%" casaindex="3" >
+
+
+                        <coltable0 width="100%" takefullheight="true" casaindex="4" >
+
+
+                                <rowarea textid="exttagext.rowarea.properties" height="50%" casaindex="5" >
+
+
+                                        <rowtablearea2 griddataprop="properties" rowcount="15" height="100%" width="100%" withborder="true" hscroll="true" casaindex="6" >
+
+
+                                                <tr casaindex="7" >
+
+
+                                                        <label textid="reete.label0" asheadline="true" height="15" casaindex="8" >
+
+
+                                                        </label>
+
+
+                                                        <label textid="label.name" asheadline="true" height="15" labelstyle="padding-top: 1px;padding-left: 2px; font-size: 10px; font-weight: bold" casaindex="9" >
+
+
+                                                        </label>
+
+
+                                                        <label textid="label.datatype" asheadline="true" height="15" labelstyle="padding-top: 1px;padding-left: 2px; font-size: 10px; font-weight: bold" casaindex="10" >
+
+
+                                                        </label>
+
+
+                                                        <label textid="label.presetvalue" asheadline="true" height="15" labelstyle="padding-top: 1px;padding-left: 2px; font-size: 10px; font-weight: bold" casaindex="11" >
+
+
+                                                        </label>
+
+
+                                                        <label textid="label.showcodeass" asheadline="true" height="15" labelstyle="padding-top: 1px;padding-left: 2px; font-size: 10px; font-weight: bold" casaindex="12" >
+
+
+                                                        </label>
+
+
+                                                </tr>
+
+
+                                                <repeat casaindex="13" >
+
+
+                                                        <str valueprop="selected" casaindex="14" >
+
+
+                                                                <checkbox valueprop="selected" flush="screen" casaindex="15" >
+
+
+                                                                </checkbox>
+
+
+                                <field xsdType="xs:string" valueprop="name" width="33%" noborder="true" transparentbackground="true" casaindex="16" >
+
+                                </field>
+
+                                <field xsdType="xs:string" valueprop="datatype" width="34%" noborder="true" transparentbackground="true" casaindex="17" >
+
+                                </field>
+
+                                <field xsdType="xs:string" valueprop="presetvalue" width="33%" noborder="true" transparentbackground="true" casaindex="18" >
+
+                                </field>
+
+                                                                <checkbox valueprop="useincodegenerator" width="140" align="center" casaindex="19" >
+
+
+                                                                </checkbox>
+
+
+                                                        </str>
+
+
+                                                </repeat>
+
+
+                                        </rowtablearea2>
+
+
+                                        <itr casaindex="20" >
+
+
+                                                <hdist width="50%" casaindex="21" >
+
+
+                                                </hdist>
+
+
+                                                <icon image="../HTMLBasedGUI/images/new.gif" method="onPropertyAdd" titletextid="icon.label.add" casaindex="22" >
+
+
+                                                </icon>
+
+
+                                                <hdist casaindex="23" >
+
+
+                                                </hdist>
+
+
+                                                <icon image="../HTMLBasedGUI/images/remove.gif" method="onPropertyRemove" titletextid="icon.label.remove" casaindex="24" >
+
+
+                                                </icon>
+
+
+                                                <hdist width="50%" casaindex="25" >
+
+
+                                                </hdist>
+
+
+                                        </itr>
+
+
+                                </rowarea>
+
+
+                                <vdist height="5" casaindex="26" >
+
+
+                                </vdist>
+
+
+                                <rowarea textid="exttagext.rowarea.methods" casaindex="27" >
+
+
+                                        <rowtablearea2 griddataprop="methods" rowcount="15" width="100%" withborder="true" hscroll="true" casaindex="28" >
+
+
+                                                <tr casaindex="29" >
+
+
+                                                        <label textid="reete.label1" asheadline="true" height="15" casaindex="30" >
+
+
+                                                        </label>
+
+
+                                                        <label textid="label.methodname" asheadline="true" height="15" labelstyle="padding-top: 1px;padding-left: 2px; font-size: 10px; font-weight: bold" casaindex="31" >
+
+
+                                                        </label>
+
+
+                                                        <label textid="label.showcodeass" asheadline="true" height="15" labelstyle="padding-top: 1px;padding-left: 2px; font-size: 10px; font-weight: bold" casaindex="32" >
+
+
+                                                        </label>
+
+
+                                                </tr>
+
+
+                                                <repeat casaindex="33" >
+
+
+                                                        <str valueprop="selected" casaindex="34" >
+
+
+                                                                <checkbox valueprop="selected" flush="screen" casaindex="35" >
+
+
+                                                                </checkbox>
+
+
+                                <field xsdType="xs:string" valueprop="name" width="100%" noborder="true" transparentbackground="true" casaindex="36" >
+
+                                </field>
+
+                                                                <checkbox valueprop="useincodegenerator" width="140" align="center" casaindex="37" >
+
+
+                                                                </checkbox>
+
+
+                                                        </str>
+
+
+                                                </repeat>
+
+
+                                        </rowtablearea2>
+
+
+                                        <itr casaindex="38" >
+
+
+                                                <hdist width="50%" casaindex="39" >
+
+
+                                                </hdist>
+
+
+                                                <icon image="../HTMLBasedGUI/images/new.gif" method="onMethodAdd" titletextid="icon.label.add" casaindex="40" >
+
+
+                                                </icon>
+
+
+                                                <hdist width="5" casaindex="41" >
+
+
+                                                </hdist>
+
+
+                                                <icon image="../HTMLBasedGUI/images/remove.gif" method="onMethodRemove" titletextid="icon.label.remove" casaindex="42" >
+
+
+                                                </icon>
+
+
+                                                <hdist width="50%" casaindex="43" >
+
+
+                                                </hdist>
+
+
+                                        </itr>
+
+
+                                </rowarea>
+
+
+                                <vdist height="5" casaindex="44" >
+
+
+                                </vdist>
+
+
+                                <rowarea textid="exttagext.rowarea.javascript" foldedprop="jsFolded" casaindex="45" >
+
+
+                                        <rowtablearea2 griddataprop="jsLibs" rowcount="3" width="100%" withborder="true" hscroll="true" casaindex="46" >
+
+
+                                                <tr casaindex="47" >
+
+
+                                                        <label textid="reete.label2" asheadline="true" height="15" casaindex="48" >
+
+
+                                                        </label>
+
+
+                                                        <label textid="label.source" asheadline="true" height="15" labelstyle="padding-top: 1px;padding-left: 2px; font-size: 10px; font-weight: bold" casaindex="49" >
+
+
+                                                        </label>
+
+
+                                                </tr>
+
+
+                                                <repeat casaindex="50" >
+
+
+                                                        <str valueprop="selected" casaindex="51" >
+
+
+                                                                <checkbox valueprop="selected" flush="screen" casaindex="52" >
+
+
+                                                                </checkbox>
+
+
+                                <field xsdType="xs:string" valueprop="name" width="100%" noborder="true" transparentbackground="true" casaindex="53" >
+
+                                </field>
+
+                                                        </str>
+
+
+                                                </repeat>
+
+
+                                        </rowtablearea2>
+
+
+                                        <itr casaindex="54" >
+
+
+                                                <hdist width="50%" casaindex="55" >
+
+
+                                                </hdist>
+
+
+                                                <icon image="../HTMLBasedGUI/images/new.gif" method="onJsLibAdd" titletextid="icon.label.add" casaindex="56" >
+
+
+                                                </icon>
+
+
+                                                <hdist width="5" casaindex="57" >
+
+
+                                                </hdist>
+
+
+                                                <icon image="../HTMLBasedGUI/images/remove.gif" method="onJsLibRemove" titletextid="icon.label.remove" casaindex="58" >
+
+
+                                                </icon>
+
+
+                                                <hdist width="50%" casaindex="59" >
+
+
+                                                </hdist>
+
+
+                                        </itr>
+
+
+                                </rowarea>
+
+
+                        </coltable0>
+
+
+                        <hdist width="10" casaindex="60" >
+
+
+                        </hdist>
+
+
+                        <coldynavis valueprop="helpAreaVis" width="250" takefullheight="true" casaindex="61" >
+
+
+                                <tr casaindex="62" >
+
+
+                                        <ihtml valueprop="tab4HTML" width="100%" height="100%" casaindex="63" >
+
+
+                                        </ihtml>
+
+
+                                </tr>
+
+
+                        </coldynavis>
+
+
+                        <coltable0 width="20" casaindex="64" >
+
+
+                                <tr casaindex="65" >
+
+
+                                        <icon image="images/scrolllastpage.gif" method="onHidelHelp" titletextid="icon.label.hidehelp" casaindex="66" >
+
+
+                                        </icon>
+
+
+                                </tr>
+
+
+                                <vdist casaindex="67" >
+
+
+                                </vdist>
+
+
+                                <tr casaindex="68" >
+
+
+                                        <icon image="images/scrollfirstpage.gif" method="onShowHelp" titletextid="icon.label.showhelp" casaindex="69" >
+
+
+                                        </icon>
+
+
+                                </tr>
+
+
+                        </coltable0>
+
+
+                </itr>
+
+
+        </pagebody>
+
+
+</page>

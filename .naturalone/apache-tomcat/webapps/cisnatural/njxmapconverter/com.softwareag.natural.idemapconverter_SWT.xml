@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.natural.mapconverter.gui.IDEMapConverterAdapter" casaindex="1" >
+
+
+        <titlebar name="IDE Map Converter" casaindex="2" >
+
+
+        </titlebar>
+
+
+        <header withdistance="false" casaindex="3" >
+
+
+                <button name="Execute Event" method="onExecuteEvent" casaindex="4" >
+
+
+                </button>
+
+
+        </header>
+
+
+        <pagebody casaindex="5" >
+
+
+                <rowarea name="Event Data" casaindex="6" >
+
+
+                        <itr casaindex="7" >
+
+
+                                <label name="Event name" width="150" casaindex="8" >
+
+
+                                </label>
+
+
+                <field xsdType="xs:string" valueprop="eventname" width="200" casaindex="9" >
+
+                </field>
+
+                        </itr>
+
+
+                        <vdist height="10" casaindex="10" >
+
+
+                        </vdist>
+
+
+                        <itr casaindex="11" >
+
+
+                                <label name="Map extract folder" width="150" casaindex="12" >
+
+
+                                </label>
+
+
+                <field xsdType="xs:string" valueprop="mapextractfolder" width="200" casaindex="13" >
+
+                </field>
+
+                        </itr>
+
+
+                        <vdist height="10" casaindex="14" >
+
+
+                        </vdist>
+
+
+                        <itr casaindex="15" >
+
+
+                                <label name="Map extract name" width="150" casaindex="16" >
+
+
+                                </label>
+
+
+                <field xsdType="xs:string" valueprop="mapextractname" width="200" casaindex="17" >
+
+                </field>
+
+                        </itr>
+
+
+                        <vdist height="10" casaindex="18" >
+
+
+                        </vdist>
+
+
+                                    <itr casaindex="19" >
+
+
+                                <label name="Rules name" width="150" casaindex="20" >
+
+
+                                </label>
+
+
+                <field xsdType="xs:string" valueprop="rulesname" width="200" casaindex="21" >
+
+                </field>
+
+                        </itr>
+
+
+                        <vdist height="10" casaindex="22" >
+
+
+                        </vdist>
+
+
+                        <itr casaindex="23" >
+
+
+                                <label name="Rules project" width="150" casaindex="24" >
+
+
+                                </label>
+
+
+                <field xsdType="xs:string" valueprop="rulesproject" width="200" casaindex="25" >
+
+                </field>
+
+                        </itr>
+
+
+                                    <vdist height="10" casaindex="26" >
+
+
+                        </vdist>
+
+
+                        <itr casaindex="27" >
+
+
+                                <label name="Project name" width="150" casaindex="28" >
+
+
+                                </label>
+
+
+                <field xsdType="xs:string" valueprop="projectname" width="200" casaindex="29" >
+
+                </field>
+
+                        </itr>
+
+
+                        <vdist height="10" casaindex="30" >
+
+
+                        </vdist>
+
+
+                        <itr casaindex="31" >
+
+
+                                <label name="Log folder" width="150" casaindex="32" >
+
+
+                                </label>
+
+
+                <field xsdType="xs:string" valueprop="logfolder" width="200" casaindex="33" >
+
+                </field>
+
+                        </itr>
+
+
+                        <vdist height="10" casaindex="34" >
+
+
+                        </vdist>
+
+
+                        <itr casaindex="35" >
+
+
+                                <label name="Log name" width="150" casaindex="36" >
+
+
+                                </label>
+
+
+                <field xsdType="xs:string" valueprop="logname" width="200" casaindex="37" >
+
+                </field>
+
+                        </itr>
+
+
+                        <vdist height="10" casaindex="38" >
+
+
+                        </vdist>
+
+
+                        <itr casaindex="39" >
+
+
+                                <text valueprop="inputdata" width="350" height="200" casaindex="40" >
+
+
+                                </text>
+
+
+                        </itr>
+
+
+                </rowarea>
+
+
+        </pagebody>
+
+
+        <statusbar withdistance="false" casaindex="41" >
+
+
+        </statusbar>
+
+
+</page>

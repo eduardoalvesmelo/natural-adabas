@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEMPLATE date="2023-07-21" environment="" name="" time="09:18:46"
+    type="DataBrowser" user="" version="1.0">
+    <DEFINITIONS>
+        <DESCRIPTION>Report for DDM EDUARDO</DESCRIPTION>
+        <RECORDLIMIT>100</RECORDLIMIT>
+        <FILTEREDBY>&gt;&gt; Physical Read &lt;&lt;</FILTEREDBY>
+        <OPTIONS>
+            <USEEDITMASK>None</USEEDITMASK>
+            <USEFIELDHEADER>None</USEFIELDHEADER>
+        </OPTIONS>
+    </DEFINITIONS>
+    <DDM dbid="000" fnr="001" name="EDUARDO" type="ada">
+        <FIELD Descriptor="" Editmask="" Format="A" Header=""
+            Length="10" Level="1" Name="A0-1" Type=""/>
+    </DDM>
+    <GENERALFIELDS>
+        <FIELD Editmask="" Format="I" Header="" Length="4" Level="1"
+            Name=".COUNTER" Type="#"/>
+        <FIELD Editmask="" Format="P" Header="" Length="10" Level="1"
+            Name="*ISN" Type="#"/>
+    </GENERALFIELDS>
+</TEMPLATE>

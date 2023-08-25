@@ -1,0 +1,18 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** New Program TEST2.
+/**
+/** :author eduar
+/* TODO Enter your code here
+define data local
+1 vw view of employees
+    2 name
+end-define
+
+read vw 
+    display name
+end-read
+
+END

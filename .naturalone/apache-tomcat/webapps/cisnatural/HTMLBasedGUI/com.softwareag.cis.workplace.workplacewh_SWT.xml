@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.workplace.WorkplaceModel" stylesheetfile="/HTMLBasedGUI/general/layout.css" translationreference="workplace" casaindex="1" >
+
+
+        <titlebar align="right" textid="wrkplace.titlebar1" withclose="false" closetitletextid="closePage" casaindex="2" >
+
+
+        </titlebar>
+
+
+        <tabstrip align="left" lightbackground="true" selectedindexprop="selectedSession" selectmethod="selectSession" valueprop="sessions" casaindex="3" >
+
+
+        </tabstrip>
+
+
+        <pagebody pageheightminus="74" verticalscrollbar="true" vscroll="false" casaindex="4" >
+
+
+                <itr casaindex="5" >
+
+
+                        <subpage height="40" pagewidthminus="13" valueprop="topMenuPageName" width="23" casaindex="6" >
+
+
+                        </subpage>
+
+
+                </itr>
+
+
+                <itr casaindex="7" >
+
+
+                        <td valign="top" width="200" casaindex="8" >
+
+
+                                <table0 width="100%" casaindex="9" >
+
+
+                                        <vdist casaindex="10" >
+
+
+                                        </vdist>
+
+
+                                        <itr width="100%" casaindex="11" >
+
+
+                                                <subpage height="100" pageheightminus="95" valueprop="menuPageName" width="100%" casaindex="12" >
+
+
+                                                </subpage>
+
+
+                                        </itr>
+
+
+                                        <itr width="100%" casaindex="13" >
+
+
+                                                <td align="center" casaindex="14" >
+
+
+                                                        <imageout valueprop="logo" withtd="false" casaindex="15" >
+
+
+                                                        </imageout>
+
+
+                                                </td>
+
+
+                                        </itr>
+
+
+                                </table0>
+
+
+                        </td>
+
+
+                        <hdist casaindex="16" >
+
+
+                        </hdist>
+
+
+                        <td valign="top" width="250" casaindex="17" >
+
+
+                                <table0 width="100%" casaindex="18" >
+
+
+                                        <vdist casaindex="19" >
+
+
+                                        </vdist>
+
+
+                                        <itr casaindex="20" >
+
+
+                                                <subcispage embedpage="workplaceCasabacPage.html" height="100" modelidprop="casaModelId" pageheightminus="54" pagewidthminus="215" processidprop="casaProcessId" refreshprop="casaPageRefresh" valueprop="casaPageName" width="100" withtd="false" casaindex="21" >
+
+
+                                                </subcispage>
+
+
+                                        </itr>
+
+
+                                </table0>
+
+
+                        </td>
+
+
+                </itr>
+
+
+        </pagebody>
+
+
+</page>

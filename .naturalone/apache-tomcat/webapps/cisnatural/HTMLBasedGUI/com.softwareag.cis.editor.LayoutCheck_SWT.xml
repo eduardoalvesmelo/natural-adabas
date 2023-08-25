@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.LayoutCheckAdapter" translationreference="CIS_TOOLS" hotkeys="ctrl-43;onNextError;ctrl-45;onPreviousError;ctrl-78;onNextError;ctrl-80;onPreviousError" casaindex="1" >
+
+
+        <titlebar textid="lc.titlebar.text" closetitletextid="closePage" casaindex="2" >
+
+
+        </titlebar>
+
+
+        <pagebody takefullheight="true" casaindex="3" >
+
+
+                <rowarea textid="lc.selectProject" casaindex="4" >
+
+
+                        <itr casaindex="5" >
+
+
+                                <label textid="lc.project" width="100" asplaintext="true" casaindex="6" >
+
+
+                                </label>
+
+
+                <field xsdType="xs:string" flush="server" valueprop="project" width="250" popupmethod="openIdValueCombo" casaindex="7" >
+
+                </field>
+
+                        </itr>
+
+
+                        <vdist height="4" casaindex="8" >
+
+
+                        </vdist>
+
+
+                        <itr casaindex="9" >
+
+
+                                <hdist width="100" casaindex="10" >
+
+
+                                </hdist>
+
+
+                                <button textid="ls.showLayouts" method="showAllLayoutFiles" width="250" casaindex="11" >
+
+
+                                </button>
+
+
+                        </itr>
+
+
+                </rowarea>
+
+
+                <rowtabarea height="100%" openedindexprop="showTab" textid1="lc.tabarea.layouts" page1="idPage1" textid2="lc.tabarea..log" page2="idPage2" textid3="lc.tabarea.result" page3="idPage3" visibleprop3="showCheckResult" casaindex="12" >
+
+
+                        <tabpage id="idPage1" takefullheight="true" casaindex="13" >
+
+
+                                <itr takefullwidth="true" height="100%" casaindex="14" >
+
+
+                                        <textgridsss2 griddataprop="lines" rowcount="40" width="100%" height="100%" selectprop="selected" ondblclickmethod="showLayoutWithError" casaindex="15" >
+
+
+                                                <column textid="lc.textgrid.filename" property="name" width="75%" textstyleprop="fileNameStyle" casaindex="16" >
+
+
+                                                </column>
+
+
+                                                <column textid="relc.column1" property="xmlChange" width="25%" datatype="timestamp" textstyleprop="xmlStyle" casaindex="17" >
+
+
+                                                </column>
+
+
+                                        </textgridsss2>
+
+
+                                </itr>
+
+
+                                <vdist casaindex="18" >
+
+
+                                </vdist>
+
+
+                                <itr casaindex="19" >
+
+
+                                        <button textid="lc.checkLayout" method="onCheckSelectedLayouts" casaindex="20" >
+
+
+                                        </button>
+
+
+                                </itr>
+
+
+                        </tabpage>
+
+
+                        <tabpage id="idPage2" takefullheight="true" casaindex="21" >
+
+
+                                <itr takefullwidth="true" height="100%" casaindex="22" >
+
+
+                                        <text valueprop="log" width="100%" height="100%" casaindex="23" >
+
+
+                                        </text>
+
+
+                                </itr>
+
+
+                        </tabpage>
+
+
+                        <tabpage id="idPage3" takefullheight="true" casaindex="24" >
+
+
+                                <itr casaindex="25" >
+
+
+                                        <checkbox valueprop="errorCheck" flushmethod="showErrors" width="100" name="ERROR" casaindex="26" >
+
+
+                                        </checkbox>
+
+
+                                        <checkbox valueprop="warningCheck" flushmethod="showWarinings" width="100" name="WARNING" casaindex="27" >
+
+
+                                        </checkbox>
+
+
+                                        <checkbox valueprop="performanceCheck" flushmethod="showPerformance" width="150" name="PERFORMANCE" casaindex="28" >
+
+
+                                        </checkbox>
+
+
+                                </itr>
+
+
+                                <itr takefullwidth="true" casaindex="29" >
+
+
+                                        <textgridsss2 griddataprop="resultLines" rowcount="10" width="100%" selectprop="selected" singleselect="true" hscroll="true" ondblclickmethod="onResultDblClick" casaindex="30" >
+
+
+                                                <column textid="lc.textgrid.lineNr" property="lineNr" width="70" textstyleprop="background" cuttextline="false" celltitleprop="resultLinesTitles" casaindex="31" >
+
+
+                                                </column>
+
+
+                                                <column textid="lc.textgrid.errorMessage" property="text" width="50%" textstyleprop="background" cuttextline="true" casaindex="32" >
+
+
+                                                </column>
+
+
+                                                <column textid="lc.textgrid.line" property="lineData" width="100%" straighttext="true" textstyleprop="background" casaindex="33" >
+
+
+                                                </column>
+
+
+                                        </textgridsss2>
+
+
+                                </itr>
+
+
+                                <vdist height="8" casaindex="34" >
+
+
+                                </vdist>
+
+
+                                <itr takefullwidth="true" casaindex="35" >
+
+
+                                        <textgridsss2 griddataprop="sourceLines" rowcount="15" width="100%" selectprop="selected" casaindex="36" >
+
+
+                                                <column textid="lc.textgrid.lineNr" property="lineNr" width="70" textstyleprop="background" casaindex="37" >
+
+
+                                                </column>
+
+
+                                                <column textid="lc.textgrid.line" property="line" width="100%" straighttext="true" textstyleprop="background" convertspaces="true" casaindex="38" >
+
+
+                                                </column>
+
+
+                                        </textgridsss2>
+
+
+                                </itr>
+
+
+                                <vdist height="100%" casaindex="39" >
+
+
+                                </vdist>
+
+
+                        </tabpage>
+
+
+                </rowtabarea>
+
+
+                <vdist casaindex="40" >
+
+
+                </vdist>
+
+
+        </pagebody>
+
+
+        <statusbar withdistance="false" casaindex="41" >
+
+
+        </statusbar>
+
+
+</page>

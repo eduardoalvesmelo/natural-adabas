@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.TraceAdapter" translationreference="CIS_TOOLS" casaindex="1" >
+
+
+
+            <titlebar textid="trc.titlebar.trace" closetitletextid="closePage" casaindex="2" >
+
+
+
+            </titlebar>
+
+
+
+            <header withdistance="false" casaindex="3" >
+
+
+
+                        <button textid="btn.exit" method="endProcess" casaindex="4" >
+
+
+
+                        </button>
+
+
+
+            </header>
+
+
+
+            <pagebody takefullheight="true" casaindex="5" >
+
+
+
+                        <rowarea textid="trc.rowarea.recorderrequ" casaindex="6" >
+
+
+
+                                    <itr width="100%" casaindex="7" >
+
+
+
+                                                <label textid="trc.label.tracedir" width="200" casaindex="8" >
+
+
+
+                                                </label>
+
+
+
+                <field xsdType="xs:string" valueprop="directory" width="100%" displayonly="true" casaindex="9" >
+
+                </field>
+
+                                    </itr>
+
+
+
+                                    <itr casaindex="10" >
+
+
+
+                                                <label textid="trc.label.tracename" width="200" casaindex="11" >
+
+
+
+                                                </label>
+
+
+
+                <field xsdType="xs:string" valueprop="traceName" width="200" popupmethod="openIdValueCombo" casaindex="12" >
+
+                </field>
+
+                                    </itr>
+
+
+
+                                    <vdist height="10" casaindex="13" >
+
+
+
+                                    </vdist>
+
+
+
+                                    <itr casaindex="14" >
+
+
+
+                                                <label textid="trc.label.configerationof" asplaintext="true" labelstyle="font-size:10px; font-weight: bold" casaindex="15" >
+
+
+
+                                                </label>
+
+
+
+                                    </itr>
+
+
+
+                                    <itr width="100%" casaindex="16" >
+
+
+
+                                                <label textid="trc.label.hostto" width="200" casaindex="17" >
+
+
+
+                                                </label>
+
+
+
+                <field xsdType="xs:string" valueprop="host" width="100%" casaindex="18" >
+
+                </field>
+
+                                    </itr>
+
+
+
+                                    <itr casaindex="19" >
+
+
+
+                                                <label textid="trc.label.repeattracetime" width="200" casaindex="20" >
+
+
+
+                                                </label>
+
+
+
+                <field xsdType="int" datatype="int" valueprop="repeat" width="50" casaindex="21" >
+
+                </field>
+
+                                    </itr>
+
+
+
+                                    <itr casaindex="22" >
+
+
+
+                                                <label textid="trc.label.wait" width="200" casaindex="23" >
+
+
+
+                                                </label>
+
+
+
+                <field xsdType="int" datatype="int" valueprop="wait" width="50" casaindex="24" >
+
+                </field>
+
+                                    </itr>
+
+
+
+                                    <vdist height="10" casaindex="25" >
+
+
+
+                                    </vdist>
+
+
+
+                                    <itr casaindex="26" >
+
+
+
+                                                <label textid="trc.label.configuration" asplaintext="true" labelstyle="font-size:10px; font-weight: bold" casaindex="27" >
+
+
+
+                                                </label>
+
+
+
+                                    </itr>
+
+
+
+                                    <itr casaindex="28" >
+
+
+
+                                                <label textid="trc.label.partrace" width="200" casaindex="29" >
+
+
+
+                                                </label>
+
+
+
+                <field xsdType="int" datatype="int" valueprop="threadcount" width="50" casaindex="30" >
+
+                </field>
+
+                                    </itr>
+
+
+
+                                    <vdist height="10" casaindex="31" >
+
+
+
+                                    </vdist>
+
+
+
+                                    <itr casaindex="32" >
+
+
+
+                                                <label textid="trc.label.threadstart" casaindex="33" >
+
+
+
+                                                </label>
+
+
+
+                                    </itr>
+
+
+
+                                    <itr casaindex="34" >
+
+
+
+                                                <label textid="trc.label.threadmin" width="200" casaindex="35" >
+
+
+
+                                                </label>
+
+
+
+                <field xsdType="int" datatype="int" valueprop="sleepMin" width="50" casaindex="36" >
+
+                </field>
+
+                                                <hdist width="15" casaindex="37" >
+
+
+
+                                </hdist>
+
+
+
+                                                <label textid="trc.label.threadmax" width="100" casaindex="38" >
+
+
+
+                                                </label>
+
+
+
+                <field xsdType="int" datatype="int" valueprop="sleepMax" width="50" casaindex="39" >
+
+                </field>
+
+                                                               </itr>
+
+
+
+                                    <itr casaindex="40" >
+
+
+
+                                               <label textid="trc.label.threadhint" casaindex="41" >
+
+
+
+                                                </label>
+
+
+
+                                    </itr>
+
+
+
+                                    <vdist height="10" casaindex="42" >
+
+
+
+                                    </vdist>
+
+
+
+                                    <itr casaindex="43" >
+
+
+
+                                                <hdist width="200" casaindex="44" >
+
+
+
+                                                </hdist>
+
+
+
+                                                <button textid="btn.execute" method="onExecute" visibleprop="executeStatus" invisiblemode="disabled" casaindex="45" >
+
+
+
+                                                </button>
+
+
+
+                                                <hdist width="50" casaindex="46" >
+
+
+
+                                                </hdist>
+
+
+
+                                                <button textid="btn.refreshview" method="onRefresh" casaindex="47" >
+
+
+
+                                                </button>
+
+
+
+                                    </itr>
+
+
+
+                        </rowarea>
+
+
+
+                        <rowarea textid="trc.rowarea.requestStatistics" height="100%" casaindex="48" >
+
+
+
+                        <itr casaindex="49" width="100%" height="100%" itrclass="PAGEBodyDark" >
+
+                <coltable0 casaindex="49" width="100%" takefullheight="true" >
+
+                    <rowscrollarea casaindex="49" height="100%" takefullwidth="true" hscroll="auto" takefullheight="true" >
+
+                        <itr casaindex="49" width="100%" height="100%" itrclass="REPORTOuterTable" >
+
+                            <ihtml casaindex="49" height="100%" valign="top" valueprop="requestReport.html" >
+
+                            </ihtml>
+
+                        </itr>
+
+                    </rowscrollarea>
+
+                </coltable0>
+
+                <coldynavis casaindex="49" valueprop="requestReport.showIconColumn" takefullheight="true" >
+
+                    <vdist casaindex="49" height="3" >
+
+                    </vdist>
+
+                    <tr casaindex="49" >
+
+                        <icon casaindex="49" image="../HTMLBasedGUI/images/pdf.gif" visibleprop="requestReport.showPDF" method="requestReport.onGeneratePDF" >
+
+                        </icon>
+
+                    </tr>
+
+                    <vdist casaindex="49" height="3" >
+
+                    </vdist>
+
+                    <tr casaindex="49" >
+
+                        <icon casaindex="49" image="../HTMLBasedGUI/images/printer.gif" visibleprop="requestReport.showPrintVersion" method="requestReport.onGeneratePrintVersion" >
+
+                        </icon>
+
+                    </tr>
+
+                    <vdist casaindex="49" height="3" >
+
+                    </vdist>
+
+                    <tr casaindex="49" >
+
+                        <icon casaindex="49" image="../HTMLBasedGUI/images/pdfupload.gif" visibleprop="requestReport.showUpload" method="requestReport.onUploadPDF" >
+
+                        </icon>
+
+                    </tr>
+
+                    <vdist casaindex="49" height="100%" >
+
+                    </vdist>
+
+                </coldynavis>
+
+            </itr>
+
+
+            
+                        </rowarea>
+
+
+
+                        <vdist casaindex="50" >
+
+
+
+                        </vdist>
+
+
+
+            </pagebody>
+
+
+
+            <statusbar withdistance="false" casaindex="51" >
+
+
+
+            </statusbar>
+
+
+
+</page>

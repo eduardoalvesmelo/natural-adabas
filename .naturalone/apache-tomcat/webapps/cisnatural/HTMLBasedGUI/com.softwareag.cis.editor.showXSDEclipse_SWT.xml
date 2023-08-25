@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.ShowXSDEclipseAdapter" popupwidth="600" popupheight="400" casaindex="1" >
+
+
+        <pagebody horizdist="false" takefullheight="true" casaindex="2" >
+
+
+                <buttonlist buttonlistprop="topButtons" casaindex="3" >
+
+
+                </buttonlist>
+
+
+                <itr height="100%" fixlayout="true" width="100%" casaindex="4" >
+
+
+                        <text valueprop="xSD" width="100%" height="100%" wrap="off" casaindex="5" >
+
+
+                        </text>
+
+
+                </itr>
+
+
+                <buttonlist buttonlistprop="bottomButtons" casaindex="6" >
+
+
+                </buttonlist>
+
+
+        </pagebody>
+
+
+</page>

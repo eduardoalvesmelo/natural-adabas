@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.multilanguage.filebased.CSVToXMLConverterAdapter" casaindex="1" >
+
+
+        <titlebar name="CSVToXML Converter" casaindex="2" >
+
+
+        </titlebar>
+
+
+        <pagebody paddingleft="10" paddingright="10" paddingtop="10" paddingbottom="10" casaindex="3" >
+
+
+                <rowarea name="Export Settings" casaindex="4" >
+
+
+                        <vdist height="5" casaindex="5" >
+
+
+                        </vdist>
+
+
+                        <itr casaindex="6" >
+
+
+                                <label name="Select the &apos;messages chapter&apos;" width="220" casaindex="7" >
+
+
+                                </label>
+
+
+                                <combodyn2 valueprop="titleString" validvaluesprop="titleStringValues" width="200" casaindex="8" >
+
+
+                                </combodyn2>
+
+
+                        </itr>
+
+
+                        <itr casaindex="9" >
+
+
+                                <label name="Specify the &apos;export filename&apos;" width="220" casaindex="10" >
+
+
+                                </label>
+
+
+                <field xsdType="xs:string" valueprop="exportFile" width="200" casaindex="11" >
+
+                </field>
+
+                        </itr>
+
+
+                        <itr casaindex="12" >
+
+
+                                <label name="Select a .csv file" width="220" casaindex="13" >
+
+
+                                </label>
+
+
+                                <combodyn2 valueprop="selectedFile" validvaluesprop="validFiles" width="200" casaindex="14" >
+
+
+                                </combodyn2>
+
+
+                        </itr>
+
+
+                        <vdist height="5" casaindex="15" >
+
+
+                        </vdist>
+
+
+                        <itr casaindex="16" >
+
+
+                                <button name="Create File" method="onCreateFile" casaindex="17" >
+
+
+                                </button>
+
+
+                        </itr>
+
+
+                        <vdist height="5" casaindex="18" >
+
+
+                        </vdist>
+
+
+                </rowarea>
+
+
+        </pagebody>
+
+
+        <statusbar withdistance="false" casaindex="19" >
+
+
+        </statusbar>
+
+
+</page>

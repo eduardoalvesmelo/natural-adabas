@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.popups.PopupYesNoModel" translationreference="popupyesno" popupwidth="310" popupheight="200" casaindex="1" >
+
+
+        <pagebody takefullheight="true" casaindex="2" >
+
+
+                <vdist height="5" casaindex="3" >
+
+
+                </vdist>
+
+
+                <itr width="100%" align="center" casaindex="4" >
+
+
+                        <textout valueprop="question" width="100%" height="100" align="center" casaindex="5" >
+
+
+                        </textout>
+
+
+                </itr>
+
+
+                <vdist height="5" casaindex="6" >
+
+
+                </vdist>
+
+
+                <itr align="center" casaindex="7" >
+
+
+                        <button textid="btnYes" method="reactOnYes" casaindex="8" >
+
+
+                        </button>
+
+
+                        <hdist width="10" casaindex="9" >
+
+
+                        </hdist>
+
+
+                        <button textid="btnNo" method="reactOnNo" casaindex="10" >
+
+
+                        </button>
+
+
+                </itr>
+
+
+                <vdist height="5" casaindex="11" >
+
+
+                </vdist>
+
+
+        </pagebody>
+
+
+</page>

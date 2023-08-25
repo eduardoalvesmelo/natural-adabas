@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.workplace.MFWorkplaceAboutAdapter" translationreference="CIS_EDIT" casaindex="1" >
+
+
+        <titlebar textid="workplaceabt.titlebar0" closetitletextid="closePage" casaindex="2" >
+
+
+        </titlebar>
+
+
+        <pagebody takefullheight="true" casaindex="3" >
+
+
+                <vdist height="50%" casaindex="4" >
+
+
+                </vdist>
+
+
+                <itr valign="middle" casaindex="5" >
+
+
+                        <hdist width="50%" casaindex="6" >
+
+
+                        </hdist>
+
+
+                        <coltable0 width="168" casaindex="7" >
+
+
+                                <itr casaindex="8" >
+
+
+                                        <icon image="images/aboutapplicationdesigner.gif" align="right" casaindex="9" >
+
+
+                                        </icon>
+
+
+                                </itr>
+
+
+                        </coltable0>
+
+
+                        <hdist width="40" casaindex="10" >
+
+
+                        </hdist>
+
+
+                        <coltable0 width="320" casaindex="11" >
+
+
+                                <vdist height="60" casaindex="12" >
+
+
+                                </vdist>
+
+
+                                <itr takefullwidth="true" casaindex="13" >
+
+
+                                        <textout valueprop="info" width="100%" textcolor="#FF0000" casaindex="14" >
+
+
+                                        </textout>
+
+
+                                </itr>
+
+
+                                <itr takefullwidth="true" casaindex="15" >
+
+
+                    <field xsdType="xs:string" valueprop="adField" width="100%" displayonly="true" noborder="true" transparentbackground="true" casaindex="16" >
+
+                    </field>
+
+                                </itr>
+
+
+                                <itr takefullwidth="true" casaindex="17" >
+
+
+                    <field xsdType="xs:string" valueprop="versionField" width="100%" displayonly="true" noborder="true" transparentbackground="true" casaindex="18" >
+
+                    </field>
+
+                                </itr>
+
+
+                                <itr takefullwidth="true" casaindex="19" >
+
+
+                    <field xsdType="xs:string" valueprop="copyrightText" width="100%" displayonly="true" noborder="true" transparentbackground="true" casaindex="20" >
+
+                    </field>
+
+                                </itr>
+
+
+                                <vdist height="100%" casaindex="21" >
+
+
+                                </vdist>
+
+
+                        </coltable0>
+
+
+                        <hdist width="50%" casaindex="22" >
+
+
+                        </hdist>
+
+
+                </itr>
+
+
+                <vdist height="50%" casaindex="23" >
+
+
+                </vdist>
+
+
+        </pagebody>
+
+
+        <statusbar withdistance="false" casaindex="24" >
+
+
+        </statusbar>
+
+
+</page>

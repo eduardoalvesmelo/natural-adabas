@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><page ispopup="true" model="com.softwareag.cis.popups.PopupOKModel" popupheight="170" popupwidth="310" translationreference="popups" casaindex="1" >
+
+
+        <pagebody takefullheight="true" casaindex="2" >
+
+
+                <itr height="100%" width="100%" casaindex="3" >
+
+
+                        <textout align="center" valign="middle" valueprop="question" width="100%" casaindex="4" >
+
+
+                        </textout>
+
+
+                </itr>
+
+
+                <vdist height="5" casaindex="5" >
+
+
+                </vdist>
+
+
+                <itr align="center" casaindex="6" >
+
+
+                        <button method="reactOnOK" textid="popupok.button0" withtd="false" casaindex="7" >
+
+
+                        </button>
+
+
+                </itr>
+
+
+                <vdist height="8" casaindex="8" >
+
+
+                </vdist>
+
+
+        </pagebody>
+
+
+</page>

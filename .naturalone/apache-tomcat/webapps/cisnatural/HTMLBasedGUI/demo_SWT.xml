@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><mfpage separation="rows" sizing="40,*,10,15" border="0" frameborder="false" framespacing="0" casaindex="1" >
+
+
+        <mfhtmlframe target="AAA" url="../HTMLBasedGUI/workplace/header2.html" withborder="false" scrolling="false" casaindex="2" >
+
+
+        </mfhtmlframe>
+
+
+        <mfframeset target="CCC" separation="cols" sizing="10,*,3" border="0" casaindex="3" >
+
+
+                <mfhtmlframe target="BBB" url="/HTMLBasedGUI/workplace/grayblank.html" casaindex="4" >
+
+
+                </mfhtmlframe>
+
+
+                <mfcisframe target="TOPWORKPLACE" cisurl="/HTMLBasedGUI/com.softwareag.cis.workplace.MFInner.html" casaindex="5" >
+
+
+                </mfcisframe>
+
+
+                <mfhtmlframe target="BBB" url="../HTMLBasedGUI/workplace/grayblank.html" casaindex="6" >
+
+
+                </mfhtmlframe>
+
+
+        </mfframeset>
+
+
+        <mfhtmlframe target="EEE" url="../HTMLBasedGUI/workplace/grayblank.html" withborder="false" scrolling="false" casaindex="7" >
+
+
+        </mfhtmlframe>
+
+
+        <mfhtmlframe target="FFFF" url="../HTMLBasedGUI/workplace/footer2.html" withborder="false" scrolling="false" casaindex="8" >
+
+
+        </mfhtmlframe>
+
+
+</mfpage>

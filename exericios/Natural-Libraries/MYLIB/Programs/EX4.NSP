@@ -1,0 +1,37 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** Fazer um programa que recebe um símbolo de operação do usuário (+, -, / ou *) e dois
+/** números reais. O programa deve retornar o resultado da operação recebida sobre estes dois
+/** números. 
+/**
+/** :author Eduardo Alves de Melo
+/* TODO Enter your code here
+DEFINE DATA LOCAL
+1 #L1                (N2.2)
+1 #L2                (N2.2)     
+1 #S1                (A1)
+1 #R1                (N2.2)
+1 #M1                (A100)    
+END-DEFINE
+*
+INPUT 'Informe o primeiro valor: ' #L1
+INPUT 'Informe o segundo valor: ' #L2
+INPUT 'Informe o simbolo da operação: ' #S1
+*
+decide for first condition    
+   when (#S1 = '+')    #R1 := #L1 + #L2           
+   when (#S1 = '-')    #R1 := #L1 - #L2
+   when (#S1 = '*')    #R1 := #L1 * #L2
+   when (#S1 = '/')    #R1 := #L1 / #L2
+   when none           #R1 := 0
+end-decide
+*   
+
+write 'Valor 1: ' #L1
+write 'Valor 2: ' #L2
+write 'simbolo de operação: ' #S1
+write 'Resultado: ' #R1
+*
+END

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.admin.EditorExtensionDatatypeAdapter" translationreference="editor" stylesheetfile="../cis/styles/CIS_DEFAULT.css" darkbackground="true" casaindex="1" >
+
+
+        <pagebody horizdist="false" takefullheight="true" paddingleft="10" paddingright="10" paddingtop="10" paddingbottom="10" casaindex="2" >
+
+
+                <vdist height="5" casaindex="3" >
+
+
+                </vdist>
+
+
+                <itr height="100%" width="100%" casaindex="4" >
+
+
+                        <coltable0 width="100%" takefullheight="true" casaindex="5" >
+
+
+                                <rowtablearea2 griddataprop="datatypes" rowcount="30" height="100%" width="100%" withborder="true" hscroll="true" casaindex="6" >
+
+
+                                        <tr casaindex="7" >
+
+
+                                                <label textid="reedt.label1" asheadline="true" height="15" casaindex="8" >
+
+
+                                                </label>
+
+
+                                                <label textid="label.Id" asheadline="true" height="15" labelstyle="padding-top: 1px;padding-left: 2px; font-size: 10px; font-weight: bold" casaindex="9" >
+
+
+                                                </label>
+
+
+                                                <label textid="label.descr" asheadline="true" height="15" labelstyle="padding-top: 1px;padding-left: 2px; font-size: 10px; font-weight: bold" casaindex="10" >
+
+
+                                                </label>
+
+
+                                        </tr>
+
+
+                                        <repeat casaindex="11" >
+
+
+                                                <str valueprop="selected" casaindex="12" >
+
+
+                                                        <checkbox valueprop="selected" flush="server" casaindex="13" >
+
+
+                                                        </checkbox>
+
+
+                            <field xsdType="xs:string" valueprop="id" width="50%" noborder="true" casaindex="14" >
+
+                            </field>
+
+                            <field xsdType="xs:string" valueprop="value" width="50%" noborder="true" casaindex="15" >
+
+                            </field>
+
+                                                </str>
+
+
+                                        </repeat>
+
+
+                                </rowtablearea2>
+
+
+                                <itr width="100%" casaindex="16" >
+
+
+                                        <hdist width="50%" casaindex="17" >
+
+
+                                        </hdist>
+
+
+                                        <icon image="../HTMLBasedGUI/images/new.gif" method="onDatatypeAdd" titletextid="icon.label.add" casaindex="18" >
+
+
+                                        </icon>
+
+
+                                        <hdist casaindex="19" >
+
+
+                                        </hdist>
+
+
+                                        <icon image="../HTMLBasedGUI/images/remove.gif" method="onDatatypeRemove" titletextid="icon.label.remove" casaindex="20" >
+
+
+                                        </icon>
+
+
+                                        <hdist width="50%" casaindex="21" >
+
+
+                                        </hdist>
+
+
+                                </itr>
+
+
+                        </coltable0>
+
+
+                        <hdist width="10" casaindex="22" >
+
+
+                        </hdist>
+
+
+                        <coldynavis valueprop="helpAreaVis" width="250" takefullheight="true" casaindex="23" >
+
+
+                                <itr height="100%" width="100%" casaindex="24" >
+
+
+                                        <ihtml valueprop="tabPageHTML" casaindex="25" >
+
+
+                                        </ihtml>
+
+
+                                </itr>
+
+
+                        </coldynavis>
+
+
+                        <coltable0 width="20" casaindex="26" >
+
+
+                                <tr casaindex="27" >
+
+
+                                        <icon image="images/scrolllastpage.gif" method="onHidelHelp" titletextid="icon.label.hidehelp" casaindex="28" >
+
+
+                                        </icon>
+
+
+                                </tr>
+
+
+                                <vdist casaindex="29" >
+
+
+                                </vdist>
+
+
+                                <tr casaindex="30" >
+
+
+                                        <icon image="images/scrollfirstpage.gif" method="onShowHelp" titletextid="icon.label.showhelp" casaindex="31" >
+
+
+                                        </icon>
+
+
+                                </tr>
+
+
+                        </coltable0>
+
+
+                </itr>
+
+
+                <vdist height="5" casaindex="32" >
+
+
+                </vdist>
+
+
+        </pagebody>
+
+
+</page>

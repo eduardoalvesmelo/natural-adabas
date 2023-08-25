@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?><page helpid="EDITORHELP" imagestopreload="../HTMLBasedGUI/images/xmlclosed.gif;../HTMLBasedGUI/images/xmlopened.gif;../HTMLBasedGUI/images/xmlendnode.gif;../HTMLBasedGUI/images/fileclosed.gif;../HTMLBasedGUI/images/cut.gif;../HTMLBasedGUI/images/copy.gif;../HTMLBasedGUI/images/copyTop.gif;../HTMLBasedGUI/images/copyBottom.gif;../HTMLBasedGUI/images/moveTop.gif;../HTMLBasedGUI/images/moveBottom.gif;../HTMLBasedGUI/images/remove.gif;../HTMLBasedGUI/images/newTopSubNode.gif;../HTMLBasedGUI/images/newBottomSubNode.gif;../HTMLBasedGUI/images/newTopSideNode.gif;../HTMLBasedGUI/images/newBottomSideNode.gif;../HTMLBasedGUI/images/pasteTop.gif;../HTMLBasedGUI/images/pasteBottom.gif" ispopup="true" model="com.softwareag.cis.editor.EditorModel5" popupheight="768" popupwidth="1024" stylesheetfile="../cis/styles/CIS_LP.css" translationreference="editor" casaindex="1" >
+
+
+        <titlebar valueprop="titlebar" visibleprop="withTitlebar" closetitletextid="closePage" casaindex="2" >
+
+
+        </titlebar>
+
+
+        <header align="left" withdistance="false" casaindex="3" >
+
+
+                <menu menucollectionprop="headerMenu" casaindex="4" >
+
+
+                </menu>
+
+
+                <hdist width="125" casaindex="5" >
+
+
+                </hdist>
+
+
+                <icon image="images/distance.gif" valign="middle" casaindex="6" >
+
+
+                </icon>
+
+
+                <icon image="images/save.gif" method="onSave" titletextid="editor.icon0" valign="middle" casaindex="7" >
+
+
+                </icon>
+
+
+                <hdist width="20" casaindex="8" >
+
+
+                </hdist>
+
+
+                <icon image="images/distance.gif" valign="middle" casaindex="9" >
+
+
+                </icon>
+
+
+                <icon image="images/refresh.gif" method="onPreview" titletextid="buttonPreview" valign="middle" casaindex="10" >
+
+
+                </icon>
+
+
+                <icon image="images/refreshcl.gif" method="previewWithNewClasses" titletextid="buttonPreviewNewClasses" valign="middle" casaindex="11" >
+
+
+                </icon>
+
+
+                <icon image="images/refreshdummy.gif" method="onPreviewWithDummyAdapter" titletextid="buttonPreviewDummy" valign="middle" visibleprop="dummyPreviewVisible" casaindex="12" >
+
+
+                </icon>
+
+
+                <hdist width="15" casaindex="13" >
+
+
+                </hdist>
+
+
+                <icon image="images/page.gif" method="generateAndSave" titletextid="buttonPublish" valign="middle" casaindex="14" >
+
+
+                </icon>
+
+
+        </header>
+
+
+        <pagebody aeb="true" horizdist="false" takefullheight="true" casaindex="15" >
+
+
+                <vdist backgroundstyle="background-color: #F7F3EF" height="1" casaindex="16" >
+
+
+                </vdist>
+
+
+                <vsplit height="100%" widthleft="285" casaindex="17" >
+
+
+                        <splitcell takefullheight="true" casaindex="18" >
+
+
+                                <itr fixlayout="true" height="15" width="100%" casaindex="19" >
+
+
+                                        <label asheadline="true" height="16" labelstyle="padding-left: 2px; font-size: 10px; font-weight: bold" textid="editor.label0" width="100%" casaindex="20" >
+
+
+                                        </label>
+
+
+                                </itr>
+
+
+                                <rowtablearea2 griddataprop="nodes" height="100%" hscroll="true" rowcount="30" singleselect="false" width="100%" withborder="false" casaindex="21" >
+
+
+                                        <tr casaindex="22" >
+
+
+                                                <coltable0 casaindex="23" >
+
+
+                                                        <vdist height="8" casaindex="24" >
+
+
+                                                        </vdist>
+
+
+                                                </coltable0>
+
+
+                                        </tr>
+
+
+                                        <repeat casaindex="25" >
+
+
+                                                <str valueprop="selected" casaindex="26" >
+
+
+                                                        <hdist width="5" casaindex="27" >
+
+
+                                                        </hdist>
+
+
+                                                        <treenode3 enabledrag="true" imageclosed="images/xmlclosed.gif" imageendnode="images/xmlendnode.gif" imageopened="images/xmlopened.gif" singleselect="false" width="1000" withlines="true" withplusminus="true" withtooltip="true" casaindex="28" >
+
+
+                                                        </treenode3>
+
+
+                                                </str>
+
+
+                                        </repeat>
+
+
+                                        <tr casaindex="29" >
+
+
+                                                <coltable0 casaindex="30" >
+
+
+                                                        <vdist height="8" casaindex="31" >
+
+
+                                                        </vdist>
+
+
+                                                </coltable0>
+
+
+                                        </tr>
+
+
+                                </rowtablearea2>
+
+
+                                <itr height="22" itrstyle="padding-top: 3px; padding-bottom: 4px" casaindex="32" >
+
+
+                                        <hdist width="20%" casaindex="33" >
+
+
+                                        </hdist>
+
+
+                                        <icon image="../HTMLBasedGUI/images/arrowupfast.gif" method="moveUpTo1Pos" titletextid="editor.icon1" casaindex="34" >
+
+
+                                        </icon>
+
+
+                                        <hdist casaindex="35" >
+
+
+                                        </hdist>
+
+
+                                        <icon image="images/arrowup.gif" method="moveNodeUp" titletextid="editor.icon2" withdistance="false" casaindex="36" >
+
+
+                                        </icon>
+
+
+                                        <hdist casaindex="37" >
+
+
+                                        </hdist>
+
+
+                                        <icon image="images/arrowdown.gif" method="moveNodeDown" titletextid="editor.icon3" withdistance="false" casaindex="38" >
+
+
+                                        </icon>
+
+
+                                        <hdist casaindex="39" >
+
+
+                                        </hdist>
+
+
+                                        <icon image="../HTMLBasedGUI/images/arrowdownfast.gif" method="moveDownToLastPos" titletextid="editor.icon4" casaindex="40" >
+
+
+                                        </icon>
+
+
+                                        <hdist width="10" casaindex="41" >
+
+
+                                        </hdist>
+
+
+                                        <icon image="../HTMLBasedGUI/images/distance.gif" casaindex="42" >
+
+
+                                        </icon>
+
+
+                                        <hdist width="10" casaindex="43" >
+
+
+                                        </hdist>
+
+
+                                        <icon image="../HTMLBasedGUI/images/cut.gif" method="cut" titletextid="icontTitleCut" casaindex="44" >
+
+
+                                        </icon>
+
+
+                                        <hdist casaindex="45" >
+
+
+                                        </hdist>
+
+
+                                        <icon image="../HTMLBasedGUI/images/copy.gif" method="copy" titletextid="iconTitleCopy" casaindex="46" >
+
+
+                                        </icon>
+
+
+                                        <hdist casaindex="47" >
+
+
+                                        </hdist>
+
+
+                                        <icon image="../HTMLBasedGUI/images/pasteTop.gif" method="paste" titletextid="editor.icon5" casaindex="48" >
+
+
+                                        </icon>
+
+
+                                        <hdist casaindex="49" >
+
+
+                                        </hdist>
+
+
+                                        <icon image="../HTMLBasedGUI/images/pasteBottom.gif" method="pasteBottom" titletextid="editor.icon6" casaindex="50" >
+
+
+                                        </icon>
+
+
+                                        <hdist width="15" casaindex="51" >
+
+
+                                        </hdist>
+
+
+                                        <icon image="../HTMLBasedGUI/images/remove.gif" method="removeNode" titletextid="iconTitleRemove" casaindex="52" >
+
+
+                                        </icon>
+
+
+                                        <hdist width="20%" casaindex="53" >
+
+
+                                        </hdist>
+
+
+                                </itr>
+
+
+                                <itr fixlayout="true" height="15" width="100%" casaindex="54" >
+
+
+                                        <label asheadline="true" height="16" labelstyle="padding-left: 2px; font-size: 10px; font-weight: bold" textid="attributes" width="100%" casaindex="55" >
+
+
+                                        </label>
+
+
+                                </itr>
+
+
+                                <rowtablearea2 firstrowcolwidths="true" griddataprop="attributes" hscroll="false" rowcount="6" width="100%" withborder="true" casaindex="56" >
+
+
+                                        <repeat casaindex="57" >
+
+
+                                                <tr casaindex="58" >
+
+
+                                                        <textout textoutstyle="padding-left: 2px" valueprop="attribute" width="50%" casaindex="59" >
+
+
+                                                        </textout>
+
+
+                            <field xsdType="xs:string" validationprop="regExp" helptext="attribute.html" noborder="true" popupmethod="openIdValueCombo" popupprop="popupAvailable" validationuserhintprop="regExpFailureUserHint" valueprop="value" width="50%" casaindex="60" >
+
+                            </field>
+
+                                                </tr>
+
+
+                                        </repeat>
+
+
+                                </rowtablearea2>
+
+
+                                <vdist height="1" casaindex="61" >
+
+
+                                </vdist>
+
+
+                                <itr width="100%" casaindex="62" >
+
+
+                                        <hdist width="100%" casaindex="63" >
+
+
+                                        </hdist>
+
+
+                                        <icon image="images/wizard.gif" imageinactive="images/wizardinactive.gif" method="onWizard" titletextid="editor.icon7" visibleprop="wizardVisible" casaindex="64" >
+
+
+                                        </icon>
+
+
+                                        <hdist casaindex="65" >
+
+
+                                        </hdist>
+
+
+                                </itr>
+
+
+                        </splitcell>
+
+
+                        <splitcell takefullheight="true" casaindex="66" >
+
+
+                                <itr fixlayout="true" height="100%" width="100%" casaindex="67" >
+
+
+                                        <coltable0 fixlayout="true" takefullheight="true" width="75" casaindex="68" >
+
+
+                                                <vdist backgroundstyle="background-color: #7C7E85" height="8" casaindex="69" >
+
+
+                                                </vdist>
+
+
+                                                <itr itrstyle="background-color: #7C7E85" casaindex="70" >
+
+
+                                                        <hdist width="50%" casaindex="71" >
+
+
+                                                        </hdist>
+
+
+                                                        <icon image="images/addtreeBEFORE.gif" method="onControlsBefore" titletextid="editor.icon8" casaindex="72" >
+
+
+                                                        </icon>
+
+
+                                                        <icon image="images/addtreeFIRST.gif" method="onControlsFirst" titletextid="editor.icon9" casaindex="73" >
+
+
+                                                        </icon>
+
+
+                                                        <hdist width="50%" casaindex="74" >
+
+
+                                                        </hdist>
+
+
+                                                </itr>
+
+
+                                                <itr itrstyle="background-color: #7C7E85" casaindex="75" >
+
+
+                                                        <hdist width="50%" casaindex="76" >
+
+
+                                                        </hdist>
+
+
+                                                        <icon image="images/addtreeAFTER.gif" method="onControlsBehind" titletextid="editor.icon10" casaindex="77" >
+
+
+                                                        </icon>
+
+
+                                                        <icon image="images/addtreeLAST.gif" method="onControlsLast" titletextid="editor.icon11" casaindex="78" >
+
+
+                                                        </icon>
+
+
+                                                        <hdist width="50%" casaindex="79" >
+
+
+                                                        </hdist>
+
+
+                                                </itr>
+
+
+                                                <itr itrstyle="background-color: #7C7E85" width="100%" casaindex="80" >
+
+
+                                                        <textout textoutstyle="color: #FFFFFF; font-size: 10px; font-weight: bold; padding-left: 3px" valueprop="iconsHeadline" width="100%" casaindex="81" >
+
+
+                                                        </textout>
+
+
+                                                </itr>
+
+
+                                                <vdist backgroundstyle="background-color: #F7F3EF" height="1" casaindex="82" >
+
+
+                                                </vdist>
+
+
+                                                <vdist backgroundstyle="background-color: #808080" height="1" casaindex="83" >
+
+
+                                                </vdist>
+
+
+                                                <rowscrollarea areastyle="overflow-x: hidden" height="100%" takefullwidth="true" casaindex="84" >
+
+
+                                                        <vdist height="3" casaindex="85" >
+
+
+                                                        </vdist>
+
+
+                                                        <iconlist cellspacing="0" iconlistprop="controlIcons" tablestyle="width: 100%" casaindex="86" >
+
+
+                                                        </iconlist>
+
+
+                                                        <vdist height="100%" casaindex="87" >
+
+
+                                                        </vdist>
+
+
+                                                </rowscrollarea>
+
+
+                                        </coltable0>
+
+
+                                        <coltable0 fixlayout="true" tablestyle="border-left: 1px solid #808080; border-right: 1px solid #808080; background-color: #F3F7EF" takefullheight="true" width="3" casaindex="88" >
+
+
+                                        </coltable0>
+
+
+                                        <coltable0 fixlayout="true" takefullheight="true" width="100%" casaindex="89" >
+
+
+                                                <itr fixlayout="true" height="15" width="100%" casaindex="90" >
+
+
+                                                        <label asheadline="true" height="16" labelstyle="padding-left: 2px; font-size: 10px; font-weight: bold" textalign="true" textid="preview" width="100%" casaindex="91" >
+
+
+                                                        </label>
+
+
+                                                </itr>
+
+
+                                                <vdist height="1" casaindex="92" >
+
+
+                                                </vdist>
+
+
+                                                <itr fixlayout="true" height="100%" width="100%" casaindex="93" >
+
+
+                                                        <subcispage borderwidth="1" height="100%" pagestyle="border-top: 0px; border-left: 0px; border-right: 0px; border-bottom: 1px solid #808080" refreshprop="refreshSubPage" rowspan="50" sessionidprop="subPageSessionId" valueprop="subPageURL" width="100%" casaindex="94" >
+
+
+                                                        </subcispage>
+
+
+                                                </itr>
+
+
+                                                <tabstrip align="left" selectedindexprop="selectedTabIndex" selectmethod="onTabSelected" valueprop="tabs" casaindex="95" >
+
+
+                                                </tabstrip>
+
+
+                                                <vdist height="2" casaindex="96" >
+
+
+                                                </vdist>
+
+
+                                        </coltable0>
+
+
+                                </itr>
+
+
+                        </splitcell>
+
+
+                </vsplit>
+
+
+        </pagebody>
+
+
+        <statusbar longtextprop="messageLongText" shorttextprop="messageShortText" typeprop="messageType" withdistance="false" casaindex="97" >
+
+
+        </statusbar>
+
+
+        <hotkeys casaindex="98" >
+
+
+                <hotkey ctrlkey="true" keycode="83" method="onSave" shiftkey="true" casaindex="99" >
+
+
+                </hotkey>
+
+
+                <hotkey ctrlkey="true" keycode="116" method="onPreview" shiftkey="true" casaindex="100" >
+
+
+                </hotkey>
+
+
+                <hotkey ctrlkey="true" keycode="117" method="previewWithNewClasses" shiftkey="true" casaindex="101" >
+
+
+                </hotkey>
+
+
+                <hotkey ctrlkey="true" keycode="118" method="generateAndSave" shiftkey="true" casaindex="102" >
+
+
+                </hotkey>
+
+
+        </hotkeys>
+
+
+</page>

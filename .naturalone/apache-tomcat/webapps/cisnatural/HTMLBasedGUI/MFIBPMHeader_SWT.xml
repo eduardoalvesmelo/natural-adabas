@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.workplace.MFHeaderAdapter" translationreference="IBPM" darkbackground="true" casaindex="1" >
+
+
+        <pagebody vscroll="hidden" hscroll="hidden" takefullheight="true" casaindex="2" >
+
+
+                <tr casaindex="3" >
+
+
+                        <hdist width="11" casaindex="4" >
+
+
+                        </hdist>
+
+
+                        <icon image="../HTMLBasedGUI/images/fav_monitoring.gif" method="showPageInWorkplace;com#softwareag#cis#admin#monitoring#html;Monitoring" titletextid="mfideHeader.icon9" casaindex="5" >
+
+
+                        </icon>
+
+
+                        <hdist width="6" casaindex="6" >
+
+
+                        </hdist>
+
+
+                        <icon image="../HTMLBasedGUI/images/fav_naviminus.gif" method="on0Size" titletextid="mfideHeader.icon15" casaindex="7" >
+
+
+                        </icon>
+
+
+                        <hdist width="6" casaindex="8" >
+
+
+                        </hdist>
+
+
+                        <icon image="../HTMLBasedGUI/images/fav_naviplus.gif" method="onNormalSize" titletextid="mfideHeader.icon16" casaindex="9" >
+
+
+                        </icon>
+
+
+                        <hdist width="6" casaindex="10" >
+
+
+                        </hdist>
+
+
+                        <icon image="../HTMLBasedGUI/images/fav_closeall.gif" method="closeAllActivities" titletextid="mfideHeader.icon17" casaindex="11" >
+
+
+                        </icon>
+
+
+                        <hdist width="100%" casaindex="12" >
+
+
+                        </hdist>
+
+
+                        <icon image="../HTMLBasedGUI/images/fujitsu.gif" align="center" casaindex="13" >
+
+
+                        </icon>
+
+
+                        <hdist width="40" casaindex="14" >
+
+
+                        </hdist>
+
+
+                </tr>
+
+
+        </pagebody>
+
+
+</page>

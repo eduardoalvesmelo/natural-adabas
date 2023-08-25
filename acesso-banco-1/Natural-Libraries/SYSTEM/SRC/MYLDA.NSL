@@ -1,0 +1,16 @@
+DEFINE DATA LOCAL
+/* >Natural Source Header 000000
+/* :Mode S
+/* :CP
+/* <Natural Source Header
+/** New Local Data Area MYLDA.
+/**
+/** :author eduar
+/* TODO Enter your data definitions here
+  1 #fibonacci    (N10/15)             /* array de 15 posições
+  1 #ant-1        (N10) init<1>        /*numerico de 10 posições iniciado em 1
+  1 #ant-2        (N10) init<1>
+  1 #i            (N2) 
+  1 #num-termos   (N2)
+  1 #prox         (N10)
+END-DEFINE

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="DummyAdapter" translationreference="editor" darkbackground="true" casaindex="1" >
+
+
+        <titlebar name="Application Designer - Closed Page" closetitletextid="closePage" casaindex="2" >
+
+
+        </titlebar>
+
+
+        <pagebody casaindex="3" >
+
+
+                <vdist height="70" casaindex="4" >
+
+
+                </vdist>
+
+
+                <itr casaindex="5" >
+
+
+                        <hdist width="20" casaindex="6" >
+
+
+                        </hdist>
+
+
+                </itr>
+
+
+                <vdist height="40" casaindex="7" >
+
+
+                </vdist>
+
+
+                <itr casaindex="8" >
+
+
+                        <hdist width="200" casaindex="9" >
+
+
+                        </hdist>
+
+
+                        <icon image="images/acendprocess.gif" imagewidth="100" imageheight="250" casaindex="10" >
+
+
+                        </icon>
+
+
+                        <label name="Application has been Closed." width="100%" asplaintext="true" textalign="left" labelstyle="color:#000000;font-weight:bold;font-family:Verdana;font-size:18" casaindex="11" >
+
+
+                        </label>
+
+
+                </itr>
+
+
+                <vdist height="20" casaindex="12" >
+
+
+                </vdist>
+
+
+                <itr casaindex="13" >
+
+
+                        <hdist width="20" casaindex="14" >
+
+
+                        </hdist>
+
+
+                        <label asplaintext="true" casaindex="15" >
+
+
+                        </label>
+
+
+                </itr>
+
+
+                <itr casaindex="16" >
+
+
+                        <hdist width="20" casaindex="17" >
+
+
+                        </hdist>
+
+
+                        <label asplaintext="true" casaindex="18" >
+
+
+                        </label>
+
+
+                </itr>
+
+
+                <vdist casaindex="19" >
+
+
+                </vdist>
+
+
+        </pagebody>
+
+
+</page>

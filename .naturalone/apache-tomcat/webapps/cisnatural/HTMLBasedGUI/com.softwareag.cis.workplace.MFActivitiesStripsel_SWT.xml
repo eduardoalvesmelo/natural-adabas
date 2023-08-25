@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.workplace.MFActivitiesAdapter" translationreference="workplace" occupiedpixelheight="0" occupiedpixelwidth="0" contextmenumethod="processAsDefault" casaindex="1" >
+
+
+        <pagebody vscroll="hidden" hscroll="hidden" horizdist="false" pagebodystyle="swt-background-color: #CECCE7" casaindex="2" >
+
+
+                <stripsel tabstripprop="activities2" align="left" scrollable="true" scrolllefttitletextid="stripseltoleft" scrollrighttitletextid="stripseltoright" casaindex="3" >
+
+
+                        <coltable0 width="100%" casaindex="4" >
+
+
+                                <vdist height="6" casaindex="5" >
+
+
+                                </vdist>
+
+
+                                <tr casaindex="6" >
+
+
+                                        <hdist width="10" casaindex="7" >
+
+
+                                        </hdist>
+
+
+                                        <icon image="images/takeout.gif" method="onTakeOut" visibleprop="takeOutVisible" valign="top" colstyle="font-size: 14px" titletextid="onTakeOut" casaindex="8" >
+
+
+                                        </icon>
+
+
+                                        <hdist width="5" casaindex="9" >
+
+
+                                        </hdist>
+
+
+                                        <icon image="images/closecornersmall.gif" method="onCloseAll" visibleprop="closeAllVisible" valign="top" colstyle="font-size: 14px" titletextid="onCloseAll" casaindex="10" >
+
+
+                                        </icon>
+
+
+                                </tr>
+
+
+                        </coltable0>
+
+
+                </stripsel>
+
+
+                <itr height="100" itrclass="WORKPLACEBelowTitle" width="100%" casaindex="11" >
+
+
+                </itr>
+
+
+        </pagebody>
+
+
+</page>

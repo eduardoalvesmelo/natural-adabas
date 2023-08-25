@@ -1,0 +1,31 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** O número 3025 possui a seguinte característica: 30 + 25 = 55 -> 55*55 = 3025. Fazer um
+/** programa para obter todos os números de 4 algarismos com a mesma característica do
+/** número 3025. 
+/**
+/** :author eduar
+/* TODO Enter your code here
+DEFINE DATA LOCAL
+1 #num-informado    (a4) 
+1 #num-string       (A4)
+1 #num-dois-dig-1   (A2)
+1 #num-dois-dig-2   (A2)
+1 #soma-dig-1-2     (N4)
+1 #produto-dig-1-2  (N10)
+END-DEFINE       
+*
+    input 'Informe um numero de 4 digitos: ' #num-informado
+*
+    #num-dois-dig-1 := substring(#num-informado,1,2)
+    #num-dois-dig-2 := substring(#num-informado,3,2)     
+    #soma-dig-1-2   := val(#num-dois-dig-1) + val(#num-dois-dig-2)     
+    #produto-dig-1-2:= #soma-dig-1-2 * #soma-dig-1-2     
+*                
+    WRITE 'Número informado: ' #num-informado
+    WRITE 'Soma: ' #num-dois-dig-1 ' + ' #num-dois-dig-2 ' = ' #soma-dig-1-2
+    WRITE 'Produto: ' #soma-dig-1-2 ' * ' #soma-dig-1-2 ' = ' #produto-dig-1-2
+*     
+END

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><mfpage separation="rows" sizing="20,*" casaindex="1" >
+
+
+        <mfhtmlframe target="CURRENTACTIVITIES" url="workplace/loading.html" resizable="false" withborder="false" scrolling="false" framestyle="border: 0px solid #000000" casaindex="2" >
+
+
+        </mfhtmlframe>
+
+
+        <mfframeset target="ZZZ" separation="cols" sizing="265,*" casaindex="3" >
+
+
+                <mfwpfunctions bootstrapclass="com.softwareag.cis.editor.EditorWorkplace" serversidescrolling="true" framestyle="border: 1 solid #808080;" casaindex="4" >
+
+
+                </mfwpfunctions>
+
+
+                <mfwpcontent withborder="true" scrolling="false" framestyle="border: 1 solid #808080;" casaindex="5" >
+
+
+                </mfwpcontent>
+
+
+        </mfframeset>
+
+
+</mfpage>

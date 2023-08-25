@@ -1,0 +1,14 @@
+0001/** New Program TEST2.
+0002/**
+0003/** :author eduar
+0004/* TODO Enter your code here
+0005define data local
+00061 vw view of employees
+0007    2 name
+0008end-define
+0009
+0010read vw 
+0011    display name
+0012end-read
+0013
+0014END

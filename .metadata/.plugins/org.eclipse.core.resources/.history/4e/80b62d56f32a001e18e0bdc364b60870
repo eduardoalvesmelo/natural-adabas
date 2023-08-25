@@ -1,0 +1,29 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** (Cortesia do Prof. Bogdan Tomoyuki Nassu)Suponha que você está programando um
+/** módulo contador de cédulas para caixas eletrônicos. Escreva um programa que informa com
+/** quantas cédulas de Real podemos representar um dado valor. Exemplo de resposta: R$ 218
+/** = 2 cédulas de 100, 1 cédula de 10, 1 cédula de 5, 1 cédula de 2 e 1 cédula de 1. Procure
+/** minimizar o número de cédulas usadas. Desconsidere valores com centavos, e suponha que
+/** a máquina sempre tem disponíveis as cédulas necessárias. 
+/**
+/** :author eduar
+/* TODO Enter your code here
+DEFINE DATA LOCAL
+1 #vlr            (N3) init<259>
+1 #centenas        (N3)
+1 #dezenas         (N2)
+1 #unidades        (N1)
+END-DEFINE                                                                                                                           
+*
+    divide 100 into #vlr giving #centenas
+    divide 10 into #vlr giving #dezenas
+*
+#dezenas:= #dezenas - #centenas
+
+   write 'Centenas: ' #centenas
+   write 'Dezenas: ' #dezenas   
+*
+END

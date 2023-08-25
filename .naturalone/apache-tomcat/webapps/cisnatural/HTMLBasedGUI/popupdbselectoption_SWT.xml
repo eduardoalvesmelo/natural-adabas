@@ -1,0 +1,1276 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.popups.PopupDBSelectOptionModel" pagename="dbselectoption" popupwidth="400" popupheight="200" popupfeatures="resizable:no; status:no" ispopup="true" casaindex="1" >
+
+
+        <pagebody takefullheight="true" casaindex="2" >
+
+
+                <rowarea height="100%" casaindex="3" >
+
+
+                        <vdist casaindex="4" >
+
+
+                        </vdist>
+
+
+                        <rowdynavis valueprop="displayGridDatatypeString" casaindex="5" >
+
+
+                                <rowdynavis valueprop="equalsGridVisible" casaindex="6" >
+
+
+                                        <itr casaindex="7" >
+
+
+                                                <coltable0 width="100%" takefullheight="true" casaindex="8" >
+
+
+                                                        <rowtablearea2 griddataprop="lines" rowcount="4" withborder="true" width="100%" casaindex="9" >
+
+
+                                                                <tr casaindex="10" >
+
+
+                                                                        <label textid="operator" width="80" asheadline="true" casaindex="11" >
+
+
+                                                                        </label>
+
+
+                                                                        <label textid="value1" width="100%" asheadline="true" casaindex="12" >
+
+
+                                                                        </label>
+
+
+                                                                </tr>
+
+
+                                                                <repeat casaindex="13" >
+
+
+                                                                        <tr casaindex="14" >
+
+
+                                        <field xsdType="xs:string" flush="server" valueprop="operator" width="80" popupmethod="openIdValueHelp" casaindex="15" >
+
+                                        </field>
+
+                                        <field xsdType="xs:string" valueprop="value1" width="100%" statusprop="value1DisplayStatus" casaindex="16" >
+
+                                        </field>
+
+                                                                        </tr>
+
+
+                                                                </repeat>
+
+
+                                                        </rowtablearea2>
+
+
+                                                </coltable0>
+
+
+                                                <coltable0 takefullheight="true" casaindex="17" >
+
+
+                                                        <vdist height="100%" casaindex="18" >
+
+
+                                                        </vdist>
+
+
+                                                        <tr casaindex="19" >
+
+
+                                                                <hdist casaindex="20" >
+
+
+                                                                </hdist>
+
+
+                                                                <icon image="../HTMLBasedGUI/images/new.gif" titletextid="moreLines" method="moreLines" valign="top" casaindex="21" >
+
+
+                                                                </icon>
+
+
+                                                        </tr>
+
+
+                                                </coltable0>
+
+
+                                        </itr>
+
+
+                                </rowdynavis>
+
+
+                                <rowdynavis valueprop="betweenGridVisible" casaindex="22" >
+
+
+                                        <itr casaindex="23" >
+
+
+                                                <coltable0 width="100%" takefullheight="true" casaindex="24" >
+
+
+                                                        <rowtablearea2 griddataprop="lines" rowcount="4" withborder="true" width="100%" casaindex="25" >
+
+
+                                                                <tr casaindex="26" >
+
+
+                                                                        <label textid="operator" width="80" asheadline="true" casaindex="27" >
+
+
+                                                                        </label>
+
+
+                                                                        <label textid="value1" width="50%" asheadline="true" casaindex="28" >
+
+
+                                                                        </label>
+
+
+                                                                        <label textid="value2" width="50%" asheadline="true" casaindex="29" >
+
+
+                                                                        </label>
+
+
+                                                                </tr>
+
+
+                                                                <repeat casaindex="30" >
+
+
+                                                                        <tr casaindex="31" >
+
+
+                                        <field xsdType="xs:string" flush="server" valueprop="operator" width="80" popupmethod="openIdValueHelp" casaindex="32" >
+
+                                        </field>
+
+                                        <field xsdType="xs:string" valueprop="value1" width="50%" statusprop="value1DisplayStatus" casaindex="33" >
+
+                                        </field>
+
+                                        <field xsdType="xs:string" valueprop="value2" width="50%" statusprop="value2DisplayStatus" casaindex="34" >
+
+                                        </field>
+
+                                                                        </tr>
+
+
+                                                                </repeat>
+
+
+                                                        </rowtablearea2>
+
+
+                                                </coltable0>
+
+
+                                                <coltable0 takefullheight="true" casaindex="35" >
+
+
+                                                        <vdist height="100%" casaindex="36" >
+
+
+                                                        </vdist>
+
+
+                                                        <tr casaindex="37" >
+
+
+                                                                <hdist casaindex="38" >
+
+
+                                                                </hdist>
+
+
+                                                                <icon image="../HTMLBasedGUI/images/new.gif" titletextid="moreLines" method="moreLines" valign="top" casaindex="39" >
+
+
+                                                                </icon>
+
+
+                                                        </tr>
+
+
+                                                </coltable0>
+
+
+                                        </itr>
+
+
+                                </rowdynavis>
+
+
+                        </rowdynavis>
+
+
+                        <rowdynavis valueprop="displayGridDatatypeInt" casaindex="40" >
+
+
+                                <rowdynavis valueprop="equalsGridVisible" casaindex="41" >
+
+
+                                        <itr casaindex="42" >
+
+
+                                                <coltable0 width="100%" takefullheight="true" casaindex="43" >
+
+
+                                                        <rowtablearea2 griddataprop="lines" rowcount="4" withborder="true" width="100%" casaindex="44" >
+
+
+                                                                <tr casaindex="45" >
+
+
+                                                                        <label textid="operator" width="80" asheadline="true" casaindex="46" >
+
+
+                                                                        </label>
+
+
+                                                                        <label textid="value1" width="100%" asheadline="true" casaindex="47" >
+
+
+                                                                        </label>
+
+
+                                                                </tr>
+
+
+                                                                <repeat casaindex="48" >
+
+
+                                                                        <tr casaindex="49" >
+
+
+                                        <field xsdType="xs:string" flush="server" valueprop="operator" width="80" popupmethod="openIdValueHelp" casaindex="50" >
+
+                                        </field>
+
+                                        <field xsdType="int" datatype="int" valueprop="value1" width="100%" statusprop="value1DisplayStatus" casaindex="51" >
+
+                                        </field>
+
+                                                                        </tr>
+
+
+                                                                </repeat>
+
+
+                                                        </rowtablearea2>
+
+
+                                                </coltable0>
+
+
+                                                <coltable0 takefullheight="true" casaindex="52" >
+
+
+                                                        <vdist height="100%" casaindex="53" >
+
+
+                                                        </vdist>
+
+
+                                                        <tr casaindex="54" >
+
+
+                                                                <hdist casaindex="55" >
+
+
+                                                                </hdist>
+
+
+                                                                <icon image="../HTMLBasedGUI/images/new.gif" titletextid="moreLines" method="moreLines" valign="top" casaindex="56" >
+
+
+                                                                </icon>
+
+
+                                                        </tr>
+
+
+                                                </coltable0>
+
+
+                                        </itr>
+
+
+                                </rowdynavis>
+
+
+                                <rowdynavis valueprop="betweenGridVisible" casaindex="57" >
+
+
+                                        <itr casaindex="58" >
+
+
+                                                <coltable0 width="100%" takefullheight="true" casaindex="59" >
+
+
+                                                        <rowtablearea2 griddataprop="lines" rowcount="4" withborder="true" width="100%" casaindex="60" >
+
+
+                                                                <tr casaindex="61" >
+
+
+                                                                        <label textid="operator" width="80" asheadline="true" casaindex="62" >
+
+
+                                                                        </label>
+
+
+                                                                        <label textid="value1" width="50%" asheadline="true" casaindex="63" >
+
+
+                                                                        </label>
+
+
+                                                                        <label textid="value2" width="50%" asheadline="true" casaindex="64" >
+
+
+                                                                        </label>
+
+
+                                                                </tr>
+
+
+                                                                <repeat casaindex="65" >
+
+
+                                                                        <tr casaindex="66" >
+
+
+                                        <field xsdType="xs:string" flush="server" valueprop="operator" width="80" popupmethod="openIdValueHelp" casaindex="67" >
+
+                                        </field>
+
+                                        <field xsdType="int" datatype="int" valueprop="value1" width="50%" statusprop="value1DisplayStatus" casaindex="68" >
+
+                                        </field>
+
+                                        <field xsdType="int" datatype="int" valueprop="value2" width="50%" statusprop="value2DisplayStatus" casaindex="69" >
+
+                                        </field>
+
+                                                                        </tr>
+
+
+                                                                </repeat>
+
+
+                                                        </rowtablearea2>
+
+
+                                                </coltable0>
+
+
+                                                <coltable0 takefullheight="true" casaindex="70" >
+
+
+                                                        <vdist height="100%" casaindex="71" >
+
+
+                                                        </vdist>
+
+
+                                                        <tr casaindex="72" >
+
+
+                                                                <hdist casaindex="73" >
+
+
+                                                                </hdist>
+
+
+                                                                <icon image="../HTMLBasedGUI/images/new.gif" titletextid="moreLines" method="moreLines" valign="top" casaindex="74" >
+
+
+                                                                </icon>
+
+
+                                                        </tr>
+
+
+                                                </coltable0>
+
+
+                                        </itr>
+
+
+                                </rowdynavis>
+
+
+                        </rowdynavis>
+
+
+                        <rowdynavis valueprop="displayGridDatatypeFloat" casaindex="75" >
+
+
+                                <rowdynavis valueprop="equalsGridVisible" casaindex="76" >
+
+
+                                        <itr casaindex="77" >
+
+
+                                                <coltable0 width="100%" takefullheight="true" casaindex="78" >
+
+
+                                                        <rowtablearea2 griddataprop="lines" rowcount="4" withborder="true" width="100%" casaindex="79" >
+
+
+                                                                <tr casaindex="80" >
+
+
+                                                                        <label textid="operator" width="80" asheadline="true" casaindex="81" >
+
+
+                                                                        </label>
+
+
+                                                                        <label textid="value1" width="100%" asheadline="true" casaindex="82" >
+
+
+                                                                        </label>
+
+
+                                                                </tr>
+
+
+                                                                <repeat casaindex="83" >
+
+
+                                                                        <tr casaindex="84" >
+
+
+                                        <field xsdType="xs:string" flush="server" valueprop="operator" width="80" popupmethod="openIdValueHelp" casaindex="85" >
+
+                                        </field>
+
+                                        <field xsdType="float" datatype="float" valueprop="value1" width="100%" statusprop="value1DisplayStatus" casaindex="86" >
+
+                                        </field>
+
+                                                                        </tr>
+
+
+                                                                </repeat>
+
+
+                                                        </rowtablearea2>
+
+
+                                                </coltable0>
+
+
+                                                <coltable0 takefullheight="true" casaindex="87" >
+
+
+                                                        <vdist height="100%" casaindex="88" >
+
+
+                                                        </vdist>
+
+
+                                                        <tr casaindex="89" >
+
+
+                                                                <hdist casaindex="90" >
+
+
+                                                                </hdist>
+
+
+                                                                <icon image="../HTMLBasedGUI/images/new.gif" titletextid="moreLines" method="moreLines" valign="top" casaindex="91" >
+
+
+                                                                </icon>
+
+
+                                                        </tr>
+
+
+                                                </coltable0>
+
+
+                                        </itr>
+
+
+                                </rowdynavis>
+
+
+                                <rowdynavis valueprop="betweenGridVisible" casaindex="92" >
+
+
+                                        <itr casaindex="93" >
+
+
+                                                <coltable0 width="100%" takefullheight="true" casaindex="94" >
+
+
+                                                        <rowtablearea2 griddataprop="lines" rowcount="4" withborder="true" width="100%" casaindex="95" >
+
+
+                                                                <tr casaindex="96" >
+
+
+                                                                        <label textid="operator" width="80" asheadline="true" casaindex="97" >
+
+
+                                                                        </label>
+
+
+                                                                        <label textid="value1" width="50%" asheadline="true" casaindex="98" >
+
+
+                                                                        </label>
+
+
+                                                                        <label textid="value2" width="50%" asheadline="true" casaindex="99" >
+
+
+                                                                        </label>
+
+
+                                                                </tr>
+
+
+                                                                <repeat casaindex="100" >
+
+
+                                                                        <tr casaindex="101" >
+
+
+                                        <field xsdType="xs:string" flush="server" valueprop="operator" width="80" popupmethod="openIdValueHelp" casaindex="102" >
+
+                                        </field>
+
+                                        <field xsdType="float" datatype="float" valueprop="value1" width="50%" statusprop="value1DisplayStatus" casaindex="103" >
+
+                                        </field>
+
+                                        <field xsdType="float" datatype="float" valueprop="value2" width="50%" statusprop="value2DisplayStatus" casaindex="104" >
+
+                                        </field>
+
+                                                                        </tr>
+
+
+                                                                </repeat>
+
+
+                                                        </rowtablearea2>
+
+
+                                                </coltable0>
+
+
+                                                <coltable0 takefullheight="true" casaindex="105" >
+
+
+                                                        <vdist height="100%" casaindex="106" >
+
+
+                                                        </vdist>
+
+
+                                                        <tr casaindex="107" >
+
+
+                                                                <hdist casaindex="108" >
+
+
+                                                                </hdist>
+
+
+                                                                <icon image="../HTMLBasedGUI/images/new.gif" titletextid="moreLines" method="moreLines" valign="top" casaindex="109" >
+
+
+                                                                </icon>
+
+
+                                                        </tr>
+
+
+                                                </coltable0>
+
+
+                                        </itr>
+
+
+                                </rowdynavis>
+
+
+                        </rowdynavis>
+
+
+                        <rowdynavis valueprop="displayGridDatatypeDate" casaindex="110" >
+
+
+                                <rowdynavis valueprop="equalsGridVisible" casaindex="111" >
+
+
+                                        <itr casaindex="112" >
+
+
+                                                <coltable0 width="100%" takefullheight="true" casaindex="113" >
+
+
+                                                        <rowtablearea2 griddataprop="lines" rowcount="4" withborder="true" width="100%" casaindex="114" >
+
+
+                                                                <tr casaindex="115" >
+
+
+                                                                        <label textid="operator" width="80" asheadline="true" casaindex="116" >
+
+
+                                                                        </label>
+
+
+                                                                        <label textid="value1" width="100%" asheadline="true" casaindex="117" >
+
+
+                                                                        </label>
+
+
+                                                                </tr>
+
+
+                                                                <repeat casaindex="118" >
+
+
+                                                                        <tr casaindex="119" >
+
+
+                                        <field xsdType="xs:string" flush="server" valueprop="operator" width="80" popupmethod="openIdValueHelp" casaindex="120" >
+
+                                        </field>
+
+                                        <field xsdType="date" datatype="date" valueprop="value1" width="100%" statusprop="value1DisplayStatus" casaindex="121" >
+
+                                        </field>
+
+                                                                        </tr>
+
+
+                                                                </repeat>
+
+
+                                                        </rowtablearea2>
+
+
+                                                </coltable0>
+
+
+                                                <coltable0 takefullheight="true" casaindex="122" >
+
+
+                                                        <vdist height="100%" casaindex="123" >
+
+
+                                                        </vdist>
+
+
+                                                        <tr casaindex="124" >
+
+
+                                                                <hdist casaindex="125" >
+
+
+                                                                </hdist>
+
+
+                                                                <icon image="../HTMLBasedGUI/images/new.gif" titletextid="moreLines" method="moreLines" valign="top" casaindex="126" >
+
+
+                                                                </icon>
+
+
+                                                        </tr>
+
+
+                                                </coltable0>
+
+
+                                        </itr>
+
+
+                                </rowdynavis>
+
+
+                                <rowdynavis valueprop="betweenGridVisible" casaindex="127" >
+
+
+                                        <itr casaindex="128" >
+
+
+                                                <coltable0 width="100%" takefullheight="true" casaindex="129" >
+
+
+                                                        <rowtablearea2 griddataprop="lines" rowcount="4" withborder="true" width="100%" casaindex="130" >
+
+
+                                                                <tr casaindex="131" >
+
+
+                                                                        <label textid="operator" width="80" asheadline="true" casaindex="132" >
+
+
+                                                                        </label>
+
+
+                                                                        <label textid="value1" width="50%" asheadline="true" casaindex="133" >
+
+
+                                                                        </label>
+
+
+                                                                        <label textid="value2" width="50%" asheadline="true" casaindex="134" >
+
+
+                                                                        </label>
+
+
+                                                                </tr>
+
+
+                                                                <repeat casaindex="135" >
+
+
+                                                                        <tr casaindex="136" >
+
+
+                                        <field xsdType="xs:string" flush="server" valueprop="operator" width="80" popupmethod="openIdValueHelp" casaindex="137" >
+
+                                        </field>
+
+                                        <field xsdType="date" datatype="date" valueprop="value1" width="50%" statusprop="value1DisplayStatus" casaindex="138" >
+
+                                        </field>
+
+                                        <field xsdType="date" datatype="date" valueprop="value2" width="50%" statusprop="value2DisplayStatus" casaindex="139" >
+
+                                        </field>
+
+                                                                        </tr>
+
+
+                                                                </repeat>
+
+
+                                                        </rowtablearea2>
+
+
+                                                </coltable0>
+
+
+                                                <coltable0 takefullheight="true" casaindex="140" >
+
+
+                                                        <vdist height="100%" casaindex="141" >
+
+
+                                                        </vdist>
+
+
+                                                        <tr casaindex="142" >
+
+
+                                                                <hdist casaindex="143" >
+
+
+                                                                </hdist>
+
+
+                                                                <icon image="../HTMLBasedGUI/images/new.gif" titletextid="moreLines" method="moreLines" valign="top" casaindex="144" >
+
+
+                                                                </icon>
+
+
+                                                        </tr>
+
+
+                                                </coltable0>
+
+
+                                        </itr>
+
+
+                                </rowdynavis>
+
+
+                        </rowdynavis>
+
+
+                        <rowdynavis valueprop="displayGridDatatypeTime" casaindex="145" >
+
+
+                                <rowdynavis valueprop="equalsGridVisible" casaindex="146" >
+
+
+                                        <itr casaindex="147" >
+
+
+                                                <coltable0 width="100%" takefullheight="true" casaindex="148" >
+
+
+                                                        <rowtablearea2 griddataprop="lines" rowcount="4" withborder="true" width="100%" casaindex="149" >
+
+
+                                                                <tr casaindex="150" >
+
+
+                                                                        <label textid="operator" width="80" asheadline="true" casaindex="151" >
+
+
+                                                                        </label>
+
+
+                                                                        <label textid="value1" width="100%" asheadline="true" casaindex="152" >
+
+
+                                                                        </label>
+
+
+                                                                </tr>
+
+
+                                                                <repeat casaindex="153" >
+
+
+                                                                        <tr casaindex="154" >
+
+
+                                        <field xsdType="xs:string" flush="server" valueprop="operator" width="80" popupmethod="openIdValueHelp" casaindex="155" >
+
+                                        </field>
+
+                                        <field xsdType="time" datatype="time" valueprop="value1" width="100%" statusprop="value1DisplayStatus" casaindex="156" >
+
+                                        </field>
+
+                                                                        </tr>
+
+
+                                                                </repeat>
+
+
+                                                        </rowtablearea2>
+
+
+                                                </coltable0>
+
+
+                                                <coltable0 takefullheight="true" casaindex="157" >
+
+
+                                                        <vdist height="100%" casaindex="158" >
+
+
+                                                        </vdist>
+
+
+                                                        <tr casaindex="159" >
+
+
+                                                                <hdist casaindex="160" >
+
+
+                                                                </hdist>
+
+
+                                                                <icon image="../HTMLBasedGUI/images/new.gif" titletextid="moreLines" method="moreLines" valign="top" casaindex="161" >
+
+
+                                                                </icon>
+
+
+                                                        </tr>
+
+
+                                                </coltable0>
+
+
+                                        </itr>
+
+
+                                </rowdynavis>
+
+
+                                <rowdynavis valueprop="betweenGridVisible" casaindex="162" >
+
+
+                                        <itr casaindex="163" >
+
+
+                                                <coltable0 width="100%" takefullheight="true" casaindex="164" >
+
+
+                                                        <rowtablearea2 griddataprop="lines" rowcount="4" withborder="true" width="100%" casaindex="165" >
+
+
+                                                                <tr casaindex="166" >
+
+
+                                                                        <label textid="operator" width="80" asheadline="true" casaindex="167" >
+
+
+                                                                        </label>
+
+
+                                                                        <label textid="value1" width="50%" asheadline="true" casaindex="168" >
+
+
+                                                                        </label>
+
+
+                                                                        <label textid="value2" width="50%" asheadline="true" casaindex="169" >
+
+
+                                                                        </label>
+
+
+                                                                </tr>
+
+
+                                                                <repeat casaindex="170" >
+
+
+                                                                        <tr casaindex="171" >
+
+
+                                        <field xsdType="xs:string" flush="server" valueprop="operator" width="80" popupmethod="openIdValueHelp" casaindex="172" >
+
+                                        </field>
+
+                                        <field xsdType="time" datatype="time" valueprop="value1" width="50%" statusprop="value1DisplayStatus" casaindex="173" >
+
+                                        </field>
+
+                                        <field xsdType="time" datatype="time" valueprop="value2" width="50%" statusprop="value2DisplayStatus" casaindex="174" >
+
+                                        </field>
+
+                                                                        </tr>
+
+
+                                                                </repeat>
+
+
+                                                        </rowtablearea2>
+
+
+                                                </coltable0>
+
+
+                                                <coltable0 takefullheight="true" casaindex="175" >
+
+
+                                                        <vdist height="100%" casaindex="176" >
+
+
+                                                        </vdist>
+
+
+                                                        <tr casaindex="177" >
+
+
+                                                                <hdist casaindex="178" >
+
+
+                                                                </hdist>
+
+
+                                                                <icon image="../HTMLBasedGUI/images/new.gif" titletextid="moreLines" method="moreLines" valign="top" casaindex="179" >
+
+
+                                                                </icon>
+
+
+                                                        </tr>
+
+
+                                                </coltable0>
+
+
+                                        </itr>
+
+
+                                </rowdynavis>
+
+
+                        </rowdynavis>
+
+
+                        <rowdynavis valueprop="displayGridDatatypeTimestamp" casaindex="180" >
+
+
+                                <rowdynavis valueprop="equalsGridVisible" casaindex="181" >
+
+
+                                        <itr casaindex="182" >
+
+
+                                                <coltable0 width="100%" takefullheight="true" casaindex="183" >
+
+
+                                                        <rowtablearea2 griddataprop="lines" rowcount="4" withborder="true" width="100%" casaindex="184" >
+
+
+                                                                <tr casaindex="185" >
+
+
+                                                                        <label textid="operator" width="80" asheadline="true" casaindex="186" >
+
+
+                                                                        </label>
+
+
+                                                                        <label textid="value1" width="100%" asheadline="true" casaindex="187" >
+
+
+                                                                        </label>
+
+
+                                                                </tr>
+
+
+                                                                <repeat casaindex="188" >
+
+
+                                                                        <tr casaindex="189" >
+
+
+                                        <field xsdType="xs:string" flush="server" valueprop="operator" width="80" popupmethod="openIdValueHelp" casaindex="190" >
+
+                                        </field>
+
+                                        <field xsdType="timestamp" datatype="timestamp" valueprop="value1" width="100%" statusprop="value1DisplayStatus" casaindex="191" >
+
+                                        </field>
+
+                                                                        </tr>
+
+
+                                                                </repeat>
+
+
+                                                        </rowtablearea2>
+
+
+                                                </coltable0>
+
+
+                                                <coltable0 takefullheight="true" casaindex="192" >
+
+
+                                                        <vdist height="100%" casaindex="193" >
+
+
+                                                        </vdist>
+
+
+                                                        <tr casaindex="194" >
+
+
+                                                                <hdist casaindex="195" >
+
+
+                                                                </hdist>
+
+
+                                                                <icon image="../HTMLBasedGUI/images/new.gif" titletextid="moreLines" method="moreLines" valign="top" casaindex="196" >
+
+
+                                                                </icon>
+
+
+                                                        </tr>
+
+
+                                                </coltable0>
+
+
+                                        </itr>
+
+
+                                </rowdynavis>
+
+
+                                <rowdynavis valueprop="betweenGridVisible" casaindex="197" >
+
+
+                                        <itr casaindex="198" >
+
+
+                                                <coltable0 width="100%" takefullheight="true" casaindex="199" >
+
+
+                                                        <rowtablearea2 griddataprop="lines" rowcount="4" withborder="true" width="100%" casaindex="200" >
+
+
+                                                                <tr casaindex="201" >
+
+
+                                                                        <label textid="operator" width="80" asheadline="true" casaindex="202" >
+
+
+                                                                        </label>
+
+
+                                                                        <label textid="value1" width="50%" asheadline="true" casaindex="203" >
+
+
+                                                                        </label>
+
+
+                                                                        <label textid="value2" width="50%" asheadline="true" casaindex="204" >
+
+
+                                                                        </label>
+
+
+                                                                </tr>
+
+
+                                                                <repeat casaindex="205" >
+
+
+                                                                        <tr casaindex="206" >
+
+
+                                        <field xsdType="xs:string" flush="server" valueprop="operator" width="80" popupmethod="openIdValueHelp" casaindex="207" >
+
+                                        </field>
+
+                                        <field xsdType="timestamp" datatype="timestamp" valueprop="value1" width="50%" statusprop="value1DisplayStatus" casaindex="208" >
+
+                                        </field>
+
+                                        <field xsdType="timestamp" datatype="timestamp" valueprop="value2" width="50%" statusprop="value2DisplayStatus" casaindex="209" >
+
+                                        </field>
+
+                                                                        </tr>
+
+
+                                                                </repeat>
+
+
+                                                        </rowtablearea2>
+
+
+                                                </coltable0>
+
+
+                                                <coltable0 takefullheight="true" casaindex="210" >
+
+
+                                                        <vdist height="100%" casaindex="211" >
+
+
+                                                        </vdist>
+
+
+                                                        <tr casaindex="212" >
+
+
+                                                                <hdist casaindex="213" >
+
+
+                                                                </hdist>
+
+
+                                                                <icon image="../HTMLBasedGUI/images/new.gif" titletextid="moreLines" method="moreLines" valign="top" casaindex="214" >
+
+
+                                                                </icon>
+
+
+                                                        </tr>
+
+
+                                                </coltable0>
+
+
+                                        </itr>
+
+
+                                </rowdynavis>
+
+
+                        </rowdynavis>
+
+
+                        <vdist casaindex="215" >
+
+
+                        </vdist>
+
+
+                        <itr width="100%" casaindex="216" >
+
+
+                                <hdist width="50%" casaindex="217" >
+
+
+                                </hdist>
+
+
+                                <button textid="buttonOK" method="onOK" casaindex="218" >
+
+
+                                </button>
+
+
+                                <hdist width="50%" casaindex="219" >
+
+
+                                </hdist>
+
+
+                        </itr>
+
+
+                        <vdist casaindex="220" >
+
+
+                        </vdist>
+
+
+                </rowarea>
+
+
+                <vdist casaindex="221" >
+
+
+                </vdist>
+
+
+        </pagebody>
+
+
+        <hotkeys casaindex="222" >
+
+
+                <hotkey keycode="13" method="onOK" casaindex="223" >
+
+
+                </hotkey>
+
+
+        </hotkeys>
+
+
+</page>

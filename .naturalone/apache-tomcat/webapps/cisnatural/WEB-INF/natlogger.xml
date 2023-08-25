@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- ===================================================================== -->
+<!--                                                                       -->
+<!--  Logging configuration file for Natural Web I/O (J2EE version)        -->
+<!--  Copyright (C) 2008 by Software AG                                    -->
+<!--                                                                       -->
+<!-- ===================================================================== -->
+
+
+<nwologging>
+    <!-- ################################################################ -->
+    <!-- ###   The file handler: Attribute 'pattern' is the file name ### -->
+    <!-- ################################################################ -->
+      
+	  <filehandler pattern="%h/nwolog.%u.%g.log" enabled="true" limit="0" count="10" append="false" 
+	                  formatter="java.util.logging.SimpleFormatter" />  
+	  
+	  
+    <!-- ################################################################ -->
+    <!-- ###   The loggers                                            ### -->
+    <!-- ################################################################ -->
+    
+		<loggers>
+		  <!-- ============================================================================= -->
+		  <!-- Possible Logger levels are SEVERE, WARNING, INFO, CONFIG, FINE, FINER, FINEST   -->
+		  <!-- ===================================================================== -->
+		  
+		  <!-- This is the general logger for all Natural Web I/O and Natural for Ajax loggings -->		  
+    	<logger name="." level="INFO" />                 
+    	
+    	
+    	<!-- ================================================================== -->
+    	<!-- Special loggers, which can be enabled in case of error tracking    -->
+    	<!-- ===================================================================== -->
+    	
+    	
+    	<!-- Communications with Natural -->
+    	<!--    	
+    	<logger name="com.softwareag.natural.natcomms" level="FINER" />
+    	-->
+    	
+    	<!-- Resource adapter     -->
+    	<!--
+			<logger name="com.softwareag.natural.uconnect.ra" level="FINER" />
+    	-->    	
+    	
+    	<!-- Session beans    -->	
+    	<!--
+    	<logger name="com.softwareag.natural.uconnect.sjb" level="FINER" />
+    	-->
+    	
+    	<!-- Message beans  -->
+    	<!--    	
+    	<logger name="com.softwareag.natural.uconnect.mjb" level="FINER" />
+    	-->    	
+    	
+    	<!-- config file   -->
+    	<!--    	
+    	<logger name="com.softwareag.natural.unicode.config" level="FINER" />
+    	-->
+    	    	
+    	<!-- Logging    -->
+    	<!--    	
+    	<logger name="com.softwareag.natural.unicode.logging" level="FINER" />
+    	-->    	
+    	
+    	<!-- Utilities   -->
+    	<!--    	
+    	<logger name="com.softwareag.natural.unicode.utilities" level="FINER" />
+    	-->    	    	
+    	
+    	<!-- Web I/O web pages   -->
+    	<!--    	
+    	<logger name="com.softwareag.natural.unicode.web" level="FINER" />
+    	-->    	    	
+    	    	    	    	
+    </loggers>
+</nwologging>

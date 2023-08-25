@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.AttributeCompareEditor" translationreference="CIS_EDIT" casaindex="1" >
+
+
+        <pagebody horizdist="false" takefullheight="true" casaindex="2" >
+
+
+                <itr width="100%" casaindex="3" >
+
+
+                        <label asheadline="true" height="14" labelstyle="padding-left: 2px; font-size: 10px; font-weight: bold" textid="attribComp.label0" casaindex="4" >
+
+
+                        </label>
+
+
+                </itr>
+
+
+                <vdist height="8" casaindex="5" >
+
+
+                </vdist>
+
+
+                <rowtablearea2 griddataprop="tree" height="100%" hscroll="false" rowcount="30" width="100%" withborder="false" casaindex="6" >
+
+
+                        <repeat casaindex="7" >
+
+
+                                <tr casaindex="8" >
+
+
+                                        <hdist width="10" casaindex="9" >
+
+
+                                        </hdist>
+
+
+                                        <treenode3 enabledrag="true" imageclosed="images/xmlclosed.gif" imageendnode="images/xmlendnode.gif" imageopened="images/xmlopened.gif" singleselect="false" width="500" withlines="true" withplusminus="true" withtextinput="false" withtooltip="true" casaindex="10" >
+
+
+                                                <hdist casaindex="11" >
+
+
+                                                </hdist>
+
+
+                                        </treenode3>
+
+
+                                </tr>
+
+
+                        </repeat>
+
+
+                </rowtablearea2>
+
+
+                <rowarea withbottomborder="false" withleftborder="false" withrightborder="false" withtopborder="false" withtoppadding="false" casaindex="12" >
+
+
+                        <itr align="center" casaindex="13" >
+
+
+                                <icon image="images/arrowupfast.gif" method="onMoveToTop" casaindex="14" >
+
+
+                                </icon>
+
+
+                                <hdist width="5" casaindex="15" >
+
+
+                                </hdist>
+
+
+                                <icon image="images/arrowup.gif" method="onMoveUp" casaindex="16" >
+
+
+                                </icon>
+
+
+                                <hdist width="5" casaindex="17" >
+
+
+                                </hdist>
+
+
+                                <icon image="images/arrowdown.gif" method="onMoveDown" casaindex="18" >
+
+
+                                </icon>
+
+
+                                <hdist width="5" casaindex="19" >
+
+
+                                </hdist>
+
+
+                                <icon image="images/arrowdownfast.gif" method="onMoveToBottom" casaindex="20" >
+
+
+                                </icon>
+
+
+                                <hdist width="5" casaindex="21" >
+
+
+                                </hdist>
+
+
+                                <icon image="images/new.gif" method="onNew" titletextid="attribComp.icon0" casaindex="22" >
+
+
+                                </icon>
+
+
+                                <hdist width="5" casaindex="23" >
+
+
+                                </hdist>
+
+
+                                <icon image="images/remove.gif" method="onRemove" titletextid="attribComp.icon1" casaindex="24" >
+
+
+                                </icon>
+
+
+                        </itr>
+
+
+                </rowarea>
+
+
+                <itr width="100%" casaindex="25" >
+
+
+                        <label asheadline="true" height="14" labelstyle="padding-left: 2px; font-size: 10px; font-weight: bold" textid="attribComp.label1" casaindex="26" >
+
+
+                        </label>
+
+
+                </itr>
+
+
+                <rowarea visibleprop="editButtonVis" withbottomborder="false" withleftborder="false" withrightborder="false" withtopborder="false" withtoppadding="false" casaindex="27" >
+
+
+                        <vdist height="5" casaindex="28" >
+
+
+                        </vdist>
+
+
+                        <itr casaindex="29" >
+
+
+                                <hdist width="10px" casaindex="30" >
+
+
+                                </hdist>
+
+
+                                <label textid="attribComp.label2" width="120" casaindex="31" >
+
+
+                                </label>
+
+
+                <field xsdType="xs:string" statusprop="resourceState" valueprop="project" width="100%" casaindex="32" >
+
+                </field>
+
+                                <hdist width="10px" casaindex="33" >
+
+
+                                </hdist>
+
+
+                        </itr>
+
+
+                        <itr casaindex="34" >
+
+
+                                <hdist width="10px" casaindex="35" >
+
+
+                                </hdist>
+
+
+                                <label textid="attribComp.label3" width="120" casaindex="36" >
+
+
+                                </label>
+
+
+                <field xsdType="xs:string" statusprop="resourceState" valueprop="mlFile" width="100%" casaindex="37" >
+
+                </field>
+
+                                <hdist width="10px" casaindex="38" >
+
+
+                                </hdist>
+
+
+                        </itr>
+
+
+                        <vdist height="5" casaindex="39" >
+
+
+                        </vdist>
+
+
+                </rowarea>
+
+
+                <itr width="100%" casaindex="40" >
+
+
+                        <label asheadline="true" height="14" labelstyle="padding-left: 2px; font-size: 10px; font-weight: bold" textid="attribComp.label4" casaindex="41" >
+
+
+                        </label>
+
+
+                </itr>
+
+
+                <rowarea height="50" withbottomborder="false" withleftborder="false" withrightborder="false" withtopborder="false" withtoppadding="false" casaindex="42" >
+
+
+                        <vdist height="5" casaindex="43" >
+
+
+                        </vdist>
+
+
+                        <itr height="100%" width="100%" casaindex="44" >
+
+
+                                <hdist width="10" casaindex="45" >
+
+
+                                </hdist>
+
+
+                                <text displayonly="true" height="100%" textareastyle="border:0; overflow-y: hidden" valueprop="attributeInfo" width="100%" casaindex="46" >
+
+
+                                </text>
+
+
+                        </itr>
+
+
+                        <vdist height="5" casaindex="47" >
+
+
+                        </vdist>
+
+
+                </rowarea>
+
+
+                <itr width="100%" casaindex="48" >
+
+
+                        <label asheadline="true" height="14" labelstyle="padding-left: 2px; font-size: 10px; font-weight: bold" textid="attribComp.label5" casaindex="49" >
+
+
+                        </label>
+
+
+                </itr>
+
+
+                <rowarea visibleprop="editButtonVis" withbottomborder="false" withleftborder="false" withrightborder="false" withtopborder="false" withtoppadding="false" casaindex="50" >
+
+
+                        <vdist height="10" casaindex="51" >
+
+
+                        </vdist>
+
+
+                        <itr casaindex="52" >
+
+
+                                <hdist width="10px" casaindex="53" >
+
+
+                                </hdist>
+
+
+                                <label textid="attribComp.label6" width="120" casaindex="54" >
+
+
+                                </label>
+
+
+                <field xsdType="xs:string" displayonly="true" valueprop="wizardConfigFileName" width="100%" casaindex="55" >
+
+                </field>
+
+                                <hdist width="10" casaindex="56" >
+
+
+                                </hdist>
+
+
+                                <button image="../HTMLBasedGUI/images/save.gif" method="onSave" textid="attribComp.button0" casaindex="57" >
+
+
+                                </button>
+
+
+                                <hdist width="10px" casaindex="58" >
+
+
+                                </hdist>
+
+
+                        </itr>
+
+
+                        <vdist height="10" casaindex="59" >
+
+
+                        </vdist>
+
+
+                </rowarea>
+
+
+        </pagebody>
+
+
+        <statusbar casaindex="60" >
+
+
+        </statusbar>
+
+
+</page>

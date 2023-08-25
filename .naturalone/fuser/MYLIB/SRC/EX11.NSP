@@ -1,0 +1,33 @@
+0001/** Escreva um programa que calcule o salário semanal de um trabalhador. As entradas são o
+0002/** número de horas trabalhadas na semana e o valor da hora. Até 40 h/semana não se
+0003/** acrescenta nenhum adicional. Acima de 40h e até 60h há um bônus de 50% para essas horas.
+0004/** Acima de 60h há um bônus de 100% para essas horas.
+0005/**
+0006/** :author eduar
+0007/* TODO Enter your code here
+0008DEFINE DATA LOCAL
+00091 #hora-semana          (N2)
+00101 #vlr-hora             (N2.2)
+00111 #vlr-ttl-hora         (N4.2)
+00121 #bonus                (N1.2)
+0013END-DEFINE                            
+0014*    
+0015input 'Informe o numero de horas trabalhas na semana: ' #hora-semana
+0016input 'Informe o valor da horas trabalhada: ' #vlr-hora                                                                                               
+0017*
+0018if #hora-semana >= 40 
+0019    if #hora-semana <= 60
+0020        #bonus:= 1.5
+0021    else
+0022        #bonus:= 2
+0023    end-if
+0024else
+0025    #bonus:= 1
+0026end-if
+0027#vlr-ttl-hora := #hora-semana * #vlr-hora * #bonus
+0028*
+0029write 'Quantidade de horas realizadas: ' #hora-semana
+0030write 'Valor da hora: ' #vlr-hora
+0031write 'Valor a receber: ' #vlr-ttl-hora
+0032*
+0033END

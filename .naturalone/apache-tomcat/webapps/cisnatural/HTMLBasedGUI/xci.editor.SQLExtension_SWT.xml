@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.extension.sql.SQLExtensionAdapter" casaindex="1" >
+
+
+        <titlebar name="Connection to SQL Databases" withclose="false" casaindex="2" >
+
+
+        </titlebar>
+
+
+        <pagebody horizdist="false" pagebodystyle="background-color: #deebf7" paddingleft="5" paddingright="5" paddingtop="5" paddingbottom="5" casaindex="3" >
+
+
+                <itr takefullwidth="true" visibleprop="sqlServiceAvailable" casaindex="4" >
+
+
+                        <label name="SQL Service" width="100" casaindex="5" >
+
+
+                        </label>
+
+
+            <field xsdType="xs:string" valueprop="sqlService" width="100%" popupmethod="openIdValueComboOrPopup" casaindex="6" >
+
+            </field>
+
+                </itr>
+
+
+                <itr takefullwidth="true" fixlayout="true" casaindex="7" >
+
+
+                        <label name="Driver Class" width="100" casaindex="8" >
+
+
+                        </label>
+
+
+            <field xsdType="xs:string" valueprop="driverClass" width="100%" casaindex="9" >
+
+            </field>
+
+                </itr>
+
+
+                <itr takefullwidth="true" fixlayout="true" casaindex="10" >
+
+
+                        <label name="Connect. URL" width="100" casaindex="11" >
+
+
+                        </label>
+
+
+            <field xsdType="xs:string" valueprop="connectionURL" width="100%" casaindex="12" >
+
+            </field>
+
+                </itr>
+
+
+                <itr takefullwidth="true" casaindex="13" >
+
+
+                        <label name="Table" width="100" casaindex="14" >
+
+
+                        </label>
+
+
+            <field xsdType="xs:string" valueprop="table" width="100%" popupmethod="openIdValueComboOrPopup" casaindex="15" >
+
+            </field>
+
+                </itr>
+
+
+                <itr casaindex="16" >
+
+
+                        <label name="Property" width="100" casaindex="17" >
+
+
+                        </label>
+
+
+            <field xsdType="xs:string" valueprop="prefix" width="80" casaindex="18" >
+
+            </field>
+
+                </itr>
+
+
+                <vdist height="5" casaindex="19" >
+
+
+                </vdist>
+
+
+                <itr casaindex="20" >
+
+
+                        <hdist width="100" casaindex="21" >
+
+
+                        </hdist>
+
+
+                        <button name="Show Table" method="onShowTable" casaindex="22" >
+
+
+                        </button>
+
+
+                </itr>
+
+
+                <vdist height="15" casaindex="23" >
+
+
+                </vdist>
+
+
+                <rowdynavis valueprop="tableVisible" casaindex="24" >
+
+
+                        <itr takefullwidth="true" casaindex="25" >
+
+
+                                <label name="Select all columns which you want to take over into your layout. Then press &quot;Create Layout&quot;." asplaintext="true" casaindex="26" >
+
+
+                                </label>
+
+
+                        </itr>
+
+
+                        <rowtablearea2 griddataprop="columns" rowcount="10" vscroll="auto" firstrowcolwidths="true" casaindex="27" >
+
+
+                                <repeat casaindex="28" >
+
+
+                                        <str valueprop="selected" showifempty="false" casaindex="29" >
+
+
+                                                <checkbox valueprop="selected" flush="server" width="50" align="center" casaindex="30" >
+
+
+                                                </checkbox>
+
+
+                                                <checkbox valueprop="key" width="30" displayonly="true" casaindex="31" >
+
+
+                                                </checkbox>
+
+
+                                                <textout valueprop="column" width="50%" casaindex="32" >
+
+
+                                                </textout>
+
+
+                                                <textout valueprop="type" width="50%" casaindex="33" >
+
+
+                                                </textout>
+
+
+                                        </str>
+
+
+                                </repeat>
+
+
+                        </rowtablearea2>
+
+
+                        <vdist height="10" casaindex="34" >
+
+
+                        </vdist>
+
+
+                        <itr casaindex="35" >
+
+
+                                <hdist width="100" casaindex="36" >
+
+
+                                </hdist>
+
+
+                                <button name="Create Layout" method="onCreateLayout" casaindex="37" >
+
+
+                                </button>
+
+
+                        </itr>
+
+
+                </rowdynavis>
+
+
+        </pagebody>
+
+
+        <statusbar withdistance="false" casaindex="38" >
+
+
+        </statusbar>
+
+
+</page>

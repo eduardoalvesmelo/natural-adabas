@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.EditorFilenameInputAdapter6" translationreference="CIS_EDIT" popupwidth="700" popupheight="230" casaindex="1" >
+
+
+        <titlebar withclose="false" closetitletextid="closePage" casaindex="2" >
+
+
+                <button textid="fniTakeOver" method="onTakeOver" casaindex="3" >
+
+
+                </button>
+
+
+        </titlebar>
+
+
+        <pagebody takefullheight="true" casaindex="4" >
+
+
+                <vdist height="10" casaindex="5" >
+
+
+                </vdist>
+
+
+                <itr width="100%" casaindex="6" >
+
+
+                        <coltable0 width="100" casaindex="7" >
+
+
+                                <itr casaindex="8" >
+
+
+                                        <hdist width="20%" casaindex="9" >
+
+
+                                        </hdist>
+
+
+                                        <imageout valueprop="imageURL" casaindex="10" >
+
+
+                                        </imageout>
+
+
+                                        <hdist width="80%" casaindex="11" >
+
+
+                                        </hdist>
+
+
+                                </itr>
+
+
+                        </coltable0>
+
+
+                        <coltable0 width="100%" casaindex="12" >
+
+
+                                <itr width="100%" casaindex="13" >
+
+
+                                        <textout valueprop="infoText" width="100%" casaindex="14" >
+
+
+                                        </textout>
+
+
+                                </itr>
+
+
+                                <vdist casaindex="15" >
+
+
+                                </vdist>
+
+
+                                <itr width="100%" casaindex="16" >
+
+
+                                        <textout valueprop="fileExtensionInfo" width="100%" casaindex="17" >
+
+
+                                        </textout>
+
+
+                                </itr>
+
+
+                        </coltable0>
+
+
+                </itr>
+
+
+                <vdist height="10" casaindex="18" >
+
+
+                </vdist>
+
+
+                <itr width="100%" casaindex="19" >
+
+
+                        <hdist casaindex="20" >
+
+
+                        </hdist>
+
+
+                        <label textid="fniFileName" width="100" casaindex="21" >
+
+
+                        </label>
+
+
+                        <hdist casaindex="22" >
+
+
+                        </hdist>
+
+
+                        <filenameinput valueprop="fileName" width="100%" fieldstyle="color: #CCCCCC" casaindex="23" >
+
+
+                        </filenameinput>
+
+
+                        <hdist casaindex="24" >
+
+
+                        </hdist>
+
+
+                </itr>
+
+
+                <vdist height="50%" casaindex="25" >
+
+
+                </vdist>
+
+
+        </pagebody>
+
+
+        <statusbar casaindex="26" >
+
+
+        </statusbar>
+
+
+</page>

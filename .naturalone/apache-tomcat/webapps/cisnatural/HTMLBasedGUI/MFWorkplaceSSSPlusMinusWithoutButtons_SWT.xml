@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.workplace.MFWorkplaceAdapter" occupiedimage="images/wpoccupied.gif" occupiedpixelheight="25" occupiedpixelwidth="17" contextmenumethod="reactOnContextMenuRequestTopicTree" comment="../cis/styles/CIS_DEV.css" casaindex="1" >
+
+
+        <pagebody vscroll="hidden" hscroll="hidden" horizdist="false" takefullheight="true" casaindex="2" >
+
+
+                <rowtablearea2 griddataprop="nodes" rowcount="60" height="100%" width="100%" withborder="false" hscroll="auto" vscroll="auto" oncontextmenumethod="reactOnContextMenuRequestTopicTree" casaindex="3" >
+
+
+                        <vdist height="5" casaindex="4" >
+
+
+                        </vdist>
+
+
+                        <repeat casaindex="5" >
+
+
+                                <str casaindex="6" >
+
+
+                                        <hdist width="5" casaindex="7" >
+
+
+                                        </hdist>
+
+
+                                        <treenode3 width="100%" withplusminus="true" imageopened="../HTMLBasedGUI/images/fileclosed.gif" imageclosed="../HTMLBasedGUI/images/fileclosed.gif" imageendnode="../HTMLBasedGUI/images/page.gif" imageprop="imageOpened" singleselect="true" withlines="true" withtooltip="true" tooltipprop="tooltip" selectionstylevariant="VAR1" casaindex="8" >
+
+
+                                        </treenode3>
+
+
+                                </str>
+
+
+                        </repeat>
+
+
+                        <vdist height="5" casaindex="9" >
+
+
+                        </vdist>
+
+
+                </rowtablearea2>
+
+
+        </pagebody>
+
+
+</page>

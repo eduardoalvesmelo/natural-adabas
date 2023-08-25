@@ -1,0 +1,10 @@
+DEFINE DATA PARAMETER
+/* >Natural Source Header 000000
+/* :Mode S
+/* :CP
+/* <Natural Source Header
+/** New Parameter Data Area NUM-EXT.
+/**
+/** :author eduar
+/* TODO Enter your data definitions here
+END-DEFINE

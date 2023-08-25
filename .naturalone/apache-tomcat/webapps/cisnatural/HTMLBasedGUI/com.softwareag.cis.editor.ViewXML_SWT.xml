@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.TextAdapter" popupwidth="700" popupheight="500" pagename="template1.html" casaindex="1" >
+
+
+        <pagebody vscroll="false" horizdist="false" takefullheight="true" casaindex="2" >
+
+
+                <itr width="100%" height="100%" casaindex="3" >
+
+
+                        <text valueprop="text" displayonly="true" width="100%" height="100%" casaindex="4" >
+
+
+                        </text>
+
+
+                </itr>
+
+
+        </pagebody>
+
+
+</page>

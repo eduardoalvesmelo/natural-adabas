@@ -1,0 +1,28 @@
+0001/**  Escreva um programa que receba a velocidade
+0002/**  máxima em uma avenida e a velocidade com que um motorista estava dirigindo nela.
+0003/**  Calcule a multa que o motorista vai receber, considerando que são pagos R$ 5,00 por cada
+0004/**  km/h que estiver acima da velocidade permitida (considere apenas números inteiros). Se a
+0005/**  velocidade do motorista estiver dentro do limite, o programa deve informar que não há
+0006/**  multa. 
+0007/**
+0008/** :author eduar
+0009/* TODO Enter your code here
+0010DEFINE DATA LOCAL
+00111 #vel-max        (N3)
+00121 #vel-max-mot  (N3)
+00131 #vlr-pago        (N3.2)
+0014END-DEFINE
+0015*
+0016    input 'informe a velocidade máxima da pista: ' #vel-max    
+0017    input 'informe a velocidade que o motorista está dirigindo: ' #vel-max-mot
+0018*
+0019if #vel-max-mot > #vel-max
+0020    #vlr-pago := (#vel-max-mot - #vel-max) * 5
+0021    write 'Velocidade máxima da pista: ' #vel-max
+0022    write 'Velocidade em que o motorista foi pego dirigindo: ' #vel-max-mot
+0023    write 'Multa a pagar: ' #vlr-pago    
+0024else
+0025    write 'Não há multas a serem pagas'
+0026end-if    
+0027*
+0028END

@@ -1,0 +1,14 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** Fazer um programa para mostrar os 15 primeiros termos da série de Fibonacci. 
+/**
+/** :author eduar
+/* TODO Enter your code here
+DEFINE DATA LOCAL
+  1 #ant-1    (N2) init<1>
+  1 #ant-2    (N2) init<1>
+END-DEFINE
+    write #ant-1 #ant-2
+END

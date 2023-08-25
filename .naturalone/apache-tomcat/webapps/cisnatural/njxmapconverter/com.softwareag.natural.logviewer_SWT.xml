@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.natural.mapconverter.gui.LogViewerAdapter" popupwidth="800" popupheight="600" casaindex="1" >
+
+
+        <titlebar name="Conversion Logs" withclose="true" casaindex="2" >
+
+
+        </titlebar>
+
+
+        <pagebody casaindex="3" >
+
+
+                <rowarea name="Select Project and Log Files" casaindex="4" >
+
+
+                        <itr casaindex="5" >
+
+
+                                <label name="Select the project containing the conversion logs." width="600" asplaintext="true" casaindex="6" >
+
+
+                                </label>
+
+
+                        </itr>
+
+
+                        <vdist height="10" casaindex="7" >
+
+
+                        </vdist>
+
+
+                        <itr casaindex="8" >
+
+
+                                <label name="Project" width="100" asplaintext="true" casaindex="9" >
+
+
+                                </label>
+
+
+                                <combodyn2 valueprop="projectName" validvaluesprop="projectValues" width="200" flush="server" flushmethod="onProjectChanged" casaindex="10" >
+
+
+                                </combodyn2>
+
+
+                                <hdist width="10" casaindex="11" >
+
+
+                                </hdist>
+
+
+                                <combodyn2 valueprop="logfile" validvaluesprop="logfileValues" width="200" casaindex="12" >
+
+
+                                </combodyn2>
+
+
+                        </itr>
+
+
+                        <vdist height="10" casaindex="13" >
+
+
+                        </vdist>
+
+
+                        <itr casaindex="14" >
+
+
+                                <hdist width="100" casaindex="15" >
+
+
+                                </hdist>
+
+
+                                <button name="Load Log File" method="onLoadLogfile" casaindex="16" >
+
+
+                                </button>
+
+
+                                <hdist width="10" casaindex="17" >
+
+
+                                </hdist>
+
+
+                                <button name="View Text" method="onViewLogfileAsText" casaindex="18" >
+
+
+                                </button>
+
+
+                                <hdist width="10" casaindex="19" >
+
+
+                                </hdist>
+
+
+                                <button name="Delete Log Files" method="onDeleteLogfiles" casaindex="20" >
+
+
+                                </button>
+
+
+                        </itr>
+
+
+                        <vdist height="10" casaindex="21" >
+
+
+                        </vdist>
+
+
+                </rowarea>
+
+
+                <rowarea name="Log File" height="600" casaindex="22" >
+
+
+                        <itr casaindex="23" >
+
+
+                                <label name="Logged map conversions" width="100" asplaintext="true" casaindex="24" >
+
+
+                                </label>
+
+
+                                <combodyn2 valueprop="mapfile" validvaluesprop="mapfileValues" width="200" flush="server" flushmethod="onMapfileChanged" casaindex="25" >
+
+
+                                </combodyn2>
+
+
+                                <hdist width="10" casaindex="26" >
+
+
+                                </hdist>
+
+
+                        </itr>
+
+
+                        <vdist height="10" casaindex="27" >
+
+
+                        </vdist>
+
+
+                        <itr casaindex="28" >
+
+
+                <field xsdType="xs:string" valueprop="textloglines" width="600" displayonly="true" noborder="true" casaindex="29" >
+
+                </field>
+
+                        </itr>
+
+
+                        <vdist height="10" casaindex="30" >
+
+
+                        </vdist>
+
+
+                        <itr takefullwidth="true" height="100%" casaindex="31" >
+
+
+                                <textgridsss2 griddataprop="loglines" rowcount="20" width="100%" height="100%" casaindex="32" >
+
+
+                                        <csvcolumn titlesprop="logtitles" valuesprop="logvalues" widthsprop="logwidths" backgroundsprop="backgrounds" casaindex="33" >
+
+
+                                        </csvcolumn>
+
+
+                                </textgridsss2>
+
+
+                        </itr>
+
+
+                </rowarea>
+
+
+        </pagebody>
+
+
+        <statusbar withdistance="false" casaindex="34" >
+
+
+        </statusbar>
+
+
+</page>

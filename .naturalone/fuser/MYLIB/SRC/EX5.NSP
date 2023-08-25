@@ -1,0 +1,29 @@
+0001/** Fazer um programa que recebe duas notas parciais de um aluno (0 a 100) e informa se ele
+0002/** está aprovado (média maior ou igual a 70), em exame final (média entre 40 e 69) ou
+0003/** reprovado (média menor do que 40). Caso esteja em exame o programa deve pedir a nota do
+0004/** exame (0 a 100) e informar se o aluno está aprovado (média mais nota do exame maior ou
+0005/** igual a 100) ou reprovado (média mais nota do exame menor do que 100).
+0006/**
+0007/** :author Eduardo Alves
+0008/* TODO Enter your code here
+0009DEFINE DATA LOCAL
+00101 #nota-1    (N3)
+00111 #nota-2    (N3)
+00121 #media    (N3.2)
+0013END-DEFINE
+0014*
+0015    input 'informe a primeira nota ' #nota-1
+0016    input 'informe a segunda nota ' #nota-2
+0017    #media := (#nota-1 + #nota-2)/2
+0018*    
+0019write 'Média final:' #media    
+0020decide for first condition    
+0021   when #media > 70
+0022       write 'Aprovado!!!'           
+0023   when #media > 40 and #media < 69
+0024       write 'Em exame final'         
+0025   when none
+0026       write 'Reprovado'
+0027end-decide
+0028*
+0029END

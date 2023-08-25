@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'>
+<script>var m_perfPageLoadStart = new Date();
+var m_perfPageLoadEnd = null;
+var m_perfPageFocusEnd = null;</script>
+<link id="casabacstylesheet" rel="stylesheet" type="text/css" href="../cis/styles/CIS_DEFAULT.css">
+<link rel="stylesheet" href="../HTMLBasedGUI/jquery/jquery-ui.min.css" type="text/css" >
+<script src="../HTMLBasedGUI/jquery/jquery-2.2.4.min.js"></script>
+<script src="../HTMLBasedGUI/jquery/jquery-ui.min.js"></script>
+<script>
+try
+{
+if (parent.CasaSTYLESHEET == null)
+{
+var vParent = parent;
+while(vParent != null)
+{
+if(vParent.CasaSTYLESHEET != null && vParent.CasaSTYLESHEET != '')
+{
+parent.CasaSTYLESHEET = vParent.CasaSTYLESHEET;
+break;
+}
+if(vParent == vParent.parent) break;
+vParent = vParent.parent;
+}
+}
+if (parent.CasaSTYLESHEET != null && parent.CasaSTYLESHEET != '')
+{
+var vStyleSheet = document.getElementById('casabacstylesheet');
+if (vStyleSheet.href != parent.CasaSTYLESHEET) vStyleSheet.href = parent.CasaSTYLESHEET;
+}
+}
+catch (eeccxx) {}
+</script>
+<style>
+html {height:100%;}
+body {height:100%;}
+</style>
+</head>
+<body id='THISBODY' oncontextmenu='try { return C.reactOnContextMenuRequestPAGE(event); } catch(e) {}' onmousemove='try { return moveDrag(event); } catch(exc) {}' onmouseup='try { endDrag(event);C.CL().checkMozIO(parent); } catch (exc) {}' onkeydown='try { processHotKeys(event); } catch (exc) {}' class='PAGEBody' style='margin: 0' onclick='try { C.clickAway(); } catch (exc) {}; try { C.reactOnClickPage(event); } catch (exc) {}' onresize='try { reactOnResize(); } catch (exc) {}'	onload=' try { reactOnResize(); } catch (exc) {}'	onhelp='C.reactOnHelpPAGE(); return false;'  tabindex='-1' onblur='try { C.onBlurPAGE(event); } catch(e) {}' onfocus='try { C.onFocusPAGE(); } catch(e) {}' onmousewheel='if (event.shiftKey) C.CL().cancelEvent(event);' onwheel='if (event.shiftKey) C.CL().cancelEvent(event);' onmouseleave='try { return removeTHISOCCUPIED(); } catch(exc) {}' onmouseout ='try { return removeTHISOCCUPIED(); } catch(exc) {}'>
+<script>
+function gebid(pid) { return document.getElementById(pid); }
+var m_isSafari = navigator.userAgent.toLowerCase().indexOf( 'safari' ) != -1;
+function isSafari() { return m_isSafari; }
+function createFunction(name,param,code) { window[name] = new Function(param,code); return window[name]; }
+function createElement(name) { return document.createElement(name); }
+var N = null;
+function icc(iccMethodName, baseIndex, s) { C.addIccInfo(iccMethodName, baseIndex, s); iccExec(iccMethodName, s); }
+function iccExec(iccMethodName, s) {
+var o = C.decodeString(s,',');
+for (var i=0; i<o.length; i++) o[i] = eval(o[i]);
+eval(iccMethodName)(o[0],o[1],o[2],o[3],o[4],o[5],o[6],o[7],o[8],o[9],o[10],o[11],o[12],o[13],o[14],o[15],o[16],o[17],o[18],o[19],o[20],o[21],o[22],o[23],o[24],o[25],o[26],o[27],o[28],o[29],o[30],o[31],o[32],o[33],o[34],o[35],o[36],o[37],o[38],o[39],o[40],o[41],o[42],o[43],o[44],o[45],o[46],o[47],o[48],o[49]);
+}
+m_startPageDate = new Date();
+var m_pageCompletelyBuilt = false;
+var m_fillTextIdListeners = [];
+var m_flagResize = true;
+var m_centralContextMenu =true;
+function registerFillTextIdListener(listener)
+{
+m_fillTextIdListeners.push(listener);
+}
+</script>
+<table id='JUSTLOADING' style='table-layout: fixed;z-index: 100;cursor: progress; position: absolute; left: 0; top: 0; width: 100%; height: 100%' class='PAGEBody'>
+<tr><td align="center" valign="middle" class='FLASHPageSwitch'>&nbsp;</td></tr>
+</table>
+<div style='display:none'>
+<img src='../HTMLBasedGUI/general/nothing.gif'>
+<img src='../HTMLBasedGUI/images/fileclosed.gif'>
+<img src='../HTMLBasedGUI/images/page.gif'>
+<img src='../HTMLBasedGUI/general/buttonback_cis.jpg'>
+<img src='../cis/styles/CIS_DEFAULT_dlmenuleft.gif'>
+<img src='../cis/styles/CIS_DEFAULT_dlmenuright.gif'>
+<img src='../HTMLBasedGUI/general/tanicon.gif'>
+<img src='../cis/styles/CIS_DEFAULT_labelback.gif'>
+<img src='../cis/styles/CIS_DEFAULT_tabareacellunselectedfirst.gif'>
+<img src='../cis/styles/CIS_DEFAULT_tabareacellunselected.gif'>
+<img src='../cis/styles/CIS_DEFAULT_tabareacellselectedfirst.gif'>
+<img src='../cis/styles/CIS_DEFAULT_tabareacellselected.gif'>
+<img src='../cis/styles/CIS_DEFAULT_tabsellightleft.gif'>
+<img src='../cis/styles/CIS_DEFAULT_tabsellightright.gif'>
+<img src='../cis/styles/CIS_DEFAULT_tabseldarkleft.gif'>
+<img src='../cis/styles/CIS_DEFAULT_tabseldarkright.gif'>
+<img src='../HTMLBasedGUI/general/tabsellastline.gif'>
+</div>
+<table id='THISPAGE' cellspacing='0' cellpadding='0'  style='table-layout: auto;width:100%;height:100%;display:none'>
+<tr>
+<td  colspan='50' width='100%' height='100%' valign='top' >
+<div id='PAGEDIV2' style='width: 100%; height: 100%;overflow: hidden;padding:0 0 0 0;'>
+<table width="100%" style='height:100%;' cellspacing="0" cellpadding="0" >
+<tr id='ITR3'  >
+<td   valign='top' colspan='50' class='TDAroundControl' width='100%' height='100%'>
+<div id='ITRD3'  style='width: 100%; height:100%;'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 width='100%'><tr>
+<td id='TDDYNAVIS4' height='100%' width=' ' class='TDAroundControl' valign='top'>
+<div id='DYNAVIS4' style='height:100%;width:60px;'>
+<table cellpadding=0 cellspacing=0 width='100%' height='100%'>
+<script>
+function reactOnModelUpdate4(model)
+{
+var vFolded = C.findVisibleValue(C.getPropertyValue('favouritesVisible'));
+if (vFolded == C_TD4.memFolded) return;
+C_TD4.memFolded = vFolded;
+vFolded = C.convertStatusToVisible(vFolded,C.CONTROLTYPE_CONTAINER);
+if (vFolded == 'true')
+{
+C_TD4.style.display = '';
+C_DIV4.style.display = '';
+C_TD4.style.width = '60px';
+C_DIV4.style.width = '60px';
+}
+else
+{
+C_TD4.style.display = 'none';
+C_DIV4.style.display = 'none';
+C_DIV4.style.width = 0;
+C_TD4.style.width = 0;
+}
+}
+</script>
+<tr id='ITR5' class='FAVOURITEBackground' style='swt-background-color: #7C7E85'>
+<td   valign='top' colspan='50' class='TDAroundControl' width='100%' height='100%'>
+<div id='ITRD5'  style='width: 100%; height:100%;'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 width='100%'><tr>
+<td id='TD6' width='100%' height='100%' valign='top' class='TDAroundControl'>
+<div id='DIV6' style='width: 100%;height: 100%;overflow: hidden'>
+<table id='TAB6'  height='100%' width="100%" cellspacing='0' cellpadding='0' align='left' >
+<tr style=' ' ><td height="15px" class='TDAroundControl' ></td></tr>
+<tr>
+<td width='100%' colspan='50' height=0>
+<div id='IL8'></div>
+</td>
+</tr>
+<tr style=' ' ><td height="100%" class='TDAroundControl' ></td></tr>
+<tr id='ITR10'  >
+<td  align='center' valign='top' colspan='50' class='TDAroundControl'  height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 ><tr>
+<td  id='TDI11' align='center' valign='middle' ><table cellspacing='0' cellpadding='0'><tr>
+<td tabindex=0 id='ICON11' style='width:0;'>
+<img   id='ICONIMG11'  border='0' src='../HTMLBasedGUI/images/bin.gif' title="$mfwrkplace.dropicon0" galleryimg='false' ></td>
+</tr></table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr id='ITR12'  >
+<td  align='center' valign='top' colspan='50' class='TDAroundControl'  height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 ><tr>
+<td  id='TDI13' align='center' valign='middle' ><table cellspacing='0' cellpadding='0'><tr>
+<td tabindex=0 id='ICON13' style='width:0;'>
+<img   id='ICONIMG13'  border='0' src='../HTMLBasedGUI/images/binempty.gif' title="$mfwrkplace.dropicon1" galleryimg='false' ></td>
+</tr></table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style=' ' ><td height="20px" class='TDAroundControl' ></td></tr>
+<tr id='TR15'    >
+<td  id='TDI16' align='left' valign='middle' ><table cellspacing='0' cellpadding='0'><tr>
+<td tabindex=0 id='ICON16' style='width:0;'>
+<img   id='ICONIMG16' data-testtoolid='onZeroSize' border='0' src='images/aaleft.gif' title="" galleryimg='false' ></td>
+</tr></table>
+</td>
+</tr>
+<tr id='TR17'    >
+<td  id='TDI18' align='left' valign='middle' ><table cellspacing='0' cellpadding='0'><tr>
+<td tabindex=0 id='ICON18' style='width:0;'>
+<img   id='ICONIMG18' data-testtoolid='onIconSize' border='0' src='images/aamid.gif' title="" galleryimg='false' ></td>
+</tr></table>
+</td>
+</tr>
+<tr id='TR19'    >
+<td  id='TDI20' align='left' valign='middle' ><table cellspacing='0' cellpadding='0'><tr>
+<td tabindex=0 id='ICON20' style='width:0;'>
+<img   id='ICONIMG20' data-testtoolid='onNormalSize' border='0' src='images/aaright.gif' title="" galleryimg='false' ></td>
+</tr></table>
+</td>
+</tr>
+<span></span></table>
+</div>
+</td>
+<td id='TD21' width='1px' height='100%' valign='top' class='TDAroundControl'>
+<div id='DIV21' style='width: 1px;height: 100%;overflow: hidden'>
+<table id='TAB21'  height='100%' width="1px" cellspacing='0' cellpadding='0' align='left' style='background-color: #808080'>
+<span></span></table>
+</div>
+</td>
+<td id='TD22' width='2px' height='100%' valign='top' class='TDAroundControl'>
+<div id='DIV22' style='width: 2px;height: 100%;overflow: hidden'>
+<table id='TAB22'  height='100%' width="2px" cellspacing='0' cellpadding='0' align='left' style='background-color: #E0E0E0'>
+<span></span></table>
+</div>
+</td>
+<td id='TD23' width='1px' height='100%' valign='top' class='TDAroundControl'>
+<div id='DIV23' style='width: 1px;height: 100%;overflow: hidden'>
+<table id='TAB23'  height='100%' width="1px" cellspacing='0' cellpadding='0' align='left' style='background-color: #808080'>
+<span></span></table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td id='TD24' width='100%' height='100%' valign='top' class='TDAroundControl'>
+<div id='DIV24' style=';height: 100%;'>
+<table id='TAB24'  height='100%' width="100%" cellspacing='0' cellpadding='0' align='left' >
+<tr>
+<td width='100%' colspan='50' height=0>
+<div id='BL25'><a name='PC'></a></div>
+</td>
+</tr>
+<tr>
+<td width='100%' height='100%' colspan='50'>
+<div style='display:none'>
+<img src='../HTMLBasedGUI/images/treeplus5.gif'>
+<img src='../HTMLBasedGUI/images/treeendnode5.gif'>
+<img src='../HTMLBasedGUI/images/treeminus5.gif'>
+</div>
+<div id='CTD26' style='width: 100%;height: 100%;overflow:auto' oncontextmenu='onContextMenuRequest26(null); C.CL().cancelEvent(event);' class='TREENODETable'>
+<table cellspacing=0 cellpadding=0 width='100%' height='100%' style='table-layout: fixed'>
+<tr>
+<td height='100%' width='100%'>
+<div id='CLIENTTREE26' style='height: 100%; width: 100%;;overflow-y: auto; overflow-x: auto'>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td width='100%' colspan='50' height=0>
+<div id='BL27'><a name='PC'></a></div>
+</td>
+</tr>
+<span></span></table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+<script>
+var CasaPAGE = document.getElementById('THISPAGE');
+var CasaLOADING = document.getElementById('JUSTLOADING');
+var m_dropInfo = null;
+var m_dragMode = false;
+var m_dragId = null;
+var m_dragType = null;
+var m_dropMethod = null;
+var m_blockIO = true;
+var m_blockIOByFlush = false;
+var m_startInitDate;
+var m_endInitDate;
+var m_resizeListeners = [];
+var m_helpIdPAGE = '';
+var m_contextMenuMethodPAGE = 'reactOnContextMenuRequestTopicTree';
+var C;
+var m_roi_firstusage;
+function reactOnInit(firstusage)
+{
+if (firstusage == undefined) firstusage = true;
+m_roi_firstusage = firstusage;if (parent.m_centralLib == null) { document.location.href = '../HTMLBasedGUI/general/aboutBlank.html'; return; }
+C = csciframe;
+CL = C.CL();
+m_resizeListeners = [];
+m_flagResize = true;
+m_startInitDate = new Date();
+C.addLogMessage('page.reactOnInit started - showPage date = ' + parent.m_showPageDate.getSeconds() + '/' + parent.m_showPageDate.getMilliseconds());
+C.addLogMessage('loading page started =' + m_perfPageLoadStart.getSeconds() + '/' + m_perfPageLoadStart.getMilliseconds());
+C.initGlobals();
+m_pageCompletelyBuilt = false;
+m_fillTextIdListeners = [];
+m_dragMode = false;
+m_dragId = null;
+m_dropMethod = null;
+m_blockIO = true;
+m_blockIOByFlush = false;
+var sid = parent.getCurrentSessionId();
+var pid = parent.getCurrentProcessId();
+var mid = parent.getCurrentModelId();
+var pageInitParam = parent.pageInitParam;
+if (pageInitParam == null) pageInitParam = '';
+C.setPageName('workplace');
+if (firstusage) generateCCs();
+C.registerListener(reactOnModelUpdate8);
+if (firstusage) C_8 = document.getElementById('IL8');
+C.initCasaControl(C_8);
+C_8.CASA_iconlistprop = 'favourites';
+C_8.CASA_tablestyle = '';
+C_8.CASA_cellstyle = '';
+C_8.CASA_cellspacing = '5';
+C_8.CASA_id = '8';
+C_8.CASA_vertical = 'true';
+C_8.CASA_withrightpadding = 'true';
+C_8.CASA_displayMenuIndicator = '';
+C_8.CASA_testtoolid = 'favourites';
+if (firstusage) C_11 = gebid('ICON11');
+if (firstusage) C_11.CASA_td = gebid('TDI11');
+if (firstusage) C.iccICON(C_11,N,C.reactICON,'11','../HTMLBasedGUI/images/bin.gif',N,N,N,N,N,N,N,N,'1',N,N,N,N,'onDropDustbin','dustbinDropInfo',N,N,N,N,N);
+if (firstusage) C.addMLImage(gebid('ICONIMG11'));
+if (firstusage) C_10 = document.getElementById('ITR10');
+if (firstusage) CL.iccTR(C,C_10,'showBinFilled');
+if (firstusage) C.registerListener(reactOnModelUpdate10);
+if (firstusage) C_13 = gebid('ICON13');
+if (firstusage) C_13.CASA_td = gebid('TDI13');
+if (firstusage) C.iccICON(C_13,N,C.reactICON,'13','../HTMLBasedGUI/images/binempty.gif',N,N,N,N,N,N,N,N,'1',N,N,N,N,'onDropDustbin','dustbinDropInfo',N,N,N,N,N);
+if (firstusage) C.addMLImage(gebid('ICONIMG13'));
+if (firstusage) C_12 = document.getElementById('ITR12');
+if (firstusage) CL.iccTR(C,C_12,'showBinEmpty');
+if (firstusage) C.registerListener(reactOnModelUpdate12);
+if (firstusage) C_16 = gebid('ICON16');
+if (firstusage) C_16.CASA_td = gebid('TDI16');
+if (firstusage) C.iccICON(C_16,N,C.reactICON,'16','images/aaleft.gif',N,N,N,N,N,'onZeroSize',N,N,'1',N,N,N,N,N,N,N,N,N,N,N);
+if (firstusage) C_18 = gebid('ICON18');
+if (firstusage) C_18.CASA_td = gebid('TDI18');
+if (firstusage) C.iccICON(C_18,N,C.reactICON,'18','images/aamid.gif',N,N,N,N,N,'onIconSize',N,N,'1',N,N,N,N,N,N,N,N,N,N,N);
+if (firstusage) C_20 = gebid('ICON20');
+if (firstusage) C_20.CASA_td = gebid('TDI20');
+if (firstusage) C.iccICON(C_20,N,C.reactICON,'20','images/aaright.gif',N,N,N,N,N,'onNormalSize',N,N,'1',N,N,N,N,N,N,N,N,N,N,N);
+if (firstusage) CD_5 = document.getElementById('ITRD5');
+C.addMozDiv(CD_5);
+if (firstusage) C_TD4 = document.getElementById('TDDYNAVIS4');
+if (firstusage) C_DIV4 = document.getElementById('DYNAVIS4');
+C.registerListener(reactOnModelUpdate4);
+C_TD4.memFolded = "inittini";C.iccBUTTONLIST(CBL25,'25',romu25,'topButtons','1',N,N,N,N,N,'topButtons');
+C.registerListener(reactOnModelUpdate26);
+if (firstusage) C_26 = document.getElementById('CLIENTTREE26');
+C.initCasaControlCLIENTTREE(C_26);
+C_26.style.overflow = 'auto';
+C.addMozDiv(C_26);
+C.addMozDiv(document.getElementById('CTD26'));
+C_26.CASA_treecollectionprop = 'nodes';
+C_26.CASA_id = '26';
+C_26.CASA_imageclosed = '../HTMLBasedGUI/images/treeplus5.gif';
+C_26.CASA_imageopened = '../HTMLBasedGUI/images/treeminus5.gif';
+C_26.CASA_imageendnode = '../HTMLBasedGUI/images/treeendnode5.gif';
+C_26.CASA_imageopenedprop = 'imageOpened';
+C_26.CASA_imageclosedprop = 'imageClosed';
+C_26.CASA_directselectevent = 'onclick';
+C_26.CASA_treestyleprop = 'treeStyle';
+C_26.CASA_treeclassprop = 'treeClass';
+C_26.CASA_dynamicloading = false;
+C_26.CASA_selectionvisible = true;
+C_26.CASA_singleselect = false;
+C_26.CASA_enabledrag = true;
+C_26.CASA_withplusminus = false;
+C_26.CASA_oncontextmenumethod = 'reactOnContextMenuRequestTopicTree';
+C_26.CASA_hscroll = 'auto';
+C_26.CASA_withtooltip = false;
+C_26.CASA_cti = 1;
+C_26.CASA_tooltipprop = 'tooltip';
+C.iccBUTTONLIST(CBL27,'27',romu27,'bottomButtons','1',N,N,N,N,N,'bottomButtons');
+if (firstusage) CD_3 = document.getElementById('ITRD3');
+C.addMozDiv(CD_3);
+if (firstusage) C_2 = document.getElementById('PAGEDIV2');
+if (firstusage) THISPAGEBODY = document.getElementById('PAGEDIV2');
+C.initCasaControlPAGEBODY(C_2);
+addResizeListener(reactOnResize2);
+if (firstusage) C.iccINTPOPUP();
+m_occupiedimage = 'images/wpoccupied.gif';
+m_occupiedpixelheight = '25';
+m_occupiedpixelwidth = '17';
+C.setPropertyValue('pageInitParam',pageInitParam);
+C.registerListenerAsFirst(reactOnModelUpdatePAGE);
+C.initWithModelIdAndSessionIdAndProcessId("com.softwareag.cis.workplace.MFWorkplaceAdapter",mid,sid,pid);
+m_endInitDate = new Date();
+m_roi_firstusage = undefined;
+}
+function startDrag(dragHTML,eve) { return C.startDragPAGE(dragHTML,eve); }function moveDrag(eve) { return C.moveDragPAGE(eve); }
+function removeTHISOCCUPIED() { return C.removeTHISOCCUPIED(); }
+function endDrag(eve) { return C.endDragPAGE(eve); }
+function processHotKeys(evt) { C.processHotKeys(evt); }
+function reactOnModelUpdatePAGE(model) { C.reactOnModelUpdatePAGE(); }
+function generateCCs()
+{
+var vCCs = document.getElementsByName('CC');
+for (var i=0; i<vCCs.length; i++)
+{
+var vCC = vCCs[i];
+if (vCC.id != null && vCC.id != '') window['C'+vCC.id] = vCC;
+}
+vCCs = document.getElementsByName('PC');
+for (var i=0; i<vCCs.length; i++)
+{
+var vCC = vCCs[i].parentNode;
+if (vCC.id != null && vCC.id != '') window['C'+vCC.id] = vCC;
+}
+}
+function reactOnResize() { if (m_flagResize == false) return; C.handleReactOnResize();}
+function addResizeListener(resizeListener) { m_resizeListeners[m_resizeListeners.length] = resizeListener; }
+function fillTextIdSpans() { C.replaceTextIds(); for (i=0; i<m_fillTextIdListeners.length; i++) m_fillTextIdListeners[i](); }
+function invokeMethodInModel(methodName) { C.invokeMethodInModel(methodName); }
+function getPropertyValue(propertyName) { return C.getPropertyValue(propertyName); }
+function setPropertyValue(propertyName,propertyValue) { C.setPropertyValue(propertyName,propertyValue); }
+function romuINTPAGEPOPUP() { C.romuINTPOPUP(); }
+function reactOnResize2() { C.reactOnResizePAGEBODY(C_2); }
+function reactOnModelUpdate8() { C.reactOnModelUpdateICONLIST(C_8); }
+function invokeIcon8(iconIndex,evt) { C.invokeIconICONLIST(C_8,iconIndex,evt); }
+function reactOnMouseUp8(iconIndex) { C.reactOnMouseUpICONLIST(C_8,iconIndex); }
+function reactOnModelUpdate10(model) { CL.romuTR(C_10);}
+function reactOnModelUpdate12(model) { CL.romuTR(C_12);}
+function romu25() { C.romuBUTTONLIST(CBL25); }
+function invokeButton25(bi,evt) { C.invokeButtonBUTTONLIST(CBL25,bi,evt); }
+function reactOnContextMenu25(bi, evt) { C.reactOnContextMenuBUTTONLIST(CBL25,bi, evt); }
+function reactOnModelUpdate26() { C.reactOnModelUpdateCLIENTTREE(C_26); }
+function selectItem26(itemIndex, key) { C.selectItemCLIENTTREE(C_26,itemIndex, key); }
+function toggleItem26(itemIndex) { C.toggleItemCLIENTTREE(C_26,itemIndex); }
+function rollin26(index) {  if (m_dragMode ==true) C.rollinDragLinkCLIENTTREE(C_26, index); else C.rollinLinkCLIENTTREE(C_26, index); }
+function rollout26(index) { C.rolloutLinkCLIENTTREE(C_26, index); }
+function onContextMenuRequest26(itemIndex) { C.onContextMenuRequestCLIENTTREE(C_26, itemIndex); }
+function reactOnMouseDown26(nodeIndex,evt) { return C.reactOnMouseDownCLIENTTREE(C_26, evt, nodeIndex, "CLIENTTREE"); }
+function reactOnMouseUp26(nodeIndex,evt) { return C.reactOnMouseUpCLIENTTREE(C_26,nodeIndex,evt); }
+function rokd26(nodeIndex) { ; }
+function rokdMOZ26(e) { e.preventDefault(); C.rokdMOZCLIENTTREE(C_26, e); }
+function romu27() { C.romuBUTTONLIST(CBL27); }
+function invokeButton27(bi,evt) { C.invokeButtonBUTTONLIST(CBL27,bi,evt); }
+function reactOnContextMenu27(bi, evt) { C.reactOnContextMenuBUTTONLIST(CBL27,bi, evt); }
+</script>
+<iframe hidden id="csciframe" name="csciframe" tabIndex="-1" src="com.softwareag.cis.workplace.MFWorkplace_JLIBS.html" style="width:0;height:0;left:0;top:0">
+</iframe>
+</body>
+</html>

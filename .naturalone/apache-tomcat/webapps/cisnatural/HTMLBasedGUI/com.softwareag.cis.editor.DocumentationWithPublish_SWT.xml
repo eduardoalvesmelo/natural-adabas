@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.DocumentationAdapter" translationreference="CIS_TOOLS" casaindex="1" >
+
+
+        <titlebar textid="documentation.titlebar0" closetitletextid="closePage" casaindex="2" >
+
+
+        </titlebar>
+
+
+        <itr takefullwidth="true" height="35" align="left" itrstyle="background-color: #EDEDE4" casaindex="3" >
+
+
+                <label name="Select your Application:" width="180" asplaintext="true" casaindex="4" >
+
+
+                </label>
+
+
+                <radiobutton valueprop="selectedProj" value="1" flush="server" name="Application Designer" casaindex="5" >
+
+
+                </radiobutton>
+
+
+                <radiobutton valueprop="selectedProj" value="2" flush="server" name="Application Composer" casaindex="6" >
+
+
+                </radiobutton>
+
+
+                <radiobutton valueprop="selectedProj" value="3" flush="server" name="Natural for AJAX" casaindex="7" >
+
+
+                </radiobutton>
+
+
+                <hdist width="100%" casaindex="8" >
+
+
+                </hdist>
+
+
+                <button textid="documentation.button0" method="onPublish" width="200" casaindex="9" >
+
+
+                </button>
+
+
+                <hdist width="10" casaindex="10" >
+
+
+                </hdist>
+
+
+                <button name="Publish for Eclipse" method="onEclipsePublish" width="200" casaindex="11" >
+
+
+                </button>
+
+
+                <hdist width="10" casaindex="12" >
+
+
+                </hdist>
+
+
+        </itr>
+
+
+        <pagebody takefullheight="true" casaindex="13" >
+
+
+                <vsplit height="100%" widthleftprop="widthLeft" widthleft="250" casaindex="14" >
+
+
+                        <splitcell takefullheight="true" casaindex="15" >
+
+
+                                <clienttree treecollectionprop="tree" height="100%" withplusminus="true" singleselect="false" selectionvisible="true" casaindex="16" >
+
+
+                                </clienttree>
+
+
+                        </splitcell>
+
+
+                        <splitcell takefullheight="true" casaindex="17" >
+
+
+                                <itr casaindex="18" >
+
+
+                                </itr>
+
+
+                                <itr height="100%" width="100%" casaindex="19" >
+
+
+                                        <subpage valueprop="tagDescription" height="100%" width="100%" scrolling="yes" casaindex="20" >
+
+
+                                        </subpage>
+
+
+                                </itr>
+
+
+                        </splitcell>
+
+
+                </vsplit>
+
+
+        </pagebody>
+
+
+</page>

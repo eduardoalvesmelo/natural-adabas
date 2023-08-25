@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'>
+<script>var m_perfPageLoadStart = new Date();
+var m_perfPageLoadEnd = null;
+var m_perfPageFocusEnd = null;</script>
+<link id="casabacstylesheet" rel="stylesheet" type="text/css" href="../cis/styles/CIS_DEFAULT.css">
+<script>
+try
+{
+if (parent.CasaSTYLESHEET == null)
+{
+var vParent = parent;
+while(vParent != null)
+{
+if(vParent.CasaSTYLESHEET != null && vParent.CasaSTYLESHEET != '')
+{
+parent.CasaSTYLESHEET = vParent.CasaSTYLESHEET;
+break;
+}
+if(vParent == vParent.parent) break;
+vParent = vParent.parent;
+}
+}
+if (parent.CasaSTYLESHEET != null && parent.CasaSTYLESHEET != '')
+{
+var vStyleSheet = document.getElementById('casabacstylesheet');
+if (vStyleSheet.href != parent.CasaSTYLESHEET) vStyleSheet.href = parent.CasaSTYLESHEET;
+}
+}
+catch (eeccxx) {}
+</script>
+<style>
+html {height:100%;}
+body {height:100%;}
+</style>
+</head>
+<body id='THISBODY' oncontextmenu='try { return C.reactOnContextMenuRequestPAGE(event); } catch(e) {}' onmousemove='try { return moveDrag(event); } catch(exc) {}' onmouseup='try { endDrag(event);C.CL().checkMozIO(parent); } catch (exc) {}' onkeydown='try { processHotKeys(event); } catch (exc) {}' class='PAGEBody' style='margin: 0' onclick='try { C.clickAway(); } catch (exc) {}; try { C.reactOnClickPage(event); } catch (exc) {}' onresize='try { reactOnResize(); } catch (exc) {}'	onload=' try { reactOnResize(); } catch (exc) {}'	onhelp='C.reactOnHelpPAGE(); return false;'  tabindex='-1' onblur='try { C.onBlurPAGE(event); } catch(e) {}' onfocus='try { C.onFocusPAGE(); } catch(e) {}' onmousewheel='if (event.shiftKey) C.CL().cancelEvent(event);' onwheel='if (event.shiftKey) C.CL().cancelEvent(event);' onmouseleave='try { return removeTHISOCCUPIED(); } catch(exc) {}' onmouseout ='try { return removeTHISOCCUPIED(); } catch(exc) {}'>
+<script>
+function gebid(pid) { return document.getElementById(pid); }
+var m_isSafari = navigator.userAgent.toLowerCase().indexOf( 'safari' ) != -1;
+function isSafari() { return m_isSafari; }
+function createFunction(name,param,code) { window[name] = new Function(param,code); return window[name]; }
+function createElement(name) { return document.createElement(name); }
+var N = null;
+function icc(iccMethodName, baseIndex, s) { C.addIccInfo(iccMethodName, baseIndex, s); iccExec(iccMethodName, s); }
+function iccExec(iccMethodName, s) {
+var o = C.decodeString(s,',');
+for (var i=0; i<o.length; i++) o[i] = eval(o[i]);
+eval(iccMethodName)(o[0],o[1],o[2],o[3],o[4],o[5],o[6],o[7],o[8],o[9],o[10],o[11],o[12],o[13],o[14],o[15],o[16],o[17],o[18],o[19],o[20],o[21],o[22],o[23],o[24],o[25],o[26],o[27],o[28],o[29],o[30],o[31],o[32],o[33],o[34],o[35],o[36],o[37],o[38],o[39],o[40],o[41],o[42],o[43],o[44],o[45],o[46],o[47],o[48],o[49]);
+}
+m_startPageDate = new Date();
+var m_pageCompletelyBuilt = false;
+var m_fillTextIdListeners = [];
+var m_flagResize = true;
+var m_centralContextMenu =false;
+function registerFillTextIdListener(listener)
+{
+m_fillTextIdListeners.push(listener);
+}
+</script>
+<table id='JUSTLOADING' style='table-layout: fixed;z-index: 100;cursor: progress; position: absolute; left: 0; top: 0; width: 100%; height: 100%' class='PAGEBody'>
+<tr><td align="center" valign="middle" class='FLASHPageSwitch'>&nbsp;</td></tr>
+</table>
+<table id='THISPAGE' cellspacing='0' cellpadding='0'  style='table-layout: auto;width:100%;height:100%;display:none'>
+<tr id="TITLEBARTITLEBARTR"  style=" ">
+<td colspan='50' width='100%' height='0' align='center'>
+<table width='100%' cellspacing=0 cellpadding=0 class="TITLEBARTable">
+<tr>
+<td width='100%'>
+<table id="TITLEBARTITLEBAR" width="100%" cellspacing=2 cellpadding=0 style='table-layout: fixed'>
+<tr>
+<td width="100%" class="TDAroundControl" >
+<div nowrap="true" class="TITLEBARCell" style="overflow-x: hidden;">&nbsp;<span id="$2">$lc.titlebar.text</span>&nbsp;</div>
+</td>
+</tr>
+</table>
+</td>
+<td width=0>
+<table width=0 cellspacing=0 cellpadding=0>
+<tr>
+<td id='TITLEBAR2CLOSE' title="$closePage" valign='middle' onmouseenter='if (C.checkIO() == false) return; C.CL().C_rollinIconROLLOVER(this);' onmouseleave='this.className = "ICONImage";' onclick='closePage2()'><div class='TITLEBARCellClose'>&nbsp;</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td  colspan='50' width='100%' height='100%' valign='top' >
+<div id='PAGEDIV3' style='width: 100%; height: 100%;overflow: auto;padding:0 3px 0 3px;'>
+<table width="100%" style='height:100%;' cellspacing="0" cellpadding="0" >
+<tr id='TRAREA4'>
+<td id='TDAREA4' colspan='50' width='100%'  valign='top' class='TDAroundControl' style='padding-top:3px'>
+<table cellspacing=0 cellpadding=0 class="AREATableOnTop" style='width:100%;'>
+<tr  onclick='toggleArea4(true);' style='cursor:pointer'>
+<td class='TDAroundControl' height='1px'>
+<table cellspacing=0 cellpadding=0 class='AREATableHeader'>
+<tr class="AREATitleRow" id='$T4' title="">
+<td><div id='AREALTC_4' class="AREALeftFromTitleCell" ></div></td>
+<td align = "left" valign="middle" nowrap='true' class="AREATitleCell" >
+<table cellspacing=0 cellpadding=0>
+<tr>
+<td></td>
+<td align = "left" valign="middle" nowrap='true' class="AREALinks">
+<a tabindex='1' ><span id='$4'>$lc.selectProject</span></a>
+</td>
+</tr>
+</table>
+</td>
+<td style='font-size:1px;height:100%'><div class="AREARightFromTitleCell" ></div></td>
+<td style='font-size:1px;width:100%;height:100%' valign='middle'><div class="AREARightFromTitleCellRemaining" ><table width='100%'><tr><td width='100%' style='font-size:1px'>&nbsp;</td><td><span id='RWH_SPAN_4' valign='middle' style='font-size:10px;height:100%;margin-right:6px'  class="AREAToggleImg" >&nbsp;&nbsp;&nbsp;</span></td></tr></table></div></td><td style='font-size:1px;height:100%'><div class="AREARightTopCell" ></div></td></tr>
+</table>
+</td>
+</tr>
+<tr>
+<td >
+<div id='AREADIV4' class="AREATableContent" style='padding:0 5px 0 5px;width:100%;'>
+<table border=0 cellspacing='0' cellpadding='0' width='100%' >
+<tr><td height="3px"></td></tr>
+<tr id='ITR5'  >
+<td   valign='top' colspan='50' class='TDAroundControl'  height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 ><tr>
+<td id='TD6'    colspan=1 rowspan=1 width='100px'  class="LABELCellPlainText" style=" ;width:100px"  valign='middle'><div id="DIV6"  class="LABELDivText" style=" ;width:100px"><span id='$6'>$lc.project</span>
+</div></td>
+<td  width='250px'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><table cellspacing=0 cellpadding=0 width='250px' style='table-layout: fixed'><tr><td width='100%'><input id="F_7" name="CC" class='FIELDInputEdit' data-testtoolid='project' type="text"    style=" width:100%;"></td><td valign="middle" width="16px"><div id="FIC_7"  onmouseup="C.reactOnValueHelpFIELD(CF_7,event);" style="background-repeat:no-repeat; width:16px;"><img width='16px' src='../HTMLBasedGUI/general/nothing.gif'></div></td></tr></table></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style=' ' ><td height="4px" class='TDAroundControl' ></td></tr>
+<tr id='ITR9'  >
+<td   valign='top' colspan='50' class='TDAroundControl'  height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 ><tr>
+<td id='HD10' class='TDAroundControl' style='font-size:1px' width='100px'><div style='font-size:1px;height:1px;width:100px'></div></td>
+<td id="TDB11"  width='250px' colspan=1 rowspan=1 class='TDAroundControl' align='left' valign='middle' >
+<button type="button" id="B_11" data-testtoolid='showAllLayoutFiles' style="width:250px; "  name="CC" class="BUTTONInput">$1$ls.showLayouts$2$</button>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td height="3px"></td></tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td colspan='50' width='100%' height='100%' valign='top' class='TDAroundControl' style='padding-top: 3px'>
+<div id='D12' style='height:100%'>
+<table  id='TA_12' cellspacing="0" cellpadding="0" border="0" width='100%' height='100%' class='TABAREATable'>
+<tr>
+<td class='TDAroundControl' width="100%">
+<table cellspacing="0" cellpadding="4" border=0 width='100%'>
+<tr>
+<td tabindex='1' nowrap=true id="TPTD112" style='cursor:pointer;text-decoration:none; padding-bottom:4px; padding-top:4px' class='TABAREACellSelectedFirst' onkeypress="C.clickPageTABAREA(C_12, 0)"  onclick="C.clickPageTABAREA(C_12, 0)" title="" data-testtoolid='lc.tabarea.layouts'><span id='$12_1'>$lc.tabarea.layouts</span>&nbsp;&nbsp;</td>
+<td tabindex='1' nowrap=true id="TPTD212" style='cursor:pointer;text-decoration:none; padding-bottom:4px; padding-top:4px' class='TABAREACellUnselected' onkeypress="C.clickPageTABAREA(C_12, 1)" onclick="C.clickPageTABAREA(C_12, 1)" title="" data-testtoolid='lc.tabarea..log'><span id='$12_2'>$lc.tabarea..log</span>&nbsp;&nbsp;</td>
+<td tabindex='1' nowrap=true id="TPTD312" style='cursor:pointer;text-decoration:none; padding-bottom:4px; padding-top:4px' class='TABAREACellUnselected' onkeypress="C.clickPageTABAREA(C_12, 2)" onclick="C.clickPageTABAREA(C_12, 2)" title="" data-testtoolid='lc.tabarea.result'><span id='$12_3'>$lc.tabarea.result</span>&nbsp;&nbsp;</td>
+<td width='100%' class='TABAREACellRemaining'>&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td width="100%" height="100%">
+<div id='DD12' style='height:100%'>
+<table class='TABAREACellSubpages' style=' ' cellpadding=0 cellspacing=0 height='100%' width='100%'>
+<tr>
+<td width="100%" height="100%" valign='top' style='padding:5px 3px 5px 3px '>
+<table id="idPage1" width="100%" height="100%" border="0" cellspacing="0" cellpadding="0" style=""  class='TABPAGETable'>
+<tr id='ITR14'  >
+<td   valign='top' colspan='50' class='TDAroundControl' width='100%' height='100%'>
+<div id='ITRD14'  style='width: 100%; height:100%;'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 width='100%'><tr>
+<td class='TDAroundControl' height='100%' width='100%'>
+<div id='TGRI_15' style='width: 100%; height: 100%'>
+<table onmousewheel='reactOnMouseWheel15(event);' cellspacing=0 cellpadding=0 style='table-layout: auto' width='100%' height='100%'>
+<tr>
+<td height='100%'  >
+<div id='TGRII_15' style='width: 100%; height: 100%; overflow: hidden'>
+<table cellpadding=0 cellspacing=0 width='100%' height='100%' style='table-layout: fixed'>
+<tr>
+<td width='100%' height='100%' colspan=1 rowspan=1 class='TDAroundControl'>
+<div onscroll='reactOnScroll15();'  id='TEXTGRIDDIV15' style='width:100%;height: 100%;overflow-x: hidden;overflow-y: hidden;' class='TEXTGRIDDiv' onresize='reactOnResize15()' onkeydown='reactOnKeyDown15(event);' oncontextmenu='C.parent.CASA_event = event; onContextMenuRequest15(null);event.stopPropagation(); return false;'>
+<span id='TEXTGRID15'></span></div></td>
+<script>
+var vColInfos15;
+function reactOnFillTextIds15() { C.reactOnFillTextIdsTEXTGRID(C_15); }
+function reactOnModelUpdate15(model) { C.reactOnModelUpdateTEXTGRID(C_15); }
+function selectRow15(rowIndex, ctrlKey, shiftKey, suppressSubmit) { C.selectRowTEXTGRID(C_15, rowIndex, ctrlKey, shiftKey, suppressSubmit); }
+function reactOnClick15(rowIndex) { C.reactOnClickTEXTGRID(C_15, rowIndex); }
+function reactOnDblClick15(rowIndex) { C.reactOnDblClickTEXTGRID(C_15, rowIndex); }
+function reactOnMouseDown15(evt) { return C.reactOnMouseDownTEXTGRID(C_15,evt); }
+function reactOnMouseUp15(evt) { return C.reactOnMouseUpTEXTGRID(C_15,evt);}
+function reactOnDblClickHeader15(evt) { return C.reactOnDoubleClickHeaderTEXTGRID(C_15,evt);}
+function reactOnResize15() { C.reactOnResizeTEXTGRID(C_15,C_DIV15); }
+function onContextMenuRequest15(rowIndex) { C.onContextMenuRequestROLLOVER(C_15, rowIndex); }
+function selectAllLines15() { C.selectAllLinesTEXTGRID(C_15); }
+function reactOnResizeMoz15() { C.reactOnResizeMozTEXTGRID(C_15,C_DIV15); }
+function reactOnKeyDown15(e) {if (e.keyCode == 40 && typeof C.onkey40TEXTGRID == 'function') C.onkey40TEXTGRID(C_15, C_DIV15, e); else if (e.keyCode == 38 && typeof C.onkey38TEXTGRID == 'function') C.onkey38TEXTGRID(C_15, C_DIV15, e); else if ((e.keyCode == 32 || e.keyCode == 13)  && typeof C.onkey32TEXTGRID == 'function') C.onkey32TEXTGRID(C_15, e); else if (e.keyCode == 33 && typeof C.onkey33TEXTGRID == 'function') C.onkey33TEXTGRID(C_15, C_DIV15, e); else if (e.keyCode == 34 && typeof C.onkey34TEXTGRID == 'function') C.onkey34TEXTGRID(C_15, C_DIV15, e);}
+function reactOnScroll15() { C_DIV15.scrollTop = 0; }
+</script>
+</tr>
+</table>
+</div>
+</td>
+<td height='100%' class='TDAroundControl'>
+<div id='TGRIII_15' style='height:100%'>
+<div id="IDO_10015" class="VSCROLLBAROuterDiv" style="width:18px;height:100%;overflow-y: auto" onscroll="reactOnScroll10015();" onkeydown="reactOnKeyDown10015(event);">
+<div id='ID_10015' style='width:1px;height:10%'>
+<a name='PC'></a></div>
+</div>
+<script>
+function reactOnModelUpdate10015(model) { C.reactOnModelUpdateVSCROLLBAR(C_10015,CID_10015); }
+function reactOnScroll10015() { return C.reactOnScrollVSCROLLBAR(C_10015,CID_10015); }
+function reactOnMouseUp10015() { return C.reactOnMouseUpVSCROLLBAR(C_10015,CID_10015); }
+function scrollUp10015(delta) { return C.reactOnScrollUpVSCROLLBAR(C_10015,CID_10015,delta); }
+function scrollDown10015(delta) { return C.reactOnScrollDownVSCROLLBAR(C_10015,CID_10015,delta); }
+function scrollPageUp10015() { C.reactOnScrollPageUpVSCROLLBAR(C_10015,CID_10015); }
+function scrollPageDown10015() { C.reactOnScrollPageDownVSCROLLBAR(C_10015,CID_10015); }
+function mozDragReact10015(evt) { C.mozDragReactVSCROLLBAR(C_10015,mozDragReact10015,evt); }
+function reactOnKeyDown10015(evt) { C.reactOnKeyDownSCROLLBAR(C_10015,mozDragReact10015,evt); }
+</script>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<script>
+function reactOnMouseWheel15(ctrlEvent) { if (ctrlEvent.shiftKey) C.CL().cancelEvent(ctrlEvent); else {var scrolled; var scrollUp=true; if (ctrlEvent.detail && ctrlEvent.detail>0)scrollUp=false;else if (ctrlEvent.wheelDelta && ctrlEvent.wheelDelta<0)scrollUp=false;if (!scrollUp) scrolled=scrollDown10015(2);else scrolled=scrollUp10015(2); if(scrolled) C.CL().cancelEvent(ctrlEvent);} }
+</script>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr style=' ' ><td height="3px" class='TDAroundControl' ></td></tr>
+<tr id='ITR19'  >
+<td   valign='top' colspan='50' class='TDAroundControl'  height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 ><tr>
+<td id="TDB20"  width=0 colspan=1 rowspan=1 class='TDAroundControl' align='left' valign='middle' >
+<button type="button" id="B_20" data-testtoolid='onCheckSelectedLayouts' style=" "  name="CC" class="BUTTONInput">$1$lc.checkLayout$2$</button>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table id="idPage2" width="100%" height="100%" border="0" cellspacing="0" cellpadding="0" style=""  class='TABPAGETable'>
+<tr id='ITR22'  >
+<td   valign='top' colspan='50' class='TDAroundControl' width='100%' height='100%'>
+<div id='ITRD22'  style='width: 100%; height:100%;'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 width='100%'><tr>
+<td  style='width: 100%;height: 100%;' rowspan=1 colspan=1 class='TDAroundControl'><textarea data-testtoolid='log'    onfocus='rtb23(event);' onblur='rtb23(event);' onkeydown='reactOnKeyDown23(event);'  onchange="transferChange23();" id="FIELD23" class="TEXTTextArea" style=" ;width: 100%;height: 99%"></textarea>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+<table id="idPage3" width="100%" height="100%" border="0" cellspacing="0" cellpadding="0" style=""  class='TABPAGETable'>
+<tr id='ITR25'  >
+<td   valign='top' colspan='50' class='TDAroundControl'  height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 ><tr>
+<td id='CBTD_26' width='100px' class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<table id='CBTABLE_26' cellspacing=0 cellpadding=0 width='100px' title=""><tr><td><input  type="checkbox" data-testtoolid='errorCheck' id="CB_26" name="CC" class="CHECKBOXEdit" title="" >
+</td><td id='CBHDIST_26' onclick='C.reactCHECKBOXInternal(CCB_26,event)'><span style=' '></span></td><td id="CBLABEL_26" width='100%' nowrap=true onclick='C.reactCHECKBOXInternal(CCB_26,event)' class="CHECKBOXEdit" style=" null">ERROR</td></tr></table></td>
+<td id='CBTD_27' width='100px' class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<table id='CBTABLE_27' cellspacing=0 cellpadding=0 width='100px' title=""><tr><td><input  type="checkbox" data-testtoolid='warningCheck' id="CB_27" name="CC" class="CHECKBOXEdit" title="" >
+</td><td id='CBHDIST_27' onclick='C.reactCHECKBOXInternal(CCB_27,event)'><span style=' '></span></td><td id="CBLABEL_27" width='100%' nowrap=true onclick='C.reactCHECKBOXInternal(CCB_27,event)' class="CHECKBOXEdit" style=" null">WARNING</td></tr></table></td>
+<td id='CBTD_28' width='150px' class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<table id='CBTABLE_28' cellspacing=0 cellpadding=0 width='150px' title=""><tr><td><input  type="checkbox" data-testtoolid='performanceCheck' id="CB_28" name="CC" class="CHECKBOXEdit" title="" >
+</td><td id='CBHDIST_28' onclick='C.reactCHECKBOXInternal(CCB_28,event)'><span style=' '></span></td><td id="CBLABEL_28" width='100%' nowrap=true onclick='C.reactCHECKBOXInternal(CCB_28,event)' class="CHECKBOXEdit" style=" null">PERFORMANCE</td></tr></table></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr id='ITR29'  >
+<td   valign='top' colspan='50' class='TDAroundControl' width='100%' height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 width='100%'><tr>
+<td class='TDAroundControl'  width='100%'>
+<table onmousewheel='reactOnMouseWheel30(event);' cellspacing=0 cellpadding=0 style='table-layout: auto' width='100%' >
+<tr>
+<td height='100%'  >
+<table cellpadding=0 cellspacing=0 width='100%' height='100%' style='table-layout: fixed'>
+<tr>
+<td width='100%'  colspan=1 rowspan=1 class='TDAroundControl'>
+<div onscroll='reactOnScroll30();'  id='TEXTGRIDDIV30' style='width:100%;overflow-x: scroll;overflow-y: hidden;' class='TEXTGRIDDiv' onresize='reactOnResize30()' onkeydown='reactOnKeyDown30(event);' oncontextmenu='C.parent.CASA_event = event; onContextMenuRequest30(null);event.stopPropagation(); return false;'>
+<span id='TEXTGRID30'></span></div></td>
+<script>
+var vColInfos30;
+function reactOnFillTextIds30() { C.reactOnFillTextIdsTEXTGRID(C_30); }
+function reactOnModelUpdate30(model) { C.reactOnModelUpdateTEXTGRID(C_30); }
+function selectRow30(rowIndex, ctrlKey, shiftKey, suppressSubmit) { C.selectRowTEXTGRID(C_30, rowIndex, ctrlKey, shiftKey, suppressSubmit); }
+function reactOnClick30(rowIndex) { C.reactOnClickTEXTGRID(C_30, rowIndex); }
+function reactOnDblClick30(rowIndex) { C.reactOnDblClickTEXTGRID(C_30, rowIndex); }
+function reactOnMouseDown30(evt) { return C.reactOnMouseDownTEXTGRID(C_30,evt); }
+function reactOnMouseUp30(evt) { return C.reactOnMouseUpTEXTGRID(C_30,evt);}
+function reactOnDblClickHeader30(evt) { return C.reactOnDoubleClickHeaderTEXTGRID(C_30,evt);}
+function reactOnResize30() { C.reactOnResizeTEXTGRID(C_30,C_DIV30); }
+function onContextMenuRequest30(rowIndex) { C.onContextMenuRequestROLLOVER(C_30, rowIndex); }
+function selectAllLines30() { C.selectAllLinesTEXTGRID(C_30); }
+function reactOnResizeMoz30() { C.reactOnResizeMozTEXTGRID(C_30,C_DIV30); }
+function reactOnKeyDown30(e) {if (e.keyCode == 40 && typeof C.onkey40TEXTGRID == 'function') C.onkey40TEXTGRID(C_30, C_DIV30, e); else if (e.keyCode == 38 && typeof C.onkey38TEXTGRID == 'function') C.onkey38TEXTGRID(C_30, C_DIV30, e); else if ((e.keyCode == 32 || e.keyCode == 13)  && typeof C.onkey32TEXTGRID == 'function') C.onkey32TEXTGRID(C_30, e); else if (e.keyCode == 33 && typeof C.onkey33TEXTGRID == 'function') C.onkey33TEXTGRID(C_30, C_DIV30, e); else if (e.keyCode == 34 && typeof C.onkey34TEXTGRID == 'function') C.onkey34TEXTGRID(C_30, C_DIV30, e);}
+function reactOnScroll30() { C_DIV30.scrollTop = 0; }
+</script>
+</tr>
+</table>
+</td>
+<td height='100%' class='TDAroundControl'>
+<div id="IDO_10030" class="VSCROLLBAROuterDiv" style="width:18px;height:100%;overflow-y: auto" onscroll="reactOnScroll10030();" onkeydown="reactOnKeyDown10030(event);">
+<div id='ID_10030' style='width:1px;height:10%'>
+<a name='PC'></a></div>
+</div>
+<script>
+function reactOnModelUpdate10030(model) { C.reactOnModelUpdateVSCROLLBAR(C_10030,CID_10030); }
+function reactOnScroll10030() { return C.reactOnScrollVSCROLLBAR(C_10030,CID_10030); }
+function reactOnMouseUp10030() { return C.reactOnMouseUpVSCROLLBAR(C_10030,CID_10030); }
+function scrollUp10030(delta) { return C.reactOnScrollUpVSCROLLBAR(C_10030,CID_10030,delta); }
+function scrollDown10030(delta) { return C.reactOnScrollDownVSCROLLBAR(C_10030,CID_10030,delta); }
+function scrollPageUp10030() { C.reactOnScrollPageUpVSCROLLBAR(C_10030,CID_10030); }
+function scrollPageDown10030() { C.reactOnScrollPageDownVSCROLLBAR(C_10030,CID_10030); }
+function mozDragReact10030(evt) { C.mozDragReactVSCROLLBAR(C_10030,mozDragReact10030,evt); }
+function reactOnKeyDown10030(evt) { C.reactOnKeyDownSCROLLBAR(C_10030,mozDragReact10030,evt); }
+</script>
+</td>
+</tr>
+</table>
+</td>
+<script>
+function reactOnMouseWheel30(ctrlEvent) { if (ctrlEvent.shiftKey) C.CL().cancelEvent(ctrlEvent); else {var scrolled; var scrollUp=true; if (ctrlEvent.detail && ctrlEvent.detail>0)scrollUp=false;else if (ctrlEvent.wheelDelta && ctrlEvent.wheelDelta<0)scrollUp=false;if (!scrollUp) scrolled=scrollDown10030(2);else scrolled=scrollUp10030(2); if(scrolled) C.CL().cancelEvent(ctrlEvent);} }
+</script>
+</tr>
+</table>
+</td>
+</tr>
+<tr style=' ' ><td height="8px" class='TDAroundControl' ></td></tr>
+<tr id='ITR35'  >
+<td   valign='top' colspan='50' class='TDAroundControl' width='100%' height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 width='100%'><tr>
+<td class='TDAroundControl'  width='100%'>
+<table onmousewheel='reactOnMouseWheel36(event);' cellspacing=0 cellpadding=0 style='table-layout: auto' width='100%' >
+<tr>
+<td height='100%'  >
+<table cellpadding=0 cellspacing=0 width='100%' height='100%' style='table-layout: fixed'>
+<tr>
+<td width='100%'  colspan=1 rowspan=1 class='TDAroundControl'>
+<div onscroll='reactOnScroll36();'  id='TEXTGRIDDIV36' style='width:100%;overflow-x: hidden;overflow-y: hidden;' class='TEXTGRIDDiv' onresize='reactOnResize36()' onkeydown='reactOnKeyDown36(event);' oncontextmenu='C.parent.CASA_event = event; onContextMenuRequest36(null);event.stopPropagation(); return false;'>
+<span id='TEXTGRID36'></span></div></td>
+<script>
+var vColInfos36;
+function reactOnFillTextIds36() { C.reactOnFillTextIdsTEXTGRID(C_36); }
+function reactOnModelUpdate36(model) { C.reactOnModelUpdateTEXTGRID(C_36); }
+function selectRow36(rowIndex, ctrlKey, shiftKey, suppressSubmit) { C.selectRowTEXTGRID(C_36, rowIndex, ctrlKey, shiftKey, suppressSubmit); }
+function reactOnClick36(rowIndex) { C.reactOnClickTEXTGRID(C_36, rowIndex); }
+function reactOnDblClick36(rowIndex) { C.reactOnDblClickTEXTGRID(C_36, rowIndex); }
+function reactOnMouseDown36(evt) { return C.reactOnMouseDownTEXTGRID(C_36,evt); }
+function reactOnMouseUp36(evt) { return C.reactOnMouseUpTEXTGRID(C_36,evt);}
+function reactOnDblClickHeader36(evt) { return C.reactOnDoubleClickHeaderTEXTGRID(C_36,evt);}
+function reactOnResize36() { C.reactOnResizeTEXTGRID(C_36,C_DIV36); }
+function onContextMenuRequest36(rowIndex) { C.onContextMenuRequestROLLOVER(C_36, rowIndex); }
+function selectAllLines36() { C.selectAllLinesTEXTGRID(C_36); }
+function reactOnResizeMoz36() { C.reactOnResizeMozTEXTGRID(C_36,C_DIV36); }
+function reactOnKeyDown36(e) {if (e.keyCode == 40 && typeof C.onkey40TEXTGRID == 'function') C.onkey40TEXTGRID(C_36, C_DIV36, e); else if (e.keyCode == 38 && typeof C.onkey38TEXTGRID == 'function') C.onkey38TEXTGRID(C_36, C_DIV36, e); else if ((e.keyCode == 32 || e.keyCode == 13)  && typeof C.onkey32TEXTGRID == 'function') C.onkey32TEXTGRID(C_36, e); else if (e.keyCode == 33 && typeof C.onkey33TEXTGRID == 'function') C.onkey33TEXTGRID(C_36, C_DIV36, e); else if (e.keyCode == 34 && typeof C.onkey34TEXTGRID == 'function') C.onkey34TEXTGRID(C_36, C_DIV36, e);}
+function reactOnScroll36() { C_DIV36.scrollTop = 0; }
+</script>
+</tr>
+</table>
+</td>
+<td height='100%' class='TDAroundControl'>
+<div id="IDO_10036" class="VSCROLLBAROuterDiv" style="width:18px;height:100%;overflow-y: auto" onscroll="reactOnScroll10036();" onkeydown="reactOnKeyDown10036(event);">
+<div id='ID_10036' style='width:1px;height:10%'>
+<a name='PC'></a></div>
+</div>
+<script>
+function reactOnModelUpdate10036(model) { C.reactOnModelUpdateVSCROLLBAR(C_10036,CID_10036); }
+function reactOnScroll10036() { return C.reactOnScrollVSCROLLBAR(C_10036,CID_10036); }
+function reactOnMouseUp10036() { return C.reactOnMouseUpVSCROLLBAR(C_10036,CID_10036); }
+function scrollUp10036(delta) { return C.reactOnScrollUpVSCROLLBAR(C_10036,CID_10036,delta); }
+function scrollDown10036(delta) { return C.reactOnScrollDownVSCROLLBAR(C_10036,CID_10036,delta); }
+function scrollPageUp10036() { C.reactOnScrollPageUpVSCROLLBAR(C_10036,CID_10036); }
+function scrollPageDown10036() { C.reactOnScrollPageDownVSCROLLBAR(C_10036,CID_10036); }
+function mozDragReact10036(evt) { C.mozDragReactVSCROLLBAR(C_10036,mozDragReact10036,evt); }
+function reactOnKeyDown10036(evt) { C.reactOnKeyDownSCROLLBAR(C_10036,mozDragReact10036,evt); }
+</script>
+</td>
+</tr>
+</table>
+</td>
+<script>
+function reactOnMouseWheel36(ctrlEvent) { if (ctrlEvent.shiftKey) C.CL().cancelEvent(ctrlEvent); else {var scrolled; var scrollUp=true; if (ctrlEvent.detail && ctrlEvent.detail>0)scrollUp=false;else if (ctrlEvent.wheelDelta && ctrlEvent.wheelDelta<0)scrollUp=false;if (!scrollUp) scrolled=scrollDown10036(2);else scrolled=scrollUp10036(2); if(scrolled) C.CL().cancelEvent(ctrlEvent);} }
+</script>
+</tr>
+</table>
+</td>
+</tr>
+<tr style=' ' ><td height="100%" class='TDAroundControl' ></td></tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td></tr>
+<tr style=' ' ><td height="3px" class='TDAroundControl' ></td></tr>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan='50' id="STATUSBARSTATUSBAR" class='TDAroundControl' width='100%' height='0' align='center'>
+<table width="100%" cellspacing="0" cellpadding="0" class="STATUSBARTable">
+<tr>
+<td class='TDAroundControl'>&nbsp;&nbsp;</td><td class='TDAroundControl' valign="middle"><span id='STATUSBARIMAGE41'></span></td>
+<td class='TDAroundControl'><div class='STATUSBARDivAfterIcon'></div></td>
+<td  nowrap='true' width="100%" class="STATUSBARCell" valign="middle">
+<span id='STATUSBAR41'></span>
+</td></tr>
+</table>
+</td>
+</tr>
+</table>
+<script>
+var CasaPAGE = document.getElementById('THISPAGE');
+var CasaLOADING = document.getElementById('JUSTLOADING');
+var m_dropInfo = null;
+var m_dragMode = false;
+var m_dragId = null;
+var m_dragType = null;
+var m_dropMethod = null;
+var m_blockIO = true;
+var m_blockIOByFlush = false;
+var m_startInitDate;
+var m_endInitDate;
+var m_resizeListeners = [];
+var m_helpIdPAGE = '';
+var C;
+var m_roi_firstusage;
+function reactOnInit(firstusage)
+{
+if (firstusage == undefined) firstusage = true;
+m_roi_firstusage = firstusage;if (parent.m_centralLib == null) { document.location.href = '../HTMLBasedGUI/general/aboutBlank.html'; return; }
+C = csciframe;
+CL = C.CL();
+m_resizeListeners = [];
+m_flagResize = true;
+m_startInitDate = new Date();
+C.addLogMessage('page.reactOnInit started - showPage date = ' + parent.m_showPageDate.getSeconds() + '/' + parent.m_showPageDate.getMilliseconds());
+C.addLogMessage('loading page started =' + m_perfPageLoadStart.getSeconds() + '/' + m_perfPageLoadStart.getMilliseconds());
+C.initGlobals();
+m_pageCompletelyBuilt = false;
+m_fillTextIdListeners = [];
+m_dragMode = false;
+m_dragId = null;
+m_dropMethod = null;
+m_blockIO = true;
+m_blockIOByFlush = false;
+var sid = parent.getCurrentSessionId();
+var pid = parent.getCurrentProcessId();
+var mid = parent.getCurrentModelId();
+var pageInitParam = parent.pageInitParam;
+if (pageInitParam == null) pageInitParam = '';
+C.setPageName('CIS_TOOLS');
+if (firstusage) generateCCs();
+if (firstusage) C_2 = gebid('TITLEBARTITLEBARTR');
+if (firstusage) CL.iccTITLEBAR(C,C_2,N,'2',N,N,N,N,N,N,N,'endProcess',N, N,'true');
+if (firstusage) C.addMLSpan(gebid('$2'));
+if (firstusage) C.addMLImage(gebid('TITLEBAR2CLOSE'));
+if (firstusage) CTD_6 = document.getElementById('TD6');
+if (firstusage) C_6 = document.getElementById('$6');
+if (firstusage) C.addMLTab(C_6, rohk6);
+if (firstusage) CF_7.CASA_fic = gebid("FIC_7");
+if (firstusage) C.iccFIELD(CF_7,romu7,C.reactFIELD,'project',N,N,'server',N,N,'openIdValueCombo',N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'5',N,N,N,N,N,N,false,N,N,true,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccBUTTON(CB_11,null,rohk11,C.reactBUTTON,N,N,N,'showAllLayoutFiles',N,N,N,N,N,'',N,'','1',N,N,N,N,N,N,N,N,N);
+if (firstusage) C_4 = document.getElementById('AREADIV4');
+C.registerListener(reactOnModelUpdate4);
+if (firstusage) CSPAN_4 = gebid('RWH_SPAN_4');
+C_4.CASA_stylevariant = '';
+if (firstusage) C.iccAREA(C_4, 4,N,'false',N,N,N,CSPAN_4,N,N,N,N,'true');
+if (firstusage) C.addMLSpan(gebid('$4'));
+C.addAreaTabIndexInfo(4,'lc.selectProject',1,null);
+if (firstusage) C_15 = document.getElementById('TEXTGRID15');
+if (firstusage) C_DIV15 = document.getElementById('TEXTGRIDDIV15');
+if (firstusage) C.initCasaControlTEXTGRID(C_15,C_DIV15,reactOnMouseUp15);
+C.addMozDiv(C_DIV15);
+if (firstusage) C.registerListener(reactOnModelUpdate15);
+C_15.CASA_arrayprop = 'lines.items';
+C_15.CASA_displayitemsprop = 'lines.dspIts';
+C_15.CASA_id = '15';
+C_15.CASA_height = '100%';
+C_15.CASA_selectprop = 'selected';
+C_15.CASA_topindexprop = 'lines.topIndex';
+C_15.CASA_param1prop = 'lines.param1';
+C_15.CASA_lastselectprop = 'lines.lastSelectedIndex';
+C_15.CASA_singleselect = false;
+C_15.CASA_dblclickonreturn = false;
+C_15.CASA_ondblclickmethod = 'showLayoutWithError';
+C_15.CASA_backgroundstyle = '';
+C_15.CASA_rowcount = 40;
+C_15.CASA_rowcountprop = 'lines.rowCount';
+C_15.CASA_changeindexprop = 'lines.changeIndex';
+C_15.CASA_personalizable = 'true';
+C_15.CASA_withselectioncolumn = true;
+C_15.CASA_selectalllinesprop = 'lines.selectAllLines';
+C_15.CASA_columnsequenceprop = 'lines.columnSequenceAsCSVString';
+C_15.CASA_sortsequenceprop = 'lines.sortInfo.propertyIndexSortItemsAsCSVString';
+C_15.CASA_groupcolumnsequenceprop = 'lines.groupColumnSequenceAsCSVString';
+C_15.CASA_stylevariant = '';
+C_15.CASA_sortprop = 'lines.sortInfo';
+C_15.CASA_singleselectcontextmenu = true;
+C_15.CASA_tabindex = null;
+C_15.CASA_cti = 1;
+C.applyCasaTabIndexFor(C_15, C_DIV15, 'TEXTGRIDSSS2');
+C_15.CASA_colinfos = [];
+var vo;
+vo = new Object();
+vo.columntype = '0';
+vo.textid = 'lc.textgrid.filename';
+vo.property = 'name';
+vo.width = '75%';
+vo.decimaldigits = -1;
+vo.textstyleprop = 'fileNameStyle';
+vo.cuttextline = true;
+vo.groupby = false;
+vo.sortorder = '-1';
+vo.sortascending = 'true';
+C_15.CASA_colinfos[0] = vo;
+vo = new Object();
+vo.columntype = '0';
+vo.textid = 'relc.column1';
+vo.property = 'xmlChange';
+vo.width = '25%';
+vo.datatype = 'timestamp';
+vo.decimaldigits = -1;
+vo.textstyleprop = 'xmlStyle';
+vo.cuttextline = true;
+vo.groupby = false;
+vo.sortorder = '-1';
+vo.sortascending = 'true';
+C_15.CASA_colinfos[1] = vo;
+addResizeListener(reactOnResizeMoz15);
+registerFillTextIdListener(reactOnFillTextIds15);
+C_15.CASA_testtoolid = 'lines.items';
+C.addMozDiv(document.getElementById('TGRIII_15'));C.addMozDiv(document.getElementById('TGRII_15'));C.addMozDiv(document.getElementById('TGRI_15'));C_15.CASA_collectionselectprop = 'lines.selectIndex';
+C_15.CASA_collectionshiftselectprop = 'lines.shiftSelectIndex';
+C_15.CASA_collectionctrlselectprop = 'lines.ctrlSelectIndex';
+C_10015 = CID_10015.parentNode;
+if (C_10015 == null) C_10015 = gebid('IDO_10015');
+C.iccVSCROLLBAR(C_10015,CID_10015,reactOnModelUpdate10015,'10015','lines.topIndex','lines.dspSize','lines.rowCount',40,'scroll','lines.param1');
+C_15.CASA_vscrollbar = document.getElementById('IDO_10015');
+if (firstusage) { C_DIV15.addEventListener('DOMMouseScroll', reactOnMouseWheel15, false);
+C_DIV15.addEventListener('mousewheel', reactOnMouseWheel15, false);}
+C_15.CASA_griddataprop = 'lines';
+if (firstusage) CD_14 = document.getElementById('ITRD14');
+C.addMozDiv(CD_14);
+if (firstusage) C.iccBUTTON(CB_20,null,rohk20,C.reactBUTTON,N,N,N,'onCheckSelectedLayouts',N,N,N,N,N,'',N,'','1',N,N,N,N,N,N,N,N,N);
+if (firstusage) C_23 = document.getElementById('FIELD23');
+C_23.CASA_cti = '1';
+if (firstusage) C.initCasaControlTEXT(C_23);
+C.registerListener(reactOnModelUpdate23);
+C_23.CASA_valueprop = 'log';
+C.addMozDiv(C_23);
+if (firstusage) CD_22 = document.getElementById('ITRD22');
+C.addMozDiv(CD_22);
+if (firstusage) CBL_26 = gebid('CBLABEL_26');
+if (firstusage) CCB_26.CASA_hdist = gebid('CBHDIST_26');
+if (firstusage) CCB_26.CASA_table = gebid('CBTABLE_26');
+if (firstusage) C.iccCHECKBOX(CCB_26,CBL_26,romu26,C.reactCHECKBOX,'errorCheck','false',N,N,'showErrors',N,'1',N,N,N,N);
+if (firstusage) CCB_26.CASA_td = gebid('CBTD_26');
+if (firstusage) CBL_27 = gebid('CBLABEL_27');
+if (firstusage) CCB_27.CASA_hdist = gebid('CBHDIST_27');
+if (firstusage) CCB_27.CASA_table = gebid('CBTABLE_27');
+if (firstusage) C.iccCHECKBOX(CCB_27,CBL_27,romu27,C.reactCHECKBOX,'warningCheck','false',N,N,'showWarinings',N,'1',N,N,N,N);
+if (firstusage) CCB_27.CASA_td = gebid('CBTD_27');
+if (firstusage) CBL_28 = gebid('CBLABEL_28');
+if (firstusage) CCB_28.CASA_hdist = gebid('CBHDIST_28');
+if (firstusage) CCB_28.CASA_table = gebid('CBTABLE_28');
+if (firstusage) C.iccCHECKBOX(CCB_28,CBL_28,romu28,C.reactCHECKBOX,'performanceCheck','false',N,N,'showPerformance',N,'1',N,N,N,N);
+if (firstusage) CCB_28.CASA_td = gebid('CBTD_28');
+if (firstusage) C_30 = document.getElementById('TEXTGRID30');
+if (firstusage) C_DIV30 = document.getElementById('TEXTGRIDDIV30');
+if (firstusage) C.initCasaControlTEXTGRID(C_30,C_DIV30,reactOnMouseUp30);
+if (firstusage) C.registerListener(reactOnModelUpdate30);
+C_30.CASA_arrayprop = 'resultLines.items';
+C_30.CASA_displayitemsprop = 'resultLines.dspIts';
+C_30.CASA_id = '30';
+C_30.CASA_selectprop = 'selected';
+C_30.CASA_topindexprop = 'resultLines.topIndex';
+C_30.CASA_param1prop = 'resultLines.param1';
+C_30.CASA_lastselectprop = 'resultLines.lastSelectedIndex';
+C_30.CASA_singleselect = true;
+C_30.CASA_dblclickonreturn = false;
+C_30.CASA_ondblclickmethod = 'onResultDblClick';
+C_30.CASA_backgroundstyle = '';
+C_30.CASA_rowcount = 10;
+C_30.CASA_rowcountprop = 'resultLines.rowCount';
+C_30.CASA_changeindexprop = 'resultLines.changeIndex';
+C_30.CASA_personalizable = 'true';
+C_30.CASA_withselectioncolumn = true;
+C_30.CASA_selectalllinesprop = 'resultLines.selectAllLines';
+C_30.CASA_columnsequenceprop = 'resultLines.columnSequenceAsCSVString';
+C_30.CASA_sortsequenceprop = 'resultLines.sortInfo.propertyIndexSortItemsAsCSVString';
+C_30.CASA_groupcolumnsequenceprop = 'resultLines.groupColumnSequenceAsCSVString';
+C_30.CASA_stylevariant = '';
+C_30.CASA_sortprop = 'resultLines.sortInfo';
+C_30.CASA_singleselectcontextmenu = true;
+C_30.CASA_tabindex = null;
+C_30.CASA_cti = 1;
+C.applyCasaTabIndexFor(C_30, C_DIV30, 'TEXTGRIDSSS2');
+C_30.CASA_colinfos = [];
+var vo;
+vo = new Object();
+vo.columntype = '0';
+vo.textid = 'lc.textgrid.lineNr';
+vo.property = 'lineNr';
+vo.width = '70px';
+vo.decimaldigits = -1;
+vo.textstyleprop = 'background';
+vo.cuttextline = false;
+vo.groupby = false;
+vo.sortorder = '-1';
+vo.sortascending = 'true';
+vo.celltitleprop = 'resultLinesTitles';
+C_30.CASA_colinfos[0] = vo;
+vo = new Object();
+vo.columntype = '0';
+vo.textid = 'lc.textgrid.errorMessage';
+vo.property = 'text';
+vo.width = '50%';
+vo.decimaldigits = -1;
+vo.textstyleprop = 'background';
+vo.cuttextline = true;
+vo.groupby = false;
+vo.sortorder = '-1';
+vo.sortascending = 'true';
+C_30.CASA_colinfos[1] = vo;
+vo = new Object();
+vo.columntype = '0';
+vo.textid = 'lc.textgrid.line';
+vo.property = 'lineData';
+vo.width = '100%';
+vo.decimaldigits = -1;
+vo.textstyleprop = 'background';
+vo.cuttextline = true;
+vo.straighttext = true;
+vo.groupby = false;
+vo.sortorder = '-1';
+vo.sortascending = 'true';
+C_30.CASA_colinfos[2] = vo;
+registerFillTextIdListener(reactOnFillTextIds30);
+C_30.CASA_testtoolid = 'resultLines.items';
+C.addMozDiv(document.getElementById('TGRII_30'));C.addMozDiv(document.getElementById('TGRI_30'));C_30.CASA_collectionselectprop = 'resultLines.selectIndex';
+C_30.CASA_collectionshiftselectprop = 'resultLines.shiftSelectIndex';
+C_30.CASA_collectionctrlselectprop = 'resultLines.ctrlSelectIndex';
+C_10030 = CID_10030.parentNode;
+if (C_10030 == null) C_10030 = gebid('IDO_10030');
+C.iccVSCROLLBAR(C_10030,CID_10030,reactOnModelUpdate10030,'10030','resultLines.topIndex','resultLines.dspSize','resultLines.rowCount',10,'scroll','resultLines.param1');
+C_30.CASA_vscrollbar = document.getElementById('IDO_10030');
+if (firstusage) { C_DIV30.addEventListener('DOMMouseScroll', reactOnMouseWheel30, false);
+C_DIV30.addEventListener('mousewheel', reactOnMouseWheel30, false);}
+C_30.CASA_griddataprop = 'resultLines';
+if (firstusage) C_36 = document.getElementById('TEXTGRID36');
+if (firstusage) C_DIV36 = document.getElementById('TEXTGRIDDIV36');
+if (firstusage) C.initCasaControlTEXTGRID(C_36,C_DIV36,reactOnMouseUp36);
+if (firstusage) C.registerListener(reactOnModelUpdate36);
+C_36.CASA_arrayprop = 'sourceLines.items';
+C_36.CASA_displayitemsprop = 'sourceLines.dspIts';
+C_36.CASA_id = '36';
+C_36.CASA_selectprop = 'selected';
+C_36.CASA_topindexprop = 'sourceLines.topIndex';
+C_36.CASA_param1prop = 'sourceLines.param1';
+C_36.CASA_lastselectprop = 'sourceLines.lastSelectedIndex';
+C_36.CASA_singleselect = false;
+C_36.CASA_dblclickonreturn = false;
+C_36.CASA_backgroundstyle = '';
+C_36.CASA_rowcount = 15;
+C_36.CASA_rowcountprop = 'sourceLines.rowCount';
+C_36.CASA_changeindexprop = 'sourceLines.changeIndex';
+C_36.CASA_personalizable = 'true';
+C_36.CASA_withselectioncolumn = true;
+C_36.CASA_selectalllinesprop = 'sourceLines.selectAllLines';
+C_36.CASA_columnsequenceprop = 'sourceLines.columnSequenceAsCSVString';
+C_36.CASA_sortsequenceprop = 'sourceLines.sortInfo.propertyIndexSortItemsAsCSVString';
+C_36.CASA_groupcolumnsequenceprop = 'sourceLines.groupColumnSequenceAsCSVString';
+C_36.CASA_stylevariant = '';
+C_36.CASA_sortprop = 'sourceLines.sortInfo';
+C_36.CASA_singleselectcontextmenu = true;
+C_36.CASA_tabindex = null;
+C_36.CASA_cti = 1;
+C.applyCasaTabIndexFor(C_36, C_DIV36, 'TEXTGRIDSSS2');
+C_36.CASA_colinfos = [];
+var vo;
+vo = new Object();
+vo.columntype = '0';
+vo.textid = 'lc.textgrid.lineNr';
+vo.property = 'lineNr';
+vo.width = '70px';
+vo.decimaldigits = -1;
+vo.textstyleprop = 'background';
+vo.cuttextline = true;
+vo.groupby = false;
+vo.sortorder = '-1';
+vo.sortascending = 'true';
+C_36.CASA_colinfos[0] = vo;
+vo = new Object();
+vo.columntype = '0';
+vo.textid = 'lc.textgrid.line';
+vo.property = 'line';
+vo.width = '100%';
+vo.decimaldigits = -1;
+vo.textstyleprop = 'background';
+vo.convertspaces = true;
+vo.cuttextline = true;
+vo.straighttext = true;
+vo.groupby = false;
+vo.sortorder = '-1';
+vo.sortascending = 'true';
+C_36.CASA_colinfos[1] = vo;
+registerFillTextIdListener(reactOnFillTextIds36);
+C_36.CASA_testtoolid = 'sourceLines.items';
+C.addMozDiv(document.getElementById('TGRII_36'));C.addMozDiv(document.getElementById('TGRI_36'));C_36.CASA_collectionselectprop = 'sourceLines.selectIndex';
+C_36.CASA_collectionshiftselectprop = 'sourceLines.shiftSelectIndex';
+C_36.CASA_collectionctrlselectprop = 'sourceLines.ctrlSelectIndex';
+C_10036 = CID_10036.parentNode;
+if (C_10036 == null) C_10036 = gebid('IDO_10036');
+C.iccVSCROLLBAR(C_10036,CID_10036,reactOnModelUpdate10036,'10036','sourceLines.topIndex','sourceLines.dspSize','sourceLines.rowCount',15,'scroll','sourceLines.param1');
+C_36.CASA_vscrollbar = document.getElementById('IDO_10036');
+if (firstusage) { C_DIV36.addEventListener('DOMMouseScroll', reactOnMouseWheel36, false);
+C_DIV36.addEventListener('mousewheel', reactOnMouseWheel36, false);}
+C_36.CASA_griddataprop = 'sourceLines';
+C.registerListener(reactOnModelUpdate12);
+if (firstusage) C_12 = gebid('TA_12');
+C_12.CASA_stylevariant = '';
+if (firstusage) C_12.CASA_page1 = document.getElementById("idPage1");
+if (firstusage) C_12.CASA_TPTD1 = document.getElementById("TPTD112");
+if (firstusage) C_12.CASA_page2 = document.getElementById("idPage2");
+if (firstusage) C_12.CASA_TPTD2 = document.getElementById("TPTD212");
+if (firstusage) C_12.CASA_page3 = document.getElementById("idPage3");
+if (firstusage) C_12.CASA_TPTD3 = document.getElementById("TPTD312");
+if (firstusage) C.iccTABAREA(C_12,react12);
+if (firstusage) C.addMLTab(document.getElementById('$12_1'), rohk12, 0);
+if (firstusage) C.addMLTab(document.getElementById('$12_2'), rohk12, 1);
+if (firstusage) C.addMLTab(document.getElementById('$12_3'), rohk12, 2);
+C.addMozDiv(document.getElementById('DD12'));
+C.addMozDiv(document.getElementById('D12'));
+C_12.CASA_TPTD3.CASA_visprop = "showCheckResult";
+C_12.CASA_openedindexprop = 'showTab';
+if (firstusage) C_3 = document.getElementById('PAGEDIV3');
+if (firstusage) THISPAGEBODY = document.getElementById('PAGEDIV3');
+C.initCasaControlPAGEBODY(C_3);
+addResizeListener(reactOnResize3);
+if (firstusage) C.iccINTPOPUP();
+if (firstusage) CS_41 = document.getElementById('STATUSBARSTATUSBAR');if (firstusage) C_41 = document.getElementById('STATUSBAR41');if (firstusage) CL.iccSTATUSBAR(C_41,C);
+if (firstusage) C_IMAGE41 = document.getElementById('STATUSBARIMAGE41');if (firstusage) C.addFooterObject(CS_41);
+if (firstusage) C.registerListener(reactOnModelUpdate41);
+C_41.CASA_typeprop = 'messageType'
+C_41.CASA_shorttextprop = 'messageShortText'
+C_41.CASA_longtextprop = 'messageLongText'
+C.m_hotKeysPAGE.CASA_id = 1;
+C.iccHOTKEY(C.m_hotKeysPAGE, "ctrl-43;onNextError;ctrl-45;onPreviousError;ctrl-78;onNextError;ctrl-80;onPreviousError");
+C.setPropertyValue('pageInitParam',pageInitParam);
+C.registerListenerAsFirst(reactOnModelUpdatePAGE);
+C.initWithModelIdAndSessionIdAndProcessId("com.softwareag.cis.editor.LayoutCheckAdapter",mid,sid,pid);
+m_endInitDate = new Date();
+m_roi_firstusage = undefined;
+}
+function startDrag(dragHTML,eve) { return C.startDragPAGE(dragHTML,eve); }function moveDrag(eve) { return C.moveDragPAGE(eve); }
+function removeTHISOCCUPIED() { return C.removeTHISOCCUPIED(); }
+function endDrag(eve) { return C.endDragPAGE(eve); }
+function processHotKeys(evt) { C.processHotKeys(evt); }
+function reactOnModelUpdatePAGE(model) { C.reactOnModelUpdatePAGE(); }
+function generateCCs()
+{
+var vCCs = document.getElementsByName('CC');
+for (var i=0; i<vCCs.length; i++)
+{
+var vCC = vCCs[i];
+if (vCC.id != null && vCC.id != '') window['C'+vCC.id] = vCC;
+}
+vCCs = document.getElementsByName('PC');
+for (var i=0; i<vCCs.length; i++)
+{
+var vCC = vCCs[i].parentNode;
+if (vCC.id != null && vCC.id != '') window['C'+vCC.id] = vCC;
+}
+}
+function reactOnResize() { if (m_flagResize == false) return; C.handleReactOnResize();}
+function addResizeListener(resizeListener) { m_resizeListeners[m_resizeListeners.length] = resizeListener; }
+function fillTextIdSpans() { C.replaceTextIds(); for (i=0; i<m_fillTextIdListeners.length; i++) m_fillTextIdListeners[i](); }
+function invokeMethodInModel(methodName) { C.invokeMethodInModel(methodName); }
+function getPropertyValue(propertyName) { return C.getPropertyValue(propertyName); }
+function setPropertyValue(propertyName,propertyValue) { C.setPropertyValue(propertyName,propertyValue); }
+function closePage2() { CL.closePageTITLEBAR(C_2); }
+function romuINTPAGEPOPUP() { C.romuINTPOPUP(); }
+function reactOnResize3() { C.reactOnResizePAGEBODY(C_3); }
+function toggleArea4(passToModel) { C.toggleAreaAREA(C_4,passToModel,null,CSPAN_4); }
+function reactOnModelUpdate4() { C.romuAREA(C_4); }
+function rohk6(param) { C.rohkLABEL(CTD_6, param); }
+function romu7(model) { C.romuFIELD(CF_7); }
+function rohk11(param) { C.transferModelBUTTON(CB_11); }
+function reactOnModelUpdate12() { C.romuTABAREA(C_12);}
+function rohk12(index) { C.showPageTABAREA(C_12,index);}
+function react12(evt) { C.reactTABAREA(C_12,evt); }
+function rohk20(param) { C.transferModelBUTTON(CB_20); }
+function transferChange23() { C.transferChangeTEXT(C_23); }
+function reactOnModelUpdate23() { C.reactOnModelUpdateTEXT(C_23); }
+function reactOnKeyDown23(event) { C.reactOnKeyDownTEXT(C_23,event); }
+function reactOnHelp23() { C.reactOnHelpTEXT(C_23,event); }
+function rtb23(event) { return C.reactTEXT(C_23,event);  }
+function romu26(model) { C.romuCHECKBOX(CCB_26); }
+function romu27(model) { C.romuCHECKBOX(CCB_27); }
+function romu28(model) { C.romuCHECKBOX(CCB_28); }
+function reactOnModelUpdate41(model) { CL.romuSTATUSBAR(C_41,C_IMAGE41); }
+function resetBeforeUpdate41(model) { CL.resetSTATUSBAR(C_41,C_IMAGE41); }
+</script>
+<iframe hidden id="csciframe" name="csciframe" tabIndex="-1" src="com.softwareag.cis.editor.LayoutCheck_JLIBS.html" style="width:0;height:0;left:0;top:0">
+</iframe>
+</body>
+</html>

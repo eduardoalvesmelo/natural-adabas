@@ -1,0 +1,85 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** (Cortesia do Prof. Bogdan Tomoyuki Nassu) A tabela abaixo foi copiada do website da
+/** Receita Federal, e traz as alíquotas do imposto de renda de pessoa física retido na 
+/** fonte para o exercício de 2013:
+/** 
+/** Base de cálculo mensal em R$     | Alíquota %     | Parcela a deduzir do imposto em R$
+/** Até 1.637,11                     |-                 |-
+/** De 1.637,12 até 2.453,50         |7,5             |122,78
+/** De 2.453,51 até 3.271,38         |15,0             |306,80
+/** De 3.271,39 até 4.087,65         |22,5             |552,15
+/** Acima de 4.087,65                 |27,5             |756,53 
+/**
+/** :author eduar
+/* TODO Enter your code here
+DEFINE DATA LOCAL
+1 #qtde-apostadores         (N2)
+1 #resultado-time-1         (N2) init<5>
+1 #resultado-time-2         (N2) init<4>
+1 #time-vencedor            (N2) 
+1 #time-vencedor-aposta     (N2/3)
+1 #aposta-placar-usuario    (A20/3)
+1 #aposta-placar-time-1     (N2/3)
+1 #aposta-placar-time-2     (N2/3)
+1 #qtde-pontos-ttl          (N2/3)
+1 #i                        (N2)
+END-DEFINE                            
+*    
+input 'Informe a quantidade de apostadores' #qtde-apostadores
+for #i:= 1 to #qtde-apostadores    
+    input 'Informe o nome do apostador: ' #aposta-placar-usuario(#i)
+    input 'Informe o placar do time 1: ' #aposta-placar-time-1(#i)
+    input 'Informe o placar do time 2: ' #aposta-placar-time-2(#i)
+end-for                                                                                               
+*
+decide for first condition    
+   when #resultado-time-1 > #resultado-time-2
+    #time-vencedor:= 1
+   when #resultado-time-1 < #resultado-time-2
+       #time-vencedor:= 2
+   when none           
+       #time-vencedor:= 0
+end-decide
+*
+for #i:= 1 to #qtde-apostadores
+#qtde-pontos-ttl(#i):= 0
+decide for first condition    
+   when #aposta-placar-time-1(#i) > #aposta-placar-time-2(#i)
+    #time-vencedor-aposta(#i):= 1
+   when #aposta-placar-time-1(#i) < #aposta-placar-time-2(#i)
+       #time-vencedor-aposta(#i):= 2
+   when none           
+       #time-vencedor-aposta(#i):= 0
+end-decide
+*
+    if #aposta-placar-time-1(#i) = #resultado-time-1
+        #qtde-pontos-ttl(#i):= #qtde-pontos-ttl(#i) + 5
+    else
+        #qtde-pontos-ttl(#i):= #qtde-pontos-ttl(#i) + 0
+    end-if        
+*    
+    if #aposta-placar-time-2(#i) = #resultado-time-2
+        #qtde-pontos-ttl(#i):= #qtde-pontos-ttl(#i) + 5
+    else
+        #qtde-pontos-ttl(#i):= #qtde-pontos-ttl(#i) + 0
+    end-if
+*
+    if #time-vencedor-aposta(#i) = #time-vencedor and #time-vencedor <> 0 
+        #qtde-pontos-ttl(#i):= #qtde-pontos-ttl(#i) + 10
+    else
+        #qtde-pontos-ttl(#i):= #qtde-pontos-ttl(#i) + 0
+    end-if        
+end-for    
+*
+write 'Resultado: ' #resultado-time-1 'x' #resultado-time-2
+for #i:= 1 to #qtde-apostadores
+    write 'Nome do apostador: ' #aposta-placar-usuario(#i)
+    write 'Placar apostador '#i' :' #aposta-placar-time-1(#i) 'x' #aposta-placar-time-2(#i)
+    write 'Pontuação: ' #qtde-pontos-ttl(#i)
+end-for
+*
+END
+

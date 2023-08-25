@@ -1,0 +1,11 @@
+addWebconfigFolder=false
+eclipse.preferences.version=1
+previewMode=HTML
+refreshMode=false
+uicomponentFolder=true
+uicomponentWSrealative=true
+webappconfName=Development
+webapplicationFolder=C\:\\ws-natural\\.naturalone\\apache-tomcat\\webapps\\cisnatural
+webapplicationName=cisnatural
+webserverConnection=localhost\:28080
+webseverFolder=C\:\\ws-natural\\.naturalone\\apache-tomcat

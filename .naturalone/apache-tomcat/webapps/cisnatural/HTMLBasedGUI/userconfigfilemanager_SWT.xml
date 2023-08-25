@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.config.UserConfigFileManagerAdapter" translationreference="demos" casaindex="1" >
+
+
+        <titlebar valueprop="title" closetitletextid="closePage" casaindex="2" >
+
+
+                <helpicon helpid="userconfigurationmanager" titletextid="conFileMan.helpicon0" casaindex="3" >
+
+
+                </helpicon>
+
+
+        </titlebar>
+
+
+        <pagebody horizdist="false" takefullheight="true" paddingleft="5" casaindex="4" >
+
+
+                <vdist height="10" casaindex="5" >
+
+
+                </vdist>
+
+
+                <rowtabarea height="100%" openedindexprop="openedindex" openmethod="onOpenTab" name1="File Overview" page1="idOverview" name2="Edit &amp; Compare" page2="idCompare" name3="Help" page3="idHelp" casaindex="6" >
+
+
+                        <tabpage id="idOverview" takefullheight="true" casaindex="7" >
+
+
+                                <vdist height="15" casaindex="8" >
+
+
+                                </vdist>
+
+
+                                <itr takefullwidth="true" casaindex="9" >
+
+
+                                        <coltable0 width="500" casaindex="10" >
+
+
+                                                <dlmenu menuprop="dlMenuData" align="left" onlyoneline="true" casaindex="11" >
+
+
+                                                </dlmenu>
+
+
+                                        </coltable0>
+
+
+                                </itr>
+
+
+                                <itr casaindex="12" >
+
+
+                                        <hdist width="30" casaindex="13" >
+
+
+                                        </hdist>
+
+
+                                </itr>
+
+
+                                <vdist height="25" casaindex="14" >
+
+
+                                </vdist>
+
+
+                                <clienttree treecollectionprop="files" height="100%" withplusminus="true" singleselect="true" selectionvisible="true" imageopened="../HTMLBasedGUI/images/config.gif" imageclosed="../HTMLBasedGUI/images/config.gif" imageendnode="../HTMLBasedGUI/images/filelist.gif" casaindex="15" >
+
+
+                                </clienttree>
+
+
+                        </tabpage>
+
+
+                        <tabpage id="idCompare" takefullheight="true" casaindex="16" >
+
+
+                                <vdist height="8" casaindex="17" >
+
+
+                                </vdist>
+
+
+                                <itr height="100%" width="100%" casaindex="18" >
+
+
+                                        <hdist casaindex="19" >
+
+
+                                        </hdist>
+
+
+                                        <coltable0 width="50%" takefullheight="true" casaindex="20" >
+
+
+                                                <rowarea textid="conFileMan.rowarea0" withtoppadding="false" casaindex="21" >
+
+
+                                                        <itr casaindex="22" >
+
+
+                                                                <label textid="conFileMan.label0" width="150" casaindex="23" >
+
+
+                                                                </label>
+
+
+                                                                <hdist casaindex="24" >
+
+
+                                                                </hdist>
+
+
+                                <field xsdType="xs:string" valueprop="configFileName" width="100%" popupmethod="openIdValueCombo" popupinputonly="true" casaindex="25" >
+
+                                </field>
+
+                                                                <hdist casaindex="26" >
+
+
+                                                                </hdist>
+
+
+                                                        </itr>
+
+
+                                                        <itr casaindex="27" >
+
+
+                                                                <label name="User Config File" width="150" casaindex="28" >
+
+
+                                                                </label>
+
+
+                                                                <hdist casaindex="29" >
+
+
+                                                                </hdist>
+
+
+                                <field xsdType="xs:string" valueprop="userConfigFileName" width="100%" popupmethod="openIdValueCombo" popupinputonly="true" casaindex="30" >
+
+                                </field>
+
+                                                                <hdist casaindex="31" >
+
+
+                                                                </hdist>
+
+
+                                                        </itr>
+
+
+                                                </rowarea>
+
+
+                                                <vdist height="10" casaindex="32" >
+
+
+                                                </vdist>
+
+
+                                                <itr casaindex="33" >
+
+
+                                                        <textout valueprop="userConfigFileName" textcolor="#CC0000" textoutstyle="font-weight: bold" casaindex="34" >
+
+
+                                                        </textout>
+
+
+                                                </itr>
+
+
+                                                <itr height="100%" width="100%" casaindex="35" >
+
+
+                                                        <text valueprop="userConfig" width="100%" height="100%" casaindex="36" >
+
+
+                                                        </text>
+
+
+                                                </itr>
+
+
+                                        </coltable0>
+
+
+                                        <hdist width="5" casaindex="37" >
+
+
+                                        </hdist>
+
+
+                                        <coltable0 width="50%" takefullheight="true" casaindex="38" >
+
+
+                                                <vdist height="35" casaindex="39" >
+
+
+                                                </vdist>
+
+
+                                                <itr casaindex="40" >
+
+
+                                                        <hdist width="30" casaindex="41" >
+
+
+                                                        </hdist>
+
+
+                                                        <button name="Save User Config File" method="onSaveCurrent" casaindex="42" >
+
+
+                                                        </button>
+
+
+                                                </itr>
+
+
+                                                <vdist height="25" casaindex="43" >
+
+
+                                                </vdist>
+
+
+                                                <itr casaindex="44" >
+
+
+                                                        <label name="Default Configuration File" asplaintext="true" labelstyle="color:#CC0000; font-weight:bold" casaindex="45" >
+
+
+                                                        </label>
+
+
+                                                </itr>
+
+
+                                                <itr height="100%" width="100%" casaindex="46" >
+
+
+                                                        <text valueprop="configFile" width="100%" height="100%" displayonly="true" casaindex="47" >
+
+
+                                                        </text>
+
+
+                                                </itr>
+
+
+                                        </coltable0>
+
+
+                                        <hdist casaindex="48" >
+
+
+                                        </hdist>
+
+
+                                </itr>
+
+
+                                <vdist casaindex="49" >
+
+
+                                </vdist>
+
+
+                                <itr width="100%" casaindex="50" >
+
+
+                                        <hdist casaindex="51" >
+
+
+                                        </hdist>
+
+
+                                        <button textid="conFileMan.button1" method="onDiff" image="../HTMLBasedGUI/images/search.gif" width="100%" casaindex="52" >
+
+
+                                        </button>
+
+
+                                        <hdist casaindex="53" >
+
+
+                                        </hdist>
+
+
+                                </itr>
+
+
+                        </tabpage>
+
+
+                        <tabpage id="idHelp" takefullheight="true" casaindex="54" >
+
+
+                                <itr takefullwidth="true" height="100%" casaindex="55" >
+
+
+                                        <subpage valueprop="cfghelp" height="100%" width="100%" casaindex="56" >
+
+
+                                        </subpage>
+
+
+                                </itr>
+
+
+                        </tabpage>
+
+
+                </rowtabarea>
+
+
+        </pagebody>
+
+
+        <statusbar withdistance="false" casaindex="57" >
+
+
+        </statusbar>
+
+
+</page>

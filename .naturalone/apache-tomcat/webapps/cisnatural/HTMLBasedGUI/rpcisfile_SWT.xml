@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.runtimepersistence.jdbc.CIFileAdapter" translationreference="jdbc" casaindex="1" >
+
+
+        <titlebar textid="jdbc.titlebar0" closetitletextid="closePage" casaindex="2" >
+
+
+                <helpicon helpid="CIS_FILE" titletextid="jdbc.helpicon0" casaindex="3" >
+
+
+                </helpicon>
+
+
+        </titlebar>
+
+
+        <header withdistance="false" casaindex="4" >
+
+
+        </header>
+
+
+        <pagebody takefullheight="true" casaindex="5" >
+
+
+                <rowarea textid="jdbc.rowarea0" casaindex="6" >
+
+
+                        <itr casaindex="7" >
+
+
+                                <label textid="jdbc.label0" width="200" casaindex="8" >
+
+
+                                </label>
+
+
+                <field xsdType="xs:string" statusprop="jdbcConFieldStatus" valueprop="jdbcDriverClassName" width="100%" casaindex="9" >
+
+                </field>
+
+                        </itr>
+
+
+                        <itr casaindex="10" >
+
+
+                                <label textid="jdbc.label1" width="200" casaindex="11" >
+
+
+                                </label>
+
+
+                <field xsdType="xs:string" statusprop="jdbcConFieldStatus" valueprop="jdbcURL" width="100%" casaindex="12" >
+
+                </field>
+
+                        </itr>
+
+
+                        <itr casaindex="13" >
+
+
+                                <label textid="jdbc.label2" width="200" casaindex="14" >
+
+
+                                </label>
+
+
+                <field xsdType="xs:string" statusprop="jdbcConFieldStatus" valueprop="user" width="200" casaindex="15" >
+
+                </field>
+
+                        </itr>
+
+
+                        <itr casaindex="16" >
+
+
+                                <label textid="jdbc.label3" width="200" casaindex="17" >
+
+
+                                </label>
+
+
+                <field xsdType="xs:string" password="true" statusprop="jdbcConFieldStatus" valueprop="password" width="200" casaindex="18" >
+
+                </field>
+
+                                <hdist width="100%" casaindex="19" >
+
+
+                                </hdist>
+
+
+                                <button invisiblemode="disabled" method="onConnect" textid="jdbc.button0" visibleprop="isNotConnected" casaindex="20" >
+
+
+                                </button>
+
+
+                        </itr>
+
+
+                </rowarea>
+
+
+                <rowtabarea height="100%" leftindent="20" page1="CREATE" page2="CONTENT" textid1="jdbc.rowtabarea0" textid2="jdbc.rowtabarea1" casaindex="21" >
+
+
+                        <tabpage id="CREATE" takefullheight="true" casaindex="22" >
+
+
+                                <rowarea textid="jdbc.rowarea1" casaindex="23" >
+
+
+                                        <itr casaindex="24" >
+
+
+                                                <label textid="jdbc.label4" width="60" casaindex="25" >
+
+
+                                                </label>
+
+
+                                                <radiobutton flush="server" statusprop="otherFieldStatus" value="MYSQL" valueprop="dBProduct" casaindex="26" >
+
+
+                                                </radiobutton>
+
+
+                                                <hdist casaindex="27" >
+
+
+                                                </hdist>
+
+
+                                                <label asplaintext="true" textid="jdbc.label5" casaindex="28" >
+
+
+                                                </label>
+
+
+                                                <hdist width="100" casaindex="29" >
+
+
+                                                </hdist>
+
+
+                                                <helpicon helpid="CIS_FILE" titletextid="jdbc.helpicon1" casaindex="30" >
+
+
+                                                </helpicon>
+
+
+                                        </itr>
+
+
+                                        <itr casaindex="31" >
+
+
+                                                <label width="60" casaindex="32" >
+
+
+                                                </label>
+
+
+                                                <radiobutton flush="server" statusprop="otherFieldStatus" value="OTHER" valueprop="dBProduct" casaindex="33" >
+
+
+                                                </radiobutton>
+
+
+                                                <hdist casaindex="34" >
+
+
+                                                </hdist>
+
+
+                                                <label asplaintext="true" textid="jdbc.label6" casaindex="35" >
+
+
+                                                </label>
+
+
+                                        </itr>
+
+
+                                </rowarea>
+
+
+                                <rowarea height="100%" textid="jdbc.rowarea2" casaindex="36" >
+
+
+                                        <vdist height="10" casaindex="37" >
+
+
+                                        </vdist>
+
+
+                                        <itr casaindex="38" >
+
+
+                                                <button invisiblemode="disabled" method="onCheckIfTablesExist" textid="jdbc.button1" visibleprop="isConnected" casaindex="39" >
+
+
+                                                </button>
+
+
+                                                <hdist casaindex="40" >
+
+
+                                                </hdist>
+
+
+                                                <button invisiblemode="disabled" method="onPreviewDBUpdates" textid="jdbc.button2" visibleprop="previewButtonVisible" casaindex="41" >
+
+
+                                                </button>
+
+
+                                                <hdist casaindex="42" >
+
+
+                                                </hdist>
+
+
+                                                <button invisiblemode="disabled" method="onCreateTables" textid="jdbc.button3" visibleprop="createTableVisible" casaindex="43" >
+
+
+                                                </button>
+
+
+                                        </itr>
+
+
+                                        <vdist height="10" casaindex="44" >
+
+
+                                        </vdist>
+
+
+                                        <itr height="100%" width="100%" casaindex="45" >
+
+
+                                                <text displayonly="true" height="100%" textareastyle="background-color: #FFFFFF" valueprop="infoText" width="100%" casaindex="46" >
+
+
+                                                </text>
+
+
+                                                <hdist casaindex="47" >
+
+
+                                                </hdist>
+
+
+                                        </itr>
+
+
+                                </rowarea>
+
+
+                                <vdist height="100%" casaindex="48" >
+
+
+                                </vdist>
+
+
+                        </tabpage>
+
+
+                        <tabpage display="none" id="CONTENT" takefullheight="true" casaindex="49" >
+
+
+                                <vdist casaindex="50" >
+
+
+                                </vdist>
+
+
+                                <itr casaindex="51" >
+
+
+                                        <label textid="jdbc.label7" width="60" casaindex="52" >
+
+
+                                        </label>
+
+
+                    <field xsdType="xs:string" statusprop="otherFieldStatus" valueprop="project" width="100" casaindex="53" >
+
+                    </field>
+
+                                        <hdist width="10" casaindex="54" >
+
+
+                                        </hdist>
+
+
+                                        <button invisiblemode="disabled" method="onSelectDBFiles" textid="jdbc.button4" visibleprop="isConnected" casaindex="55" >
+
+
+                                        </button>
+
+
+                                </itr>
+
+
+                                <vdist height="10" casaindex="56" >
+
+
+                                </vdist>
+
+
+                                <itr width="100%" casaindex="57" >
+
+
+                                        <hdist width="60" casaindex="58" >
+
+
+                                        </hdist>
+
+
+                                        <label asplaintext="true" textid="jdbc.label8" width="100%" casaindex="59" >
+
+
+                                        </label>
+
+
+                                </itr>
+
+
+                                <itr casaindex="60" >
+
+
+                                </itr>
+
+
+                                <vdist height="10" casaindex="61" >
+
+
+                                </vdist>
+
+
+                                <itr height="100%" width="100%" casaindex="62" >
+
+
+                                        <textgridsss2 directselectevent="onclick" directselectmethod="onShowDetail" griddataprop="files" height="100%" hscroll="true" rowcount="50" selectprop="selected" singleselect="true" width="100%" casaindex="63" >
+
+
+                                                <column property="name" textid="jdbc.column0" width="100%" casaindex="64" >
+
+
+                                                </column>
+
+
+                                        </textgridsss2>
+
+
+                                </itr>
+
+
+                        </tabpage>
+
+
+                </rowtabarea>
+
+
+                <vdist casaindex="65" >
+
+
+                </vdist>
+
+
+        </pagebody>
+
+
+        <statusbar withdistance="false" casaindex="66" >
+
+
+        </statusbar>
+
+
+</page>

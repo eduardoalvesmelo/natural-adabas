@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.workplace.MFWorkplaceAdapter" occupiedimage="images/wpoccupied.gif" occupiedpixelheight="25" occupiedpixelwidth="17" contextmenumethod="reactOnContextMenuRequestTopicTree" comment="../cis/styles/CIS_DEV.css" casaindex="1" >
+
+
+        <pagebody vscroll="hidden" hscroll="hidden" horizdist="false" takefullheight="true" casaindex="2" >
+
+
+                <buttonlist buttonlistprop="topButtons" casaindex="3" >
+
+
+                </buttonlist>
+
+
+                <rowtablearea2 griddataprop="nodes" rowcount="40" height="100%" width="100%" withborder="false" hscroll="auto" vscroll="auto" oncontextmenumethod="reactOnContextMenuRequestTopicTree" casaindex="4" >
+
+
+                        <vdist height="5" casaindex="5" >
+
+
+                        </vdist>
+
+
+                        <repeat casaindex="6" >
+
+
+                                <str casaindex="7" >
+
+
+                                        <hdist width="5" casaindex="8" >
+
+
+                                        </hdist>
+
+
+                                        <treenode3 width="100%" withplusminus="true" imageopened="../HTMLBasedGUI/images/fileclosed.gif" imageclosed="../HTMLBasedGUI/images/fileclosed.gif" imageendnode="../HTMLBasedGUI/images/page.gif" imageprop="imageOpened" singleselect="true" withlines="true" withtooltip="true" tooltipprop="tooltip" casaindex="9" >
+
+
+                                        </treenode3>
+
+
+                                </str>
+
+
+                        </repeat>
+
+
+                        <vdist height="5" casaindex="10" >
+
+
+                        </vdist>
+
+
+                </rowtablearea2>
+
+
+                <buttonlist buttonlistprop="bottomButtons" casaindex="11" >
+
+
+                </buttonlist>
+
+
+        </pagebody>
+
+
+</page>

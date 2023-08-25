@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.OverviewAdapter" translationreference="CIS_TOOLS" stylesheetfile="../cis/styles/CIS_DEFAULT.css" casaindex="1" >
+
+
+        <titlebar textid="lm.titlebar.layoutmanagement" closetitletextid="closePage" casaindex="2" >
+
+
+        </titlebar>
+
+
+        <header align="left" withdistance="false" casaindex="3" >
+
+
+                <menu menucollectionprop="listMenu" casaindex="4" >
+
+
+                </menu>
+
+
+                <hdist width="50" casaindex="5" >
+
+
+                </hdist>
+
+
+                <icon image="../HTMLBasedGUI/images/distance.gif" casaindex="6" >
+
+
+                </icon>
+
+
+                <icon image="../HTMLBasedGUI/images/new.gif" method="newLayout" casaindex="7" >
+
+
+                </icon>
+
+
+        </header>
+
+
+        <pagebody vscroll="auto" hscroll="auto" horizdist="false" takefullheight="true" casaindex="8" >
+
+
+                <rowtabarea height="105" leftindent="50" withleftborder="false" withrightborder="false" textid1="lm.rowtabarea.application" page1="CASAAPP" textid2="lm.rowtabarea.search" page2="SEARCH" textid3="lm.rowtabarea.directories" page3="DIRECTORIES" casaindex="9" >
+
+
+                        <tabpage id="CASAAPP" height="50" casaindex="10" >
+
+
+                                <tr casaindex="11" >
+
+
+                                        <label textid="lm.lable.appproject" width="150" casaindex="12" >
+
+
+                                        </label>
+
+
+                    <field xsdType="xs:string" flush="server" valueprop="project" length="30" popupmethod="openIdValueCombo" casaindex="13" >
+
+                    </field>
+
+                                </tr>
+
+
+                                <vdist height="5" casaindex="14" >
+
+
+                                </vdist>
+
+
+                                <tr casaindex="15" >
+
+
+                                        <hdist width="150" casaindex="16" >
+
+
+                                        </hdist>
+
+
+                                        <button textid="lm.btn.showlayoutdef" method="showAllLayoutFiles" valign="top" casaindex="17" >
+
+
+                                        </button>
+
+
+                                </tr>
+
+
+                        </tabpage>
+
+
+                        <tabpage id="SEARCH" display="none" height="50" casaindex="18" >
+
+
+                                <tr casaindex="19" >
+
+
+                                        <label textid="lm.lable.prefix" width="150" casaindex="20" >
+
+
+                                        </label>
+
+
+                    <field xsdType="xs:string" valueprop="prefix" length="30" casaindex="21" >
+
+                    </field>
+
+                                </tr>
+
+
+                                <vdist height="5" casaindex="22" >
+
+
+                                </vdist>
+
+
+                                <tr casaindex="23" >
+
+
+                                        <hdist width="150" casaindex="24" >
+
+
+                                        </hdist>
+
+
+                                        <button textid="lm.btn.searchlayoutdef" method="searchLayoutFiles" valign="top" casaindex="25" >
+
+
+                                        </button>
+
+
+                                </tr>
+
+
+                        </tabpage>
+
+
+                        <tabpage id="DIRECTORIES" display="none" height="50" casaindex="26" >
+
+
+                                <itr takefullwidth="true" casaindex="27" >
+
+
+                                        <label textid="lm.label.htmldir" width="175" casaindex="28" >
+
+
+                                        </label>
+
+
+                    <field xsdType="xs:string" valueprop="htmlDirectory" width="100%" displayonly="true" casaindex="29" >
+
+                    </field>
+
+                                </itr>
+
+
+                                <itr takefullwidth="true" casaindex="30" >
+
+
+                                        <label textid="lm.label.xmldir" width="150" casaindex="31" >
+
+
+                                        </label>
+
+
+                                        <hdist width="5" casaindex="32" >
+
+
+                                        </hdist>
+
+
+                                        <icon image="../HTMLBasedGUI/images/edit.gif" method="onEditXMLDir" imagewidth="15" imageheight="15" casaindex="33" >
+
+
+                                        </icon>
+
+
+                                        <hdist width="5" casaindex="34" >
+
+
+                                        </hdist>
+
+
+                    <field xsdType="xs:string" valueprop="xmlDirectory" width="100%" statusprop="xmlDirDisplayStatus" displayonly="true" casaindex="35" >
+
+                    </field>
+
+                                </itr>
+
+
+                                <itr takefullwidth="true" casaindex="36" >
+
+
+                                        <label textid="lm.label.javasrcdir" width="150" casaindex="37" >
+
+
+                                        </label>
+
+
+                                        <hdist width="5" casaindex="38" >
+
+
+                                        </hdist>
+
+
+                                        <icon image="../HTMLBasedGUI/images/edit.gif" method="onEditJavaDir" imagewidth="15" imageheight="15" casaindex="39" >
+
+
+                                        </icon>
+
+
+                                        <hdist width="5" casaindex="40" >
+
+
+                                        </hdist>
+
+
+                    <field xsdType="xs:string" valueprop="sourceDirectory" width="100%" statusprop="javaSourceDirDisplayStatus" displayonly="true" casaindex="41" >
+
+                    </field>
+
+                                </itr>
+
+
+                        </tabpage>
+
+
+                </rowtabarea>
+
+
+                <rowarea textid="lm.rowarea.layoutdef" height="100%" fixlayout="true" withleftborder="false" withrightborder="false" casaindex="42" >
+
+
+                        <itr height="100%" fixlayout="true" width="100%" casaindex="43" >
+
+
+                                <textgridsss2 griddataprop="lines" rowcount="40" width="100%" height="100%" selectprop="selected" hscroll="true" ondblclickmethod="editLayout" casaindex="44" >
+
+
+                                        <column textid="lm.txtgridsss.clm.filename" property="name" width="50%" casaindex="45" >
+
+
+                                        </column>
+
+
+                                        <column textid="lm.txtgridsss.clm.xmlchange" property="xmlChange" width="25%" datatype="timestamp" casaindex="46" >
+
+
+                                        </column>
+
+
+                                        <column textid="lm.txtgridsss.clm.htmlchange" property="htmlChange" width="25%" datatype="timestamp" casaindex="47" >
+
+
+                                        </column>
+
+
+                                </textgridsss2>
+
+
+                        </itr>
+
+
+                </rowarea>
+
+
+                <vdist casaindex="48" >
+
+
+                </vdist>
+
+
+        </pagebody>
+
+
+        <statusbar withdistance="false" casaindex="49" >
+
+
+        </statusbar>
+
+
+</page>

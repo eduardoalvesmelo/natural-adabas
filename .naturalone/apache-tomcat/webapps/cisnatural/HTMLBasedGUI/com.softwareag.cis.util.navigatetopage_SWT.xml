@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.adapter.NavigateToPageAdapter" casaindex="1" >
+
+
+        <titlebar name="Navigation to a Specified Page during Page Init" casaindex="2" >
+
+
+        </titlebar>
+
+
+        <header withdistance="false" casaindex="3" >
+
+
+                <button name="Navigate to page" method="onNavigate" casaindex="4" >
+
+
+                </button>
+
+
+        </header>
+
+
+        <pagebody casaindex="5" >
+
+
+                <rowarea name="Description" height="100%" casaindex="6" >
+
+
+                        <vdist height="10" casaindex="7" >
+
+
+                        </vdist>
+
+
+                        <itr casaindex="8" >
+
+
+                                <label name="The navigation destination must be passed as init parameter in the url. Example: navpage=/myproject/mypage.html" width="400" casaindex="9" >
+
+
+                                </label>
+
+
+                        </itr>
+
+
+                        <vdist height="10" casaindex="10" >
+
+
+                        </vdist>
+
+
+                        <itr casaindex="11" >
+
+
+                                <label name="The navigation is immediately done when the page is loaded. This page will not be visible." casaindex="12" >
+
+
+                                </label>
+
+
+                        </itr>
+
+
+                        <vdist height="10" casaindex="13" >
+
+
+                        </vdist>
+
+
+                </rowarea>
+
+
+                <rowarea name="Page Init Params" height="100%" casaindex="14" >
+
+
+                        <vdist height="10" casaindex="15" >
+
+
+                        </vdist>
+
+
+                        <itr casaindex="16" >
+
+
+                                <label name="Navigate to page" width="200" casaindex="17" >
+
+
+                                </label>
+
+
+                <field xsdType="xs:string" valueprop="navPage" width="200" casaindex="18" >
+
+</field>
+
+                        </itr>
+
+
+                        <vdist height="10" casaindex="19" >
+
+
+                        </vdist>
+
+
+                           </rowarea>
+
+
+        </pagebody>
+
+
+        <statusbar withdistance="false" casaindex="20" >
+
+
+        </statusbar>
+
+
+</page>

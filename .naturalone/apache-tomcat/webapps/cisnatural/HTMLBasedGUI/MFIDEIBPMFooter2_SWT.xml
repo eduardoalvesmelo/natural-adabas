@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.workplace.MFFooterAdapter" translationreference="CIS_TOOLS" casaindex="1" >
+
+
+        <pagebody vscroll="hidden" hscroll="hidden" horizdist="false" takefullheight="true" casaindex="2" >
+
+
+                <itr takefullwidth="true" height="100%" casaindex="3" >
+
+
+                        <coltable0 width="100%" takefullheight="true" casaindex="4" >
+
+
+                                <itr takefullwidth="true" comment="MOZILLA" casaindex="5" >
+
+
+                                        <imageout valueprop="footerImageLeft" width="100%" height="38" casaindex="6" >
+
+
+                                        </imageout>
+
+
+                                </itr>
+
+
+                        </coltable0>
+
+
+                        <coltable0 width="60" takefullheight="true" casaindex="7" >
+
+
+                                <itr takefullwidth="true" comment="MOZILLA" casaindex="8" >
+
+
+                                        <imageout valueprop="footerImageMiddle" casaindex="9" >
+
+
+                                        </imageout>
+
+
+                                </itr>
+
+
+                        </coltable0>
+
+
+                        <coltable0 width="200" takefullheight="true" tablestyle="background-image: url(workplace/mffooterback3.gif)" casaindex="10" >
+
+
+                                <vdist height="1" backgroundstyle="background-color: #AFAFAF" casaindex="11" >
+
+
+                                </vdist>
+
+
+                                <vdist height="1" backgroundstyle="background-color: #BFBFBF" casaindex="12" >
+
+
+                                </vdist>
+
+
+                                <vdist height="1" backgroundstyle="background-color: #D7D7D7" casaindex="13" >
+
+
+                                </vdist>
+
+
+                                <itr height="100%" itrstyle="background-color: #EFEFEF" casaindex="14" >
+
+
+                                        <hdist width="40" casaindex="15" >
+
+
+                                        </hdist>
+
+
+                                        <icon image="images/wpinfo.gif" method="addHTMLPageToWorkplace;##/cisdocumentation/docs/overview#htm;Online Documentation" valign="middle" titletextid="mfdHFooter.icon0" casaindex="16" >
+
+
+                                        </icon>
+
+
+                                        <hdist width="10" casaindex="17" >
+
+
+                                        </hdist>
+
+
+                                        <icon image="images/wprefresh.gif" method="refresh" valign="middle" titletextid="mfdHFooter.icon1" casaindex="18" >
+
+
+                                        </icon>
+
+
+                                        <hdist width="10" casaindex="19" >
+
+
+                                        </hdist>
+
+
+                                        <icon image="images/wplogoff.gif" method="workplaceLogout" valign="middle" titletextid="mfdHFooter.icon2" casaindex="20" >
+
+
+                                        </icon>
+
+
+                                </itr>
+
+
+                        </coltable0>
+
+
+                </itr>
+
+
+        </pagebody>
+
+
+</page>

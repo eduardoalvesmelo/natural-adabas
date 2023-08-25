@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.workplace.ErrorReactionAdapter" pagename="ErrorReaction" casaindex="1" >
+
+
+        <titlebar textid="title" withclose="false" closetitletextid="closePage" casaindex="2" >
+
+
+        </titlebar>
+
+
+        <header withdistance="false" casaindex="3" >
+
+
+        </header>
+
+
+        <pagebody takefullheight="true" casaindex="4" >
+
+
+                <rowarea textid="ra_explanation" casaindex="5" >
+
+
+                        <itr width="100%" casaindex="6" >
+
+
+                                <label textid="lbl_explanation" width="100%" asplaintext="true" casaindex="7" >
+
+
+                                </label>
+
+
+                                <hdist width="10" casaindex="8" >
+
+
+                                </hdist>
+
+
+                                <icon image="/HTMLBasedGUI/images/flash.gif" casaindex="9" >
+
+
+                                </icon>
+
+
+                        </itr>
+
+
+                </rowarea>
+
+
+                <rowarea textid="ra_errorinfo" height="100%" casaindex="10" >
+
+
+                        <itr width="100%" height="100%" casaindex="11" >
+
+
+                                <text valueprop="stackTrace" width="100%" height="100%" textareastyle="background-color: #000000; color: #C0FFC0; font-weight: bold" casaindex="12" >
+
+
+                                </text>
+
+
+                        </itr>
+
+
+                </rowarea>
+
+
+                <vdist casaindex="13" >
+
+
+                </vdist>
+
+
+        </pagebody>
+
+
+        <statusbar withdistance="false" casaindex="14" >
+
+
+        </statusbar>
+
+
+</page>

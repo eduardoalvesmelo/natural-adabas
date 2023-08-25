@@ -1,0 +1,28 @@
+0001/** Fazer um programa para mostrar os 15 primeiros termos da série de Fibonacci. 
+0002/**
+0003/** :author eduar
+0004/* TODO Enter your code here
+0005DEFINE DATA LOCAL
+0006  1 #fibonacci    (N10/15) /* array de 15 posições
+0007  1 #ant-1        (N10) init<1>    /*numerico de 10 posições iniciado em 1
+0008  1 #ant-2        (N10) init<1>
+0009  1 #i            (N2) 
+0010  1 #num-termos   (N2)
+0011  1 #prox         (N10)
+0012END-DEFINE
+0013*
+0014  input 'Informe a quantidade de termos a ser exibidos: ' #num-termos
+0015  #fibonacci(1):= #ant-1
+0016  #fibonacci(2):= #ant-2
+0017*
+0018  for #i:= 3 to #num-termos
+0019      #prox:= #ant-1 + #ant-2
+0020      #fibonacci(#i):= #prox
+0021      #ant-2:= #ant-1  
+0022      #ant-1:= #prox
+0023  end-for
+0024*
+0025  for #i:= 1 to #num-termos
+0026      write '=' #fibonacci(#i)
+0027  end-for
+0028END

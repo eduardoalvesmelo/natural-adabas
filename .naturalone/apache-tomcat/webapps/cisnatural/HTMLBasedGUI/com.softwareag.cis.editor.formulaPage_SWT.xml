@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.FormulaPageAdapter" translationreference="CIS_EDIT" casaindex="1" >
+
+
+        <pagebody casaindex="2" >
+
+
+                <rowarea foldable="false" fixlayout="true" casaindex="3" >
+
+
+                        <itr casaindex="4" >
+
+
+                                <label textid="refp.label25" casaindex="5" >
+
+
+                                </label>
+
+
+                        </itr>
+
+
+                        <itr casaindex="6" >
+
+
+                                <label textid="refp.label26" casaindex="7" >
+
+
+                                </label>
+
+
+                        </itr>
+
+
+                        <rowarea foldable="false" height="20" contenttablestyle="background-color: #FFFFFF" casaindex="8" >
+
+
+                                <itr height="20" casaindex="9" >
+
+
+                                        <textout valueprop="textoutputProp" nowrap="true" casaindex="10" >
+
+
+                                        </textout>
+
+
+                                        <hdist width="10" casaindex="11" >
+
+
+                                        </hdist>
+
+
+                                        <methodlink method="onFirstLink" valueprop="firstLink" casaindex="12" >
+
+
+                                        </methodlink>
+
+
+                                </itr>
+
+
+                        </rowarea>
+
+
+                        <vdist height="20" casaindex="13" >
+
+
+                        </vdist>
+
+
+                        <itr takefullwidth="false" casaindex="14" >
+
+
+                                <button textid="refp.button34" method="onInsertFunction" visibleprop="funcbtnvis" width="120" casaindex="15" >
+
+
+                                </button>
+
+
+                                <hdist width="10" casaindex="16" >
+
+
+                                </hdist>
+
+
+                                <button textid="refp.button35" method="onOperator" visibleprop="operatorbtnvis" width="120" casaindex="17" >
+
+
+                                </button>
+
+
+                                <hdist width="10" casaindex="18" >
+
+
+                                </hdist>
+
+
+                                <button textid="refp.button36" method="onConsatant" visibleprop="constbtnvis" width="120" casaindex="19" >
+
+
+                                </button>
+
+
+                                <hdist width="10" casaindex="20" >
+
+
+                                </hdist>
+
+
+                                <button textid="refp.button37" method="onBracket" visibleprop="bracketbtnvis" width="110" casaindex="21" >
+
+
+                                </button>
+
+
+                                <hdist width="10" casaindex="22" >
+
+
+                                </hdist>
+
+
+                                <button textid="refp.button38" method="onNewFormula" visibleprop="resetbtnvis" width="110" casaindex="23" >
+
+
+                                </button>
+
+
+                        </itr>
+
+
+                        <vdist height="20" casaindex="24" >
+
+
+                        </vdist>
+
+
+                        <hline height="3" color="#D2D2D2" casaindex="25" >
+
+
+                        </hline>
+
+
+                        <vdist height="10" casaindex="26" >
+
+
+                        </vdist>
+
+
+                        <itr takefullwidth="650" visibleprop="closeVisisbleProp" casaindex="27" >
+
+
+                                <hdist width="260" casaindex="28" >
+
+
+                                </hdist>
+
+
+                                <button textid="refp.button39" method="onOk" width="80" casaindex="29" >
+
+
+                                </button>
+
+
+                                <hdist width="10" casaindex="30" >
+
+
+                                </hdist>
+
+
+                                <button textid="refp.button40" method="onCancel" width="80" casaindex="31" >
+
+
+                                </button>
+
+
+                        </itr>
+
+
+                        <itr visibleprop="closeVisisbleProp" casaindex="32" >
+
+
+                                <icon image="images/toolbarundo.gif" method="onUndo" name="Undo" casaindex="33" >
+
+
+                                </icon>
+
+
+                                <icon image="images/toolbarredo.gif" method="onRedo" name="Redo" casaindex="34" >
+
+
+                                </icon>
+
+
+                        </itr>
+
+
+                </rowarea>
+
+
+                <rowdynavis valueprop="functionVis" casaindex="35" >
+
+
+                        <rowarea foldable="false" casaindex="36" >
+
+
+                                <itr casaindex="37" >
+
+
+                                        <label textid="refp.label27" casaindex="38" >
+
+
+                                        </label>
+
+
+                                </itr>
+
+
+                                <vdist height="10" casaindex="39" >
+
+
+                                </vdist>
+
+
+                                <itr casaindex="40" >
+
+
+                                        <hdist width="150" casaindex="41" >
+
+
+                                        </hdist>
+
+
+                                </itr>
+
+
+                                <itr casaindex="42" >
+
+
+                                        <hdist width="100" casaindex="43" >
+
+
+                                        </hdist>
+
+
+                                        <label textid="refp.label28" width="100" casaindex="44" >
+
+
+                                        </label>
+
+
+                    <field xsdType="xs:string" valueprop="functions" width="150" popupmethod="openIdValueCombo" popupinputonly="true" casaindex="45" >
+
+                    </field>
+
+                                        <hdist width="275" casaindex="46" >
+
+
+                                        </hdist>
+
+
+                                </itr>
+
+
+                                <vdist height="50" casaindex="47" >
+
+
+                                </vdist>
+
+
+                                <hline height="2" color="#D2D2D2" casaindex="48" >
+
+
+                                </hline>
+
+
+                                <vdist height="10" casaindex="49" >
+
+
+                                </vdist>
+
+
+                                <itr casaindex="50" >
+
+
+                                        <hdist width="100%" casaindex="51" >
+
+
+                                        </hdist>
+
+
+                                        <button textid="refp.button41" method="onFunctionOk" width="80" casaindex="52" >
+
+
+                                        </button>
+
+
+                                        <hdist width="10" casaindex="53" >
+
+
+                                        </hdist>
+
+
+                                        <button textid="refp.button42" method="onFunctionCancel" width="80" casaindex="54" >
+
+
+                                        </button>
+
+
+                                        <hdist width="30" casaindex="55" >
+
+
+                                        </hdist>
+
+
+                                </itr>
+
+
+                                <vdist height="10" casaindex="56" >
+
+
+                                </vdist>
+
+
+                        </rowarea>
+
+
+                </rowdynavis>
+
+
+                <rowdynavis valueprop="fieldGroupVis" casaindex="57" >
+
+
+                        <rowarea foldable="false" casaindex="58" >
+
+
+                                <itr casaindex="59" >
+
+
+                                        <label textid="refp.label29" casaindex="60" >
+
+
+                                        </label>
+
+
+                                </itr>
+
+
+                                <itr casaindex="61" >
+
+
+                                </itr>
+
+
+                                <rowarea foldable="false" casaindex="62" >
+
+
+                                        <rowtablearea2 griddataprop="lines" rowcount="10" height="200" width="610" withborder="false" hscroll="false" vscroll="auto" firstrowcolwidths="true" darkbackground="false" casaindex="63" >
+
+
+                                                <repeat casaindex="64" >
+
+
+                                                        <str valueprop="selected" showifempty="false" casaindex="65" >
+
+
+                                                                <treenode3 width="100" withplusminus="false" singleselect="false" withlines="false" casaindex="66" >
+
+
+                                                                </treenode3>
+
+
+                                                        </str>
+
+
+                                                </repeat>
+
+
+                                        </rowtablearea2>
+
+
+                                </rowarea>
+
+
+                                <vdist height="20" casaindex="67" >
+
+
+                                </vdist>
+
+
+                                <itr casaindex="68" >
+
+
+                                        <hdist width="350" casaindex="69" >
+
+
+                                        </hdist>
+
+
+                                        <button textid="refp.button42" method="onFieldGroupCancel" width="85" casaindex="70" >
+
+
+                                        </button>
+
+
+                                        <hdist width="10" casaindex="71" >
+
+
+                                        </hdist>
+
+
+                                </itr>
+
+
+                        </rowarea>
+
+
+                </rowdynavis>
+
+
+                <rowdynavis valueprop="operatorVis" casaindex="72" >
+
+
+                        <rowarea foldable="false" casaindex="73" >
+
+
+                                <itr casaindex="74" >
+
+
+                                        <label textid="refp.label30" casaindex="75" >
+
+
+                                        </label>
+
+
+                                </itr>
+
+
+                                <vdist height="10" casaindex="76" >
+
+
+                                </vdist>
+
+
+                                <itr casaindex="77" >
+
+
+                                        <hdist width="100" casaindex="78" >
+
+
+                                        </hdist>
+
+
+                                        <label textid="refp.label31" width="100" casaindex="79" >
+
+
+                                        </label>
+
+
+                    <field xsdType="xs:string" valueprop="operatorProp" width="150" popupmethod="openIdValueCombo" popupinputonly="true" casaindex="80" >
+
+                    </field>
+
+                                        <hdist width="275" casaindex="81" >
+
+
+                                        </hdist>
+
+
+                                </itr>
+
+
+                                <vdist height="50" casaindex="82" >
+
+
+                                </vdist>
+
+
+                                <hline height="2" color="#D2D2D2" casaindex="83" >
+
+
+                                </hline>
+
+
+                                <itr casaindex="84" >
+
+
+                                        <hdist width="400" casaindex="85" >
+
+
+                                        </hdist>
+
+
+                                        <button textid="refp.button45" method="operatorOk" width="80" casaindex="86" >
+
+
+                                        </button>
+
+
+                                        <hdist width="10" casaindex="87" >
+
+
+                                        </hdist>
+
+
+                                        <button textid="refp.button46" method="onOperatorCancel" width="80" casaindex="88" >
+
+
+                                        </button>
+
+
+                                </itr>
+
+
+                                <vdist height="10" casaindex="89" >
+
+
+                                </vdist>
+
+
+                                <vdist height="10" casaindex="90" >
+
+
+                                </vdist>
+
+
+                        </rowarea>
+
+
+                </rowdynavis>
+
+
+                <rowdynavis valueprop="consatantVis" casaindex="91" >
+
+
+                        <rowarea foldable="false" casaindex="92" >
+
+
+                                <itr casaindex="93" >
+
+
+                                        <label textid="refp.label32" casaindex="94" >
+
+
+                                        </label>
+
+
+                                </itr>
+
+
+                                <vdist height="10" casaindex="95" >
+
+
+                                </vdist>
+
+
+                                <itr casaindex="96" >
+
+
+                                        <hdist width="100" casaindex="97" >
+
+
+                                        </hdist>
+
+
+                                        <label textid="refp.label33" width="100" casaindex="98" >
+
+
+                                        </label>
+
+
+                    <field xsdType="int" datatype="int" valueprop="constProp" width="150" casaindex="99" >
+
+                    </field>
+
+                                        <hdist width="275" casaindex="100" >
+
+
+                                        </hdist>
+
+
+                                </itr>
+
+
+                                <vdist height="50" casaindex="101" >
+
+
+                                </vdist>
+
+
+                                <hline height="2" color="#D2D2D2" casaindex="102" >
+
+
+                                </hline>
+
+
+                                <vdist height="10" casaindex="103" >
+
+
+                                </vdist>
+
+
+                                <itr casaindex="104" >
+
+
+                                        <hdist width="400" casaindex="105" >
+
+
+                                        </hdist>
+
+
+                                        <button textid="refp.button47" method="onConsatantOk" width="80" casaindex="106" >
+
+
+                                        </button>
+
+
+                                        <hdist width="10" casaindex="107" >
+
+
+                                        </hdist>
+
+
+                                        <button textid="refp.button48" method="onConsatantCancel" width="80" casaindex="108" >
+
+
+                                        </button>
+
+
+                                </itr>
+
+
+                                <vdist height="10" casaindex="109" >
+
+
+                                </vdist>
+
+
+                        </rowarea>
+
+
+                </rowdynavis>
+
+
+                <rowdynavis valueprop="bracketVis" casaindex="110" >
+
+
+                        <rowarea foldable="false" casaindex="111" >
+
+
+                                <itr casaindex="112" >
+
+
+                                        <label textid="refp.label34" casaindex="113" >
+
+
+                                        </label>
+
+
+                                </itr>
+
+
+                                <vdist height="10" casaindex="114" >
+
+
+                                </vdist>
+
+
+                                <itr casaindex="115" >
+
+
+                                        <hdist width="100" casaindex="116" >
+
+
+                                        </hdist>
+
+
+                                        <label textid="refp.label35" width="100" casaindex="117" >
+
+
+                                        </label>
+
+
+                    <field xsdType="xs:string" flush="server" valueprop="bracketProp" width="150" popupmethod="openIdValueCombo" popupinputonly="true" casaindex="118" >
+
+                    </field>
+
+                                        <hdist width="275" casaindex="119" >
+
+
+                                        </hdist>
+
+
+                                </itr>
+
+
+                                <vdist height="50" casaindex="120" >
+
+
+                                </vdist>
+
+
+                                <hline height="2" color="#D2D2D2" casaindex="121" >
+
+
+                                </hline>
+
+
+                                <vdist height="10" casaindex="122" >
+
+
+                                </vdist>
+
+
+                                <itr casaindex="123" >
+
+
+                                        <hdist width="400" casaindex="124" >
+
+
+                                                <hdist width="10" casaindex="125" >
+
+
+                                                </hdist>
+
+
+                                                <hdist width="10" casaindex="126" >
+
+
+                                                </hdist>
+
+
+                                        </hdist>
+
+
+                                        <button textid="refp.button49" method="onBracketOk" visibleprop="brakOkbtnvis" width="80" casaindex="127" >
+
+
+                                        </button>
+
+
+                                        <hdist width="10" casaindex="128" >
+
+
+                                        </hdist>
+
+
+                                        <button textid="refp.button50" method="onBracketCancel" width="80" casaindex="129" >
+
+
+                                        </button>
+
+
+                                </itr>
+
+
+                                <vdist height="10" casaindex="130" >
+
+
+                                </vdist>
+
+
+                        </rowarea>
+
+
+                </rowdynavis>
+
+
+        </pagebody>
+
+
+        <statusbar casaindex="131" >
+
+
+        </statusbar>
+
+
+</page>

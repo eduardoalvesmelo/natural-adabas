@@ -1,0 +1,54 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** (Cortesia do Prof. Bogdan Tomoyuki Nassu)Suponha que você está programando um
+/** módulo contador de cédulas para caixas eletrônicos. Escreva um programa que informa com
+/** quantas cédulas de Real podemos representar um dado valor. Exemplo de resposta: R$ 218
+/** = 2 cédulas de 100, 1 cédula de 10, 1 cédula de 5, 1 cédula de 2 e 1 cédula de 1. Procure
+/** minimizar o número de cédulas usadas. Desconsidere valores com centavos, e suponha que
+/** a máquina sempre tem disponíveis as cédulas necessárias. 
+/** :author eduar
+DEFINE DATA LOCAL
+1 #vlr                  (N3) init<999>
+1 #nota-cem             (N3)
+1 #resto-cem            (N3)
+1 #nota-cinquenta       (N3)
+1 #resto-cinquenta      (N3)
+1 #nota-vinte           (N3)
+1 #resto-vinte          (N3)
+1 #nota-dez             (N3)
+1 #resto-dez            (N3)
+1 #nota-cinco           (N3)
+1 #resto-cinco          (N3)
+1 #nota-dois            (N3)
+1 #resto-dois            (N3)
+END-DEFINE                                                                                                                           
+   write 'Valor informado: ' #vlr
+*
+    divide 100 into #vlr giving #nota-cem
+    divide 100 into #vlr remainder #resto-cem
+*    
+    divide 50 into #resto-cem giving #nota-cinquenta
+    divide 50 into #resto-cem remainder #resto-cinquenta
+*
+    divide 20 into #resto-cinquenta giving #nota-vinte
+    divide 20 into #resto-cinquenta remainder #resto-vinte
+*
+    divide 10 into #resto-vinte giving #nota-dez
+    divide 10 into #resto-vinte remainder #resto-dez
+*
+    divide 5 into #resto-dez giving #nota-cinco
+    divide 5 into #resto-dez remainder #resto-cinco
+*
+    divide 2 into #resto-cinco giving #nota-dois
+    divide 2 into #resto-cinco remainder #resto-dois
+*
+   write 'Notas de cem' #nota-cem
+   write 'Notas de cinquenta' #nota-cinquenta
+   write 'Notas de vinte' #nota-vinte
+   write 'Notas de dez' #nota-dez
+   write 'Notas de cinco' #nota-cinco
+   write 'Notas de dois' #nota-dois
+*
+END

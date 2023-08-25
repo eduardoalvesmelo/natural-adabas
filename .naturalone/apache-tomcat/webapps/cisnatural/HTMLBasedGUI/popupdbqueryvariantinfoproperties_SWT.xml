@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.popups.PopupDBQueryVariantInfoPropertiesModel" popupwidth="540" popupheight="345" popupfeatures="resizable:no; status:no" pagename="popupdbqueryvariantinfoproperties" ispopup="true" casaindex="1" >
+
+
+        <pagebody horizdist="false" takefullheight="true" paddingleft="10" paddingright="10" paddingtop="6" paddingbottom="6" casaindex="2" >
+
+
+                <rowtabarea height="285" openedindexprop="openedIndex" textid1="titleGeneralSettings" page1="GENERALSETTINGS" textid2="titleColumnOrder" page2="CPROPERTIES" textid3="titleColumnSortOrder" page3="SORTING" textid4="titleColumnGroupOrder" page4="GROUPING" textid5="titleFilters" page5="FILTERS" casaindex="3" >
+
+
+                        <tabpage id="GENERALSETTINGS" takefullheight="true" casaindex="4" >
+
+
+                                <vdist height="3" casaindex="5" >
+
+
+                                </vdist>
+
+
+                                <itr width="100%" casaindex="6" >
+
+
+                                        <coltable0 width="6" casaindex="7" >
+
+
+                                        </coltable0>
+
+
+                                        <coltable0 width="100%" casaindex="8" >
+
+
+                                                <rowarea textid="rowareaVariantSettings" foldable="false" casaindex="9" >
+
+
+                                                        <itr casaindex="10" >
+
+
+                                                                <label textid="variantName" width="160" casaindex="11" >
+
+
+                                                                </label>
+
+
+                                <field xsdType="xs:string" valueprop="variantName" width="200" casaindex="12" >
+
+                                </field>
+
+                                                        </itr>
+
+
+                                                        <vdist casaindex="13" >
+
+
+                                                        </vdist>
+
+
+                                                </rowarea>
+
+
+                                                <vdist casaindex="14" >
+
+
+                                                </vdist>
+
+
+                                                <rowarea textid="rowareaGeneralSettings" foldable="false" casaindex="15" >
+
+
+                                                        <itr casaindex="16" >
+
+
+                                                                <label textid="reportTitle" width="160" casaindex="17" >
+
+
+                                                                </label>
+
+
+                                <field xsdType="xs:string" valueprop="title" width="200" casaindex="18" >
+
+                                </field>
+
+                                                        </itr>
+
+
+                                                        <itr casaindex="19" >
+
+
+                                                                <label textid="maxRows" width="160" casaindex="20" >
+
+
+                                                                </label>
+
+
+                                <field xsdType="xs:string" maxlength="7" validation="[0-9]{1,7}" valueprop="maxRows" width="80" casaindex="21" >
+
+                                </field>
+
+                                                        </itr>
+
+
+                                                        <itr casaindex="22" >
+
+
+                                                                <label textid="onLoadExecute" width="160" casaindex="23" >
+
+
+                                                                </label>
+
+
+                                                                <checkbox valueprop="executeOnLoad" casaindex="24" >
+
+
+                                                                </checkbox>
+
+
+                                                        </itr>
+
+
+                                                        <vdist casaindex="25" >
+
+
+                                                        </vdist>
+
+
+                                                </rowarea>
+
+
+                                                <vdist casaindex="26" >
+
+
+                                                </vdist>
+
+
+                                                <rowarea textid="rowareaPDFSettings" foldable="false" casaindex="27" >
+
+
+                                                        <itr casaindex="28" >
+
+
+                                                                <label textid="pdfGenWithFilterValues" width="160" casaindex="29" >
+
+
+                                                                </label>
+
+
+                                                                <checkbox valueprop="withFilterValues" casaindex="30" >
+
+
+                                                                </checkbox>
+
+
+                                                        </itr>
+
+
+                                                        <vdist casaindex="31" >
+
+
+                                                        </vdist>
+
+
+                                                </rowarea>
+
+
+                                        </coltable0>
+
+
+                                        <coltable0 width="6" casaindex="32" >
+
+
+                                        </coltable0>
+
+
+                                </itr>
+
+
+                                <vdist height="100%" casaindex="33" >
+
+
+                                </vdist>
+
+
+                                <itr width="100%" casaindex="34" >
+
+
+                                        <hdist width="50%" casaindex="35" >
+
+
+                                        </hdist>
+
+
+                                        <button textid="onOK" method="onOK" casaindex="36" >
+
+
+                                        </button>
+
+
+                                        <hdist width="50%" casaindex="37" >
+
+
+                                        </hdist>
+
+
+                                </itr>
+
+
+                                <vdist height="4" casaindex="38" >
+
+
+                                </vdist>
+
+
+                        </tabpage>
+
+
+                        <tabpage id="CPROPERTIES" takefullheight="true" display="none" casaindex="39" >
+
+
+                                <vdist height="6" casaindex="40" >
+
+
+                                </vdist>
+
+
+                                <itr width="100%" casaindex="41" >
+
+
+                                        <coltable0 width="6" casaindex="42" >
+
+
+                                        </coltable0>
+
+
+                                        <coltable0 width="100%" casaindex="43" >
+
+
+                                                <rowtablearea2 griddataprop="columnOrder" rowcount="9" width="100%" casaindex="44" >
+
+
+                                                        <repeat casaindex="45" >
+
+
+                                                                <tr casaindex="46" >
+
+
+                                                                        <toggle valueprop="selected" flush="server" trueimage="../HTMLBasedGUI/images/toggleselect.gif" falseimage="../HTMLBasedGUI/images/toggleunselect.gif" casaindex="47" >
+
+
+                                                                        </toggle>
+
+
+                                    <field xsdType="xs:string" valueprop="columnName" width="100%" statusprop="columnNameDisplayStatus" valuetextprop="columnNameText" popupmethod="openIdValueCombo" casaindex="48" >
+
+                                    </field>
+
+                                                                </tr>
+
+
+                                                        </repeat>
+
+
+                                                </rowtablearea2>
+
+
+                                        </coltable0>
+
+
+                                        <coltable0 width="6" casaindex="49" >
+
+
+                                        </coltable0>
+
+
+                                </itr>
+
+
+                                <vdist height="100%" casaindex="50" >
+
+
+                                </vdist>
+
+
+                                <itr width="100%" casaindex="51" >
+
+
+                                        <hdist width="6" casaindex="52" >
+
+
+                                        </hdist>
+
+
+                                        <icon image="../HTMLBasedGUI/images/arrowup.gif" method="onColumnUp" casaindex="53" >
+
+
+                                        </icon>
+
+
+                                        <icon image="../HTMLBasedGUI/images/arrowdown.gif" method="onColumnDown" casaindex="54" >
+
+
+                                        </icon>
+
+
+                                        <hdist width="50%" casaindex="55" >
+
+
+                                        </hdist>
+
+
+                                        <button textid="onOK" method="onOK" casaindex="56" >
+
+
+                                        </button>
+
+
+                                        <hdist width="50%" casaindex="57" >
+
+
+                                        </hdist>
+
+
+                                </itr>
+
+
+                                <vdist height="4" casaindex="58" >
+
+
+                                </vdist>
+
+
+                        </tabpage>
+
+
+                        <tabpage id="SORTING" takefullheight="true" display="none" casaindex="59" >
+
+
+                                <vdist height="6" casaindex="60" >
+
+
+                                </vdist>
+
+
+                                <itr width="100%" casaindex="61" >
+
+
+                                        <coltable0 width="6" casaindex="62" >
+
+
+                                        </coltable0>
+
+
+                                        <coltable0 width="100%" casaindex="63" >
+
+
+                                                <rowtablearea2 griddataprop="columnSortOrder" rowcount="9" width="100%" casaindex="64" >
+
+
+                                                        <repeat casaindex="65" >
+
+
+                                                                <tr casaindex="66" >
+
+
+                                    <field xsdType="xs:string" valueprop="columnDescription" width="30" displayonly="true" fieldstyle="border:0" casaindex="67" >
+
+                                    </field>
+
+                                    <field xsdType="xs:string" valueprop="columnName" width="50%" statusprop="columnNameDisplayStatus" valuetextprop="columnNameText" popupmethod="openIdValueCombo" casaindex="68" >
+
+                                    </field>
+
+                                    <field xsdType="xs:string" valueprop="ascending" width="50%" popupmethod="openIdValueCombo" casaindex="69" >
+
+                                    </field>
+
+                                                                </tr>
+
+
+                                                        </repeat>
+
+
+                                                </rowtablearea2>
+
+
+                                        </coltable0>
+
+
+                                        <coltable0 width="6" casaindex="70" >
+
+
+                                        </coltable0>
+
+
+                                </itr>
+
+
+                                <vdist height="100%" casaindex="71" >
+
+
+                                </vdist>
+
+
+                                <itr width="100%" casaindex="72" >
+
+
+                                        <hdist width="50%" casaindex="73" >
+
+
+                                        </hdist>
+
+
+                                        <button textid="onOK" method="onOK" casaindex="74" >
+
+
+                                        </button>
+
+
+                                        <hdist width="50%" casaindex="75" >
+
+
+                                        </hdist>
+
+
+                                </itr>
+
+
+                                <vdist height="4" casaindex="76" >
+
+
+                                </vdist>
+
+
+                        </tabpage>
+
+
+                        <tabpage id="GROUPING" takefullheight="true" display="none" casaindex="77" >
+
+
+                                <vdist height="6" casaindex="78" >
+
+
+                                </vdist>
+
+
+                                <itr width="100%" casaindex="79" >
+
+
+                                        <coltable0 width="6" casaindex="80" >
+
+
+                                        </coltable0>
+
+
+                                        <coltable0 width="100%" casaindex="81" >
+
+
+                                                <rowtablearea2 griddataprop="columnGroupOrder" rowcount="9" width="100%" casaindex="82" >
+
+
+                                                        <repeat casaindex="83" >
+
+
+                                                                <tr casaindex="84" >
+
+
+                                    <field xsdType="xs:string" valueprop="name" width="100%" displayonly="true" fieldstyle="border:0" casaindex="85" >
+
+                                    </field>
+
+                                                                        <checkbox valueprop="visible" width="100" casaindex="86" >
+
+
+                                                                        </checkbox>
+
+
+                                                                </tr>
+
+
+                                                        </repeat>
+
+
+                                                </rowtablearea2>
+
+
+                                        </coltable0>
+
+
+                                        <coltable0 width="6" casaindex="87" >
+
+
+                                        </coltable0>
+
+
+                                </itr>
+
+
+                                <vdist height="100%" casaindex="88" >
+
+
+                                </vdist>
+
+
+                                <itr width="100%" casaindex="89" >
+
+
+                                        <hdist width="50%" casaindex="90" >
+
+
+                                        </hdist>
+
+
+                                        <button textid="onOK" method="onOK" casaindex="91" >
+
+
+                                        </button>
+
+
+                                        <hdist width="50%" casaindex="92" >
+
+
+                                        </hdist>
+
+
+                                </itr>
+
+
+                                <vdist height="4" casaindex="93" >
+
+
+                                </vdist>
+
+
+                        </tabpage>
+
+
+                        <tabpage id="FILTERS" takefullheight="true" display="none" casaindex="94" >
+
+
+                                <vdist height="6" casaindex="95" >
+
+
+                                </vdist>
+
+
+                                <itr width="100%" casaindex="96" >
+
+
+                                        <coltable0 width="6" casaindex="97" >
+
+
+                                        </coltable0>
+
+
+                                        <coltable0 width="100%" casaindex="98" >
+
+
+                                                <rowtablearea2 griddataprop="filters" rowcount="9" width="100%" casaindex="99" >
+
+
+                                                        <repeat casaindex="100" >
+
+
+                                                                <tr casaindex="101" >
+
+
+                                    <field xsdType="xs:string" valueprop="name" width="100%" displayonly="true" fieldstyle="border:0" casaindex="102" >
+
+                                    </field>
+
+                                                                        <checkbox valueprop="visible" width="100" casaindex="103" >
+
+
+                                                                        </checkbox>
+
+
+                                                                </tr>
+
+
+                                                        </repeat>
+
+
+                                                </rowtablearea2>
+
+
+                                        </coltable0>
+
+
+                                        <coltable0 width="6" casaindex="104" >
+
+
+                                        </coltable0>
+
+
+                                </itr>
+
+
+                                <vdist height="100%" casaindex="105" >
+
+
+                                </vdist>
+
+
+                                <itr width="100%" casaindex="106" >
+
+
+                                        <hdist width="50%" casaindex="107" >
+
+
+                                        </hdist>
+
+
+                                        <button textid="onOK" method="onOK" casaindex="108" >
+
+
+                                        </button>
+
+
+                                        <hdist width="50%" casaindex="109" >
+
+
+                                        </hdist>
+
+
+                                </itr>
+
+
+                                <vdist height="4" casaindex="110" >
+
+
+                                </vdist>
+
+
+                        </tabpage>
+
+
+                </rowtabarea>
+
+
+                <vdist casaindex="111" >
+
+
+                </vdist>
+
+
+        </pagebody>
+
+
+        <hotkeys casaindex="112" >
+
+
+                <hotkey keycode="13" method="onOK" casaindex="113" >
+
+
+                </hotkey>
+
+
+        </hotkeys>
+
+
+</page>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><page ispopup="true" model="com.softwareag.cis.zzz.SystemMessage" popupheight="230" popupwidth="420" translationreference="CIS_TOOLS" casaindex="1" >
+
+
+        <pagebody takefullheight="true" casaindex="2" >
+
+
+                <rowarea casaindex="3" >
+
+
+                        <itr width="100%" casaindex="4" >
+
+
+                                <hdist width="100%" casaindex="5" >
+
+
+                                </hdist>
+
+
+                                <imageout valueprop="typeImage" casaindex="6" >
+
+
+                                </imageout>
+
+
+                        </itr>
+
+
+                        <itr casaindex="7" >
+
+
+                                <textout height="90" valueprop="message" width="100%" casaindex="8" >
+
+
+                                </textout>
+
+
+                        </itr>
+
+
+                        <vdist height="4" casaindex="9" >
+
+
+                        </vdist>
+
+
+                        <itr casaindex="10" >
+
+
+                                <hdist width="100%" casaindex="11" >
+
+
+                                </hdist>
+
+
+                                <button method="closePage" textid="sysmsg.button0" casaindex="12" >
+
+
+                                </button>
+
+
+                                <hdist width="16" casaindex="13" >
+
+
+                                </hdist>
+
+
+                                <button textid="sysmsg.button1" casaindex="14" >
+
+
+                                </button>
+
+
+                                <hdist width="8" casaindex="15" >
+
+
+                                </hdist>
+
+
+                        </itr>
+
+
+                        <vdist height="4" casaindex="16" >
+
+
+                        </vdist>
+
+
+                </rowarea>
+
+
+                <vdist casaindex="17" >
+
+
+                </vdist>
+
+
+        </pagebody>
+
+
+</page>

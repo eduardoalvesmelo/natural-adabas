@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.popups.PopupDBQueryCSVOutputModel" translationreference="dbquery" popupwidth="923" popupheight="677" popupfeatures="resizable: yes; status:no" occupiedpixelheight="600" occupiedpixelwidth="500" casaindex="1" >
+
+
+        <pagebody horizdist="false" takefullheight="true" paddingtop="0" casaindex="2" >
+
+
+                <itr width="100%" height="100%" casaindex="3" >
+
+
+                        <text valueprop="content" width="100%" height="100%" wrap="off" casaindex="4" >
+
+
+                        </text>
+
+
+                </itr>
+
+
+                <rowarea textid="csvDownload" visibleprop="saveAsVisible" withleftborder="false" withrightborder="false" withbottomborder="false" withtoppadding="false" casaindex="5" >
+
+
+                        <itr width="100%" casaindex="6" >
+
+
+                                <ihtml valueprop="html" width="100%" casaindex="7" >
+
+
+                                </ihtml>
+
+
+                        </itr>
+
+
+                </rowarea>
+
+
+        </pagebody>
+
+
+</page>

@@ -1,0 +1,33 @@
+0001/** Fazer um programa que recebe um símbolo de operação do usuário (+, -, / ou *) e dois
+0002/** números reais. O programa deve retornar o resultado da operação recebida sobre estes dois
+0003/** números. 
+0004/**
+0005/** :author Eduardo Alves de Melo
+0006/* TODO Enter your code here
+0007DEFINE DATA LOCAL
+00081 #L1                (N2.2)
+00091 #L2                (N2.2)     
+00101 #S1                (A1)
+00111 #R1                (N2.2)
+00121 #M1                (A100)    
+0013END-DEFINE
+0014*
+0015INPUT 'Informe o primeiro valor: ' #L1
+0016INPUT 'Informe o segundo valor: ' #L2
+0017INPUT 'Informe o simbolo da operação: ' #S1
+0018*
+0019decide for first condition    
+0020   when (#S1 = '+')    #R1 := #L1 + #L2           
+0021   when (#S1 = '-')    #R1 := #L1 - #L2
+0022   when (#S1 = '*')    #R1 := #L1 * #L2
+0023   when (#S1 = '/')    #R1 := #L1 / #L2
+0024   when none           #R1 := 0
+0025end-decide
+0026*   
+0027
+0028write 'Valor 1: ' #L1
+0029write 'Valor 2: ' #L2
+0030write 'simbolo de operação: ' #S1
+0031write 'Resultado: ' #R1
+0032*
+0033END

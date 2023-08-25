@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.DocumentationAdapter" translationreference="CIS_TOOLS" casaindex="1" >
+
+
+        <titlebar textid="documentationMaintain.titlebar0" closetitletextid="closePage" casaindex="2" >
+
+
+        </titlebar>
+
+
+        <header withdistance="false" casaindex="3" >
+
+
+                <button image="../HTMLBasedGUI/images/edit.gif" method="onEdit" textidprop="documentationMaintain.button0" visibleprop="editVis" casaindex="4" >
+
+
+                </button>
+
+
+        </header>
+
+
+        <pagebody takefullheight="true" casaindex="5" >
+
+
+                <vsplit height="100%" widthleft="250" casaindex="6" >
+
+
+                        <splitcell takefullheight="true" casaindex="7" >
+
+
+                                <clienttree height="100%" selectionvisible="true" treecollectionprop="tree" withplusminus="true" casaindex="8" >
+
+
+                                </clienttree>
+
+
+                        </splitcell>
+
+
+                        <splitcell takefullheight="true" casaindex="9" >
+
+
+                                <itr height="100%" width="100%" casaindex="10" >
+
+
+                                        <subpage height="100%" scrolling="yes" valueprop="tagDescription" width="100%" casaindex="11" >
+
+
+                                        </subpage>
+
+
+                                </itr>
+
+
+                        </splitcell>
+
+
+                </vsplit>
+
+
+        </pagebody>
+
+
+</page>

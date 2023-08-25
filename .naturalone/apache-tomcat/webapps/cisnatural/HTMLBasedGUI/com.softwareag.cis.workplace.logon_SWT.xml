@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.zzz.LogonModel" translationreference="ErrorReaction" casaindex="1" >
+
+
+        <titlebar textid="logonTitle" closetitletextid="closePage" casaindex="2" >
+
+
+        </titlebar>
+
+
+        <header withdistance="false" casaindex="3" >
+
+
+                <button method="logon" textid="logon" casaindex="4" >
+
+
+                </button>
+
+
+        </header>
+
+
+        <pagebody takefullheight="true" casaindex="5" >
+
+
+                <vdist height="50%" casaindex="6" >
+
+
+                </vdist>
+
+
+                <itr width="100%" casaindex="7" >
+
+
+                        <hdist width="50%" casaindex="8" >
+
+
+                        </hdist>
+
+
+                        <coltable0 width="590" casaindex="9" >
+
+
+                                <rowtabarea height="100" page1="DIVLOGON" page2="DIVDATEANDTIME" textid1="logonTab" textid2="internationalisationTab" casaindex="10" >
+
+
+                                        <tabpage height="50" id="DIVLOGON" casaindex="11" >
+
+
+                                                <tr casaindex="12" >
+
+
+                                                        <label textid="user" width="100" casaindex="13" >
+
+
+                                                        </label>
+
+
+                            <field xsdType="xs:string" length="15" valueprop="user" casaindex="14" >
+
+                            </field>
+
+                                                </tr>
+
+
+                                                <tr casaindex="15" >
+
+
+                                                        <label textid="password" width="100" casaindex="16" >
+
+
+                                                        </label>
+
+
+                            <field xsdType="xs:string" length="10" password="true" valueprop="password" casaindex="17" >
+
+                            </field>
+
+                                                </tr>
+
+
+                                                <vdist casaindex="18" >
+
+
+                                                </vdist>
+
+
+                                                <tr casaindex="19" >
+
+
+                                                        <td casaindex="20" >
+
+
+                                                        </td>
+
+
+                                                        <button method="logon" textid="logon" casaindex="21" >
+
+
+                                                        </button>
+
+
+                                                </tr>
+
+
+                                        </tabpage>
+
+
+                                        <tabpage display="none" height="50" id="DIVDATEANDTIME" casaindex="22" >
+
+
+                                                <rowarea textid="dateAndTime" casaindex="23" >
+
+
+                                                        <tr casaindex="24" >
+
+
+                                                                <label textid="dateDisplay" width="100" casaindex="25" >
+
+
+                                                                </label>
+
+
+                                <field xsdType="xs:string" displayonly="true" length="15" valueprop="dateDisplay" casaindex="26" >
+
+                                </field>
+
+                                                                <hdist casaindex="27" >
+
+
+                                                                </hdist>
+
+
+                                                                <button method="switchToMMDDYYYY" textid="setAmericanStyle" casaindex="28" >
+
+
+                                                                </button>
+
+
+                                                                <hdist casaindex="29" >
+
+
+                                                                </hdist>
+
+
+                                                                <button method="switchToDDMMYYYY" textid="setNonAmericanStyle" casaindex="30" >
+
+
+                                                                </button>
+
+
+                                                        </tr>
+
+
+                                                        <tr casaindex="31" >
+
+
+                                                                <label textid="timeDisplay" width="100" casaindex="32" >
+
+
+                                                                </label>
+
+
+                                <field xsdType="xs:string" displayonly="true" length="15" valueprop="timeDisplay" casaindex="33" >
+
+                                </field>
+
+                                                        </tr>
+
+
+                                                </rowarea>
+
+
+                                                <rowarea textid="language" casaindex="34" >
+
+
+                                                        <tr casaindex="35" >
+
+
+                                                                <label textid="language" width="100" casaindex="36" >
+
+
+                                                                </label>
+
+
+                                <field xsdType="xs:string" length="3" valueprop="language" casaindex="37" >
+
+                                </field>
+
+                                                        </tr>
+
+
+                                                </rowarea>
+
+
+                                                <rowarea textid="styleSheet" casaindex="38" >
+
+
+                                                        <itr casaindex="39" >
+
+
+                                                                <label textid="labelStyleSheet" width="100" casaindex="40" >
+
+
+                                                                </label>
+
+
+                                <field xsdType="xs:string" length="50" valueprop="styleSheet" casaindex="41" >
+
+                                </field>
+
+                                                        </itr>
+
+
+                                                        <itr casaindex="42" >
+
+
+                                                                <label textid="wrkplacelogon.label0" width="100" casaindex="43" >
+
+
+                                                                </label>
+
+
+                                                                <combofix flush="server" size="1" valueprop="direction" width="120" casaindex="44" >
+
+
+                                                                        <combooption textid="wrkplacelogon.combooption0" value="ltr" casaindex="45" >
+
+
+                                                                        </combooption>
+
+
+                                                                        <combooption textid="wrkplacelogon.combooption1" value="rtl" casaindex="46" >
+
+
+                                                                        </combooption>
+
+
+                                                                </combofix>
+
+
+                                                        </itr>
+
+
+                                                </rowarea>
+
+
+                                                <rowarea textid="areaDecimalSeparator" casaindex="47" >
+
+
+                                                        <itr casaindex="48" >
+
+
+                                                                <label textid="labelSeparator" width="100" casaindex="49" >
+
+
+                                                                </label>
+
+
+                                                                <radiobutton value="," valueprop="decimalSeparator" casaindex="50" >
+
+
+                                                                </radiobutton>
+
+
+                                                                <label asplaintext="true" textid="wrkplacelogon.label1" casaindex="51" >
+
+
+                                                                </label>
+
+
+                                                        </itr>
+
+
+                                                        <itr casaindex="52" >
+
+
+                                                                <hdist width="100" casaindex="53" >
+
+
+                                                                </hdist>
+
+
+                                                                <radiobutton value="." valueprop="decimalSeparator" casaindex="54" >
+
+
+                                                                </radiobutton>
+
+
+                                                                <label asplaintext="true" textid="wrkplacelogon.label2" casaindex="55" >
+
+
+                                                                </label>
+
+
+                                                        </itr>
+
+
+                                                </rowarea>
+
+
+                                        </tabpage>
+
+
+                                </rowtabarea>
+
+
+                        </coltable0>
+
+
+                        <hdist width="50%" casaindex="56" >
+
+
+                        </hdist>
+
+
+                </itr>
+
+
+                <vdist height="50%" casaindex="57" >
+
+
+                </vdist>
+
+
+        </pagebody>
+
+
+        <statusbar longtextprop="messageLongText" shorttextprop="messageShortText" typeprop="messageType" withdistance="false" casaindex="58" >
+
+
+        </statusbar>
+
+
+</page>

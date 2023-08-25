@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.EditorXMLPropertyInputInnerAdapter1" translationreference="CIS_XMLDATA" darkbackground="true" casaindex="1" >
+
+
+        <pagebody horizdist="false" takefullheight="true" paddingleft="5" paddingright="5" paddingtop="10" paddingbottom="10" casaindex="2" >
+
+
+                <itr takefullwidth="true" casaindex="3" >
+
+
+                        <coltable0 width="100%" casaindex="4" >
+
+
+                                <tr casaindex="5" >
+
+
+                                        <label textid="xe.referenceto" width="100%" asplaintext="true" casaindex="6" >
+
+
+                                        </label>
+
+
+                                </tr>
+
+
+                        </coltable0>
+
+
+                        <coltable0 width="50" casaindex="7" >
+
+
+                                <tr casaindex="8" >
+
+
+                                        <icon image="../HTMLBasedGUI/images/new.gif" method="onAddMode" titletextid="xe.btn.AddMode" casaindex="9" >
+
+
+                                        </icon>
+
+
+                                </tr>
+
+
+                                <tr casaindex="10" >
+
+
+                                        <icon image="../HTMLBasedGUI/images/remove.gif" method="onRemoveMode" titletextid="xe.btn.removeMode" casaindex="11" >
+
+
+                                        </icon>
+
+
+                                </tr>
+
+
+                        </coltable0>
+
+
+                </itr>
+
+
+                <itr casaindex="12" >
+
+
+                        <hdist width="6" casaindex="13" >
+
+
+                        </hdist>
+
+
+                        <radiobutton valueprop="propertyValueDefinition" value="BY_VALUE" flush="server" statusprop="propertyValueDefinitionStatus" textid="xe.valueByValue" hdistpixelwidth="5" casaindex="14" >
+
+
+                        </radiobutton>
+
+
+                </itr>
+
+
+                <itr takefullwidth="true" height="100%" casaindex="15" >
+
+
+                        <hdist width="31" casaindex="16" >
+
+
+                        </hdist>
+
+
+                        <subcispage2 subcispageprop="mySubCISPage" width="100%" height="100%" borderwidth="0" casaindex="17" >
+
+
+                        </subcispage2>
+
+
+                        <hdist width="6" casaindex="18" >
+
+
+                        </hdist>
+
+
+                </itr>
+
+
+                <vdist height="8" casaindex="19" >
+
+
+                </vdist>
+
+
+                <itr takefullwidth="true" casaindex="20" >
+
+
+                        <hdist width="6" casaindex="21" >
+
+
+                        </hdist>
+
+
+                        <radiobutton valueprop="propertyValueDefinition" value="BY_REFERENCE" flush="server" statusprop="propertyValueDefinitionStatus" textid="xe.valueByReference" hdistpixelwidth="5" casaindex="22" >
+
+
+                        </radiobutton>
+
+
+                        <hdist width="6" casaindex="23" >
+
+
+                        </hdist>
+
+
+                        <combodyn2 valueprop="reference" validvaluesprop="referenceOptions" width="150" flush="server" statusprop="referenceStatus" casaindex="24" >
+
+
+                        </combodyn2>
+
+
+                        <hdist width="6" casaindex="25" >
+
+
+                        </hdist>
+
+
+                </itr>
+
+
+        </pagebody>
+
+
+        <statusbar casaindex="26" >
+
+
+        </statusbar>
+
+
+</page>

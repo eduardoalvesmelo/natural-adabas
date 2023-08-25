@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.popups.PopupOnlineHelpModel" pagename="onlinehelp.html" popupwidth="800" popupheight="700" casaindex="1" >
+
+
+        <pagebody vscroll="auto" hscroll="auto" takefullheight="true" casaindex="2" >
+
+
+                <vdist casaindex="3" >
+
+
+                </vdist>
+
+
+                <itr width="100%" height="100%" casaindex="4" >
+
+
+                        <text valueprop="html" width="100%" height="100%" textareastyle="background-color: #000000; color: #AAFFFF; font-weight: bold" casaindex="5" >
+
+
+                        </text>
+
+
+                </itr>
+
+
+                <vdist casaindex="6" >
+
+
+                </vdist>
+
+
+                <itr casaindex="7" >
+
+
+                        <hdist width="50%" casaindex="8" >
+
+
+                        </hdist>
+
+
+                        <button textid="popupEditSaveAndCloseEditor" method="onSaveEditor" casaindex="9" >
+
+
+                        </button>
+
+
+                        <hdist casaindex="10" >
+
+
+                        </hdist>
+
+
+                        <button textid="popupEditCloseEditor" method="onCloseEditor" casaindex="11" >
+
+
+                        </button>
+
+
+                        <hdist width="50%" casaindex="12" >
+
+
+                        </hdist>
+
+
+                </itr>
+
+
+        </pagebody>
+
+
+        <hotkeys casaindex="13" >
+
+
+                <hotkey keycode="83" ctrlkey="true" method="onSaveEditor" casaindex="14" >
+
+
+                </hotkey>
+
+
+        </hotkeys>
+
+
+</page>

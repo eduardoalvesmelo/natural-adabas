@@ -1,0 +1,132 @@
+[07/20/2023 15:21:32.792]	Details set. Port number: 2800
+[07/20/2023 15:21:32.828]	Prepare start - check ini file. Port number: 2800
+[07/20/2023 15:21:32.833]	Prepare start - check if started. Port number: 2800
+[07/20/2023 15:21:32.838]	Prepare start - create folders. Port number: 2800
+[07/20/2023 15:21:32.845]	Prepare start - ended. Port number: 2800
+[07/20/2023 15:21:35.080]	Natural RPC Server 'NATSRV2800' started. (Parameters: PARM=ONEPARM SRVNAME=NATSRV2800 SRVNODE=localhost:1971 SERVER=ON)
+[07/21/2023 07:43:33.648]	Details set. Port number: 2800
+[07/21/2023 07:43:33.653]	Prepare start - check ini file. Port number: 2800
+[07/21/2023 07:43:33.658]	Prepare start - check if started. Port number: 2800
+[07/21/2023 07:43:33.663]	Prepare start - create folders. Port number: 2800
+[07/21/2023 07:43:33.668]	Prepare start - ended. Port number: 2800
+[07/21/2023 07:43:35.880]	Natural RPC Server 'NATSRV2800' started. (Parameters: PARM=ONEPARM SRVNAME=NATSRV2800 SRVNODE=localhost:1971 SERVER=ON)
+[07/21/2023 10:58:31.862]	Natural RPC Server 'NATSRV2800' started. (Parameters: PARM=ONEPARM SRVNAME=NATSRV2800 SRVNODE=localhost:1971 SERVER=STOP)
+[07/21/2023 10:58:37.299]	Natural RPC Server 'NATSRV2800' failed to stop! Error: RPC server killed
+[07/21/2023 10:59:44.045]	Details set. Port number: 2800
+[07/21/2023 10:59:44.052]	Prepare start - check ini file. Port number: 2800
+[07/21/2023 10:59:44.059]	Prepare start - check if started. Port number: 2800
+[07/21/2023 10:59:44.065]	Prepare start - create folders. Port number: 2800
+[07/21/2023 10:59:44.072]	Prepare start - ended. Port number: 2800
+[07/21/2023 10:59:46.256]	Natural RPC Server 'NATSRV2800' started. (Parameters: PARM=ONEPARM SRVNAME=NATSRV2800 SRVNODE=localhost:1971 SERVER=ON)
+[07/21/2023 11:08:30.977]	Natural RPC Server 'NATSRV2800' started. (Parameters: PARM=ONEPARM SRVNAME=NATSRV2800 SRVNODE=localhost:1971 SERVER=STOP)
+[07/21/2023 11:08:36.423]	Natural RPC Server 'NATSRV2800' failed to stop! Error: RPC server killed
+[07/21/2023 11:08:45.916]	Details set. Port number: 2800
+[07/21/2023 11:08:45.922]	Prepare start - check ini file. Port number: 2800
+[07/21/2023 11:08:45.928]	Prepare start - check if started. Port number: 2800
+[07/21/2023 11:08:45.934]	Prepare start - create folders. Port number: 2800
+[07/21/2023 11:08:45.939]	Prepare start - ended. Port number: 2800
+[07/21/2023 11:08:48.118]	Natural RPC Server 'NATSRV2800' started. (Parameters: PARM=ONEPARM SRVNAME=NATSRV2800 SRVNODE=localhost:1971 SERVER=ON)
+[07/21/2023 13:49:23.233]	Natural RPC Server 'NATSRV2800' started. (Parameters: PARM=ONEPARM SRVNAME=NATSRV2800 SRVNODE=localhost:1971 SERVER=STOP)
+[07/21/2023 13:49:28.674]	Natural RPC Server 'NATSRV2800' failed to stop! Error: RPC server killed
+[07/21/2023 13:49:51.880]	Details set. Port number: 2800
+[07/21/2023 13:49:51.887]	Prepare start - check ini file. Port number: 2800
+[07/21/2023 13:49:51.892]	Prepare start - check if started. Port number: 2800
+[07/21/2023 13:49:51.897]	Prepare start - create folders. Port number: 2800
+[07/21/2023 13:49:51.902]	Prepare start - ended. Port number: 2800
+[07/21/2023 13:49:54.084]	Natural RPC Server 'NATSRV2800' started. (Parameters: PARM=ONEPARM SRVNAME=NATSRV2800 SRVNODE=localhost:1971 SERVER=ON)
+[07/24/2023 11:07:14.156]	Details set. Port number: 2800
+[07/24/2023 11:07:14.163]	Prepare start - check ini file. Port number: 2800
+[07/24/2023 11:07:14.173]	Prepare start - check if started. Port number: 2800
+[07/24/2023 11:07:14.179]	Prepare start - create folders. Port number: 2800
+[07/24/2023 11:07:14.186]	Prepare start - ended. Port number: 2800
+[07/24/2023 11:07:16.400]	Natural RPC Server 'NATSRV2800' started. (Parameters: PARM=ONEPARM SRVNAME=NATSRV2800 SRVNODE=localhost:1971 SERVER=ON)
+[07/25/2023 08:23:12.131]	Details set. Port number: 2800
+[07/25/2023 08:23:12.139]	Prepare start - check ini file. Port number: 2800
+[07/25/2023 08:23:12.145]	Prepare start - check if started. Port number: 2800
+[07/25/2023 08:23:12.151]	Prepare start - create folders. Port number: 2800
+[07/25/2023 08:23:12.157]	Prepare start - ended. Port number: 2800
+[07/25/2023 08:23:14.377]	Natural RPC Server 'NATSRV2800' started. (Parameters: PARM=ONEPARM SRVNAME=NATSRV2800 SRVNODE=localhost:1971 SERVER=ON)
+[07/25/2023 13:23:23.966]	Natural RPC Server 'NATSRV2800' started. (Parameters: PARM=ONEPARM SRVNAME=NATSRV2800 SRVNODE=localhost:1971 SERVER=STOP)
+[07/25/2023 13:23:29.441]	Natural RPC Server 'NATSRV2800' failed to stop! Error: RPC server killed
+[07/25/2023 13:30:15.131]	Details set. Port number: 2800
+[07/25/2023 13:30:15.138]	Prepare start - check ini file. Port number: 2800
+[07/25/2023 13:30:15.145]	Prepare start - check if started. Port number: 2800
+[07/25/2023 13:30:15.151]	Prepare start - create folders. Port number: 2800
+[07/25/2023 13:30:15.157]	Prepare start - ended. Port number: 2800
+[07/25/2023 13:30:17.378]	Natural RPC Server 'NATSRV2800' started. (Parameters: PARM=ONEPARM SRVNAME=NATSRV2800 SRVNODE=localhost:1971 SERVER=ON)
+[07/26/2023 08:10:38.706]	Details set. Port number: 2800
+[07/26/2023 08:10:38.712]	Prepare start - check ini file. Port number: 2800
+[07/26/2023 08:10:38.717]	Prepare start - check if started. Port number: 2800
+[07/26/2023 08:10:38.723]	Prepare start - create folders. Port number: 2800
+[07/26/2023 08:10:38.729]	Prepare start - ended. Port number: 2800
+[07/26/2023 08:10:40.941]	Natural RPC Server 'NATSRV2800' started. (Parameters: PARM=ONEPARM SRVNAME=NATSRV2800 SRVNODE=localhost:1971 SERVER=ON)
+[07/27/2023 08:29:12.191]	Details set. Port number: 2800
+[07/27/2023 08:29:12.199]	Prepare start - check ini file. Port number: 2800
+[07/27/2023 08:29:12.204]	Prepare start - check if started. Port number: 2800
+[07/27/2023 08:29:12.210]	Prepare start - create folders. Port number: 2800
+[07/27/2023 08:29:12.216]	Prepare start - ended. Port number: 2800
+[07/27/2023 08:29:14.420]	Natural RPC Server 'NATSRV2800' started. (Parameters: PARM=ONEPARM SRVNAME=NATSRV2800 SRVNODE=localhost:1971 SERVER=ON)
+[07/28/2023 08:15:30.832]	Details set. Port number: 2800
+[07/28/2023 08:15:30.840]	Prepare start - check ini file. Port number: 2800
+[07/28/2023 08:15:30.846]	Prepare start - check if started. Port number: 2800
+[07/28/2023 08:15:30.852]	Prepare start - create folders. Port number: 2800
+[07/28/2023 08:15:30.859]	Prepare start - ended. Port number: 2800
+[07/28/2023 08:15:33.076]	Natural RPC Server 'NATSRV2800' started. (Parameters: PARM=ONEPARM SRVNAME=NATSRV2800 SRVNODE=localhost:1971 SERVER=ON)
+[07/28/2023 13:38:47.350]	Natural RPC Server 'NATSRV2800' started. (Parameters: PARM=ONEPARM SRVNAME=NATSRV2800 SRVNODE=localhost:1971 SERVER=STOP)
+[07/28/2023 13:38:52.846]	Natural RPC Server 'NATSRV2800' failed to stop! Error: RPC server killed
+[07/28/2023 13:39:52.956]	Details set. Port number: 2800
+[07/28/2023 13:39:52.964]	Prepare start - check ini file. Port number: 2800
+[07/28/2023 13:39:52.970]	Prepare start - check if started. Port number: 2800
+[07/28/2023 13:39:52.976]	Prepare start - create folders. Port number: 2800
+[07/28/2023 13:39:52.984]	Prepare start - ended. Port number: 2800
+[07/28/2023 13:39:55.171]	Natural RPC Server 'NATSRV2800' started. (Parameters: PARM=ONEPARM SRVNAME=NATSRV2800 SRVNODE=localhost:1971 SERVER=ON)
+[07/28/2023 13:55:29.200]	Natural RPC Server 'NATSRV2800' started. (Parameters: PARM=ONEPARM SRVNAME=NATSRV2800 SRVNODE=localhost:1971 SERVER=STOP)
+[07/28/2023 13:55:34.648]	Natural RPC Server 'NATSRV2800' failed to stop! Error: RPC server killed
+[07/28/2023 13:55:44.340]	Details set. Port number: 2800
+[07/28/2023 13:55:44.345]	Prepare start - check ini file. Port number: 2800
+[07/28/2023 13:55:44.352]	Prepare start - check if started. Port number: 2800
+[07/28/2023 13:55:44.357]	Prepare start - create folders. Port number: 2800
+[07/28/2023 13:55:44.363]	Prepare start - ended. Port number: 2800
+[07/28/2023 13:55:46.545]	Natural RPC Server 'NATSRV2800' started. (Parameters: PARM=ONEPARM SRVNAME=NATSRV2800 SRVNODE=localhost:1971 SERVER=ON)
+[07/31/2023 08:01:45.440]	Details set. Port number: 2800
+[07/31/2023 08:01:45.447]	Prepare start - check ini file. Port number: 2800
+[07/31/2023 08:01:45.455]	Prepare start - check if started. Port number: 2800
+[07/31/2023 08:01:45.464]	Prepare start - create folders. Port number: 2800
+[07/31/2023 08:01:45.471]	Prepare start - ended. Port number: 2800
+[07/31/2023 08:01:47.694]	Natural RPC Server 'NATSRV2800' started. (Parameters: PARM=ONEPARM SRVNAME=NATSRV2800 SRVNODE=localhost:1971 SERVER=ON)
+[07/31/2023 17:01:14.432]	Natural RPC Server 'NATSRV2800' started. (Parameters: PARM=ONEPARM SRVNAME=NATSRV2800 SRVNODE=localhost:1971 SERVER=STOP)
+[07/31/2023 17:01:18.590]	Natural RPC Server 'NATSRV2800' stopped.
+[08/01/2023 07:58:36.202]	Details set. Port number: 2800
+[08/01/2023 07:58:36.209]	Prepare start - check ini file. Port number: 2800
+[08/01/2023 07:58:36.214]	Prepare start - check if started. Port number: 2800
+[08/01/2023 07:58:36.220]	Prepare start - create folders. Port number: 2800
+[08/01/2023 07:58:36.227]	Prepare start - ended. Port number: 2800
+[08/01/2023 07:58:38.443]	Natural RPC Server 'NATSRV2800' started. (Parameters: PARM=ONEPARM SRVNAME=NATSRV2800 SRVNODE=localhost:1971 SERVER=ON)
+[08/02/2023 13:47:54.832]	Details set. Port number: 2800
+[08/02/2023 13:47:54.841]	Prepare start - check ini file. Port number: 2800
+[08/02/2023 13:47:54.848]	Prepare start - check if started. Port number: 2800
+[08/02/2023 13:47:54.855]	Prepare start - create folders. Port number: 2800
+[08/02/2023 13:47:54.862]	Prepare start - ended. Port number: 2800
+[08/02/2023 13:47:57.069]	Natural RPC Server 'NATSRV2800' started. (Parameters: PARM=ONEPARM SRVNAME=NATSRV2800 SRVNODE=localhost:1971 SERVER=ON)
+[08/15/2023 11:45:17.114]	Details set. Port number: 2800
+[08/15/2023 11:45:17.121]	Prepare start - check ini file. Port number: 2800
+[08/15/2023 11:45:17.127]	Prepare start - check if started. Port number: 2800
+[08/15/2023 11:45:17.134]	Prepare start - create folders. Port number: 2800
+[08/15/2023 11:45:17.140]	Prepare start - ended. Port number: 2800
+[08/15/2023 11:45:19.337]	Natural RPC Server 'NATSRV2800' started. (Parameters: PARM=ONEPARM SRVNAME=NATSRV2800 SRVNODE=localhost:1971 SERVER=ON)
+[08/15/2023 13:14:15.003]	Natural RPC Server 'NATSRV2800' started. (Parameters: PARM=ONEPARM SRVNAME=NATSRV2800 SRVNODE=localhost:1971 SERVER=STOP)
+[08/15/2023 13:14:20.446]	Natural RPC Server 'NATSRV2800' failed to stop! Error: RPC server killed
+[08/17/2023 15:36:44.226]	Details set. Port number: 2800
+[08/17/2023 15:36:44.234]	Prepare start - check ini file. Port number: 2800
+[08/17/2023 15:36:44.240]	Prepare start - check if started. Port number: 2800
+[08/17/2023 15:36:44.247]	Prepare start - create folders. Port number: 2800
+[08/17/2023 15:36:44.254]	Prepare start - ended. Port number: 2800
+[08/17/2023 15:36:46.457]	Natural RPC Server 'NATSRV2800' started. (Parameters: PARM=ONEPARM SRVNAME=NATSRV2800 SRVNODE=localhost:1971 SERVER=ON)
+[08/18/2023 09:55:11.377]	Details set. Port number: 2800
+[08/18/2023 09:55:11.385]	Prepare start - check ini file. Port number: 2800
+[08/18/2023 09:55:11.393]	Prepare start - check if started. Port number: 2800
+[08/18/2023 09:55:11.403]	Prepare start - create folders. Port number: 2800
+[08/18/2023 09:55:11.414]	Prepare start - ended. Port number: 2800
+[08/18/2023 09:55:13.646]	Natural RPC Server 'NATSRV2800' started. (Parameters: PARM=ONEPARM SRVNAME=NATSRV2800 SRVNODE=localhost:1971 SERVER=ON)
+[08/18/2023 10:26:33.159]	Natural RPC Server 'NATSRV2800' started. (Parameters: PARM=ONEPARM SRVNAME=NATSRV2800 SRVNODE=localhost:1971 SERVER=STOP)
+[08/18/2023 10:26:38.633]	Natural RPC Server 'NATSRV2800' failed to stop! Error: RPC server killed

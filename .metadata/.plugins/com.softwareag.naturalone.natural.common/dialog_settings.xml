@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="com.softwareag.naturalone.natural.common.server.mapping">
+		<item value="T912610" key="USER_ID"/>
+	</section>
+	<section name="com.softwareag.naturalone.natural.ide.wizards.project">
+		<item value="true" key="LRF"/>
+		<item value="true" key="GBOT"/>
+	</section>
+</section>

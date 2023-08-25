@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.popups.PopupDBQueryVariantInfoRemoveModel" popupwidth="400" popupheight="220" popupfeatures="resizable:yes; status:no" pagename="popupdbqueryvariantinforemove" ispopup="true" casaindex="1" >
+
+
+        <pagebody horizdist="false" takefullheight="true" casaindex="2" >
+
+
+                <itr width="100%" height="100%" casaindex="3" >
+
+
+                        <textgridsss2 griddataprop="lines" rowcount="20" width="100%" height="100%" selectprop="selected" singleselect="false" withselectioncolumn="true" casaindex="4" >
+
+
+                                <column textid="name" property="name" width="60%" casaindex="5" >
+
+
+                                </column>
+
+
+                                <column textid="isDefault" property="isDefault" width="40%" casaindex="6" >
+
+
+                                </column>
+
+
+                        </textgridsss2>
+
+
+                </itr>
+
+
+        </pagebody>
+
+
+        <titlebar withclose="false" casaindex="7" >
+
+
+                <hdist width="100%" casaindex="8" >
+
+
+                </hdist>
+
+
+                <button textid="onOK" method="onOK" casaindex="9" >
+
+
+                </button>
+
+
+        </titlebar>
+
+
+        <hotkeys casaindex="10" >
+
+
+                <hotkey keycode="13" method="onOK" casaindex="11" >
+
+
+                </hotkey>
+
+
+        </hotkeys>
+
+
+</page>

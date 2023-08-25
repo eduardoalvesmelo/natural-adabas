@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.zzz.StatusbarOutputAdapter" translationreference="statusbar" popupwidth="700px" popupheight="320px" popupfeatures="resizable: yes;status:no" darkbackground="true" casaindex="1" >
+
+
+        <pagebody horizdist="false" takefullheight="true" paddingleft="5" paddingright="5" paddingtop="5" paddingbottom="5" casaindex="2" >
+
+
+                <itr takefullwidth="true" casaindex="3" >
+
+
+                        <textgridsss2 griddataprop="lines" rowcount="4" width="100%" selectprop="selected" singleselect="true" hscroll="true" onclickmethod="showMessage" casaindex="4" >
+
+
+                                <column textid="statusout.column0" property="image" width="70" align="center" imageprop="typeImage" casaindex="5" >
+
+
+                                </column>
+
+
+                                <column textid="statusout.column1" property="message" width="100%" align="left" textstyleprop="msgStyle" casaindex="6" >
+
+
+                                </column>
+
+
+                        </textgridsss2>
+
+
+                </itr>
+
+
+                <rowarea height="100%" casaindex="7" >
+
+
+                        <itr takefullwidth="true" height="100%" fixlayout="true" casaindex="8" >
+
+
+                                <text valueprop="detailInfo" width="100%" height="100%" displayonly="true" wrap="off" textareastyle="border: 0" casaindex="9" >
+
+
+                                </text>
+
+
+                        </itr>
+
+
+                </rowarea>
+
+
+                <vdist height="5" casaindex="10" >
+
+
+                </vdist>
+
+
+                <itr align="center" casaindex="11" >
+
+
+                        <button textid="statusout.button0" method="closePage" casaindex="12" >
+
+
+                        </button>
+
+
+                </itr>
+
+
+        </pagebody>
+
+
+</page>

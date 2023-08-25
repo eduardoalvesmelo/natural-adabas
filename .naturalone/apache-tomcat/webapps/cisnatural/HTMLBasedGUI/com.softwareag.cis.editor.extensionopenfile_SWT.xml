@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.admin.EditorExtensionAdapter" translationreference="CIS_TOOLS" popupwidth="400" popupheight="400" casaindex="1" >
+
+
+        <pagebody vscroll="hidden" hscroll="hidden" horizdist="false" takefullheight="true" casaindex="2" >
+
+
+                <itr height="100%" width="100%" casaindex="3" >
+
+
+                        <textgrid2 griddataprop="files" width="100%" height="100%" selectprop="selected" singleselect="true" directselectmethod="onFinishOpenFile" directselectevent="onclick" casaindex="4" >
+
+
+                                <column textid="label.name" property="name" width="100%" casaindex="5" >
+
+
+                                </column>
+
+
+                        </textgrid2>
+
+
+                </itr>
+
+
+        </pagebody>
+
+
+</page>

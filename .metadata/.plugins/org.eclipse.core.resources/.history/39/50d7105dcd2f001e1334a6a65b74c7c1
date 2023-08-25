@@ -1,0 +1,19 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** New Program EX01.
+/**
+/** :author eduar
+/* TODO Enter your code here
+DEFINE DATA LOCAL
+1 vw view of DBAD-CONTROLE
+    2 CO-BICHADO-EK
+    2 CO-BICHADO-DS
+end-define
+
+read (10) vw
+    display vw
+end-read
+
+END

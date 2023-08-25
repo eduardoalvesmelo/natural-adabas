@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.EditorFileInputToolbarwithTreeAdapter" translationreference="CIS_EDIT" casaindex="1" >
+
+
+        <pagebody takefullheight="true" casaindex="2" >
+
+
+                <rowtablearea2 griddataprop="fileNameInputTree" rowcount="25" height="100%" width="100%" withborder="false" vscroll="auto" firstrowcolwidths="true" withblockscrolling="false" casaindex="3" >
+
+
+                        <repeat casaindex="4" >
+
+
+                                <tr height="100%" casaindex="5" >
+
+
+                                        <treenode3 width="100%" withplusminus="true" casaindex="6" >
+
+
+                                        </treenode3>
+
+
+                                </tr>
+
+
+                        </repeat>
+
+
+                </rowtablearea2>
+
+
+                <vdist casaindex="7" >
+
+
+                </vdist>
+
+
+                <hline height="1" casaindex="8" >
+
+
+                </hline>
+
+
+                <vdist casaindex="9" >
+
+
+                </vdist>
+
+
+                <itr align="center" valign="middle" casaindex="10" >
+
+
+                        <coldynavis valueprop="showCheckBox" width="100" takefullheight="true" casaindex="11" >
+
+
+                                <itr casaindex="12" >
+
+
+                                        <checkbox valueprop="showAll" flushmethod="onShowAll" casaindex="13" >
+
+
+                                        </checkbox>
+
+
+                                        <label textid="pfnitPopup.showallfile" asplaintext="true" nowrap="true" casaindex="14" >
+
+
+                                        </label>
+
+
+                                        <hdist width="5" casaindex="15" >
+
+
+                                        </hdist>
+
+
+                                </itr>
+
+
+                        </coldynavis>
+
+
+                        <coldynavis valueprop="showButton" width="100" takefullheight="true" casaindex="16" >
+
+
+                                <itr casaindex="17" >
+
+
+                                        <button textid="pfnitPopup.cancel" method="onCancel" casaindex="18" >
+
+
+                                        </button>
+
+
+                                </itr>
+
+
+                        </coldynavis>
+
+
+                </itr>
+
+
+                <vdist casaindex="19" >
+
+
+                </vdist>
+
+
+        </pagebody>
+
+
+        <statusbar withdistance="false" casaindex="20" >
+
+
+        </statusbar>
+
+
+</page>

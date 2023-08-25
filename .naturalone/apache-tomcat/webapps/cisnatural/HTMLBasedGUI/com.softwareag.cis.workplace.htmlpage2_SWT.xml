@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.workplace.HTMLPageAdapter" pagename="htmlpage.html" casaindex="1" >
+
+
+        <titlebar valueprop="url" withclose="true" visibleprop="titlebarVisible" closetitletextid="closePage" casaindex="2" >
+
+
+        </titlebar>
+
+
+        <pagebody vscroll="false" hscroll="false" horizdist="false" takefullheight="true" casaindex="3" >
+
+
+                <itr height="100%" width="100%" casaindex="4" >
+
+
+                        <subpage valueprop="url" alwaysreload="false" height="100%" width="100%" casaindex="5" >
+
+
+                        </subpage>
+
+
+                </itr>
+
+
+        </pagebody>
+
+
+</page>

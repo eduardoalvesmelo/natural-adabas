@@ -1,0 +1,3 @@
+builder.reset.prompt.on.compile.errors=always
+builder.server.process.selected.objects.confirm=always
+eclipse.preferences.version=1

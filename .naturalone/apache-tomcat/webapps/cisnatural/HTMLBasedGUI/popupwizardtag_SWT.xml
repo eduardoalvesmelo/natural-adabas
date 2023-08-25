@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?><page darkbackground="true" ispopup="true" model="com.softwareag.cis.popups.PopupWizardModel" popupheight="520" popupwidth="500" titletextid="popupwiz.page2" translationreference="popups" casaindex="1" >
+
+
+        <pagebody horizdist="false" hscroll="auto" takefullheight="true" vscroll="auto" casaindex="2" >
+
+
+                <rowtable0 height="100%" casaindex="3" >
+
+
+                        <vdist backgroundstyle="background-color: #FFFFFF" height="7" casaindex="4" >
+
+
+                        </vdist>
+
+
+                        <itr itrstyle="background-color: #FFFFFF" casaindex="5" >
+
+
+                                <hdist width="10px" casaindex="6" >
+
+
+                                </hdist>
+
+
+                                <coltable0 width="100%" casaindex="7" >
+
+
+                                        <itr fixlayout="true" height="25" width="100%" casaindex="8" >
+
+
+                                                <textout height="20" textsize="4" valueprop="actRange" width="100%" casaindex="9" >
+
+
+                                                </textout>
+
+
+                                        </itr>
+
+
+                                        <itr fixlayout="true" height="36" width="100%" casaindex="10" >
+
+
+                                                <textout height="24" valueprop="actRangeShortDesc" width="100%" casaindex="11" >
+
+
+                                                </textout>
+
+
+                                        </itr>
+
+
+                                </coltable0>
+
+
+                                <hdist width="10px" casaindex="12" >
+
+
+                                </hdist>
+
+
+                                <coltable0 takefullheight="true" width="61" casaindex="13" >
+
+
+                                        <itr height="100%" width="100%" casaindex="14" >
+
+
+                                                <imageout valueprop="rangeImage" casaindex="15" >
+
+
+                                                </imageout>
+
+
+                                        </itr>
+
+
+                                </coltable0>
+
+
+                                <hdist width="10px" casaindex="16" >
+
+
+                                </hdist>
+
+
+                        </itr>
+
+
+                        <vdist backgroundstyle="background-color: #FFFFFF" height="2" casaindex="17" >
+
+
+                        </vdist>
+
+
+                        <vdist backgroundstyle="background-color: #808080" height="1px" casaindex="18" >
+
+
+                        </vdist>
+
+
+                        <itr height="100%" casaindex="19" >
+
+
+                                <hdist width="10px" casaindex="20" >
+
+
+                                </hdist>
+
+
+                                <coltable0 takefullheight="true" width="100%" casaindex="21" >
+
+
+                                        <vdist height="10px" casaindex="22" >
+
+
+                                        </vdist>
+
+
+                                        <rowtablearea2 firstrowcolwidths="true" griddataprop="attrLines" rowcount="10" tablestyle="background-color: #F7F3EF" vscroll="auto" width="100%" withborder="false" casaindex="23" >
+
+
+                                                <repeat casaindex="24" >
+
+
+                                                        <tr visibleprop="lineVisible" casaindex="25" >
+
+
+                                                                <methodlink linkstyle="text-decoration: none; color: #000000" method="onAttributeClick" valueprop="attribute" width="150" casaindex="26" >
+
+
+                                                                </methodlink>
+
+
+                                <field xsdType="xs:string" helpid="attribute.html" popupmethod="openIdValueCombo" popupprop="popupAvailable" statusprop="attrValueStatus" valueprop="value" width="100%" casaindex="27" >
+
+                                </field>
+
+                                                        </tr>
+
+
+                                                </repeat>
+
+
+                                        </rowtablearea2>
+
+
+                                        <vdist height="10px" casaindex="28" >
+
+
+                                        </vdist>
+
+
+                                        <rowscrollarea height="100%" takefullwidth="true" casaindex="29" >
+
+
+                                                <tr casaindex="30" >
+
+
+                                                        <ihtml valueprop="attributeDescription" casaindex="31" >
+
+
+                                                        </ihtml>
+
+
+                                                </tr>
+
+
+                                        </rowscrollarea>
+
+
+                                        <vdist height="10px" casaindex="32" >
+
+
+                                        </vdist>
+
+
+                                </coltable0>
+
+
+                                <hdist width="10px" casaindex="33" >
+
+
+                                </hdist>
+
+
+                                <coltable0 tablestyle="border-left: 1px #808080 solid" takefullheight="true" width="130" casaindex="34" >
+
+
+                                        <rowtablearea2 griddataprop="tagRange" height="100%" rowcount="8" vscroll="auto" width="100%" withborder="false" casaindex="35" >
+
+
+                                                <vdist backgroundstyle="background-color: #FFFFFF" height="10px" casaindex="36" >
+
+
+                                                </vdist>
+
+
+                                                <repeat casaindex="37" >
+
+
+                                                        <str valueprop="selected" casaindex="38" >
+
+
+                                                                <hdist width="10" casaindex="39" >
+
+
+                                                                </hdist>
+
+
+                                                                <methodlink linkstyle="text-decoration: none; color: #000000;" method="onTagRangeClick" valign="middle" valueprop="tagRangeValue" width="100%" casaindex="40" >
+
+
+                                                                </methodlink>
+
+
+                                                                <hdist width="10" casaindex="41" >
+
+
+                                                                </hdist>
+
+
+                                                        </str>
+
+
+                                                </repeat>
+
+
+                                        </rowtablearea2>
+
+
+                                </coltable0>
+
+
+                        </itr>
+
+
+                        <vdist backgroundstyle="background-color: #808080" height="1px" casaindex="42" >
+
+
+                        </vdist>
+
+
+                        <vdist height="5px" casaindex="43" >
+
+
+                        </vdist>
+
+
+                        <itr height="30" width="100%" casaindex="44" >
+
+
+                                <hdist width="100%" casaindex="45" >
+
+
+                                </hdist>
+
+
+                                <button invisiblemode="disabled" method="onBack" textid="backBttn" visibleprop="backSelectable" width="50" casaindex="46" >
+
+
+                                </button>
+
+
+                                <hdist casaindex="47" >
+
+
+                                </hdist>
+
+
+                                <button invisiblemode="disabled" method="onNext" textid="nextBttn" visibleprop="nextSelectable" width="50" casaindex="48" >
+
+
+                                </button>
+
+
+                                <hdist width="10" casaindex="49" >
+
+
+                                </hdist>
+
+
+                                <icon image="../HTMLBasedGUI/images/distance.gif" casaindex="50" >
+
+
+                                </icon>
+
+
+                                <hdist width="10" casaindex="51" >
+
+
+                                </hdist>
+
+
+                                <button method="onSave" textid="finishBttn" width="50" casaindex="52" >
+
+
+                                </button>
+
+
+                                <hdist casaindex="53" >
+
+
+                                </hdist>
+
+
+                                <button method="onQuit" textid="cancelBttn" width="50" casaindex="54" >
+
+
+                                </button>
+
+
+                                <hdist width="13" casaindex="55" >
+
+
+                                </hdist>
+
+
+                        </itr>
+
+
+                        <vdist height="5px" casaindex="56" >
+
+
+                        </vdist>
+
+
+                </rowtable0>
+
+
+        </pagebody>
+
+
+</page>

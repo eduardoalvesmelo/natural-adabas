@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?><page immediatedisplay="true" model="com.softwareag.cis.editor.ColorAdapter" popupheight="150" popupwidth="170" translationreference="editor" casaindex="1" >
+
+
+        <pagebody horizdist="false" paddingbottom="10" paddingleft="10" paddingright="10" paddingtop="10" casaindex="2" >
+
+
+                <tr casaindex="3" >
+
+
+                        <icon image="images/pvcolorblack.gif" method="onBlack" casaindex="4" >
+
+
+                        </icon>
+
+
+                        <icon image="images/pvcolorbrown.gif" method="onBrown" casaindex="5" >
+
+
+                        </icon>
+
+
+                        <icon image="images/pvcolorolivegreen.gif" method="onOlivegreen" casaindex="6" >
+
+
+                        </icon>
+
+
+                        <icon image="images/pvcolordarkgreen.gif" method="ondarkgreen" casaindex="7" >
+
+
+                        </icon>
+
+
+                        <icon image="images/pvcolordarkteal.gif" method="ondarkteal" casaindex="8" >
+
+
+                        </icon>
+
+
+                        <icon image="images/pvcolordarkblue.gif" method="onDarkblue" casaindex="9" >
+
+
+                        </icon>
+
+
+                        <icon image="images/pvcolorindigo.gif" method="onIndigo" casaindex="10" >
+
+
+                        </icon>
+
+
+                        <icon image="images/pvcolorgray80.gif" method="onGray80" casaindex="11" >
+
+
+                        </icon>
+
+
+                </tr>
+
+
+                <tr casaindex="12" >
+
+
+                        <icon image="images/pvcolordarkred.gif" method="onDarkred" casaindex="13" >
+
+
+                        </icon>
+
+
+                        <icon image="images/pvcolororange.gif" method="onOrange" casaindex="14" >
+
+
+                        </icon>
+
+
+                        <icon image="images/pvcolordarkyellow.gif" method="onDarkyellow" casaindex="15" >
+
+
+                        </icon>
+
+
+                        <icon image="images/pvcolorgreen.gif" method="onGreen" casaindex="16" >
+
+
+                        </icon>
+
+
+                        <icon image="images/pvcolorteal.gif" method="onTeal" casaindex="17" >
+
+
+                        </icon>
+
+
+                        <icon image="images/pvcolorblue.gif" method="onBlue" casaindex="18" >
+
+
+                        </icon>
+
+
+                        <icon image="images/pvcolorbluegray.gif" method="onBluegray" casaindex="19" >
+
+
+                        </icon>
+
+
+                        <icon image="images/pvcolorgray50.gif" method="onGray50" casaindex="20" >
+
+
+                        </icon>
+
+
+                </tr>
+
+
+                <tr casaindex="21" >
+
+
+                        <icon image="images/pvcolored.gif" method="onRed" casaindex="22" >
+
+
+                        </icon>
+
+
+                        <icon image="images/pvcolorlightorange.gif" method="onLightorange" casaindex="23" >
+
+
+                        </icon>
+
+
+                        <icon image="images/pvcolorlime.gif" method="onLime" casaindex="24" >
+
+
+                        </icon>
+
+
+                        <icon image="images/pvcolorseagreen.gif" method="onSeagreen" casaindex="25" >
+
+
+                        </icon>
+
+
+                        <icon image="images/pvcoloraqua.gif" method="onAqua" casaindex="26" >
+
+
+                        </icon>
+
+
+                        <icon image="images/pvcolorlightblue.gif" method="onLightblue" casaindex="27" >
+
+
+                        </icon>
+
+
+                        <icon image="images/pvcolorviolet.gif" method="onViolet" casaindex="28" >
+
+
+                        </icon>
+
+
+                        <icon image="images/pvcolorgray40.gif" method="onGray40" casaindex="29" >
+
+
+                        </icon>
+
+
+                </tr>
+
+
+                <tr casaindex="30" >
+
+
+                        <icon image="images/pvcolorpink.gif" method="onPink" casaindex="31" >
+
+
+                        </icon>
+
+
+                        <icon image="images/pvcolorgold.gif" method="onGold" casaindex="32" >
+
+
+                        </icon>
+
+
+                        <icon image="images/pvcoloryellow.gif" method="onYellow" casaindex="33" >
+
+
+                        </icon>
+
+
+                        <icon image="images/pvcolorbrightgreen.gif" method="onBrightgreen" casaindex="34" >
+
+
+                        </icon>
+
+
+                        <icon image="images/pvcolorturquoise.gif" method="onTurquoise" casaindex="35" >
+
+
+                        </icon>
+
+
+                        <icon image="images/pvcolorskyblue.gif" method="onSkyblue" casaindex="36" >
+
+
+                        </icon>
+
+
+                        <icon image="images/pvcolorplum.gif" method="onPlum" casaindex="37" >
+
+
+                        </icon>
+
+
+                        <icon image="images/pvcolorgray25.gif" method="onGray25" casaindex="38" >
+
+
+                        </icon>
+
+
+                </tr>
+
+
+                <tr casaindex="39" >
+
+
+                        <icon image="images/pvcolorrose.gif" method="onRose" casaindex="40" >
+
+
+                        </icon>
+
+
+                        <icon image="images/pvcolortan.gif" method="onTan" casaindex="41" >
+
+
+                        </icon>
+
+
+                        <icon image="images/pvcolorlightyellow.gif" method="onLightyellow" casaindex="42" >
+
+
+                        </icon>
+
+
+                        <icon image="images/pvcolorlightgreen.gif" method="onLightgreen" casaindex="43" >
+
+
+                        </icon>
+
+
+                        <icon image="images/pvcolorlightturquoise.gif" method="onLightturquoise" casaindex="44" >
+
+
+                        </icon>
+
+
+                        <icon image="images/pvcolorpaleblue.gif" method="onPaleblue" casaindex="45" >
+
+
+                        </icon>
+
+
+                        <icon image="images/pvcolorlavender.gif" method="onLavender" casaindex="46" >
+
+
+                        </icon>
+
+
+                        <icon image="images/pvcolorwhite.gif" method="onWhite" casaindex="47" >
+
+
+                        </icon>
+
+
+                </tr>
+
+
+                <itr casaindex="48" >
+
+
+                        <label textid="recp.label1" casaindex="49" >
+
+
+                        </label>
+
+
+                        <hdist width="10" casaindex="50" >
+
+
+                        </hdist>
+
+
+            <field xsdType="color" datatype="color" flush="server" bgcolorprop="customColor" fgcolorprop="customColor" noborder="true" valueprop="customColor" width="30" casaindex="51" >
+
+            </field>
+
+                </itr>
+
+
+        </pagebody>
+
+
+</page>

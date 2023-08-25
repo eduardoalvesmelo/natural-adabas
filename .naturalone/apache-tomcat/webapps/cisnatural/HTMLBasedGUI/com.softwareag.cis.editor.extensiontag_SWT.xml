@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.admin.EditorExtensionTagAdapter" translationreference="editor" stylesheetfile="../cis/styles/CIS_DEFAULT.css" casaindex="1" >
+
+
+        <pagebody horizdist="false" takefullheight="true" paddingleft="10" paddingright="10" paddingtop="10" paddingbottom="10" casaindex="2" >
+
+
+                <itr width="100%" casaindex="3" >
+
+
+                        <ihtml valueprop="infoTopHTML" width="100%" casaindex="4" >
+
+
+                        </ihtml>
+
+
+                </itr>
+
+
+                <vdist height="20" casaindex="5" >
+
+
+                </vdist>
+
+
+                <rowtabsubpages pagesprop="subPageInfo" height="100%" borderwidth="0" casaindex="6" >
+
+
+                </rowtabsubpages>
+
+
+        </pagebody>
+
+
+</page>

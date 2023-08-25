@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.NewFileModel" popupwidth="345" popupheight="415" pagename="CIS_EDIT" ispopup="true" casaindex="1" >
+
+
+        <pagebody horizdist="false" takefullheight="true" casaindex="2" >
+
+
+                <rowarea textid="newfileFileName" height="100%" withleftborder="false" withrightborder="false" withbottomborder="false" withtoppadding="false" casaindex="3" >
+
+
+                        <itr casaindex="4" >
+
+
+                                <label textid="newfileName" width="100" casaindex="5" >
+
+
+                                </label>
+
+
+                <field xsdType="xs:string" valueprop="fileName" length="35" casaindex="6" >
+
+                </field>
+
+                        </itr>
+
+
+                        <vdist height="10" casaindex="7" >
+
+
+                        </vdist>
+
+
+                        <itr width="100%" casaindex="8" >
+
+
+                                <hdist width="50%" casaindex="9" >
+
+
+                                </hdist>
+
+
+                                <icon image="images/template1.jpg" method="createTemplate1" withdistance="false" casaindex="10" >
+
+
+                                </icon>
+
+
+                                <hdist width="50%" casaindex="11" >
+
+
+                                </hdist>
+
+
+                        </itr>
+
+
+                        <itr width="100%" casaindex="12" >
+
+
+                                <hdist width="50%" casaindex="13" >
+
+
+                                </hdist>
+
+
+                                <icon image="images/template2.jpg" method="createTemplate2" withdistance="false" casaindex="14" >
+
+
+                                </icon>
+
+
+                                <hdist width="50%" casaindex="15" >
+
+
+                                </hdist>
+
+
+                        </itr>
+
+
+                        <itr width="100%" casaindex="16" >
+
+
+                                <hdist width="50%" casaindex="17" >
+
+
+                                </hdist>
+
+
+                                <icon image="images/template3.jpg" method="createTemplate3" withdistance="false" casaindex="18" >
+
+
+                                </icon>
+
+
+                                <hdist width="50%" casaindex="19" >
+
+
+                                </hdist>
+
+
+                        </itr>
+
+
+                        <vdist height="100%" casaindex="20" >
+
+
+                        </vdist>
+
+
+                </rowarea>
+
+
+        </pagebody>
+
+
+        <statusbar casaindex="21" >
+
+
+        </statusbar>
+
+
+</page>

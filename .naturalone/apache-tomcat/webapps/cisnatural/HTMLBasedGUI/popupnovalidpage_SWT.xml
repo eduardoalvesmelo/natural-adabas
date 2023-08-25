@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="DummyAdapter" pagename="cismessagpopups" popupwidth="300" popupheight="200" casaindex="1" >
+
+
+        <pagebody takefullheight="true" paddingbottom="10" casaindex="2" >
+
+
+                <itr width="100%" height="100%" casaindex="3" >
+
+
+                        <icon image="images/warning.gif" valign="middle" casaindex="4" >
+
+
+                        </icon>
+
+
+                        <hdist width="20" casaindex="5" >
+
+
+                        </hdist>
+
+
+                        <label textid="labelNoValidPage" asplaintext="true" align="center" valign="middle" casaindex="6" >
+
+
+                        </label>
+
+
+                </itr>
+
+
+                <itr width="100%" casaindex="7" >
+
+
+                        <button textid="buttonOK" method="closePage" align="center" casaindex="8" >
+
+
+                        </button>
+
+
+                </itr>
+
+
+        </pagebody>
+
+
+</page>

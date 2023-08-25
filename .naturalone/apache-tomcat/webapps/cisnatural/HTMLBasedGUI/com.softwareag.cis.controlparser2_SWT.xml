@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.adapter.sdo.ControlParserEditor2" casaindex="1" >
+
+
+        <titlebar name="SDO Control Parser Editor" casaindex="2" >
+
+
+        </titlebar>
+
+
+        <pagebody horizdist="false" takefullheight="true" paddingleft="20" paddingright="20" paddingtop="20" paddingbottom="20" casaindex="3" >
+
+
+                <itr casaindex="4" >
+
+
+                        <label name="XML Path" width="100" casaindex="5" >
+
+
+                        </label>
+
+
+            <field xsdType="xs:string" flush="server" flushmethod="onXSDPathChanged" valueprop="xmlPath" width="280" casaindex="6" >
+
+            </field>
+
+                        <hdist width="30" casaindex="7" >
+
+
+                        </hdist>
+
+
+                </itr>
+
+
+                <vdist height="5" casaindex="8" >
+
+
+                </vdist>
+
+
+                <itr casaindex="9" >
+
+
+                        <hdist width="100" casaindex="10" >
+
+
+                        </hdist>
+
+
+                        <button name="Load" method="onLoad" casaindex="11" >
+
+
+                        </button>
+
+
+                        <hdist width="10" casaindex="12" >
+
+
+                        </hdist>
+
+
+                        <button name="Save" method="onSave" casaindex="13" >
+
+
+                        </button>
+
+
+                </itr>
+
+
+                <vdist height="10" casaindex="14" >
+
+
+                </vdist>
+
+
+                <hline height="1" casaindex="15" >
+
+
+                </hline>
+
+
+                <vdist height="10" casaindex="16" >
+
+
+                </vdist>
+
+
+                <rowtablearea2 griddataprop="grouplines" rowcount="9" width="900" firstrowcolwidths="false" casaindex="17" >
+
+
+                        <repeat casaindex="18" >
+
+
+                                <tr casaindex="19" >
+
+
+                                        <coltable0 width="100%" casaindex="20" >
+
+
+                                                <rowarea nameprop="sdogroupname" casaindex="21" >
+
+
+                                                        <itr visibleprop="ploblemvisible0" casaindex="22" >
+
+
+                                <field xsdType="xs:string" valueprop="sdoname0" width="400" noborder="true" transparentbackground="true" casaindex="23" >
+
+                                </field>
+
+                                                                <hdist width="10" casaindex="24" >
+
+
+                                                                </hdist>
+
+
+                                                                <combofix valueprop="sdolevel0" width="100" casaindex="25" >
+
+
+                                                                        <combooption name="error" value="E" casaindex="26" >
+
+
+                                                                        </combooption>
+
+
+                                                                        <combooption name="warning" value="W" casaindex="27" >
+
+
+                                                                        </combooption>
+
+
+                                                                        <combooption name="info" value="I" casaindex="28" >
+
+
+                                                                        </combooption>
+
+
+                                                                        <combooption name="nothing" value="N" casaindex="29" >
+
+
+                                                                        </combooption>
+
+
+                                                                </combofix>
+
+
+                                                                <hdist width="10" casaindex="30" >
+
+
+                                                                </hdist>
+
+
+                                <field xsdType="xs:string" valueprop="sdoid0" width="300" noborder="true" transparentbackground="true" casaindex="31" >
+
+                                </field>
+
+                                                        </itr>
+
+
+                                                        <itr visibleprop="ploblemvisible1" casaindex="32" >
+
+
+                                <field xsdType="xs:string" valueprop="sdoname1" width="400" noborder="true" transparentbackground="true" casaindex="33" >
+
+                                </field>
+
+                                                                <hdist width="10" casaindex="34" >
+
+
+                                                                </hdist>
+
+
+                                                                <combofix valueprop="sdolevel1" width="100" casaindex="35" >
+
+
+                                                                        <combooption name="error" value="E" casaindex="36" >
+
+
+                                                                        </combooption>
+
+
+                                                                        <combooption name="warning" value="W" casaindex="37" >
+
+
+                                                                        </combooption>
+
+
+                                                                        <combooption name="info" value="I" casaindex="38" >
+
+
+                                                                        </combooption>
+
+
+                                                                        <combooption name="nothing" value="N" casaindex="39" >
+
+
+                                                                        </combooption>
+
+
+                                                                </combofix>
+
+
+                                                                <hdist width="10" casaindex="40" >
+
+
+                                                                </hdist>
+
+
+                                <field xsdType="xs:string" valueprop="sdoid1" width="300" noborder="true" transparentbackground="true" casaindex="41" >
+
+                                </field>
+
+                                                        </itr>
+
+
+                                                        <itr visibleprop="ploblemvisible2" casaindex="42" >
+
+
+                                <field xsdType="xs:string" valueprop="sdoname2" width="400" noborder="true" transparentbackground="true" casaindex="43" >
+
+                                </field>
+
+                                                                <hdist width="10" casaindex="44" >
+
+
+                                                                </hdist>
+
+
+                                                                <combofix valueprop="sdolevel2" width="100" casaindex="45" >
+
+
+                                                                        <combooption name="error" value="E" casaindex="46" >
+
+
+                                                                        </combooption>
+
+
+                                                                        <combooption name="warning" value="W" casaindex="47" >
+
+
+                                                                        </combooption>
+
+
+                                                                        <combooption name="info" value="I" casaindex="48" >
+
+
+                                                                        </combooption>
+
+
+                                                                        <combooption name="nothing" value="N" casaindex="49" >
+
+
+                                                                        </combooption>
+
+
+                                                                </combofix>
+
+
+                                                                <hdist width="10" casaindex="50" >
+
+
+                                                                </hdist>
+
+
+                                <field xsdType="xs:string" valueprop="sdoid2" width="300" noborder="true" transparentbackground="true" casaindex="51" >
+
+                                </field>
+
+                                                        </itr>
+
+
+                                                        <itr visibleprop="ploblemvisible3" casaindex="52" >
+
+
+                                <field xsdType="xs:string" valueprop="sdoname3" width="400" noborder="true" transparentbackground="true" casaindex="53" >
+
+                                </field>
+
+                                                                <hdist width="10" casaindex="54" >
+
+
+                                                                </hdist>
+
+
+                                                                <combofix valueprop="sdolevel3" width="100" casaindex="55" >
+
+
+                                                                        <combooption name="error" value="E" casaindex="56" >
+
+
+                                                                        </combooption>
+
+
+                                                                        <combooption name="warning" value="W" casaindex="57" >
+
+
+                                                                        </combooption>
+
+
+                                                                        <combooption name="info" value="I" casaindex="58" >
+
+
+                                                                        </combooption>
+
+
+                                                                        <combooption name="nothing" value="N" casaindex="59" >
+
+
+                                                                        </combooption>
+
+
+                                                                </combofix>
+
+
+                                                                <hdist width="10" casaindex="60" >
+
+
+                                                                </hdist>
+
+
+                                <field xsdType="xs:string" valueprop="sdoid3" width="300" noborder="true" transparentbackground="true" casaindex="61" >
+
+                                </field>
+
+                                                        </itr>
+
+
+                                                        <itr visibleprop="ploblemvisible4" casaindex="62" >
+
+
+                                <field xsdType="xs:string" valueprop="sdoname4" width="400" noborder="true" transparentbackground="true" casaindex="63" >
+
+                                </field>
+
+                                                                <hdist width="10" casaindex="64" >
+
+
+                                                                </hdist>
+
+
+                                                                <combofix valueprop="sdolevel4" width="100" casaindex="65" >
+
+
+                                                                        <combooption name="error" value="E" casaindex="66" >
+
+
+                                                                        </combooption>
+
+
+                                                                        <combooption name="warning" value="W" casaindex="67" >
+
+
+                                                                        </combooption>
+
+
+                                                                        <combooption name="info" value="I" casaindex="68" >
+
+
+                                                                        </combooption>
+
+
+                                                                        <combooption name="nothing" value="N" casaindex="69" >
+
+
+                                                                        </combooption>
+
+
+                                                                </combofix>
+
+
+                                                                <hdist width="10" casaindex="70" >
+
+
+                                                                </hdist>
+
+
+                                <field xsdType="xs:string" valueprop="sdoid4" width="300" noborder="true" transparentbackground="true" casaindex="71" >
+
+                                </field>
+
+                                                        </itr>
+
+
+                                                         <itr visibleprop="ploblemvisible5" casaindex="72" >
+
+
+                                <field xsdType="xs:string" valueprop="sdoname5" width="400" noborder="true" transparentbackground="true" casaindex="73" >
+
+                                </field>
+
+                                                                <hdist width="10" casaindex="74" >
+
+
+                                                                </hdist>
+
+
+                                                               <combofix valueprop="sdolevel5" width="100" casaindex="75" >
+
+
+                                                                        <combooption name="error" value="E" casaindex="76" >
+
+
+                                                                        </combooption>
+
+
+                                                                        <combooption name="warning" value="W" casaindex="77" >
+
+
+                                                                        </combooption>
+
+
+                                                                        <combooption name="info" value="I" casaindex="78" >
+
+
+                                                                        </combooption>
+
+
+                                                                        <combooption name="nothing" value="N" casaindex="79" >
+
+
+                                                                        </combooption>
+
+
+                                                                </combofix>
+
+
+                                                                <hdist width="10" casaindex="80" >
+
+
+                                                                </hdist>
+
+
+                                <field xsdType="xs:string" valueprop="sdoid5" width="300" noborder="true" transparentbackground="true" casaindex="81" >
+
+                                </field>
+
+                                                        </itr>
+
+
+                                                </rowarea>
+
+
+                                        </coltable0>
+
+
+                                </tr>
+
+
+                        </repeat>
+
+
+                </rowtablearea2>
+
+
+        </pagebody>
+
+
+        <statusbar withdistance="false" casaindex="82" >
+
+
+        </statusbar>
+
+
+</page>

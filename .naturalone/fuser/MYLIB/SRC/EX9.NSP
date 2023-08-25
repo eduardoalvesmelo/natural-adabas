@@ -1,0 +1,86 @@
+0001/** (Cortesia do Prof. Bogdan Tomoyuki Nassu)Suponha que você está programando um
+0002/** módulo contador de cédulas para caixas eletrônicos. Escreva um programa que informa com
+0003/** quantas cédulas de Real podemos representar um dado valor. Exemplo de resposta: R$ 218
+0004/** = 2 cédulas de 100, 1 cédula de 10, 1 cédula de 5, 1 cédula de 2 e 1 cédula de 1. Procure
+0005/** minimizar o número de cédulas usadas. Desconsidere valores com centavos, e suponha que
+0006/** a máquina sempre tem disponíveis as cédulas necessárias. 
+0007/** :author eduar
+0008DEFINE DATA LOCAL
+00091 #vlr                  (N3)
+00101 #nota-cem             (N3)
+00111 #resto-cem            (N3)
+00121 #ttl-cem              (N3)
+00131 #nota-cinquenta       (N3)
+00141 #resto-cinquenta      (N3)
+00151 #ttl-cinquenta        (N3)
+00161 #nota-vinte           (N3)
+00171 #resto-vinte          (N3)
+00181 #ttl-vinte            (N3)
+00191 #nota-dez             (N3)
+00201 #resto-dez            (N3)
+00211 #ttl-dez              (N3)
+00221 #nota-cinco           (N3)
+00231 #resto-cinco          (N3)
+00241 #ttl-cinco            (N3)
+00251 #nota-dois            (N3)
+00261 #resto-dois           (N3)
+00271 #ttl-dois             (N3)
+00281 #nota-um              (N3)
+00291 #resto-um             (N3)
+00301 #ttl-um               (N3)
+0031END-DEFINE                            
+0032*    
+0033    input 'Informe um valor (1..999): ' #vlr                                                                                               
+0034    write 'Valor informado: '    #vlr
+0035*
+0036    divide 100 into #vlr giving #nota-cem
+0037    divide 100 into #vlr remainder #resto-cem
+0038    #ttl-cem := #nota-cem * 100
+0039*    
+0040    divide 50 into #resto-cem giving #nota-cinquenta
+0041    divide 50 into #resto-cem remainder #resto-cinquenta
+0042    #ttl-cinquenta := #nota-cinquenta * 50
+0043*
+0044    divide 20 into #resto-cinquenta giving #nota-vinte
+0045    divide 20 into #resto-cinquenta remainder #resto-vinte
+0046    #ttl-vinte := #nota-vinte * 20
+0047*
+0048    divide 10 into #resto-vinte giving #nota-dez
+0049    divide 10 into #resto-vinte remainder #resto-dez
+0050    #ttl-dez := #nota-dez * 10
+0051*
+0052    divide 5 into #resto-dez giving #nota-cinco
+0053    divide 5 into #resto-dez remainder #resto-cinco
+0054    #ttl-cinco := #nota-cinco * 5
+0055*
+0056    divide 2 into #resto-cinco giving #nota-dois
+0057    divide 2 into #resto-cinco remainder #resto-dois
+0058    #ttl-dois := #nota-dois * 2
+0059*
+0060    divide 1 into #resto-dois giving #nota-um
+0061    divide 1 into #resto-dois remainder #resto-um
+0062    #ttl-um := #nota-um * 1
+0063*
+0064    if #nota-cem > 0 
+0065           write #nota-cem 'Notas de cem = '    #ttl-cem
+0066       end-if   
+0067    if #nota-cinquenta > 0 
+0068           write #nota-cinquenta 'Notas de cinquenta = '    #ttl-cinquenta   
+0069       end-if   
+0070    if #nota-vinte > 0
+0071           write #nota-vinte 'Notas de vinte = '    #ttl-vinte   
+0072       end-if   
+0073    if #nota-dez > 0
+0074        write #nota-dez 'Notas de dez = '    #ttl-dez   
+0075       end-if   
+0076    if #nota-cinco > 0           
+0077           write #nota-cinco 'Notas de cinco = '    #ttl-cinco   
+0078       end-if   
+0079    if #nota-dois > 0
+0080           write #nota-dois 'Notas de dois = '    #ttl-dois   
+0081       end-if   
+0082    if #nota-um> 0
+0083           write #nota-um 'Notas de um = '    #ttl-um
+0084       end-if   
+0085*
+0086END

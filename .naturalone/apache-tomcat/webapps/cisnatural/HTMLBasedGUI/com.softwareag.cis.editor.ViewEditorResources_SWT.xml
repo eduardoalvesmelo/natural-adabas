@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.ViewEditorResourceAdapter" popupwidth="580" popupheight="410" pagename="CIS_EDIT" casaindex="1" >
+
+
+        <pagebody vscroll="false" horizdist="false" takefullheight="true" casaindex="2" >
+
+
+                <rowarea textid="resourceXML" withleftborder="false" withrightborder="false" withbottomborder="false" withtoppadding="false" casaindex="3" >
+
+
+                        <itr width="100%" casaindex="4" >
+
+
+                                <coltable0 width="100%" casaindex="5" >
+
+
+                                        <itr casaindex="6" >
+
+
+                                                <label textid="resourceLastModified" width="100" casaindex="7" >
+
+
+                                                </label>
+
+
+                        <field xsdType="timestamp" datatype="timestamp" valueprop="xmlResourceLastSave" width="180" displayonly="true" casaindex="8" >
+
+                        </field>
+
+                                        </itr>
+
+
+                                        <itr casaindex="9" >
+
+
+                                                <label textid="resourceName" width="100" casaindex="10" >
+
+
+                                                </label>
+
+
+                        <field xsdType="xs:string" valueprop="xmlResourceFileName" width="425" displayonly="true" casaindex="11" >
+
+                        </field>
+
+                                        </itr>
+
+
+                                        <itr casaindex="12" >
+
+
+                                                <label textid="resourceAbsPath" width="100" casaindex="13" >
+
+
+                                                </label>
+
+
+                                                <text valueprop="xmlResourceDirectory" width="425" displayonly="true" rows="3" casaindex="14" >
+
+
+                                                </text>
+
+
+                                        </itr>
+
+
+                                </coltable0>
+
+
+                                <coltable0 casaindex="15" >
+
+
+                                        <vdist height="10" casaindex="16" >
+
+
+                                        </vdist>
+
+
+                                        <tr casaindex="17" >
+
+
+                                                <imageout valueprop="xMLResourceImage" casaindex="18" >
+
+
+                                                </imageout>
+
+
+                                                <hdist width="6" casaindex="19" >
+
+
+                                                </hdist>
+
+
+                                        </tr>
+
+
+                                </coltable0>
+
+
+                        </itr>
+
+
+                </rowarea>
+
+
+                <rowarea textid="resourceCode" withleftborder="false" withrightborder="false" withbottomborder="false" casaindex="20" >
+
+
+                        <itr width="100%" casaindex="21" >
+
+
+                                <coltable0 width="100%" casaindex="22" >
+
+
+                                        <itr casaindex="23" >
+
+
+                                                <label textid="resourceLastModified" width="100" casaindex="24" >
+
+
+                                                </label>
+
+
+                        <field xsdType="timestamp" datatype="timestamp" valueprop="javaResourceLastSave" width="180" displayonly="true" casaindex="25" >
+
+                        </field>
+
+                                        </itr>
+
+
+                                        <itr casaindex="26" >
+
+
+                                                <label textid="resourceName" width="100" casaindex="27" >
+
+
+                                                </label>
+
+
+                        <field xsdType="xs:string" valueprop="javaResourceFileName" width="425" displayonly="true" casaindex="28" >
+
+                        </field>
+
+                                        </itr>
+
+
+                                        <itr casaindex="29" >
+
+
+                                                <label textid="resourceAbsPath" width="100" casaindex="30" >
+
+
+                                                </label>
+
+
+                                                <text valueprop="javaResourceDirectory" width="425" displayonly="true" wrap="soft" rows="3" casaindex="31" >
+
+
+                                                </text>
+
+
+                                        </itr>
+
+
+                                </coltable0>
+
+
+                                <coltable0 casaindex="32" >
+
+
+                                        <vdist height="10" casaindex="33" >
+
+
+                                        </vdist>
+
+
+                                        <tr casaindex="34" >
+
+
+                                                <imageout valueprop="javaResourceImage" casaindex="35" >
+
+
+                                                </imageout>
+
+
+                                                <hdist width="6" casaindex="36" >
+
+
+                                                </hdist>
+
+
+                                        </tr>
+
+
+                                </coltable0>
+
+
+                        </itr>
+
+
+                        <vdist height="100%" casaindex="37" >
+
+
+                        </vdist>
+
+
+                </rowarea>
+
+
+                <rowarea textid="resourceTrans" height="100%" withleftborder="false" withrightborder="false" withbottomborder="false" casaindex="38" >
+
+
+                        <itr width="100%" casaindex="39" >
+
+
+                                <coltable0 width="100%" casaindex="40" >
+
+
+                                        <itr casaindex="41" >
+
+
+                                                <label textid="resourceLastModified" width="100" casaindex="42" >
+
+
+                                                </label>
+
+
+                        <field xsdType="timestamp" datatype="timestamp" valueprop="translationResourceLastSave" width="180" displayonly="true" casaindex="43" >
+
+                        </field>
+
+                                        </itr>
+
+
+                                        <itr casaindex="44" >
+
+
+                                                <label textid="resourceName" width="100" casaindex="45" >
+
+
+                                                </label>
+
+
+                        <field xsdType="xs:string" valueprop="translationResourceFileName" width="425" displayonly="true" casaindex="46" >
+
+                        </field>
+
+                                        </itr>
+
+
+                                        <itr casaindex="47" >
+
+
+                                                <label textid="resourceAbsPath" width="100" casaindex="48" >
+
+
+                                                </label>
+
+
+                                                <text valueprop="translationResourceDirectory" width="425" displayonly="true" wrap="soft" rows="3" casaindex="49" >
+
+
+                                                </text>
+
+
+                                        </itr>
+
+
+                                </coltable0>
+
+
+                                <coltable0 casaindex="50" >
+
+
+                                        <vdist height="10" casaindex="51" >
+
+
+                                        </vdist>
+
+
+                                        <tr casaindex="52" >
+
+
+                                                <imageout valueprop="translationResourceImage" casaindex="53" >
+
+
+                                                </imageout>
+
+
+                                                <hdist width="6" casaindex="54" >
+
+
+                                                </hdist>
+
+
+                                        </tr>
+
+
+                                </coltable0>
+
+
+                        </itr>
+
+
+                        <vdist height="100%" casaindex="55" >
+
+
+                        </vdist>
+
+
+                </rowarea>
+
+
+        </pagebody>
+
+
+</page>

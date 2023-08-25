@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'>
+<script>var m_perfPageLoadStart = new Date();
+var m_perfPageLoadEnd = null;
+var m_perfPageFocusEnd = null;</script>
+<link id="casabacstylesheet" rel="stylesheet" type="text/css" href="../cis/styles/CIS_DEFAULT.css">
+<script>
+try
+{
+if (parent.CasaSTYLESHEET == null)
+{
+var vParent = parent;
+while(vParent != null)
+{
+if(vParent.CasaSTYLESHEET != null && vParent.CasaSTYLESHEET != '')
+{
+parent.CasaSTYLESHEET = vParent.CasaSTYLESHEET;
+break;
+}
+if(vParent == vParent.parent) break;
+vParent = vParent.parent;
+}
+}
+if (parent.CasaSTYLESHEET != null && parent.CasaSTYLESHEET != '')
+{
+var vStyleSheet = document.getElementById('casabacstylesheet');
+if (vStyleSheet.href != parent.CasaSTYLESHEET) vStyleSheet.href = parent.CasaSTYLESHEET;
+}
+}
+catch (eeccxx) {}
+</script>
+<style>
+html {height:100%;}
+body {height:100%;}
+</style>
+</head>
+<body id='THISBODY' oncontextmenu='try { return C.reactOnContextMenuRequestPAGE(event); } catch(e) {}' onmousemove='try { return moveDrag(event); } catch(exc) {}' onmouseup='try { endDrag(event);C.CL().checkMozIO(parent); } catch (exc) {}' onkeydown='try { processHotKeys(event); } catch (exc) {}' class='PAGEBody' style='margin: 0' onclick='try { C.clickAway(); } catch (exc) {}; try { C.reactOnClickPage(event); } catch (exc) {}' onresize='try { reactOnResize(); } catch (exc) {}'	onload=' try { reactOnResize(); } catch (exc) {}'	onhelp='C.reactOnHelpPAGE(); return false;'  tabindex='-1' onblur='try { C.onBlurPAGE(event); } catch(e) {}' onfocus='try { C.onFocusPAGE(); } catch(e) {}' onmousewheel='if (event.shiftKey) C.CL().cancelEvent(event);' onwheel='if (event.shiftKey) C.CL().cancelEvent(event);' onmouseleave='try { return removeTHISOCCUPIED(); } catch(exc) {}' onmouseout ='try { return removeTHISOCCUPIED(); } catch(exc) {}'>
+<script>
+function gebid(pid) { return document.getElementById(pid); }
+var m_isSafari = navigator.userAgent.toLowerCase().indexOf( 'safari' ) != -1;
+function isSafari() { return m_isSafari; }
+function createFunction(name,param,code) { window[name] = new Function(param,code); return window[name]; }
+function createElement(name) { return document.createElement(name); }
+var N = null;
+function icc(iccMethodName, baseIndex, s) { C.addIccInfo(iccMethodName, baseIndex, s); iccExec(iccMethodName, s); }
+function iccExec(iccMethodName, s) {
+var o = C.decodeString(s,',');
+for (var i=0; i<o.length; i++) o[i] = eval(o[i]);
+eval(iccMethodName)(o[0],o[1],o[2],o[3],o[4],o[5],o[6],o[7],o[8],o[9],o[10],o[11],o[12],o[13],o[14],o[15],o[16],o[17],o[18],o[19],o[20],o[21],o[22],o[23],o[24],o[25],o[26],o[27],o[28],o[29],o[30],o[31],o[32],o[33],o[34],o[35],o[36],o[37],o[38],o[39],o[40],o[41],o[42],o[43],o[44],o[45],o[46],o[47],o[48],o[49]);
+}
+m_startPageDate = new Date();
+var m_pageCompletelyBuilt = false;
+var m_fillTextIdListeners = [];
+var m_flagResize = true;
+var m_centralContextMenu =false;
+function registerFillTextIdListener(listener)
+{
+m_fillTextIdListeners.push(listener);
+}
+</script>
+<table id='JUSTLOADING' style='table-layout: fixed;z-index: 100;cursor: progress; position: absolute; left: 0; top: 0; width: 100%; height: 100%' class='PAGEBody'>
+<tr><td align="center" valign="middle" class='FLASHPageSwitch'>&nbsp;</td></tr>
+</table>
+<table id='THISPAGE' cellspacing='0' cellpadding='0'  style='table-layout: auto;width:100%;height:100%;display:none'>
+<tr id="TITLEBARTITLEBARTR"  style=" ">
+<td colspan='50' width='100%' height='0' align='center'>
+<table width='100%' cellspacing=0 cellpadding=0 class="TITLEBARTable">
+<tr>
+<td width='100%'>
+<table id="TITLEBARTITLEBAR" width="100%" cellspacing=2 cellpadding=0 style='table-layout: fixed'>
+<tr>
+<td width="100%" class="TDAroundControl" >
+<div nowrap="true" class="TITLEBARCell" style="overflow-x: hidden;">&nbsp;<span id="$2">$jdbc.titlebar0</span>&nbsp;</div>
+</td>
+</tr>
+</table>
+</td>
+<td width=0>
+<table width=0 cellspacing=0 cellpadding=0>
+<tr>
+<td width=0 align='center' valign='middle'><span  id='HELPICON3' onmouseenter='if (C.checkIO() == false) return; this.className = "ICONImageRollOver";' onmouseleave='this.className = "ICONImage";' class='ICONImage'>
+<a onclick='transferModel3();'><img id='ICONIMG3' border='0' src='../HTMLBasedGUI/images/helpicon.gif' title="$jdbc.helpicon0"></a></span>
+</td>
+<td id='TITLEBAR2CLOSE' title="$closePage" valign='middle' onmouseenter='if (C.checkIO() == false) return; C.CL().C_rollinIconROLLOVER(this);' onmouseleave='this.className = "ICONImage";' onclick='closePage2()'><div class='TITLEBARCellClose'>&nbsp;</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr id='TR4' >
+<td id="HDR4" colspan='50' width='100%' height='0' class="HEADERTopTable" style='padding-left:3px;padding-right:3px'>
+<a name="PC"></a><table id="HDRTA4" align="center" >
+<tr>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td  colspan='50' width='100%' height='100%' valign='top' >
+<div id='PAGEDIV5' style='width: 100%; height: 100%;overflow: auto;padding:0 3px 0 3px;'>
+<table width="100%" style='height:100%;' cellspacing="0" cellpadding="0" >
+<tr id='TRAREA6'>
+<td id='TDAREA6' colspan='50' width='100%'  valign='top' class='TDAroundControl' style='padding-top:3px'>
+<table cellspacing=0 cellpadding=0 class="AREATableOnTop" style='width:100%;'>
+<tr  onclick='toggleArea6(true);' style='cursor:pointer'>
+<td class='TDAroundControl' height='1px'>
+<table cellspacing=0 cellpadding=0 class='AREATableHeader'>
+<tr class="AREATitleRow" id='$T6' title="">
+<td><div id='AREALTC_6' class="AREALeftFromTitleCell" ></div></td>
+<td align = "left" valign="middle" nowrap='true' class="AREATitleCell" >
+<table cellspacing=0 cellpadding=0>
+<tr>
+<td></td>
+<td align = "left" valign="middle" nowrap='true' class="AREALinks">
+<a tabindex='1' ><span id='$6'>$jdbc.rowarea0</span></a>
+</td>
+</tr>
+</table>
+</td>
+<td style='font-size:1px;height:100%'><div class="AREARightFromTitleCell" ></div></td>
+<td style='font-size:1px;width:100%;height:100%' valign='middle'><div class="AREARightFromTitleCellRemaining" ><table width='100%'><tr><td width='100%' style='font-size:1px'>&nbsp;</td><td><span id='RWH_SPAN_6' valign='middle' style='font-size:10px;height:100%;margin-right:6px'  class="AREAToggleImg" >&nbsp;&nbsp;&nbsp;</span></td></tr></table></div></td><td style='font-size:1px;height:100%'><div class="AREARightTopCell" ></div></td></tr>
+</table>
+</td>
+</tr>
+<tr>
+<td >
+<div id='AREADIV6' class="AREATableContent" style='padding:0 5px 0 5px;width:100%;'>
+<table border=0 cellspacing='0' cellpadding='0' width='100%' >
+<tr><td height="3px"></td></tr>
+<tr id='ITR7'  >
+<td   valign='top' colspan='50' class='TDAroundControl'  height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 ><tr>
+<td id='TD8'    colspan=1 rowspan=1 width='200px'  class="LABELCellNormal" style=" ;width:200px"  valign='middle'><div id="DIV8"  class="LABELDivText" style=" ;width:200px"><span id='$8'>$jdbc.label0</span>
+</div></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_9" name="CC" class='FIELDInputEdit' data-testtoolid='jdbcDriverClassName' type="text"    style=" width:100%;"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr id='ITR10'  >
+<td   valign='top' colspan='50' class='TDAroundControl'  height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 ><tr>
+<td id='TD11'    colspan=1 rowspan=1 width='200px'  class="LABELCellNormal" style=" ;width:200px"  valign='middle'><div id="DIV11"  class="LABELDivText" style=" ;width:200px"><span id='$11'>$jdbc.label1</span>
+</div></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_12" name="CC" class='FIELDInputEdit' data-testtoolid='jdbcURL' type="text"    style=" width:100%;"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr id='ITR13'  >
+<td   valign='top' colspan='50' class='TDAroundControl'  height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 ><tr>
+<td id='TD14'    colspan=1 rowspan=1 width='200px'  class="LABELCellNormal" style=" ;width:200px"  valign='middle'><div id="DIV14"  class="LABELDivText" style=" ;width:200px"><span id='$14'>$jdbc.label2</span>
+</div></td>
+<td  width='200px'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_15" name="CC" class='FIELDInputEdit' data-testtoolid='user' type="text"    style=" width:200px;"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr id='ITR16'  >
+<td   valign='top' colspan='50' class='TDAroundControl'  height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 ><tr>
+<td id='TD17'    colspan=1 rowspan=1 width='200px'  class="LABELCellNormal" style=" ;width:200px"  valign='middle'><div id="DIV17"  class="LABELDivText" style=" ;width:200px"><span id='$17'>$jdbc.label3</span>
+</div></td>
+<td  width='200px'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_18" name="CC" class='FIELDInputEdit' data-testtoolid='password' type="password"   style=" width:200px;"></td>
+<td id='HD19' class='TDAroundControl' style='font-size:1px' width='100%'></td>
+<td id="TDB20"  width=0 colspan=1 rowspan=1 class='TDAroundControl' align='left' valign='middle' >
+<button type="button" id="B_20" data-testtoolid='onConnect' style=" "  name="CC" class="BUTTONInput">$1$jdbc.button0$2$</button>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td height="3px"></td></tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td colspan='50' width='100%' height='100%' valign='top' class='TDAroundControl' style='padding-top: 3px'>
+<div id='D21' style='height:100%'>
+<table  id='TA_21' cellspacing="0" cellpadding="0" border="0" width='100%' height='100%' class='TABAREATable'>
+<tr>
+<td class='TDAroundControl' width="100%">
+<table cellspacing="0" cellpadding="4" border=0 width='100%'>
+<tr>
+<td width='0' class='TABAREACellRemaining'><div style='width:20px'>&nbsp;</div></td>
+<td tabindex='1' nowrap=true id="TPTD121" style='cursor:pointer;text-decoration:none; padding-bottom:4px; padding-top:4px' class='TABAREACellSelectedFirst' onkeypress="C.clickPageTABAREA(C_21, 0)"  onclick="C.clickPageTABAREA(C_21, 0)" title="" data-testtoolid='jdbc.rowtabarea0'><span id='$21_1'>$jdbc.rowtabarea0</span>&nbsp;&nbsp;</td>
+<td tabindex='1' nowrap=true id="TPTD221" style='cursor:pointer;text-decoration:none; padding-bottom:4px; padding-top:4px' class='TABAREACellUnselected' onkeypress="C.clickPageTABAREA(C_21, 1)" onclick="C.clickPageTABAREA(C_21, 1)" title="" data-testtoolid='jdbc.rowtabarea1'><span id='$21_2'>$jdbc.rowtabarea1</span>&nbsp;&nbsp;</td>
+<td width='100%' class='TABAREACellRemaining'>&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td width="100%" height="100%">
+<div id='DD21' style='height:100%'>
+<table class='TABAREACellSubpages' style=' ' cellpadding=0 cellspacing=0 height='100%' width='100%'>
+<tr>
+<td width="100%" height="100%" valign='top' style='padding:5px 3px 5px 3px '>
+<table id="CREATE" width="100%" height="100%" border="0" cellspacing="0" cellpadding="0" style=""  class='TABPAGETable'>
+<tr id='TRAREA23'>
+<td id='TDAREA23' colspan='50' width='100%'  valign='top' class='TDAroundControl' style='padding-top:3px'>
+<table cellspacing=0 cellpadding=0 class="AREATableOnTop" style='width:100%;'>
+<tr  onclick='toggleArea23(true);' style='cursor:pointer'>
+<td class='TDAroundControl' height='1px'>
+<table cellspacing=0 cellpadding=0 class='AREATableHeader'>
+<tr class="AREATitleRow" id='$T23' title="">
+<td><div id='AREALTC_23' class="AREALeftFromTitleCell" ></div></td>
+<td align = "left" valign="middle" nowrap='true' class="AREATitleCell" >
+<table cellspacing=0 cellpadding=0>
+<tr>
+<td></td>
+<td align = "left" valign="middle" nowrap='true' class="AREALinks">
+<a tabindex='1' ><span id='$23'>$jdbc.rowarea1</span></a>
+</td>
+</tr>
+</table>
+</td>
+<td style='font-size:1px;height:100%'><div class="AREARightFromTitleCell" ></div></td>
+<td style='font-size:1px;width:100%;height:100%' valign='middle'><div class="AREARightFromTitleCellRemaining" ><table width='100%'><tr><td width='100%' style='font-size:1px'>&nbsp;</td><td><span id='RWH_SPAN_23' valign='middle' style='font-size:10px;height:100%;margin-right:6px'  class="AREAToggleImg" >&nbsp;&nbsp;&nbsp;</span></td></tr></table></div></td><td style='font-size:1px;height:100%'><div class="AREARightTopCell" ></div></td></tr>
+</table>
+</td>
+</tr>
+<tr>
+<td >
+<div id='AREADIV23' class="AREATableContent" style='padding:0 5px 0 5px;width:100%;'>
+<table border=0 cellspacing='0' cellpadding='0' width='100%' >
+<tr><td height="3px"></td></tr>
+<tr id='ITR24'  >
+<td   valign='top' colspan='50' class='TDAroundControl'  height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 ><tr>
+<td id='TD25'    colspan=1 rowspan=1 width='60px'  class="LABELCellNormal" style=" ;width:60px"  valign='middle'><div id="DIV25"  class="LABELDivText" style=" ;width:60px"><span id='$25'>$jdbc.label4</span>
+</div></td>
+<td  id='RTD_26' rowspan=1 colspan=1 class='TDAroundControl' align='center' valign='middle'><input  type="radio"  data-testtoolid='dBProduct' id="RADIO26" name="dBProduct" onclick="rrb26(event);" onkeydown="rrb26(event); return C.reactRADIOBUTTON(C_26,event);" class="RADIOBUTTONEdit" title=""></td>
+<td id='HD27' class='TDAroundControl' style='font-size:1px' width=0><div style='font-size:1px;height:3px;width:3px'></div></td>
+<td id='TD28'    colspan=1 rowspan=1   class="LABELCellPlainText" style=" "  valign='middle'><div id="DIV28"  class="LABELDivText" style=" "><span id='$28'>$jdbc.label5</span>
+</div></td>
+<td id='HD29' class='TDAroundControl' style='font-size:1px' width='100px'><div style='font-size:1px;height:1px;width:100px'></div></td>
+<td width=0 align='center' valign='middle'><span  id='HELPICON30' onmouseenter='if (C.checkIO() == false) return; this.className = "ICONImageRollOver";' onmouseleave='this.className = "ICONImage";' class='ICONImage'>
+<a onclick='transferModel30();'><img id='ICONIMG30' border='0' src='../HTMLBasedGUI/images/helpiconsmall.gif' title="$jdbc.helpicon1"></a></span>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr id='ITR31'  >
+<td   valign='top' colspan='50' class='TDAroundControl'  height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 ><tr>
+<td id='TD32'  width='60px' valign="middle" class="LABELCellEmpty" style=" ">&nbsp;<div id="DIV32" class="LABELDivText" style=" "></div></td>
+<td  id='RTD_33' rowspan=1 colspan=1 class='TDAroundControl' align='center' valign='middle'><input  type="radio"  data-testtoolid='dBProduct' id="RADIO33" name="dBProduct" onclick="rrb33(event);" onkeydown="rrb33(event); return C.reactRADIOBUTTON(C_33,event);" class="RADIOBUTTONEdit" title=""></td>
+<td id='HD34' class='TDAroundControl' style='font-size:1px' width=0><div style='font-size:1px;height:3px;width:3px'></div></td>
+<td id='TD35'    colspan=1 rowspan=1   class="LABELCellPlainText" style=" "  valign='middle'><div id="DIV35"  class="LABELDivText" style=" "><span id='$35'>$jdbc.label6</span>
+</div></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td height="3px"></td></tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr id='TRAREA36'>
+<td id='TDAREA36' colspan='50' width='100%' height='100%' valign='top' class='TDAroundControl' style='padding-top:3px'>
+<table cellspacing=0 cellpadding=0 class="AREATableOnTop" style='height:100%;width:100%;'>
+<tr  onclick='toggleArea36(true);' style='cursor:pointer'>
+<td class='TDAroundControl' height='1px'>
+<table cellspacing=0 cellpadding=0 class='AREATableHeader'>
+<tr class="AREATitleRow" id='$T36' title="">
+<td><div id='AREALTC_36' class="AREALeftFromTitleCell" ></div></td>
+<td align = "left" valign="middle" nowrap='true' class="AREATitleCell" >
+<table cellspacing=0 cellpadding=0>
+<tr>
+<td></td>
+<td align = "left" valign="middle" nowrap='true' class="AREALinks">
+<a tabindex='1' ><span id='$36'>$jdbc.rowarea2</span></a>
+</td>
+</tr>
+</table>
+</td>
+<td style='font-size:1px;height:100%'><div class="AREARightFromTitleCell" ></div></td>
+<td style='font-size:1px;width:100%;height:100%' valign='middle'><div class="AREARightFromTitleCellRemaining" ><table width='100%'><tr><td width='100%' style='font-size:1px'>&nbsp;</td><td><span id='RWH_SPAN_36' valign='middle' style='font-size:10px;height:100%;margin-right:6px'  class="AREAToggleImg" >&nbsp;&nbsp;&nbsp;</span></td></tr></table></div></td><td style='font-size:1px;height:100%'><div class="AREARightTopCell" ></div></td></tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height="100%">
+<div id='AREADIV36' class="AREATableContent" style='padding:0 5px 0 5px;width:100%;height:100%;min-height:100%; ;'>
+<table border=0 cellspacing='0' cellpadding='0' width='100%' height="100%">
+<tr><td height="3px"></td></tr>
+<tr style=' ' ><td height="10px" class='TDAroundControl' ></td></tr>
+<tr id='ITR38'  >
+<td   valign='top' colspan='50' class='TDAroundControl'  height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 ><tr>
+<td id="TDB39"  width=0 colspan=1 rowspan=1 class='TDAroundControl' align='left' valign='middle' >
+<button type="button" id="B_39" data-testtoolid='onCheckIfTablesExist' style=" "  name="CC" class="BUTTONInput">$1$jdbc.button1$2$</button>
+</td>
+<td id='HD40' class='TDAroundControl' style='font-size:1px' width=0><div style='font-size:1px;height:3px;width:3px'></div></td>
+<td id="TDB41"  width=0 colspan=1 rowspan=1 class='TDAroundControl' align='left' valign='middle' >
+<button type="button" id="B_41" data-testtoolid='onPreviewDBUpdates' style=" "  name="CC" class="BUTTONInput">$1$jdbc.button2$2$</button>
+</td>
+<td id='HD42' class='TDAroundControl' style='font-size:1px' width=0><div style='font-size:1px;height:3px;width:3px'></div></td>
+<td id="TDB43"  width=0 colspan=1 rowspan=1 class='TDAroundControl' align='left' valign='middle' >
+<button type="button" id="B_43" data-testtoolid='onCreateTables' style=" "  name="CC" class="BUTTONInput">$1$jdbc.button3$2$</button>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style=' ' ><td height="10px" class='TDAroundControl' ></td></tr>
+<tr id='ITR45'  >
+<td   valign='top' colspan='50' class='TDAroundControl' width='100%' height='100%'>
+<div id='ITRD45'  style='width: 100%; height:100%;'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 width='100%'><tr>
+<td  style='width: 100%;height: 100%;' rowspan=1 colspan=1 class='TDAroundControl'><textarea data-testtoolid='infoText'    onfocus='rtb46(event);' onblur='rtb46(event);' onkeydown='reactOnKeyDown46(event);'  onchange="transferChange46();" id="FIELD46" class="TEXTTextArea" style=" background-color: #FFFFFF;width: 100%;height: 99%"></textarea>
+</td>
+<td id='HD47' class='TDAroundControl' style='font-size:1px' width=0><div style='font-size:1px;height:3px;width:3px'></div></td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr><td height="3px"></td></tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr style=' ' ><td height="100%" class='TDAroundControl' ></td></tr>
+</table>
+<table id="CONTENT" width="100%" height="100%" border="0" cellspacing="0" cellpadding="0" style=""  class='TABPAGETable'>
+<tr style=' ' ><td height="3px" class='TDAroundControl' ></td></tr>
+<tr id='ITR51'  >
+<td   valign='top' colspan='50' class='TDAroundControl'  height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 ><tr>
+<td id='TD52'    colspan=1 rowspan=1 width='60px'  class="LABELCellNormal" style=" ;width:60px"  valign='middle'><div id="DIV52"  class="LABELDivText" style=" ;width:60px"><span id='$52'>$jdbc.label7</span>
+</div></td>
+<td  width='100px'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_53" name="CC" class='FIELDInputEdit' data-testtoolid='project' type="text"    style=" width:100px;"></td>
+<td id='HD54' class='TDAroundControl' style='font-size:1px' width='10px'><div style='font-size:1px;height:1px;width:10px'></div></td>
+<td id="TDB55"  width=0 colspan=1 rowspan=1 class='TDAroundControl' align='left' valign='middle' >
+<button type="button" id="B_55" data-testtoolid='onSelectDBFiles' style=" "  name="CC" class="BUTTONInput">$1$jdbc.button4$2$</button>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style=' ' ><td height="10px" class='TDAroundControl' ></td></tr>
+<tr id='ITR57'  >
+<td   valign='top' colspan='50' class='TDAroundControl' width='100%' height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 width='100%'><tr>
+<td id='HD58' class='TDAroundControl' style='font-size:1px' width='60px'><div style='font-size:1px;height:1px;width:60px'></div></td>
+<td id='TD59'    colspan=1 rowspan=1 width='100%'  class="LABELCellPlainText" style=" "  valign='middle'><div id="DIV59"  class="LABELDivText" style=" "><span id='$59'>$jdbc.label8</span>
+</div></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr id='ITR60'  >
+<td   valign='top' colspan='50' class='TDAroundControl'  height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 ><tr>
+</tr>
+</table>
+</td>
+</tr>
+<tr style=' ' ><td height="10px" class='TDAroundControl' ></td></tr>
+<tr id='ITR62'  >
+<td   valign='top' colspan='50' class='TDAroundControl' width='100%' height='100%'>
+<div id='ITRD62'  style='width: 100%; height:100%;'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 width='100%'><tr>
+<td class='TDAroundControl' height='100%' width='100%'>
+<div id='TGRI_63' style='width: 100%; height: 100%'>
+<table onmousewheel='reactOnMouseWheel63(event);' cellspacing=0 cellpadding=0 style='table-layout: auto' width='100%' height='100%'>
+<tr>
+<td height='100%'  >
+<div id='TGRII_63' style='width: 100%; height: 100%; overflow: hidden'>
+<table cellpadding=0 cellspacing=0 width='100%' height='100%' style='table-layout: fixed'>
+<tr>
+<td width='100%' height='100%' colspan=1 rowspan=1 class='TDAroundControl'>
+<div onscroll='reactOnScroll63();'  id='TEXTGRIDDIV63' style='width:100%;height: 100%;overflow-x: scroll;overflow-y: hidden;' class='TEXTGRIDDiv' onresize='reactOnResize63()' onkeydown='reactOnKeyDown63(event);' oncontextmenu='C.parent.CASA_event = event; onContextMenuRequest63(null);event.stopPropagation(); return false;'>
+<span id='TEXTGRID63'></span></div></td>
+<script>
+var vColInfos63;
+function reactOnFillTextIds63() { C.reactOnFillTextIdsTEXTGRID(C_63); }
+function reactOnModelUpdate63(model) { C.reactOnModelUpdateTEXTGRID(C_63); }
+function selectRow63(rowIndex, ctrlKey, shiftKey, suppressSubmit) { C.selectRowTEXTGRID(C_63, rowIndex, ctrlKey, shiftKey, suppressSubmit); }
+function reactOnClick63(rowIndex) { C.reactOnClickTEXTGRID(C_63, rowIndex); }
+function reactOnDblClick63(rowIndex) { C.reactOnDblClickTEXTGRID(C_63, rowIndex); }
+function reactOnMouseDown63(evt) { return C.reactOnMouseDownTEXTGRID(C_63,evt); }
+function reactOnMouseUp63(evt) { return C.reactOnMouseUpTEXTGRID(C_63,evt);}
+function reactOnDblClickHeader63(evt) { return C.reactOnDoubleClickHeaderTEXTGRID(C_63,evt);}
+function reactOnResize63() { C.reactOnResizeTEXTGRID(C_63,C_DIV63); }
+function onContextMenuRequest63(rowIndex) { C.onContextMenuRequestROLLOVER(C_63, rowIndex); }
+function selectAllLines63() { C.selectAllLinesTEXTGRID(C_63); }
+function reactOnResizeMoz63() { C.reactOnResizeMozTEXTGRID(C_63,C_DIV63); }
+function reactOnKeyDown63(e) {if (e.keyCode == 40 && typeof C.onkey40TEXTGRID == 'function') C.onkey40TEXTGRID(C_63, C_DIV63, e); else if (e.keyCode == 38 && typeof C.onkey38TEXTGRID == 'function') C.onkey38TEXTGRID(C_63, C_DIV63, e); else if ((e.keyCode == 32 || e.keyCode == 13)  && typeof C.onkey32TEXTGRID == 'function') C.onkey32TEXTGRID(C_63, e); else if (e.keyCode == 33 && typeof C.onkey33TEXTGRID == 'function') C.onkey33TEXTGRID(C_63, C_DIV63, e); else if (e.keyCode == 34 && typeof C.onkey34TEXTGRID == 'function') C.onkey34TEXTGRID(C_63, C_DIV63, e);}
+function reactOnScroll63() { C_DIV63.scrollTop = 0; }
+</script>
+</tr>
+</table>
+</div>
+</td>
+<td height='100%' class='TDAroundControl'>
+<div id='TGRIII_63' style='height:100%'>
+<div id="IDO_10063" class="VSCROLLBAROuterDiv" style="width:18px;height:100%;overflow-y: auto" onscroll="reactOnScroll10063();" onkeydown="reactOnKeyDown10063(event);">
+<div id='ID_10063' style='width:1px;height:10%'>
+<a name='PC'></a></div>
+</div>
+<script>
+function reactOnModelUpdate10063(model) { C.reactOnModelUpdateVSCROLLBAR(C_10063,CID_10063); }
+function reactOnScroll10063() { return C.reactOnScrollVSCROLLBAR(C_10063,CID_10063); }
+function reactOnMouseUp10063() { return C.reactOnMouseUpVSCROLLBAR(C_10063,CID_10063); }
+function scrollUp10063(delta) { return C.reactOnScrollUpVSCROLLBAR(C_10063,CID_10063,delta); }
+function scrollDown10063(delta) { return C.reactOnScrollDownVSCROLLBAR(C_10063,CID_10063,delta); }
+function scrollPageUp10063() { C.reactOnScrollPageUpVSCROLLBAR(C_10063,CID_10063); }
+function scrollPageDown10063() { C.reactOnScrollPageDownVSCROLLBAR(C_10063,CID_10063); }
+function mozDragReact10063(evt) { C.mozDragReactVSCROLLBAR(C_10063,mozDragReact10063,evt); }
+function reactOnKeyDown10063(evt) { C.reactOnKeyDownSCROLLBAR(C_10063,mozDragReact10063,evt); }
+</script>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<script>
+function reactOnMouseWheel63(ctrlEvent) { if (ctrlEvent.shiftKey) C.CL().cancelEvent(ctrlEvent); else {var scrolled; var scrollUp=true; if (ctrlEvent.detail && ctrlEvent.detail>0)scrollUp=false;else if (ctrlEvent.wheelDelta && ctrlEvent.wheelDelta<0)scrollUp=false;if (!scrollUp) scrolled=scrollDown10063(2);else scrolled=scrollUp10063(2); if(scrolled) C.CL().cancelEvent(ctrlEvent);} }
+</script>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td></tr>
+<tr style=' ' ><td height="3px" class='TDAroundControl' ></td></tr>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan='50' id="STATUSBARSTATUSBAR" class='TDAroundControl' width='100%' height='0' align='center'>
+<table width="100%" cellspacing="0" cellpadding="0" class="STATUSBARTable">
+<tr>
+<td class='TDAroundControl'>&nbsp;&nbsp;</td><td class='TDAroundControl' valign="middle"><span id='STATUSBARIMAGE66'></span></td>
+<td class='TDAroundControl'><div class='STATUSBARDivAfterIcon'></div></td>
+<td  nowrap='true' width="100%" class="STATUSBARCell" valign="middle">
+<span id='STATUSBAR66'></span>
+</td></tr>
+</table>
+</td>
+</tr>
+</table>
+<script>
+var CasaPAGE = document.getElementById('THISPAGE');
+var CasaLOADING = document.getElementById('JUSTLOADING');
+var m_dropInfo = null;
+var m_dragMode = false;
+var m_dragId = null;
+var m_dragType = null;
+var m_dropMethod = null;
+var m_blockIO = true;
+var m_blockIOByFlush = false;
+var m_startInitDate;
+var m_endInitDate;
+var m_resizeListeners = [];
+var m_helpIdPAGE = '';
+var C;
+var m_roi_firstusage;
+function reactOnInit(firstusage)
+{
+if (firstusage == undefined) firstusage = true;
+m_roi_firstusage = firstusage;if (parent.m_centralLib == null) { document.location.href = '../HTMLBasedGUI/general/aboutBlank.html'; return; }
+C = csciframe;
+CL = C.CL();
+m_resizeListeners = [];
+m_flagResize = true;
+m_startInitDate = new Date();
+C.addLogMessage('page.reactOnInit started - showPage date = ' + parent.m_showPageDate.getSeconds() + '/' + parent.m_showPageDate.getMilliseconds());
+C.addLogMessage('loading page started =' + m_perfPageLoadStart.getSeconds() + '/' + m_perfPageLoadStart.getMilliseconds());
+C.initGlobals();
+m_pageCompletelyBuilt = false;
+m_fillTextIdListeners = [];
+m_dragMode = false;
+m_dragId = null;
+m_dropMethod = null;
+m_blockIO = true;
+m_blockIOByFlush = false;
+var sid = parent.getCurrentSessionId();
+var pid = parent.getCurrentProcessId();
+var mid = parent.getCurrentModelId();
+var pageInitParam = parent.pageInitParam;
+if (pageInitParam == null) pageInitParam = '';
+C.setPageName('jdbc');
+if (firstusage) generateCCs();
+if (firstusage) C_3 = document.getElementById('HELPICON3');
+C.initCasaControl(C_3);
+C_3.CASA_id = '3';
+C_3.CASA_image = '../HTMLBasedGUI/images/helpicon.gif';
+C_3.CASA_helpid = 'CIS_FILE';
+C_3.CASA_memreferencevalue = 'inittini';
+C_3.CASA_memvisiblevalue = 'inittini';
+if (firstusage) C.addMLImage(gebid('ICONIMG3'));
+if (firstusage) C_2 = gebid('TITLEBARTITLEBARTR');
+if (firstusage) CL.iccTITLEBAR(C,C_2,N,'2',N,N,N,N,N,N,N,'endProcess',N, N,'true');
+if (firstusage) C.addMLSpan(gebid('$2'));
+if (firstusage) C.addMLImage(gebid('TITLEBAR2CLOSE'));
+if (firstusage) C_4 = CHDR4.parentNode;
+if (firstusage) C.iccHEADER(C_4,CHDR4,document.getElementById('HDRTA4'),romu4,N);
+if (firstusage) CTD_8 = document.getElementById('TD8');
+if (firstusage) C_8 = document.getElementById('$8');
+if (firstusage) C.addMLTab(C_8, rohk8);
+if (firstusage) C.iccFIELD(CF_9,romu9,C.reactFIELD,'jdbcDriverClassName',N,'jdbcConFieldStatus',N,N,N,N,N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) CTD_11 = document.getElementById('TD11');
+if (firstusage) C_11 = document.getElementById('$11');
+if (firstusage) C.addMLTab(C_11, rohk11);
+if (firstusage) C.iccFIELD(CF_12,romu12,C.reactFIELD,'jdbcURL',N,'jdbcConFieldStatus',N,N,N,N,N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) CTD_14 = document.getElementById('TD14');
+if (firstusage) C_14 = document.getElementById('$14');
+if (firstusage) C.addMLTab(C_14, rohk14);
+if (firstusage) C.iccFIELD(CF_15,romu15,C.reactFIELD,'user',N,'jdbcConFieldStatus',N,N,N,N,N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) CTD_17 = document.getElementById('TD17');
+if (firstusage) C_17 = document.getElementById('$17');
+if (firstusage) C.addMLTab(C_17, rohk17);
+if (firstusage) C.iccFIELD(CF_18,romu18,C.reactFIELD,'password',N,'jdbcConFieldStatus',N,N,N,N,N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccBUTTON(CB_20,romu20,rohk20,C.reactBUTTON,N,'isNotConnected',N,'onConnect',N,N,N,N,'disabled','',N,'','1',N,N,N,N,N,N,N,N,N);
+if (firstusage) C_6 = document.getElementById('AREADIV6');
+C.registerListener(reactOnModelUpdate6);
+if (firstusage) CSPAN_6 = gebid('RWH_SPAN_6');
+C_6.CASA_stylevariant = '';
+if (firstusage) C.iccAREA(C_6, 6,N,'false',N,N,N,CSPAN_6,N,N,N,N,'true');
+if (firstusage) C.addMLSpan(gebid('$6'));
+C.addAreaTabIndexInfo(6,'jdbc.rowarea0',1,null);
+if (firstusage) CTD_25 = document.getElementById('TD25');
+if (firstusage) C_25 = document.getElementById('$25');
+if (firstusage) C.addMLTab(C_25, rohk25);
+if (firstusage) C_26 = gebid('RADIO26');
+if (firstusage) C_26.CASA_td = gebid('RTD_26');
+C_26.CASA_cti = '1';
+if (firstusage) C.initCasaControlRADIOBUTTON(C_26,rrb26,N);
+if (firstusage) C.addFocusable(C_26,true);
+if (firstusage) C.registerListener(reactOnModelUpdate26);
+C_26.CASA_valueprop = 'dBProduct';
+C_26.CASA_value = 'MYSQL';
+C_26.CASA_displayonly = 'false';
+C_26.CASA_statusprop = 'otherFieldStatus';
+C_26.CASA_flush = 'server';
+if (firstusage) CTD_28 = document.getElementById('TD28');
+if (firstusage) C_28 = document.getElementById('$28');
+if (firstusage) C.addMLTab(C_28, rohk28);
+if (firstusage) C_30 = document.getElementById('HELPICON30');
+C.initCasaControl(C_30);
+C_30.CASA_id = '30';
+C_30.CASA_image = '../HTMLBasedGUI/images/helpiconsmall.gif';
+C_30.CASA_helpid = 'CIS_FILE';
+C_30.CASA_memreferencevalue = 'inittini';
+C_30.CASA_memvisiblevalue = 'inittini';
+if (firstusage) C.addMLImage(gebid('ICONIMG30'));
+if (firstusage) C_33 = gebid('RADIO33');
+if (firstusage) C_33.CASA_td = gebid('RTD_33');
+C_33.CASA_cti = '1';
+if (firstusage) C.initCasaControlRADIOBUTTON(C_33,rrb33,N);
+if (firstusage) C.addFocusable(C_33,true);
+if (firstusage) C.registerListener(reactOnModelUpdate33);
+C_33.CASA_valueprop = 'dBProduct';
+C_33.CASA_value = 'OTHER';
+C_33.CASA_displayonly = 'false';
+C_33.CASA_statusprop = 'otherFieldStatus';
+C_33.CASA_flush = 'server';
+if (firstusage) CTD_35 = document.getElementById('TD35');
+if (firstusage) C_35 = document.getElementById('$35');
+if (firstusage) C.addMLTab(C_35, rohk35);
+if (firstusage) C_23 = document.getElementById('AREADIV23');
+C.registerListener(reactOnModelUpdate23);
+if (firstusage) CSPAN_23 = gebid('RWH_SPAN_23');
+C_23.CASA_stylevariant = '';
+if (firstusage) C.iccAREA(C_23, 23,N,'false',N,N,N,CSPAN_23,N,N,N,N,'true');
+if (firstusage) C.addMLSpan(gebid('$23'));
+C.addAreaTabIndexInfo(23,'jdbc.rowarea1',1,null);
+if (firstusage) C.iccBUTTON(CB_39,romu39,rohk39,C.reactBUTTON,N,'isConnected',N,'onCheckIfTablesExist',N,N,N,N,'disabled','',N,'','1',N,N,N,N,N,N,N,N,N);
+if (firstusage) C.iccBUTTON(CB_41,romu41,rohk41,C.reactBUTTON,N,'previewButtonVisible',N,'onPreviewDBUpdates',N,N,N,N,'disabled','',N,'','1',N,N,N,N,N,N,N,N,N);
+if (firstusage) C.iccBUTTON(CB_43,romu43,rohk43,C.reactBUTTON,N,'createTableVisible',N,'onCreateTables',N,N,N,N,'disabled','',N,'','1',N,N,N,N,N,N,N,N,N);
+if (firstusage) C_46 = document.getElementById('FIELD46');
+C_46.CASA_cti = '1';
+if (firstusage) C.initCasaControlTEXT(C_46);
+C.registerListener(reactOnModelUpdate46);
+C_46.CASA_valueprop = 'infoText';
+C_46.CASA_displayonly = 'true';
+C.addMozDiv(C_46);
+if (firstusage) CD_45 = document.getElementById('ITRD45');
+C.addMozDiv(CD_45);
+if (firstusage) C_36 = document.getElementById('AREADIV36');
+C.registerListener(reactOnModelUpdate36);
+if (firstusage) CSPAN_36 = gebid('RWH_SPAN_36');
+C_36.CASA_stylevariant = '';
+if (firstusage) C.iccAREA(C_36, 36,N,'false',N,N,'100%',CSPAN_36,N,N,N,N,'true');
+if (firstusage) C.addMLSpan(gebid('$36'));
+C.addAreaTabIndexInfo(36,'jdbc.rowarea2',1,null);
+if (firstusage) CTD_52 = document.getElementById('TD52');
+if (firstusage) C_52 = document.getElementById('$52');
+if (firstusage) C.addMLTab(C_52, rohk52);
+if (firstusage) C.iccFIELD(CF_53,romu53,C.reactFIELD,'project',N,'otherFieldStatus',N,N,N,N,N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccBUTTON(CB_55,romu55,rohk55,C.reactBUTTON,N,'isConnected',N,'onSelectDBFiles',N,N,N,N,'disabled','',N,'','1',N,N,N,N,N,N,N,N,N);
+if (firstusage) CTD_59 = document.getElementById('TD59');
+if (firstusage) C_59 = document.getElementById('$59');
+if (firstusage) C.addMLTab(C_59, rohk59);
+if (firstusage) C_63 = document.getElementById('TEXTGRID63');
+if (firstusage) C_DIV63 = document.getElementById('TEXTGRIDDIV63');
+if (firstusage) C.initCasaControlTEXTGRID(C_63,C_DIV63,reactOnMouseUp63);
+C.addMozDiv(C_DIV63);
+if (firstusage) C.registerListener(reactOnModelUpdate63);
+C_63.CASA_arrayprop = 'files.items';
+C_63.CASA_displayitemsprop = 'files.dspIts';
+C_63.CASA_id = '63';
+C_63.CASA_height = '100%';
+C_63.CASA_selectprop = 'selected';
+C_63.CASA_topindexprop = 'files.topIndex';
+C_63.CASA_param1prop = 'files.param1';
+C_63.CASA_lastselectprop = 'files.lastSelectedIndex';
+C_63.CASA_singleselect = true;
+C_63.CASA_dblclickonreturn = false;
+C_63.CASA_onclickmethod = 'onShowDetail';
+C_63.CASA_backgroundstyle = '';
+C_63.CASA_rowcount = 50;
+C_63.CASA_rowcountprop = 'files.rowCount';
+C_63.CASA_changeindexprop = 'files.changeIndex';
+C_63.CASA_personalizable = 'true';
+C_63.CASA_withselectioncolumn = true;
+C_63.CASA_selectalllinesprop = 'files.selectAllLines';
+C_63.CASA_columnsequenceprop = 'files.columnSequenceAsCSVString';
+C_63.CASA_sortsequenceprop = 'files.sortInfo.propertyIndexSortItemsAsCSVString';
+C_63.CASA_groupcolumnsequenceprop = 'files.groupColumnSequenceAsCSVString';
+C_63.CASA_stylevariant = '';
+C_63.CASA_sortprop = 'files.sortInfo';
+C_63.CASA_singleselectcontextmenu = true;
+C_63.CASA_tabindex = null;
+C_63.CASA_cti = 1;
+C.applyCasaTabIndexFor(C_63, C_DIV63, 'TEXTGRIDSSS2');
+C_63.CASA_colinfos = [];
+var vo;
+vo = new Object();
+vo.columntype = '0';
+vo.textid = 'jdbc.column0';
+vo.property = 'name';
+vo.width = '100%';
+vo.decimaldigits = -1;
+vo.cuttextline = true;
+vo.groupby = false;
+vo.sortorder = '-1';
+vo.sortascending = 'true';
+C_63.CASA_colinfos[0] = vo;
+addResizeListener(reactOnResizeMoz63);
+registerFillTextIdListener(reactOnFillTextIds63);
+C_63.CASA_testtoolid = 'files.items';
+C.addMozDiv(document.getElementById('TGRIII_63'));C.addMozDiv(document.getElementById('TGRII_63'));C.addMozDiv(document.getElementById('TGRI_63'));C_63.CASA_collectionselectprop = 'files.selectIndex';
+C_63.CASA_collectionshiftselectprop = 'files.shiftSelectIndex';
+C_63.CASA_collectionctrlselectprop = 'files.ctrlSelectIndex';
+C_10063 = CID_10063.parentNode;
+if (C_10063 == null) C_10063 = gebid('IDO_10063');
+C.iccVSCROLLBAR(C_10063,CID_10063,reactOnModelUpdate10063,'10063','files.topIndex','files.dspSize','files.rowCount',50,'scroll','files.param1');
+C_63.CASA_vscrollbar = document.getElementById('IDO_10063');
+if (firstusage) { C_DIV63.addEventListener('DOMMouseScroll', reactOnMouseWheel63, false);
+C_DIV63.addEventListener('mousewheel', reactOnMouseWheel63, false);}
+C_63.CASA_griddataprop = 'files';
+if (firstusage) CD_62 = document.getElementById('ITRD62');
+C.addMozDiv(CD_62);
+C.registerListener(reactOnModelUpdate21);
+if (firstusage) C_21 = gebid('TA_21');
+C_21.CASA_stylevariant = '';
+if (firstusage) C_21.CASA_page1 = document.getElementById("CREATE");
+if (firstusage) C_21.CASA_TPTD1 = document.getElementById("TPTD121");
+if (firstusage) C_21.CASA_page2 = document.getElementById("CONTENT");
+if (firstusage) C_21.CASA_TPTD2 = document.getElementById("TPTD221");
+if (firstusage) C.iccTABAREA(C_21,react21);
+if (firstusage) C.addMLTab(document.getElementById('$21_1'), rohk21, 0);
+if (firstusage) C.addMLTab(document.getElementById('$21_2'), rohk21, 1);
+C.addMozDiv(document.getElementById('DD21'));
+C.addMozDiv(document.getElementById('D21'));
+if (firstusage) C_5 = document.getElementById('PAGEDIV5');
+if (firstusage) THISPAGEBODY = document.getElementById('PAGEDIV5');
+C.initCasaControlPAGEBODY(C_5);
+addResizeListener(reactOnResize5);
+if (firstusage) C.iccINTPOPUP();
+if (firstusage) CS_66 = document.getElementById('STATUSBARSTATUSBAR');if (firstusage) C_66 = document.getElementById('STATUSBAR66');if (firstusage) CL.iccSTATUSBAR(C_66,C);
+if (firstusage) C_IMAGE66 = document.getElementById('STATUSBARIMAGE66');if (firstusage) C.addFooterObject(CS_66);
+if (firstusage) C.registerListener(reactOnModelUpdate66);
+C_66.CASA_typeprop = 'messageType'
+C_66.CASA_shorttextprop = 'messageShortText'
+C_66.CASA_longtextprop = 'messageLongText'
+C.setPropertyValue('pageInitParam',pageInitParam);
+C.registerListenerAsFirst(reactOnModelUpdatePAGE);
+C.initWithModelIdAndSessionIdAndProcessId("com.softwareag.cis.runtimepersistence.jdbc.CIFileAdapter",mid,sid,pid);
+m_endInitDate = new Date();
+m_roi_firstusage = undefined;
+}
+function startDrag(dragHTML,eve) { return C.startDragPAGE(dragHTML,eve); }function moveDrag(eve) { return C.moveDragPAGE(eve); }
+function removeTHISOCCUPIED() { return C.removeTHISOCCUPIED(); }
+function endDrag(eve) { return C.endDragPAGE(eve); }
+function processHotKeys(evt) { C.processHotKeys(evt); }
+function reactOnModelUpdatePAGE(model) { C.reactOnModelUpdatePAGE(); }
+function generateCCs()
+{
+var vCCs = document.getElementsByName('CC');
+for (var i=0; i<vCCs.length; i++)
+{
+var vCC = vCCs[i];
+if (vCC.id != null && vCC.id != '') window['C'+vCC.id] = vCC;
+}
+vCCs = document.getElementsByName('PC');
+for (var i=0; i<vCCs.length; i++)
+{
+var vCC = vCCs[i].parentNode;
+if (vCC.id != null && vCC.id != '') window['C'+vCC.id] = vCC;
+}
+}
+function reactOnResize() { if (m_flagResize == false) return; C.handleReactOnResize();}
+function addResizeListener(resizeListener) { m_resizeListeners[m_resizeListeners.length] = resizeListener; }
+function fillTextIdSpans() { C.replaceTextIds(); for (i=0; i<m_fillTextIdListeners.length; i++) m_fillTextIdListeners[i](); }
+function invokeMethodInModel(methodName) { C.invokeMethodInModel(methodName); }
+function getPropertyValue(propertyName) { return C.getPropertyValue(propertyName); }
+function setPropertyValue(propertyName,propertyValue) { C.setPropertyValue(propertyName,propertyValue); }
+function closePage2() { CL.closePageTITLEBAR(C_2); }
+function transferModel3() { C.transferModelHELPICON(C_3); }
+function romu4(model) { C.reactOnModelUpdateHEADER(C_4); }
+function romuINTPAGEPOPUP() { C.romuINTPOPUP(); }
+function reactOnResize5() { C.reactOnResizePAGEBODY(C_5); }
+function toggleArea6(passToModel) { C.toggleAreaAREA(C_6,passToModel,null,CSPAN_6); }
+function reactOnModelUpdate6() { C.romuAREA(C_6); }
+function rohk8(param) { C.rohkLABEL(CTD_8, param); }
+function romu9(model) { C.romuFIELD(CF_9); }
+function rohk11(param) { C.rohkLABEL(CTD_11, param); }
+function romu12(model) { C.romuFIELD(CF_12); }
+function rohk14(param) { C.rohkLABEL(CTD_14, param); }
+function romu15(model) { C.romuFIELD(CF_15); }
+function rohk17(param) { C.rohkLABEL(CTD_17, param); }
+function romu18(model) { C.romuFIELD(CF_18); }
+function romu20(model) { C.romuBUTTON(CB_20); }
+function rohk20(param) { C.transferModelBUTTON(CB_20); }
+function reactOnModelUpdate21() { C.romuTABAREA(C_21);}
+function rohk21(index) { C.showPageTABAREA(C_21,index);}
+function react21(evt) { C.reactTABAREA(C_21,evt); }
+function toggleArea23(passToModel) { C.toggleAreaAREA(C_23,passToModel,null,CSPAN_23); }
+function reactOnModelUpdate23() { C.romuAREA(C_23); }
+function rohk25(param) { C.rohkLABEL(CTD_25, param); }
+function reactOnModelUpdate26(model) { C.reactOnModelUpdateRADIOBUTTON(C_26); }
+function rrb26(evt) { return C.reactRADIOBUTTON(C_26,evt);}
+function rohk28(param) { C.rohkLABEL(CTD_28, param); }
+function transferModel30() { C.transferModelHELPICON(C_30); }
+function reactOnModelUpdate33(model) { C.reactOnModelUpdateRADIOBUTTON(C_33); }
+function rrb33(evt) { return C.reactRADIOBUTTON(C_33,evt);}
+function rohk35(param) { C.rohkLABEL(CTD_35, param); }
+function toggleArea36(passToModel) { C.toggleAreaAREA(C_36,passToModel,null,CSPAN_36); }
+function reactOnModelUpdate36() { C.romuAREA(C_36); }
+function romu39(model) { C.romuBUTTON(CB_39); }
+function rohk39(param) { C.transferModelBUTTON(CB_39); }
+function romu41(model) { C.romuBUTTON(CB_41); }
+function rohk41(param) { C.transferModelBUTTON(CB_41); }
+function romu43(model) { C.romuBUTTON(CB_43); }
+function rohk43(param) { C.transferModelBUTTON(CB_43); }
+function transferChange46() { C.transferChangeTEXT(C_46); }
+function reactOnModelUpdate46() { C.reactOnModelUpdateTEXT(C_46); }
+function reactOnKeyDown46(event) { C.reactOnKeyDownTEXT(C_46,event); }
+function reactOnHelp46() { C.reactOnHelpTEXT(C_46,event); }
+function rtb46(event) { return C.reactTEXT(C_46,event);  }
+function rohk52(param) { C.rohkLABEL(CTD_52, param); }
+function romu53(model) { C.romuFIELD(CF_53); }
+function romu55(model) { C.romuBUTTON(CB_55); }
+function rohk55(param) { C.transferModelBUTTON(CB_55); }
+function rohk59(param) { C.rohkLABEL(CTD_59, param); }
+function reactOnModelUpdate66(model) { CL.romuSTATUSBAR(C_66,C_IMAGE66); }
+function resetBeforeUpdate66(model) { CL.resetSTATUSBAR(C_66,C_IMAGE66); }
+</script>
+<iframe hidden id="csciframe" name="csciframe" tabIndex="-1" src="rpcisfile_JLIBS.html" style="width:0;height:0;left:0;top:0">
+</iframe>
+</body>
+</html>

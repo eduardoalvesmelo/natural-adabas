@@ -1,0 +1,12 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** New Function DICE.
+/**
+/** :author eduar
+DEFINE FUNCTION DICE
+/* TODO Enter your code here
+IGNORE
+END-FUNCTION
+END

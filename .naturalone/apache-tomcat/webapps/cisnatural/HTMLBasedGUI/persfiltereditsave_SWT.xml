@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.pers.PersFilterEditAdapter" pagename="persfilteredit" popupwidth="600" popupheight="400" casaindex="1" >
+
+
+        <pagebody takefullheight="true" casaindex="2" >
+
+
+                <vdist height="10" casaindex="3" >
+
+
+                </vdist>
+
+
+                <itr casaindex="4" >
+
+
+                        <label textid="lblmultiscenariosave" asplaintext="true" casaindex="5" >
+
+
+                        </label>
+
+
+                </itr>
+
+
+                <vdist height="10" casaindex="6" >
+
+
+                </vdist>
+
+
+                <itr height="100%" casaindex="7" >
+
+
+                        <coltable0 takefullheight="true" casaindex="8" >
+
+
+                                <itr height="100%" casaindex="9" >
+
+
+                                        <textgrid2 griddataprop="scenarios" width="250" height="100%" selectprop="selected" singleselect="true" withselectioncolumn="true" casaindex="10" >
+
+
+                                                <column textid="columnText" property="scenario" width="100%" casaindex="11" >
+
+
+                                                </column>
+
+
+                                        </textgrid2>
+
+
+                                </itr>
+
+
+                        </coltable0>
+
+
+                        <hdist width="50" casaindex="12" >
+
+
+                        </hdist>
+
+
+                        <coltable0 casaindex="13" >
+
+
+                                <itr casaindex="14" >
+
+
+                                        <button textid="btnSave" method="onSaveMultiScenarios" image="../HTMLBasedGUI/images/save.gif" casaindex="15" >
+
+
+                                        </button>
+
+
+                                </itr>
+
+
+                                <vdist height="20" casaindex="16" >
+
+
+                                </vdist>
+
+
+                                <itr casaindex="17" >
+
+
+                                        <button textid="btnBackToEdit" method="onBackToEdit" casaindex="18" >
+
+
+                                        </button>
+
+
+                                </itr>
+
+
+                        </coltable0>
+
+
+                </itr>
+
+
+                <vdist casaindex="19" >
+
+
+                </vdist>
+
+
+        </pagebody>
+
+
+        <statusbar withdistance="false" casaindex="20" >
+
+
+        </statusbar>
+
+
+</page>

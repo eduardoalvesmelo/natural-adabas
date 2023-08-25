@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+     <global>
+        <last_activity_timeout>3600</last_activity_timeout>
+     </global>
+    <sessions>
+        <session id="Connect to Natural" trace="false">
+        </session>
+        <session id="Natural for Ajax Examples (UNIX)" trace="false">
+            <natural_server>127.0.0.1</natural_server>
+            <natural_port>2900</natural_port>
+            <natural_program>nwo.sh</natural_program>
+            <natural_parameter>STACK=(LOGON SYSEXNJX;MENU-NJX;FIN)</natural_parameter>
+        </session>
+        <session id="Natural for Ajax Examples (Windows)" trace="false">
+            <natural_server>127.0.0.1</natural_server>
+            <natural_port>2900</natural_port>
+            <natural_program>nwo.bat</natural_program>
+            <natural_parameter>STACK=(LOGON SYSEXNJX;MENU-NJX;FIN)</natural_parameter>
+        </session>
+        <session id="Local" trace="false">
+            <natural_program>nwo.bat</natural_program>
+        </session>
+        <session id="Session template" trace="false">
+            <natural_server></natural_server>
+            <natural_port></natural_port>
+            <natural_program></natural_program>
+            <user id="" pwd=""/>
+            <natural_parameter></natural_parameter>
+        </session>
+    </sessions>
+</settings>
+

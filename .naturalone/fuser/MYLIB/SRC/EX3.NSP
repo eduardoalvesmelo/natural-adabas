@@ -1,0 +1,37 @@
+0001/** Fazer um programa que recebe 3 valores não inteiros do usuário e mostra o maior deles, o
+0002/** menor deles e o valor intermediário. 
+0003/**
+0004/** :author eduar
+0005/* TODO Enter your code here
+0006DEFINE DATA LOCAL
+00071 #L1                (N2.2)
+00081 #L2                (N2.2)     
+00091 #L3                (N2.2)
+00101 #maior             (N2.2) 
+00111 #menor             (N2.2) 
+00121 #intermediario    (N2.2)
+0013END-DEFINE
+0014*
+0015INPUT 'Informe o primeiro valor: '     #L1
+0016INPUT 'Informe o segundo valor: '     #L2
+0017INPUT 'Informe o terceiro valor: '     #L3
+0018*
+0019decide for first condition    
+0020   when (#L2 > #L1 and #L2 > #L3) and (#L3 < #L1 and #L3 < #L2)
+0021        #maior := #L2
+0022        #menor := #L3
+0023        #intermediario := #L1
+0024    when none 
+0025        #maior := #L3
+0026        #menor := #L1
+0027        #intermediario := #L2
+0028end-decide
+0029*   
+0030write 'Valor 1: ' #L1
+0031write 'Valor 2: ' #L2
+0032write 'Valor 3: ' #L3
+0033write 'O menor numero: ' #menor
+0034write 'O maior numero: ' #maior
+0035write 'O numero intermediario: ' #intermediario
+0036*
+0037END

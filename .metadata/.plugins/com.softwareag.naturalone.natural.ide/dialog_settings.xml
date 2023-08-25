@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="com.softwareag.naturalone.natural.common.server.mappings">
+		<list key="uid">
+			<item value="T912610"/>
+		</list>
+		<list key="envname">
+			<item value="10.100.20.10-2700"/>
+		</list>
+		<list key="port">
+			<item value="2700"/>
+		</list>
+		<list key="host">
+			<item value="10.100.20.10"/>
+		</list>
+		<list key="fsecfnr">
+			<item value="31"/>
+		</list>
+		<list key="fsecdbid">
+			<item value="100"/>
+		</list>
+		<list key="parms">
+			<item value=""/>
+		</list>
+	</section>
+</section>

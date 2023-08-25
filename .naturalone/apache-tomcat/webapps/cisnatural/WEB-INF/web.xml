@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<web-app id="NaturalForAjax" version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+	<display-name>Natural for Ajax</display-name>
+	<!--
+		FILTERs for Web Application
+
+		(1) Compress - Compression Filter
+		Compresses the content using GZIP compression. Very useful for
+		all WAN scenarios - should be applied to "compressable" extensions
+		(html, txt, ...)
+
+		(2) HttpHeader - Http header filter
+		Adds http header parameters that are defined by corresponding
+		init-params. The name of the init-parameter represents the name
+		of the http-header parameter.
+		Tpyical usage: set max-epiration date for "not frequently changing
+		content", e.g. images - and as consequence reduce the number
+		of GET-requests sent by a page after first time loading.
+	-->
+	<!--
+    <filter>
+        <filter-name>Compress</filter-name>
+        <filter-class>com.softwareag.cis.server.filter.CompressionFilter</filter-class>
+    </filter>
+    -->
+	<!--
+    <filter>
+        <filter-name>HttpHeader</filter-name>
+        <filter-class>com.softwareag.cis.server.filter.HttpHeaderFilter</filter-class>
+        <init-param>
+        	<param-name>Cache-Control</param-name>
+        	<param-value>max-age=86400</param-value>
+        </init-param>
+    </filter>
+    -->
+    <!-- ============ Set max-age=0 in development environments     =============== -->
+    <!-- ============ In production environments use a higher value =============== -->
+    <filter>
+      <filter-name>HttpHeader</filter-name>
+      <filter-class>com.softwareag.cis.server.filter.HttpHeaderFilter</filter-class>
+      <init-param>
+        <param-name>Cache-Control</param-name>
+        <param-value>max-age=0, must-revalidate</param-value>
+      </init-param>
+	</filter>
+    <!-- ============ FileAccessRouter2Filter ================================= -->
+    <filter>
+        <filter-name>FileAccessRouter2Filter</filter-name>
+        <filter-class>com.softwareag.cis.server.filter.FileAccessRouter2Filter</filter-class>
+    </filter>
+    <!-- ============ Browser Compatibility Filter - required for IE10 ======== -->
+    <filter>
+        <filter-name>BrowserCompatibility</filter-name>
+        <filter-class>com.softwareag.cis.server.filter.BrowserCompatibilityFilter</filter-class>
+    </filter>
+	<!--
+    <filter-mapping>
+        <filter-name>Compress</filter-name>
+        <url-pattern>*.jsp</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>Compress</filter-name>
+        <url-pattern>*.html</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>Compress</filter-name>
+        <url-pattern>*.bmp</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>Compress</filter-name>
+        <url-pattern>*.js</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>Compress</filter-name>
+        <url-pattern>/servlet/StartCISPage*</url-pattern>
+    </filter-mapping>
+    -->
+	<!--
+    <filter-mapping>
+        <filter-name>HttpHeader</filter-name>
+        <url-pattern>*.gif</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>HttpHeader</filter-name>
+        <url-pattern>*.jpg</url-pattern>
+    </filter-mapping>
+	-->
+	<filter-mapping>
+        <filter-name>HttpHeader</filter-name>
+        <url-pattern>*.html</url-pattern>
+    </filter-mapping>
+	<filter-mapping> 
+		<filter-name>FileAccessRouter2Filter</filter-name> 
+	    <url-pattern>*</url-pattern>
+	</filter-mapping>
+	<filter-mapping> 
+		<filter-name>BrowserCompatibility</filter-name> 
+	    <url-pattern>*.html</url-pattern>
+	    <servlet-name>StartCISPage</servlet-name>
+	</filter-mapping> 
+	<filter-mapping> 
+	    <filter-name>BrowserCompatibility</filter-name> 
+	    <servlet-name>StartDynamicPage</servlet-name>
+	</filter-mapping>
+	<context-param>
+		<param-name>com.sun.faces.verifyObjects</param-name>
+		<param-value>false</param-value>
+	</context-param>
+	<context-param>
+		<param-name>com.sun.faces.validateXml</param-name>
+		<param-value>true</param-value>
+	</context-param>
+	<context-param>
+		<param-name>javax.faces.CONFIG_FILES</param-name>
+		<param-value>/WEB-INF/faces-config.xml</param-value>
+	</context-param>
+	<context-param>
+		<param-name>javax.faces.STATE_SAVING_METHOD</param-name>
+		<param-value>client</param-value>
+	</context-param>
+
+	<!-- NaturalONE Eclipse START-->
+	<servlet id="FileAccessRouterServlet">
+	<servlet-name>FileAccessRouterServlet</servlet-name>
+	<servlet-class>com.softwareag.cis.server.FileAccessRouterServlet</servlet-class>
+	<!-- ECLIPSE_ROOT_MARKER -->
+	<!-- ECLIPSE_APPL_MARKER -->
+	<load-on-startup>1</load-on-startup>
+	</servlet>
+	<!-- NaturalONE Eclipse END -->
+	
+	<!-- ================================================================== -->
+	<!-- NEW ONE836 Servlet -->
+	<servlet id="FileAccessRouter2Servlet">
+	<servlet-name>FileAccessRouter2Servlet</servlet-name>
+	<servlet-class>com.softwareag.cis.server.FileAccessRouter2Servlet</servlet-class>
+	<load-on-startup>1</load-on-startup>
+	</servlet>
+	<!-- ================================================================== -->
+
+	<servlet id="Connector">
+		<display-name>Connector</display-name>	
+		<servlet-name>Connector</servlet-name>
+		<servlet-class>com.softwareag.cis.server.Connector</servlet-class>
+		<!-- 
+            ***** cis.home ***** 
+            This parameter should only be set for usage of CIS in development
+            scenarios. In productive scenarios (esp. when running in an app-
+            server cluster) you must not use the file access to CI
+            resourcesv - you have to wipe out this parameter from web.xml
+            as consequence!
+            Please read the configuration documentation of CIS for more
+            details.
+            -->
+		<init-param id="CISHOME">
+			<param-name>cis.home</param-name>
+			<param-value>REALPATH</param-value>
+		</init-param>
+		<!-- 
+            ***** cis.log ***** 
+            Location on the file system, where CIS writes log-information.
+            Please pay attention in cluster scenarios: the location which
+            you specify must be available on each single cluster node.
+            -->
+		<init-param id="CISLOG">
+			<param-name>cis.log</param-name>
+			<param-value>REALPATH/../../../log/</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet id="StartCISPage">
+		<display-name>StartCISPage</display-name>	
+		<servlet-name>StartCISPage</servlet-name>
+		<servlet-class>com.softwareag.cis.server.StartCISPage</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet id="StartDynamicPage">
+		<display-name>StartDynamicPage</display-name>	
+		<servlet-name>StartDynamicPage</servlet-name>
+		<servlet-class>com.softwareag.cis.server.StartDynamicPage</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet id="StartDynamicSWTPage">
+		<servlet-name>StartDynamicSWTPage</servlet-name>
+		<servlet-class>com.softwareag.cis.server.StartDynamicSWTPage</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet id="StartDynamicContent">
+		<servlet-name>StartDynamicContent</servlet-name>
+		<servlet-class>com.softwareag.cis.server.StartDynamicContent</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet id="FileUpload">
+		<display-name>FileUpload</display-name>	
+		<servlet-name>FileUpload</servlet-name>
+		<servlet-class>com.softwareag.cis.server.FileUploadServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet id="FileUpload2">
+		<display-name>FileUpload2</display-name>	
+		<servlet-name>FileUpload2</servlet-name>
+		<servlet-class>com.softwareag.cis.server.FileUpload2Servlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet id="MediaUpload">
+        <servlet-name>MediaUpload</servlet-name>
+        <display-name>MediaUpload</display-name>
+        <servlet-class>com.softwareag.cis.server.MediaUploadServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>  
+	<servlet id="MashDataSource">
+	    <display-name>MashDataSource</display-name>
+        <servlet-name>MashDataSource</servlet-name>        
+        <servlet-class>com.softwareag.cis.server.MashDataSourceServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>  
+	<servlet id="Ping">
+		<servlet-name>Ping</servlet-name>
+		<servlet-class>com.softwareag.cis.server.PingServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet id="StartHTMLPage">
+		<servlet-name>StartHTMLPage</servlet-name>
+		<servlet-class>com.softwareag.cis.server.StartHTMLPage</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet id="StartMessagePage">
+		<servlet-name>StartMessagePage</servlet-name>
+		<servlet-class>com.softwareag.cis.server.StartMessagePage</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet id="Pushlet">
+		<servlet-name>Pushlet</servlet-name>
+		<servlet-class>com.softwareag.cis.server.Pushlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<!-- <servlet id="JnlpDownloadServlet">
+		<servlet-name>JnlpDownloadServlet</servlet-name>
+		<servlet-class>jnlp.sample.servlet.JnlpDownloadServlet</servlet-class>
+	</servlet> -->
+	<servlet id="ReadSWTPreviewPage">
+		<servlet-name>ReadSWTPreviewPage</servlet-name>
+		<servlet-class>com.softwareag.cis.server.ReadSWTPreviewPage</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet>
+		<servlet-name>clientCommand</servlet-name>
+		<servlet-class>com.softwareag.natural.unicode.web.ClientCommand</servlet-class>
+	</servlet>
+  <servlet>
+    <servlet-name>versionInfo</servlet-name>
+    <servlet-class>com.softwareag.natural.unicode.web.VersionInfo</servlet-class>
+  </servlet>		
+	<servlet>
+		<servlet-name>naturalsession</servlet-name>
+		<servlet-class>com.softwareag.natural.unicode.web.NwoSession</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Faces Servlet</servlet-name>
+		<servlet-class>javax.faces.webapp.FacesServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<!-- NaturalONE Eclipse START -->
+	<!-- ECLIPSE_SERVLETMAPPING_MARKER -->
+	<!-- NaturalONE Eclipse END -->
+	
+	<!-- NaturalONE836 -->
+    <servlet-mapping>
+		<servlet-name>FileAccessRouter2Servlet</servlet-name>
+		<url-pattern>/servlet/FileAccessRouter2Servlet</url-pattern>
+	</servlet-mapping>
+	    
+	<servlet-mapping>
+		<servlet-name>Faces Servlet</servlet-name>
+		<url-pattern>/faces/*</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Connector</servlet-name>
+		<url-pattern>/servlet/Connector</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>StartCISPage</servlet-name>
+		<url-pattern>/servlet/StartCISPage</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>StartDynamicPage</servlet-name>
+		<url-pattern>/servlet/StartDynamicPage</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>StartDynamicSWTPage</servlet-name>
+		<url-pattern>/servlet/StartDynamicSWTPage</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>StartDynamicContent</servlet-name>
+		<url-pattern>/servlet/StartDynamicContent.pdf</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+        <servlet-name>StartDynamicContent</servlet-name>
+        <url-pattern>/servlet/pdfreport/*</url-pattern>
+    </servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>StartDynamicContent</servlet-name>
+		<url-pattern>/servlet/StartDynamicContent.svg</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>StartDynamicContent</servlet-name>
+		<url-pattern>/servlet/StartDynamicContent</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>StartDynamicContent</servlet-name>
+		<url-pattern>/servlet/StartDynamicContent/*</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>FileUpload</servlet-name>
+		<url-pattern>/servlet/FileUpload</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>FileUpload2</servlet-name>
+		<url-pattern>/servlet/FileUpload2</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+    <servlet-name>MediaUpload</servlet-name>
+        <url-pattern>/servlet/MediaUpload</url-pattern>
+    </servlet-mapping>
+	<servlet-mapping>
+        <servlet-name>MashDataSource</servlet-name>
+        <url-pattern>/servlet/MashDataSource</url-pattern>
+    </servlet-mapping> 
+	<servlet-mapping>
+		<servlet-name>Ping</servlet-name>
+		<url-pattern>/servlet/Ping</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>StartHTMLPage</servlet-name>
+		<url-pattern>/servlet/StartHTMLPage</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>StartMessagePage</servlet-name>
+		<url-pattern>/servlet/StartMessagePage</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Pushlet</servlet-name>
+		<url-pattern>/servlet/Pushlet</url-pattern>
+	</servlet-mapping>
+	<!-- <servlet-mapping>
+		<servlet-name>JnlpDownloadServlet</servlet-name>
+		<url-pattern>*.jnlp</url-pattern>
+	</servlet-mapping> -->
+	<servlet-mapping>
+		<servlet-name>ReadSWTPreviewPage</servlet-name>
+		<url-pattern>/servlet/ReadSWTPreviewPage</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>clientCommand</servlet-name>
+		<url-pattern>/clientCommand</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>naturalsession</servlet-name>
+		<url-pattern>/naturalsession</url-pattern>
+	</servlet-mapping>
+  <servlet-mapping>
+     <servlet-name>versionInfo</servlet-name>
+     <url-pattern>/versionInfo</url-pattern>
+  </servlet-mapping>		
+	<session-config>
+		<session-timeout>
+            30
+        </session-timeout>
+	</session-config>
+	<mime-mapping>
+		<extension>html</extension>
+		<mime-type>text/html</mime-type>
+	</mime-mapping>
+	<!-- wsdl + xsd for wsdl4j -->
+	<mime-mapping>
+		<extension>wsdl</extension>
+		<mime-type>application/xml</mime-type>
+	</mime-mapping>
+	<mime-mapping>
+		<extension>xsd</extension>
+		<mime-type>application/xml</mime-type>
+	</mime-mapping>
+    <mime-mapping>
+        <extension>jsp</extension>
+        <mime-type>text/html</mime-type>
+    </mime-mapping> 
+  <!-- Uncomment the next lines to add security constraints and roles. -->
+  <!--
+  <security-constraint>
+      <web-resource-collection>   
+      <web-resource-name>Configuration Tool</web-resource-name>
+          <url-pattern>/conf_index.jsp</url-pattern>            
+          <url-pattern>/faces/*</url-pattern>
+      </web-resource-collection>
+      <web-resource-collection>
+          <web-resource-name>Development Workplace</web-resource-name>
+          <url-pattern>/HTMLBasedGUI/workplace/ide.html</url-pattern>
+          <url-pattern>/index.html</url-pattern>
+      </web-resource-collection>    
+      <web-resource-collection>
+          <web-resource-name>License key file</web-resource-name>
+          <url-pattern>/cis/licensekey/*</url-pattern>
+          <url-pattern>/cis/config/*</url-pattern>     
+      </web-resource-collection>   
+      <web-resource-collection>
+          <web-resource-name>Application cisnatural</web-resource-name>        
+          <url-pattern>/cisnatural/xml/*</url-pattern>
+          <url-pattern>/cisnatural/wsdl/*</url-pattern>
+      </web-resource-collection>      
+      <auth-constraint>
+          <role-name>nwoadmin</role-name>
+      </auth-constraint>
+  </security-constraint> 
+  
+  <login-config>
+      <auth-method>FORM</auth-method>            
+      <realm-name>NaturalWebIOAndAjaxRealm</realm-name>
+      <form-login-config>
+          <form-login-page>/conf_login.jsp</form-login-page>
+          <form-error-page>/login-error-redirect.jsp</form-error-page>
+      </form-login-config>    
+  </login-config>
+ 
+  <security-role>
+      <description>Administrator</description>
+      <role-name>nwoadmin</role-name>
+  </security-role>  
+  -->
+  
+   <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+   </welcome-file-list>  
+
+  <!-- Uncomment the next lines in case of JBoss 4.0.5.GA. -->
+  <!--
+  <listener>
+      <listener-class>org.apache.myfaces.webapp.StartupServletContextListener</listener-class>
+  </listener>
+  -->
+</web-app>

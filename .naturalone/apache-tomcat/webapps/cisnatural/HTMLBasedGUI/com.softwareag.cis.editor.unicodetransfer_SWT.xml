@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.UnicodeTransfer" translationreference="CIS_TOOLS" casaindex="1" >
+
+
+        <titlebar textid="ut.pageTitle" closetitletextid="closePage" casaindex="2" >
+
+
+        </titlebar>
+
+
+        <header withdistance="false" casaindex="3" >
+
+
+        </header>
+
+
+        <pagebody casaindex="4" >
+
+
+                <rowarea textid="ut.projectSelection" casaindex="5" >
+
+
+                        <itr casaindex="6" >
+
+
+                                <label textid="ut.project" width="120" casaindex="7" >
+
+
+                                </label>
+
+
+                <field xsdType="xs:string" valueprop="projectName" width="200" popupmethod="openIdValueCombo" casaindex="8" >
+
+                </field>
+
+                        </itr>
+
+
+                        <vdist casaindex="9" >
+
+
+                        </vdist>
+
+
+                        <itr casaindex="10" >
+
+
+                                <hdist width="120" casaindex="11" >
+
+
+                                </hdist>
+
+
+                                <button textid="ut.utf8Check" method="onCheckUTF8" casaindex="12" >
+
+
+                                </button>
+
+
+                        </itr>
+
+
+                        <vdist height="5" casaindex="13" >
+
+
+                        </vdist>
+
+
+                        <itr casaindex="14" >
+
+
+                                <hdist width="120" casaindex="15" >
+
+
+                                </hdist>
+
+
+                                <label textid="ut.helpText" asplaintext="true" casaindex="16" >
+
+
+                                </label>
+
+
+                        </itr>
+
+
+                        <vdist height="10" casaindex="17" >
+
+
+                        </vdist>
+
+
+                        <itr width="100%" casaindex="18" >
+
+
+                                <textgridsss2 griddataprop="lines" rowcount="18" width="100%" selectprop="selected" singleselect="false" hscroll="true" casaindex="19" >
+
+
+                                        <column textid="ut.check" property="utf8OK" width="60" casaindex="20" >
+
+
+                                        </column>
+
+
+                                        <column textid="ut.difference" property="difference" width="100" casaindex="21" >
+
+
+                                        </column>
+
+
+                                        <column textid="ut.file" property="absFileName" width="100%" casaindex="22" >
+
+
+                                        </column>
+
+
+                                </textgridsss2>
+
+
+                        </itr>
+
+
+                        <vdist casaindex="23" >
+
+
+                        </vdist>
+
+
+                        <itr casaindex="24" >
+
+
+                                <button textid="ut.convert" method="onConvertSelected" casaindex="25" >
+
+
+                                </button>
+
+
+                        </itr>
+
+
+                </rowarea>
+
+
+        </pagebody>
+
+
+        <statusbar withdistance="false" casaindex="26" >
+
+
+        </statusbar>
+
+
+</page>

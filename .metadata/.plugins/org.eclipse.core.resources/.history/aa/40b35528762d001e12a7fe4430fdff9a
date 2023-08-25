@@ -1,0 +1,43 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+* <Natural Source Header
+/** Fazer um programa para receber um número inteiro do usuário e determinar se este número
+/** é primo ou não.
+/**
+/** :author eduar
+/* TODO Enter your code here
+DEFINE DATA LOCAL
+  1 #num-promo              (N4) init<0>
+  1 #divisor                (N4) init<0>
+  1 #dividendo                (N4) init<0>
+  1 #quociente                (N4) init<0>
+  1 #resto                    (N4) init<0>
+  1 #num                    (N4) init<0>
+  1 #i                    (N4) init<0>
+  1 #j                    (N4) init<0>
+  1 #cont                    (N4) init<0>
+END-DEFINE
+*
+* input 'Informe um numero:' #num
+*
+for #j:= 1 to 100
+    for #i:= 1 to #j
+    #divisor:= #i
+    #dividendo:= #j
+    divide #divisor into #dividendo giving #quociente remainder #resto 
+        if #resto = 0
+            #cont:=#cont+1
+        end-if
+    end-for
+end-for    
+*
+if #cont = 2
+    write #num 'é primo'
+else    
+    write #num 'não é primo'
+end-if
+*
+END
+

@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.CodeGeneratorAdapter4" translationreference="CIS_TOOLS" casaindex="1" >
+
+
+        <titlebar textid="cg4.titlebar.codegenerator" closetitletextid="closePage" casaindex="2" >
+
+
+        </titlebar>
+
+
+        <header withdistance="false" casaindex="3" >
+
+
+                <button textid="btn.savecode" method="save" casaindex="4" >
+
+
+                </button>
+
+
+                <button textid="btn.refresh" method="onRefresh" casaindex="5" >
+
+
+                </button>
+
+
+        </header>
+
+
+        <pagebody takefullheight="true" casaindex="6" >
+
+
+                <itr height="100%" fixlayout="true" width="100%" casaindex="7" >
+
+
+                        <coltable0 width="250" takefullheight="true" fixlayout="true" casaindex="8" >
+
+
+                                <rowarea textid="cg4.rowarea.prop" height="100%" fixlayout="true" casaindex="9" >
+
+
+                                        <rowtablearea2 griddataprop="propertyInfos" rowcount="20" width="100%" withborder="false" hscroll="auto" casaindex="10" >
+
+
+                                                <repeat casaindex="11" >
+
+
+                                                        <str valueprop="selected" casaindex="12" >
+
+
+                                                                <treenode2 width="160" withplusminus="true" imageprop="imageURL" casaindex="13" >
+
+
+                                                                </treenode2>
+
+
+                                <field xsdType="xs:string" valueprop="comment" width="60" displayonly="true" casaindex="14" >
+
+                                </field>
+
+                                                        </str>
+
+
+                                                </repeat>
+
+
+                                        </rowtablearea2>
+
+
+                                </rowarea>
+
+
+                                <vdist casaindex="15" >
+
+
+                                </vdist>
+
+
+                                <rowtabarea height="225" textid1="cg4.rowtab.prop" page1="PROPERTY" textid2="cg4.rowtab.class" page2="CLASS" casaindex="16" >
+
+
+                                        <tabpage id="PROPERTY" casaindex="17" >
+
+
+                                                <vdist pixelheight="10" casaindex="18" >
+
+
+                                                </vdist>
+
+
+                                                <itr casaindex="19" >
+
+
+                                                        <label textid="label.name" width="60" casaindex="20" >
+
+
+                                                        </label>
+
+
+                            <field xsdType="xs:string" flush="server" valueprop="propertyName" length="20" casaindex="21" >
+
+                            </field>
+
+                                                </itr>
+
+
+                                                <itr casaindex="22" >
+
+
+                                                        <label textid="label.property" width="60" casaindex="23" >
+
+
+                                                        </label>
+
+
+                            <field xsdType="xs:string" valueprop="endPropertyName" length="20" displayonly="true" casaindex="24" >
+
+                            </field>
+
+                                                </itr>
+
+
+                                                <rowdynavis valueprop="propertyAreaVisible" casaindex="25" >
+
+
+                                                        <itr casaindex="26" >
+
+
+                                                                <label textid="label.type" width="60" casaindex="27" >
+
+
+                                                                </label>
+
+
+                                <field xsdType="xs:string" valueprop="propertyType" length="20" popupmethod="openIdValueHelp" casaindex="28" >
+
+                                </field>
+
+                                                        </itr>
+
+
+                                                        <vdist pixelheight="3" casaindex="29" >
+
+
+                                                        </vdist>
+
+
+                                                        <itr casaindex="30" >
+
+
+                                                                <td width="60" casaindex="31" >
+
+
+                                                                </td>
+
+
+                                                                <checkbox valueprop="generateSet" casaindex="32" >
+
+
+                                                                </checkbox>
+
+
+                                                                <label textid="label.setmethod" asplaintext="true" casaindex="33" >
+
+
+                                                                </label>
+
+
+                                                        </itr>
+
+
+                                                        <itr casaindex="34" >
+
+
+                                                                <td width="60" casaindex="35" >
+
+
+                                                                </td>
+
+
+                                                                <checkbox valueprop="generateGet" casaindex="36" >
+
+
+                                                                </checkbox>
+
+
+                                                                <label textid="label.getmethod" asplaintext="true" casaindex="37" >
+
+
+                                                                </label>
+
+
+                                                        </itr>
+
+
+                                                        <vdist pixelheight="3" casaindex="38" >
+
+
+                                                        </vdist>
+
+
+                                                        <itr casaindex="39" >
+
+
+                                                                <label textid="label.prefix" width="60" casaindex="40" >
+
+
+                                                                </label>
+
+
+                                <field xsdType="xs:string" valueprop="prefix" length="5" casaindex="41" >
+
+                                </field>
+
+                                                        </itr>
+
+
+                                                        <vdist pixelheight="5" casaindex="42" >
+
+
+                                                        </vdist>
+
+
+                                                        <itr casaindex="43" >
+
+
+                                                                <td width="60" casaindex="44" >
+
+
+                                                                </td>
+
+
+                                                                <button textid="btn.generatecode" method="generatePropertyCode" casaindex="45" >
+
+
+                                                                </button>
+
+
+                                                        </itr>
+
+
+                                                </rowdynavis>
+
+
+                                                <rowdynavis valueprop="arrayAreaVisible" casaindex="46" >
+
+
+                                                        <vdist pixelheight="5" casaindex="47" >
+
+
+                                                        </vdist>
+
+
+                                                        <itr casaindex="48" >
+
+
+                                                                <td width="60" casaindex="49" >
+
+
+                                                                </td>
+
+
+                                                                <checkbox valueprop="withServerSideScrolling" casaindex="50" >
+
+
+                                                                </checkbox>
+
+
+                                                                <label textid="label.sss" asplaintext="true" casaindex="51" >
+
+
+                                                                </label>
+
+
+                                                        </itr>
+
+
+                                                        <vdist pixelheight="15" casaindex="52" >
+
+
+                                                        </vdist>
+
+
+                                                        <itr casaindex="53" >
+
+
+                                                                <td width="60" casaindex="54" >
+
+
+                                                                </td>
+
+
+                                                                <button textid="btn.generatecode" method="onCreateArrayCode" casaindex="55" >
+
+
+                                                                </button>
+
+
+                                                        </itr>
+
+
+                                                </rowdynavis>
+
+
+                                        </tabpage>
+
+
+                                        <tabpage id="CLASS" display="none" casaindex="56" >
+
+
+                                                <vdist pixelheight="10" casaindex="57" >
+
+
+                                                </vdist>
+
+
+                                                <itr casaindex="58" >
+
+
+                                                        <label textid="label.package" width="60" casaindex="59" >
+
+
+                                                        </label>
+
+
+                            <field xsdType="xs:string" valueprop="packageName" length="20" casaindex="60" >
+
+                            </field>
+
+                                                </itr>
+
+
+                                                <itr casaindex="61" >
+
+
+                                                        <label textid="label.class" width="60" casaindex="62" >
+
+
+                                                        </label>
+
+
+                            <field xsdType="xs:string" valueprop="className" length="20" casaindex="63" >
+
+                            </field>
+
+                                                </itr>
+
+
+                                                <vdist pixelheight="5" casaindex="64" >
+
+
+                                                </vdist>
+
+
+                                                <itr casaindex="65" >
+
+
+                                                        <td width="60" casaindex="66" >
+
+
+                                                        </td>
+
+
+                                                        <radiobutton valueprop="withAdapter" value="true" casaindex="67" >
+
+
+                                                        </radiobutton>
+
+
+                                                        <label textid="cg4.label.mainadpclass" asplaintext="true" casaindex="68" >
+
+
+                                                        </label>
+
+
+                                                </itr>
+
+
+                                                <itr casaindex="69" >
+
+
+                                                        <td width="60" casaindex="70" >
+
+
+                                                        </td>
+
+
+                                                        <radiobutton valueprop="withAdapter" value="false" casaindex="71" >
+
+
+                                                        </radiobutton>
+
+
+                                                        <label textid="cg4.label.innerclass" asplaintext="true" casaindex="72" >
+
+
+                                                        </label>
+
+
+                                                </itr>
+
+
+                                                <vdist pixelheight="10" casaindex="73" >
+
+
+                                                </vdist>
+
+
+                                                <itr casaindex="74" >
+
+
+                                                        <td width="60" casaindex="75" >
+
+
+                                                        </td>
+
+
+                                                        <button textid="btn.code" method="onGenerateClassCode" casaindex="76" >
+
+
+                                                        </button>
+
+
+                                                </itr>
+
+
+                                        </tabpage>
+
+
+                                </rowtabarea>
+
+
+                        </coltable0>
+
+
+                        <hdist width="2" casaindex="77" >
+
+
+                        </hdist>
+
+
+                        <coltable0 width="100%" takefullheight="true" fixlayout="true" casaindex="78" >
+
+
+                                <rowarea textid="cg4.label.classcode" casaindex="79" >
+
+
+                                        <itr fixlayout="true" width="100%" casaindex="80" >
+
+
+                                                <textgridsss2 griddataprop="sourceCodeLines" rowcount="18" width="100%" selectprop="selected" singleselect="true" hscroll="true" directselectmethod="onSourceCodeLineSelected" directselectevent="onclick" backgroundstyle="background-color: #000000" casaindex="81" >
+
+
+                                                        <column textid="cg4.txtgridsss.clm.code" property="code" width="1000" textstyleprop="cellStyle" convertspaces="true" casaindex="82" >
+
+
+                                                        </column>
+
+
+                                                </textgridsss2>
+
+
+                                        </itr>
+
+
+                                        <vdist casaindex="83" >
+
+
+                                        </vdist>
+
+
+                                        <itr casaindex="84" >
+
+
+                                                <button textid="cg4.btn.takeover" method="onTakeOverGeneratedCode" casaindex="85" >
+
+
+                                                </button>
+
+
+                                                <hdist pixelwidth="10" casaindex="86" >
+
+
+                                                </hdist>
+
+
+                                                <button textid="cg4.btn.removeline" method="onRemoveLine" casaindex="87" >
+
+
+                                                </button>
+
+
+                                        </itr>
+
+
+                                </rowarea>
+
+
+                                <rowarea textid="cg4.rowarea.generatecode" height="100%" fixlayout="true" casaindex="88" >
+
+
+                                        <itr height="100%" fixlayout="true" width="100%" casaindex="89" >
+
+
+                                                <textgrid arrayprop="generatedCodeLines" width="100%" height="100%" hscroll="true" backgroundstyle="background-color: #000000" casaindex="90" >
+
+
+                                                        <column textid="cg4.txtgridsss.clm.code" property="code" width="1000" textstyleprop="cellStyle" convertspaces="true" casaindex="91" >
+
+
+                                                        </column>
+
+
+                                                </textgrid>
+
+
+                                        </itr>
+
+
+                                        <vdist casaindex="92" >
+
+
+                                        </vdist>
+
+
+                                        <itr casaindex="93" >
+
+
+                                                <button textid="btn.shiftright" method="shiftRight" casaindex="94" >
+
+
+                                                </button>
+
+
+                                                <hdist casaindex="95" >
+
+
+                                                </hdist>
+
+
+                                                <button textid="btn.shiftleft" method="shiftLeft" casaindex="96" >
+
+
+                                                </button>
+
+
+                                        </itr>
+
+
+                                </rowarea>
+
+
+                        </coltable0>
+
+
+                </itr>
+
+
+                <vdist casaindex="97" >
+
+
+                </vdist>
+
+
+        </pagebody>
+
+
+        <statusbar withdistance="false" casaindex="98" >
+
+
+        </statusbar>
+
+
+</page>

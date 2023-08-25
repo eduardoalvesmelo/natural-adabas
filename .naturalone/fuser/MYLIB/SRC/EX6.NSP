@@ -1,0 +1,35 @@
+0001/** Fazer um programa para solicitar ao usuário um número entre 0 e 99 e mostrar este número
+0002/** por extenso. Se o usuário introduzir um número que não está neste intervalo, mostre:
+0003/** "número inválido". 
+0004/**
+0005/** :author eduar
+0006/** :author Eduardo Alves
+0007/* TODO Enter your code here
+0008DEFINE DATA LOCAL
+00091 #num-1    (N3)
+00101 #i        (n2)
+00111 #NUMERO-EXTENSO (A20/99) INIT <'Um','Dois','Três','Quatro','Cinco','Seis','Sete','Oito','Nove','Dez',
+0012                                    'Onze','Doze','Treze','Quatorze','Quinze','Dezesseis','Dezessete','Dezoito','Dezenove','Vinte',
+0013                                    'Vinte e um','Vinte e dois','Vinte e três','Vinte e quatro','Vinte e cinco','Vinte e seis','Vinte e sete','Vinte e oito','Vinte e nove',
+0014                                    'Trinta','Trinta e um','Trinta e dois','Trinta e três','Trinta e quatro','Trinta e cinco','Trinta e seis','Trinta e sete','Trinta e oito','Trinta e nove',
+0015                                    'Quarenta','Quarenta e um','Quarenta e dois','Quarenta e três','Quarenta e quatro','Quarenta e cinco','Quarenta e seis','Quarenta e sete','Quarenta e oito','Quarenta e nove',
+0016                                    'Cinquenta','Cinquenta e um','Cinquenta e dois','Cinquenta e três','Cinquenta e quatro','Cinquenta e cinco','Cinquenta e seis','Cinquenta e sete','Cinquenta e oito','Cinquenta e nove',
+0017                                    'Sessenta','Sessenta e um','Sessenta e dois','Sessenta e três','Sessenta e quatro','Sessenta e cinco','Sessenta e seis','Sessenta e sete','Sessenta e oito','Sessenta e nove',
+0018                                    'Setenta','Setenta e um','Setenta e dois','Setenta e três','Setenta e quatro','Setenta e cinco','Setenta e seis','Setenta e sete','Setenta e oito','Setenta e nove',
+0019                                    'Oitenta','Oitenta e um','Oitenta e dois','Oitenta e três','Oitenta e quatro','Oitenta e cinco','Oitenta e seis','Oitenta e sete','Oitenta e oito','Oitenta e nove',
+0020                                    'Noventa','Noventa e um','Noventa e dois','Noventa e três','Noventa e quatro','Noventa e cinco','Noventa e seis','Noventa e sete','Noventa e oito','Noventa e nove'>
+0021END-DEFINE
+0022*
+0023    input 'informe um numero' #num-1    
+0024*
+0025if #num-1 <= 99    
+0026    for #i := 1 to 99
+0027        if #i <= 99 and #i = #num-1
+0028            write 'O numero por extenso é: ' #NUMERO-EXTENSO(#i)
+0029        end-if
+0030    end-for
+0031else
+0032    write 'Número inválido'
+0033end-if    
+0034*
+0035END

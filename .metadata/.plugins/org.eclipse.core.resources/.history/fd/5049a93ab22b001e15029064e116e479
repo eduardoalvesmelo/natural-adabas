@@ -1,0 +1,38 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** (Cortesia do Prof. Bogdan Tomoyuki Nassu) Zeca está organizando um bolão de futebol.
+/** Segundo suas regras, os apostadores informam o placar do jogo e ganham 10 pontos se
+/** acertarem o vencedor ou se acertarem que foi empate, e ganham mais 5 pontos para o placar
+/** de cada time que acertarem. A tabela a seguir dá um exemplo, considerando que o placar
+/** real foi 3x2: 
+/**
+/** :author eduar
+/* TODO Enter your code here
+DEFINE DATA LOCAL
+1 #hora-semana          (N2)
+1 #vlr-hora             (N2.2)
+1 #vlr-ttl-hora         (N4.2)
+1 #bonus                (N1.2)
+END-DEFINE                            
+*    
+input 'Informe o numero de horas trabalhas na semana: ' #hora-semana
+input 'Informe o valor da horas trabalhada: ' #vlr-hora                                                                                               
+*
+if #hora-semana >= 40 
+    if #hora-semana <= 60
+        #bonus:= 1.5
+    else
+        #bonus:= 2
+    end-if
+else
+    #bonus:= 1
+end-if
+#vlr-ttl-hora := #hora-semana * #vlr-hora * #bonus
+*
+write 'Quantidade de horas realizadas: ' #hora-semana
+write 'Valor da hora: ' #vlr-hora
+write 'Valor a receber: ' #vlr-ttl-hora
+*
+END

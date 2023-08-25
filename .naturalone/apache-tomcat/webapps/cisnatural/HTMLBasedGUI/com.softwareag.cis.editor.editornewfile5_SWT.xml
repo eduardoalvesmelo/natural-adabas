@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.NewFileModel5" translationreference="CIS_EDIT" popupwidth="500" popupheight="290" darkbackground="true" casaindex="1" >
+
+
+        <pagebody horizdist="false" takefullheight="true" paddingtop="10" casaindex="2" >
+
+
+                <rowarea foldable="false" height="100%" withleftborder="false" withtopborder="false" withrightborder="false" casaindex="3" >
+
+
+                        <vdist height="2" casaindex="4" >
+
+
+                        </vdist>
+
+
+                        <itr casaindex="5" >
+
+
+                                <label textid="newfileName" width="100" casaindex="6" >
+
+
+                                </label>
+
+
+                <field xsdType="xs:string" valueprop="fileName" width="200" casaindex="7" >
+
+                </field>
+
+                        </itr>
+
+
+                        <vdist height="10" casaindex="8" >
+
+
+                        </vdist>
+
+
+                        <rowscrollarea takefullwidth="true" takefullheight="true" hscroll="scroll" casaindex="9" >
+
+
+                                <iconlist iconlistprop="iconList" vertical="false" cellspacing="5" align="left" casaindex="10" >
+
+
+                                </iconlist>
+
+
+                                <vdist height="10" casaindex="11" >
+
+
+                                </vdist>
+
+
+                        </rowscrollarea>
+
+
+                </rowarea>
+
+
+                <tabstrip2 tabstripprop="groupTab" align="left" scrollable="true" casaindex="12" >
+
+
+                </tabstrip2>
+
+
+        </pagebody>
+
+
+        <statusbar casaindex="13" >
+
+
+        </statusbar>
+
+
+</page>

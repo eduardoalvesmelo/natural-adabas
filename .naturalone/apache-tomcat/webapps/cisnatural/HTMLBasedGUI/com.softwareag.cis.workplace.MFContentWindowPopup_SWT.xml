@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.workplace.MFWorkplaceAdapter" popupwidth="400" popupheight="600" popupfeatures="status:no;resizable:true" casaindex="1" >
+
+
+        <pagebody horizdist="false" takefullheight="true" casaindex="2" >
+
+
+                <itr width="100%" height="100%" casaindex="3" >
+
+
+                        <subcispage valueprop="contentWindowURL" width="100%" height="100%" borderwidth="0" casaindex="4" >
+
+
+                        </subcispage>
+
+
+                </itr>
+
+
+        </pagebody>
+
+
+</page>

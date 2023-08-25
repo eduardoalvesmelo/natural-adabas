@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.popups.ThreadProgressAdapter" occupiedpixelheight="0" occupiedpixelwidth="0" popupheight="300" popupwidth="300" translationreference="CIS_TOOLS" casaindex="1" >
+
+
+        <pagebody horizdist="false" takefullheight="true" casaindex="2" >
+
+
+                <itr width="100%" casaindex="3" >
+
+
+                        <label align="right" asplaintext="true" labelstyle="color:#808080; font-size: 8px; text-align: right" textid="threadprogress.label0" width="100%" casaindex="4" >
+
+
+                        </label>
+
+
+                        <hdist width="5" casaindex="5" >
+
+
+                        </hdist>
+
+
+                </itr>
+
+
+                <itr width="100%" casaindex="6" >
+
+
+                        <hdist width="50%" casaindex="7" >
+
+
+                        </hdist>
+
+
+                        <icon align="center" image="general/occupied.gif" casaindex="8" >
+
+
+                        </icon>
+
+
+                        <hdist width="10" casaindex="9" >
+
+
+                        </hdist>
+
+
+                        <label asplaintext="true" labelstyle="font-size: 20 px" textid="threadprogress.label1" valign="middle" casaindex="10" >
+
+
+                        </label>
+
+
+                        <hdist width="50%" casaindex="11" >
+
+
+                        </hdist>
+
+
+                </itr>
+
+
+                <vdist height="10" casaindex="12" >
+
+
+                </vdist>
+
+
+                <itr fixlayout="true" height="100%" width="100%" casaindex="13" >
+
+
+                        <textgridsss2 griddataprop="messages" height="100%" hscroll="true" rowcount="30" width="100%" withtitlerow="false" casaindex="14" >
+
+
+                                <column property="message" textid="threadprogress.column0" width="100%" casaindex="15" >
+
+
+                                </column>
+
+
+                        </textgridsss2>
+
+
+                </itr>
+
+
+                <itr casaindex="16" >
+
+
+                        <scheduleline pixelheight="20" valueprop="schedule" width="100%" casaindex="17" >
+
+
+                        </scheduleline>
+
+
+                </itr>
+
+
+        </pagebody>
+
+
+        <timer intervalprop="interval" method="onRefresh" casaindex="18" >
+
+
+        </timer>
+
+
+</page>

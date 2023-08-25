@@ -1,0 +1,61 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** (Cortesia do Prof. Bogdan Tomoyuki Nassu) A tabela abaixo foi copiada do website da
+/** Receita Federal, e traz as alíquotas do imposto de renda de pessoa física retido na 
+/** fonte para o exercício de 2013:
+/** 
+/** Base de cálculo mensal em R$     | Alíquota %       | Parcela a deduzir do imposto em R$
+/** Até 1.637,11                     |-                 |-
+/** De 1.637,12 até 2.453,50         |7,5               |122,78
+/** De 2.453,51 até 3.271,38         |15,0              |306,80
+/** De 3.271,39 até 4.087,65         |22,5              |552,15
+/** Acima de 4.087,65                |27,5              |756,53 
+/** A base de cálculo é dada pelo salário mensal, com certas deduções, como dependentes e
+/** contribuição previdenciária. Abstraindo estes e outros detalhes, o imposto devido é calculado
+/** tomando a base de cálculo mensal, verificando a faixa na qual ela se encontra, aplicando a alíquota
+/** correspondente, e reduzindo o valor final da parcela a deduzir. Por exemplo, se a base de cálculo é
+/** de R$10.000,00, a alíquota é de 27,5%, ou seja, R$2750,00. Deduzimos R$756,53 da parcela e
+/** obtemos como resultado final R$1993,47 de imposto devido.
+/** Escreva um programa que receba como entrada a base de cálculo mensal de um trabalhador e
+/** retorne o imposto de renda devido.
+/** :author eduar
+/* TODO Enter your code here
+DEFINE DATA LOCAL
+1 #nome-contribuinte        (A20)
+1 #salario-base             (N5.2)
+1 #alicota                  (N5.2)
+1 #imposto-pagar            (N10.2)
+1 #imposto-devido           (N10.2)
+1 #deducoes                 (N5.2)
+END-DEFINE                            
+*    
+input 'Informe o nome do contribuinte: ' #nome-contribuinte
+input 'Informe o sário base do contribuinte: ' #salario-base
+input 'Informe os valores a seren deduzidos: ' #deducoes
+*
+decide on every value of #salario-base
+    value 1637.12 : 2453.50
+        #alicota:= 7.5     
+    value 2453.51 : 3271.38
+        #alicota:= 15     
+    value 3271.39 : 4087.65
+        #alicota:= 22.5     
+    value 4087.65 : 100000.00
+        #alicota:= 27.5     
+       none           
+        #alicota:= 0
+end-decide
+#imposto-pagar:= #salario-base * 12 * #alicota
+#imposto-devido:= #imposto-pagar - (#deducoes * 12) 
+*
+write 'Nome do Contribuinte: ' #nome-contribuinte
+write 'Salário base: ' #salario-base
+write 'Alicota: ' #alicota
+write 'Deduções: ' #deducoes
+write 'Imposto a pagar: ' #imposto-pagar
+write 'Imposto devido: ' #imposto-devido
+*
+END
+

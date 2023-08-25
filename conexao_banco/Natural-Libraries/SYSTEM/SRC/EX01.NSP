@@ -1,0 +1,19 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** New Program EX01.
+/**
+/** :author eduar
+/* TODO Enter your code here
+define data local
+1 vw1 view of cvmt-veiculo
+    2 VE-NUM-PLACA-ATUAL
+    2 VE-MUNICIPIO-VEIC
+end-define
+
+read (10) vw1
+    display vw1
+end-read
+
+END

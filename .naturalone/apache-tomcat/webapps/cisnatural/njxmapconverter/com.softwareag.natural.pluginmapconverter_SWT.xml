@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.natural.mapconverter.gui.PluginMapConverterAdapter" casaindex="1" >
+
+
+        <titlebar name="Map Conversion Assistant" withclose="false" casaindex="2" >
+
+
+        </titlebar>
+
+
+        <pagebody horizdist="false" takefullheight="true" paddingleft="5" paddingright="5" paddingtop="5" paddingbottom="5" casaindex="3" >
+
+
+		        <vdist height="8" casaindex="4" >
+
+
+                </vdist>
+
+
+		         <itr casaindex="5" >
+
+
+                        			            <radiobutton valueprop="defaultRules" value="1" flush="server" flushmethod="onDefaultRulesChanged" name="Use default rules" casaindex="6" >
+
+
+			            </radiobutton>
+
+
+			            <radiobutton valueprop="defaultRules" value="0" flush="server" flushmethod="onDefaultRulesChanged" name="Use project rules" casaindex="7" >
+
+
+			            </radiobutton>
+
+
+                </itr>
+
+
+                <vdist height="8" casaindex="8" >
+
+
+                </vdist>
+
+
+                <itr casaindex="9" >
+
+
+			             <label name="Rules" width="80" title="XML file containing the conversion rules" casaindex="10" >
+
+
+                          </label>
+
+
+                        <combodyn2 valueprop="rulesName" width="200" validvaluesprop="rulesValues" casaindex="11" >
+
+
+                        </combodyn2>
+
+
+                 </itr>
+
+
+                 <itr casaindex="12" >
+
+
+                        <hdist width="80" casaindex="13" >
+
+
+                        </hdist>
+
+
+                        <button name="Show Rules" width="120" method="onShowRules" casaindex="14" >
+
+
+                        </button>
+
+
+                 </itr>
+
+
+                 <itr casaindex="15" >
+
+
+                        <hdist width="80" casaindex="16" >
+
+
+		                </hdist>
+
+
+			            <button name="Copy Rules" width="120" method="onCopyRules" casaindex="17" >
+
+
+                        </button>
+
+
+                </itr>
+
+
+                            <vdist height="8" casaindex="18" >
+
+
+                </vdist>
+
+
+                <itr casaindex="19" >
+
+
+                        <label name="Map extract input folder" width="80" title="Folder containing the map XML files extracted from Natural" casaindex="20" >
+
+
+                        </label>
+
+
+            <field xsdType="xs:string" flush="server" flushmethod="onMapFolderChanged" valueprop="mapFolder" width="200" casaindex="21" >
+
+            </field>
+
+                 </itr>
+
+
+                 <vdist casaindex="22" >
+
+
+                </vdist>
+
+
+                <itr casaindex="23" >
+
+
+                                  <label name="Select map extract" width="80" title="Map XML file extracted from Natural" casaindex="24" >
+
+
+                        </label>
+
+
+                        <combodyn2 valueprop="mapName" validvaluesprop="mapValues" width="200" flush="server" flushmethod="onMapNameChanged" casaindex="25" >
+
+
+                        </combodyn2>
+
+
+                            </itr>
+
+
+                <vdist casaindex="26" >
+
+
+                </vdist>
+
+
+                <itr casaindex="27" >
+
+
+                        <hdist width="80" casaindex="28" >
+
+
+                        </hdist>
+
+
+                        <button name="Add to Page" width="120" method="onAddToPage" invisiblemode="disabled" visibleprop="canadd" casaindex="29" >
+
+
+                        </button>
+
+
+                </itr>
+
+
+                 <itr casaindex="30" >
+
+
+                        <hdist width="80" casaindex="31" >
+
+
+                        </hdist>
+
+
+                        <button name="Show Log" width="120" method="onShowLogfile" casaindex="32" >
+
+
+                        </button>
+
+
+                </itr>
+
+
+                <itr casaindex="33" >
+
+
+                        <hdist width="80" casaindex="34" >
+
+
+                        </hdist>
+
+
+                        <button name="Undo Add" width="120" method="onUndoAddToPage" invisiblemode="disabled" visibleprop="canundo" casaindex="35" >
+
+
+                        </button>
+
+
+                </itr>
+
+
+                       <vdist height="10" casaindex="36" >
+
+
+                </vdist>
+
+
+                <itr height="100%" fixlayout="true" casaindex="37" >
+
+
+                        <text valueprop="mapXML" width="300" height="100%" displayonly="true" wrap="off" casaindex="38" >
+
+
+                        </text>
+
+
+                </itr>
+
+
+        </pagebody>
+
+
+        <statusbar withdistance="false" casaindex="39" >
+
+
+        </statusbar>
+
+
+</page>

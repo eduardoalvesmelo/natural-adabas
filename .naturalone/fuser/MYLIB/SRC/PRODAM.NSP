@@ -1,0 +1,21 @@
+0001/** Fazer um programa para ler um número do usuário e 
+0002/** determinar se este número é par ou não par. 
+0003/**
+0004/** :author eduar
+0005/* TODO Enter your code here
+0006DEFINE DATA LOCAL
+00071 N1    (N2)
+00081 N2    (N2) init<2> 
+00091 N3    (N2)
+00101 res   (A5) init<'impar'>
+0011END-DEFINE
+0012
+0013INPUT 'Digite um numero: ' N1
+0014divide N2 into N1 remainder N3
+0015
+0016if N3 = 0
+0017    res := 'par'
+0018end-if 
+0019    
+0020write 'O numero informado é: ' res
+0021END

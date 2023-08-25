@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.EditorViewMultiLanguage5Adapter" translationreference="CIS_EDIT" casaindex="1" >
+
+
+        <hotkeys casaindex="2" >
+
+
+                <hotkey altkey="true" keycode="78" method="newTextId" casaindex="3" >
+
+
+                </hotkey>
+
+
+        </hotkeys>
+
+
+        <pagebody horizdist="false" takefullheight="true" casaindex="4" >
+
+
+                <itr height="100%" width="100%" casaindex="5" >
+
+
+                        <coltable0 takefullheight="true" width="50%" casaindex="6" >
+
+
+                                <rowarea textid="litAssLanguageSettings" withbottomborder="false" withleftborder="false" withrightborder="false" withtoppadding="false" casaindex="7" >
+
+
+                                        <itr casaindex="8" >
+
+
+                                                <label textid="litAssLanguage" width="150" casaindex="9" >
+
+
+                                                </label>
+
+
+                                                <combodyn flush="server" optarrayprop="languageOptions" size="1" valueprop="language1" width="60" casaindex="10" >
+
+
+                                                </combodyn>
+
+
+                                                <hdist width="100%" casaindex="11" >
+
+
+                                                </hdist>
+
+
+                                                <helpicon helpid="literaltranslator" titletextid="editorvml.helpicon0" casaindex="12" >
+
+
+                                                </helpicon>
+
+
+                                        </itr>
+
+
+                                        <vdist casaindex="13" >
+
+
+                                        </vdist>
+
+
+                                        <itr casaindex="14" >
+
+
+                                                <label textid="litAssCompareLang" width="150" casaindex="15" >
+
+
+                                                </label>
+
+
+                                                <combodyn flush="server" optarrayprop="languageOptions" size="1" valueprop="language2" width="60" casaindex="16" >
+
+
+                                                </combodyn>
+
+
+                                        </itr>
+
+
+                                </rowarea>
+
+
+                                <rowarea height="100%" textid="litAssLiteralMaintenance" withbottomborder="false" withleftborder="false" withrightborder="false" casaindex="17" >
+
+
+                                        <rowtablearea2 firstrowcolwidths="true" griddataprop="lines" height="100%" rowcount="50" width="100%" casaindex="18" >
+
+
+                                                <tr casaindex="19" >
+
+
+                                                        <label asheadline="true" textid="reevml5.label2" width="16" casaindex="20" >
+
+
+                                                        </label>
+
+
+                                                        <label asheadline="true" textid="reevml5.label3" width="14" casaindex="21" >
+
+
+                                                        </label>
+
+
+                                                        <label asheadline="true" textid="litAssTextId" width="20%" casaindex="22" >
+
+
+                                                        </label>
+
+
+                                                        <label asheadline="true" textid="litAssLanguage" width="40%" casaindex="23" >
+
+
+                                                        </label>
+
+
+                                                        <label asheadline="true" textid="litAssCompareLang" width="40%" casaindex="24" >
+
+
+                                                        </label>
+
+
+                                                </tr>
+
+
+                                                <repeat casaindex="25" >
+
+
+                                                        <str valueprop="selected" casaindex="26" >
+
+
+                                                                <toggle falseimage="../HTMLBasedGUI/general/nothing.gif" flush="server" height="15" trueimage="../HTMLBasedGUI/images/toggleunselect.gif" valueprop="selected" width="13" casaindex="27" >
+
+
+                                                                </toggle>
+
+
+                                                                <imageout height="14" valueprop="stateImage" width="14" casaindex="28" >
+
+
+                                                                </imageout>
+
+
+                                <field xsdType="xs:string" displayonly="true" fieldstyle="padding-top: 3px;border: 0" valueprop="textId" width="20%" casaindex="29" >
+
+                                </field>
+
+                                <field xsdType="xs:string" fieldstyle="padding-top: 3px;border: 0" statusprop="text1DisplayStatus" valueprop="text1" width="40%" casaindex="30" >
+
+                                </field>
+
+                                <field xsdType="xs:string" displayonly="true" fieldstyle="padding-top: 3px;border: 0" valueprop="text2" width="40%" casaindex="31" >
+
+                                </field>
+
+                                                        </str>
+
+
+                                                </repeat>
+
+
+                                        </rowtablearea2>
+
+
+                                </rowarea>
+
+
+                        </coltable0>
+
+
+                        <hdist casaindex="32" >
+
+
+                        </hdist>
+
+
+                        <coltable0 takefullheight="true" width="50%" casaindex="33" >
+
+
+                                <rowarea height="100%" textid="litAssFileContent" withbottomborder="false" withtoppadding="false" casaindex="34" >
+
+
+                                        <itr fixlayout="true" height="100%" width="100%" casaindex="35" >
+
+
+                                                <text displayonly="true" height="100%" textareastyle="background-color: #FFFFFF" valueprop="fileContentAsString" width="100%" wrap="off" casaindex="36" >
+
+
+                                                </text>
+
+
+                                        </itr>
+
+
+                                </rowarea>
+
+
+                        </coltable0>
+
+
+                </itr>
+
+
+                <vdist casaindex="37" >
+
+
+                </vdist>
+
+
+        </pagebody>
+
+
+</page>

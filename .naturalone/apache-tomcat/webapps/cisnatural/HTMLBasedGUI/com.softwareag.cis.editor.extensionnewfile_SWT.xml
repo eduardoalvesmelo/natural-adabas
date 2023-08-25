@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.admin.EditorExtensionAdapter" translationreference="CIS_TOOLS" popupwidth="700" popupheight="170" casaindex="1" >
+
+
+        <pagebody horizdist="false" takefullheight="true" casaindex="2" >
+
+
+                <rowarea textid="exnf.rowarea.filename" height="100%" withleftborder="false" withrightborder="false" withbottomborder="false" withtoppadding="false" casaindex="3" >
+
+
+                        <itr casaindex="4" >
+
+
+                        </itr>
+
+
+                        <itr casaindex="5" >
+
+
+                                <label textid="label.name" width="70" casaindex="6" >
+
+
+                                </label>
+
+
+                                <label textid="label.editor" width="50" asplaintext="true" casaindex="7" >
+
+
+                                </label>
+
+
+                <field xsdType="xs:string" valueprop="newfileName" width="200" length="8" casaindex="8" >
+
+                </field>
+
+                                <label textid="label.xml" width="30" asplaintext="true" casaindex="9" >
+
+
+                                </label>
+
+
+                                <hdist width="30" casaindex="10" >
+
+
+                                </hdist>
+
+
+                        </itr>
+
+
+                        <itr casaindex="11" >
+
+
+                                <label name="Directory" width="70" casaindex="12" >
+
+
+                                </label>
+
+
+                <field xsdType="xs:string" valueprop="newfileDirectory" width="100%" popupmethod="openIdValueCombo" popupinputonly="true" casaindex="13" >
+
+                </field>
+
+                                <hdist width="30" casaindex="14" >
+
+
+                                </hdist>
+
+
+                        </itr>
+
+
+                        <vdist height="5" casaindex="15" >
+
+
+                        </vdist>
+
+
+                        <itr width="100%" casaindex="16" >
+
+
+                                <hdist width="50%" casaindex="17" >
+
+
+                                </hdist>
+
+
+                                <button textid="btn.ok" method="onFinishCreateNewFile" casaindex="18" >
+
+
+                                </button>
+
+
+                                <hdist casaindex="19" >
+
+
+                                </hdist>
+
+
+                                <button textid="btn.cancel" method="closePage" casaindex="20" >
+
+
+                                </button>
+
+
+                                <hdist width="50%" casaindex="21" >
+
+
+                                </hdist>
+
+
+                        </itr>
+
+
+                        <vdist height="100%" casaindex="22" >
+
+
+                        </vdist>
+
+
+                </rowarea>
+
+
+        </pagebody>
+
+
+        <statusbar casaindex="23" >
+
+
+        </statusbar>
+
+
+</page>

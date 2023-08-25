@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.LooseCodingAdapter" translationreference="CIS_EDIT" popupwidth="380px" popupheight="180px" casaindex="1" >
+
+
+        <pagebody takefullheight="true" paddingleft="10" paddingright="10" pageheightminus="74" verticalscrollbar="true" casaindex="2" >
+
+
+                <vdist height="10" casaindex="3" >
+
+
+                </vdist>
+
+
+                <itr width="100%" casaindex="4" >
+
+
+                        <hdist casaindex="5" >
+
+
+                        </hdist>
+
+
+                        <label textid="questionReloadJavaSource" width="100%" asplaintext="true" casaindex="6" >
+
+
+                        </label>
+
+
+                        <hdist casaindex="7" >
+
+
+                        </hdist>
+
+
+                </itr>
+
+
+                <vdist height="50%" casaindex="8" >
+
+
+                </vdist>
+
+
+                <itr width="100%" casaindex="9" >
+
+
+                        <hdist width="50%" casaindex="10" >
+
+
+                        </hdist>
+
+
+                        <button textid="looseCodingSave" method="saveData" casaindex="11" >
+
+
+                        </button>
+
+
+                        <hdist casaindex="12" >
+
+
+                        </hdist>
+
+
+                        <button textid="looseCodingReload" method="looseData" casaindex="13" >
+
+
+                        </button>
+
+
+                        <hdist casaindex="14" >
+
+
+                        </hdist>
+
+
+                        <icon image="../HTMLBasedGUI/images/distance.gif" casaindex="15" >
+
+
+                        </icon>
+
+
+                        <hdist casaindex="16" >
+
+
+                        </hdist>
+
+
+                        <button textid="looseCodingCancel" method="goBack" casaindex="17" >
+
+
+                        </button>
+
+
+                        <hdist width="50%" casaindex="18" >
+
+
+                        </hdist>
+
+
+                </itr>
+
+
+                <vdist height="50%" casaindex="19" >
+
+
+                </vdist>
+
+
+        </pagebody>
+
+
+</page>

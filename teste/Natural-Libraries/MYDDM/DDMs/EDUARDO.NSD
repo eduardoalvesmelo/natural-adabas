@@ -1,0 +1,11 @@
+DB: 000 FILE: 001  - EDUARDO                          DEFAULT SEQUENCE: 
+TYPE: ADABAS 
+ 
+T L DB Name                              F Leng  S D Remark 
+- - -- --------------------------------  - ----  - - -------------------- 
+*      >Natural Source Header 000000
+*      :CP
+*      
+*      
+*      <Natural Source Header
+  1 A0 A0-1                              A   10 

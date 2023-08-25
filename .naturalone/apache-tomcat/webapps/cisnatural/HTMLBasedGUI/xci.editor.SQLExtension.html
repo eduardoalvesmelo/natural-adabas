@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'>
+<script>var m_perfPageLoadStart = new Date();
+var m_perfPageLoadEnd = null;
+var m_perfPageFocusEnd = null;</script>
+<link id="casabacstylesheet" rel="stylesheet" type="text/css" href="../cis/styles/CIS_DEFAULT.css">
+<script>
+try
+{
+if (parent.CasaSTYLESHEET == null)
+{
+var vParent = parent;
+while(vParent != null)
+{
+if(vParent.CasaSTYLESHEET != null && vParent.CasaSTYLESHEET != '')
+{
+parent.CasaSTYLESHEET = vParent.CasaSTYLESHEET;
+break;
+}
+if(vParent == vParent.parent) break;
+vParent = vParent.parent;
+}
+}
+if (parent.CasaSTYLESHEET != null && parent.CasaSTYLESHEET != '')
+{
+var vStyleSheet = document.getElementById('casabacstylesheet');
+if (vStyleSheet.href != parent.CasaSTYLESHEET) vStyleSheet.href = parent.CasaSTYLESHEET;
+}
+}
+catch (eeccxx) {}
+</script>
+<style>
+html {height:100%;}
+body {height:100%;}
+</style>
+</head>
+<body id='THISBODY' oncontextmenu='try { return C.reactOnContextMenuRequestPAGE(event); } catch(e) {}' onmousemove='try { return moveDrag(event); } catch(exc) {}' onmouseup='try { endDrag(event);C.CL().checkMozIO(parent); } catch (exc) {}' onkeydown='try { processHotKeys(event); } catch (exc) {}' class='PAGEBody' style='margin: 0' onclick='try { C.clickAway(); } catch (exc) {}; try { C.reactOnClickPage(event); } catch (exc) {}' onresize='try { reactOnResize(); } catch (exc) {}'	onload=' try { reactOnResize(); } catch (exc) {}'	onhelp='C.reactOnHelpPAGE(); return false;'  tabindex='-1' onblur='try { C.onBlurPAGE(event); } catch(e) {}' onfocus='try { C.onFocusPAGE(); } catch(e) {}' onmousewheel='if (event.shiftKey) C.CL().cancelEvent(event);' onwheel='if (event.shiftKey) C.CL().cancelEvent(event);' onmouseleave='try { return removeTHISOCCUPIED(); } catch(exc) {}' onmouseout ='try { return removeTHISOCCUPIED(); } catch(exc) {}'>
+<script>
+function gebid(pid) { return document.getElementById(pid); }
+var m_isSafari = navigator.userAgent.toLowerCase().indexOf( 'safari' ) != -1;
+function isSafari() { return m_isSafari; }
+function createFunction(name,param,code) { window[name] = new Function(param,code); return window[name]; }
+function createElement(name) { return document.createElement(name); }
+var N = null;
+function icc(iccMethodName, baseIndex, s) { C.addIccInfo(iccMethodName, baseIndex, s); iccExec(iccMethodName, s); }
+function iccExec(iccMethodName, s) {
+var o = C.decodeString(s,',');
+for (var i=0; i<o.length; i++) o[i] = eval(o[i]);
+eval(iccMethodName)(o[0],o[1],o[2],o[3],o[4],o[5],o[6],o[7],o[8],o[9],o[10],o[11],o[12],o[13],o[14],o[15],o[16],o[17],o[18],o[19],o[20],o[21],o[22],o[23],o[24],o[25],o[26],o[27],o[28],o[29],o[30],o[31],o[32],o[33],o[34],o[35],o[36],o[37],o[38],o[39],o[40],o[41],o[42],o[43],o[44],o[45],o[46],o[47],o[48],o[49]);
+}
+m_startPageDate = new Date();
+var m_pageCompletelyBuilt = false;
+var m_fillTextIdListeners = [];
+var m_flagResize = true;
+var m_centralContextMenu =false;
+function registerFillTextIdListener(listener)
+{
+m_fillTextIdListeners.push(listener);
+}
+</script>
+<table id='JUSTLOADING' style='table-layout: fixed;z-index: 100;cursor: progress; position: absolute; left: 0; top: 0; width: 100%; height: 100%' class='PAGEBody'>
+<tr><td align="center" valign="middle" class='FLASHPageSwitch'>&nbsp;</td></tr>
+</table>
+<table id='THISPAGE' cellspacing='0' cellpadding='0'  style='table-layout: auto;width:100%;height:100%;display:none'>
+<tr id="TITLEBARTITLEBARTR"  style=" ">
+<td colspan='50' width='100%' height='0' align='center'>
+<table width='100%' cellspacing=0 cellpadding=0 class="TITLEBARTable">
+<tr>
+<td width='100%'>
+<table id="TITLEBARTITLEBAR" width="100%" cellspacing=2 cellpadding=0 style='table-layout: fixed'>
+<tr>
+<td width="100%"  class="TDAroundControl">
+<div nowrap="true" class="TITLEBARCell" style="overflow-x: hidden;">&nbsp;Connection to SQL Databases&nbsp;</div>
+</td>
+</tr>
+</table>
+</td>
+<td width=0>
+<table width=0 cellspacing=0 cellpadding=0>
+<tr>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td  colspan='50' width='100%' height='100%' valign='top' style='background-color: #deebf7'>
+<div id='PAGEDIV3' style='width: 100%; height: 100%;overflow: auto;padding:5px 5px 5px 5px;'>
+<table width="100%" style='' cellspacing="0" cellpadding="0" >
+<tr id='ITR4'  >
+<td   valign='top' colspan='50' class='TDAroundControl' width='100%' height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 width='100%'><tr>
+<td id='TD5'    colspan=1 rowspan=1 width='100px'  class="LABELCellNormal" style=" ;width:100px"  valign='middle'><div id="DIV5"  class="LABELDivText" style=" ;width:100px">SQL Service</div></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><table cellspacing=0 cellpadding=0 width='100%' style='table-layout: fixed'><tr><td width='100%'><input id="F_6" name="CC" class='FIELDInputEdit' data-testtoolid='sqlService' type="text"    style=" width:100%;"></td><td valign="middle" width="16px"><div id="FIC_6"  onmouseup="C.reactOnValueHelpFIELD(CF_6,event);" style="background-repeat:no-repeat; width:16px;"><img width='16px' src='../HTMLBasedGUI/general/nothing.gif'></div></td></tr></table></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr id='ITR7'  >
+<td   valign='top' colspan='50' class='TDAroundControl' width='100%' height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;table-layout: fixed;' cellpadding=0 width='100%'><tr>
+<td id='TD8'    colspan=1 rowspan=1 width='100px'  class="LABELCellNormal" style=" ;width:100px"  valign='middle'><div id="DIV8"  class="LABELDivText" style=" ;width:100px">Driver Class</div></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_9" name="CC" class='FIELDInputEdit' data-testtoolid='driverClass' type="text"    style=" width:100%;"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr id='ITR10'  >
+<td   valign='top' colspan='50' class='TDAroundControl' width='100%' height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;table-layout: fixed;' cellpadding=0 width='100%'><tr>
+<td id='TD11'    colspan=1 rowspan=1 width='100px'  class="LABELCellNormal" style=" ;width:100px"  valign='middle'><div id="DIV11"  class="LABELDivText" style=" ;width:100px">Connect. URL</div></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_12" name="CC" class='FIELDInputEdit' data-testtoolid='connectionURL' type="text"    style=" width:100%;"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr id='ITR13'  >
+<td   valign='top' colspan='50' class='TDAroundControl' width='100%' height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 width='100%'><tr>
+<td id='TD14'    colspan=1 rowspan=1 width='100px'  class="LABELCellNormal" style=" ;width:100px"  valign='middle'><div id="DIV14"  class="LABELDivText" style=" ;width:100px">Table</div></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><table cellspacing=0 cellpadding=0 width='100%' style='table-layout: fixed'><tr><td width='100%'><input id="F_15" name="CC" class='FIELDInputEdit' data-testtoolid='table' type="text"    style=" width:100%;"></td><td valign="middle" width="16px"><div id="FIC_15"  onmouseup="C.reactOnValueHelpFIELD(CF_15,event);" style="background-repeat:no-repeat; width:16px;"><img width='16px' src='../HTMLBasedGUI/general/nothing.gif'></div></td></tr></table></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr id='ITR16'  >
+<td   valign='top' colspan='50' class='TDAroundControl'  height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 ><tr>
+<td id='TD17'    colspan=1 rowspan=1 width='100px'  class="LABELCellNormal" style=" ;width:100px"  valign='middle'><div id="DIV17"  class="LABELDivText" style=" ;width:100px">Property</div></td>
+<td  width='80px'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_18" name="CC" class='FIELDInputEdit' data-testtoolid='prefix' type="text"    style=" width:80px;"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style=' ' ><td height="5px" class='TDAroundControl' ></td></tr>
+<tr id='ITR20'  >
+<td   valign='top' colspan='50' class='TDAroundControl'  height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 ><tr>
+<td id='HD21' class='TDAroundControl' style='font-size:1px' width='100px'><div style='font-size:1px;height:1px;width:100px'></div></td>
+<td id="TDB22"  width=0 colspan=1 rowspan=1 class='TDAroundControl' align='left' valign='middle' >
+<button type="button" id="B_22" data-testtoolid='onShowTable' style=" "  name="CC" class="BUTTONInput">Show Table</button>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style=' ' ><td height="15px" class='TDAroundControl' ></td></tr>
+<tr id='TR24' >
+<td colspan='50'  width='100%' class='TDAroundControl'>
+<div id='D24' style=' '>
+<table cellpadding=0 cellspacing=0 width='100%' height='100%'>
+<tr id='ITR25'  >
+<td   valign='top' colspan='50' class='TDAroundControl' width='100%' height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 width='100%'><tr>
+<td id='TD26'    colspan=1 rowspan=1   class="LABELCellPlainText" style=" "  valign='middle'><div id="DIV26"  class="LABELDivText" style=" ">Select all columns which you want to take over into your layout. Then press &quot;Create Layout&quot;.</div></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td colspan='50' class='TDAroundControl' >
+<table id='TAB27' data-testtoolid='columns_table'   cellpadding=0 class="TABLEAREATable" onmousewheel='reactOnMouseWheel27(event);'>
+<tr>
+<td class='TDAroundControl'  height='100%'>
+<table cellpadding=0 cellspacing=0 width='100%' >
+<tr>
+<td>
+<div id='DIV27' style='overflow-x:hidden;overflow-y: hidden' class="TABLEAREATable" >
+<table data-testtoolid='columns_innertable' class='TABLEAREABorder' style='table-layout: fixed;width:1px;' cellpadding=0 cellspacing=0>
+<tr id='STR29'>
+<td id='CBTD_30' width='50px' class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='columns.items[0].selected' id="CB_30" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td id='CBTD_31' width='30px' class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='columns.items[0].key' id="CB_31" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td id="TXTTD_32"    width='50%'  valign='middle' class='TEXTOUTColumn' ><div   data-testtoolid='columns.items[0].column'  id="S_32" class="TEXTOUTSpan" style=";; "></div>
+</td>
+<td id="TXTTD_33"    width='50%'  valign='middle' class='TEXTOUTColumn' ><div   data-testtoolid='columns.items[0].type'  id="S_33" class="TEXTOUTSpan" style=";; "></div>
+</td>
+</tr>
+<tr id='STR34'>
+<td id='CBTD_35' width='50px' class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='columns.items[1].selected' id="CB_35" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td id='CBTD_36' width='30px' class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='columns.items[1].key' id="CB_36" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td id="TXTTD_37"    width='50%'  valign='middle' class='TEXTOUTColumn' ><div   data-testtoolid='columns.items[1].column'  id="S_37" class="TEXTOUTSpan" style=";; "></div>
+</td>
+<td id="TXTTD_38"    width='50%'  valign='middle' class='TEXTOUTColumn' ><div   data-testtoolid='columns.items[1].type'  id="S_38" class="TEXTOUTSpan" style=";; "></div>
+</td>
+</tr>
+<tr id='STR39'>
+<td id='CBTD_40' width='50px' class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='columns.items[2].selected' id="CB_40" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td id='CBTD_41' width='30px' class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='columns.items[2].key' id="CB_41" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td id="TXTTD_42"    width='50%'  valign='middle' class='TEXTOUTColumn' ><div   data-testtoolid='columns.items[2].column'  id="S_42" class="TEXTOUTSpan" style=";; "></div>
+</td>
+<td id="TXTTD_43"    width='50%'  valign='middle' class='TEXTOUTColumn' ><div   data-testtoolid='columns.items[2].type'  id="S_43" class="TEXTOUTSpan" style=";; "></div>
+</td>
+</tr>
+<tr id='STR44'>
+<td id='CBTD_45' width='50px' class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='columns.items[3].selected' id="CB_45" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td id='CBTD_46' width='30px' class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='columns.items[3].key' id="CB_46" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td id="TXTTD_47"    width='50%'  valign='middle' class='TEXTOUTColumn' ><div   data-testtoolid='columns.items[3].column'  id="S_47" class="TEXTOUTSpan" style=";; "></div>
+</td>
+<td id="TXTTD_48"    width='50%'  valign='middle' class='TEXTOUTColumn' ><div   data-testtoolid='columns.items[3].type'  id="S_48" class="TEXTOUTSpan" style=";; "></div>
+</td>
+</tr>
+<tr id='STR49'>
+<td id='CBTD_50' width='50px' class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='columns.items[4].selected' id="CB_50" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td id='CBTD_51' width='30px' class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='columns.items[4].key' id="CB_51" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td id="TXTTD_52"    width='50%'  valign='middle' class='TEXTOUTColumn' ><div   data-testtoolid='columns.items[4].column'  id="S_52" class="TEXTOUTSpan" style=";; "></div>
+</td>
+<td id="TXTTD_53"    width='50%'  valign='middle' class='TEXTOUTColumn' ><div   data-testtoolid='columns.items[4].type'  id="S_53" class="TEXTOUTSpan" style=";; "></div>
+</td>
+</tr>
+<tr id='STR54'>
+<td id='CBTD_55' width='50px' class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='columns.items[5].selected' id="CB_55" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td id='CBTD_56' width='30px' class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='columns.items[5].key' id="CB_56" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td id="TXTTD_57"    width='50%'  valign='middle' class='TEXTOUTColumn' ><div   data-testtoolid='columns.items[5].column'  id="S_57" class="TEXTOUTSpan" style=";; "></div>
+</td>
+<td id="TXTTD_58"    width='50%'  valign='middle' class='TEXTOUTColumn' ><div   data-testtoolid='columns.items[5].type'  id="S_58" class="TEXTOUTSpan" style=";; "></div>
+</td>
+</tr>
+<tr id='STR59'>
+<td id='CBTD_60' width='50px' class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='columns.items[6].selected' id="CB_60" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td id='CBTD_61' width='30px' class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='columns.items[6].key' id="CB_61" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td id="TXTTD_62"    width='50%'  valign='middle' class='TEXTOUTColumn' ><div   data-testtoolid='columns.items[6].column'  id="S_62" class="TEXTOUTSpan" style=";; "></div>
+</td>
+<td id="TXTTD_63"    width='50%'  valign='middle' class='TEXTOUTColumn' ><div   data-testtoolid='columns.items[6].type'  id="S_63" class="TEXTOUTSpan" style=";; "></div>
+</td>
+</tr>
+<tr id='STR64'>
+<td id='CBTD_65' width='50px' class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='columns.items[7].selected' id="CB_65" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td id='CBTD_66' width='30px' class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='columns.items[7].key' id="CB_66" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td id="TXTTD_67"    width='50%'  valign='middle' class='TEXTOUTColumn' ><div   data-testtoolid='columns.items[7].column'  id="S_67" class="TEXTOUTSpan" style=";; "></div>
+</td>
+<td id="TXTTD_68"    width='50%'  valign='middle' class='TEXTOUTColumn' ><div   data-testtoolid='columns.items[7].type'  id="S_68" class="TEXTOUTSpan" style=";; "></div>
+</td>
+</tr>
+<tr id='STR69'>
+<td id='CBTD_70' width='50px' class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='columns.items[8].selected' id="CB_70" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td id='CBTD_71' width='30px' class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='columns.items[8].key' id="CB_71" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td id="TXTTD_72"    width='50%'  valign='middle' class='TEXTOUTColumn' ><div   data-testtoolid='columns.items[8].column'  id="S_72" class="TEXTOUTSpan" style=";; "></div>
+</td>
+<td id="TXTTD_73"    width='50%'  valign='middle' class='TEXTOUTColumn' ><div   data-testtoolid='columns.items[8].type'  id="S_73" class="TEXTOUTSpan" style=";; "></div>
+</td>
+</tr>
+<tr id='STR74'>
+<td id='CBTD_75' width='50px' class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='columns.items[9].selected' id="CB_75" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td id='CBTD_76' width='30px' class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='columns.items[9].key' id="CB_76" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td id="TXTTD_77"    width='50%'  valign='middle' class='TEXTOUTColumn' ><div   data-testtoolid='columns.items[9].column'  id="S_77" class="TEXTOUTSpan" style=";; "></div>
+</td>
+<td id="TXTTD_78"    width='50%'  valign='middle' class='TEXTOUTColumn' ><div   data-testtoolid='columns.items[9].type'  id="S_78" class="TEXTOUTSpan" style=";; "></div>
+</td>
+</tr>
+</table>
+</div></td></tr></table></td>
+<td height="100%" class='TDAroundControl'>
+<div id="IDO_27" class="VSCROLLBAROuterDiv" style="height:100%;overflow-y: auto" onscroll="reactOnScroll27();" onkeydown="reactOnKeyDown27(event);">
+<div id='ID_27' style='width:1px;height:10%'>
+<a name='PC'></a></div>
+</div>
+<script>
+function reactOnModelUpdate27(model) { C.reactOnModelUpdateVSCROLLBAR(C_27,CID_27); }
+function reactOnScroll27() { return C.reactOnScrollVSCROLLBAR(C_27,CID_27); }
+function reactOnMouseUp27() { return C.reactOnMouseUpVSCROLLBAR(C_27,CID_27); }
+function scrollUp27(delta) { return C.reactOnScrollUpVSCROLLBAR(C_27,CID_27,delta); }
+function scrollDown27(delta) { return C.reactOnScrollDownVSCROLLBAR(C_27,CID_27,delta); }
+function scrollPageUp27() { C.reactOnScrollPageUpVSCROLLBAR(C_27,CID_27); }
+function scrollPageDown27() { C.reactOnScrollPageDownVSCROLLBAR(C_27,CID_27); }
+function mozDragReact27(evt) { C.mozDragReactVSCROLLBAR(C_27,mozDragReact27,evt); }
+function reactOnKeyDown27(evt) { C.reactOnKeyDownSCROLLBAR(C_27,mozDragReact27,evt); }
+</script>
+</td>
+</tr>
+</table>
+<script>
+var m_heightOfRow27;
+var m_firstRun27 = true;
+var m_rowtableareaids27 = '';
+function getRowTableAreaIds27() { return m_rowtableareaids27; }
+CTAB_27 = document.getElementById('TAB27');
+CDIV_27 = document.getElementById('DIV27');
+CDIV_27.CASA_rows = [];
+CDIV_27.CASA_repeat = [];
+CDIV_27.CASA_rowcountprop = 'columns.rowCount';
+function reactOnResize27() { C.reactOnModelUpdateTABLEAREA(CDIV_27); }
+function reactOnModelUpdateTA27() { C.reactOnModelUpdateTABLEAREA(CDIV_27,true); }
+function registerRow27(pindex,prow) { if (m_firstRun27 == false) return; CDIV_27.CASA_repeat.push(pindex); CDIV_27.CASA_rows.push(prow); }
+function react27(evt) { C.CASA_event = evt; return C.reactTA(CDIV_27, evt,C_27,CID_27); }
+function reactOnMouseWheel27(ctrlEvent) { if (ctrlEvent.shiftKey) C.CL().cancelEvent(ctrlEvent); else { try { ae = document.activeElement; if(ae != document.body) ae.blur(); } catch (e) {}var scrolled; var scrollUp=true; if (ctrlEvent.detail && ctrlEvent.detail>0)scrollUp=false;else if (ctrlEvent.wheelDelta && ctrlEvent.wheelDelta<0)scrollUp=false;if (!scrollUp) scrolled =scrollDown27(2); else scrolled=scrollUp27(2); if (scrolled) C.CL().cancelEvent(ctrlEvent);} }
+</script>
+</td></tr>
+<tr style=' ' ><td height="10px" class='TDAroundControl' ></td></tr>
+<tr id='ITR80'  >
+<td   valign='top' colspan='50' class='TDAroundControl'  height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 ><tr>
+<td id='HD81' class='TDAroundControl' style='font-size:1px' width='100px'><div style='font-size:1px;height:1px;width:100px'></div></td>
+<td id="TDB82"  width=0 colspan=1 rowspan=1 class='TDAroundControl' align='left' valign='middle' >
+<button type="button" id="B_82" data-testtoolid='onCreateLayout' style=" "  name="CC" class="BUTTONInput">Create Layout</button>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan='50' id="STATUSBARSTATUSBAR" class='TDAroundControl' width='100%' height='0' align='center'>
+<table width="100%" cellspacing="0" cellpadding="0" class="STATUSBARTable">
+<tr>
+<td class='TDAroundControl'>&nbsp;&nbsp;</td><td class='TDAroundControl' valign="middle"><span id='STATUSBARIMAGE83'></span></td>
+<td class='TDAroundControl'><div class='STATUSBARDivAfterIcon'></div></td>
+<td  nowrap='true' width="100%" class="STATUSBARCell" valign="middle">
+<span id='STATUSBAR83'></span>
+</td></tr>
+</table>
+</td>
+</tr>
+</table>
+<script>
+var CasaPAGE = document.getElementById('THISPAGE');
+var CasaLOADING = document.getElementById('JUSTLOADING');
+var m_dropInfo = null;
+var m_dragMode = false;
+var m_dragId = null;
+var m_dragType = null;
+var m_dropMethod = null;
+var m_blockIO = true;
+var m_blockIOByFlush = false;
+var m_startInitDate;
+var m_endInitDate;
+var m_resizeListeners = [];
+var m_helpIdPAGE = '';
+var C;
+var m_roi_firstusage;
+function reactOnInit(firstusage)
+{
+if (firstusage == undefined) firstusage = true;
+m_roi_firstusage = firstusage;if (parent.m_centralLib == null) { document.location.href = '../HTMLBasedGUI/general/aboutBlank.html'; return; }
+C = csciframe;
+CL = C.CL();
+m_resizeListeners = [];
+m_flagResize = true;
+m_startInitDate = new Date();
+C.addLogMessage('page.reactOnInit started - showPage date = ' + parent.m_showPageDate.getSeconds() + '/' + parent.m_showPageDate.getMilliseconds());
+C.addLogMessage('loading page started =' + m_perfPageLoadStart.getSeconds() + '/' + m_perfPageLoadStart.getMilliseconds());
+C.initGlobals();
+m_pageCompletelyBuilt = false;
+m_fillTextIdListeners = [];
+m_dragMode = false;
+m_dragId = null;
+m_dropMethod = null;
+m_blockIO = true;
+m_blockIOByFlush = false;
+var sid = parent.getCurrentSessionId();
+var pid = parent.getCurrentProcessId();
+var mid = parent.getCurrentModelId();
+var pageInitParam = parent.pageInitParam;
+if (pageInitParam == null) pageInitParam = '';
+if (firstusage) generateCCs();
+if (firstusage) C_2 = gebid('TITLEBARTITLEBARTR');
+if (firstusage) CL.iccTITLEBAR(C,C_2,N,'2',N,N,N,N,N,N,N,'endProcess',N, N,'false');
+if (firstusage) CF_6.CASA_fic = gebid("FIC_6");
+if (firstusage) C.iccFIELD(CF_6,romu6,C.reactFIELD,'sqlService',N,N,N,N,N,'openIdValueComboOrPopup',N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'5',N,N,N,N,N,N,false,N,N,true,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C_4 = document.getElementById('ITR4');
+if (firstusage) CL.iccTR(C,C_4,'sqlServiceAvailable');
+if (firstusage) C.registerListener(reactOnModelUpdate4);
+if (firstusage) C.iccFIELD(CF_9,romu9,C.reactFIELD,'driverClass',N,N,N,N,N,N,N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_12,romu12,C.reactFIELD,'connectionURL',N,N,N,N,N,N,N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) CF_15.CASA_fic = gebid("FIC_15");
+if (firstusage) C.iccFIELD(CF_15,romu15,C.reactFIELD,'table',N,N,N,N,N,'openIdValueComboOrPopup',N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'5',N,N,N,N,N,N,false,N,N,true,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_18,romu18,C.reactFIELD,'prefix',N,N,N,N,N,N,N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccBUTTON(CB_22,null,rohk22,C.reactBUTTON,N,N,N,'onShowTable',N,N,N,N,N,'',N,'','1',N,N,N,N,N,N,N,N,N);
+if (firstusage) C.iccCHECKBOX(CCB_30,N,romu30,C.reactCHECKBOX,'columns.items[0].selected','false',N,'server',N,N,'1',N,N,N,N);
+if (firstusage) CCB_30.CASA_td = gebid('CBTD_30');
+if (firstusage) C.iccCHECKBOX(CCB_31,N,romu31,C.reactCHECKBOX,'columns.items[0].key','true',N,N,N,N,'1',N,N,N,N);
+if (firstusage) CCB_31.CASA_td = gebid('CBTD_31');
+if (firstusage) C_32 = gebid('S_32');
+if (firstusage) C.iccTEXTOUT(C_32,N,'columns.items[0].column','null','null',N,N,N,N,N,N);
+C.registerListener(romu32);
+if (firstusage) C_33 = gebid('S_33');
+if (firstusage) C.iccTEXTOUT(C_33,N,'columns.items[0].type','null','null',N,N,N,N,N,N);
+C.registerListener(romu33);
+if (firstusage) C_29 = document.getElementById('STR29');
+C.iccSTR(C_29,'columns.items[0].selected','STRRowUnselected','false',N,N,N,N,N,N,N,N,'true');
+if (firstusage) C.registerListener(reactOnModelUpdate29);
+try { C.startFocusLine(); } catch(e) {}
+if (firstusage) C.iccCHECKBOX(CCB_35,N,romu35,C.reactCHECKBOX,'columns.items[1].selected','false',N,'server',N,N,'1',N,N,N,N);
+if (firstusage) CCB_35.CASA_td = gebid('CBTD_35');
+if (firstusage) C.iccCHECKBOX(CCB_36,N,romu36,C.reactCHECKBOX,'columns.items[1].key','true',N,N,N,N,'1',N,N,N,N);
+if (firstusage) CCB_36.CASA_td = gebid('CBTD_36');
+if (firstusage) C_37 = gebid('S_37');
+if (firstusage) C.iccTEXTOUT(C_37,N,'columns.items[1].column','null','null',N,N,N,N,N,N);
+C.registerListener(romu37);
+if (firstusage) C_38 = gebid('S_38');
+if (firstusage) C.iccTEXTOUT(C_38,N,'columns.items[1].type','null','null',N,N,N,N,N,N);
+C.registerListener(romu38);
+if (firstusage) C_34 = document.getElementById('STR34');
+C.iccSTR(C_34,'columns.items[1].selected','STRRowUnselected','false',N,N,N,N,N,N,N,N,'true');
+if (firstusage) C.registerListener(reactOnModelUpdate34);
+try { C.startFocusLine(); } catch(e) {}
+if (firstusage) C.iccCHECKBOX(CCB_40,N,romu40,C.reactCHECKBOX,'columns.items[2].selected','false',N,'server',N,N,'1',N,N,N,N);
+if (firstusage) CCB_40.CASA_td = gebid('CBTD_40');
+if (firstusage) C.iccCHECKBOX(CCB_41,N,romu41,C.reactCHECKBOX,'columns.items[2].key','true',N,N,N,N,'1',N,N,N,N);
+if (firstusage) CCB_41.CASA_td = gebid('CBTD_41');
+if (firstusage) C_42 = gebid('S_42');
+if (firstusage) C.iccTEXTOUT(C_42,N,'columns.items[2].column','null','null',N,N,N,N,N,N);
+C.registerListener(romu42);
+if (firstusage) C_43 = gebid('S_43');
+if (firstusage) C.iccTEXTOUT(C_43,N,'columns.items[2].type','null','null',N,N,N,N,N,N);
+C.registerListener(romu43);
+if (firstusage) C_39 = document.getElementById('STR39');
+C.iccSTR(C_39,'columns.items[2].selected','STRRowUnselected','false',N,N,N,N,N,N,N,N,'true');
+if (firstusage) C.registerListener(reactOnModelUpdate39);
+try { C.startFocusLine(); } catch(e) {}
+if (firstusage) C.iccCHECKBOX(CCB_45,N,romu45,C.reactCHECKBOX,'columns.items[3].selected','false',N,'server',N,N,'1',N,N,N,N);
+if (firstusage) CCB_45.CASA_td = gebid('CBTD_45');
+if (firstusage) C.iccCHECKBOX(CCB_46,N,romu46,C.reactCHECKBOX,'columns.items[3].key','true',N,N,N,N,'1',N,N,N,N);
+if (firstusage) CCB_46.CASA_td = gebid('CBTD_46');
+if (firstusage) C_47 = gebid('S_47');
+if (firstusage) C.iccTEXTOUT(C_47,N,'columns.items[3].column','null','null',N,N,N,N,N,N);
+C.registerListener(romu47);
+if (firstusage) C_48 = gebid('S_48');
+if (firstusage) C.iccTEXTOUT(C_48,N,'columns.items[3].type','null','null',N,N,N,N,N,N);
+C.registerListener(romu48);
+if (firstusage) C_44 = document.getElementById('STR44');
+C.iccSTR(C_44,'columns.items[3].selected','STRRowUnselected','false',N,N,N,N,N,N,N,N,'true');
+if (firstusage) C.registerListener(reactOnModelUpdate44);
+try { C.startFocusLine(); } catch(e) {}
+if (firstusage) C.iccCHECKBOX(CCB_50,N,romu50,C.reactCHECKBOX,'columns.items[4].selected','false',N,'server',N,N,'1',N,N,N,N);
+if (firstusage) CCB_50.CASA_td = gebid('CBTD_50');
+if (firstusage) C.iccCHECKBOX(CCB_51,N,romu51,C.reactCHECKBOX,'columns.items[4].key','true',N,N,N,N,'1',N,N,N,N);
+if (firstusage) CCB_51.CASA_td = gebid('CBTD_51');
+if (firstusage) C_52 = gebid('S_52');
+if (firstusage) C.iccTEXTOUT(C_52,N,'columns.items[4].column','null','null',N,N,N,N,N,N);
+C.registerListener(romu52);
+if (firstusage) C_53 = gebid('S_53');
+if (firstusage) C.iccTEXTOUT(C_53,N,'columns.items[4].type','null','null',N,N,N,N,N,N);
+C.registerListener(romu53);
+if (firstusage) C_49 = document.getElementById('STR49');
+C.iccSTR(C_49,'columns.items[4].selected','STRRowUnselected','false',N,N,N,N,N,N,N,N,'true');
+if (firstusage) C.registerListener(reactOnModelUpdate49);
+try { C.startFocusLine(); } catch(e) {}
+if (firstusage) C.iccCHECKBOX(CCB_55,N,romu55,C.reactCHECKBOX,'columns.items[5].selected','false',N,'server',N,N,'1',N,N,N,N);
+if (firstusage) CCB_55.CASA_td = gebid('CBTD_55');
+if (firstusage) C.iccCHECKBOX(CCB_56,N,romu56,C.reactCHECKBOX,'columns.items[5].key','true',N,N,N,N,'1',N,N,N,N);
+if (firstusage) CCB_56.CASA_td = gebid('CBTD_56');
+if (firstusage) C_57 = gebid('S_57');
+if (firstusage) C.iccTEXTOUT(C_57,N,'columns.items[5].column','null','null',N,N,N,N,N,N);
+C.registerListener(romu57);
+if (firstusage) C_58 = gebid('S_58');
+if (firstusage) C.iccTEXTOUT(C_58,N,'columns.items[5].type','null','null',N,N,N,N,N,N);
+C.registerListener(romu58);
+if (firstusage) C_54 = document.getElementById('STR54');
+C.iccSTR(C_54,'columns.items[5].selected','STRRowUnselected','false',N,N,N,N,N,N,N,N,'true');
+if (firstusage) C.registerListener(reactOnModelUpdate54);
+try { C.startFocusLine(); } catch(e) {}
+if (firstusage) C.iccCHECKBOX(CCB_60,N,romu60,C.reactCHECKBOX,'columns.items[6].selected','false',N,'server',N,N,'1',N,N,N,N);
+if (firstusage) CCB_60.CASA_td = gebid('CBTD_60');
+if (firstusage) C.iccCHECKBOX(CCB_61,N,romu61,C.reactCHECKBOX,'columns.items[6].key','true',N,N,N,N,'1',N,N,N,N);
+if (firstusage) CCB_61.CASA_td = gebid('CBTD_61');
+if (firstusage) C_62 = gebid('S_62');
+if (firstusage) C.iccTEXTOUT(C_62,N,'columns.items[6].column','null','null',N,N,N,N,N,N);
+C.registerListener(romu62);
+if (firstusage) C_63 = gebid('S_63');
+if (firstusage) C.iccTEXTOUT(C_63,N,'columns.items[6].type','null','null',N,N,N,N,N,N);
+C.registerListener(romu63);
+if (firstusage) C_59 = document.getElementById('STR59');
+C.iccSTR(C_59,'columns.items[6].selected','STRRowUnselected','false',N,N,N,N,N,N,N,N,'true');
+if (firstusage) C.registerListener(reactOnModelUpdate59);
+try { C.startFocusLine(); } catch(e) {}
+if (firstusage) C.iccCHECKBOX(CCB_65,N,romu65,C.reactCHECKBOX,'columns.items[7].selected','false',N,'server',N,N,'1',N,N,N,N);
+if (firstusage) CCB_65.CASA_td = gebid('CBTD_65');
+if (firstusage) C.iccCHECKBOX(CCB_66,N,romu66,C.reactCHECKBOX,'columns.items[7].key','true',N,N,N,N,'1',N,N,N,N);
+if (firstusage) CCB_66.CASA_td = gebid('CBTD_66');
+if (firstusage) C_67 = gebid('S_67');
+if (firstusage) C.iccTEXTOUT(C_67,N,'columns.items[7].column','null','null',N,N,N,N,N,N);
+C.registerListener(romu67);
+if (firstusage) C_68 = gebid('S_68');
+if (firstusage) C.iccTEXTOUT(C_68,N,'columns.items[7].type','null','null',N,N,N,N,N,N);
+C.registerListener(romu68);
+if (firstusage) C_64 = document.getElementById('STR64');
+C.iccSTR(C_64,'columns.items[7].selected','STRRowUnselected','false',N,N,N,N,N,N,N,N,'true');
+if (firstusage) C.registerListener(reactOnModelUpdate64);
+try { C.startFocusLine(); } catch(e) {}
+if (firstusage) C.iccCHECKBOX(CCB_70,N,romu70,C.reactCHECKBOX,'columns.items[8].selected','false',N,'server',N,N,'1',N,N,N,N);
+if (firstusage) CCB_70.CASA_td = gebid('CBTD_70');
+if (firstusage) C.iccCHECKBOX(CCB_71,N,romu71,C.reactCHECKBOX,'columns.items[8].key','true',N,N,N,N,'1',N,N,N,N);
+if (firstusage) CCB_71.CASA_td = gebid('CBTD_71');
+if (firstusage) C_72 = gebid('S_72');
+if (firstusage) C.iccTEXTOUT(C_72,N,'columns.items[8].column','null','null',N,N,N,N,N,N);
+C.registerListener(romu72);
+if (firstusage) C_73 = gebid('S_73');
+if (firstusage) C.iccTEXTOUT(C_73,N,'columns.items[8].type','null','null',N,N,N,N,N,N);
+C.registerListener(romu73);
+if (firstusage) C_69 = document.getElementById('STR69');
+C.iccSTR(C_69,'columns.items[8].selected','STRRowUnselected','false',N,N,N,N,N,N,N,N,'true');
+if (firstusage) C.registerListener(reactOnModelUpdate69);
+try { C.startFocusLine(); } catch(e) {}
+if (firstusage) C.iccCHECKBOX(CCB_75,N,romu75,C.reactCHECKBOX,'columns.items[9].selected','false',N,'server',N,N,'1',N,N,N,N);
+if (firstusage) CCB_75.CASA_td = gebid('CBTD_75');
+if (firstusage) C.iccCHECKBOX(CCB_76,N,romu76,C.reactCHECKBOX,'columns.items[9].key','true',N,N,N,N,'1',N,N,N,N);
+if (firstusage) CCB_76.CASA_td = gebid('CBTD_76');
+if (firstusage) C_77 = gebid('S_77');
+if (firstusage) C.iccTEXTOUT(C_77,N,'columns.items[9].column','null','null',N,N,N,N,N,N);
+C.registerListener(romu77);
+if (firstusage) C_78 = gebid('S_78');
+if (firstusage) C.iccTEXTOUT(C_78,N,'columns.items[9].type','null','null',N,N,N,N,N,N);
+C.registerListener(romu78);
+if (firstusage) C_74 = document.getElementById('STR74');
+C.iccSTR(C_74,'columns.items[9].selected','STRRowUnselected','false',N,N,N,N,N,N,N,N,'true');
+if (firstusage) C.registerListener(reactOnModelUpdate74);
+try { C.startFocusLine(); } catch(e) {}
+C.iccTA(CDIV_27,react27,reactOnModelUpdateTA27,'10','10','27',N,N,N,N,N,N,N,'false',false,N,firstusage);
+m_firstRun27 = false;
+C_27 = CID_27.parentNode;
+if (C_27 == null) C_27 = gebid('IDO_27');
+C.iccVSCROLLBAR(C_27,CID_27,reactOnModelUpdate27,'27','columns.topIndex','columns.size','columns.rowCount',10,'auto','columns.param1');
+if (firstusage ) { if (CTAB_27.addEventListener) CTAB_27.addEventListener('DOMMouseScroll', reactOnMouseWheel27, false);}
+CDIV_27.CASA_griddataprop = 'columns';
+CDIV_27.CASA_topindexprop = 'columns.topIndex';
+CDIV_27.CASA_clipboardaccess = false;
+C_27.CASA_testtoolid = 'columns';
+if (firstusage) C.iccBUTTON(CB_82,null,rohk82,C.reactBUTTON,N,N,N,'onCreateLayout',N,N,N,N,N,'',N,'','1',N,N,N,N,N,N,N,N,N);
+if (firstusage) C_24 = document.getElementById('TR24');
+if (firstusage) C.initCasaControlDYNAVIS(C_24);C_24.CASA_valueprop = 'tableVisible';
+C.registerListener(reactOnModelUpdate24);
+if (firstusage) C_3 = document.getElementById('PAGEDIV3');
+if (firstusage) THISPAGEBODY = document.getElementById('PAGEDIV3');
+C.initCasaControlPAGEBODY(C_3);
+addResizeListener(reactOnResize3);
+if (firstusage) C.iccINTPOPUP();
+if (firstusage) CS_83 = document.getElementById('STATUSBARSTATUSBAR');if (firstusage) C_83 = document.getElementById('STATUSBAR83');if (firstusage) CL.iccSTATUSBAR(C_83,C);
+if (firstusage) C_IMAGE83 = document.getElementById('STATUSBARIMAGE83');if (firstusage) C.addFooterObject(CS_83);
+if (firstusage) C.registerListener(reactOnModelUpdate83);
+C_83.CASA_typeprop = 'messageType'
+C_83.CASA_shorttextprop = 'messageShortText'
+C_83.CASA_longtextprop = 'messageLongText'
+C.setPropertyValue('pageInitParam',pageInitParam);
+C.registerListenerAsFirst(reactOnModelUpdatePAGE);
+C.initWithModelIdAndSessionIdAndProcessId("com.softwareag.cis.editor.extension.sql.SQLExtensionAdapter",mid,sid,pid);
+m_endInitDate = new Date();
+m_roi_firstusage = undefined;
+}
+function startDrag(dragHTML,eve) { return C.startDragPAGE(dragHTML,eve); }function moveDrag(eve) { return C.moveDragPAGE(eve); }
+function removeTHISOCCUPIED() { return C.removeTHISOCCUPIED(); }
+function endDrag(eve) { return C.endDragPAGE(eve); }
+function processHotKeys(evt) { C.processHotKeys(evt); }
+function reactOnModelUpdatePAGE(model) { C.reactOnModelUpdatePAGE(); }
+function generateCCs()
+{
+var vCCs = document.getElementsByName('CC');
+for (var i=0; i<vCCs.length; i++)
+{
+var vCC = vCCs[i];
+if (vCC.id != null && vCC.id != '') window['C'+vCC.id] = vCC;
+}
+vCCs = document.getElementsByName('PC');
+for (var i=0; i<vCCs.length; i++)
+{
+var vCC = vCCs[i].parentNode;
+if (vCC.id != null && vCC.id != '') window['C'+vCC.id] = vCC;
+}
+}
+function reactOnResize() { if (m_flagResize == false) return; C.handleReactOnResize();}
+function addResizeListener(resizeListener) { m_resizeListeners[m_resizeListeners.length] = resizeListener; }
+function fillTextIdSpans() { C.replaceTextIds(); for (i=0; i<m_fillTextIdListeners.length; i++) m_fillTextIdListeners[i](); }
+function invokeMethodInModel(methodName) { C.invokeMethodInModel(methodName); }
+function getPropertyValue(propertyName) { return C.getPropertyValue(propertyName); }
+function setPropertyValue(propertyName,propertyValue) { C.setPropertyValue(propertyName,propertyValue); }
+function romuINTPAGEPOPUP() { C.romuINTPOPUP(); }
+function reactOnResize3() { C.reactOnResizePAGEBODY(C_3); }
+function reactOnModelUpdate4(model) { CL.romuTR(C_4);}
+function romu6(model) { C.romuFIELD(CF_6); }
+function romu9(model) { C.romuFIELD(CF_9); }
+function romu12(model) { C.romuFIELD(CF_12); }
+function romu15(model) { C.romuFIELD(CF_15); }
+function romu18(model) { C.romuFIELD(CF_18); }
+function rohk22(param) { C.transferModelBUTTON(CB_22); }
+function reactOnModelUpdate24(model) { C.reactOnModelUpdateDYNAVIS(C_24); }
+function reactOnModelUpdate29() { C.romuSTR(C_29); }
+function romu30(model) { C.romuCHECKBOX(CCB_30); }
+function romu31(model) { C.romuCHECKBOX(CCB_31); }
+function romu32(model) { C.romuTEXTOUT(C_32); }
+function romu33(model) { C.romuTEXTOUT(C_33); }
+function reactOnModelUpdate34() { C.romuSTR(C_34); }
+function romu35(model) { C.romuCHECKBOX(CCB_35); }
+function romu36(model) { C.romuCHECKBOX(CCB_36); }
+function romu37(model) { C.romuTEXTOUT(C_37); }
+function romu38(model) { C.romuTEXTOUT(C_38); }
+function reactOnModelUpdate39() { C.romuSTR(C_39); }
+function romu40(model) { C.romuCHECKBOX(CCB_40); }
+function romu41(model) { C.romuCHECKBOX(CCB_41); }
+function romu42(model) { C.romuTEXTOUT(C_42); }
+function romu43(model) { C.romuTEXTOUT(C_43); }
+function reactOnModelUpdate44() { C.romuSTR(C_44); }
+function romu45(model) { C.romuCHECKBOX(CCB_45); }
+function romu46(model) { C.romuCHECKBOX(CCB_46); }
+function romu47(model) { C.romuTEXTOUT(C_47); }
+function romu48(model) { C.romuTEXTOUT(C_48); }
+function reactOnModelUpdate49() { C.romuSTR(C_49); }
+function romu50(model) { C.romuCHECKBOX(CCB_50); }
+function romu51(model) { C.romuCHECKBOX(CCB_51); }
+function romu52(model) { C.romuTEXTOUT(C_52); }
+function romu53(model) { C.romuTEXTOUT(C_53); }
+function reactOnModelUpdate54() { C.romuSTR(C_54); }
+function romu55(model) { C.romuCHECKBOX(CCB_55); }
+function romu56(model) { C.romuCHECKBOX(CCB_56); }
+function romu57(model) { C.romuTEXTOUT(C_57); }
+function romu58(model) { C.romuTEXTOUT(C_58); }
+function reactOnModelUpdate59() { C.romuSTR(C_59); }
+function romu60(model) { C.romuCHECKBOX(CCB_60); }
+function romu61(model) { C.romuCHECKBOX(CCB_61); }
+function romu62(model) { C.romuTEXTOUT(C_62); }
+function romu63(model) { C.romuTEXTOUT(C_63); }
+function reactOnModelUpdate64() { C.romuSTR(C_64); }
+function romu65(model) { C.romuCHECKBOX(CCB_65); }
+function romu66(model) { C.romuCHECKBOX(CCB_66); }
+function romu67(model) { C.romuTEXTOUT(C_67); }
+function romu68(model) { C.romuTEXTOUT(C_68); }
+function reactOnModelUpdate69() { C.romuSTR(C_69); }
+function romu70(model) { C.romuCHECKBOX(CCB_70); }
+function romu71(model) { C.romuCHECKBOX(CCB_71); }
+function romu72(model) { C.romuTEXTOUT(C_72); }
+function romu73(model) { C.romuTEXTOUT(C_73); }
+function reactOnModelUpdate74() { C.romuSTR(C_74); }
+function romu75(model) { C.romuCHECKBOX(CCB_75); }
+function romu76(model) { C.romuCHECKBOX(CCB_76); }
+function romu77(model) { C.romuTEXTOUT(C_77); }
+function romu78(model) { C.romuTEXTOUT(C_78); }
+function rohk82(param) { C.transferModelBUTTON(CB_82); }
+function reactOnModelUpdate83(model) { CL.romuSTATUSBAR(C_83,C_IMAGE83); }
+function resetBeforeUpdate83(model) { CL.resetSTATUSBAR(C_83,C_IMAGE83); }
+</script>
+<iframe hidden id="csciframe" name="csciframe" tabIndex="-1" src="xci.editor.SQLExtension_JLIBS.html" style="width:0;height:0;left:0;top:0">
+</iframe>
+</body>
+</html>

@@ -1,0 +1,48 @@
+DB: 243 FILE: 009  - CFPP-TB-CONTROLES                DEFAULT SEQUENCE: 
+TYPE: ADABAS 
+ 
+T L DB Name                              F Leng  S D Remark 
+- - -- --------------------------------  - ----  - - -------------------- 
+*      >Natural Source Header 000000
+*      :CP
+*      
+*      
+*      :LineIncrement 10
+*      <Natural Source Header
+*   Generation started 
+*   at 2022-12-01 14:04:21 
+*   by user SAG 
+* 
+  1 BX TB-SELECIONADOR                   N  1.0  N D 
+  1 A1 TB-COD-TAB                        N  2.0  N 
+  1 R1 TB-STATUS-TAB                     N  1.0  N 
+  1 R2 TB-NUM-TAB                        N  2.0  N D 
+  1 X1 TB-PISO-SAL-CTR                   P  9.2  N 
+  1 R3 TB-SMIN-CTR                       P  9.2  N 
+  1 R4 TB-SFAM-CLT-CTR                   P  7.2  N 
+  1 R5 TB-SFAM-ESTAT-CTR                 P  7.2  N 
+  1 R7 TB-TETO-DESC-PADRAO-CTR           P  9.2  N 
+  1 R8 TB-LIM-ABAT01-CTR                 P  9.2  N 
+  1 R9 TB-LIM-ABAT02-CTR                 P  7.2  N 
+  1 S0 TB-ABAT-POR-DEP-CTR               P  7.2  N 
+  1 S1 TB-DESC-MIN-IREN-CTR              P  7.2  N 
+P 1 S2 TB-FX-IREN-CTR 
+  2 S3 TB-LIM-INF-IREN-CTR               P  9.2  N 
+  2 S4 TB-PERC-IREN-CTR                  P  2.2  N 
+  2 S5 TB-DEDUCAO-IREN-CTR               P  9.2  N 
+  1 S6 TB-NUM-ULT-PROCESSO               P  3.0  N 
+  1 S7 TB-VERSAO-TAB                     P  3.0  N 
+  1 AC TB-LIMIT-LOOP                     P  4.0  N 
+  1 EP TB-ULT-REMESSA-FITA-BEA           P  7.0  N 
+  1 KS TB-ULT-REMESSA-PAGFOR             N  5.0  N 
+  1 KT TB-ULT-NUM-PAGTO-PAGFOR           N 16.0  N 
+  1 KU TB-SIT-PROCESSAMENTO-PAGFOR       N  1.0  N 
+  1 FV TB-ULT-REMESSA-CARTAO             N  5.0  N 
+  1 FW TB-ULT-NUM-PAGTO-CARTAO           N  7.0  N 
+  1 VN TB-HR104-ULT-NSA                  N  6.0  N 
+  1 VO TB-DET104-ULT-NSR                 N  6.0  N 
+  1 VP TB-SIT-PROCESSAMENTO-CAIXA        N  1.0  N 
+* OPT=331      DESV-PRODAM-243                 YY03                YYY NNNNNU9N 
+* OPT=HOME                            VNY 
+* OPT= 
+* OPT=                                 D 

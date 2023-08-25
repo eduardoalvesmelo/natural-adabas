@@ -1,0 +1,1002 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.LanguageManagementAdapter" translationreference="CIS_TOOLS" casaindex="1" >
+
+
+        <titlebar textid="lm.titlebar.languagemanagement" closetitletextid="closePage" casaindex="2" >
+
+
+        </titlebar>
+
+
+        <header withdistance="false" casaindex="3" >
+
+
+                <button textid="btn.exit" method="endProcess" casaindex="4" >
+
+
+                </button>
+
+
+        </header>
+
+
+        <pagebody horizdist="false" takefullheight="true" casaindex="5" >
+
+
+                <rowarea textid="lm.rowarea.info" foldedprop="detailsVisible" withleftborder="false" withrightborder="false" casaindex="6" >
+
+
+                        <itr casaindex="7" >
+
+
+                                <label textid="lm.labeltext.definelanguagetool" asplaintext="true" casaindex="8" >
+
+
+                                </label>
+
+
+                        </itr>
+
+
+                        <vdist height="5" casaindex="9" >
+
+
+                        </vdist>
+
+
+                        <itr casaindex="10" >
+
+
+                                <label textid="lm.labeltext.languageowndirectory" asplaintext="true" casaindex="11" >
+
+
+                                </label>
+
+
+                        </itr>
+
+
+                </rowarea>
+
+
+                <rowarea textid="lm.rowarea.definelanguage" height="100%" withleftborder="false" withrightborder="false" casaindex="12" >
+
+
+                        <rowdynavis valueprop="headlineVisible" casaindex="13" >
+
+
+                                <itr casaindex="14" >
+
+
+                                        <label textid="lm.label.abbreviation" width="120" casaindex="15" >
+
+
+                                        </label>
+
+
+                    <field xsdType="xs:string" flush="server" valueprop="abbreviation" width="100" popupmethod="openIdValueCombo" casaindex="16" >
+
+                    </field>
+
+                                        <hdist width="50" casaindex="17" >
+
+
+                                        </hdist>
+
+
+                                        <button textid="btn.openccreate" method="onOpen" casaindex="18" >
+
+
+                                        </button>
+
+
+                                </itr>
+
+
+                        </rowdynavis>
+
+
+                        <rowdynavis valueprop="detailsVisible" height="100%" casaindex="19" >
+
+
+                                <itr casaindex="20" >
+
+
+                                        <label textid="label.abbreviation" width="120" casaindex="21" >
+
+
+                                        </label>
+
+
+                    <field xsdType="xs:string" valueprop="abbreviation" width="100" displayonly="true" popupmethod="openIdValueCombo" casaindex="22" >
+
+                    </field>
+
+                                </itr>
+
+
+                                <vdist height="10" casaindex="23" >
+
+
+                                </vdist>
+
+
+                                <itr casaindex="24" >
+
+
+                                        <label textid="lm.labeltext.translateliterals" asplaintext="true" casaindex="25" >
+
+
+                                        </label>
+
+
+                                </itr>
+
+
+                                <vdist height="10" casaindex="26" >
+
+
+                                </vdist>
+
+
+                                <rowtabarea leftindent="10" textid1="lm.rowtab.literals" page1="LABELS" textid2="lm.rowtab.messages" page2="MESSAGES" casaindex="27" >
+
+
+                                        <tabpage id="LABELS" casaindex="28" >
+
+
+                                                <rowtable0 casaindex="29" >
+
+
+                                                        <itr casaindex="30" >
+
+
+                                                                <coltable0 casaindex="31" >
+
+
+                                                                        <itr casaindex="32" >
+
+
+                                                                                <label textid="lm.label.dateinput" width="120" casaindex="33" >
+
+
+                                                                                </label>
+
+
+                                        <field xsdType="xs:string" valueprop="dateInput" width="120" casaindex="34" >
+
+                                        </field>
+
+                                                                        </itr>
+
+
+                                                                        <itr casaindex="35" >
+
+
+                                                                                <label textid="lm.label.timeinput" width="120" casaindex="36" >
+
+
+                                                                                </label>
+
+
+                                        <field xsdType="xs:string" valueprop="timeInput" width="120" casaindex="37" >
+
+                                        </field>
+
+                                                                        </itr>
+
+
+                                                                        <itr casaindex="38" >
+
+
+                                                                                <label textid="lm.label.txtinput" width="120" casaindex="39" >
+
+
+                                                                                </label>
+
+
+                                        <field xsdType="xs:string" valueprop="textInput" width="120" casaindex="40" >
+
+                                        </field>
+
+                                                                        </itr>
+
+
+                                                                        <itr casaindex="41" >
+
+
+                                                                                <label textid="lm.label.numberinput" width="120" casaindex="42" >
+
+
+                                                                                </label>
+
+
+                                        <field xsdType="xs:string" valueprop="numberInput" width="120" casaindex="43" >
+
+                                        </field>
+
+                                                                        </itr>
+
+
+                                                                        <itr casaindex="44" >
+
+
+                                                                                <label textid="lm.label.ok" width="120" casaindex="45" >
+
+
+                                                                                </label>
+
+
+                                        <field xsdType="xs:string" valueprop="ok" width="80" casaindex="46" >
+
+                                        </field>
+
+                                                                        </itr>
+
+
+                                                                </coltable0>
+
+
+                                                                <hdist width="10" casaindex="47" >
+
+
+                                                                </hdist>
+
+
+                                                                <vline color="#D0D0D0" casaindex="48" >
+
+
+                                                                </vline>
+
+
+                                                                <hdist width="10" casaindex="49" >
+
+
+                                                                </hdist>
+
+
+                                                                <coltable0 casaindex="50" >
+
+
+                                                                        <itr casaindex="51" >
+
+
+                                                                                <label textid="label.today" width="120" casaindex="52" >
+
+
+                                                                                </label>
+
+
+                                        <field xsdType="xs:string" valueprop="today" width="120" casaindex="53" >
+
+                                        </field>
+
+                                                                        </itr>
+
+
+                                                                        <itr casaindex="54" >
+
+
+                                                                                <label textid="label.hour" width="120" casaindex="55" >
+
+
+                                                                                </label>
+
+
+                                        <field xsdType="xs:string" valueprop="hour" width="120" casaindex="56" >
+
+                                        </field>
+
+                                                                        </itr>
+
+
+                                                                        <itr casaindex="57" >
+
+
+                                                                                <label textid="label.minute" width="120" casaindex="58" >
+
+
+                                                                                </label>
+
+
+                                        <field xsdType="xs:string" valueprop="minute" width="120" casaindex="59" >
+
+                                        </field>
+
+                                                                        </itr>
+
+
+                                                                        <itr casaindex="60" >
+
+
+                                                                                <label textid="label.second" width="120" casaindex="61" >
+
+
+                                                                                </label>
+
+
+                                        <field xsdType="xs:string" valueprop="second" width="120" casaindex="62" >
+
+                                        </field>
+
+                                                                        </itr>
+
+
+                                                                        <itr casaindex="63" >
+
+
+                                                                                <label textid="label.fileupload" width="120" casaindex="64" >
+
+
+                                                                                </label>
+
+
+                                        <field xsdType="xs:string" valueprop="fileUpload" width="120" casaindex="65" >
+
+                                        </field>
+
+                                                                        </itr>
+
+
+                                                                        <itr casaindex="66" >
+
+
+                                                                                <label textid="label.upload" width="120" casaindex="67" >
+
+
+                                                                                </label>
+
+
+                                        <field xsdType="xs:string" valueprop="upload" width="120" casaindex="68" >
+
+                                        </field>
+
+                                                                        </itr>
+
+
+                                                                </coltable0>
+
+
+                                                        </itr>
+
+
+                                                </rowtable0>
+
+
+                                                <vdist height="5" casaindex="69" >
+
+
+                                                </vdist>
+
+
+                                                <itr casaindex="70" >
+
+
+                                                        <coltable0 casaindex="71" >
+
+
+                                                                <itr casaindex="72" >
+
+
+                                                                        <label textid="lm.label.jan" width="120" casaindex="73" >
+
+
+                                                                        </label>
+
+
+                                    <field xsdType="xs:string" valueprop="month1" width="120" casaindex="74" >
+
+                                    </field>
+
+                                                                </itr>
+
+
+                                                                <itr casaindex="75" >
+
+
+                                                                        <label textid="lm.label.feb" width="120" casaindex="76" >
+
+
+                                                                        </label>
+
+
+                                    <field xsdType="xs:string" valueprop="month2" width="120" casaindex="77" >
+
+                                    </field>
+
+                                                                </itr>
+
+
+                                                                <itr casaindex="78" >
+
+
+                                                                        <label textid="lm.label.mar" width="120" casaindex="79" >
+
+
+                                                                        </label>
+
+
+                                    <field xsdType="xs:string" valueprop="month3" width="120" casaindex="80" >
+
+                                    </field>
+
+                                                                </itr>
+
+
+                                                                <itr casaindex="81" >
+
+
+                                                                        <label textid="lm.label.apr" width="120" casaindex="82" >
+
+
+                                                                        </label>
+
+
+                                    <field xsdType="xs:string" valueprop="month4" width="120" casaindex="83" >
+
+                                    </field>
+
+                                                                </itr>
+
+
+                                                                <itr casaindex="84" >
+
+
+                                                                        <label textid="lm.label.may" width="120" casaindex="85" >
+
+
+                                                                        </label>
+
+
+                                    <field xsdType="xs:string" valueprop="month5" width="120" casaindex="86" >
+
+                                    </field>
+
+                                                                </itr>
+
+
+                                                                <itr casaindex="87" >
+
+
+                                                                        <label textid="lm.label.jun" width="120" casaindex="88" >
+
+
+                                                                        </label>
+
+
+                                    <field xsdType="xs:string" valueprop="month6" width="120" casaindex="89" >
+
+                                    </field>
+
+                                                                </itr>
+
+
+                                                                <itr casaindex="90" >
+
+
+                                                                        <label textid="lm.label.jul" width="120" casaindex="91" >
+
+
+                                                                        </label>
+
+
+                                    <field xsdType="xs:string" valueprop="month7" width="120" casaindex="92" >
+
+                                    </field>
+
+                                                                </itr>
+
+
+                                                                <itr casaindex="93" >
+
+
+                                                                        <label textid="lm.label.aug" width="120" casaindex="94" >
+
+
+                                                                        </label>
+
+
+                                    <field xsdType="xs:string" valueprop="month8" width="120" casaindex="95" >
+
+                                    </field>
+
+                                                                </itr>
+
+
+                                                                <itr casaindex="96" >
+
+
+                                                                        <label textid="lm.label.sep" width="120" casaindex="97" >
+
+
+                                                                        </label>
+
+
+                                    <field xsdType="xs:string" valueprop="month9" width="120" casaindex="98" >
+
+                                    </field>
+
+                                                                </itr>
+
+
+                                                                <itr casaindex="99" >
+
+
+                                                                        <label textid="lm.label.Oct" width="120" casaindex="100" >
+
+
+                                                                        </label>
+
+
+                                    <field xsdType="xs:string" valueprop="month10" width="120" casaindex="101" >
+
+                                    </field>
+
+                                                                </itr>
+
+
+                                                                <itr casaindex="102" >
+
+
+                                                                        <label textid="lm.label.nov" width="120" casaindex="103" >
+
+
+                                                                        </label>
+
+
+                                    <field xsdType="xs:string" valueprop="month11" width="120" casaindex="104" >
+
+                                    </field>
+
+                                                                </itr>
+
+
+                                                                <itr casaindex="105" >
+
+
+                                                                        <label textid="lm.label.dec" width="120" casaindex="106" >
+
+
+                                                                        </label>
+
+
+                                    <field xsdType="xs:string" valueprop="month12" width="120" casaindex="107" >
+
+                                    </field>
+
+                                                                </itr>
+
+
+                                                        </coltable0>
+
+
+                                                        <hdist width="10" casaindex="108" >
+
+
+                                                        </hdist>
+
+
+                                                        <vline color="#D0D0D0" casaindex="109" >
+
+
+                                                        </vline>
+
+
+                                                        <hdist width="10" casaindex="110" >
+
+
+                                                        </hdist>
+
+
+                                                        <coltable0 casaindex="111" >
+
+
+                                                                <itr casaindex="112" >
+
+
+                                                                        <label textid="lm.label.mo" width="120" casaindex="113" >
+
+
+                                                                        </label>
+
+
+                                    <field xsdType="xs:string" valueprop="day1" width="40" casaindex="114" >
+
+                                    </field>
+
+                                                                </itr>
+
+
+                                                                <itr casaindex="115" >
+
+
+                                                                        <label textid="lm.label.tu" width="120" casaindex="116" >
+
+
+                                                                        </label>
+
+
+                                    <field xsdType="xs:string" valueprop="day2" width="40" casaindex="117" >
+
+                                    </field>
+
+                                                                </itr>
+
+
+                                                                <itr casaindex="118" >
+
+
+                                                                        <label textid="lm.label.We" width="120" casaindex="119" >
+
+
+                                                                        </label>
+
+
+                                    <field xsdType="xs:string" valueprop="day3" width="40" casaindex="120" >
+
+                                    </field>
+
+                                                                </itr>
+
+
+                                                                <itr casaindex="121" >
+
+
+                                                                        <label textid="lm.label.Th" width="120" casaindex="122" >
+
+
+                                                                        </label>
+
+
+                                    <field xsdType="xs:string" valueprop="day4" width="40" casaindex="123" >
+
+                                    </field>
+
+                                                                </itr>
+
+
+                                                                <itr casaindex="124" >
+
+
+                                                                        <label textid="lm.label.fri" width="120" casaindex="125" >
+
+
+                                                                        </label>
+
+
+                                    <field xsdType="xs:string" valueprop="day5" width="40" casaindex="126" >
+
+                                    </field>
+
+                                                                </itr>
+
+
+                                                                <itr casaindex="127" >
+
+
+                                                                        <label textid="lm.label.Sa" width="120" casaindex="128" >
+
+
+                                                                        </label>
+
+
+                                    <field xsdType="xs:string" valueprop="day6" width="40" casaindex="129" >
+
+                                    </field>
+
+                                                                </itr>
+
+
+                                                                <itr casaindex="130" >
+
+
+                                                                        <label textid="lm.label.su" width="120" casaindex="131" >
+
+
+                                                                        </label>
+
+
+                                    <field xsdType="xs:string" valueprop="day7" width="40" casaindex="132" >
+
+                                    </field>
+
+                                                                </itr>
+
+
+                                                                <vdist height="8" casaindex="133" >
+
+
+                                                                </vdist>
+
+
+                                                                <itr casaindex="134" >
+
+
+                                                                        <label textid="label.ctrl" width="120" casaindex="135" >
+
+
+                                                                        </label>
+
+
+                                    <field xsdType="xs:string" valueprop="message6" width="100" casaindex="136" >
+
+                                    </field>
+
+                                                                </itr>
+
+
+                                                                <itr casaindex="137" >
+
+
+                                                                        <label textid="label.alt" width="120" casaindex="138" >
+
+
+                                                                        </label>
+
+
+                                    <field xsdType="xs:string" valueprop="message7" width="100" casaindex="139" >
+
+                                    </field>
+
+                                                                </itr>
+
+
+                                                                <itr casaindex="140" >
+
+
+                                                                        <label textid="label.shift" width="120" casaindex="141" >
+
+
+                                                                        </label>
+
+
+                                    <field xsdType="xs:string" valueprop="message8" width="100" casaindex="142" >
+
+                                    </field>
+
+                                                                </itr>
+
+
+                                                                <vdist height="8" casaindex="143" >
+
+
+                                                                </vdist>
+
+
+                                                                <itr casaindex="144" >
+
+
+                                                                        <label textid="lm.label.nomatchfor" width="120" casaindex="145" >
+
+
+                                                                        </label>
+
+
+                                    <field xsdType="xs:string" valueprop="message9" width="200" casaindex="146" >
+
+                                    </field>
+
+                                                                </itr>
+
+
+                                                        </coltable0>
+
+
+                                                </itr>
+
+
+                                        </tabpage>
+
+
+                                        <tabpage id="MESSAGES" casaindex="147" >
+
+
+                                                <rowarea textid="lm.rowarea.fieldvalid" casaindex="148" >
+
+
+                                                        <itr takefullwidth="true" casaindex="149" >
+
+
+                                                                <label textid="lm.labeltext.fieldUjustinput" width="100%" asplaintext="true" casaindex="150" >
+
+
+                                                                </label>
+
+
+                                                        </itr>
+
+
+                                                        <itr takefullwidth="true" casaindex="151" >
+
+
+                                <field xsdType="xs:string" valueprop="message1" width="100%" casaindex="152" >
+
+                                </field>
+
+                                                        </itr>
+
+
+                                                        <vdist height="5" casaindex="153" >
+
+
+                                                        </vdist>
+
+
+                                                        <itr takefullwidth="true" casaindex="154" >
+
+
+                                                                <label textid="lm.labeltext.fieldUjustinput2" width="100%" asplaintext="true" casaindex="155" >
+
+
+                                                                </label>
+
+
+                                                        </itr>
+
+
+                                                        <itr takefullwidth="true" casaindex="156" >
+
+
+                                <field xsdType="xs:string" valueprop="message4" width="100%" casaindex="157" >
+
+                                </field>
+
+                                                        </itr>
+
+
+                                                        <vdist height="5" casaindex="158" >
+
+
+                                                        </vdist>
+
+
+                                                        <itr takefullwidth="true" casaindex="159" >
+
+
+                                                                <label textid="lm.labeltext.pagecontains" width="100%" asplaintext="true" casaindex="160" >
+
+
+                                                                </label>
+
+
+                                                        </itr>
+
+
+                                                        <itr takefullwidth="true" casaindex="161" >
+
+
+                                <field xsdType="xs:string" valueprop="message5" width="100%" casaindex="162" >
+
+                                </field>
+
+                                                        </itr>
+
+
+                                                </rowarea>
+
+
+                                                <rowarea textid="lm.rowarea.dateinputctrl" casaindex="163" >
+
+
+                                                        <itr takefullwidth="true" casaindex="164" >
+
+
+                                                                <label textid="lm.labeltext.dateUjustinput" width="100%" asplaintext="true" casaindex="165" >
+
+
+                                                                </label>
+
+
+                                                        </itr>
+
+
+                                                        <itr takefullwidth="true" casaindex="166" >
+
+
+                                <field xsdType="xs:string" valueprop="message2" width="100%" casaindex="167" >
+
+                                </field>
+
+                                                        </itr>
+
+
+                                                        <vdist height="5" casaindex="168" >
+
+
+                                                        </vdist>
+
+
+                                                        <itr takefullwidth="true" casaindex="169" >
+
+
+                                                                <label textid="lm.labeltextdateUjustinput2" width="100%" asplaintext="true" casaindex="170" >
+
+
+                                                                </label>
+
+
+                                                        </itr>
+
+
+                                                        <itr takefullwidth="true" casaindex="171" >
+
+
+                                <field xsdType="xs:string" valueprop="message3" width="100%" casaindex="172" >
+
+                                </field>
+
+                                                        </itr>
+
+
+                                                </rowarea>
+
+
+                                        </tabpage>
+
+
+                                </rowtabarea>
+
+
+                                <vdist height="5" casaindex="173" >
+
+
+                                </vdist>
+
+
+                                <itr casaindex="174" >
+
+
+                                        <hdist width="100%" casaindex="175" >
+
+
+                                        </hdist>
+
+
+                                        <button textid="btn.savelanguage" method="onSave" image="images/save.gif" casaindex="176" >
+
+
+                                        </button>
+
+
+                                        <hdist width="10" casaindex="177" >
+
+
+                                        </hdist>
+
+
+                                        <button textid="btn.abortnosave" method="onAbort" image="images/remove.gif" buttonstyle="background-image: url(); background-color: #FFC0C0" casaindex="178" >
+
+
+                                        </button>
+
+
+                                </itr>
+
+
+                        </rowdynavis>
+
+
+                        <vdist height="100%" casaindex="179" >
+
+
+                        </vdist>
+
+
+                </rowarea>
+
+
+                <vdist casaindex="180" >
+
+
+                </vdist>
+
+
+        </pagebody>
+
+
+        <statusbar withdistance="false" casaindex="181" >
+
+
+        </statusbar>
+
+
+</page>

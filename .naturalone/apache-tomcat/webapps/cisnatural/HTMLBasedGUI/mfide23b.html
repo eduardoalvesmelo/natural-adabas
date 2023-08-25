@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<script>
+function onInitFramesBelow()
+{
+try { frames['CURRENTACTIVITIES'].location.replace('../HTMLBasedGUI/workplace/loading.html'); } catch (eexxcc) {}
+var vMFCF4 = document.getElementById('dummyTopRight');
+var vIP4 = '';
+if (parent.pageInitParamSL != null) vIP4 = '&' + parent.pageInitParamSL;
+frames['dummyTopRight'].location.replace ('../servlet/StartCISPage?PAGEURL=/HTMLBasedGUI/empty.html&SESSIONID='+parent.getCurrentSessionId()+'&SUBSESSIONID='+parent.getCurrentProcessId()+'&ONUNLOADBEHAVIOUR=NOTHING&CENTRALLIB=PP' + vIP4);
+addCasabacFrame(frames['dummyTopRight']);
+var vMFCF6 = document.getElementById('AVAILABLEACTIVITIES');
+var vIP6 = '';
+if (parent.pageInitParamSL != null) vIP6 = '&' + parent.pageInitParamSL;
+frames['AVAILABLEACTIVITIES'].location.replace ('../servlet/StartCISPage?PAGEURL=/HTMLBasedGUI/com.softwareag.cis.workplace.MFWorkplaceSSSPlusMinus.html&bootstrapClassName=com.softwareag.cis.editor.EditorWorkplace&activeFunctionsURL=/HTMLBasedGUI/MFActivitiesIDE23.html&SESSIONID='+parent.getCurrentSessionId()+'&SUBSESSIONID='+parent.getCurrentProcessId()+'&ONUNLOADBEHAVIOUR=REMOVESESSION&CENTRALLIB=PP' + vIP6);
+addCasabacFrame(frames['AVAILABLEACTIVITIES']);
+var vMFCF7 = document.getElementById('CONTENT');
+var vIP7 = '';
+if (parent.pageInitParamSL != null) vIP7 = '&' + parent.pageInitParamSL;
+frames['CONTENT'].location.replace ('../servlet/StartCISPage?PAGEURL=../HTMLBasedGUI/workplace/loading.html&SESSIONID='+parent.getCurrentSessionId()+'&SUBSESSIONID='+parent.getCurrentProcessId()+'&ONUNLOADBEHAVIOUR=NOTHING&CENTRALLIB=PP' + vIP7);
+addCasabacFrame(frames['CONTENT']);
+var vMFCF8 = document.getElementById('CISHELP');
+var vIP8 = '';
+if (parent.pageInitParamSL != null) vIP8 = '&' + parent.pageInitParamSL;
+frames['CISHELP'].location.replace ('../servlet/StartCISPage?PAGEURL=/HTMLBasedGUI/onlinehelp.html&SESSIONID='+parent.getCurrentSessionId()+'&SUBSESSIONID='+parent.getCurrentProcessId()+'&ONUNLOADBEHAVIOUR=NOTHING&CENTRALLIB=PP' + vIP8);
+addCasabacFrame(frames['CISHELP']);
+try { document.getElementById('dummmybottom').src = 'about:blank'; } catch (eexxcc) {}
+}
+</script>
+<script>
+var m_isCasabacMFPAGE = true;
+var m_casabacFrames = [];
+function onInitFrames() { onInitFramesBelow(); }
+function addCasabacFrame(pFrame) { m_casabacFrames.push(pFrame); }
+function getCasabacFrames() { return m_casabacFrames; }
+parent.bringToFrontSCP(location.href);</script>
+<html>
+<head>
+<title>Multi Frame Page</title>
+</head>
+<frameset bordercolor='#FFFFFF'  rows='40,*,8' style='' onload='onInitFrames();'>
+<frameset id='YYY' name='YYY' border='10'  cols='*,0' style=''>
+<frame marginheight='0' marginwidth='0'  style='border: 0px solid #000000' scrolling='no' noresize frameborder='0' id='CURRENTACTIVITIES' name='CURRENTACTIVITIES' src='../HTMLBasedGUI/general/aboutBlank.html'>
+<frame marginheight='0' marginwidth='0'  style='' noresize frameborder='0' id='dummyTopRight' name='dummyTopRight' scrolling='no' src='../HTMLBasedGUI/general/aboutBlank.html'>
+</frameset>
+<frameset id='ZZZ' name='ZZZ' border='10' frameborder='1'  cols='265,*,0' style=''>
+<frame marginheight='0' marginwidth='0'  style='border-width:1px; border-style:solid; border-color:#808080'  frameborder='0' id='AVAILABLEACTIVITIES' name='AVAILABLEACTIVITIES' scrolling='no' src='../HTMLBasedGUI/general/aboutBlank.html'>
+<frame marginheight='0' marginwidth='0'  style='border-width:1px; border-style:solid; border-color:#808080'  frameborder='0' id='CONTENT' name='CONTENT' scrolling='no' src='../HTMLBasedGUI/general/aboutBlank.html'>
+<frame marginheight='0' marginwidth='0'  style='border: 1px solid #808080'  frameborder='0' id='CISHELP' name='CISHELP' scrolling='no' src='../HTMLBasedGUI/general/aboutBlank.html'>
+</frameset>
+<frame marginheight='0' marginwidth='0'  style='' scrolling='no' noresize frameborder='0' id='dummmybottom' name='dummmybottom' src='../HTMLBasedGUI/general/aboutBlank.html'>
+</frameset>
+</html>

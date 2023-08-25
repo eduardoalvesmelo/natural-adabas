@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="DummyAdapter" translationreference="CIS_TOOLS" casaindex="1" >
+
+
+        <titlebar textid="licenseProbs.titlebar0" closetitletextid="closePage" casaindex="2" >
+
+
+        </titlebar>
+
+
+        <header withdistance="false" casaindex="3" >
+
+
+                <button method="endProcess" textid="licenseProbs.button0" casaindex="4" >
+
+
+                </button>
+
+
+        </header>
+
+
+        <pagebody casaindex="5" >
+
+
+                <vdist pixelheight="100" casaindex="6" >
+
+
+                </vdist>
+
+
+                <itr width="100%" casaindex="7" >
+
+
+                        <hdist width="50%" casaindex="8" >
+
+
+                        </hdist>
+
+
+                        <icon image="/HTMLBasedGUI/images/wating.gif" casaindex="9" >
+
+
+                        </icon>
+
+
+                        <hdist width="50%" casaindex="10" >
+
+
+                        </hdist>
+
+
+                </itr>
+
+
+                <vdist pixelheight="10" casaindex="11" >
+
+
+                </vdist>
+
+
+                <itr width="100%" casaindex="12" >
+
+
+                        <label asplaintext="true" textid="licenseProbs.label0" casaindex="13" >
+
+
+                        </label>
+
+
+                </itr>
+
+
+        </pagebody>
+
+
+        <statusbar withdistance="false" casaindex="14" >
+
+
+        </statusbar>
+
+
+</page>

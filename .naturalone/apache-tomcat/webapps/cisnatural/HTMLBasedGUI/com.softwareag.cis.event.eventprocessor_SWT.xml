@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.adapter.EventProcessorAdapter" casaindex="1" >
+
+
+        <titlebar name="Event Processor" casaindex="2" >
+
+
+        </titlebar>
+
+
+        <header withdistance="false" casaindex="3" >
+
+
+                <button name="Execute Event" method="onExecuteEvent" casaindex="4" >
+
+
+                </button>
+
+
+        </header>
+
+
+        <pagebody casaindex="5" >
+
+
+                <rowarea name="Event Data" casaindex="6" >
+
+
+                        <itr casaindex="7" >
+
+
+                                <label name="Event name" width="150" casaindex="8" >
+
+
+                                </label>
+
+
+                <field xsdType="xs:string" valueprop="eventname" width="200" casaindex="9" >
+
+                </field>
+
+                        </itr>
+
+
+                        <itr casaindex="10" >
+
+
+                                <label name="Project name" width="150" casaindex="11" >
+
+
+                                </label>
+
+
+                <field xsdType="xs:string" valueprop="projectname" width="200" casaindex="12" >
+
+                </field>
+
+                        </itr>
+
+
+                        <vdist height="10" casaindex="13" >
+
+
+                        </vdist>
+
+
+                        <itr casaindex="14" >
+
+
+                                <label name="Layout name" width="150" casaindex="15" >
+
+
+                                </label>
+
+
+                <field xsdType="xs:string" valueprop="layoutname" width="200" casaindex="16" >
+
+                </field>
+
+                        </itr>
+
+
+                        <vdist height="10" casaindex="17" >
+
+
+                        </vdist>
+
+
+                        <itr casaindex="18" >
+
+
+                                <label name="Layout names" width="150" casaindex="19" >
+
+
+                                </label>
+
+
+                <field xsdType="xs:string" valueprop="layoutnames" width="200" casaindex="20" >
+
+                </field>
+
+                        </itr>
+
+
+                        <vdist height="10" casaindex="21" >
+
+
+                        </vdist>
+
+
+                        <itr casaindex="22" >
+
+
+                                <text valueprop="inputdata" width="350" height="200" casaindex="23" >
+
+
+                                </text>
+
+
+                        </itr>
+
+
+                </rowarea>
+
+
+        </pagebody>
+
+
+        <statusbar withdistance="false" casaindex="24" >
+
+
+        </statusbar>
+
+
+</page>

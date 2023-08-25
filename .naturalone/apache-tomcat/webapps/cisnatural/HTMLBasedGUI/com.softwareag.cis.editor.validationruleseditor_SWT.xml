@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.ValidationRulesEditorAdapter" translationreference="editor" casaindex="1" >
+
+
+        <pagebody casaindex="2" >
+
+
+                <rowarea casaindex="3" >
+
+
+                        <itr casaindex="4" >
+
+
+                                <label textid="revre.label0" asplaintext="true" casaindex="5" >
+
+
+                                </label>
+
+
+                        </itr>
+
+
+                        <itr takefullwidth="true" casaindex="6" >
+
+
+                                <textgridsss2 griddataprop="validationRules" rowcount="5" width="100%" selectprop="selected" singleselect="true" withtitlerow="false" casaindex="7" >
+
+
+                                        <column property="validationRuleMsg" width="100%" textstyleprop="textStyle" convertspaces="true" casaindex="8" >
+
+
+                                        </column>
+
+
+                                </textgridsss2>
+
+
+                                <hdist width="10" casaindex="9" >
+
+
+                                </hdist>
+
+
+                                <coltable0 width="100" takefullheight="true" casaindex="10" >
+
+
+                                        <itr casaindex="11" >
+
+
+                                                <button textid="revre.button0" method="onAddRules" width="75" casaindex="12" >
+
+
+                                                </button>
+
+
+                                        </itr>
+
+
+                                        <itr casaindex="13" >
+
+
+                                                <button textid="revre.button1" method="onModifyRule" width="75" casaindex="14" >
+
+
+                                                </button>
+
+
+                                        </itr>
+
+
+                                        <itr casaindex="15" >
+
+
+                                                <button textid="revre.button2" method="onRemoveRule" width="75" casaindex="16" >
+
+
+                                                </button>
+
+
+                                        </itr>
+
+
+                                </coltable0>
+
+
+                        </itr>
+
+
+                        <vdist height="5" casaindex="17" >
+
+
+                        </vdist>
+
+
+                        <itr casaindex="18" >
+
+
+                                <label textid="revre.label1" casaindex="19" >
+
+
+                                </label>
+
+
+                                <hdist width="8" casaindex="20" >
+
+
+                                </hdist>
+
+
+                <field xsdType="xs:string" valueprop="event" width="250" popupmethod="openIdValueCombo" popupinputonly="true" casaindex="21" >
+
+                </field>
+
+                        </itr>
+
+
+                        <vdist height="5" casaindex="22" >
+
+
+                        </vdist>
+
+
+                        <itr casaindex="23" >
+
+
+                                <hdist width="146" casaindex="24" >
+
+
+                                </hdist>
+
+
+                                <button textid="revre.button3" method="onOk" width="75" casaindex="25" >
+
+
+                                </button>
+
+
+                                <hdist width="5" casaindex="26" >
+
+
+                                </hdist>
+
+
+                                <button textid="revre.button4" method="onCancel" width="75" casaindex="27" >
+
+
+                                </button>
+
+
+                        </itr>
+
+
+                </rowarea>
+
+
+                <rowdynavis valueprop="showrulesdetail" casaindex="28" >
+
+
+                        <rowarea foldable="false" casaindex="29" >
+
+
+                                <itr casaindex="30" >
+
+
+                                        <label textid="revre.label2" asplaintext="true" casaindex="31" >
+
+
+                                        </label>
+
+
+                                </itr>
+
+
+                                <itr casaindex="32" >
+
+
+                                        <coltable0 width="100%" casaindex="33" >
+
+
+                                                <rowtablearea2 griddataprop="rulescontent" rowcount="5" width="100%" firstrowcolwidths="false" casaindex="34" >
+
+
+                                                        <repeat casaindex="35" >
+
+
+                                                                <str valueprop="selected" casaindex="36" >
+
+
+                                                                        <selector valueprop="selected" width="25" casaindex="37" >
+
+
+                                                                        </selector>
+
+
+                                    <field xsdType="xs:string" valueprop="leftoperand" width="30%" noborder="true" popupmethod="openIdValueCombo" popupinputonly="true" casaindex="38" >
+
+                                    </field>
+
+                                    <field xsdType="xs:string" valueprop="condition" width="40%" noborder="true" popupmethod="openIdValueCombo" popupinputonly="true" casaindex="39" >
+
+                                    </field>
+
+                                    <field xsdType="xs:string" valueprop="rigthoperand" width="30%" noborder="true" casaindex="40" >
+
+                                    </field>
+
+                                    <field xsdType="xs:string" valueprop="joincondition" width="87" noborder="true" popupmethod="openIdValueCombo" popupinputonly="true" casaindex="41" >
+
+                                    </field>
+
+                                                                </str>
+
+
+                                                        </repeat>
+
+
+                                                </rowtablearea2>
+
+
+                                                <itr casaindex="42" >
+
+
+                                                        <label textid="revre.label3" asplaintext="true" casaindex="43" >
+
+
+                                                        </label>
+
+
+                                                </itr>
+
+
+                                                <vdist height="5" casaindex="44" >
+
+
+                                                </vdist>
+
+
+                                                <itr takefullwidth="true" casaindex="45" >
+
+
+                                                        <label textid="revre.label4" width="70" asplaintext="true" align="left" valign="top" casaindex="46" >
+
+
+                                                        </label>
+
+
+                                                        <hdist width="5" casaindex="47" >
+
+
+                                                        </hdist>
+
+
+                                                        <text valueprop="message" width="100%" rows="2" casaindex="48" >
+
+
+                                                        </text>
+
+
+                                                </itr>
+
+
+                                                <vdist height="5" casaindex="49" >
+
+
+                                                </vdist>
+
+
+                                                <itr takefullwidth="true" casaindex="50" >
+
+
+                                                        <label textid="revre.label12" width="70" asplaintext="true" align="left" valign="top" nowrap="false" casaindex="51" >
+
+
+                                                        </label>
+
+
+                                                        <hdist width="5" casaindex="52" >
+
+
+                                                        </hdist>
+
+
+                            <field xsdType="xs:string" valueprop="messageTextId" casaindex="53" >
+
+                            </field>
+
+                                                </itr>
+
+
+                                                <vdist height="5" casaindex="54" >
+
+
+                                                </vdist>
+
+
+                                                <itr casaindex="55" >
+
+
+                                                        <coldynavis valueprop="showtransalationref" width="100%" takefullheight="true" casaindex="56" >
+
+
+                                                                <tr casaindex="57" >
+
+
+                                                                        <label textid="revre.label13" width="70" asplaintext="true" casaindex="58" >
+
+
+                                                                        </label>
+
+
+                                                                        <hdist width="5" casaindex="59" >
+
+
+                                                                        </hdist>
+
+
+                                    <field xsdType="xs:string" valueprop="translationReference" casaindex="60" >
+
+                                    </field>
+
+                                                                </tr>
+
+
+                                                        </coldynavis>
+
+
+                                                </itr>
+
+
+                                                <vdist height="5" casaindex="61" >
+
+
+                                                </vdist>
+
+
+                                                <itr takefullwidth="true" casaindex="62" >
+
+
+                                                        <hdist width="100%" casaindex="63" >
+
+
+                                                        </hdist>
+
+
+                                                        <button textid="revre.button5" method="onOkLine" width="75" casaindex="64" >
+
+
+                                                        </button>
+
+
+                                                        <hdist width="5" casaindex="65" >
+
+
+                                                        </hdist>
+
+
+                                                        <button textid="revre.button6" method="onCancelLine" width="75" casaindex="66" >
+
+
+                                                        </button>
+
+
+                                                </itr>
+
+
+                                                <vdist height="5" casaindex="67" >
+
+
+                                                </vdist>
+
+
+                                        </coltable0>
+
+
+                                        <hdist width="10" casaindex="68" >
+
+
+                                        </hdist>
+
+
+                                        <coltable0 casaindex="69" >
+
+
+                                                <itr casaindex="70" >
+
+
+                                                        <button textid="revre.button7" method="onAddLine" visibleprop="addSelectable" invisiblemode="disabled" width="75" casaindex="71" >
+
+
+                                                        </button>
+
+
+                                                </itr>
+
+
+                                                <vdist height="5" casaindex="72" >
+
+
+                                                </vdist>
+
+
+                                                <itr casaindex="73" >
+
+
+                                                        <button textid="revre.button8" method="onDeleteLine" width="75" casaindex="74" >
+
+
+                                                        </button>
+
+
+                                                </itr>
+
+
+                                        </coltable0>
+
+
+                                </itr>
+
+
+                        </rowarea>
+
+
+                </rowdynavis>
+
+
+        </pagebody>
+
+
+        <statusbar withdistance="false" casaindex="75" >
+
+
+        </statusbar>
+
+
+</page>

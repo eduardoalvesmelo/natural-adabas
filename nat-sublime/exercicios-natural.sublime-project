@@ -1,0 +1,23 @@
+{
+	/*"folders":
+	[
+		{
+			"path": "C:\\ws-java\\exercicios",
+		}
+	],*/
+	"build_systems":
+	[
+		{
+			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+			"name": "Anaconda Python Builder",
+			"selector": "source.python",
+			"shell_cmd": "\"python\" -u \"$file\"",
+		}
+	],
+	"folders":
+	[
+		{
+			"path": "C:\\Users\\eduar\\OneDrive - PRODAM Office 365\\ws-python",
+		}
+	],
+}

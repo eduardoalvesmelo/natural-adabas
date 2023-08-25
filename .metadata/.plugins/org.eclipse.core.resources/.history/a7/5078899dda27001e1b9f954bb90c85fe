@@ -1,0 +1,24 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** Fazer um programa para ler um número do usuário e determinar se este número é par ou não par. 
+/**
+/** :author eduar
+/* TODO Enter your code here
+DEFINE DATA LOCAL
+1 N1 (N2) 
+END-DEFINE
+
+INPUT 'Informe um numero : ' N1
+
+IF N1 mod 2
+
+MEDIA := (N1 + N2 + N3) / 3
+ 
+
+WRITE 'Primeiro numero lido : ' N1
+WRITE 'Segundo numero lido : ' N2
+WRITE 'Terceiro numero lido : ' N3 
+WRITE 'A média de ' N1 ',' N2 ',' N3 'é: ' MEDIA 
+END

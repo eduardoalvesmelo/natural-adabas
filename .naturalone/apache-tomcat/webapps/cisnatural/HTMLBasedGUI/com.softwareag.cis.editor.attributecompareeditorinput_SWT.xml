@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.AttributeCompareEditorInput" translationreference="CIS_EDIT" casaindex="1" >
+
+
+        <pagebody horizdist="false" takefullheight="true" casaindex="2" >
+
+
+                <itr fixlayout="true" height="15" width="100%" casaindex="3" >
+
+
+                        <label asheadline="true" height="16" labelstyle="padding-left: 2px; font-size: 10px; font-weight: bold" textid="attribCompEdIn.label0" width="100%" casaindex="4" >
+
+
+                        </label>
+
+
+                </itr>
+
+
+                <vdist height="50%" casaindex="5" >
+
+
+                </vdist>
+
+
+                <itr align="center" casaindex="6" >
+
+
+                        <label textid="attribCompEdIn.label1" width="80" casaindex="7" >
+
+
+                        </label>
+
+
+            <field xsdType="xs:string" popupmethod="openIdValueHelp" popupprop="valueHelpAvailable" valueprop="name" width="200" casaindex="8" >
+
+            </field>
+
+                        <hdist width="5" casaindex="9" >
+
+
+                        </hdist>
+
+
+                        <button method="onOK" textid="attribCompEdIn.button0" casaindex="10" >
+
+
+                        </button>
+
+
+                </itr>
+
+
+                <vdist height="50%" casaindex="11" >
+
+
+                </vdist>
+
+
+        </pagebody>
+
+
+        <statusbar withdistance="false" casaindex="12" >
+
+
+        </statusbar>
+
+
+</page>

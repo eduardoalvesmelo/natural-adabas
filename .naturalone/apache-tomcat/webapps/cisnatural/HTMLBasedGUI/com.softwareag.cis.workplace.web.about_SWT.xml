@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.workplace.MFWorkplaceAboutAdapter" translationreference="CIS_EDIT" casaindex="1" >
+
+
+        <titlebar textid="workplaceabt.titlebar0" closetitletextid="closePage" casaindex="2" >
+
+
+        </titlebar>
+
+
+        <pagebody horizdist="false" takefullheight="true" casaindex="3" >
+
+
+                <itr valign="middle" casaindex="4" >
+
+
+                        <hdist width="50" casaindex="5" >
+
+
+                        </hdist>
+
+
+                        <coltable0 takefullheight="true" width="168" casaindex="6" >
+
+
+                                <itr height="100%" valign="middle" casaindex="7" >
+
+
+                                        <icon align="right" image="images/aboutapplicationdesigner.gif" casaindex="8" >
+
+
+                                        </icon>
+
+
+                                </itr>
+
+
+                        </coltable0>
+
+
+                        <hdist width="40" casaindex="9" >
+
+
+                        </hdist>
+
+
+                        <coltable0 takefullheight="true" width="100%" casaindex="10" >
+
+
+                                <itr takefullwidth="true" casaindex="11" >
+
+
+                                        <textout textcolor="#FF0000" valueprop="info" width="100%" casaindex="12" >
+
+
+                                        </textout>
+
+
+                                </itr>
+
+
+                                <itr takefullwidth="true" casaindex="13" >
+
+
+                    <field xsdType="xs:string" displayonly="true" fieldstyle="font-weight:bold" noborder="true" transparentbackground="true" valueprop="adField" width="100%" casaindex="14" >
+
+                    </field>
+
+                                </itr>
+
+
+                                <itr takefullwidth="true" casaindex="15" >
+
+
+                    <field xsdType="xs:string" displayonly="true" noborder="true" transparentbackground="true" valueprop="versionField" width="100%" casaindex="16" >
+
+                    </field>
+
+                                </itr>
+
+
+                                <itr takefullwidth="true" casaindex="17" >
+
+
+                    <field xsdType="xs:string" displayonly="true" noborder="true" transparentbackground="true" valueprop="copyrightText" width="100%" casaindex="18" >
+
+                    </field>
+
+                                </itr>
+
+
+                                <vdist height="20" casaindex="19" >
+
+
+                                </vdist>
+
+
+                                <itr casaindex="20" >
+
+
+                                        <label asplaintext="true" labelstyle="font-weight:bold" textid="rwwa.label0" casaindex="21" >
+
+
+                                        </label>
+
+
+                                        <hdist casaindex="22" >
+
+
+                                        </hdist>
+
+
+                                        <label asplaintext="true" textid="rwwa.label1" casaindex="23" >
+
+
+                                        </label>
+
+
+                                </itr>
+
+
+                                <itr casaindex="24" >
+
+
+                                        <label asplaintext="true" labelstyle="font-weight:bold" textid="rwwa.label2" casaindex="25" >
+
+
+                                        </label>
+
+
+                                        <hdist casaindex="26" >
+
+
+                                        </hdist>
+
+
+                                        <label asplaintext="true" textid="rwwa.label3" casaindex="27" >
+
+
+                                        </label>
+
+
+                                </itr>
+
+
+                                <itr casaindex="28" >
+
+
+                                        <label asplaintext="true" labelstyle="font-weight:bold" textid="rwwa.label4" casaindex="29" >
+
+
+                                        </label>
+
+
+                                        <hdist casaindex="30" >
+
+
+                                        </hdist>
+
+
+                                        <label asplaintext="true" textid="rwwa.label5" casaindex="31" >
+
+
+                                        </label>
+
+
+                                </itr>
+
+
+                                <itr casaindex="32" >
+
+
+                                        <hdist width="152" casaindex="33" >
+
+
+                                        </hdist>
+
+
+                                        <label asplaintext="true" textid="rwwa.label6" casaindex="34" >
+
+
+                                        </label>
+
+
+                                </itr>
+
+
+                                <itr casaindex="35" >
+
+
+                                        <hdist width="152" casaindex="36" >
+
+
+                                        </hdist>
+
+
+                                        <label asplaintext="true" textid="rwwa.label7" casaindex="37" >
+
+
+                                        </label>
+
+
+                                </itr>
+
+
+                                <itr casaindex="38" >
+
+
+                                        <hdist width="152" casaindex="39" >
+
+
+                                        </hdist>
+
+
+                                        <label asplaintext="true" textid="rwwa.label8" casaindex="40" >
+
+
+                                        </label>
+
+
+                                </itr>
+
+
+                                <itr casaindex="41" >
+
+
+                                        <hdist width="152" casaindex="42" >
+
+
+                                        </hdist>
+
+
+                                        <label asplaintext="true" textid="rwwa.label9" casaindex="43" >
+
+
+                                        </label>
+
+
+                                </itr>
+
+
+                                <vdist height="20" casaindex="44" >
+
+
+                                </vdist>
+
+
+                                <itr casaindex="45" >
+
+
+                                        <label asplaintext="true" textid="rwwa.label10" casaindex="46" >
+
+
+                                        </label>
+
+
+                                        <hdist casaindex="47" >
+
+
+                                        </hdist>
+
+
+                                        <label asplaintext="true" textid="rwwa.label11" casaindex="48" >
+
+
+                                        </label>
+
+
+                                        <hdist casaindex="49" >
+
+
+                                        </hdist>
+
+
+                                        <label asplaintext="true" textid="rwwa.label12" casaindex="50" >
+
+
+                                        </label>
+
+
+                                </itr>
+
+
+                                <itr casaindex="51" >
+
+
+                                        <label asplaintext="true" textid="rwwa.label13" casaindex="52" >
+
+
+                                        </label>
+
+
+                                </itr>
+
+
+                                <itr casaindex="53" >
+
+
+                                        <label asplaintext="true" textid="rwwa.label14" casaindex="54" >
+
+
+                                        </label>
+
+
+                                </itr>
+
+
+                                <vdist casaindex="55" >
+
+
+                                </vdist>
+
+
+                                <itr casaindex="56" >
+
+
+                                        <label asplaintext="true" textid="rwwa.label15" casaindex="57" >
+
+
+                                        </label>
+
+
+                                </itr>
+
+
+                                <vdist casaindex="58" >
+
+
+                                </vdist>
+
+
+                                <itr casaindex="59" >
+
+
+                                        <label asplaintext="true" textid="rwwa.label16" casaindex="60" >
+
+
+                                        </label>
+
+
+                                </itr>
+
+
+                                <vdist height="10" casaindex="61" >
+
+
+                                </vdist>
+
+
+                        </coltable0>
+
+
+                        <hdist width="20" casaindex="62" >
+
+
+                        </hdist>
+
+
+                </itr>
+
+
+                <itr casaindex="63" >
+
+
+                        <hdist width="50" casaindex="64" >
+
+
+                        </hdist>
+
+
+                        <label asplaintext="true" textid="rwwa.label17" casaindex="65" >
+
+
+                        </label>
+
+
+                </itr>
+
+
+                <itr casaindex="66" >
+
+
+                        <hdist width="50" casaindex="67" >
+
+
+                        </hdist>
+
+
+                        <label asplaintext="true" textid="rwwa.label18" casaindex="68" >
+
+
+                        </label>
+
+
+                </itr>
+
+
+                <itr casaindex="69" >
+
+
+                        <hdist width="50" casaindex="70" >
+
+
+                        </hdist>
+
+
+                        <label asplaintext="true" textid="rwwa.label19" casaindex="71" >
+
+
+                        </label>
+
+
+                        <hdist casaindex="72" >
+
+
+                        </hdist>
+
+
+                        <label asplaintext="true" textid="rwwa.label20" casaindex="73" >
+
+
+                        </label>
+
+
+                        <hdist casaindex="74" >
+
+
+                        </hdist>
+
+
+                        <label asplaintext="true" textid="rwwa.label21" casaindex="75" >
+
+
+                        </label>
+
+
+                        <hdist casaindex="76" >
+
+
+                        </hdist>
+
+
+                        <label asplaintext="true" textid="rwwa.label22" casaindex="77" >
+
+
+                        </label>
+
+
+                </itr>
+
+
+                <vdist height="20" casaindex="78" >
+
+
+                </vdist>
+
+
+                <itr height="16" itrstyle="background-color: #668CB0" takefullwidth="true" casaindex="79" >
+
+
+                        <methodlink align="left" linkstyle="color:#FFFFFF;font-weight: bold" method="onLegacy" straighttext="true" valueprop="legacyText" width="7%" casaindex="80" >
+
+
+                        </methodlink>
+
+
+                        <methodlink align="left" linkstyle="color:#FFFFFF;font-weight: bold" method="onPrivacy" straighttext="true" valueprop="privacyText" width="20%" casaindex="81" >
+
+
+                        </methodlink>
+
+
+                        <methodlink align="right" linkstyle="color: #FFFFFF;font-weight:bold" method="onCopyRight" straighttext="true" valueprop="copyText" width="25%" casaindex="82" >
+
+
+                        </methodlink>
+
+
+                </itr>
+
+
+        </pagebody>
+
+
+</page>

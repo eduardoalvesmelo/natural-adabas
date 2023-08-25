@@ -1,0 +1,1204 @@
+
+20230818/095543/265 I main..................... CIS is.server.Connector.init(Unknown Source) Connector: ==============================================================
+20230818/095543/265 I main..................... CIS is.server.Connector.init(Unknown Source) Connector: Configuration:
+20230818/095543/265 I main..................... CIS is.server.Connector.init(Unknown Source) Connector: StartMonitoringThread = true
+20230818/095543/266 I main..................... CIS is.server.Connector.init(Unknown Source) Connector: RequestClientHost     = false
+20230818/095543/266 I main..................... CIS is.server.Connector.init(Unknown Source) Connector: cis.home = C:/ws-natural/.naturalone/apache-tomcat/webapps/cisnatural/
+20230818/095543/266 I main..................... CIS is.server.Connector.init(Unknown Source) Connector: cis.log = C:/ws-natural/.naturalone/apache-tomcat/webapps/cisnatural//../../../log/
+20230818/095543/266 I main..................... CIS is.server.Connector.init(Unknown Source) Connector: ==============================================================
+20230818/095543/266 I main..................... CIS is.server.Connector.init(Unknown Source) Connector: WebApp temporary directory = C:/ws-natural/.naturalone/apache-tomcat/work/Catalina/localhost/cisnatural/
+20230818/095543/266 I main..................... CIS is.server.Connector.init(Unknown Source) Connector: ==============================================================
+20230818/095543/266 I main..................... CIS is.server.Connector.init(Unknown Source) Connector: System's default text encoding is Cp1252
+20230818/095543/266 I main..................... CIS is.server.Connector.init(Unknown Source) Connector: text encoding used by CISis UTF-8
+20230818/095543/266 I main..................... CIS is.server.Connector.init(Unknown Source) Connector: ==============================================================
+20230818/095543/266 I main..................... CIS or.connectToXMLProcessor(Unknown Source) Connector: 
+20230818/095543/267 I main..................... CIS or.connectToXMLProcessor(Unknown Source) Connector:    SSS        AAA    GGGG        CCC  I   SSS   
+20230818/095543/267 I main..................... CIS or.connectToXMLProcessor(Unknown Source) Connector:   S          A  A   G    G     C      I  S      
+20230818/095543/267 I main..................... CIS or.connectToXMLProcessor(Unknown Source) Connector:   S         A   A  G           C      I  S      
+20230818/095543/267 I main..................... CIS or.connectToXMLProcessor(Unknown Source) Connector:    SSS     A    A  G           C      I   SSS   
+20230818/095543/267 I main..................... CIS or.connectToXMLProcessor(Unknown Source) Connector:       S   A AAA A  G   GGGG    C      I       S 
+20230818/095543/267 I main..................... CIS or.connectToXMLProcessor(Unknown Source) Connector:       S  A      A   G    G     C      I       S 
+20230818/095543/267 I main..................... CIS or.connectToXMLProcessor(Unknown Source) Connector:   SSS   A       A    GGGG       CCC   I   SSS   
+20230818/095543/267 I main..................... CIS or.connectToXMLProcessor(Unknown Source) Connector: 
+20230818/095543/267 I main..................... CIS or.connectToXMLProcessor(Unknown Source) Connector: 
+20230818/095543/267 I main..................... CIS or.connectToXMLProcessor(Unknown Source) Connector: 
+20230818/095543/276 I main..................... CIS rver.XMLProcessor.<init>(Unknown Source) XMLProcessor: Creating session manager instance
+20230818/095543/279 I main..................... CIS ractionSessionMgr.<init>(Unknown Source) InteractionSessionMgr.<init> is called
+20230818/095543/279 I main..................... CIS ractionSessionMgr.<init>(Unknown Source) InteractionSessionMgr.<init> class loader is ParallelWebappClassLoader
+  context: cisnatural
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@254989ff
+
+20230818/095543/283 I main..................... CIS NewClassLoaderInternally(Unknown Source) InteractionSessionMgr.createNewClassLoader(): type = com.softwareag.cis.server.CISAppClassLoader
+20230818/095543/285 I main..................... CIS CISAppClassLoader.<init>(Unknown Source) CIAppClassLoader.<init>: Created new class loader: com.softwareag.cis.server.CISAppClassLoader@5c91b751
+20230818/095543/285 I main..................... CIS NewClassLoaderInternally(Unknown Source) InteractionSessionMgr.createNewClassLoader(): New Classloader was created for new sessions
+20230818/095543/293 I main..................... CIS NewClassLoaderInternally(Unknown Source) InteractionSessionMgr.createNewClassLoader(): +   file:C:/ws-natural/.naturalone/apache-tomcat/webapps/cisnatural/casabacappclasses/classes/
+20230818/095543/294 I main..................... CIS NewClassLoaderInternally(Unknown Source) InteractionSessionMgr.createNewClassLoader(): +   file:C:/ws-natural/.naturalone/apache-tomcat/webapps/cisnatural/_uiupdates/appclasses/classes/
+20230818/095543/294 I main..................... CIS NewClassLoaderInternally(Unknown Source) InteractionSessionMgr.createNewClassLoader(): +   file:C:/ws-natural/.naturalone/apache-tomcat/webapps/cisnatural/cis/appclasses/classes/
+20230818/095543/294 I main..................... CIS NewClassLoaderInternally(Unknown Source) InteractionSessionMgr.createNewClassLoader(): +   file:C:/ws-natural/.naturalone/apache-tomcat/webapps/cisnatural/cisnatural/appclasses/classes/
+20230818/095543/294 I main..................... CIS NewClassLoaderInternally(Unknown Source) InteractionSessionMgr.createNewClassLoader(): +   file:C:/ws-natural/.naturalone/apache-tomcat/webapps/cisnatural/HTMLBasedGUI/appclasses/classes/
+20230818/095543/294 I main..................... CIS NewClassLoaderInternally(Unknown Source) InteractionSessionMgr.createNewClassLoader(): +   file:C:/ws-natural/.naturalone/apache-tomcat/webapps/cisnatural/images/appclasses/classes/
+20230818/095543/294 I main..................... CIS NewClassLoaderInternally(Unknown Source) InteractionSessionMgr.createNewClassLoader(): +   file:C:/ws-natural/.naturalone/apache-tomcat/webapps/cisnatural/META-INF/appclasses/classes/
+20230818/095543/294 I main..................... CIS NewClassLoaderInternally(Unknown Source) InteractionSessionMgr.createNewClassLoader(): +   file:C:/ws-natural/.naturalone/apache-tomcat/webapps/cisnatural/njxmapconverter/appclasses/classes/
+20230818/095543/294 I main..................... CIS NewClassLoaderInternally(Unknown Source) InteractionSessionMgr.createNewClassLoader(): +   file:C:/ws-natural/.naturalone/apache-tomcat/webapps/cisnatural/resources/appclasses/classes/
+20230818/095543/294 I main..................... CIS NewClassLoaderInternally(Unknown Source) InteractionSessionMgr.createNewClassLoader(): +   file:C:/ws-natural/.naturalone/apache-tomcat/webapps/cisnatural/scripts/appclasses/classes/
+20230818/095543/294 I main..................... CIS NewClassLoaderInternally(Unknown Source) InteractionSessionMgr.createNewClassLoader(): +   file:C:/ws-natural/.naturalone/apache-tomcat/webapps/cisnatural/SYSEXT/appclasses/classes/
+20230818/095543/294 I main..................... CIS NewClassLoaderInternally(Unknown Source) InteractionSessionMgr.createNewClassLoader(): +   file:C:/ws-natural/.naturalone/apache-tomcat/webapps/cisnatural/SYSEXV/appclasses/classes/
+20230818/095543/294 I main..................... CIS NewClassLoaderInternally(Unknown Source) InteractionSessionMgr.createNewClassLoader(): +   file:C:/ws-natural/.naturalone/apache-tomcat/webapps/cisnatural/SYSUTIL/appclasses/classes/
+20230818/095543/294 I main..................... CIS NewClassLoaderInternally(Unknown Source) InteractionSessionMgr.createNewClassLoader(): +   file:C:/ws-natural/.naturalone/apache-tomcat/webapps/cisnatural/WEB-INF/appclasses/classes/
+20230818/095543/313 I main..................... CIS erver.StartApps.initApps(Unknown Source) StartApps.initApps(): Initializing applications in start up process
+20230818/095543/313 I main..................... CIS erver.StartApps.initApps(Unknown Source) StartApps.initApps(): Starting applicationcom.softwareag.natural.njx.ServletInit
+20230818/095543/313 I main..................... CIS ral.njx.ServletInit.init(Unknown Source) ServletInit.init(): Starting Natural for Ajax 9.1.1.0
+20230818/095543/492 I main..................... CIS or.connectToXMLProcessor(Unknown Source) Connector.doPost(): passing servlet context to XMLProcessor
+20230818/095543/497 E main..................... CIS eader.getFileNamesOfPath(Unknown Source) No files found in resource path /cis/licensekey/
+20230818/095548/498 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095548/517 I CISMonitoring............ CIS eManager.deployUIUpdates(Unknown Source) UIUpateManager: Unzipping SYSEXT.zip
+20230818/095548/525 I CISMonitoring............ CIS eManager.deployUIUpdates(Unknown Source) UIUpateManager: Unzipping SYSEXV.zip
+20230818/095548/532 I CISMonitoring............ CIS eManager.deployUIUpdates(Unknown Source) UIUpateManager: Unzipping SYSUTIL.zip
+20230818/095548/662 I CISMonitoring............ CIS ditorXML.readCombinedXML(Unknown Source) MixEditorXML.readCombindeXML: read combined editor.xml
+20230818/095549/037 I CISMonitoring............ CIS NewClassLoaderInternally(Unknown Source) InteractionSessionMgr.createNewClassLoader(): type = com.softwareag.cis.server.CISAppClassLoader
+20230818/095549/038 I CISMonitoring............ CIS CISAppClassLoader.<init>(Unknown Source) CIAppClassLoader.<init>: Created new class loader: com.softwareag.cis.server.CISAppClassLoader@69ed373d
+20230818/095549/038 I CISMonitoring............ CIS NewClassLoaderInternally(Unknown Source) InteractionSessionMgr.createNewClassLoader(): New Classloader was created for new sessions
+20230818/095549/038 I CISMonitoring............ CIS NewClassLoaderInternally(Unknown Source) InteractionSessionMgr.createNewClassLoader(): +   file:C:/ws-natural/.naturalone/apache-tomcat/webapps/cisnatural/casabacappclasses/classes/
+20230818/095549/038 I CISMonitoring............ CIS NewClassLoaderInternally(Unknown Source) InteractionSessionMgr.createNewClassLoader(): +   file:C:/ws-natural/.naturalone/apache-tomcat/webapps/cisnatural/_uiupdates/appclasses/classes/
+20230818/095549/041 I CISMonitoring............ CIS NewClassLoaderInternally(Unknown Source) InteractionSessionMgr.createNewClassLoader(): +   file:C:/ws-natural/.naturalone/apache-tomcat/webapps/cisnatural/cis/appclasses/classes/
+20230818/095549/041 I CISMonitoring............ CIS NewClassLoaderInternally(Unknown Source) InteractionSessionMgr.createNewClassLoader(): +   file:C:/ws-natural/.naturalone/apache-tomcat/webapps/cisnatural/cisnatural/appclasses/classes/
+20230818/095549/041 I CISMonitoring............ CIS NewClassLoaderInternally(Unknown Source) InteractionSessionMgr.createNewClassLoader(): +   file:C:/ws-natural/.naturalone/apache-tomcat/webapps/cisnatural/HTMLBasedGUI/appclasses/classes/
+20230818/095549/041 I CISMonitoring............ CIS NewClassLoaderInternally(Unknown Source) InteractionSessionMgr.createNewClassLoader(): +   file:C:/ws-natural/.naturalone/apache-tomcat/webapps/cisnatural/images/appclasses/classes/
+20230818/095549/041 I CISMonitoring............ CIS NewClassLoaderInternally(Unknown Source) InteractionSessionMgr.createNewClassLoader(): +   file:C:/ws-natural/.naturalone/apache-tomcat/webapps/cisnatural/META-INF/appclasses/classes/
+20230818/095549/041 I CISMonitoring............ CIS NewClassLoaderInternally(Unknown Source) InteractionSessionMgr.createNewClassLoader(): +   file:C:/ws-natural/.naturalone/apache-tomcat/webapps/cisnatural/njxmapconverter/appclasses/classes/
+20230818/095549/041 I CISMonitoring............ CIS NewClassLoaderInternally(Unknown Source) InteractionSessionMgr.createNewClassLoader(): +   file:C:/ws-natural/.naturalone/apache-tomcat/webapps/cisnatural/resources/appclasses/classes/
+20230818/095549/041 I CISMonitoring............ CIS NewClassLoaderInternally(Unknown Source) InteractionSessionMgr.createNewClassLoader(): +   file:C:/ws-natural/.naturalone/apache-tomcat/webapps/cisnatural/scripts/appclasses/classes/
+20230818/095549/041 I CISMonitoring............ CIS NewClassLoaderInternally(Unknown Source) InteractionSessionMgr.createNewClassLoader(): +   file:C:/ws-natural/.naturalone/apache-tomcat/webapps/cisnatural/SYSEXT/appclasses/classes/
+20230818/095549/041 I CISMonitoring............ CIS NewClassLoaderInternally(Unknown Source) InteractionSessionMgr.createNewClassLoader(): +   file:C:/ws-natural/.naturalone/apache-tomcat/webapps/cisnatural/SYSEXV/appclasses/classes/
+20230818/095549/041 I CISMonitoring............ CIS NewClassLoaderInternally(Unknown Source) InteractionSessionMgr.createNewClassLoader(): +   file:C:/ws-natural/.naturalone/apache-tomcat/webapps/cisnatural/SYSUTIL/appclasses/classes/
+20230818/095549/041 I CISMonitoring............ CIS NewClassLoaderInternally(Unknown Source) InteractionSessionMgr.createNewClassLoader(): +   file:C:/ws-natural/.naturalone/apache-tomcat/webapps/cisnatural/WEB-INF/appclasses/classes/
+20230818/095549/056 I CISMonitoring............ CIS erver.StartApps.initApps(Unknown Source) StartApps.initApps(): Initializing applications in start up process
+20230818/095549/056 I CISMonitoring............ CIS erver.StartApps.initApps(Unknown Source) StartApps.initApps(): Starting applicationcom.softwareag.natural.njx.ServletInit
+20230818/095549/056 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095549/056 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 86636328/497549312/410912984//0/0
+20230818/095554/064 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095554/064 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095554/064 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 86833592/497549312/410715720//0/0
+20230818/095559/069 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095559/069 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095559/069 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 84978784/499122176/414143392//0/0
+20230818/095604/075 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095604/075 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095604/076 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 84979136/499122176/414143040//0/0
+20230818/095609/086 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095609/086 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095609/086 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 138230160/501743616/363513456//0/0
+20230818/095614/098 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095614/098 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095614/098 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 138230600/501743616/363513016//0/0
+20230818/095619/108 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095619/108 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095619/108 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 125009056/504365056/379356000//0/0
+20230818/095624/122 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095624/123 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095624/123 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 125011584/504365056/379353472//0/0
+20230818/095629/127 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095629/127 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095629/127 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 101216064/506986496/405770432//0/0
+20230818/095634/140 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095634/140 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095634/140 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 101216504/506986496/405769992//0/0
+20230818/095639/146 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095639/146 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095639/146 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 140753312/505413632/364660320//0/0
+20230818/095644/159 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095644/159 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095644/159 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 140764776/505413632/364648856//0/0
+20230818/095649/172 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095649/172 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095649/172 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 123479112/510132224/386653112//0/0
+20230818/095654/188 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095654/188 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095654/188 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 100383104/508559360/408176256//0/0
+20230818/095659/198 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095659/198 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095659/198 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 100448528/508559360/408110832//0/0
+20230818/095704/206 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095704/206 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095704/206 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 133403000/512753664/379350664//0/0
+20230818/095709/208 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095709/208 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095709/208 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 133451536/512753664/379302128//0/0
+20230818/095714/213 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095714/213 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095714/213 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 162141264/511180800/349039536//0/0
+20230818/095719/216 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095719/216 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095719/216 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 162202496/511180800/348978304//0/0
+20230818/095724/224 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095724/224 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095724/224 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 97916088/514326528/416410440//0/0
+20230818/095729/235 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095729/235 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095729/235 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 97961728/514326528/416364800//0/0
+20230818/095734/248 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095734/248 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095734/248 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 119792592/517996544/398203952//0/0
+20230818/095739/262 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095739/262 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095739/262 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 119840144/517996544/398156400//0/0
+20230818/095744/271 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095744/271 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095744/271 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 136987720/516947968/379960248//0/0
+20230818/095749/281 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095749/281 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095749/281 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 137725840/516947968/379222128//0/0
+20230818/095749/282 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run: session timeout management invoked
+20230818/095754/393 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095754/393 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095754/393 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 63056728/519045120/455988392//0/0
+20230818/095759/395 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095759/395 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095759/395 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 63102424/519045120/455942696//0/0
+20230818/095804/406 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095804/406 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095804/406 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 76153072/522715136/446562064//0/0
+20230818/095809/414 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095809/414 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095809/414 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 76193080/522715136/446522056//0/0
+20230818/095814/429 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095814/429 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095814/429 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 82477664/522715136/440230720//0/0
+20230818/095819/440 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095819/440 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095819/440 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 82432952/521666560/439233608//0/0
+20230818/095824/442 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095824/442 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095824/442 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 82477416/521666560/439189144//0/0
+20230818/095829/448 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095829/448 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095829/448 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 89843936/524288000/434444064//0/0
+20230818/095834/458 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095834/458 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095834/458 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 89888384/524288000/434399328//0/0
+20230818/095839/472 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095839/472 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095839/472 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 92040632/523239424/431195240//0/0
+20230818/095844/487 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095844/487 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095844/487 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 92085584/523239424/431150288//0/0
+20230818/095849/496 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095849/496 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095849/496 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 97864752/525860864/427996112//0/0
+20230818/095854/503 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095854/503 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095854/503 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 97907224/525860864/427953352//0/0
+20230818/095859/514 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095859/514 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095859/515 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 97950672/525336576/427385904//0/0
+20230818/095904/521 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095904/521 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095904/521 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 98193864/525336576/427142712//0/0
+20230818/095909/534 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095909/535 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095909/535 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 97124920/527433728/430308808//0/0
+20230818/095914/539 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095914/539 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095914/539 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 97167912/527433728/430265528//0/0
+20230818/095919/552 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095919/552 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095919/552 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 94800128/526909440/432109024//0/0
+20230818/095924/565 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095924/565 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095924/565 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 94846752/526909440/432062688//0/0
+20230818/095929/568 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095929/568 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095929/568 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 145282648/526909440/381626792//0/0
+20230818/095934/573 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095934/573 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095934/573 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 93430232/529006592/435576072//0/0
+20230818/095939/585 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095939/585 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095939/586 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 93475096/529006592/435531208//0/0
+20230818/095944/588 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095944/588 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095944/588 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 88989056/527958016/438968672//0/0
+20230818/095949/594 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095949/595 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095949/595 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 89033848/527958016/438921744//0/0
+20230818/095954/599 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095954/599 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095954/599 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 85013368/530055168/445041512//0/0
+20230818/095954/601 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run: session timeout management invoked
+20230818/095959/745 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/095959/745 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/095959/745 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 39188160/529530880/490342432//0/0
+20230818/100004/748 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100004/748 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100004/748 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 151662168/529530880/377868424//0/0
+20230818/100009/759 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100009/759 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100009/759 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 151706776/529530880/377823816//0/0
+20230818/100014/765 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100014/765 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100014/765 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 146069616/530579456/384509552//0/0
+20230818/100019/773 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100019/774 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100019/774 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 146114296/530579456/384464872//0/0
+20230818/100024/784 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100024/784 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100024/784 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 136364112/530579456/394215056//0/0
+20230818/100029/794 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100029/794 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100029/794 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 136410696/530579456/394168760//0/0
+20230818/100034/806 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100034/806 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100034/806 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 127865184/531628032/403762560//0/0
+20230818/100039/810 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100039/810 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100039/810 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 127909792/531628032/403717952//0/0
+20230818/100044/815 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100044/815 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100044/815 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 118206120/531103744/412897336//0/0
+20230818/100049/821 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100049/822 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100049/822 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 118254968/531103744/412848488//0/0
+20230818/100054/825 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100054/828 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100054/828 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 49211264/532152320/482940768//0/0
+20230818/100059/829 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100059/829 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100059/829 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 106561200/532152320/425590832//0/0
+20230818/100104/837 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100104/837 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100104/837 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 106605856/532152320/425546176//0/0
+20230818/100109/840 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100109/840 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100109/840 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 94173816/532152320/437978504//0/0
+20230818/100114/852 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100114/852 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100114/852 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 94218424/532152320/437933896//0/0
+20230818/100119/859 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100119/859 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100119/860 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 82294352/533200896/450906256//0/0
+20230818/100124/863 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100124/864 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100124/864 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 82339000/533200896/450861608//0/0
+20230818/100129/868 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100129/868 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100129/868 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 67126936/532676608/465549384//0/0
+20230818/100134/875 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100134/875 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100134/875 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 67171584/532676608/465504736//0/0
+20230818/100139/889 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100139/889 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100139/889 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 54601384/533725184/479123512//0/0
+20230818/100144/898 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100144/898 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100144/898 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 55131912/533725184/478592984//0/0
+20230818/100149/901 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100149/901 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100149/901 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 39348048/533200896/493852560//0/0
+20230818/100154/914 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100154/915 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100154/915 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 39404488/533200896/493796120//0/0
+20230818/100159/921 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100159/921 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100159/921 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 52085488/533200896/481115120//0/0
+20230818/100159/922 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run: session timeout management invoked
+20230818/100205/007 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100205/007 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100205/007 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 140442424/533725184/393282472//0/0
+20230818/100210/019 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100210/019 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100210/019 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 140489280/533725184/393235616//0/0
+20230818/100215/026 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100215/026 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100215/026 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 125765520/533725184/407959376//0/0
+20230818/100220/037 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100220/037 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100220/037 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 125812264/533725184/407912632//0/0
+20230818/100225/052 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100225/052 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100225/052 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 108709600/534249472/425539584//0/0
+20230818/100230/062 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100230/063 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100230/063 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 108755488/534249472/425493984//0/0
+20230818/100235/074 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100235/074 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100235/074 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 93368224/534249472/440880960//0/0
+20230818/100240/077 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100240/077 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100240/077 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 93414104/534249472/440835368//0/0
+20230818/100245/083 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100245/083 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100245/083 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 75881472/534773760/458892000//0/0
+20230818/100250/103 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100250/104 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100250/104 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 75927352/534773760/458846408//0/0
+20230818/100255/110 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100255/112 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100255/112 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 57366520/534249472/476882952//0/0
+20230818/100300/125 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100300/125 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100300/125 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 57409424/534249472/476839760//0/0
+20230818/100305/134 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100305/134 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100305/134 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 168505896/534249472/365743576//0/0
+20230818/100310/144 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100310/145 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100310/145 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 168549560/534249472/365699624//0/0
+20230818/100315/153 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100315/153 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100315/153 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 86079992/534773760/448693480//0/0
+20230818/100320/166 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100320/166 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100320/166 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 150992656/534773760/383780816//0/0
+20230818/100325/171 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100325/171 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100325/171 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 151037320/534773760/383736152//0/0
+20230818/100330/173 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100330/174 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100330/174 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 132831136/534773760/401942624//0/0
+20230818/100335/175 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100335/176 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100335/176 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 132874528/534773760/401896752//0/0
+20230818/100340/182 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100340/182 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100340/182 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 114998048/535298048/420300000//0/0
+20230818/100345/197 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100345/197 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100345/197 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 115468840/535298048/419829208//0/0
+20230818/100350/203 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100350/203 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100350/203 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 96663552/534773760/438109920//0/0
+20230818/100355/216 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100355/216 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100355/216 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 96708232/534773760/438065240//0/0
+20230818/100400/216 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100400/216 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100400/216 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 78642576/535298048/456655184//0/0
+20230818/100405/228 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100405/228 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100405/228 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 78687256/535298048/456610504//0/0
+20230818/100405/229 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run: session timeout management invoked
+20230818/100410/272 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100410/272 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100410/272 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 151466560/535298048/383831200//0/0
+20230818/100415/280 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100415/280 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100415/280 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 151513424/535298048/383784336//0/0
+20230818/100420/295 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100420/295 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100420/295 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 133480632/535298048/401817128//0/0
+20230818/100425/305 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100425/305 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100425/305 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 133525320/535298048/401772440//0/0
+20230818/100430/318 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100430/318 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100430/318 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 70685168/535298048/464612592//0/0
+20230818/100435/325 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100435/325 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100435/325 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 112631632/535298048/422666128//0/0
+20230818/100440/329 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100440/330 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100440/330 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 112676320/535298048/422621440//0/0
+20230818/100445/331 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100445/332 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100445/332 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 94425080/535298048/440872680//0/0
+20230818/100450/340 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100450/340 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100450/340 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 94469816/535298048/440827944//0/0
+20230818/100455/343 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100455/344 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100455/344 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 75961920/535298048/459335840//0/0
+20230818/100500/349 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100500/349 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100500/349 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 76006600/535298048/459291160//0/0
+20230818/100505/364 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100505/364 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100505/364 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 55185240/535822336/480636808//0/0
+20230818/100510/375 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100510/376 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100510/376 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 55229920/535822336/480592128//0/0
+20230818/100515/392 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100515/394 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100515/394 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 121252400/535822336/414569648//0/0
+20230818/100520/407 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100520/407 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100520/407 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 168800456/535822336/367021592//0/0
+20230818/100525/413 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100525/413 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100525/413 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 168845144/535822336/366976904//0/0
+20230818/100530/429 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100530/429 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100530/429 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 147471424/535822336/388350912//0/0
+20230818/100535/437 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100535/437 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100535/437 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 147515848/535822336/388306488//0/0
+20230818/100540/451 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100540/451 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100540/451 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 126413264/535822336/409409072//0/0
+20230818/100545/462 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100545/462 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100545/462 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 126871008/535822336/408951328//0/0
+20230818/100550/470 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100550/470 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100550/470 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 107876440/535822336/427945896//0/0
+20230818/100555/473 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100555/473 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100555/473 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 107921224/535822336/427901112//0/0
+20230818/100600/474 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100600/474 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100600/474 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 86770080/535822336/449051968//0/0
+20230818/100605/480 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100605/480 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100605/480 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 86814760/535822336/449007288//0/0
+20230818/100610/481 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100610/482 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100610/482 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 65706296/535822336/470115752//0/0
+20230818/100610/482 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run: session timeout management invoked
+20230818/100615/655 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100615/655 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100615/655 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 38928632/535822336/496893416//0/0
+20230818/100620/666 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100620/666 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100620/666 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 152448472/535822336/383373576//0/0
+20230818/100625/670 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100625/670 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100625/671 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 152493160/535822336/383328888//0/0
+20230818/100630/672 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100630/672 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100630/672 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 97306952/535822336/438515384//0/0
+20230818/100635/678 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100635/678 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100635/678 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 131670264/535822336/404152072//0/0
+20230818/100640/682 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100640/682 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100640/682 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 131715048/535822336/404107288//0/0
+20230818/100645/696 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100645/696 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100645/696 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 110883336/535822336/424938712//0/0
+20230818/100650/710 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100650/710 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100650/710 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 110929760/535822336/424892576//0/0
+20230818/100655/714 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100655/714 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100655/714 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 91962016/535822336/443860320//0/0
+20230818/100700/725 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100700/725 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100700/725 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 92006504/535822336/443815832//0/0
+20230818/100705/729 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100705/729 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100705/729 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 70947640/535822336/464874408//0/0
+20230818/100710/739 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100710/739 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100710/739 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 70992320/535822336/464829728//0/0
+20230818/100715/753 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100715/754 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100715/754 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 49852032/535822336/485970016//0/0
+20230818/100720/756 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100720/756 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100720/756 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 49896712/535822336/485925336//0/0
+20230818/100725/765 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100725/766 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100725/766 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 163414816/535822336/372407232//0/0
+20230818/100730/775 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100730/775 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100730/775 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 163459504/535822336/372362544//0/0
+20230818/100735/786 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100735/786 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100735/786 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 142211896/535822336/393610440//0/0
+20230818/100740/793 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100740/794 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100740/794 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 142255288/535822336/393564568//0/0
+20230818/100745/797 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100745/797 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100745/797 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 57793944/535822336/478028392//0/0
+20230818/100750/805 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100750/805 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100750/805 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 121154016/535822336/414668320//0/0
+20230818/100755/816 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100755/816 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100755/816 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 121198752/535822336/414623584//0/0
+20230818/100800/831 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100800/832 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100800/832 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 102589200/535822336/433232848//0/0
+20230818/100805/838 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100805/838 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100805/838 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 102634832/535822336/433187504//0/0
+20230818/100810/849 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100810/849 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100810/849 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 81458624/535822336/454361560//0/0
+20230818/100815/853 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100815/853 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100815/853 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 81505384/535822336/454316952//0/0
+20230818/100815/854 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run: session timeout management invoked
+20230818/100820/924 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100820/924 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100820/924 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 152419504/535822336/383402832//0/0
+20230818/100825/926 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100825/926 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100825/926 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 152466240/535822336/383356096//0/0
+20230818/100830/942 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100830/942 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100830/942 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 131612200/535822336/404209848//0/0
+20230818/100835/943 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100835/943 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100835/943 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 131656888/535822336/404165160//0/0
+20230818/100840/948 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100840/948 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100840/948 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 110633512/535298048/424664248//0/0
+20230818/100845/962 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100845/962 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100845/962 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 110800968/535298048/424496792//0/0
+20230818/100850/963 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100850/963 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100850/963 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 92075208/535822336/443746840//0/0
+20230818/100855/977 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100855/977 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100855/977 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 92119888/535822336/443702160//0/0
+20230818/100900/993 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100900/993 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100900/993 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 166062936/535822336/369759112//0/0
+20230818/100906/006 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100906/006 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100906/006 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 71246104/536346624/465098368//0/0
+20230818/100911/012 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100911/013 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100911/013 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 71292912/536346624/465053712//0/0
+20230818/100916/015 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100916/015 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100916/015 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 49965568/536346624/486380768//0/0
+20230818/100921/028 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100921/028 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100921/028 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 50010328/536346624/486336008//0/0
+20230818/100926/031 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100926/031 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100926/031 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 161803560/536346624/374542776//0/0
+20230818/100931/044 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100931/044 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100931/044 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 161848344/536346624/374497992//0/0
+20230818/100936/059 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100936/059 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100936/059 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 140413920/536346624/395930152//0/0
+20230818/100941/072 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100941/072 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100941/072 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 140458776/536346624/395887560//0/0
+20230818/100946/075 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100946/075 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100946/075 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 119191984/536346624/417154640//0/0
+20230818/100951/092 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100951/092 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100951/092 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 119236240/536346624/417110096//0/0
+20230818/100956/101 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/100956/102 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/100956/102 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 97853240/536346624/438493384//0/0
+20230818/101001/113 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101001/113 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101001/113 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 97898112/536346624/438448512//0/0
+20230818/101006/115 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101006/115 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101006/115 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 76538224/536346624/459808112//0/0
+20230818/101011/129 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101011/129 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101011/129 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 76585048/536346624/459761288//0/0
+20230818/101016/130 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101016/130 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101016/130 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 137826928/536346624/398519408//0/0
+20230818/101021/135 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101021/135 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101021/135 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 55254232/536346624/481092392//0/0
+20230818/101021/136 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run: session timeout management invoked
+20230818/101026/300 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101026/300 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101026/300 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 38930848/536346624/497415776//0/0
+20230818/101031/301 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101031/301 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101031/301 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 150725128/536346624/385621208//0/0
+20230818/101036/302 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101036/302 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101036/302 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 150770000/536346624/385574408//0/0
+20230818/101041/304 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101041/304 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101041/304 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 129782432/536346624/406561808//0/0
+20230818/101046/317 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101046/318 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101046/318 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 130222992/536346624/406121248//0/0
+20230818/101051/329 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101051/329 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101051/329 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 111025440/536346624/425319032//0/0
+20230818/101056/330 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101056/330 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101056/330 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 111072256/536346624/425274368//0/0
+20230818/101101/335 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101101/335 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101101/335 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 87058272/536346624/449288064//0/0
+20230818/101106/342 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101106/342 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101106/342 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 87103032/536346624/449243304//0/0
+20230818/101111/356 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101111/356 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101111/356 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 65890120/536346624/470456216//0/0
+20230818/101116/369 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101116/369 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101116/369 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 65934880/536346624/470411456//0/0
+20230818/101121/379 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101121/380 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101121/380 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 44567768/536346624/491778568//0/0
+20230818/101126/390 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101126/390 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101126/390 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 44622944/536346624/491723392//0/0
+20230818/101131/398 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101131/398 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101131/398 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 81914184/536346624/454432152//0/0
+20230818/101136/414 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101136/414 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101136/414 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 156451928/536346624/379894408//0/0
+20230818/101141/415 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101141/415 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101141/415 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 156496712/536346624/379849624//0/0
+20230818/101146/428 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101146/428 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101146/428 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 135236520/536346624/401110104//0/0
+20230818/101151/436 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101151/436 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101151/436 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 135279808/536346624/401066816//0/0
+20230818/101156/440 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101156/440 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101156/440 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 113776328/536346624/422570008//0/0
+20230818/101201/451 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101201/451 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101201/451 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 113821560/536346624/422525064//0/0
+20230818/101206/457 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101206/457 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101206/457 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 92422024/536346624/443924600//0/0
+20230818/101211/461 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101211/461 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101211/461 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 92468496/536346624/443878128//0/0
+20230818/101216/471 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101216/471 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101216/471 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 71215008/536346624/465131328//0/0
+20230818/101221/476 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101221/580 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101221/580 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 71259768/536346624/465086568//0/0
+20230818/101226/590 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101226/591 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101226/591 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 49867400/536346624/486478936//0/0
+20230818/101226/591 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run: session timeout management invoked
+20230818/101231/691 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101231/693 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101231/693 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 30824392/536346624/505521944//0/0
+20230818/101236/698 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101236/698 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101236/698 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 142623744/536346624/393722592//0/0
+20230818/101241/700 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101241/700 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101241/700 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 142668528/536346624/393677808//0/0
+20230818/101246/704 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101246/704 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101246/704 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 100290888/536346624/436055736//0/0
+20230818/101251/713 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101251/713 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101251/713 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 124256904/536346624/412089720//0/0
+20230818/101256/722 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101256/722 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101256/722 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 124301768/536346624/412044856//0/0
+20230818/101301/730 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101301/730 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101301/730 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 102971600/536346624/433374736//0/0
+20230818/101306/745 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101306/745 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101306/745 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 103017312/536346624/433329312//0/0
+20230818/101311/754 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101311/755 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101311/755 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 79058648/536346624/457285840//0/0
+20230818/101316/761 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101316/761 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101316/761 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 79103264/536346624/457241224//0/0
+20230818/101321/770 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101321/770 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101321/770 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 57786840/536346624/478559496//0/0
+20230818/101326/777 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101326/777 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101326/777 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 57831520/536346624/478514816//0/0
+20230818/101331/779 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101331/780 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101331/780 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 36538176/536346624/499808160//0/0
+20230818/101336/788 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101336/788 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101336/788 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 36582856/536346624/499763480//0/0
+20230818/101341/805 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101341/805 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101341/805 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 148376504/536346624/387969832//0/0
+20230818/101346/809 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101346/810 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101346/810 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 148611520/536346624/387734816//0/0
+20230818/101351/822 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101351/822 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101351/822 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 126907608/536346624/409439016//0/0
+20230818/101356/832 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101356/832 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101356/832 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 126951528/536346624/409392624//0/0
+20230818/101401/833 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101401/833 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101401/833 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 73731400/536346624/462615224//0/0
+20230818/101406/844 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101406/844 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101406/844 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 105704584/536346624/430642040//0/0
+20230818/101411/856 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101411/858 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101411/858 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 105749256/536346624/430597368//0/0
+20230818/101416/862 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101416/862 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101416/862 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 84385736/536346624/451960600//0/0
+20230818/101421/863 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101421/863 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101421/863 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 84431360/536346624/451915264//0/0
+20230818/101426/872 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101426/873 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101426/873 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 63077840/536346624/473266632//0/0
+20230818/101431/886 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101431/886 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101431/887 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 63124624/536346624/473222000//0/0
+20230818/101431/887 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run: session timeout management invoked
+20230818/101436/976 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101436/976 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101436/976 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 142573056/536346624/393773568//0/0
+20230818/101441/976 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101441/976 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101441/976 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 142619808/536346624/393724664//0/0
+20230818/101446/993 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101446/994 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101446/994 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 122116040/536346624/414228520//0/0
+20230818/101452/008 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101452/009 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101452/009 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 122161104/536346624/414185232//0/0
+20230818/101457/025 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101457/026 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101457/026 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 100278568/536346624/436065992//0/0
+20230818/101502/032 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101502/032 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101502/033 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 100323632/536346624/436022704//0/0
+20230818/101507/043 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101507/043 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101507/043 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 79129656/536346624/457214904//0/0
+20230818/101512/056 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101512/056 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101512/056 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 79174720/536346624/457171616//0/0
+20230818/101517/070 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101517/070 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101517/070 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 57763544/536346624/478581016//0/0
+20230818/101522/074 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101522/075 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101522/075 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 57808608/536346624/478537728//0/0
+20230818/101527/086 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101527/086 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101527/086 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 36506000/536346624/499838560//0/0
+20230818/101532/097 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101532/097 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101532/098 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 36561480/536346624/499784856//0/0
+20230818/101537/113 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101537/114 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101537/114 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 39266696/536346624/497079640//0/0
+20230818/101542/119 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101542/119 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101542/119 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 148393464/536346624/387952872//0/0
+20230818/101547/130 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101547/130 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101547/130 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 148825416/536346624/387520920//0/0
+20230818/101552/140 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101552/140 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101552/140 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 126927072/536346624/409419552//0/0
+20230818/101557/152 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101557/152 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101557/152 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 126971688/536346624/409374936//0/0
+20230818/101602/162 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101602/162 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101602/162 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 105687016/536346624/430659320//0/0
+20230818/101607/172 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101607/172 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101607/172 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 105732272/536346624/430614352//0/0
+20230818/101612/173 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101612/173 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101612/173 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 84403832/536346624/451940640//0/0
+20230818/101617/176 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101617/177 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101617/177 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 84450616/536346624/451896008//0/0
+20230818/101622/186 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101622/186 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101622/186 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 63134560/536346624/473210000//0/0
+20230818/101627/202 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101627/202 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101627/202 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 63179624/536346624/473166712//0/0
+20230818/101632/216 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101632/216 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101632/216 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 41854152/536346624/494490408//0/0
+20230818/101637/219 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101637/219 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101637/219 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 41899216/536346624/494447120//0/0
+20230818/101637/220 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run: session timeout management invoked
+20230818/101642/267 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101642/267 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101642/267 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 142576032/536346624/393770304//0/0
+20230818/101647/269 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101647/269 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101647/269 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 143006680/536346624/393339656//0/0
+20230818/101652/280 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101652/280 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101652/280 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 124240976/536346624/412103584//0/0
+20230818/101657/285 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101657/285 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101657/285 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 124286040/536346624/412060296//0/0
+20230818/101702/294 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101702/294 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101702/294 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 36462912/536346624/499881648//0/0
+20230818/101707/298 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101707/299 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101707/299 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 100340984/536346624/436005352//0/0
+20230818/101712/309 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101712/309 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101712/309 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 100385768/536346624/435960568//0/0
+20230818/101717/311 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101717/311 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101717/311 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 79028984/536346624/457317352//0/0
+20230818/101722/314 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101722/314 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101722/314 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 79073736/536346624/457272600//0/0
+20230818/101727/321 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101727/321 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101727/321 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 57790720/536346624/478553840//0/0
+20230818/101732/322 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101732/322 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101732/322 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 57835632/536346624/478508928//0/0
+20230818/101737/323 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101737/323 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101737/323 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 36509040/536346624/499835520//0/0
+20230818/101742/335 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101742/335 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101742/335 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 36553952/536346624/499790608//0/0
+20230818/101747/347 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101747/347 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101747/347 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 148537416/536346624/387807144//0/0
+20230818/101752/356 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101752/357 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101752/357 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 148582328/536346624/387762232//0/0
+20230818/101757/367 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101757/368 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101757/368 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 126943160/536346624/409403464//0/0
+20230818/101802/369 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101802/369 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101802/369 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 126987352/536346624/409358984//0/0
+20230818/101807/377 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101807/377 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101807/377 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 105662408/536346624/430683928//0/0
+20230818/101812/389 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101812/390 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101812/390 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 105707288/536346624/430639048//0/0
+20230818/101817/400 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101817/400 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101817/400 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 84395472/536346624/451949088//0/0
+20230818/101822/412 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101822/412 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101822/412 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 84440384/536346624/451904176//0/0
+20230818/101827/425 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101827/425 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101827/425 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 41787536/536346624/494557024//0/0
+20230818/101832/439 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101832/439 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101832/439 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 63128688/536346624/473215872//0/0
+20230818/101837/452 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101837/452 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101837/452 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 63173600/536346624/473170960//0/0
+20230818/101842/467 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101842/467 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101842/467 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 41764824/536346624/494581512//0/0
+20230818/101842/468 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run: session timeout management invoked
+20230818/101847/527 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101847/527 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101847/527 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 30952288/536346624/505394336//0/0
+20230818/101852/538 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101852/538 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101852/539 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 142745592/536346624/393600744//0/0
+20230818/101857/553 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101857/553 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101857/553 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 142790360/536346624/393555976//0/0
+20230818/101902/566 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101902/566 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101902/566 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 121519656/536346624/414826680//0/0
+20230818/101907/580 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101907/580 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101907/580 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 121564912/536346624/414781712//0/0
+20230818/101912/586 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101912/586 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101912/586 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 100390384/536346624/435956240//0/0
+20230818/101917/597 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101917/598 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101917/598 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 100432816/536346624/435911664//0/0
+20230818/101922/611 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101922/611 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101922/611 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 79047488/536346624/457297072//0/0
+20230818/101927/623 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101927/623 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101927/624 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 79092400/536346624/457252160//0/0
+20230818/101932/625 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101932/625 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101932/625 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 57763920/536346624/478580640//0/0
+20230818/101937/640 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101937/640 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101937/640 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 57808832/536346624/478535728//0/0
+20230818/101942/648 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101942/648 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101942/648 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 36509840/536346624/499834720//0/0
+20230818/101947/659 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101947/659 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101947/659 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 36937832/536346624/499406728//0/0
+20230818/101952/662 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101952/663 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101952/663 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 148748224/536346624/387596336//0/0
+20230818/101957/669 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/101957/670 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/101957/670 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 148793136/536346624/387551424//0/0
+20230818/102002/682 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102002/682 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102002/682 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 97624992/536346624/438721632//0/0
+20230818/102007/696 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102007/696 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102007/696 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 126916728/536346624/409429896//0/0
+20230818/102012/703 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102012/703 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102012/703 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 126961360/536346624/409385264//0/0
+20230818/102017/706 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102017/707 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102017/707 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 105602424/536346624/430744200//0/0
+20230818/102022/708 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102022/709 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102022/709 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 105646088/536346624/430700536//0/0
+20230818/102027/719 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102027/720 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102027/720 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 84381736/536346624/451964888//0/0
+20230818/102032/728 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102032/728 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102032/728 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 84428336/536346624/451918288//0/0
+20230818/102037/732 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102037/733 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102037/733 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 63013240/536346624/473333096//0/0
+20230818/102042/745 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102042/745 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102042/745 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 63057984/536346624/473288352//0/0
+20230818/102047/747 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102047/747 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102047/747 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 41825016/536346624/494519544//0/0
+20230818/102047/747 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run: session timeout management invoked
+20230818/102052/799 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102052/800 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102052/800 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 30829696/536346624/505516640//0/0
+20230818/102057/807 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102057/808 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102057/808 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 142569440/536346624/393776896//0/0
+20230818/102102/816 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102102/816 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102102/816 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 142614072/536346624/393730488//0/0
+20230818/102107/826 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102107/827 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102107/827 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 121652640/536346624/414693984//0/0
+20230818/102112/829 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102112/831 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102112/831 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 121699312/536346624/414647312//0/0
+20230818/102117/841 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102117/841 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102117/841 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 100324968/536346624/436019592//0/0
+20230818/102122/847 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102122/847 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102122/847 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 100369880/536346624/435974680//0/0
+20230818/102127/861 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102127/861 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102127/861 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 71089440/536346624/465255120//0/0
+20230818/102132/867 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102132/867 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102132/867 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 79126912/536346624/457217648//0/0
+20230818/102137/879 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102137/880 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102137/880 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 79171824/536346624/457172736//0/0
+20230818/102142/884 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102142/885 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102142/885 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 57762576/536346624/478583760//0/0
+20230818/102147/890 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102147/890 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102147/891 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 57930912/536346624/478415424//0/0
+20230818/102152/900 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102152/901 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102152/901 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 36476592/536346624/499867968//0/0
+20230818/102157/917 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102157/918 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102157/918 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 36521504/536346624/499823056//0/0
+20230818/102202/923 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102202/923 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102202/923 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 148287888/536346624/388056672//0/0
+20230818/102207/937 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102207/938 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102207/938 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 148332800/536346624/388011760//0/0
+20230818/102212/944 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102212/944 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102212/944 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 127010504/536346624/409335832//0/0
+20230818/102217/951 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102217/951 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102217/951 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 127055384/536346624/409290952//0/0
+20230818/102222/959 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102222/960 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102222/960 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 105650200/536346624/430696424//0/0
+20230818/102227/966 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102227/970 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102227/970 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 105692984/536346624/430653640//0/0
+20230818/102232/976 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102232/976 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102232/976 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 84373760/536346624/451972864//0/0
+20230818/102237/988 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102237/989 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102237/989 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 84418632/536346624/451927992//0/0
+20230818/102242/995 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102242/996 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102242/996 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 63121600/536346624/473222960//0/0
+20230818/102248/005 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102248/006 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102248/006 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 63246976/536346624/473097584//0/0
+20230818/102253/009 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102253/010 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102253/010 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 41886648/536346624/494457912//0/0
+20230818/102253/010 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run: session timeout management invoked
+20230818/102258/059 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102258/059 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102258/059 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 30829696/536346624/505516640//0/0
+20230818/102303/071 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102303/071 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102303/071 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 105372760/536346624/430973576//0/0
+20230818/102308/081 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102308/081 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102308/081 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 142665624/536346624/393678936//0/0
+20230818/102313/085 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102313/086 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102313/086 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 142710536/536346624/393634024//0/0
+20230818/102318/100 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102318/100 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102318/100 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 121604408/536346624/414742216//0/0
+20230818/102323/110 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102323/111 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102323/111 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 121648072/536346624/414698552//0/0
+20230818/102328/114 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102328/115 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102328/115 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 100332984/536346624/436013640//0/0
+20230818/102333/120 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102333/121 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102333/121 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 100377824/536346624/435968800//0/0
+20230818/102338/134 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102338/135 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102338/135 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 79020432/536346624/457324128//0/0
+20230818/102343/135 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102343/136 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102343/136 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 79065344/536346624/457279216//0/0
+20230818/102348/143 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102348/143 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102348/143 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 57795712/536346624/478548848//0/0
+20230818/102353/146 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102353/147 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102353/147 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 57840624/536346624/478503936//0/0
+20230818/102358/148 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102358/148 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102358/149 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 36478384/536346624/499866176//0/0
+20230818/102403/152 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102403/152 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102403/152 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 36523296/536346624/499821264//0/0
+20230818/102408/167 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102408/167 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102408/167 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 148328088/536346624/388016472//0/0
+20230818/102413/175 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102413/176 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102413/176 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 148373000/536346624/387971560//0/0
+20230818/102418/190 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102418/191 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102418/191 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 126998096/536346624/409348240//0/0
+20230818/102423/204 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102423/205 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102423/205 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 127042568/536346624/409303768//0/0
+20230818/102428/212 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102428/212 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102428/212 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 105626288/536346624/430720048//0/0
+20230818/102433/218 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102433/218 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102433/218 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 105670888/536346624/430675448//0/0
+20230818/102438/220 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102438/220 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102438/220 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 134984416/536346624/401361920//0/0
+20230818/102443/228 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102443/229 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102443/229 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 84403176/536346624/451943160//0/0
+20230818/102448/240 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102448/240 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102448/240 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 84831976/536346624/451514648//0/0
+20230818/102453/254 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102453/255 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102453/255 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 63123104/536346624/473223520//0/0
+20230818/102458/269 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102458/269 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102458/269 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 63165536/536346624/473178944//0/0
+20230818/102458/270 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run: session timeout management invoked
+20230818/102503/330 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102503/330 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102503/330 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 142477232/536346624/393869104//0/0
+20230818/102508/345 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102508/345 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102508/345 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 142525856/536346624/393820768//0/0
+20230818/102513/350 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102513/350 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102513/350 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 121607728/536346624/414736832//0/0
+20230818/102518/350 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102518/350 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102518/350 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 121652640/536346624/414691920//0/0
+20230818/102523/359 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102523/359 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102523/359 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 100318832/536346624/436025728//0/0
+20230818/102528/373 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102528/373 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102528/373 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 100363744/536346624/435980816//0/0
+20230818/102533/379 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102533/379 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102533/379 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 79078984/536346624/457265576//0/0
+20230818/102538/395 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102538/395 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102538/395 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 79123896/536346624/457220664//0/0
+20230818/102543/406 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102543/406 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102543/406 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 57787448/536346624/478557112//0/0
+20230818/102548/413 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102548/413 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102548/413 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 58033104/536346624/478311456//0/0
+20230818/102553/429 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102553/429 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102553/429 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 36498520/536346624/499846040//0/0
+20230818/102558/443 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102558/443 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102558/443 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 36553848/536346624/499790712//0/0
+20230818/102603/448 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102603/448 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102603/448 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 36598760/536346624/499745800//0/0
+20230818/102608/450 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102608/450 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102608/450 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 148350432/536346624/387994128//0/0
+20230818/102613/458 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102613/458 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102613/458 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 148395344/536346624/387949216//0/0
+20230818/102618/459 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102618/459 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102618/459 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 126990936/536346624/409355688//0/0
+20230818/102623/471 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102623/471 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102623/471 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 127035552/536346624/409311072//0/0
+20230818/102628/475 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102628/476 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102628/476 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 105671496/536346624/430674840//0/0
+20230818/102633/485 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102633/485 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102633/485 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 105716752/536346624/430629872//0/0
+20230818/102638/493 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102638/493 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102638/493 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 84465784/536346624/451878688//0/0
+20230818/102643/507 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Checking for UI Updates
+20230818/102643/507 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): UI Updates finished.
+20230818/102643/507 I CISMonitoring............ CIS ver.MonitoringThread.run(Unknown Source) MonitoringThread.run(): Used/total/free//sessions/models/contexts: 84512568/536346624/451834056//0/0

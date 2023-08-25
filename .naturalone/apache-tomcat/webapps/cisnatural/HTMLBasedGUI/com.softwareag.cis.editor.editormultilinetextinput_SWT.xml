@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.EditorMultiLineInputAdapter6" popupfeatures="status:no" popupheight="400" popupwidth="450" translationreference="CIS_EDIT" casaindex="1" >
+
+
+        <header casaindex="2" >
+
+
+                <button method="onOK" textid="attribCompSav.button1" casaindex="3" >
+
+
+                </button>
+
+
+        </header>
+
+
+        <pagebody horizdist="false" takefullheight="true" casaindex="4" >
+
+
+                <itr height="100%" width="100%" casaindex="5" >
+
+
+                        <text height="100%" statusprop="valueDisplayStatus" textareastyle="border: 0; padding-left; 5" valueprop="value" width="100%" casaindex="6" >
+
+
+                        </text>
+
+
+                </itr>
+
+
+                <rowdynavis valueprop="examplesAvailable" casaindex="7" >
+
+
+                        <rowarea foldable="false" textid="multilinePopupHints" withbottomborder="false" withleftborder="false" withrightborder="false" casaindex="8" >
+
+
+                                <itr casaindex="9" >
+
+
+                                        <ihtml valueprop="validValueIdsHTML" casaindex="10" >
+
+
+                                        </ihtml>
+
+
+                                        <hdist width="10" casaindex="11" >
+
+
+                                        </hdist>
+
+
+                                        <ihtml valueprop="validValuesNamesHTML" width="100%" casaindex="12" >
+
+
+                                        </ihtml>
+
+
+                                </itr>
+
+
+                        </rowarea>
+
+
+                </rowdynavis>
+
+
+        </pagebody>
+
+
+</page>

@@ -1,0 +1,282 @@
+/* Do not delete this! */
+xml {display: none;}
+
+/* Defines defaults for the whole screen */
+body { 
+     background-color: #233356;
+     font-family:  "Courier New";
+}
+ 
+
+/* Defines the main screen position  */
+.mainlayer {
+    top: 0px;  	  
+}
+
+/* Defines the main screen position for right-to-left  */
+.mainlayer_rtl{
+    top: 0px;  
+}
+
+/* Defines the PF keys screen position */
+.pfkeydiv {
+    height: 80px;
+    top: 500px; 
+}
+
+/* Defines the PF keys screen position for right-to-left */
+.pfkeydiv_rtl {
+    height: 80px;
+    top: 500px;       
+}
+
+.ICONImage
+{
+	padding:1px;
+	cursor:pointer;
+	right: 5px;  
+	TOP: 0%; 
+	POSITION: absolute;
+}
+.ICONImage:hover
+{
+	padding:0;
+	border-width:1px;
+	border-style:solid;
+	border-left-color:#FFFFFF;
+	border-top-color:#FFFFFF;
+	border-right-color:#000000;
+	border-bottom-color:#000000;
+	cursor:pointer;
+}
+
+/* Defines the output fields  */
+.OutputField {
+    white-space:pre; 
+    border-width:0;     
+	font-size: 100%;	
+    font-family:  Courier New;
+    background-color:#233356;
+}
+
+.FieldVariableBased {
+   /* font-style:italic; */
+}
+
+.FieldLiteralBased {
+    /*font-style:normal; */
+}
+
+      
+/* Defines the input fields  */
+.InputField { 
+    background-color: #233356 ;      
+    font-family: Courier New;
+	border-width: 1px;      
+	font-size: 100%;				
+	border-color: #A7A9AB;
+}
+
+
+/* Text decoration */
+.natTextDecoUnderline { text-decoration:underline; }
+.natTextDecoBlinking {text-decoration:blink; }
+.natTextDecoNormal {text-decoration:normal;}
+
+/* font style */
+.natFontStyleItalic {font-style:italic;}
+.natFontStyleNormal {font-style:normal;}
+
+
+/* Font weight */
+.natFontWeightBold {font-weight:bolder}
+.natFontWeightNormal {font-weight:normal;}
+
+
+
+
+/* Defines the style for Natural windows */
+.naturalwindow {
+   border-style:solid; 
+   border-width:1px; 
+   border-color: #808080;
+   background-color: #233356;
+}
+
+
+
+/* Defines the style for titles for Natural windows */
+.wintitle {
+   left:0px;
+   top:1px;
+   height: 20px;
+   width: 100%;
+   color: black;
+   font-size: 100%;
+   font-weight: bold;
+   background-color: #88B2D7;
+   text-align: center;
+   font-family:Verdana;
+   background-image: url(../cis/styles/images/sag23_areatitle.gif);
+}
+
+
+/* Defines Natural color attributes for output fields */
+.natOutputRed {color: red; }
+.natOutputGreen {color: Chartreuse  ; }
+.natOutputBlue {color: #038299 ;}
+.natOutputYellow {color: yellow;}
+.natOutputWhite {color: white; }
+.natOutputBlack {color: white;}
+.natOutputPink {color: pink; }
+.natOutputTurquoise{color: aqua ; }
+.natOutputTransparent{color: white ; }
+
+.natOutputRedIntensified {color: red; }
+.natOutputGreenIntensified {color: Chartreuse  ; }
+.natOutputBlueIntensified {color: #038299 ;}
+.natOutputYellowIntensified {color: yellow;}
+.natOutputWhiteIntensified {color: white; }
+.natOutputBlackIntensified {color: white;}
+.natOutputPinkIntensified {color: pink; }
+.natOutputTurquoiseIntensified{color: aqua ; }
+.natOutputTransparentIntensified{color: white ; }
+
+
+/* Reverse attributes for output fields */
+.reverseOutputRed {background-color: red; color:#233356}
+.reverseOutputGreen {background-color: Chartreuse ; color:#233356}
+.reverseOutputBlue {background-color: CornflowerBlue ;color:#038299}
+.reverseOutputYellow {background-color: yellow;color:#233356}
+.reverseOutputWhite {background-color: white; color:#233356; }
+.reverseOutputBlack {background-color: white;color:#233356}
+.reverseOutputPink {background-color: pink; color:#233356}
+.reverseOutputTurquoise{background-color: aqua ;color:#233356 }
+.reverseOutputTransparent{background-color: white ; color:#233356}
+
+
+/* Defines Natural color attributes for input fields */
+.natInputRed {color: red; }
+.natInputGreen {color: Chartreuse ; }
+.natInputBlue {color: CornflowerBlue ;}
+.natInputYellow {color: yellow;}
+.natInputWhite {color: white;}
+.natInputBlack {color: white;}
+.natInputPink {color: pink; }
+.natInputTurquoise{color: aqua ; }
+.natInputTransparent{color: white ; }
+
+.natInputRedIntensified {color: red; }
+.natInputGreenIntensified {color: Chartreuse ; }
+.natInputBlueIntensified {color: CornflowerBlue ;}
+.natInputYellowIntensified {color: yellow;}
+.natInputWhiteIntensified {color: white;}
+.natInputBlackIntensified {color: white;}
+.natInputPinkIntensified {color: pink; }
+.natInputTurquoiseIntensified{color: aqua ; }
+.natInputTransparentIntensified{color: white ; }
+
+
+/* Reverse attributes for input fields */
+.reverseInputRed {background-color: red; color:#233356}
+.reverseInputGreen {background-color: Chartreuse ; color:#233356}
+.reverseInputBlue {background-color: CornflowerBlue ;color:#233356}
+.reverseInputYellow {background-color: yellow;color:#233356}
+.reverseInputWhite {background-color: white; color:#233356; }
+.reverseInputBlack {background-color: white;color:#233356}
+.reverseInputPink {background-color: pink; color:#233356}
+.reverseInputTurquoise{background-color: aqua ;color:#233356 }
+.reverseInputTransparent{background-color: black ; color: #233356}
+
+
+
+/* Defines the style of the PF key buttons */
+.PFButton
+{
+	opacity:1;
+	width:63px; 
+	height:22px;
+	cursor:pointer;
+	font-family:Verdana;
+	font-size:11px;
+	padding-left:1px;
+	padding-right:1px;
+	color:#000000;
+	background-image:url('../cis/styles/images/sag23_buttonback2.gif');
+	background-color:transparent;
+	border:1px solid #A0A0A0;
+}
+
+/* Defines the style of the PF key buttons - mouse hovering over the button */
+.PFButton:hover
+{
+	opacity:1;
+	width:63px; 
+	background-image:url('../HTMLBasedGUI/images/cis_default_buttonbackground.jpg');
+	height:22px;
+	cursor:pointer;
+	font-family:Verdana;
+	font-size:11px;
+	padding-left:1px;
+	padding-right:1px;
+	color:#000000;
+	background-color:transparent;
+	border-style:solid;
+	border-width:1px;
+	border-left-color:#FFCB39;
+	border-top-color:#FFCB39;
+	border-right-color:#EF8A29;
+	border-bottom-color:#EF8A29;
+}
+
+.PFButtonArroundDiv
+{
+    margin: 2px; 
+    width:70px;
+    float:left;
+}
+
+/* PF key Toolbar */
+.TDAroundControl {
+	font-size: 1px;
+}
+
+.TDAroundControlDiv {
+    font-size: 1px; 
+    height: 1px; 
+    width: 2px;
+}
+
+.ToolBarButton {
+    width: 63px; 
+    opacity:1;
+    height:22px;
+    cursor:pointer;
+    font-family:Verdana;
+    font-size:12px;
+    color:#000000;
+    background-image:url('../cis/styles/images/sag23_buttonback2.gif');
+    background-color:transparent;
+    border:1px solid #A0A0A0;    
+}
+
+.ToolBarButton:hover {
+    width: 63px; 
+    opacity:1;
+    height:22px;
+    cursor:pointer;
+    font-family:Verdana;
+    font-size:12px;
+    color:#000000;
+    background-image:url('../HTMLBasedGUI/images/cis_default_buttonbackground.jpg');
+    background-color:transparent;
+    border-style:solid;
+    border-width:1px;
+    border-left-color:#FFCB39;
+    border-top-color:#FFCB39;
+    border-right-color:#EF8A29;
+    border-bottom-color:#EF8A29; 
+}
+
+ /* Defines the message line */
+.MessageLine {color: white;}

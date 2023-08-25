@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.workplace.MFWorkplaceAboutAdapter" translationreference="CIS_EDIT" casaindex="1" >
+
+
+        <titlebar textid="workplaceabt.titlebar0" closetitletextid="closePage" casaindex="2" >
+
+
+        </titlebar>
+
+
+        <tabstrip2 tabstripprop="cisInfo" align="left" scrollable="false" backgroundstyle="background-color: #FFFFFF" casaindex="3" >
+
+
+        </tabstrip2>
+
+
+        <pagebody horizdist="false" takefullheight="true" paddingleft="50" paddingtop="50" casaindex="4" >
+
+
+                <itr height="100%" casaindex="5" >
+
+
+                        <coltable0 width="168" takefullheight="true" casaindex="6" >
+
+
+                                <itr casaindex="7" >
+
+
+                                        <icon image="images/aboutapplicationdesigner.gif" align="right" valign="middle" casaindex="8" >
+
+
+                                        </icon>
+
+
+                                </itr>
+
+
+                        </coltable0>
+
+
+                        <hdist width="40" casaindex="9" >
+
+
+                        </hdist>
+
+
+                        <coltable0 width="100%" takefullheight="true" casaindex="10" >
+
+
+                                <itr takefullwidth="true" height="100%" casaindex="11" >
+
+
+                                        <text valueprop="readme" width="100%" height="100%" displayonly="true" textareastyle="border:0;background-color:#FFFFFF" casaindex="12" >
+
+
+                                        </text>
+
+
+                                </itr>
+
+
+                                <vdist height="10" casaindex="13" >
+
+
+                                </vdist>
+
+
+                                <itr visibleprop="linksVisible" casaindex="14" >
+
+
+                                        <methodlink method="onLegacy" valueprop="legacyText" straighttext="true" align="left" linkstyle="font-weight: bold" casaindex="15" >
+
+
+                                        </methodlink>
+
+
+                                        <hdist width="15" casaindex="16" >
+
+
+                                        </hdist>
+
+
+                                        <methodlink method="onPrivacy" valueprop="privacyText" straighttext="true" linkstyle="font-weight: bold" casaindex="17" >
+
+
+                                        </methodlink>
+
+
+                                        <hdist width="15" casaindex="18" >
+
+
+                                        </hdist>
+
+
+                                        <methodlink method="onCopyRight" valueprop="copyText" straighttext="true" align="right" linkstyle="font-weight:bold" casaindex="19" >
+
+
+                                        </methodlink>
+
+
+                                </itr>
+
+
+                                <vdist height="10" casaindex="20" >
+
+
+                                </vdist>
+
+
+                        </coltable0>
+
+
+                </itr>
+
+
+        </pagebody>
+
+
+        <statusbar withdistance="false" casaindex="21" >
+
+
+        </statusbar>
+
+
+</page>

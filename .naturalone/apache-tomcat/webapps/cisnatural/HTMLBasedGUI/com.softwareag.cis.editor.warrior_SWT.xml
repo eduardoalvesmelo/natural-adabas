@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.WarriorAdapter" translationreference="CIS_TOOLS" casaindex="1" >
+
+
+        <titlebar textid="war.titlebar.warpackager" closetitletextid="closePage" casaindex="2" >
+
+
+        </titlebar>
+
+
+        <header withdistance="false" casaindex="3" >
+
+
+                <button textid="btn.exit" method="endProcess" casaindex="4" >
+
+
+                </button>
+
+
+        </header>
+
+
+        <pagebody horizdist="false" takefullheight="true" casaindex="5" >
+
+
+                <rowtabarea height="260" leftindent="50" withleftborder="false" withrightborder="false" textid1="war.rowtabarea.deploymentscenario" page1="SCENARIO" textid2="war.rowtabarea.projectselection" page2="PROJECT" casaindex="6" >
+
+
+                        <tabpage id="SCENARIO" casaindex="7" >
+
+
+                                <itr casaindex="8" >
+
+
+                                        <coltable0 width="200" casaindex="9" >
+
+
+                                                <vdist height="45" casaindex="10" >
+
+
+                                                </vdist>
+
+
+                                                <itr casaindex="11" >
+
+
+                                                        <radiobutton valueprop="clustered" value="false" flush="server" casaindex="12" >
+
+
+                                                        </radiobutton>
+
+
+                                                        <label textid="war.label.withfilesystemref" asplaintext="true" casaindex="13" >
+
+
+                                                        </label>
+
+
+                                                </itr>
+
+
+                                                <itr casaindex="14" >
+
+
+                                                        <radiobutton valueprop="clustered" value="true" flush="server" casaindex="15" >
+
+
+                                                        </radiobutton>
+
+
+                                                        <label textid="war.label.fullyclusterable" asplaintext="true" casaindex="16" >
+
+
+                                                        </label>
+
+
+                                                </itr>
+
+
+                                        </coltable0>
+
+
+                                        <icon image="images/warunclustered.gif" method="onWarUnclustered" casaindex="17" >
+
+
+                                        </icon>
+
+
+                                        <label textid="war.label.withreftofile" width="80" asplaintext="true" labelstyle="font-size: 10px" casaindex="18" >
+
+
+                                        </label>
+
+
+                                        <helpicon helpid="deployment" casaindex="19" >
+
+
+                                        </helpicon>
+
+
+                                        <hdist width="30" casaindex="20" >
+
+
+                                        </hdist>
+
+
+                                        <icon image="images/warclustered.gif" method="onWarClustered" casaindex="21" >
+
+
+                                        </icon>
+
+
+                                        <label textid="war.label.fullyclusterableno" width="80" asplaintext="true" labelstyle="font-size: 10px" casaindex="22" >
+
+
+                                        </label>
+
+
+                                        <helpicon helpid="deployment" casaindex="23" >
+
+
+                                        </helpicon>
+
+
+                                </itr>
+
+
+                                <vdist height="20" casaindex="24" >
+
+
+                                </vdist>
+
+
+                                <itr width="100%" casaindex="25" >
+
+
+                                        <label textid="war.label.cisrootloc" width="200" casaindex="26" >
+
+
+                                        </label>
+
+
+                    <field xsdType="xs:string" valueprop="rootLocation" width="100%" statusprop="fileStatus" popupmethod="openIdValueCombo" casaindex="27" >
+
+                    </field>
+
+                                </itr>
+
+
+                                <itr width="100%" casaindex="28" >
+
+
+                                        <label textid="war.label.logfileloc" width="200" casaindex="29" >
+
+
+                                        </label>
+
+
+                    <field xsdType="xs:string" valueprop="logFileLocation" width="100%" statusprop="fileStatus" popupmethod="openIdValueCombo" casaindex="30" >
+
+                    </field>
+
+                                </itr>
+
+
+                                <itr casaindex="31" >
+
+
+                                        <label textid="war.label.switchoffdesigntime" width="200" casaindex="32" >
+
+
+                                        </label>
+
+
+                                        <checkbox valueprop="designTimeSwitchedOff" statusprop="fileStatus" casaindex="33" >
+
+
+                                        </checkbox>
+
+
+                                </itr>
+
+
+                        </tabpage>
+
+
+                        <tabpage id="PROJECT" display="none" casaindex="34" >
+
+
+                                <vdist height="10" casaindex="35" >
+
+
+                                </vdist>
+
+
+                                <itr width="100%" casaindex="36" >
+
+
+                                        <coltable0 width="200" casaindex="37" >
+
+
+                                                <itr casaindex="38" >
+
+
+                                                        <label textid="war.label.selectproj" width="200" casaindex="39" >
+
+
+                                                        </label>
+
+
+                                                </itr>
+
+
+                                        </coltable0>
+
+
+                                        <coltable0 width="100%" casaindex="40" >
+
+
+                                                <rowtablearea2 griddataprop="projects" rowcount="9" casaindex="41" >
+
+
+                                                        <repeat casaindex="42" >
+
+
+                                                                <str valueprop="selected" casaindex="43" >
+
+
+                                                                        <checkbox valueprop="selected" flush="screen" statusprop="selectedStatus" casaindex="44" >
+
+
+                                                                        </checkbox>
+
+
+                                                                        <textout valueprop="name" width="200" casaindex="45" >
+
+
+                                                                        </textout>
+
+
+                                                                </str>
+
+
+                                                        </repeat>
+
+
+                                                </rowtablearea2>
+
+
+                                        </coltable0>
+
+
+                                </itr>
+
+
+                        </tabpage>
+
+
+                </rowtabarea>
+
+
+                <rowarea textid="war.rowarea.checkandcreate" height="100%" withleftborder="false" withrightborder="false" casaindex="46" >
+
+
+                        <itr casaindex="47" >
+
+
+                                <label textid="war.label.warfiletocreate" width="200" casaindex="48" >
+
+
+                                </label>
+
+
+                <field xsdType="xs:string" valueprop="warFileName" width="300" casaindex="49" >
+
+                </field>
+
+                                <hdist casaindex="50" >
+
+
+                                </hdist>
+
+
+                                <button textid="war.btn.createwar" method="onCheckAndCreate" casaindex="51" >
+
+
+                                </button>
+
+
+                        </itr>
+
+
+                        <itr casaindex="52" >
+
+
+                                <hdist width="200" casaindex="53" >
+
+
+                                </hdist>
+
+
+                                <label textid="war.label.dependenton" asplaintext="true" labelstyle="font-size: 10px" casaindex="54" >
+
+
+                                </label>
+
+
+                        </itr>
+
+
+                        <vdist casaindex="55" >
+
+
+                        </vdist>
+
+
+                        <itr height="100%" fixlayout="true" width="100%" casaindex="56" >
+
+
+                                <hdist width="200" casaindex="57" >
+
+
+                                </hdist>
+
+
+                                <coltable0 width="100%" takefullheight="true" fixlayout="true" casaindex="58" >
+
+
+                                        <itr height="100%" fixlayout="true" width="100%" casaindex="59" >
+
+
+                                                <textgridsss2 griddataprop="protocolLines" rowcount="20" width="100%" height="100%" hscroll="true" casaindex="60" >
+
+
+                                                        <column textid="war.txtgridsss.clm.protocol" property="text" width="100%" casaindex="61" >
+
+
+                                                        </column>
+
+
+                                                </textgridsss2>
+
+
+                                        </itr>
+
+
+                                </coltable0>
+
+
+                        </itr>
+
+
+                </rowarea>
+
+
+                <vdist casaindex="62" >
+
+
+                </vdist>
+
+
+        </pagebody>
+
+
+        <statusbar withdistance="false" casaindex="63" >
+
+
+        </statusbar>
+
+
+</page>

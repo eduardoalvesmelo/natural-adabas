@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.BorderNewPageAdapter" popupheight="250" popupwidth="650" translationreference="editor" casaindex="1" >
+
+
+        <pagebody pagebodystyle="background-color: #D2D2D2" casaindex="2" >
+
+
+                <vdist height="10" casaindex="3" >
+
+
+                </vdist>
+
+
+                <itr casaindex="4" >
+
+
+                        <hdist width="400" casaindex="5" >
+
+
+                        </hdist>
+
+
+                        <button method="onOk" textid="rbnp.button2" width="60" casaindex="6" >
+
+
+                        </button>
+
+
+                        <hdist width="10" casaindex="7" >
+
+
+                        </hdist>
+
+
+                        <button method="onCancel" textid="rbnp.button3" width="60" casaindex="8" >
+
+
+                        </button>
+
+
+                </itr>
+
+
+                <vdist height="10" casaindex="9" >
+
+
+                </vdist>
+
+
+                <rowarea areastyle="background-color: #FFFFFF" casaindex="10" >
+
+
+                        <vdist height="15" casaindex="11" >
+
+
+                        </vdist>
+
+
+                        <itr itrstyle="null;border:solid;border-style:double;border-width:16;border-color:#FF0000" casaindex="12" >
+
+
+                                <hdist width="20" casaindex="13" >
+
+
+                                </hdist>
+
+
+                                <icon colstyle="background-color: #9D9D9D" displaymenuindicator="true" image="../HTMLBasedGUI/images/border.gif" method="onBorder" nameposition="aside" textid="rbnp.icon12" titletextid="rbnp.icon14" casaindex="14" >
+
+
+                                </icon>
+
+
+                                <hdist width="10" casaindex="15" >
+
+
+                                </hdist>
+
+
+                                <icon colstyle="background-color: #9D9D9D" displaymenuindicator="true" image="../HTMLBasedGUI/images/borderStyle.gif" method="onBorderStyle" textid="rbnp.icon15" titletextid="rbnp.icon16" casaindex="16" >
+
+
+                                </icon>
+
+
+                                <hdist width="10" casaindex="17" >
+
+
+                                </hdist>
+
+
+                                <icon colstyle="background-color: #9D9D9D" displaymenuindicator="true" image="../HTMLBasedGUI/images/borderWidth.gif" method="onBorderWidth" textid="rbnp.icon17" titletextid="rbnp.icon18" casaindex="18" >
+
+
+                                </icon>
+
+
+                                <hdist width="10" casaindex="19" >
+
+
+                                </hdist>
+
+
+                                <icon colstyle="background-color: #9D9D9D" displaymenuindicator="true" image="../HTMLBasedGUI/images/borderColor.gif" method="onBorderColor" textid="rbnp.icon19" titletextid="rbnp.icon20" casaindex="20" >
+
+
+                                </icon>
+
+
+                                <vdist height="10" casaindex="21" >
+
+
+                                </vdist>
+
+
+                        </itr>
+
+
+                        <itr casaindex="22" >
+
+
+                                <hdist width="20" casaindex="23" >
+
+
+                                </hdist>
+
+
+                                <coldynavis style="border:solid;border-width:1px" takefullheight="50" valueprop="borderTypes" width="50" casaindex="24" >
+
+
+                                        <itr casaindex="25" >
+
+
+                                        </itr>
+
+
+                                        <vdist height="10" casaindex="26" >
+
+
+                                        </vdist>
+
+
+                                        <itr casaindex="27" >
+
+
+                                                <hdist width="5" casaindex="28" >
+
+
+                                                </hdist>
+
+
+                                                <icon image="../HTMLBasedGUI/images/border.gif" method="onBorderAll" casaindex="29" >
+
+
+                                                </icon>
+
+
+                                                <hdist width="5" casaindex="30" >
+
+
+                                                </hdist>
+
+
+                                                <icon image="../HTMLBasedGUI/images/borderLeft.gif" method="onBorderLeft" casaindex="31" >
+
+
+                                                </icon>
+
+
+                                                <hdist width="5" casaindex="32" >
+
+
+                                                </hdist>
+
+
+                                                <icon image="../HTMLBasedGUI/images/borderRight.gif" method="onBorderRight" casaindex="33" >
+
+
+                                                </icon>
+
+
+                                                <hdist width="5" casaindex="34" >
+
+
+                                                </hdist>
+
+
+                                                <icon image="../HTMLBasedGUI/images/borderTop.gif" method="onBorderTop" casaindex="35" >
+
+
+                                                </icon>
+
+
+                                                <hdist width="5" casaindex="36" >
+
+
+                                                </hdist>
+
+
+                                                <icon image="../HTMLBasedGUI/images/borderBottom.gif" method="onBorderBottom" casaindex="37" >
+
+
+                                                </icon>
+
+
+                                                <hdist width="5" casaindex="38" >
+
+
+                                                </hdist>
+
+
+                                        </itr>
+
+
+                                        <vdist casaindex="39" >
+
+
+                                        </vdist>
+
+
+                                        <itr casaindex="40" >
+
+
+                                                <hdist width="15" casaindex="41" >
+
+
+                                                </hdist>
+
+
+                        <field xsdType="xs:string" flush="server" fieldstyle="background-color: #F0F1F2" noborder="true" valueprop="selBorderType" width="50" casaindex="42" >
+
+                        </field>
+
+                                        </itr>
+
+
+                                        <vdist height="3" casaindex="43" >
+
+
+                                        </vdist>
+
+
+                                </coldynavis>
+
+
+                                <hdist width="130" casaindex="44" >
+
+
+                                </hdist>
+
+
+                                <coldynavis style="border:solid;border-width:1px" takefullheight="true" valueprop="borderStyle" width="120" casaindex="45" >
+
+
+                                        <itr casaindex="46" >
+
+
+                                                <label textid="rbnp.label3" casaindex="47" >
+
+
+                                                </label>
+
+
+                        <field xsdType="xs:string" flush="server" popupmethod="openIdValueCombo" valueprop="selBorderStyle" width="80" casaindex="48" >
+
+                        </field>
+
+                                        </itr>
+
+
+                                </coldynavis>
+
+
+                                <hdist width="130" casaindex="49" >
+
+
+                                </hdist>
+
+
+                                <coldynavis style="border:solid;border-width:1px" takefullheight="true" valueprop="borderWidth" width="100" casaindex="50" >
+
+
+                                        <itr casaindex="51" >
+
+
+                                                <label textid="rbnp.label4" casaindex="52" >
+
+
+                                                </label>
+
+
+                        <field xsdType="xs:string" flush="server" popupmethod="openIdValueCombo" valueprop="selBorderWidth" width="80" casaindex="53" >
+
+                        </field>
+
+                                        </itr>
+
+
+                                </coldynavis>
+
+
+                                <hdist width="60" casaindex="54" >
+
+
+                                </hdist>
+
+
+                                <coldynavis takefullheight="true" valueprop="borderColor" width="100" casaindex="55" >
+
+
+                                        <itr casaindex="56" >
+
+
+                                                <label textid="rbnp.label5" width="100" casaindex="57" >
+
+
+                                                </label>
+
+
+                        <field xsdType="xs:string" flush="server" valueprop="selBorderColor" casaindex="58" >
+
+                        </field>
+
+                                        </itr>
+
+
+                                </coldynavis>
+
+
+                                <vdist casaindex="59" >
+
+
+                                </vdist>
+
+
+                        </itr>
+
+
+                </rowarea>
+
+
+                <vdist height="10" casaindex="60" >
+
+
+                </vdist>
+
+
+        </pagebody>
+
+
+        <statusbar casaindex="61" >
+
+
+        </statusbar>
+
+
+</page>

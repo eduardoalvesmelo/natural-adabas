@@ -1,0 +1,33 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** Fazer um programa que recebe duas notas parciais de um aluno (0 a 100) e informa se ele
+/** está aprovado (média maior ou igual a 70), em exame final (média entre 40 e 69) ou
+/** reprovado (média menor do que 40). Caso esteja em exame o programa deve pedir a nota do
+/** exame (0 a 100) e informar se o aluno está aprovado (média mais nota do exame maior ou
+/** igual a 100) ou reprovado (média mais nota do exame menor do que 100).
+/**
+/** :author Eduardo Alves
+/* TODO Enter your code here
+DEFINE DATA LOCAL
+1 #nota-1    (N3)
+1 #nota-2    (N3)
+1 #media    (N3.2)
+END-DEFINE
+*
+    input 'informe a primeira nota ' #nota-1
+    input 'informe a segunda nota ' #nota-2
+    #media := (#nota-1 + #nota-2)/2
+*    
+write 'Média final:' #media    
+decide for first condition    
+   when #media > 70
+       write 'Aprovado!!!'           
+   when #media > 40 and #media < 69
+       write 'Em exame final'         
+   when none
+       write 'Reprovado'
+end-decide
+*
+END

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.natural.mapconverter.gui.ConvrulesSelectorAdapter" popupwidth="800" popupheight="400" casaindex="1" >
+
+
+        <titlebar name="Conversion Rules" withclose="true" casaindex="2" >
+
+
+        </titlebar>
+
+
+        <pagebody casaindex="3" >
+
+
+                <rowarea name="Select Project" casaindex="4" >
+
+
+                        <itr casaindex="5" >
+
+
+                                <label name="Select the conversion rules you would like to copy to the selected project." width="600" asplaintext="true" casaindex="6" >
+
+
+                                </label>
+
+
+                        </itr>
+
+
+                        <vdist height="10" casaindex="7" >
+
+
+                        </vdist>
+
+
+                        <itr casaindex="8" >
+
+
+                                <label name="Project" width="100" asplaintext="true" casaindex="9" >
+
+
+                                </label>
+
+
+                                <combodyn2 valueprop="rulesProject" validvaluesprop="projectValues" width="200" flush="server" flushmethod="onProjectChanged" statusprop="statusRulesProject" casaindex="10" >
+
+
+                                </combodyn2>
+
+
+                                <hdist width="10" casaindex="11" >
+
+
+                                </hdist>
+
+
+                                <button name="Copy Selected Rules" method="onCopyRules" casaindex="12" >
+
+
+                                </button>
+
+
+                                <hdist width="10" casaindex="13" >
+
+
+                                </hdist>
+
+
+                                <checkbox valueprop="overwrite" name="Overwrite existing files" casaindex="14" >
+
+
+                                </checkbox>
+
+
+                        </itr>
+
+
+                        <vdist height="10" casaindex="15" >
+
+
+                        </vdist>
+
+
+                </rowarea>
+
+
+                        <rowarea name="Select Conversion Rules and Templates" casaindex="16" >
+
+
+                        <itr width="100%" casaindex="17" >
+
+
+                                <colarea name="Conversion Rules" width="50%" withleftborder="false" withrightborder="false" casaindex="18" >
+
+
+                                        <vdist height="10" casaindex="19" >
+
+
+                                        </vdist>
+
+
+                                        <itr takefullwidth="true" casaindex="20" >
+
+
+                                                <multiselect valueprop="convrulesmultiselect" flush="server" flushmethod="onRulesSelectionChanged" width="100%" casaindex="21" >
+
+
+                                                </multiselect>
+
+
+                                        </itr>
+
+
+                                        <vdist height="10" casaindex="22" >
+
+
+                                        </vdist>
+
+
+                                </colarea>
+
+
+                                <hdist casaindex="23" >
+
+
+                                </hdist>
+
+
+                                <colarea name="Templates" width="50%" takefullheight="true" withrightborder="false" casaindex="24" >
+
+
+                                        <vdist height="10" casaindex="25" >
+
+
+                                        </vdist>
+
+
+                                        <itr takefullwidth="true" casaindex="26" >
+
+
+                                                <multiselect valueprop="templatesmultiselect" width="100%" casaindex="27" >
+
+
+                                                </multiselect>
+
+
+                                        </itr>
+
+
+                                        <vdist height="10" casaindex="28" >
+
+
+                                        </vdist>
+
+
+                                </colarea>
+
+
+                        </itr>
+
+
+                </rowarea>
+
+
+        </pagebody>
+
+
+        <statusbar withdistance="false" casaindex="29" >
+
+
+        </statusbar>
+
+
+</page>

@@ -1,0 +1,13 @@
+0010/*C               S                *  <SAG_Comment: Start of original source text.>                   DA:00.00ED:00.00PF:WNV:09010100
+0020/*C               S                *  <TBI=;>
+0030/*C               S                *  DEFINE DATA PARAMETER
+0040/*C               S                *  /** New Parameter Data Area NUM-EXT.;
+0050/*C               S                *  /**;
+0060/*C               S                *  /** :author eduar;
+0070/*C               S                *  /* TODO Enter your data definitions here;
+0080/*C               S                *  END-DEFINE;
+0090/*C               S                *  <SAG_Comment: End of original source text.>
+0100/*C               O     T.         */** New Parameter Data Area NUM-EX
+0110/*C               O                */**
+0120/*C               O                */** :author eduar
+0130/*C               O     s here     */* TODO Enter your data definition

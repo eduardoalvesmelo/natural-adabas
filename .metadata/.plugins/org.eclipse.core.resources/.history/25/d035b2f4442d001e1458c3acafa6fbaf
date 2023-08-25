@@ -1,0 +1,26 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** O número 3025 possui a seguinte característica: 30 + 25 = 55 -> 55*55 = 3025. Fazer um
+/** programa para obter todos os números de 4 algarismos com a mesma característica do
+/** número 3025. 
+/**
+/** :author eduar
+/* TODO Enter your code here
+DEFINE DATA LOCAL
+1 #Numero (N4)     /* Definindo a variável que armazenará o número de quatro dígitos
+1 #Digito1 (N2)    /* Definindo variável para o primeiro dígito
+1 #Digito2 (N2)    /* Definindo variável para o segundo dígito
+END-DEFINE
+
+INPUT #Numero      /* Lendo o número de quatro dígitos do usuário
+
+IF #Numero < 1000 OR #Numero > 9999
+  WRITE 'O número deve ter quatro dígitos.'
+ELSE
+  MOVE EDITED #Numero(1:2) TO #Digito1 (EM=Z2) /* Obtendo o primeiro dígito
+  MOVE EDITED #Numero(3:4) TO #Digito2 (EM=Z2) /* Obtendo o segundo dígito
+
+  WRITE #Digito1 #Digito2 /* Exibindo os dois dígitos separadamente
+END-IF

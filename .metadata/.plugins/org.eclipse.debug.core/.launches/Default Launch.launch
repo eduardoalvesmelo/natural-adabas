@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="sag.debugger.launchType">
+<booleanAttribute key="nat.debugModel.ATTR_DBGA_ACTIVE" value="false"/>
+<intAttribute key="nat.debugModel.ATTR_EXEC_ID" value="0"/>
+<stringAttribute key="nat.debugModel.ATTR_NAT_APPSERVERNAME" value="localhost"/>
+<stringAttribute key="nat.debugModel.ATTR_NAT_APPSERVERPORT" value="28080"/>
+<stringAttribute key="nat.debugModel.ATTR_NAT_APPSERVERTYPE" value="Natural for Ajax (NJX)"/>
+<stringAttribute key="nat.debugModel.ATTR_NAT_PROGRAM" value="/acesso-banco-1/Natural-Libraries/SYSTEM/SRC/EX01.NSP"/>
+<stringAttribute key="nat.debugModel.ATTR_NDV_HOST" value="10.100.20.10"/>
+<stringAttribute key="nat.debugModel.ATTR_NDV_PASSWORD" value="prodam"/>
+<stringAttribute key="nat.debugModel.ATTR_NDV_PORT" value="2700"/>
+<stringAttribute key="nat.debugModel.ATTR_NDV_SESSIONPARAMETER" value=""/>
+<stringAttribute key="nat.debugModel.ATTR_NDV_STARTLIBRARY" value=""/>
+<stringAttribute key="nat.debugModel.ATTR_NDV_USERID" value="T912610"/>
+<booleanAttribute key="nat.profiler.AFTER_DATABASE_CALL" value="true"/>
+<booleanAttribute key="nat.profiler.AFTER_EXTERNAL_PROGRAM_CALL" value="true"/>
+<booleanAttribute key="nat.profiler.AFTER_TERMINAL_IO" value="true"/>
+<booleanAttribute key="nat.profiler.BEFORE_DATABASE_CALL" value="true"/>
+<booleanAttribute key="nat.profiler.BEFORE_EXTERNAL_PROGRAM_CALL" value="true"/>
+<booleanAttribute key="nat.profiler.BEFORE_TERMINAL_IO" value="true"/>
+<booleanAttribute key="nat.profiler.INBOUND_RPC_MESSAGE" value="true"/>
+<booleanAttribute key="nat.profiler.INTERNAL_TRACE_CALL" value="true"/>
+<booleanAttribute key="nat.profiler.MONITOR_PAUSE" value="true"/>
+<booleanAttribute key="nat.profiler.NATURAL_STATEMENT" value="false"/>
+<booleanAttribute key="nat.profiler.OUTBOUND_RPC_MESSAGE" value="true"/>
+<booleanAttribute key="nat.profiler.PROGRAM_INFORMATION" value="true"/>
+<booleanAttribute key="nat.profiler.PROGRAM_LOAD" value="true"/>
+<booleanAttribute key="nat.profiler.PROGRAM_RESUME" value="true"/>
+<booleanAttribute key="nat.profiler.PROGRAM_START" value="true"/>
+<booleanAttribute key="nat.profiler.PROGRAM_TERMINATION" value="true"/>
+<booleanAttribute key="nat.profiler.RUNTIME_ERROR" value="true"/>
+<booleanAttribute key="nat.profiler.SESSION_INITIALIZATION" value="true"/>
+<booleanAttribute key="nat.profiler.SESSION_TERMINATION" value="true"/>
+<booleanAttribute key="nat.profiler.START_RPC_REQUEST" value="true"/>
+<booleanAttribute key="nat.profiler.USER_DEFINED" value="true"/>
+<booleanAttribute key="org.eclipse.debug.ui.ATTR_CONSOLE_OUTPUT_ON" value="false"/>
+<stringAttribute key="process_factory_id" value="com.softwareag.naturalone.natural.execdebug.core.processFactory"/>
+</launchConfiguration>

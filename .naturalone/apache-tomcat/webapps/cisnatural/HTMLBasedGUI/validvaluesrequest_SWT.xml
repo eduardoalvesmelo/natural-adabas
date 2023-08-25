@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.server.util.ValidValuesRequestModel" translationreference="validvaluesrequest" popupwidth="400" popupheight="405" darkbackground="true" pagename="validvaluesrequest" ispopup="true" casaindex="1" >
+
+
+        <pagebody vscroll="auto" hscroll="auto" horizdist="false" takefullheight="true" paddingleft="10" paddingright="10" paddingtop="10" paddingbottom="10" casaindex="2" >
+
+
+                <itr takefullwidth="true" casaindex="3" >
+
+
+                        <label textid="firstChars" width="110" casaindex="4" >
+
+
+                        </label>
+
+
+            <field xsdType="xs:string" valueprop="searchValue" width="100%" statusprop="searchVaueStatus" casaindex="5" >
+
+            </field>
+
+                        <hdist width="5" casaindex="6" >
+
+
+                        </hdist>
+
+
+                        <button textid="search" method="onSearch" casaindex="7" >
+
+
+                        </button>
+
+
+                        <hdist width="10" casaindex="8" >
+
+
+                        </hdist>
+
+
+                        <icon tabindex="-1" image="../HTMLBasedGUI/images/distance.gif" casaindex="9" >
+
+
+                        </icon>
+
+
+                        <hdist width="10" casaindex="10" >
+
+
+                        </hdist>
+
+
+                        <button textid="btnCancel" method="closePage" align="center" casaindex="11" >
+
+
+                        </button>
+
+
+                </itr>
+
+
+                <itr takefullwidth="true" casaindex="12" >
+
+
+                        <label textid="examples" width="100%" asplaintext="true" casaindex="13" >
+
+
+                        </label>
+
+
+                </itr>
+
+
+                <vdist height="10" casaindex="14" >
+
+
+                </vdist>
+
+
+                <itr height="100%" fixlayout="true" width="100%" casaindex="15" >
+
+
+        			            <textgridsss2 griddataprop="idValueLines" rowcount="20" width="100%" height="100%" selectprop="selected" singleselect="true" hscroll="true" onclickmethod="select" casaindex="16" >
+
+
+                                <csvcolumn titlesprop="titles" valuesprop="valuesCSV" widthsprop="widths" backgroundsprop="backgroundsCSV" proprefsprop="props" casaindex="17" >
+
+
+                                </csvcolumn>
+
+
+                        </textgridsss2>
+
+
+                </itr>
+
+
+        </pagebody>
+
+
+        <statusbar casaindex="18" >
+
+
+        </statusbar>
+
+
+        <hotkeys casaindex="19" >
+
+
+                <hotkey keycode="69" ctrlkey="true" method="onSearch" casaindex="20" >
+
+
+                </hotkey>
+
+
+                <hotkey keycode="13" method="select" casaindex="21" >
+
+
+                </hotkey>
+
+
+        </hotkeys>
+
+
+</page>

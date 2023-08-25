@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><page ispopup="true" model="com.softwareag.cis.popups.PopupLogModel" popupheight="408" popupwidth="396" titletextid="popuplog.lpage1" translationreference="popups" casaindex="1" >
+
+
+        <pagebody hscroll="auto" takefullheight="true" vscroll="auto" casaindex="2" >
+
+
+                <rowarea height="100%" textid="popuplog.lrowarea1" casaindex="3" >
+
+
+                        <itr height="100%" width="100%" casaindex="4" >
+
+
+                                <text cols="58" height="100%" rows="22" valueprop="log" width="100%" casaindex="5" >
+
+
+                                </text>
+
+
+                        </itr>
+
+
+                        <vdist casaindex="6" >
+
+
+                        </vdist>
+
+
+                        <vdist casaindex="7" >
+
+
+                        </vdist>
+
+
+                        <itr align="center" casaindex="8" >
+
+
+                                <button method="reactOnOK" textid="popuplog.lbutton1" withtd="false" casaindex="9" >
+
+
+                                </button>
+
+
+                        </itr>
+
+
+                </rowarea>
+
+
+                <vdist casaindex="10" >
+
+
+                </vdist>
+
+
+        </pagebody>
+
+
+</page>

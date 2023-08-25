@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'>
+<script>var m_perfPageLoadStart = new Date();
+var m_perfPageLoadEnd = null;
+var m_perfPageFocusEnd = null;</script>
+<link id="casabacstylesheet" rel="stylesheet" type="text/css" href="../cis/styles/CIS_DEFAULT.css">
+<script>
+try
+{
+if (parent.CasaSTYLESHEET == null)
+{
+var vParent = parent;
+while(vParent != null)
+{
+if(vParent.CasaSTYLESHEET != null && vParent.CasaSTYLESHEET != '')
+{
+parent.CasaSTYLESHEET = vParent.CasaSTYLESHEET;
+break;
+}
+if(vParent == vParent.parent) break;
+vParent = vParent.parent;
+}
+}
+if (parent.CasaSTYLESHEET != null && parent.CasaSTYLESHEET != '')
+{
+var vStyleSheet = document.getElementById('casabacstylesheet');
+if (vStyleSheet.href != parent.CasaSTYLESHEET) vStyleSheet.href = parent.CasaSTYLESHEET;
+}
+}
+catch (eeccxx) {}
+</script>
+<style>
+html {height:100%;}
+body {height:100%;}
+</style>
+</head>
+<body id='THISBODY' oncontextmenu='try { return C.reactOnContextMenuRequestPAGE(event); } catch(e) {}' onmousemove='try { return moveDrag(event); } catch(exc) {}' onmouseup='try { endDrag(event);C.CL().checkMozIO(parent); } catch (exc) {}' onkeydown='try { processHotKeys(event); } catch (exc) {}' class='PAGEBody' style='margin: 0' onclick='try { C.clickAway(); } catch (exc) {}; try { C.reactOnClickPage(event); } catch (exc) {}' onresize='try { reactOnResize(); } catch (exc) {}'	onload=' try { reactOnResize(); } catch (exc) {}'	onhelp='C.reactOnHelpPAGE(); return false;'  tabindex='-1' onblur='try { C.onBlurPAGE(event); } catch(e) {}' onfocus='try { C.onFocusPAGE(); } catch(e) {}' onmousewheel='if (event.shiftKey) C.CL().cancelEvent(event);' onwheel='if (event.shiftKey) C.CL().cancelEvent(event);' onmouseleave='try { return removeTHISOCCUPIED(); } catch(exc) {}' onmouseout ='try { return removeTHISOCCUPIED(); } catch(exc) {}'>
+<script>
+function gebid(pid) { return document.getElementById(pid); }
+var m_isSafari = navigator.userAgent.toLowerCase().indexOf( 'safari' ) != -1;
+function isSafari() { return m_isSafari; }
+function createFunction(name,param,code) { window[name] = new Function(param,code); return window[name]; }
+function createElement(name) { return document.createElement(name); }
+var N = null;
+function icc(iccMethodName, baseIndex, s) { C.addIccInfo(iccMethodName, baseIndex, s); iccExec(iccMethodName, s); }
+function iccExec(iccMethodName, s) {
+var o = C.decodeString(s,',');
+for (var i=0; i<o.length; i++) o[i] = eval(o[i]);
+eval(iccMethodName)(o[0],o[1],o[2],o[3],o[4],o[5],o[6],o[7],o[8],o[9],o[10],o[11],o[12],o[13],o[14],o[15],o[16],o[17],o[18],o[19],o[20],o[21],o[22],o[23],o[24],o[25],o[26],o[27],o[28],o[29],o[30],o[31],o[32],o[33],o[34],o[35],o[36],o[37],o[38],o[39],o[40],o[41],o[42],o[43],o[44],o[45],o[46],o[47],o[48],o[49]);
+}
+m_startPageDate = new Date();
+var m_pageCompletelyBuilt = false;
+var m_fillTextIdListeners = [];
+var m_flagResize = true;
+var m_centralContextMenu =false;
+function registerFillTextIdListener(listener)
+{
+m_fillTextIdListeners.push(listener);
+}
+</script>
+<table id='JUSTLOADING' style='table-layout: fixed;z-index: 100;cursor: progress; position: absolute; left: 0; top: 0; width: 100%; height: 100%' class='PAGEBody'>
+<tr><td align="center" valign="middle" class='FLASHPageSwitch'>&nbsp;</td></tr>
+</table>
+<table id='THISPAGE' cellspacing='0' cellpadding='0'  style='table-layout: auto;width:100%;height:100%;display:none'>
+<tr id="TITLEBARTITLEBARTR"  style=" ">
+<td colspan='50' width='100%' height='0' align='center'>
+<table width='100%' cellspacing=0 cellpadding=0 class="TITLEBARTable">
+<tr>
+<td width='100%'>
+<table id="TITLEBARTITLEBAR" width="100%" cellspacing=2 cellpadding=0 style='table-layout: fixed'>
+<tr>
+<td width="100%" class="TDAroundControl" >
+<div nowrap="true" class="TITLEBARCell" style="overflow-x: hidden;">&nbsp;<span id="$2">$relse.titlebar1</span>&nbsp;</div>
+</td>
+</tr>
+</table>
+</td>
+<td width=0>
+<table width=0 cellspacing=0 cellpadding=0>
+<tr>
+<td id='TITLEBAR2CLOSE' title="$closePage" valign='middle' onmouseenter='if (C.checkIO() == false) return; C.CL().C_rollinIconROLLOVER(this);' onmouseleave='this.className = "ICONImage";' onclick='closePage2()'><div class='TITLEBARCellClose'>&nbsp;</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr id='TR3' >
+<td id="HDR3" colspan='50' width='100%' height='0' class="HEADERTopTable" style='padding-left:3px;padding-right:3px'>
+<a name="PC"></a><table id="HDRTA3" align="center" >
+<tr>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td  colspan='50' width='100%' height='100%' valign='top' >
+<div id='PAGEDIV4' style='width: 100%; height: 100%;overflow: auto;padding:0 3px 0 3px;'>
+<table width="100%" style='' cellspacing="0" cellpadding="0" >
+<tr id='ITR5'  >
+<td   valign='top' colspan='50' class='TDAroundControl'  height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 ><tr>
+<td id='HD6' class='TDAroundControl' style='font-size:1px' width='3px'><div style='font-size:1px;height:1px;width:3px'></div></td>
+<td id='TD7'    colspan=1 rowspan=1 width='100px'  class="LABELCellNormal" style=" ;width:100px"  valign='middle'><div id="DIV7"  class="LABELDivText" style=" ;width:100px"><span id='$7'>$relse.label7</span>
+</div></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_8" name="CC" class='FIELDInputEdit' data-testtoolid='layoutPath' type="text"    style=" width:100%;"></td>
+<td id='HD9' class='TDAroundControl' style='font-size:1px' width=0><div style='font-size:1px;height:3px;width:3px'></div></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr id='ITR10'  >
+<td   valign='top' colspan='50' class='TDAroundControl'  height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 ><tr>
+<td id='HD11' class='TDAroundControl' style='font-size:1px' width='3px'><div style='font-size:1px;height:1px;width:3px'></div></td>
+<td id='TD12'    colspan=1 rowspan=1 width='100px'  class="LABELCellNormal" style=" ;width:100px"  valign='middle'><div id="DIV12"  class="LABELDivText" style=" ;width:100px"><span id='$12'>$relse.label8</span>
+</div></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_13" name="CC" class='FIELDInputEdit' data-testtoolid='mlFile' type="text"    style=" width:100%;"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr id='ITR14'  >
+<td   valign='top' colspan='50' class='TDAroundControl'  height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 ><tr>
+<td id='HD15' class='TDAroundControl' style='font-size:1px' width='3px'><div style='font-size:1px;height:1px;width:3px'></div></td>
+<td id='TD16'    colspan=1 rowspan=1 width='100px'  class="LABELCellNormal" style=" ;width:100px"  valign='middle'><div id="DIV16"  class="LABELDivText" style=" ;width:100px"><span id='$16'>$relse.label9</span>
+</div></td>
+<td  width=0   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_17" name="CC" class='FIELDInputEdit' data-testtoolid='idPrefix' type="text"    style=" "></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr id='ITR18'  >
+<td   valign='top' colspan='50' class='TDAroundControl'  height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 ><tr>
+<td id='HD19' class='TDAroundControl' style='font-size:1px' width='103px'><div style='font-size:1px;height:1px;width:103px'></div></td>
+<td id="TDB20"  width=0 colspan=1 rowspan=1 class='TDAroundControl' align='left' valign='middle' >
+<button type="button" id="B_20" data-testtoolid='parseLayout' style=" "  name="CC" class="BUTTONInput">$1$relse.button2$2$</button>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style=' ' ><td height="3px" class='TDAroundControl' ></td></tr>
+<tr><td colspan='50' class='TDAroundControl' >
+<table id='TAB22' data-testtoolid='lines_table'   cellpadding=0 class="TABLEAREATable" onmousewheel='reactOnMouseWheel22(event);'>
+<tr>
+<td class='TDAroundControl'  height='100%'>
+<table cellpadding=0 cellspacing=0 width='100%' >
+<tr>
+<td>
+<div id='DIV22' style='overflow-x:hidden;overflow-y: hidden' class="TABLEAREATable" >
+<table data-testtoolid='lines_innertable' class='TABLEAREABorder' style='table-layout: fixed;width:1px;' cellpadding=0 cellspacing=0>
+<tr id='TR23'    >
+<td id='TD24'    colspan=1 rowspan=1 width='50px'  class="LABELCellNormal" style=" ;width:50px"  valign='middle'><div id="DIV24"  class="LABELDivText" style=" ;width:50px"><span id='$24'>$relse.label10</span>
+</div></td>
+<td id='TD25'    colspan=1 rowspan=1 width='70%'  class="LABELCellNormal" style=" "  valign='middle'><div id="DIV25"  class="LABELDivText" style=" "><span id='$25'>$relse.label11</span>
+</div></td>
+<td id='TD26'    colspan=1 rowspan=1 width='30%'  class="LABELCellNormal" style=" "  valign='middle'><div id="DIV26"  class="LABELDivText" style=" "><span id='$26'>$relse.label12</span>
+</div></td>
+<td id='TD27'    colspan=1 rowspan=1 width='100px'  class="LABELCellNormal" style=" ;width:100px"  valign='middle'><div id="DIV27"  class="LABELDivText" style=" ;width:100px"><span id='$27'>$relse.label13</span>
+</div></td>
+</tr>
+<tr id='STR29'>
+<td id='CBTD_30' width='10px' class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='lines.items[0].selected' id="CB_30" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_31" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[0].path' type="text"    style=" width:100%;background-color: transparent;"></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_32" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[0].name' type="text"    style=" width:100%;background-color: transparent;"></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_33" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[0].id' type="text"    style=" width:100%;"></td>
+</tr>
+<tr id='STR34'>
+<td id='CBTD_35' width='10px' class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='lines.items[1].selected' id="CB_35" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_36" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[1].path' type="text"    style=" width:100%;background-color: transparent;"></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_37" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[1].name' type="text"    style=" width:100%;background-color: transparent;"></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_38" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[1].id' type="text"    style=" width:100%;"></td>
+</tr>
+<tr id='STR39'>
+<td id='CBTD_40' width='10px' class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='lines.items[2].selected' id="CB_40" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_41" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[2].path' type="text"    style=" width:100%;background-color: transparent;"></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_42" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[2].name' type="text"    style=" width:100%;background-color: transparent;"></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_43" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[2].id' type="text"    style=" width:100%;"></td>
+</tr>
+<tr id='STR44'>
+<td id='CBTD_45' width='10px' class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='lines.items[3].selected' id="CB_45" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_46" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[3].path' type="text"    style=" width:100%;background-color: transparent;"></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_47" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[3].name' type="text"    style=" width:100%;background-color: transparent;"></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_48" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[3].id' type="text"    style=" width:100%;"></td>
+</tr>
+<tr id='STR49'>
+<td id='CBTD_50' width='10px' class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='lines.items[4].selected' id="CB_50" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_51" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[4].path' type="text"    style=" width:100%;background-color: transparent;"></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_52" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[4].name' type="text"    style=" width:100%;background-color: transparent;"></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_53" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[4].id' type="text"    style=" width:100%;"></td>
+</tr>
+<tr id='STR54'>
+<td id='CBTD_55' width='10px' class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='lines.items[5].selected' id="CB_55" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_56" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[5].path' type="text"    style=" width:100%;background-color: transparent;"></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_57" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[5].name' type="text"    style=" width:100%;background-color: transparent;"></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_58" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[5].id' type="text"    style=" width:100%;"></td>
+</tr>
+<tr id='STR59'>
+<td id='CBTD_60' width='10px' class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='lines.items[6].selected' id="CB_60" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_61" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[6].path' type="text"    style=" width:100%;background-color: transparent;"></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_62" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[6].name' type="text"    style=" width:100%;background-color: transparent;"></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_63" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[6].id' type="text"    style=" width:100%;"></td>
+</tr>
+<tr id='STR64'>
+<td id='CBTD_65' width='10px' class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='lines.items[7].selected' id="CB_65" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_66" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[7].path' type="text"    style=" width:100%;background-color: transparent;"></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_67" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[7].name' type="text"    style=" width:100%;background-color: transparent;"></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_68" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[7].id' type="text"    style=" width:100%;"></td>
+</tr>
+<tr id='STR69'>
+<td id='CBTD_70' width='10px' class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='lines.items[8].selected' id="CB_70" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_71" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[8].path' type="text"    style=" width:100%;background-color: transparent;"></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_72" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[8].name' type="text"    style=" width:100%;background-color: transparent;"></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_73" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[8].id' type="text"    style=" width:100%;"></td>
+</tr>
+<tr id='STR74'>
+<td id='CBTD_75' width='10px' class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='lines.items[9].selected' id="CB_75" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_76" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[9].path' type="text"    style=" width:100%;background-color: transparent;"></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_77" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[9].name' type="text"    style=" width:100%;background-color: transparent;"></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_78" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[9].id' type="text"    style=" width:100%;"></td>
+</tr>
+<tr id='STR79'>
+<td id='CBTD_80' width='10px' class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='lines.items[10].selected' id="CB_80" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_81" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[10].path' type="text"    style=" width:100%;background-color: transparent;"></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_82" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[10].name' type="text"    style=" width:100%;background-color: transparent;"></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_83" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[10].id' type="text"    style=" width:100%;"></td>
+</tr>
+<tr id='STR84'>
+<td id='CBTD_85' width='10px' class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='lines.items[11].selected' id="CB_85" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_86" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[11].path' type="text"    style=" width:100%;background-color: transparent;"></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_87" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[11].name' type="text"    style=" width:100%;background-color: transparent;"></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_88" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[11].id' type="text"    style=" width:100%;"></td>
+</tr>
+<tr id='STR89'>
+<td id='CBTD_90' width='10px' class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='lines.items[12].selected' id="CB_90" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_91" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[12].path' type="text"    style=" width:100%;background-color: transparent;"></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_92" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[12].name' type="text"    style=" width:100%;background-color: transparent;"></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_93" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[12].id' type="text"    style=" width:100%;"></td>
+</tr>
+<tr id='STR94'>
+<td id='CBTD_95' width='10px' class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='lines.items[13].selected' id="CB_95" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_96" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[13].path' type="text"    style=" width:100%;background-color: transparent;"></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_97" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[13].name' type="text"    style=" width:100%;background-color: transparent;"></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_98" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[13].id' type="text"    style=" width:100%;"></td>
+</tr>
+<tr id='STR99'>
+<td id='CBTD_100' width='10px' class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='lines.items[14].selected' id="CB_100" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_101" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[14].path' type="text"    style=" width:100%;background-color: transparent;"></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_102" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[14].name' type="text"    style=" width:100%;background-color: transparent;"></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_103" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[14].id' type="text"    style=" width:100%;"></td>
+</tr>
+<tr id='STR104'>
+<td id='CBTD_105' width='10px' class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='lines.items[15].selected' id="CB_105" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_106" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[15].path' type="text"    style=" width:100%;background-color: transparent;"></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_107" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[15].name' type="text"    style=" width:100%;background-color: transparent;"></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_108" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[15].id' type="text"    style=" width:100%;"></td>
+</tr>
+<tr id='STR109'>
+<td id='CBTD_110' width='10px' class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='lines.items[16].selected' id="CB_110" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_111" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[16].path' type="text"    style=" width:100%;background-color: transparent;"></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_112" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[16].name' type="text"    style=" width:100%;background-color: transparent;"></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_113" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[16].id' type="text"    style=" width:100%;"></td>
+</tr>
+<tr id='STR114'>
+<td id='CBTD_115' width='10px' class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='lines.items[17].selected' id="CB_115" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_116" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[17].path' type="text"    style=" width:100%;background-color: transparent;"></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_117" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[17].name' type="text"    style=" width:100%;background-color: transparent;"></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_118" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[17].id' type="text"    style=" width:100%;"></td>
+</tr>
+<tr id='STR119'>
+<td id='CBTD_120' width='10px' class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='lines.items[18].selected' id="CB_120" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_121" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[18].path' type="text"    style=" width:100%;background-color: transparent;"></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_122" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[18].name' type="text"    style=" width:100%;background-color: transparent;"></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_123" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[18].id' type="text"    style=" width:100%;"></td>
+</tr>
+<tr id='STR124'>
+<td id='CBTD_125' width='10px' class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='lines.items[19].selected' id="CB_125" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_126" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[19].path' type="text"    style=" width:100%;background-color: transparent;"></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_127" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[19].name' type="text"    style=" width:100%;background-color: transparent;"></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_128" name="CC" class='FIELDInputEdit' data-testtoolid='lines.items[19].id' type="text"    style=" width:100%;"></td>
+</tr>
+</table>
+</div></td></tr></table></td>
+<td height="100%" class='TDAroundControl'>
+<div id="IDO_22" class="VSCROLLBAROuterDiv" style="width:18px;height:100%;overflow-y: auto" onscroll="reactOnScroll22();" onkeydown="reactOnKeyDown22(event);">
+<div id='ID_22' style='width:1px;height:10%'>
+<a name='PC'></a></div>
+</div>
+<script>
+function reactOnModelUpdate22(model) { C.reactOnModelUpdateVSCROLLBAR(C_22,CID_22); }
+function reactOnScroll22() { return C.reactOnScrollVSCROLLBAR(C_22,CID_22); }
+function reactOnMouseUp22() { return C.reactOnMouseUpVSCROLLBAR(C_22,CID_22); }
+function scrollUp22(delta) { return C.reactOnScrollUpVSCROLLBAR(C_22,CID_22,delta); }
+function scrollDown22(delta) { return C.reactOnScrollDownVSCROLLBAR(C_22,CID_22,delta); }
+function scrollPageUp22() { C.reactOnScrollPageUpVSCROLLBAR(C_22,CID_22); }
+function scrollPageDown22() { C.reactOnScrollPageDownVSCROLLBAR(C_22,CID_22); }
+function mozDragReact22(evt) { C.mozDragReactVSCROLLBAR(C_22,mozDragReact22,evt); }
+function reactOnKeyDown22(evt) { C.reactOnKeyDownSCROLLBAR(C_22,mozDragReact22,evt); }
+</script>
+</td>
+</tr>
+</table>
+<script>
+var m_heightOfRow22;
+var m_firstRun22 = true;
+var m_rowtableareaids22 = '';
+function getRowTableAreaIds22() { return m_rowtableareaids22; }
+CTAB_22 = document.getElementById('TAB22');
+CDIV_22 = document.getElementById('DIV22');
+CDIV_22.CASA_rows = [];
+CDIV_22.CASA_repeat = [];
+CDIV_22.CASA_rowcountprop = 'lines.rowCount';
+function reactOnResize22() { C.reactOnModelUpdateTABLEAREA(CDIV_22); }
+function reactOnModelUpdateTA22() { C.reactOnModelUpdateTABLEAREA(CDIV_22,true); }
+function registerRow22(pindex,prow) { if (m_firstRun22 == false) return; CDIV_22.CASA_repeat.push(pindex); CDIV_22.CASA_rows.push(prow); }
+function react22(evt) { C.CASA_event = evt; return C.reactTA(CDIV_22, evt,C_22,CID_22); }
+function reactOnMouseWheel22(ctrlEvent) { if (ctrlEvent.shiftKey) C.CL().cancelEvent(ctrlEvent); else { try { ae = document.activeElement; if(ae != document.body) ae.blur(); } catch (e) {}var scrolled; var scrollUp=true; if (ctrlEvent.detail && ctrlEvent.detail>0)scrollUp=false;else if (ctrlEvent.wheelDelta && ctrlEvent.wheelDelta<0)scrollUp=false;if (!scrollUp) scrolled =scrollDown22(2); else scrolled=scrollUp22(2); if (scrolled) C.CL().cancelEvent(ctrlEvent);} }
+</script>
+</td></tr>
+<tr style=' ' ><td height="3px" class='TDAroundControl' ></td></tr>
+<tr id='ITR130'  >
+<td   valign='top' colspan='50' class='TDAroundControl'  height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 ><tr>
+<td id="TDB131"  width=0 colspan=1 rowspan=1 class='TDAroundControl' align='left' valign='middle' >
+<button type="button" id="B_131" data-testtoolid='refactor' style=" "  name="CC" class="BUTTONInput">$1$relse.button3$2$</button>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan='50' id="STATUSBARSTATUSBAR" class='TDAroundControl' width='100%' height='0' align='center'>
+<table width="100%" cellspacing="0" cellpadding="0" class="STATUSBARTable">
+<tr>
+<td class='TDAroundControl'>&nbsp;&nbsp;</td><td class='TDAroundControl' valign="middle"><span id='STATUSBARIMAGE132'></span></td>
+<td class='TDAroundControl'><div class='STATUSBARDivAfterIcon'></div></td>
+<td  nowrap='true' width="100%" class="STATUSBARCell" valign="middle">
+<span id='STATUSBAR132'></span>
+</td></tr>
+</table>
+</td>
+</tr>
+</table>
+<script>
+var CasaPAGE = document.getElementById('THISPAGE');
+var CasaLOADING = document.getElementById('JUSTLOADING');
+var m_dropInfo = null;
+var m_dragMode = false;
+var m_dragId = null;
+var m_dragType = null;
+var m_dropMethod = null;
+var m_blockIO = true;
+var m_blockIOByFlush = false;
+var m_startInitDate;
+var m_endInitDate;
+var m_resizeListeners = [];
+var m_helpIdPAGE = '';
+var C;
+var m_roi_firstusage;
+function reactOnInit(firstusage)
+{
+if (firstusage == undefined) firstusage = true;
+m_roi_firstusage = firstusage;if (parent.m_centralLib == null) { document.location.href = '../HTMLBasedGUI/general/aboutBlank.html'; return; }
+C = csciframe;
+CL = C.CL();
+m_resizeListeners = [];
+m_flagResize = true;
+m_startInitDate = new Date();
+C.addLogMessage('page.reactOnInit started - showPage date = ' + parent.m_showPageDate.getSeconds() + '/' + parent.m_showPageDate.getMilliseconds());
+C.addLogMessage('loading page started =' + m_perfPageLoadStart.getSeconds() + '/' + m_perfPageLoadStart.getMilliseconds());
+C.initGlobals();
+m_pageCompletelyBuilt = false;
+m_fillTextIdListeners = [];
+m_dragMode = false;
+m_dragId = null;
+m_dropMethod = null;
+m_blockIO = true;
+m_blockIOByFlush = false;
+var sid = parent.getCurrentSessionId();
+var pid = parent.getCurrentProcessId();
+var mid = parent.getCurrentModelId();
+var pageInitParam = parent.pageInitParam;
+if (pageInitParam == null) pageInitParam = '';
+C.setPageName('editor');
+if (firstusage) generateCCs();
+if (firstusage) C_2 = gebid('TITLEBARTITLEBARTR');
+if (firstusage) CL.iccTITLEBAR(C,C_2,N,'2',N,N,N,N,N,N,N,'endProcess',N, N,'true');
+if (firstusage) C.addMLSpan(gebid('$2'));
+if (firstusage) C.addMLImage(gebid('TITLEBAR2CLOSE'));
+if (firstusage) C_3 = CHDR3.parentNode;
+if (firstusage) C.iccHEADER(C_3,CHDR3,document.getElementById('HDRTA3'),romu3,N);
+if (firstusage) CTD_7 = document.getElementById('TD7');
+if (firstusage) C_7 = document.getElementById('$7');
+if (firstusage) C.addMLTab(C_7, rohk7);
+if (firstusage) C.iccFIELD(CF_8,romu8,C.reactFIELD,'layoutPath',N,N,N,N,N,N,N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) CTD_12 = document.getElementById('TD12');
+if (firstusage) C_12 = document.getElementById('$12');
+if (firstusage) C.addMLTab(C_12, rohk12);
+if (firstusage) C.iccFIELD(CF_13,romu13,C.reactFIELD,'mlFile',N,N,N,N,N,N,N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) CTD_16 = document.getElementById('TD16');
+if (firstusage) C_16 = document.getElementById('$16');
+if (firstusage) C.addMLTab(C_16, rohk16);
+if (firstusage) C.iccFIELD(CF_17,romu17,C.reactFIELD,'idPrefix',N,N,N,N,N,N,N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccBUTTON(CB_20,null,rohk20,C.reactBUTTON,N,N,N,'parseLayout',N,N,N,N,N,'',N,'','1',N,N,N,N,N,N,N,N,N);
+if (firstusage) CTD_24 = document.getElementById('TD24');
+if (firstusage) C_24 = document.getElementById('$24');
+if (firstusage) C.addMLTab(C_24, rohk24);
+if (firstusage) CTD_25 = document.getElementById('TD25');
+if (firstusage) C_25 = document.getElementById('$25');
+if (firstusage) C.addMLTab(C_25, rohk25);
+if (firstusage) CTD_26 = document.getElementById('TD26');
+if (firstusage) C_26 = document.getElementById('$26');
+if (firstusage) C.addMLTab(C_26, rohk26);
+if (firstusage) CTD_27 = document.getElementById('TD27');
+if (firstusage) C_27 = document.getElementById('$27');
+if (firstusage) C.addMLTab(C_27, rohk27);
+if (firstusage) C.iccCHECKBOX(CCB_30,N,romu30,C.reactCHECKBOX,'lines.items[0].selected','false',N,N,N,N,'1',N,N,N,N);
+if (firstusage) CCB_30.CASA_td = gebid('CBTD_30');
+if (firstusage) C.iccFIELD(CF_31,romu31,C.reactFIELD,'lines.items[0].path',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_32,romu32,C.reactFIELD,'lines.items[0].name',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_33,romu33,C.reactFIELD,'lines.items[0].id',N,N,N,N,N,N,N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C_29 = document.getElementById('STR29');
+C.iccSTR(C_29,'lines.items[0].selected','STRRowUnselected',N,N,N,N,N,N,N,N,N,'true');
+if (firstusage) C.registerListener(reactOnModelUpdate29);
+try { C.startFocusLine(); } catch(e) {}
+if (firstusage) C.iccCHECKBOX(CCB_35,N,romu35,C.reactCHECKBOX,'lines.items[1].selected','false',N,N,N,N,'1',N,N,N,N);
+if (firstusage) CCB_35.CASA_td = gebid('CBTD_35');
+if (firstusage) C.iccFIELD(CF_36,romu36,C.reactFIELD,'lines.items[1].path',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_37,romu37,C.reactFIELD,'lines.items[1].name',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_38,romu38,C.reactFIELD,'lines.items[1].id',N,N,N,N,N,N,N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C_34 = document.getElementById('STR34');
+C.iccSTR(C_34,'lines.items[1].selected','STRRowUnselected',N,N,N,N,N,N,N,N,N,'true');
+if (firstusage) C.registerListener(reactOnModelUpdate34);
+try { C.startFocusLine(); } catch(e) {}
+if (firstusage) C.iccCHECKBOX(CCB_40,N,romu40,C.reactCHECKBOX,'lines.items[2].selected','false',N,N,N,N,'1',N,N,N,N);
+if (firstusage) CCB_40.CASA_td = gebid('CBTD_40');
+if (firstusage) C.iccFIELD(CF_41,romu41,C.reactFIELD,'lines.items[2].path',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_42,romu42,C.reactFIELD,'lines.items[2].name',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_43,romu43,C.reactFIELD,'lines.items[2].id',N,N,N,N,N,N,N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C_39 = document.getElementById('STR39');
+C.iccSTR(C_39,'lines.items[2].selected','STRRowUnselected',N,N,N,N,N,N,N,N,N,'true');
+if (firstusage) C.registerListener(reactOnModelUpdate39);
+try { C.startFocusLine(); } catch(e) {}
+if (firstusage) C.iccCHECKBOX(CCB_45,N,romu45,C.reactCHECKBOX,'lines.items[3].selected','false',N,N,N,N,'1',N,N,N,N);
+if (firstusage) CCB_45.CASA_td = gebid('CBTD_45');
+if (firstusage) C.iccFIELD(CF_46,romu46,C.reactFIELD,'lines.items[3].path',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_47,romu47,C.reactFIELD,'lines.items[3].name',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_48,romu48,C.reactFIELD,'lines.items[3].id',N,N,N,N,N,N,N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C_44 = document.getElementById('STR44');
+C.iccSTR(C_44,'lines.items[3].selected','STRRowUnselected',N,N,N,N,N,N,N,N,N,'true');
+if (firstusage) C.registerListener(reactOnModelUpdate44);
+try { C.startFocusLine(); } catch(e) {}
+if (firstusage) C.iccCHECKBOX(CCB_50,N,romu50,C.reactCHECKBOX,'lines.items[4].selected','false',N,N,N,N,'1',N,N,N,N);
+if (firstusage) CCB_50.CASA_td = gebid('CBTD_50');
+if (firstusage) C.iccFIELD(CF_51,romu51,C.reactFIELD,'lines.items[4].path',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_52,romu52,C.reactFIELD,'lines.items[4].name',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_53,romu53,C.reactFIELD,'lines.items[4].id',N,N,N,N,N,N,N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C_49 = document.getElementById('STR49');
+C.iccSTR(C_49,'lines.items[4].selected','STRRowUnselected',N,N,N,N,N,N,N,N,N,'true');
+if (firstusage) C.registerListener(reactOnModelUpdate49);
+try { C.startFocusLine(); } catch(e) {}
+if (firstusage) C.iccCHECKBOX(CCB_55,N,romu55,C.reactCHECKBOX,'lines.items[5].selected','false',N,N,N,N,'1',N,N,N,N);
+if (firstusage) CCB_55.CASA_td = gebid('CBTD_55');
+if (firstusage) C.iccFIELD(CF_56,romu56,C.reactFIELD,'lines.items[5].path',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_57,romu57,C.reactFIELD,'lines.items[5].name',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_58,romu58,C.reactFIELD,'lines.items[5].id',N,N,N,N,N,N,N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C_54 = document.getElementById('STR54');
+C.iccSTR(C_54,'lines.items[5].selected','STRRowUnselected',N,N,N,N,N,N,N,N,N,'true');
+if (firstusage) C.registerListener(reactOnModelUpdate54);
+try { C.startFocusLine(); } catch(e) {}
+if (firstusage) C.iccCHECKBOX(CCB_60,N,romu60,C.reactCHECKBOX,'lines.items[6].selected','false',N,N,N,N,'1',N,N,N,N);
+if (firstusage) CCB_60.CASA_td = gebid('CBTD_60');
+if (firstusage) C.iccFIELD(CF_61,romu61,C.reactFIELD,'lines.items[6].path',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_62,romu62,C.reactFIELD,'lines.items[6].name',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_63,romu63,C.reactFIELD,'lines.items[6].id',N,N,N,N,N,N,N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C_59 = document.getElementById('STR59');
+C.iccSTR(C_59,'lines.items[6].selected','STRRowUnselected',N,N,N,N,N,N,N,N,N,'true');
+if (firstusage) C.registerListener(reactOnModelUpdate59);
+try { C.startFocusLine(); } catch(e) {}
+if (firstusage) C.iccCHECKBOX(CCB_65,N,romu65,C.reactCHECKBOX,'lines.items[7].selected','false',N,N,N,N,'1',N,N,N,N);
+if (firstusage) CCB_65.CASA_td = gebid('CBTD_65');
+if (firstusage) C.iccFIELD(CF_66,romu66,C.reactFIELD,'lines.items[7].path',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_67,romu67,C.reactFIELD,'lines.items[7].name',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_68,romu68,C.reactFIELD,'lines.items[7].id',N,N,N,N,N,N,N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C_64 = document.getElementById('STR64');
+C.iccSTR(C_64,'lines.items[7].selected','STRRowUnselected',N,N,N,N,N,N,N,N,N,'true');
+if (firstusage) C.registerListener(reactOnModelUpdate64);
+try { C.startFocusLine(); } catch(e) {}
+if (firstusage) C.iccCHECKBOX(CCB_70,N,romu70,C.reactCHECKBOX,'lines.items[8].selected','false',N,N,N,N,'1',N,N,N,N);
+if (firstusage) CCB_70.CASA_td = gebid('CBTD_70');
+if (firstusage) C.iccFIELD(CF_71,romu71,C.reactFIELD,'lines.items[8].path',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_72,romu72,C.reactFIELD,'lines.items[8].name',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_73,romu73,C.reactFIELD,'lines.items[8].id',N,N,N,N,N,N,N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C_69 = document.getElementById('STR69');
+C.iccSTR(C_69,'lines.items[8].selected','STRRowUnselected',N,N,N,N,N,N,N,N,N,'true');
+if (firstusage) C.registerListener(reactOnModelUpdate69);
+try { C.startFocusLine(); } catch(e) {}
+if (firstusage) C.iccCHECKBOX(CCB_75,N,romu75,C.reactCHECKBOX,'lines.items[9].selected','false',N,N,N,N,'1',N,N,N,N);
+if (firstusage) CCB_75.CASA_td = gebid('CBTD_75');
+if (firstusage) C.iccFIELD(CF_76,romu76,C.reactFIELD,'lines.items[9].path',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_77,romu77,C.reactFIELD,'lines.items[9].name',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_78,romu78,C.reactFIELD,'lines.items[9].id',N,N,N,N,N,N,N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C_74 = document.getElementById('STR74');
+C.iccSTR(C_74,'lines.items[9].selected','STRRowUnselected',N,N,N,N,N,N,N,N,N,'true');
+if (firstusage) C.registerListener(reactOnModelUpdate74);
+try { C.startFocusLine(); } catch(e) {}
+if (firstusage) C.iccCHECKBOX(CCB_80,N,romu80,C.reactCHECKBOX,'lines.items[10].selected','false',N,N,N,N,'1',N,N,N,N);
+if (firstusage) CCB_80.CASA_td = gebid('CBTD_80');
+if (firstusage) C.iccFIELD(CF_81,romu81,C.reactFIELD,'lines.items[10].path',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_82,romu82,C.reactFIELD,'lines.items[10].name',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_83,romu83,C.reactFIELD,'lines.items[10].id',N,N,N,N,N,N,N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C_79 = document.getElementById('STR79');
+C.iccSTR(C_79,'lines.items[10].selected','STRRowUnselected',N,N,N,N,N,N,N,N,N,'true');
+if (firstusage) C.registerListener(reactOnModelUpdate79);
+try { C.startFocusLine(); } catch(e) {}
+if (firstusage) C.iccCHECKBOX(CCB_85,N,romu85,C.reactCHECKBOX,'lines.items[11].selected','false',N,N,N,N,'1',N,N,N,N);
+if (firstusage) CCB_85.CASA_td = gebid('CBTD_85');
+if (firstusage) C.iccFIELD(CF_86,romu86,C.reactFIELD,'lines.items[11].path',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_87,romu87,C.reactFIELD,'lines.items[11].name',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_88,romu88,C.reactFIELD,'lines.items[11].id',N,N,N,N,N,N,N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C_84 = document.getElementById('STR84');
+C.iccSTR(C_84,'lines.items[11].selected','STRRowUnselected',N,N,N,N,N,N,N,N,N,'true');
+if (firstusage) C.registerListener(reactOnModelUpdate84);
+try { C.startFocusLine(); } catch(e) {}
+if (firstusage) C.iccCHECKBOX(CCB_90,N,romu90,C.reactCHECKBOX,'lines.items[12].selected','false',N,N,N,N,'1',N,N,N,N);
+if (firstusage) CCB_90.CASA_td = gebid('CBTD_90');
+if (firstusage) C.iccFIELD(CF_91,romu91,C.reactFIELD,'lines.items[12].path',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_92,romu92,C.reactFIELD,'lines.items[12].name',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_93,romu93,C.reactFIELD,'lines.items[12].id',N,N,N,N,N,N,N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C_89 = document.getElementById('STR89');
+C.iccSTR(C_89,'lines.items[12].selected','STRRowUnselected',N,N,N,N,N,N,N,N,N,'true');
+if (firstusage) C.registerListener(reactOnModelUpdate89);
+try { C.startFocusLine(); } catch(e) {}
+if (firstusage) C.iccCHECKBOX(CCB_95,N,romu95,C.reactCHECKBOX,'lines.items[13].selected','false',N,N,N,N,'1',N,N,N,N);
+if (firstusage) CCB_95.CASA_td = gebid('CBTD_95');
+if (firstusage) C.iccFIELD(CF_96,romu96,C.reactFIELD,'lines.items[13].path',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_97,romu97,C.reactFIELD,'lines.items[13].name',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_98,romu98,C.reactFIELD,'lines.items[13].id',N,N,N,N,N,N,N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C_94 = document.getElementById('STR94');
+C.iccSTR(C_94,'lines.items[13].selected','STRRowUnselected',N,N,N,N,N,N,N,N,N,'true');
+if (firstusage) C.registerListener(reactOnModelUpdate94);
+try { C.startFocusLine(); } catch(e) {}
+if (firstusage) C.iccCHECKBOX(CCB_100,N,romu100,C.reactCHECKBOX,'lines.items[14].selected','false',N,N,N,N,'1',N,N,N,N);
+if (firstusage) CCB_100.CASA_td = gebid('CBTD_100');
+if (firstusage) C.iccFIELD(CF_101,romu101,C.reactFIELD,'lines.items[14].path',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_102,romu102,C.reactFIELD,'lines.items[14].name',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_103,romu103,C.reactFIELD,'lines.items[14].id',N,N,N,N,N,N,N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C_99 = document.getElementById('STR99');
+C.iccSTR(C_99,'lines.items[14].selected','STRRowUnselected',N,N,N,N,N,N,N,N,N,'true');
+if (firstusage) C.registerListener(reactOnModelUpdate99);
+try { C.startFocusLine(); } catch(e) {}
+if (firstusage) C.iccCHECKBOX(CCB_105,N,romu105,C.reactCHECKBOX,'lines.items[15].selected','false',N,N,N,N,'1',N,N,N,N);
+if (firstusage) CCB_105.CASA_td = gebid('CBTD_105');
+if (firstusage) C.iccFIELD(CF_106,romu106,C.reactFIELD,'lines.items[15].path',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_107,romu107,C.reactFIELD,'lines.items[15].name',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_108,romu108,C.reactFIELD,'lines.items[15].id',N,N,N,N,N,N,N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C_104 = document.getElementById('STR104');
+C.iccSTR(C_104,'lines.items[15].selected','STRRowUnselected',N,N,N,N,N,N,N,N,N,'true');
+if (firstusage) C.registerListener(reactOnModelUpdate104);
+try { C.startFocusLine(); } catch(e) {}
+if (firstusage) C.iccCHECKBOX(CCB_110,N,romu110,C.reactCHECKBOX,'lines.items[16].selected','false',N,N,N,N,'1',N,N,N,N);
+if (firstusage) CCB_110.CASA_td = gebid('CBTD_110');
+if (firstusage) C.iccFIELD(CF_111,romu111,C.reactFIELD,'lines.items[16].path',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_112,romu112,C.reactFIELD,'lines.items[16].name',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_113,romu113,C.reactFIELD,'lines.items[16].id',N,N,N,N,N,N,N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C_109 = document.getElementById('STR109');
+C.iccSTR(C_109,'lines.items[16].selected','STRRowUnselected',N,N,N,N,N,N,N,N,N,'true');
+if (firstusage) C.registerListener(reactOnModelUpdate109);
+try { C.startFocusLine(); } catch(e) {}
+if (firstusage) C.iccCHECKBOX(CCB_115,N,romu115,C.reactCHECKBOX,'lines.items[17].selected','false',N,N,N,N,'1',N,N,N,N);
+if (firstusage) CCB_115.CASA_td = gebid('CBTD_115');
+if (firstusage) C.iccFIELD(CF_116,romu116,C.reactFIELD,'lines.items[17].path',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_117,romu117,C.reactFIELD,'lines.items[17].name',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_118,romu118,C.reactFIELD,'lines.items[17].id',N,N,N,N,N,N,N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C_114 = document.getElementById('STR114');
+C.iccSTR(C_114,'lines.items[17].selected','STRRowUnselected',N,N,N,N,N,N,N,N,N,'true');
+if (firstusage) C.registerListener(reactOnModelUpdate114);
+try { C.startFocusLine(); } catch(e) {}
+if (firstusage) C.iccCHECKBOX(CCB_120,N,romu120,C.reactCHECKBOX,'lines.items[18].selected','false',N,N,N,N,'1',N,N,N,N);
+if (firstusage) CCB_120.CASA_td = gebid('CBTD_120');
+if (firstusage) C.iccFIELD(CF_121,romu121,C.reactFIELD,'lines.items[18].path',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_122,romu122,C.reactFIELD,'lines.items[18].name',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_123,romu123,C.reactFIELD,'lines.items[18].id',N,N,N,N,N,N,N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C_119 = document.getElementById('STR119');
+C.iccSTR(C_119,'lines.items[18].selected','STRRowUnselected',N,N,N,N,N,N,N,N,N,'true');
+if (firstusage) C.registerListener(reactOnModelUpdate119);
+try { C.startFocusLine(); } catch(e) {}
+if (firstusage) C.iccCHECKBOX(CCB_125,N,romu125,C.reactCHECKBOX,'lines.items[19].selected','false',N,N,N,N,'1',N,N,N,N);
+if (firstusage) CCB_125.CASA_td = gebid('CBTD_125');
+if (firstusage) C.iccFIELD(CF_126,romu126,C.reactFIELD,'lines.items[19].path',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_127,romu127,C.reactFIELD,'lines.items[19].name',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_128,romu128,C.reactFIELD,'lines.items[19].id',N,N,N,N,N,N,N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C_124 = document.getElementById('STR124');
+C.iccSTR(C_124,'lines.items[19].selected','STRRowUnselected',N,N,N,N,N,N,N,N,N,'true');
+if (firstusage) C.registerListener(reactOnModelUpdate124);
+try { C.startFocusLine(); } catch(e) {}
+C.iccTA(CDIV_22,react22,reactOnModelUpdateTA22,'20','20','22',N,N,N,N,N,N,N,'false',false,N,firstusage);
+m_firstRun22 = false;
+C_22 = CID_22.parentNode;
+if (C_22 == null) C_22 = gebid('IDO_22');
+C.iccVSCROLLBAR(C_22,CID_22,reactOnModelUpdate22,'22','lines.topIndex','lines.size','lines.rowCount',20,'scroll','lines.param1');
+if (firstusage ) { if (CTAB_22.addEventListener) CTAB_22.addEventListener('DOMMouseScroll', reactOnMouseWheel22, false);}
+CDIV_22.CASA_griddataprop = 'lines';
+CDIV_22.CASA_topindexprop = 'lines.topIndex';
+CDIV_22.CASA_clipboardaccess = false;
+C_22.CASA_testtoolid = 'lines';
+if (firstusage) C.iccBUTTON(CB_131,null,rohk131,C.reactBUTTON,N,N,N,'refactor',N,N,N,N,N,'',N,'','1',N,N,N,N,N,N,N,N,N);
+if (firstusage) C_4 = document.getElementById('PAGEDIV4');
+if (firstusage) THISPAGEBODY = document.getElementById('PAGEDIV4');
+C.initCasaControlPAGEBODY(C_4);
+addResizeListener(reactOnResize4);
+if (firstusage) C.iccINTPOPUP();
+if (firstusage) CS_132 = document.getElementById('STATUSBARSTATUSBAR');if (firstusage) C_132 = document.getElementById('STATUSBAR132');if (firstusage) CL.iccSTATUSBAR(C_132,C);
+if (firstusage) C_IMAGE132 = document.getElementById('STATUSBARIMAGE132');if (firstusage) C.addFooterObject(CS_132);
+if (firstusage) C.registerListener(reactOnModelUpdate132);
+C_132.CASA_typeprop = 'messageType'
+C_132.CASA_shorttextprop = 'messageShortText'
+C_132.CASA_longtextprop = 'messageLongText'
+C.setPropertyValue('pageInitParam',pageInitParam);
+C.registerListenerAsFirst(reactOnModelUpdatePAGE);
+C.initWithModelIdAndSessionIdAndProcessId("com.softwareag.cis.editor.LayoutStringExternalizer",mid,sid,pid);
+m_endInitDate = new Date();
+m_roi_firstusage = undefined;
+}
+function startDrag(dragHTML,eve) { return C.startDragPAGE(dragHTML,eve); }function moveDrag(eve) { return C.moveDragPAGE(eve); }
+function removeTHISOCCUPIED() { return C.removeTHISOCCUPIED(); }
+function endDrag(eve) { return C.endDragPAGE(eve); }
+function processHotKeys(evt) { C.processHotKeys(evt); }
+function reactOnModelUpdatePAGE(model) { C.reactOnModelUpdatePAGE(); }
+function generateCCs()
+{
+var vCCs = document.getElementsByName('CC');
+for (var i=0; i<vCCs.length; i++)
+{
+var vCC = vCCs[i];
+if (vCC.id != null && vCC.id != '') window['C'+vCC.id] = vCC;
+}
+vCCs = document.getElementsByName('PC');
+for (var i=0; i<vCCs.length; i++)
+{
+var vCC = vCCs[i].parentNode;
+if (vCC.id != null && vCC.id != '') window['C'+vCC.id] = vCC;
+}
+}
+function reactOnResize() { if (m_flagResize == false) return; C.handleReactOnResize();}
+function addResizeListener(resizeListener) { m_resizeListeners[m_resizeListeners.length] = resizeListener; }
+function fillTextIdSpans() { C.replaceTextIds(); for (i=0; i<m_fillTextIdListeners.length; i++) m_fillTextIdListeners[i](); }
+function invokeMethodInModel(methodName) { C.invokeMethodInModel(methodName); }
+function getPropertyValue(propertyName) { return C.getPropertyValue(propertyName); }
+function setPropertyValue(propertyName,propertyValue) { C.setPropertyValue(propertyName,propertyValue); }
+function closePage2() { CL.closePageTITLEBAR(C_2); }
+function romu3(model) { C.reactOnModelUpdateHEADER(C_3); }
+function romuINTPAGEPOPUP() { C.romuINTPOPUP(); }
+function reactOnResize4() { C.reactOnResizePAGEBODY(C_4); }
+function rohk7(param) { C.rohkLABEL(CTD_7, param); }
+function romu8(model) { C.romuFIELD(CF_8); }
+function rohk12(param) { C.rohkLABEL(CTD_12, param); }
+function romu13(model) { C.romuFIELD(CF_13); }
+function rohk16(param) { C.rohkLABEL(CTD_16, param); }
+function romu17(model) { C.romuFIELD(CF_17); }
+function rohk20(param) { C.transferModelBUTTON(CB_20); }
+function rohk24(param) { C.rohkLABEL(CTD_24, param); }
+function rohk25(param) { C.rohkLABEL(CTD_25, param); }
+function rohk26(param) { C.rohkLABEL(CTD_26, param); }
+function rohk27(param) { C.rohkLABEL(CTD_27, param); }
+function reactOnModelUpdate29() { C.romuSTR(C_29); }
+function romu30(model) { C.romuCHECKBOX(CCB_30); }
+function romu31(model) { C.romuFIELD(CF_31); }
+function romu32(model) { C.romuFIELD(CF_32); }
+function romu33(model) { C.romuFIELD(CF_33); }
+function reactOnModelUpdate34() { C.romuSTR(C_34); }
+function romu35(model) { C.romuCHECKBOX(CCB_35); }
+function romu36(model) { C.romuFIELD(CF_36); }
+function romu37(model) { C.romuFIELD(CF_37); }
+function romu38(model) { C.romuFIELD(CF_38); }
+function reactOnModelUpdate39() { C.romuSTR(C_39); }
+function romu40(model) { C.romuCHECKBOX(CCB_40); }
+function romu41(model) { C.romuFIELD(CF_41); }
+function romu42(model) { C.romuFIELD(CF_42); }
+function romu43(model) { C.romuFIELD(CF_43); }
+function reactOnModelUpdate44() { C.romuSTR(C_44); }
+function romu45(model) { C.romuCHECKBOX(CCB_45); }
+function romu46(model) { C.romuFIELD(CF_46); }
+function romu47(model) { C.romuFIELD(CF_47); }
+function romu48(model) { C.romuFIELD(CF_48); }
+function reactOnModelUpdate49() { C.romuSTR(C_49); }
+function romu50(model) { C.romuCHECKBOX(CCB_50); }
+function romu51(model) { C.romuFIELD(CF_51); }
+function romu52(model) { C.romuFIELD(CF_52); }
+function romu53(model) { C.romuFIELD(CF_53); }
+function reactOnModelUpdate54() { C.romuSTR(C_54); }
+function romu55(model) { C.romuCHECKBOX(CCB_55); }
+function romu56(model) { C.romuFIELD(CF_56); }
+function romu57(model) { C.romuFIELD(CF_57); }
+function romu58(model) { C.romuFIELD(CF_58); }
+function reactOnModelUpdate59() { C.romuSTR(C_59); }
+function romu60(model) { C.romuCHECKBOX(CCB_60); }
+function romu61(model) { C.romuFIELD(CF_61); }
+function romu62(model) { C.romuFIELD(CF_62); }
+function romu63(model) { C.romuFIELD(CF_63); }
+function reactOnModelUpdate64() { C.romuSTR(C_64); }
+function romu65(model) { C.romuCHECKBOX(CCB_65); }
+function romu66(model) { C.romuFIELD(CF_66); }
+function romu67(model) { C.romuFIELD(CF_67); }
+function romu68(model) { C.romuFIELD(CF_68); }
+function reactOnModelUpdate69() { C.romuSTR(C_69); }
+function romu70(model) { C.romuCHECKBOX(CCB_70); }
+function romu71(model) { C.romuFIELD(CF_71); }
+function romu72(model) { C.romuFIELD(CF_72); }
+function romu73(model) { C.romuFIELD(CF_73); }
+function reactOnModelUpdate74() { C.romuSTR(C_74); }
+function romu75(model) { C.romuCHECKBOX(CCB_75); }
+function romu76(model) { C.romuFIELD(CF_76); }
+function romu77(model) { C.romuFIELD(CF_77); }
+function romu78(model) { C.romuFIELD(CF_78); }
+function reactOnModelUpdate79() { C.romuSTR(C_79); }
+function romu80(model) { C.romuCHECKBOX(CCB_80); }
+function romu81(model) { C.romuFIELD(CF_81); }
+function romu82(model) { C.romuFIELD(CF_82); }
+function romu83(model) { C.romuFIELD(CF_83); }
+function reactOnModelUpdate84() { C.romuSTR(C_84); }
+function romu85(model) { C.romuCHECKBOX(CCB_85); }
+function romu86(model) { C.romuFIELD(CF_86); }
+function romu87(model) { C.romuFIELD(CF_87); }
+function romu88(model) { C.romuFIELD(CF_88); }
+function reactOnModelUpdate89() { C.romuSTR(C_89); }
+function romu90(model) { C.romuCHECKBOX(CCB_90); }
+function romu91(model) { C.romuFIELD(CF_91); }
+function romu92(model) { C.romuFIELD(CF_92); }
+function romu93(model) { C.romuFIELD(CF_93); }
+function reactOnModelUpdate94() { C.romuSTR(C_94); }
+function romu95(model) { C.romuCHECKBOX(CCB_95); }
+function romu96(model) { C.romuFIELD(CF_96); }
+function romu97(model) { C.romuFIELD(CF_97); }
+function romu98(model) { C.romuFIELD(CF_98); }
+function reactOnModelUpdate99() { C.romuSTR(C_99); }
+function romu100(model) { C.romuCHECKBOX(CCB_100); }
+function romu101(model) { C.romuFIELD(CF_101); }
+function romu102(model) { C.romuFIELD(CF_102); }
+function romu103(model) { C.romuFIELD(CF_103); }
+function reactOnModelUpdate104() { C.romuSTR(C_104); }
+function romu105(model) { C.romuCHECKBOX(CCB_105); }
+function romu106(model) { C.romuFIELD(CF_106); }
+function romu107(model) { C.romuFIELD(CF_107); }
+function romu108(model) { C.romuFIELD(CF_108); }
+function reactOnModelUpdate109() { C.romuSTR(C_109); }
+function romu110(model) { C.romuCHECKBOX(CCB_110); }
+function romu111(model) { C.romuFIELD(CF_111); }
+function romu112(model) { C.romuFIELD(CF_112); }
+function romu113(model) { C.romuFIELD(CF_113); }
+function reactOnModelUpdate114() { C.romuSTR(C_114); }
+function romu115(model) { C.romuCHECKBOX(CCB_115); }
+function romu116(model) { C.romuFIELD(CF_116); }
+function romu117(model) { C.romuFIELD(CF_117); }
+function romu118(model) { C.romuFIELD(CF_118); }
+function reactOnModelUpdate119() { C.romuSTR(C_119); }
+function romu120(model) { C.romuCHECKBOX(CCB_120); }
+function romu121(model) { C.romuFIELD(CF_121); }
+function romu122(model) { C.romuFIELD(CF_122); }
+function romu123(model) { C.romuFIELD(CF_123); }
+function reactOnModelUpdate124() { C.romuSTR(C_124); }
+function romu125(model) { C.romuCHECKBOX(CCB_125); }
+function romu126(model) { C.romuFIELD(CF_126); }
+function romu127(model) { C.romuFIELD(CF_127); }
+function romu128(model) { C.romuFIELD(CF_128); }
+function rohk131(param) { C.transferModelBUTTON(CB_131); }
+function reactOnModelUpdate132(model) { CL.romuSTATUSBAR(C_132,C_IMAGE132); }
+function resetBeforeUpdate132(model) { CL.resetSTATUSBAR(C_132,C_IMAGE132); }
+</script>
+<iframe hidden id="csciframe" name="csciframe" tabIndex="-1" src="com.softwareag.cis.editor.LayoutStringExternalizer_JLIBS.html" style="width:0;height:0;left:0;top:0">
+</iframe>
+</body>
+</html>

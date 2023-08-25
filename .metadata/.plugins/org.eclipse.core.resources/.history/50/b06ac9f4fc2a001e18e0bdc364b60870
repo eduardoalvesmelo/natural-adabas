@@ -1,0 +1,76 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** (Cortesia do Prof. Bogdan Tomoyuki Nassu)Suponha que você está programando um
+/** módulo contador de cédulas para caixas eletrônicos. Escreva um programa que informa com
+/** quantas cédulas de Real podemos representar um dado valor. Exemplo de resposta: R$ 218
+/** = 2 cédulas de 100, 1 cédula de 10, 1 cédula de 5, 1 cédula de 2 e 1 cédula de 1. Procure
+/** minimizar o número de cédulas usadas. Desconsidere valores com centavos, e suponha que
+/** a máquina sempre tem disponíveis as cédulas necessárias. 
+/** :author eduar
+DEFINE DATA LOCAL
+1 #vlr                  (N3)
+1 #nota-cem             (N3)
+1 #resto-cem            (N3)
+1 #ttl-cem              (N3)
+1 #nota-cinquenta       (N3)
+1 #resto-cinquenta      (N3)
+1 #ttl-cinquenta          (N3)
+1 #nota-vinte           (N3)
+1 #resto-vinte          (N3)
+1 #ttl-vinte              (N3)
+1 #nota-dez             (N3)
+1 #resto-dez            (N3)
+1 #ttl-dez                (N3)
+1 #nota-cinco           (N3)
+1 #resto-cinco          (N3)
+1 #ttl-cinco            (N3)
+1 #nota-dois            (N3)
+1 #resto-dois           (N3)
+1 #ttl-dois             (N3)
+1 #nota-um              (N3)
+1 #resto-um             (N3)
+1 #ttl-um                (N3)
+END-DEFINE                            
+    
+    input 'Informe um valor (1..999): ' #vlr                                                                                               
+       write 'Valor informado: ' #vlr
+*
+    divide 100 into #vlr giving #nota-cem
+    divide 100 into #vlr remainder #resto-cem
+    #ttl-cem := #nota-cem * 100
+*    
+    divide 50 into #resto-cem giving #nota-cinquenta
+    divide 50 into #resto-cem remainder #resto-cinquenta
+    #ttl-cinquenta := #nota-cinquenta * 50
+*
+    divide 20 into #resto-cinquenta giving #nota-vinte
+    divide 20 into #resto-cinquenta remainder #resto-vinte
+    #ttl-vinte := #nota-vinte * 20
+*
+    divide 10 into #resto-vinte giving #nota-dez
+    divide 10 into #resto-vinte remainder #resto-dez
+    #ttl-dez := #nota-dez * 10
+*
+    divide 5 into #resto-dez giving #nota-cinco
+    divide 5 into #resto-dez remainder #resto-cinco
+    #ttl-cinco := #nota-cinco * 5
+*
+    divide 2 into #resto-cinco giving #nota-dois
+    divide 2 into #resto-cinco remainder #resto-dois
+    #ttl-dois := #nota-dois * 2
+*
+    divide 1 into #resto-dois giving #nota-um
+    divide 1 into #resto-dois remainder #resto-um
+    #ttl-um := #nota-um * 1
+*
+   write #nota-cem 'Notas de cem = ' #ttl-cem   
+   write #nota-cinquenta 'Notas de cinquenta = ' #ttl-cinquenta   
+   write #nota-vinte 'Notas de vinte = ' #ttl-vinte   
+   write #nota-dez 'Notas de dez = ' #ttl-dez   
+   write #nota-cinco 'Notas de cinco = ' #ttl-cinco   
+   write #nota-dois 'Notas de dois = ' #ttl-dois   
+   write #nota-um 'Notas de um = ' #ttl-um
+*
+END

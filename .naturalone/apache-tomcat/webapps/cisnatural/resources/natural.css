@@ -1,0 +1,275 @@
+/* Do not delete this! */
+xml {display: none;}
+
+/* Defines defaults for the whole screen */
+body { 
+ 	background-color: #F3F5F0; 
+ 	font-family:  Courier New;
+}
+ 
+/* Defines the main screen position  */
+.mainlayer {
+    top: 0px;   
+}
+
+/* Defines the main screen position for right-to-left  */
+.mainlayer_rtl{
+    top: 0px;
+}
+
+/* Defines the PF keys screen position */
+.pfkeydiv {
+    top: 500px;
+    height: 70px;
+}
+
+/* Defines the PF keys screen position for right-to-left */
+.pfkeydiv_rtl {
+    top: 500px;
+    height: 70px;          
+}
+
+.ICONImage
+{
+	padding:1px;
+	cursor:pointer;
+	right: 5px;  
+	TOP: 0%; 
+	POSITION: absolute;
+}
+.ICONImage:hover
+{
+	padding:0;
+	border-width:1px;
+	border-style:solid;
+	border-left-color:#FFFFFF;
+	border-top-color:#FFFFFF;
+	border-right-color:#000000;
+	border-bottom-color:#000000;
+	cursor:pointer;
+}
+
+/* Defines the output fields  */
+.OutputField {
+    white-space:pre; 
+    border-width:0;     
+    font-size: 100%;	
+    font-family: Courier New;
+    background-color:#F3F5F0; 
+}
+
+.FieldVariableBased { /* font-style:italic; */ }
+
+.FieldLiteralBased {
+    /*font-style:normal; */
+}
+    
+      
+/* Defines the input fields  */
+.InputField { 
+    background-color: white ;      
+    font-family: Courier New;
+	border-width: 1px;      				
+	border-color: #A7A9AB;
+	font-size: 100%;
+}
+
+/* Text decoration */
+.natTextDecoUnderline { text-decoration:underline; }
+.natTextDecoBlinking {text-decoration:blink; }
+.natTextDecoNormal {text-decoration:normal;}
+
+/* font style */
+.natFontStyleItalic {font-style:italic;}
+.natFontStyleNormal {font-style:normal;}
+
+
+/* Font weight */
+.natFontWeightBold {font-weight:bolder}
+.natFontWeightNormal {font-weight:normal;}
+
+
+.naturalwindow {
+border-style:solid; 
+border-width:1px; 
+border-color: #808080;
+/*border-top-width: 22px;*/
+background-color: #F3F5F0;
+}
+
+.wintitle {
+left:0px;
+top:1px;
+height: 20px;
+width: 100%;
+color: black;
+font-size: 12px;
+font-weight: bold;
+background-color: #88B2D7;
+text-align: center;
+font-family:Verdana;
+background-image: url(../cis/styles/images/sag23_areatitle.gif);
+}
+
+
+
+/* Defines Natural color attributes */
+.natOutputRed {color: darkred; }
+.natOutputGreen {color: darkgreen; }
+.natOutputBlue {color: darkblue;}
+.natOutputYellow {color: orangeRed;}
+.natOutputWhite {color: black; }
+.natOutputBlack {color: black; }
+.natOutputPink {color: Magenta; }
+.natOutputTurquoise{color: DarkSlateBlue;}
+.natOutputTransparent{color: DarkSlateBlue ; }
+
+.natOutputRedIntensified  {color: darkred; }
+.natOutputGreenIntensified  {color: darkgreen; }
+.natOutputBlueIntensified  {color: darkblue;}
+.natOutputYellowIntensified  {color: orangeRed;}
+.natOutputWhiteIntensified  {color: black; }
+.natOutputBlackIntensified  {color: black; }
+.natOutputPinkIntensified  {color: Magenta; }
+.natOutputTurquoiseIntensified {color: DarkSlateBlue;}
+.natOutputTransparentIntensified {color: DarkSlateBlue ; }
+
+/* Reverse attributes */
+.reverseOutputRed {background-color: darkred; color:#F3F5F0;}
+.reverseOutputGreen {background-color: darkgreen ; color:#F3F5F0;}
+.reverseOutputBlue {background-color: darkblue ;color:#F3F5F0;}
+.reverseOutputYellow {background-color: orangeRed;color:#F3F5F0;}
+.reverseOutputWhite {background-color: black; color:#F3F5F0; }
+.reverseOutputBlack {background-color: black;color:#F3F5F0;}
+.reverseOutputPink {background-color: Magenta; color:#F3F5F0;}
+.reverseOutputTurquoise{background-color: DarkSlateBlue ;color:#F3F5F0; }
+.reverseOutputTransparent{background-color: DarkSlateBlue ; color:#F3F5F0;}
+
+
+.natInputRed {color: darkred; }
+.natInputGreen {color: darkgreen; }
+.natInputBlue {color: darkblue;}
+.natInputYellow {color: orange;}
+.natInputWhite {color: black; }
+.natInputBlack {color: black; }
+.natInputPink {color: Magenta; }
+.natInputTurquoise{color: DarkSlateBlue;}
+.natInputTransparent{color: DarkSlateBlue ; }
+
+
+.natInputRedIntensified {color: darkred; }
+.natInputGreenIntensified{color: darkgreen; }
+.natInputBlueIntensified {color: darkblue;}
+.natInputYellowIntensified {color: orange;}
+.natInputWhiteIntensified {color: black; }
+.natInputBlackIntensified {color: black; }
+.natInputPinkIntensified {color: Magenta; }
+.natInputTurquoiseIntensified{color: DarkSlateBlue;}
+.natInputTransparentIntensified{color: DarkSlateBlue ; }
+
+
+/* Reverse attributes */
+.reverseInputRed {background-color: darkred; color:#F3F5F0;}
+.reverseInputGreen {background-color: darkgreen ; color:#F3F5F0;}
+.reverseInputBlue {background-color: darkblue ;color:#F3F5F0;}
+.reverseInputYellow {background-color: orange;color:#F3F5F0;}
+.reverseInputWhite {background-color: black; color:#F3F5F0; }
+.reverseInputBlack {background-color: black;color:#F3F5F0;}
+.reverseInputPink {background-color: Magenta; color:#F3F5F0;}
+.reverseInputTurquoise{background-color: DarkSlateBlue ;color:#F3F5F0; }
+.reverseInputTransparent{background-color: DarkSlateBlue ; color:#F3F5F0;}
+
+
+/* Defines the style of the PF key buttons */
+.PFButton
+{
+	opacity:1;
+	width:63px; 
+	height:22px;
+	cursor:pointer;
+	font-family:Verdana;
+	font-size:11px;
+	padding-left:1px;
+	padding-right:1px;
+	color:#000000;
+	background-image:url('../cis/styles/images/sag23_buttonback2.gif');
+	background-color:transparent;
+	border:1px solid #A0A0A0;
+}
+
+.PFButton:hover
+{
+	opacity:1;
+	width:63px; 
+	background-image:url('../HTMLBasedGUI/images/cis_default_buttonbackground.jpg');
+	height:22px;
+	cursor:pointer;
+	font-family:Verdana;
+	font-size:11px;
+	padding-left:1px;
+	padding-right:1px;
+	color:#000000;
+	background-color:transparent;
+	border-style:solid;
+	border-width:1px;
+	border-left-color:#FFCB39;
+	border-top-color:#FFCB39;
+	border-right-color:#EF8A29;
+	border-bottom-color:#EF8A29;
+}
+
+
+.PFButtonArroundDiv
+{
+    margin: 2px; 
+    width:70px;
+    float:left;
+}
+
+/* PF key Toolbar */
+.TDAroundControl {
+	font-size: 1px;
+}
+
+.TDAroundControlDiv {
+    font-size: 1px; 
+    height: 1px; 
+    width: 2px;
+}
+
+.ToolBarButton {
+    width: 63px; 
+    opacity:1;
+    height:22px;
+    cursor:pointer;
+    font-family:Verdana;
+    font-size:12px;
+    color:#000000;
+    background-image:url('../cis/styles/images/sag23_buttonback2.gif');
+    background-color:transparent;
+    border:1px solid #A0A0A0;    
+}
+
+.ToolBarButton:hover {
+    width: 63px; 
+    opacity:1;
+    height:22px;
+    cursor:pointer;
+    font-family:Verdana;
+    font-size:12px;
+    color:#000000;
+    background-image:url('../HTMLBasedGUI/images/cis_default_buttonbackground.jpg');
+    background-color:transparent;
+    border-style:solid;
+    border-width:1px;
+    border-left-color:#FFCB39;
+    border-top-color:#FFCB39;
+    border-right-color:#EF8A29;
+    border-bottom-color:#EF8A29; 
+}
+
+
+/* Message line */
+.MessageLine {
+    color: blue;
+}

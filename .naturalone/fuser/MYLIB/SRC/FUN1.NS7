@@ -1,0 +1,16 @@
+0001/** New Function FUN1.
+0002/**
+0003/** :author eduar
+0004/* TODO Enter your code here
+0005DEFINE FUNCTION FUN1
+0006    returns #return (n2)
+0007*
+0008define data parameter
+0009    1 #value-param (n2)
+0010end-define    
+0011*
+0012    #return := #value-param * 5
+0013*
+0014END-FUNCTION
+0015*
+0016END

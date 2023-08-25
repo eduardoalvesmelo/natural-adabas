@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.workplace.MFActivitiesAdapter" translationreference="CIS_TOOLS" occupiedpixelheight="0" occupiedpixelwidth="0" contextmenumethod="processAsDefault" casaindex="1" >
+
+
+        <pagebody vscroll="hidden" hscroll="hidden" horizdist="false" casaindex="2" >
+
+
+                <vdist height="8" casaindex="3" >
+
+
+                </vdist>
+
+
+                <itr takefullwidth="true" casaindex="4" >
+
+
+                        <coltable0 width="240" casaindex="5" >
+
+
+                                <itr casaindex="6" >
+
+
+                                        <hdist width="5" casaindex="7" >
+
+
+                                        </hdist>
+
+
+                                        <icon image="../HTMLBasedGUI/images/fav_monitoring.gif" method="showAboutPage" valign="top" title="About Application Designer" casaindex="8" >
+
+
+                                        </icon>
+
+
+                                        <hdist width="5" casaindex="9" >
+
+
+                                        </hdist>
+
+
+                                        <icon image="../HTMLBasedGUI/images/monitoring.gif" method="showMonitoringPage" valign="top" titletextid="mfd2Header.icon8" casaindex="10" >
+
+
+                                        </icon>
+
+
+                                        <hdist width="12" casaindex="11" >
+
+
+                                        </hdist>
+
+
+                                        <icon image="../HTMLBasedGUI/images/distance.gif" valign="middle" titletextid="mfd2Header.icon13" casaindex="12" >
+
+
+                                        </icon>
+
+
+                                        <hdist width="12" casaindex="13" >
+
+
+                                        </hdist>
+
+
+                                        <icon image="../HTMLBasedGUI/images/fav_naviminus.gif" method="on0Size" valign="top" titletextid="mfd2Header.icon13" casaindex="14" >
+
+
+                                        </icon>
+
+
+                                        <hdist width="5" casaindex="15" >
+
+
+                                        </hdist>
+
+
+                                        <icon image="../HTMLBasedGUI/images/fav_naviplus.gif" method="onNormalSize" valign="top" titletextid="mfd2Header.icon14" casaindex="16" >
+
+
+                                        </icon>
+
+
+                                        <hdist width="5" casaindex="17" >
+
+
+                                        </hdist>
+
+
+                                        <icon image="../HTMLBasedGUI/images/fav_closeall.gif" method="onCloseAll" valign="top" titletextid="mfd2Header.icon15" casaindex="18" >
+
+
+                                        </icon>
+
+
+                                </itr>
+
+
+                        </coltable0>
+
+
+                        <coltable0 width="100%" casaindex="19" >
+
+
+                                <stripsel tabstripprop="activities2" align="left" scrollable="true" backgroundstyle="swt-background-color: #FFFFFF" scrolllefttitle="Scroll left" scrollrighttitle="Scroll right" withbgimages="false" casaindex="20" >
+
+
+                                </stripsel>
+
+
+                        </coltable0>
+
+
+                </itr>
+
+
+        </pagebody>
+
+
+</page>

@@ -1,0 +1,20 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** New Program PRG01.
+/**
+/** :author eduar
+/* TODO Enter your code here
+DEFINE DATA LOCAL
+1 VW VIEW OF CFPP-CAD-PESSOAL
+    2 CP-SELECIONADOR
+    2 CP-LETRA-NOME
+    2 CP-NUM-SEQ-MAT
+END-DEFINE
+*
+READ (10) VM
+    DISPLAY CP-SELECIONADOR    CP-LETRA-NOME CP-NUM-SEQ-MAT    
+END-READ
+*
+END

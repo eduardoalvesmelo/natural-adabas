@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.popups.PopupDBQueryVariantInfoSaveModel" popupwidth="400" popupheight="150" popupfeatures="resizable:yes; status:no" pagename="popupdbqueryvariantinfosave" ispopup="true" casaindex="1" >
+
+
+        <pagebody takefullheight="true" casaindex="2" >
+
+
+                <vdist height="50%" casaindex="3" >
+
+
+                </vdist>
+
+
+                <itr casaindex="4" >
+
+
+                        <hdist width="50%" casaindex="5" >
+
+
+                        </hdist>
+
+
+                        <label textid="name" width="120" casaindex="6" >
+
+
+                        </label>
+
+
+                        <hdist casaindex="7" >
+
+
+                        </hdist>
+
+
+            <field xsdType="xs:string" valueprop="name" width="200" statusprop="nameDisplayStatus" popupmethod="openIdValueHelp" casaindex="8" >
+
+            </field>
+
+                        <hdist width="50%" casaindex="9" >
+
+
+                        </hdist>
+
+
+                </itr>
+
+
+                <itr casaindex="10" >
+
+
+                        <hdist width="50%" casaindex="11" >
+
+
+                        </hdist>
+
+
+                        <label textid="isDefault" width="120" casaindex="12" >
+
+
+                        </label>
+
+
+                        <checkbox valueprop="isDefault" casaindex="13" >
+
+
+                        </checkbox>
+
+
+                        <hdist width="184" casaindex="14" >
+
+
+                        </hdist>
+
+
+                        <hdist width="50%" casaindex="15" >
+
+
+                        </hdist>
+
+
+                </itr>
+
+
+                <vdist height="50%" casaindex="16" >
+
+
+                </vdist>
+
+
+        </pagebody>
+
+
+        <titlebar withclose="false" casaindex="17" >
+
+
+                <hdist width="100%" casaindex="18" >
+
+
+                </hdist>
+
+
+                <button textid="onOK" method="onOK" casaindex="19" >
+
+
+                </button>
+
+
+        </titlebar>
+
+
+        <hotkeys casaindex="20" >
+
+
+                <hotkey keycode="13" method="onOK" casaindex="21" >
+
+
+                </hotkey>
+
+
+        </hotkeys>
+
+
+</page>

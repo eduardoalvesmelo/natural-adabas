@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<info>
+<entry
+   path="."
+   revision="6504"
+   kind="dir">
+<url>http://natcvs/repos/nwo/dev/91</url>
+<relative-url>^/dev/91</relative-url>
+<repository>
+<root>http://natcvs/repos/nwo</root>
+<uuid>8f9bef3f-310c-0410-8050-fe4d45a6e2ff</uuid>
+</repository>
+<wc-info>
+<wcroot-abspath>D:/NJX</wcroot-abspath>
+<schedule>normal</schedule>
+<depth>infinity</depth>
+</wc-info>
+<commit
+   revision="6504">
+<author>zim</author>
+<date>2018-08-12T10:56:40.745961Z</date>
+</commit>
+</entry>
+</info>

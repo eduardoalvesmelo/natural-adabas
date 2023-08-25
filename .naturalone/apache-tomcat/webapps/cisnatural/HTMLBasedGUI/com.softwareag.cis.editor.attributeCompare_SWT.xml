@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.attributeCompareAdapter" translationreference="CIS_EDIT" casaindex="1" >
+
+
+        <titlebar textid="attribComp..titlebar0" closetitletextid="closePage" casaindex="2" >
+
+
+        </titlebar>
+
+
+        <header casaindex="3" >
+
+
+                <icon image="images/refresh.gif" method="onRefresh" casaindex="4" >
+
+
+                </icon>
+
+
+                <hdist width="5" casaindex="5" >
+
+
+                </hdist>
+
+
+                <button image="../HTMLBasedGUI/images/edit.gif" method="onEdit" textid="attribComp..button0" visibleprop="editButtonVis" casaindex="6" >
+
+
+                </button>
+
+
+                <button image="../HTMLBasedGUI/images/edit.gif" method="onOPenDocuEditor" textid="attribComp..button1" visibleprop="editButtonVis" casaindex="7" >
+
+
+                </button>
+
+
+        </header>
+
+
+        <pagebody horizdist="false" takefullheight="true" casaindex="8" >
+
+
+                <itr fixlayout="true" height="15" width="100%" casaindex="9" >
+
+
+                        <label asheadline="true" height="16" labelstyle="padding-left: 2px; font-size: 10px; font-weight: bold" textid="attribComp..label0" width="100%" casaindex="10" >
+
+
+                        </label>
+
+
+                </itr>
+
+
+                <rowarea height="1" withbottomborder="false" withleftborder="false" withrightborder="false" withtopborder="false" withtoppadding="false" casaindex="11" >
+
+
+                        <vdist casaindex="12" >
+
+
+                        </vdist>
+
+
+                        <itr width="100%" casaindex="13" >
+
+
+                                <hdist width="8" casaindex="14" >
+
+
+                                </hdist>
+
+
+                                <label textid="attribComp..label1" width="100" casaindex="15" >
+
+
+                                </label>
+
+
+                <field xsdType="xs:string" displayonly="true" valueprop="sourceFile" width="100%" casaindex="16" >
+
+                </field>
+
+                                <hdist casaindex="17" >
+
+
+                                </hdist>
+
+
+                        </itr>
+
+
+                        <itr casaindex="18" >
+
+
+                                <hdist width="8" casaindex="19" >
+
+
+                                </hdist>
+
+
+                                <label textid="attribComp..label2" width="100" casaindex="20" >
+
+
+                                </label>
+
+
+                <field xsdType="xs:string" displayonly="true" valueprop="destFile" width="100%" casaindex="21" >
+
+                </field>
+
+                                <hdist casaindex="22" >
+
+
+                                </hdist>
+
+
+                        </itr>
+
+
+                        <vdist casaindex="23" >
+
+
+                        </vdist>
+
+
+                </rowarea>
+
+
+                <vsplit height="100%" widthleft="250" casaindex="24" >
+
+
+                        <splitcell takefullheight="true" casaindex="25" >
+
+
+                                <itr fixlayout="true" height="15" width="100%" casaindex="26" >
+
+
+                                        <label asheadline="true" height="16" labelstyle="padding-left: 2px; font-size: 10px; font-weight: bold" textid="attribComp..label3" width="100%" casaindex="27" >
+
+
+                                        </label>
+
+
+                                </itr>
+
+
+                                <vdist height="5" casaindex="28" >
+
+
+                                </vdist>
+
+
+                                <rowtablearea2 griddataprop="tagTree" height="100%" hscroll="true" rowcount="40" width="100%" withborder="false" casaindex="29" >
+
+
+                                        <repeat casaindex="30" >
+
+
+                                                <tr casaindex="31" >
+
+
+                                                        <hdist width="5" casaindex="32" >
+
+
+                                                        </hdist>
+
+
+                                                        <treenode3 enabledrag="false" imageclosed="images/xmlclosed.gif" imageendnode="images/xmlendnode.gif" imageopened="images/xmlopened.gif" singleselect="true" width="300" withlines="true" withplusminus="true" withtooltip="true" casaindex="33" >
+
+
+                                                        </treenode3>
+
+
+                                                </tr>
+
+
+                                        </repeat>
+
+
+                                </rowtablearea2>
+
+
+                        </splitcell>
+
+
+                        <splitcell takefullheight="true" casaindex="34" >
+
+
+                                <itr fixlayout="true" height="15" width="100%" casaindex="35" >
+
+
+                                        <label asheadline="true" height="16" labelstyle="padding-left: 2px; font-size: 10px; font-weight: bold" textid="attribComp..label4" width="100%" casaindex="36" >
+
+
+                                        </label>
+
+
+                                </itr>
+
+
+                                <rowdynavis valueprop="editButtonVis" casaindex="37" >
+
+
+                                        <vdist height="8" casaindex="38" >
+
+
+                                        </vdist>
+
+
+                                        <itr height="100%" width="100%" casaindex="39" >
+
+
+                                                <hdist width="10px" casaindex="40" >
+
+
+                                                </hdist>
+
+
+                                                <textout height="100%" valign="top" valueprop="result" width="100%" casaindex="41" >
+
+
+                                                </textout>
+
+
+                                        </itr>
+
+
+                                </rowdynavis>
+
+
+                                <vdist height="100%" casaindex="42" >
+
+
+                                </vdist>
+
+
+                        </splitcell>
+
+
+                </vsplit>
+
+
+        </pagebody>
+
+
+        <statusbar withdistance="false" casaindex="43" >
+
+
+        </statusbar>
+
+
+</page>

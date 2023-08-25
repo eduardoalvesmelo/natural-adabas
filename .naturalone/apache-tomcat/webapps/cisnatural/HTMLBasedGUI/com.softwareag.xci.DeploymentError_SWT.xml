@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="DummyAdapter" translationreference="editor" casaindex="1" >
+
+
+        <titlebar textid="rxcide.titlebar1" closetitletextid="closePage" casaindex="2" >
+
+
+        </titlebar>
+
+
+        <pagebody casaindex="3" >
+
+
+                <vdist height="50" casaindex="4" >
+
+
+                </vdist>
+
+
+                <itr casaindex="5" >
+
+
+                        <hdist width="20" casaindex="6" >
+
+
+                        </hdist>
+
+
+                        <label textid="rxcide.label3" asplaintext="true" textalign="center" casaindex="7" >
+
+
+                        </label>
+
+
+                </itr>
+
+
+                <vdist height="10" casaindex="8" >
+
+
+                </vdist>
+
+
+                <itr casaindex="9" >
+
+
+                        <hdist width="40" casaindex="10" >
+
+
+                        </hdist>
+
+
+                        <icon image="images/acdeploymenterror.gif" casaindex="11" >
+
+
+                        </icon>
+
+
+                </itr>
+
+
+                <vdist height="20" casaindex="12" >
+
+
+                </vdist>
+
+
+                <itr casaindex="13" >
+
+
+                        <hdist width="20" casaindex="14" >
+
+
+                        </hdist>
+
+
+                        <label textid="rxcide.label4" asplaintext="true" casaindex="15" >
+
+
+                        </label>
+
+
+                </itr>
+
+
+                <itr casaindex="16" >
+
+
+                        <hdist width="20" casaindex="17" >
+
+
+                        </hdist>
+
+
+                        <label textid="rxcide.label5" asplaintext="true" casaindex="18" >
+
+
+                        </label>
+
+
+                </itr>
+
+
+                <vdist casaindex="19" >
+
+
+                </vdist>
+
+
+        </pagebody>
+
+
+</page>

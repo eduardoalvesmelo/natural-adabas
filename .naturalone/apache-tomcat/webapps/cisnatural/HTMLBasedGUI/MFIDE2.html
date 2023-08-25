@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<script>
+function onInitFramesBelow()
+{
+var vMFCF3 = document.getElementById('iiiii');
+var vIP3 = '';
+if (parent.pageInitParamSL != null) vIP3 = '&' + parent.pageInitParamSL;
+frames['iiiii'].location.replace ('../servlet/StartCISPage?PAGEURL=/HTMLBasedGUI/MFIDE2Header.html&SESSIONID='+parent.getCurrentSessionId()+'&SUBSESSIONID='+parent.getCurrentProcessId()+'&ONUNLOADBEHAVIOUR=NOTHING&CENTRALLIB=PP' + vIP3);
+addCasabacFrame(frames['iiiii']);
+try { frames['CURRENTACTIVITIES'].location.replace('../HTMLBasedGUI/workplace/loading.html'); } catch (eexxcc) {}
+try { document.getElementById('dummmy').src = 'about:blank'; } catch (eexxcc) {}
+var vMFCF7 = document.getElementById('AVAILABLEACTIVITIES');
+var vIP7 = '';
+if (parent.pageInitParamSL != null) vIP7 = '&' + parent.pageInitParamSL;
+frames['AVAILABLEACTIVITIES'].location.replace ('../servlet/StartCISPage?PAGEURL=/HTMLBasedGUI/com.softwareag.cis.workplace.MFWorkplaceSSSPlusMinus.html&bootstrapClassName=com.softwareag.cis.editor.EditorWorkplace&activeFunctionsURL=/HTMLBasedGUI/com.softwareag.cis.workplace.MFActivitiesStripsel.html&SESSIONID='+parent.getCurrentSessionId()+'&SUBSESSIONID='+parent.getCurrentProcessId()+'&ONUNLOADBEHAVIOUR=REMOVESESSION&CENTRALLIB=PP&WITHOWNBORDER=true' + vIP7);
+addCasabacFrame(frames['AVAILABLEACTIVITIES']);
+var vMFCF8 = document.getElementById('CONTENT');
+var vIP8 = '';
+if (parent.pageInitParamSL != null) vIP8 = '&' + parent.pageInitParamSL;
+frames['CONTENT'].location.replace ('../servlet/StartCISPage?PAGEURL=../HTMLBasedGUI/workplace/loading.html&SESSIONID='+parent.getCurrentSessionId()+'&SUBSESSIONID='+parent.getCurrentProcessId()+'&ONUNLOADBEHAVIOUR=NOTHING&CENTRALLIB=PP&WITHOWNBORDER=true' + vIP8);
+addCasabacFrame(frames['CONTENT']);
+var vMFCF9 = document.getElementById('CISHELP');
+var vIP9 = '';
+if (parent.pageInitParamSL != null) vIP9 = '&' + parent.pageInitParamSL;
+frames['CISHELP'].location.replace ('../servlet/StartCISPage?PAGEURL=/HTMLBasedGUI/onlinehelp.html&SESSIONID='+parent.getCurrentSessionId()+'&SUBSESSIONID='+parent.getCurrentProcessId()+'&ONUNLOADBEHAVIOUR=NOTHING&CENTRALLIB=PP&WITHOWNBORDER=true' + vIP9);
+addCasabacFrame(frames['CISHELP']);
+var vMFCF10 = document.getElementById('jjjjj');
+var vIP10 = '';
+if (parent.pageInitParamSL != null) vIP10 = '&' + parent.pageInitParamSL;
+frames['jjjjj'].location.replace ('../servlet/StartCISPage?PAGEURL=/HTMLBasedGUI/MFIDE2Footer.html&SESSIONID='+parent.getCurrentSessionId()+'&SUBSESSIONID='+parent.getCurrentProcessId()+'&ONUNLOADBEHAVIOUR=NOTHING&CENTRALLIB=PP' + vIP10);
+addCasabacFrame(frames['jjjjj']);
+}
+</script>
+<script>
+var m_isCasabacMFPAGE = true;
+var m_casabacFrames = [];
+function onInitFrames() { onInitFramesBelow(); }
+function addCasabacFrame(pFrame) { m_casabacFrames.push(pFrame); }
+function getCasabacFrames() { return m_casabacFrames; }
+parent.bringToFrontSCP(location.href);</script>
+<html>
+<head>
+<title>Multi Frame Page</title>
+</head>
+<frameset border='15' bordercolor='#FFFFFF'  rows='89,*,38' style='' onload='onInitFrames();'>
+<frameset id='toppp' name='toppp' border='0' bordercolor='background-color: #F7F3EF' frameborder='0' framespacing='0'  rows='54,35' style=''>
+<frame marginheight='0' marginwidth='0'  style=''  frameborder='0' id='iiiii' name='iiiii' scrolling='no' src='../HTMLBasedGUI/general/aboutBlank.html'>
+<frame bordercolor='background-color: #F7F3EF' marginheight='0' marginwidth='0'  style='border: 0px solid #000000' scrolling='no' noresize frameborder='0' id='CURRENTACTIVITIES' name='CURRENTACTIVITIES' src='../HTMLBasedGUI/general/aboutBlank.html'>
+</frameset>
+<frameset id='ZZZ' name='ZZZ' border='15' frameborder='1'  cols='0,265,*,0' style=''>
+<frame marginheight='0' marginwidth='0'  style='' scrolling='yes' noresize frameborder='0' id='dummmy' name='dummmy' src='../HTMLBasedGUI/general/aboutBlank.html'>
+<frame marginheight='0' marginwidth='0'  style=''  frameborder='0' id='AVAILABLEACTIVITIES' name='AVAILABLEACTIVITIES' scrolling='no' src='../HTMLBasedGUI/general/aboutBlank.html'>
+<frame marginheight='0' marginwidth='0'  style=''  frameborder='0' id='CONTENT' name='CONTENT' scrolling='no' src='../HTMLBasedGUI/general/aboutBlank.html'>
+<frame marginheight='0' marginwidth='0'  style=''  frameborder='0' id='CISHELP' name='CISHELP' scrolling='no' src='../HTMLBasedGUI/general/aboutBlank.html'>
+</frameset>
+<frame marginheight='0' marginwidth='0'  style=''  frameborder='0' id='jjjjj' name='jjjjj' scrolling='no' src='../HTMLBasedGUI/general/aboutBlank.html'>
+</frameset>
+</html>

@@ -1,0 +1,25 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** Fazer um programa para ler um número do usuário e 
+/** determinar se este número é par ou não par. 
+/**
+/** :author eduar
+/* TODO Enter your code here
+DEFINE DATA LOCAL
+1 N1    (N2)
+1 N2    (N2) init<2> 
+1 N3    (N2)
+1 res   (A5) init<'impar'>
+END-DEFINE
+
+INPUT 'Digite um numero: ' N1
+divide N2 into N1 remainder N3
+
+if N3 = 0
+    res := 'par'
+end-if 
+    
+write 'O numero informado é: ' res
+END

@@ -1,0 +1,19 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** New Program PGM2.
+/**
+/** :author eduar
+/* TODO Enter your code here
+DEFINE DATA
+GLOBAL USING GDA1
+LOCAL
+1 #ARG1 (A10)
+1 #ARG2 (A10)
+…
+END-DEFINE
+…
+INPUT #PARM1 #PARM2
+…
+END

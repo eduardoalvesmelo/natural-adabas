@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.workplace.MFHeaderAdapter" translationreference="CIS_TOOLS" casaindex="1" >
+
+
+        <pagebody vscroll="hidden" hscroll="hidden" horizdist="false" takefullheight="true" casaindex="2" >
+
+
+                <itr takefullwidth="true" height="100%" casaindex="3" >
+
+
+                        <coltable0 width="100%" takefullheight="true" tablestyle="background-image: url(workplace/mffooterback1.gif)" casaindex="4" >
+
+
+                                <itr takefullwidth="true" comment="MOZILLA" casaindex="5" >
+
+
+                                </itr>
+
+
+                        </coltable0>
+
+
+                        <coltable0 width="95" takefullheight="true" tablestyle="background-image: url(workplace/mffooterback2.gif)" casaindex="6" >
+
+
+                                <itr takefullwidth="true" comment="MOZILLA" casaindex="7" >
+
+
+                                </itr>
+
+
+                        </coltable0>
+
+
+                        <coltable0 width="200" takefullheight="true" tablestyle="background-image: url(workplace/mffooterback3.gif)" casaindex="8" >
+
+
+                                <vdist height="8" casaindex="9" >
+
+
+                                </vdist>
+
+
+                                <itr casaindex="10" >
+
+
+                                        <hdist width="40" casaindex="11" >
+
+
+                                        </hdist>
+
+
+                                        <icon image="images/wpinfo.gif" method="addHTMLPageToWorkplace;##/cisdocumentation/docs/overview#htm;Online Documentation" valign="top" titletextid="mfdHFooter.icon0" casaindex="12" >
+
+
+                                        </icon>
+
+
+                                        <hdist width="10" casaindex="13" >
+
+
+                                        </hdist>
+
+
+                                        <icon image="images/wprefresh.gif" method="refresh" valign="top" titletextid="mfdHFooter.icon1" casaindex="14" >
+
+
+                                        </icon>
+
+
+                                        <hdist width="10" casaindex="15" >
+
+
+                                        </hdist>
+
+
+                                        <icon image="images/wplogoff.gif" method="workplaceLogout" valign="top" titletextid="mfdHFooter.icon2" casaindex="16" >
+
+
+                                        </icon>
+
+
+                                </itr>
+
+
+                        </coltable0>
+
+
+                </itr>
+
+
+        </pagebody>
+
+
+</page>

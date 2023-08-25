@@ -1,0 +1,22 @@
+0001/** Fazer um programa para
+0002/**     a. receber do usuário um tempo em segundos, correspondente à duração de um evento qualquer (por ex. jogo de futebol)
+0003/**     b. calcular e mostrar ao usuário o tempo equivalente em horas, minutos e segundos 
+0004/**
+0005/** :author eduar
+0006/* TODO Enter your code here
+0007DEFINE DATA LOCAL
+00081 S (N10.2) 
+00091 M (N10.2) 
+00101 H (N10.2) 
+0011END-DEFINE
+0012
+0013INPUT 'Informe o tempo em segundo de uma partida de futebol: ' S
+0014
+0015M := S / 60
+0016H := M / 60 
+0017
+0018WRITE 'O tempo em segundo: ' S 
+0019WRITE 'O tempo em minuto: ' M
+0020WRITE 'O tempo em hora: ' H 
+0021
+0022END

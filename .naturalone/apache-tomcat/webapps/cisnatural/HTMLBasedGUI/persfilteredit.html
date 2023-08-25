@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'>
+<script>var m_perfPageLoadStart = new Date();
+var m_perfPageLoadEnd = null;
+var m_perfPageFocusEnd = null;</script>
+<link id="casabacstylesheet" rel="stylesheet" type="text/css" href="../cis/styles/CIS_DEFAULT.css">
+<script>
+try
+{
+if (parent.CasaSTYLESHEET == null)
+{
+var vParent = parent;
+while(vParent != null)
+{
+if(vParent.CasaSTYLESHEET != null && vParent.CasaSTYLESHEET != '')
+{
+parent.CasaSTYLESHEET = vParent.CasaSTYLESHEET;
+break;
+}
+if(vParent == vParent.parent) break;
+vParent = vParent.parent;
+}
+}
+if (parent.CasaSTYLESHEET != null && parent.CasaSTYLESHEET != '')
+{
+var vStyleSheet = document.getElementById('casabacstylesheet');
+if (vStyleSheet.href != parent.CasaSTYLESHEET) vStyleSheet.href = parent.CasaSTYLESHEET;
+}
+}
+catch (eeccxx) {}
+</script>
+<style>
+html {height:100%;}
+body {height:100%;}
+</style>
+</head>
+<body id='THISBODY' oncontextmenu='try { return C.reactOnContextMenuRequestPAGE(event); } catch(e) {}' onmousemove='try { return moveDrag(event); } catch(exc) {}' onmouseup='try { endDrag(event);C.CL().checkMozIO(parent); } catch (exc) {}' onkeydown='try { processHotKeys(event); } catch (exc) {}' class='PAGEBody' style='margin: 0' onclick='try { C.clickAway(); } catch (exc) {}; try { C.reactOnClickPage(event); } catch (exc) {}' onresize='try { reactOnResize(); } catch (exc) {}'	onload=' try { reactOnResize(); } catch (exc) {}'	onhelp='C.reactOnHelpPAGE(); return false;'  tabindex='-1' onblur='try { C.onBlurPAGE(event); } catch(e) {}' onfocus='try { C.onFocusPAGE(); } catch(e) {}' onmousewheel='if (event.shiftKey) C.CL().cancelEvent(event);' onwheel='if (event.shiftKey) C.CL().cancelEvent(event);' onmouseleave='try { return removeTHISOCCUPIED(); } catch(exc) {}' onmouseout ='try { return removeTHISOCCUPIED(); } catch(exc) {}'>
+<script>
+function gebid(pid) { return document.getElementById(pid); }
+var m_isSafari = navigator.userAgent.toLowerCase().indexOf( 'safari' ) != -1;
+function isSafari() { return m_isSafari; }
+function createFunction(name,param,code) { window[name] = new Function(param,code); return window[name]; }
+function createElement(name) { return document.createElement(name); }
+var N = null;
+function icc(iccMethodName, baseIndex, s) { C.addIccInfo(iccMethodName, baseIndex, s); iccExec(iccMethodName, s); }
+function iccExec(iccMethodName, s) {
+var o = C.decodeString(s,',');
+for (var i=0; i<o.length; i++) o[i] = eval(o[i]);
+eval(iccMethodName)(o[0],o[1],o[2],o[3],o[4],o[5],o[6],o[7],o[8],o[9],o[10],o[11],o[12],o[13],o[14],o[15],o[16],o[17],o[18],o[19],o[20],o[21],o[22],o[23],o[24],o[25],o[26],o[27],o[28],o[29],o[30],o[31],o[32],o[33],o[34],o[35],o[36],o[37],o[38],o[39],o[40],o[41],o[42],o[43],o[44],o[45],o[46],o[47],o[48],o[49]);
+}
+m_startPageDate = new Date();
+var m_pageCompletelyBuilt = false;
+var m_fillTextIdListeners = [];
+var m_flagResize = true;
+var m_centralContextMenu =false;
+function registerFillTextIdListener(listener)
+{
+m_fillTextIdListeners.push(listener);
+}
+</script>
+<table id='JUSTLOADING' style='table-layout: fixed;z-index: 100;cursor: progress; position: absolute; left: 0; top: 0; width: 100%; height: 100%' class='PAGEBody'>
+<tr><td align="center" valign="middle" class='FLASHPageSwitch'>&nbsp;</td></tr>
+</table>
+<table id='THISPAGE' cellspacing='0' cellpadding='0'  style='table-layout: auto;width:100%;height:100%;display:none'>
+<tr id='TR2' >
+<td id="HDR2" colspan='50' width='100%' height='0' class="HEADERTopTable" style='padding-left:3px;padding-right:3px'>
+<a name="PC"></a><table id="HDRTA2" align="center" >
+<tr>
+<td id="TDB3"  width=0 colspan=1 rowspan=1 class='TDAroundControl' align='left' valign='middle' >
+<button type="button" id="B_3" data-testtoolid='onSave' style=" "  name="CC" class="BUTTONInput"><table cellpadding=0 cellspacing=0 style='margin-left:auto;margin-right:auto;'><tr><td><img id='BIMG3'   src='../HTMLBasedGUI/images/save.gif'></td><td  class='BUTTONText' valign='middle' >&nbsp;$1$btnSave$2$</td></tr></table></button>
+</td>
+<td id="TDB4"  width=0 colspan=1 rowspan=1 class='TDAroundControl' align='left' valign='middle' >
+<button type="button" id="B_4" data-testtoolid='onChangeScenario' style=" "  name="CC" class="BUTTONInput">$1$persfilteredit.button0$2$</button>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td  colspan='50' width='100%' height='100%' valign='top' >
+<div id='PAGEDIV5' style='width: 100%; height: 100%;overflow: auto;padding:0 3px 0 3px;'>
+<table width="100%" style='height:100%;' cellspacing="0" cellpadding="0" >
+<tr id='ITR6'  >
+<td   valign='top' colspan='50' class='TDAroundControl'  height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 ><tr>
+<td id='HD7' class='TDAroundControl' style='font-size:1px' width='50%'></td>
+<td id='TD8'    colspan=1 rowspan=1   class="LABELCellPlainText" style=" font-weight: bold"  valign='middle'><div id="DIV8"  class="LABELDivText" style=" font-weight: bold"><span id='$8'>$lblScenario</span>
+</div></td>
+<td id='HD9' class='TDAroundControl' style='font-size:1px' width='5px'><div style='font-size:1px;height:1px;width:5px'></div></td>
+<td id="TXTTD_10"    width='100px'  valign='middle' class='TEXTOUTColumn' ><div   data-testtoolid='scenario'  id="S_10" class="TEXTOUTSpan" style=";; "></div>
+</td>
+<td id='HD11' class='TDAroundControl' style='font-size:1px' width='50%'></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td colspan='50' width='100%' height='100%' valign='top' class='TDAroundControl' style='padding-top: 3px'>
+<div id='D12' style='height:100%'>
+<table  id='TA_12' cellspacing="0" cellpadding="0" border="0" width='100%' height='100%' class='TABAREATable'>
+<tr>
+<td class='TDAroundControl' width="100%">
+<table cellspacing="0" cellpadding="4" border=0 width='100%'>
+<tr>
+<td tabindex='1' nowrap=true id="TPTD112" style='cursor:pointer;text-decoration:none; padding-bottom:4px; padding-top:4px' class='TABAREACellSelectedFirst' onkeypress="C.clickPageTABAREA(C_12, 0)"  onclick="C.clickPageTABAREA(C_12, 0)" title="" data-testtoolid='tabFilter'><span id='$12_1'>$tabFilter</span>&nbsp;&nbsp;</td>
+<td tabindex='1' nowrap=true id="TPTD212" style='cursor:pointer;text-decoration:none; padding-bottom:4px; padding-top:4px' class='TABAREACellUnselected' onkeypress="C.clickPageTABAREA(C_12, 1)" onclick="C.clickPageTABAREA(C_12, 1)" title="" data-testtoolid='tabProposal'><span id='$12_2'>$tabProposal</span>&nbsp;&nbsp;</td>
+<td width='100%' class='TABAREACellRemaining'>&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td width="100%" height="100%">
+<div id='DD12' style='height:100%'>
+<table class='TABAREACellSubpages' style=' ' cellpadding=0 cellspacing=0 height='100%' width='100%'>
+<tr>
+<td width="100%" height="100%" valign='top' style='padding:5px 3px 5px 3px '>
+<table id="FILTER" width="100%" height="100%" border="0" cellspacing="0" cellpadding="0" style="table-layout: fixed;"  class='TABPAGETable'>
+<tr id='ITR14'  style='background-color: #FFFFFF'>
+<td   valign='top' colspan='50' class='TDAroundControl' width='100%' height='100%'>
+<div id='ITRD14'  style='width: 100%; height:100%;'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;table-layout: fixed;' cellpadding=0 width='100%'><tr>
+<td id='TD15' width='200px' height='100%' valign='top' class='TDAroundControl'>
+<div id='DIV15' style='width: 200px;height: 100%;overflow: hidden'>
+<table id='TAB15'  height='100%' width="200px" cellspacing='0' cellpadding='0' align='left' >
+<tr>
+<td width='100%' height='100%' colspan='50'>
+<div style='display:none'>
+<img src='../HTMLBasedGUI/images/fileclosed.gif'>
+<img src='../HTMLBasedGUI/images/fileendnode.gif'>
+<img src='../HTMLBasedGUI/images/fileopened.gif'>
+</div>
+<div id='CTD16' style='width: 100%;height: 100%;overflow:auto' oncontextmenu='onContextMenuRequest16(null); C.CL().cancelEvent(event);' class='TREENODETable'>
+<table cellspacing=0 cellpadding=0 width='100%' height='100%' style='table-layout: fixed'>
+<tr>
+<td height='100%' width='100%'>
+<div id='CLIENTTREE16' style='height: 100%; width: 100%;;overflow-y: auto; overflow-x: auto'>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<span></span></table>
+</div>
+</td>
+<td id='HD17' class='TDAroundControl' style='font-size:1px' width=0><div style='font-size:1px;height:3px;width:3px'></div></td>
+<td id='TD18' width='100%'  valign='top' class='TDAroundControl'>
+<table id='TAB18'   width="100%" cellspacing='0' cellpadding='0' align='left' >
+<tr id='TRAREA19'>
+<td id='TDAREA19' colspan='50' width='100%'  valign='top' class='TDAroundControl' style='padding-top:3px'>
+<table cellspacing=0 cellpadding=0 class="AREATableOnTop" style='width:100%;'>
+<tr  onclick='toggleArea19(true);' style='cursor:pointer'>
+<td class='TDAroundControl' height='1px'>
+<table cellspacing=0 cellpadding=0 class='AREATableHeader'>
+<tr class="AREATitleRow" id='$T19' title="">
+<td><div id='AREALTC_19' class="AREALeftFromTitleCell" ></div></td>
+<td align = "left" valign="middle" nowrap='true' class="AREATitleCell" >
+<table cellspacing=0 cellpadding=0>
+<tr>
+<td></td>
+<td align = "left" valign="middle" nowrap='true' class="AREALinks">
+<a tabindex='1' ><span id='$19'>$areaMaintenance</span></a>
+</td>
+</tr>
+</table>
+</td>
+<td style='font-size:1px;height:100%'><div class="AREARightFromTitleCell" ></div></td>
+<td style='font-size:1px;width:100%;height:100%' valign='middle'><div class="AREARightFromTitleCellRemaining" ><table width='100%'><tr><td width='100%' style='font-size:1px'>&nbsp;</td><td><span id='RWH_SPAN_19' valign='middle' style='font-size:10px;height:100%;margin-right:6px'  class="AREAToggleImg" >&nbsp;&nbsp;&nbsp;</span></td></tr></table></div></td><td style='font-size:1px;height:100%'><div class="AREARightTopCell" ></div></td></tr>
+</table>
+</td>
+</tr>
+<tr>
+<td >
+<div id='AREADIV19' class="AREATableContent" style='padding:0 5px 0 5px;width:100%;'>
+<table border=0 cellspacing='0' cellpadding='0' width='100%' >
+<tr><td height="3px"></td></tr>
+<tr id='ITR20'  >
+<td   valign='top' colspan='50' class='TDAroundControl'  height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 ><tr>
+<td id='HD21' class='TDAroundControl' style='font-size:1px' width='150px'><div style='font-size:1px;height:1px;width:150px'></div></td>
+<td id="TXTTD_22"    width='200px'  valign='middle' class='TEXTOUTColumn' ><div   data-testtoolid='aspectComment'  id="S_22" class="TEXTOUTSpan" style=";font-weight: bold; "></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style=' ' ><td height="10px" class='TDAroundControl' ></td></tr>
+<tr id='ITR24'  >
+<td   valign='top' colspan='50' class='TDAroundControl'  height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 ><tr>
+<td id='TD25'    colspan=1 rowspan=1 width='150px'  class="LABELCellNormal" style=" ;width:150px"  valign='middle'><div id="DIV25"  class="LABELDivText" style=" ;width:150px"><span id='$25'>$lblVisibility</span>
+</div></td>
+<td  id='RTD_26' rowspan=1 colspan=1 class='TDAroundControl' align='center' valign='middle'><input  type="radio"  data-testtoolid='aspectValue' id="RADIO26" name="aspectValue" onclick="rrb26(event);" onkeydown="rrb26(event); return C.reactRADIOBUTTON(C_26,event);" class="RADIOBUTTONEdit" title=""></td>
+<td id='TD27'    colspan=1 rowspan=1 width='100px'  class="LABELCellPlainText" style=" ;width:100px"  valign='middle'><div id="DIV27"  class="LABELDivText" style=" ;width:100px"><span id='$27'>$lblIsVisible</span>
+</div></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr id='ITR28'  >
+<td   valign='top' colspan='50' class='TDAroundControl'  height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 ><tr>
+<td id='HD29' class='TDAroundControl' style='font-size:1px' width='150px'><div style='font-size:1px;height:1px;width:150px'></div></td>
+<td  id='RTD_30' rowspan=1 colspan=1 class='TDAroundControl' align='center' valign='middle'><input  type="radio"  data-testtoolid='aspectValue' id="RADIO30" name="aspectValue" onclick="rrb30(event);" onkeydown="rrb30(event); return C.reactRADIOBUTTON(C_30,event);" class="RADIOBUTTONEdit" title=""></td>
+<td id='TD31'    colspan=1 rowspan=1 width='100px'  class="LABELCellPlainText" style=" ;width:100px"  valign='middle'><div id="DIV31"  class="LABELDivText" style=" ;width:100px"><span id='$31'>$lblIsInvisible</span>
+</div></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr id='TR32' >
+<td colspan='50'  width='100%' class='TDAroundControl'>
+<div id='D32' style=' '>
+<table cellpadding=0 cellspacing=0 width='100%' height='100%'>
+<tr style=' ' ><td height="20px" class='TDAroundControl' ></td></tr>
+<tr id='ITR34'  >
+<td   valign='top' colspan='50' class='TDAroundControl'  height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 ><tr>
+<td id='HD35' class='TDAroundControl' style='font-size:1px' width='150px'><div style='font-size:1px;height:1px;width:150px'></div></td>
+<td id="TDB36"  width=0 colspan=1 rowspan=1 class='TDAroundControl' align='left' valign='middle' >
+<button type="button" id="B_36" data-testtoolid='onRemoveValue' style=" "  name="CC" class="BUTTONInput">$1$btnRemoveValue$2$</button>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr><td height="3px"></td></tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr id='TRAREA37'>
+<td id='TDAREA37' colspan='50' width='100%'  valign='top' class='TDAroundControl' style='padding-top:3px'>
+<table cellspacing=0 cellpadding=0 class="AREATableOnTop" style='width:100%;'>
+<tr  onclick='toggleArea37(true);' style='cursor:pointer'>
+<td class='TDAroundControl' height='1px'>
+<table cellspacing=0 cellpadding=0 class='AREATableHeader'>
+<tr class="AREATitleRow" id='$T37' title="">
+<td><div id='AREALTC_37' class="AREALeftFromTitleCell" ></div></td>
+<td align = "left" valign="middle" nowrap='true' class="AREATitleCell" >
+<table cellspacing=0 cellpadding=0>
+<tr>
+<td></td>
+<td align = "left" valign="middle" nowrap='true' class="AREALinks">
+<a tabindex='1' ><span id='$37'>$areaStatusMaintenance</span></a>
+</td>
+</tr>
+</table>
+</td>
+<td style='font-size:1px;height:100%'><div class="AREARightFromTitleCell" ></div></td>
+<td style='font-size:1px;width:100%;height:100%' valign='middle'><div class="AREARightFromTitleCellRemaining" ><table width='100%'><tr><td width='100%' style='font-size:1px'>&nbsp;</td><td><span id='RWH_SPAN_37' valign='middle' style='font-size:10px;height:100%;margin-right:6px'  class="AREAToggleImg" >&nbsp;&nbsp;&nbsp;</span></td></tr></table></div></td><td style='font-size:1px;height:100%'><div class="AREARightTopCell" ></div></td></tr>
+</table>
+</td>
+</tr>
+<tr>
+<td >
+<div id='AREADIV37' class="AREATableContent" style='padding:0 5px 0 5px;width:100%;'>
+<table border=0 cellspacing='0' cellpadding='0' width='100%' >
+<tr><td height="3px"></td></tr>
+<tr id='ITR38'  >
+<td   valign='top' colspan='50' class='TDAroundControl'  height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 ><tr>
+<td id='HD39' class='TDAroundControl' style='font-size:1px' width='150px'><div style='font-size:1px;height:1px;width:150px'></div></td>
+<td id="TXTTD_40"    width='200px'  valign='middle' class='TEXTOUTColumn' ><div   data-testtoolid='aspectComment'  id="S_40" class="TEXTOUTSpan" style=";font-weight: bold; "></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style=' ' ><td height="10px" class='TDAroundControl' ></td></tr>
+<tr id='ITR42'  >
+<td   valign='top' colspan='50' class='TDAroundControl'  height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 ><tr>
+<td id='TD43'    colspan=1 rowspan=1 width='150px'  class="LABELCellNormal" style=" ;width:150px"  valign='middle'><div id="DIV43"  class="LABELDivText" style=" ;width:150px"><span id='$43'>$lblEditStatus</span>
+</div></td>
+<td  id='RTD_44' rowspan=1 colspan=1 class='TDAroundControl' align='center' valign='middle'><input  type="radio"  data-testtoolid='aspectValue' id="RADIO44" name="aspectValue" onclick="rrb44(event);" onkeydown="rrb44(event); return C.reactRADIOBUTTON(C_44,event);" class="RADIOBUTTONEdit" title=""></td>
+<td id='TD45'    colspan=1 rowspan=1   class="LABELCellPlainText" style=" "  valign='middle'><div id="DIV45"  class="LABELDivText" style=" "><span id='$45'>$lblEditStatusINVISIBLE</span>
+</div></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr id='ITR46'  >
+<td   valign='top' colspan='50' class='TDAroundControl'  height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 ><tr>
+<td id='HD47' class='TDAroundControl' style='font-size:1px' width='150px'><div style='font-size:1px;height:1px;width:150px'></div></td>
+<td  id='RTD_48' rowspan=1 colspan=1 class='TDAroundControl' align='center' valign='middle'><input  type="radio"  data-testtoolid='aspectValue' id="RADIO48" name="aspectValue" onclick="rrb48(event);" onkeydown="rrb48(event); return C.reactRADIOBUTTON(C_48,event);" class="RADIOBUTTONEdit" title=""></td>
+<td id='TD49'    colspan=1 rowspan=1   class="LABELCellPlainText" style=" "  valign='middle'><div id="DIV49"  class="LABELDivText" style=" "><span id='$49'>$lblEditStatusDISPLAY</span>
+</div></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style=' ' ><td height="20px" class='TDAroundControl' ></td></tr>
+<tr id='TR51' >
+<td colspan='50'  width='100%' class='TDAroundControl'>
+<div id='D51' style=' '>
+<table cellpadding=0 cellspacing=0 width='100%' height='100%'>
+<tr style=' ' ><td height="20px" class='TDAroundControl' ></td></tr>
+<tr id='ITR53'  >
+<td   valign='top' colspan='50' class='TDAroundControl'  height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 ><tr>
+<td id='HD54' class='TDAroundControl' style='font-size:1px' width='150px'><div style='font-size:1px;height:1px;width:150px'></div></td>
+<td id="TDB55"  width=0 colspan=1 rowspan=1 class='TDAroundControl' align='left' valign='middle' >
+<button type="button" id="B_55" data-testtoolid='onRemoveValue' style=" "  name="CC" class="BUTTONInput">$1$btnRemoveValue$2$</button>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr><td height="3px"></td></tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<span></span></table>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+<table id="PROPOSAL" width="100%" height="100%" border="0" cellspacing="0" cellpadding="0" style="table-layout: fixed;"  class='TABPAGETable'>
+<tr><td colspan='50' class='TDAroundControl' >
+<table id='TAB57' data-testtoolid='proposals_table' width='100%'  cellpadding=0 class="TABLEAREATable" onmousewheel='reactOnMouseWheel57(event);'>
+<tr>
+<td class='TDAroundControl'  height='100%'>
+<table cellpadding=0 cellspacing=0 width='100%' style='table-layout:fixed'>
+<tr>
+<td>
+<div id='DIV57' style='overflow-x:hidden;overflow-y: hidden' class="TABLEAREATable" >
+<table data-testtoolid='proposals_innertable' class='TABLEAREABorder' style='width:100%;' cellpadding=0 cellspacing=0>
+<tr id='TR58'    >
+<td id='TD59'    colspan=1 rowspan=1 width='50%'  class="LABELCellHeadline" style=" "  valign='middle'><div id="DIV59"  class="LABELDivText" style=" "><span id='$59'>$lblAccessPath</span>
+</div></td>
+<td id='TD60'    colspan=1 rowspan=1 width='50%'  class="LABELCellHeadline" style=" "  valign='middle'><div id="DIV60"  class="LABELDivText" style=" "><span id='$60'>$lblValue</span>
+</div></td>
+</tr>
+<tr id='TR62'    >
+<td  width='50%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><table width='100%' cellspacing=0 cellpadding=0 style='table-layout: fixed'><tr><td><input id="F_63" name="CC" class='FIELDInputEdit' data-testtoolid='proposals.items[0].name' type="text"    style=" width:100%;"></td></tr></table></td>
+<td  width='50%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><table width='100%' cellspacing=0 cellpadding=0 style='table-layout: fixed'><tr><td><input id="F_64" name="CC" class='FIELDInputEdit' data-testtoolid='proposals.items[0].value' type="text"    style=" width:100%;"></td></tr></table></td>
+</tr>
+<tr id='TR65'    >
+<td  width='50%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><table width='100%' cellspacing=0 cellpadding=0 style='table-layout: fixed'><tr><td><input id="F_66" name="CC" class='FIELDInputEdit' data-testtoolid='proposals.items[1].name' type="text"    style=" width:100%;"></td></tr></table></td>
+<td  width='50%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><table width='100%' cellspacing=0 cellpadding=0 style='table-layout: fixed'><tr><td><input id="F_67" name="CC" class='FIELDInputEdit' data-testtoolid='proposals.items[1].value' type="text"    style=" width:100%;"></td></tr></table></td>
+</tr>
+<tr id='TR68'    >
+<td  width='50%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><table width='100%' cellspacing=0 cellpadding=0 style='table-layout: fixed'><tr><td><input id="F_69" name="CC" class='FIELDInputEdit' data-testtoolid='proposals.items[2].name' type="text"    style=" width:100%;"></td></tr></table></td>
+<td  width='50%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><table width='100%' cellspacing=0 cellpadding=0 style='table-layout: fixed'><tr><td><input id="F_70" name="CC" class='FIELDInputEdit' data-testtoolid='proposals.items[2].value' type="text"    style=" width:100%;"></td></tr></table></td>
+</tr>
+<tr id='TR71'    >
+<td  width='50%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><table width='100%' cellspacing=0 cellpadding=0 style='table-layout: fixed'><tr><td><input id="F_72" name="CC" class='FIELDInputEdit' data-testtoolid='proposals.items[3].name' type="text"    style=" width:100%;"></td></tr></table></td>
+<td  width='50%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><table width='100%' cellspacing=0 cellpadding=0 style='table-layout: fixed'><tr><td><input id="F_73" name="CC" class='FIELDInputEdit' data-testtoolid='proposals.items[3].value' type="text"    style=" width:100%;"></td></tr></table></td>
+</tr>
+<tr id='TR74'    >
+<td  width='50%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><table width='100%' cellspacing=0 cellpadding=0 style='table-layout: fixed'><tr><td><input id="F_75" name="CC" class='FIELDInputEdit' data-testtoolid='proposals.items[4].name' type="text"    style=" width:100%;"></td></tr></table></td>
+<td  width='50%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><table width='100%' cellspacing=0 cellpadding=0 style='table-layout: fixed'><tr><td><input id="F_76" name="CC" class='FIELDInputEdit' data-testtoolid='proposals.items[4].value' type="text"    style=" width:100%;"></td></tr></table></td>
+</tr>
+<tr id='TR77'    >
+<td  width='50%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><table width='100%' cellspacing=0 cellpadding=0 style='table-layout: fixed'><tr><td><input id="F_78" name="CC" class='FIELDInputEdit' data-testtoolid='proposals.items[5].name' type="text"    style=" width:100%;"></td></tr></table></td>
+<td  width='50%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><table width='100%' cellspacing=0 cellpadding=0 style='table-layout: fixed'><tr><td><input id="F_79" name="CC" class='FIELDInputEdit' data-testtoolid='proposals.items[5].value' type="text"    style=" width:100%;"></td></tr></table></td>
+</tr>
+<tr id='TR80'    >
+<td  width='50%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><table width='100%' cellspacing=0 cellpadding=0 style='table-layout: fixed'><tr><td><input id="F_81" name="CC" class='FIELDInputEdit' data-testtoolid='proposals.items[6].name' type="text"    style=" width:100%;"></td></tr></table></td>
+<td  width='50%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><table width='100%' cellspacing=0 cellpadding=0 style='table-layout: fixed'><tr><td><input id="F_82" name="CC" class='FIELDInputEdit' data-testtoolid='proposals.items[6].value' type="text"    style=" width:100%;"></td></tr></table></td>
+</tr>
+<tr id='TR83'    >
+<td  width='50%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><table width='100%' cellspacing=0 cellpadding=0 style='table-layout: fixed'><tr><td><input id="F_84" name="CC" class='FIELDInputEdit' data-testtoolid='proposals.items[7].name' type="text"    style=" width:100%;"></td></tr></table></td>
+<td  width='50%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><table width='100%' cellspacing=0 cellpadding=0 style='table-layout: fixed'><tr><td><input id="F_85" name="CC" class='FIELDInputEdit' data-testtoolid='proposals.items[7].value' type="text"    style=" width:100%;"></td></tr></table></td>
+</tr>
+</table>
+</div></td></tr></table></td>
+<td height="100%" class='TDAroundControl'>
+<div id="IDO_57" class="VSCROLLBAROuterDiv" style="width:18px;height:100%;overflow-y: auto" onscroll="reactOnScroll57();" onkeydown="reactOnKeyDown57(event);">
+<div id='ID_57' style='width:1px;height:10%'>
+<a name='PC'></a></div>
+</div>
+<script>
+function reactOnModelUpdate57(model) { C.reactOnModelUpdateVSCROLLBAR(C_57,CID_57); }
+function reactOnScroll57() { return C.reactOnScrollVSCROLLBAR(C_57,CID_57); }
+function reactOnMouseUp57() { return C.reactOnMouseUpVSCROLLBAR(C_57,CID_57); }
+function scrollUp57(delta) { return C.reactOnScrollUpVSCROLLBAR(C_57,CID_57,delta); }
+function scrollDown57(delta) { return C.reactOnScrollDownVSCROLLBAR(C_57,CID_57,delta); }
+function scrollPageUp57() { C.reactOnScrollPageUpVSCROLLBAR(C_57,CID_57); }
+function scrollPageDown57() { C.reactOnScrollPageDownVSCROLLBAR(C_57,CID_57); }
+function mozDragReact57(evt) { C.mozDragReactVSCROLLBAR(C_57,mozDragReact57,evt); }
+function reactOnKeyDown57(evt) { C.reactOnKeyDownSCROLLBAR(C_57,mozDragReact57,evt); }
+</script>
+</td>
+</tr>
+</table>
+<script>
+var m_heightOfRow57;
+var m_firstRun57 = true;
+var m_rowtableareaids57 = '';
+function getRowTableAreaIds57() { return m_rowtableareaids57; }
+CTAB_57 = document.getElementById('TAB57');
+CDIV_57 = document.getElementById('DIV57');
+CDIV_57.CASA_rows = [];
+CDIV_57.CASA_repeat = [];
+CDIV_57.CASA_rowcountprop = 'proposals.rowCount';
+function reactOnResize57() { C.reactOnModelUpdateTABLEAREA(CDIV_57); }
+function reactOnModelUpdateTA57() { C.reactOnModelUpdateTABLEAREA(CDIV_57,true); }
+function registerRow57(pindex,prow) { if (m_firstRun57 == false) return; CDIV_57.CASA_repeat.push(pindex); CDIV_57.CASA_rows.push(prow); }
+function react57(evt) { C.CASA_event = evt; return C.reactTA(CDIV_57, evt,C_57,CID_57); }
+function reactOnMouseWheel57(ctrlEvent) { if (ctrlEvent.shiftKey) C.CL().cancelEvent(ctrlEvent); else { try { ae = document.activeElement; if(ae != document.body) ae.blur(); } catch (e) {}var scrolled; var scrollUp=true; if (ctrlEvent.detail && ctrlEvent.detail>0)scrollUp=false;else if (ctrlEvent.wheelDelta && ctrlEvent.wheelDelta<0)scrollUp=false;if (!scrollUp) scrolled =scrollDown57(2); else scrolled=scrollUp57(2); if (scrolled) C.CL().cancelEvent(ctrlEvent);} }
+</script>
+</td></tr>
+<tr style=' ' ><td height="100%" class='TDAroundControl' ></td></tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td></tr>
+<tr style=' ' ><td height="3px" class='TDAroundControl' ></td></tr>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan='50' id="STATUSBARSTATUSBAR" class='TDAroundControl' width='100%' height='0' align='center'>
+<table width="100%" cellspacing="0" cellpadding="0" class="STATUSBARTable">
+<tr>
+<td class='TDAroundControl'>&nbsp;&nbsp;</td><td class='TDAroundControl' valign="middle"><span id='STATUSBARIMAGE88'></span></td>
+<td class='TDAroundControl'><div class='STATUSBARDivAfterIcon'></div></td>
+<td  nowrap='true' width="100%" class="STATUSBARCell" valign="middle">
+<span id='STATUSBAR88'></span>
+</td></tr>
+</table>
+</td>
+</tr>
+</table>
+<script>
+var CasaPAGE = document.getElementById('THISPAGE');
+var CasaLOADING = document.getElementById('JUSTLOADING');
+var m_dropInfo = null;
+var m_dragMode = false;
+var m_dragId = null;
+var m_dragType = null;
+var m_dropMethod = null;
+var m_blockIO = true;
+var m_blockIOByFlush = false;
+var m_startInitDate;
+var m_endInitDate;
+var m_resizeListeners = [];
+var m_helpIdPAGE = '';
+var C;
+var m_roi_firstusage;
+function reactOnInit(firstusage)
+{
+if (firstusage == undefined) firstusage = true;
+m_roi_firstusage = firstusage;if (parent.m_centralLib == null) { document.location.href = '../HTMLBasedGUI/general/aboutBlank.html'; return; }
+C = csciframe;
+CL = C.CL();
+m_resizeListeners = [];
+m_flagResize = true;
+m_startInitDate = new Date();
+C.addLogMessage('page.reactOnInit started - showPage date = ' + parent.m_showPageDate.getSeconds() + '/' + parent.m_showPageDate.getMilliseconds());
+C.addLogMessage('loading page started =' + m_perfPageLoadStart.getSeconds() + '/' + m_perfPageLoadStart.getMilliseconds());
+C.initGlobals();
+m_pageCompletelyBuilt = false;
+m_fillTextIdListeners = [];
+m_dragMode = false;
+m_dragId = null;
+m_dropMethod = null;
+m_blockIO = true;
+m_blockIOByFlush = false;
+var sid = parent.getCurrentSessionId();
+var pid = parent.getCurrentProcessId();
+var mid = parent.getCurrentModelId();
+var pageInitParam = parent.pageInitParam;
+if (pageInitParam == null) pageInitParam = '';
+C.setPageName('CIS_TOOLS');
+if (firstusage) generateCCs();
+if (firstusage) C.iccBUTTON(CB_3,null,rohk3,C.reactBUTTON,N,N,N,'onSave',N,N,N,N,N,'',N,'','1',N,'../HTMLBasedGUI/images/save.gif',N,N,N,N,N,N,N);
+if (firstusage) C.iccBUTTON(CB_4,null,rohk4,C.reactBUTTON,N,N,N,'onChangeScenario',N,N,N,N,N,'',N,'','1',N,N,N,N,N,N,N,N,N);
+if (firstusage) C_2 = CHDR2.parentNode;
+if (firstusage) C.iccHEADER(C_2,CHDR2,document.getElementById('HDRTA2'),romu2,N);
+if (firstusage) CTD_8 = document.getElementById('TD8');
+if (firstusage) C_8 = document.getElementById('$8');
+if (firstusage) C.addMLTab(C_8, rohk8);
+if (firstusage) C_10 = gebid('S_10');
+if (firstusage) C.iccTEXTOUT(C_10,N,'scenario','null','null',N,N,N,N,N,N);
+C.registerListener(romu10);
+C.registerListener(reactOnModelUpdate16);
+if (firstusage) C_16 = document.getElementById('CLIENTTREE16');
+C.initCasaControlCLIENTTREE(C_16);
+C_16.style.overflow = 'auto';
+C.addMozDiv(C_16);
+C.addMozDiv(document.getElementById('CTD16'));
+C_16.CASA_treecollectionprop = 'aspectTree';
+C_16.CASA_id = '16';
+C_16.CASA_imageclosed = '../HTMLBasedGUI/images/fileclosed.gif';
+C_16.CASA_imageopened = '../HTMLBasedGUI/images/fileopened.gif';
+C_16.CASA_imageendnode = '../HTMLBasedGUI/images/fileendnode.gif';
+C_16.CASA_imageopenedprop = 'null';
+C_16.CASA_imageclosedprop = 'null';
+C_16.CASA_directselectevent = 'onclick';
+C_16.CASA_dynamicloading = false;
+C_16.CASA_selectionvisible = true;
+C_16.CASA_singleselect = true;
+C_16.CASA_enabledrag = false;
+C_16.CASA_withplusminus = true;
+C_16.CASA_hscroll = 'auto';
+C_16.CASA_withtooltip = false;
+C_16.CASA_cti = 1;
+if (firstusage) C_22 = gebid('S_22');
+if (firstusage) C.iccTEXTOUT(C_22,N,'aspectComment','null','null',N,N,N,N,N,N);
+C.registerListener(romu22);
+if (firstusage) CTD_25 = document.getElementById('TD25');
+if (firstusage) C_25 = document.getElementById('$25');
+if (firstusage) C.addMLTab(C_25, rohk25);
+if (firstusage) C_26 = gebid('RADIO26');
+if (firstusage) C_26.CASA_td = gebid('RTD_26');
+C_26.CASA_cti = '1';
+if (firstusage) C.initCasaControlRADIOBUTTON(C_26,rrb26,N);
+if (firstusage) C.addFocusable(C_26,true);
+if (firstusage) C.registerListener(reactOnModelUpdate26);
+C_26.CASA_valueprop = 'aspectValue';
+C_26.CASA_value = 'true';
+C_26.CASA_displayonly = 'false';
+C_26.CASA_flush = 'server';
+if (firstusage) CTD_27 = document.getElementById('TD27');
+if (firstusage) C_27 = document.getElementById('$27');
+if (firstusage) C.addMLTab(C_27, rohk27);
+if (firstusage) C_30 = gebid('RADIO30');
+if (firstusage) C_30.CASA_td = gebid('RTD_30');
+C_30.CASA_cti = '1';
+if (firstusage) C.initCasaControlRADIOBUTTON(C_30,rrb30,N);
+if (firstusage) C.addFocusable(C_30,true);
+if (firstusage) C.registerListener(reactOnModelUpdate30);
+C_30.CASA_valueprop = 'aspectValue';
+C_30.CASA_value = 'false';
+C_30.CASA_displayonly = 'false';
+C_30.CASA_flush = 'server';
+if (firstusage) CTD_31 = document.getElementById('TD31');
+if (firstusage) C_31 = document.getElementById('$31');
+if (firstusage) C.addMLTab(C_31, rohk31);
+if (firstusage) C.iccBUTTON(CB_36,null,rohk36,C.reactBUTTON,N,N,N,'onRemoveValue',N,N,N,N,N,'',N,'','1',N,N,N,N,N,N,N,N,N);
+if (firstusage) C_32 = document.getElementById('TR32');
+if (firstusage) C.initCasaControlDYNAVIS(C_32);C_32.CASA_valueprop = 'visibilityRemoveValue';
+C.registerListener(reactOnModelUpdate32);
+if (firstusage) C_19 = document.getElementById('AREADIV19');
+C.registerListener(reactOnModelUpdate19);
+if (firstusage) CSPAN_19 = gebid('RWH_SPAN_19');
+C_19.CASA_stylevariant = '';
+if (firstusage) C.iccAREA(C_19, 19,N,'false',N,'visibilityAreaVisible',N,CSPAN_19,N,N,N,N,'true');
+if (firstusage) C.addMLSpan(gebid('$19'));
+C.addAreaTabIndexInfo(19,'areaMaintenance',1,null);
+if (firstusage) C_40 = gebid('S_40');
+if (firstusage) C.iccTEXTOUT(C_40,N,'aspectComment','null','null',N,N,N,N,N,N);
+C.registerListener(romu40);
+if (firstusage) CTD_43 = document.getElementById('TD43');
+if (firstusage) C_43 = document.getElementById('$43');
+if (firstusage) C.addMLTab(C_43, rohk43);
+if (firstusage) C_44 = gebid('RADIO44');
+if (firstusage) C_44.CASA_td = gebid('RTD_44');
+C_44.CASA_cti = '1';
+if (firstusage) C.initCasaControlRADIOBUTTON(C_44,rrb44,N);
+if (firstusage) C.addFocusable(C_44,true);
+if (firstusage) C.registerListener(reactOnModelUpdate44);
+C_44.CASA_valueprop = 'aspectValue';
+C_44.CASA_value = 'INVISIBLE';
+C_44.CASA_displayonly = 'false';
+C_44.CASA_flush = 'server';
+if (firstusage) CTD_45 = document.getElementById('TD45');
+if (firstusage) C_45 = document.getElementById('$45');
+if (firstusage) C.addMLTab(C_45, rohk45);
+if (firstusage) C_48 = gebid('RADIO48');
+if (firstusage) C_48.CASA_td = gebid('RTD_48');
+C_48.CASA_cti = '1';
+if (firstusage) C.initCasaControlRADIOBUTTON(C_48,rrb48,N);
+if (firstusage) C.addFocusable(C_48,true);
+if (firstusage) C.registerListener(reactOnModelUpdate48);
+C_48.CASA_valueprop = 'aspectValue';
+C_48.CASA_value = 'DISPLAY';
+C_48.CASA_displayonly = 'false';
+C_48.CASA_flush = 'server';
+if (firstusage) CTD_49 = document.getElementById('TD49');
+if (firstusage) C_49 = document.getElementById('$49');
+if (firstusage) C.addMLTab(C_49, rohk49);
+if (firstusage) C.iccBUTTON(CB_55,null,rohk55,C.reactBUTTON,N,N,N,'onRemoveValue',N,N,N,N,N,'',N,'','1',N,N,N,N,N,N,N,N,N);
+if (firstusage) C_51 = document.getElementById('TR51');
+if (firstusage) C.initCasaControlDYNAVIS(C_51);C_51.CASA_valueprop = 'visibilityRemoveValue';
+C.registerListener(reactOnModelUpdate51);
+if (firstusage) C_37 = document.getElementById('AREADIV37');
+C.registerListener(reactOnModelUpdate37);
+if (firstusage) CSPAN_37 = gebid('RWH_SPAN_37');
+C_37.CASA_stylevariant = '';
+if (firstusage) C.iccAREA(C_37, 37,N,'false',N,'visibilityStatusAreaVisible',N,CSPAN_37,N,N,N,N,'true');
+if (firstusage) C.addMLSpan(gebid('$37'));
+C.addAreaTabIndexInfo(37,'areaStatusMaintenance',1,null);
+if (firstusage) CD_14 = document.getElementById('ITRD14');
+C.addMozDiv(CD_14);
+if (firstusage) CTD_59 = document.getElementById('TD59');
+if (firstusage) C_59 = document.getElementById('$59');
+if (firstusage) C.addMLTab(C_59, rohk59);
+if (firstusage) CTD_60 = document.getElementById('TD60');
+if (firstusage) C_60 = document.getElementById('$60');
+if (firstusage) C.addMLTab(C_60, rohk60);
+if (firstusage) C.iccFIELD(CF_63,romu63,C.reactFIELD,'proposals.items[0].name',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'5',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_64,romu64,C.reactFIELD,'proposals.items[0].value',N,N,N,N,N,N,N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'5',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C_62 = gebid('TR62');
+if (firstusage) C.iccFIELD(CF_66,romu66,C.reactFIELD,'proposals.items[1].name',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'5',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_67,romu67,C.reactFIELD,'proposals.items[1].value',N,N,N,N,N,N,N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'5',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C_65 = gebid('TR65');
+if (firstusage) C.iccFIELD(CF_69,romu69,C.reactFIELD,'proposals.items[2].name',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'5',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_70,romu70,C.reactFIELD,'proposals.items[2].value',N,N,N,N,N,N,N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'5',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C_68 = gebid('TR68');
+if (firstusage) C.iccFIELD(CF_72,romu72,C.reactFIELD,'proposals.items[3].name',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'5',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_73,romu73,C.reactFIELD,'proposals.items[3].value',N,N,N,N,N,N,N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'5',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C_71 = gebid('TR71');
+if (firstusage) C.iccFIELD(CF_75,romu75,C.reactFIELD,'proposals.items[4].name',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'5',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_76,romu76,C.reactFIELD,'proposals.items[4].value',N,N,N,N,N,N,N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'5',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C_74 = gebid('TR74');
+if (firstusage) C.iccFIELD(CF_78,romu78,C.reactFIELD,'proposals.items[5].name',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'5',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_79,romu79,C.reactFIELD,'proposals.items[5].value',N,N,N,N,N,N,N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'5',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C_77 = gebid('TR77');
+if (firstusage) C.iccFIELD(CF_81,romu81,C.reactFIELD,'proposals.items[6].name',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'5',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_82,romu82,C.reactFIELD,'proposals.items[6].value',N,N,N,N,N,N,N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'5',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C_80 = gebid('TR80');
+if (firstusage) C.iccFIELD(CF_84,romu84,C.reactFIELD,'proposals.items[7].name',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'5',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccFIELD(CF_85,romu85,C.reactFIELD,'proposals.items[7].value',N,N,N,N,N,N,N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'5',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C_83 = gebid('TR83');
+C.iccTA(CDIV_57,react57,reactOnModelUpdateTA57,'8','8','57',N,N,N,N,N,N,N,'false',false,N,firstusage);
+m_firstRun57 = false;
+C_57 = CID_57.parentNode;
+if (C_57 == null) C_57 = gebid('IDO_57');
+C.iccVSCROLLBAR(C_57,CID_57,reactOnModelUpdate57,'57','proposals.topIndex','proposals.size','proposals.rowCount',8,'scroll','proposals.param1');
+if (firstusage ) { if (CTAB_57.addEventListener) CTAB_57.addEventListener('DOMMouseScroll', reactOnMouseWheel57, false);}
+CDIV_57.CASA_griddataprop = 'proposals';
+CDIV_57.CASA_topindexprop = 'proposals.topIndex';
+CDIV_57.CASA_clipboardaccess = false;
+C_57.CASA_testtoolid = 'proposals';
+C.registerListener(reactOnModelUpdate12);
+if (firstusage) C_12 = gebid('TA_12');
+C_12.CASA_stylevariant = '';
+if (firstusage) C_12.CASA_page1 = document.getElementById("FILTER");
+if (firstusage) C_12.CASA_TPTD1 = document.getElementById("TPTD112");
+if (firstusage) C_12.CASA_page2 = document.getElementById("PROPOSAL");
+if (firstusage) C_12.CASA_TPTD2 = document.getElementById("TPTD212");
+if (firstusage) C.iccTABAREA(C_12,react12);
+if (firstusage) C.addMLTab(document.getElementById('$12_1'), rohk12, 0);
+if (firstusage) C.addMLTab(document.getElementById('$12_2'), rohk12, 1);
+C.addMozDiv(document.getElementById('DD12'));
+C.addMozDiv(document.getElementById('D12'));
+if (firstusage) C_5 = document.getElementById('PAGEDIV5');
+if (firstusage) THISPAGEBODY = document.getElementById('PAGEDIV5');
+C.initCasaControlPAGEBODY(C_5);
+addResizeListener(reactOnResize5);
+if (firstusage) C.iccINTPOPUP();
+if (firstusage) CS_88 = document.getElementById('STATUSBARSTATUSBAR');if (firstusage) C_88 = document.getElementById('STATUSBAR88');if (firstusage) CL.iccSTATUSBAR(C_88,C);
+if (firstusage) C_IMAGE88 = document.getElementById('STATUSBARIMAGE88');if (firstusage) C.addFooterObject(CS_88);
+if (firstusage) C.registerListener(reactOnModelUpdate88);
+C_88.CASA_typeprop = 'messageType'
+C_88.CASA_shorttextprop = 'messageShortText'
+C_88.CASA_longtextprop = 'messageLongText'
+C.setPropertyValue('pageInitParam',pageInitParam);
+C.registerListenerAsFirst(reactOnModelUpdatePAGE);
+C.initWithModelIdAndSessionIdAndProcessId("com.softwareag.cis.pers.PersFilterEditAdapter",mid,sid,pid);
+m_endInitDate = new Date();
+m_roi_firstusage = undefined;
+}
+function startDrag(dragHTML,eve) { return C.startDragPAGE(dragHTML,eve); }function moveDrag(eve) { return C.moveDragPAGE(eve); }
+function removeTHISOCCUPIED() { return C.removeTHISOCCUPIED(); }
+function endDrag(eve) { return C.endDragPAGE(eve); }
+function processHotKeys(evt) { C.processHotKeys(evt); }
+function reactOnModelUpdatePAGE(model) { C.reactOnModelUpdatePAGE(); }
+function generateCCs()
+{
+var vCCs = document.getElementsByName('CC');
+for (var i=0; i<vCCs.length; i++)
+{
+var vCC = vCCs[i];
+if (vCC.id != null && vCC.id != '') window['C'+vCC.id] = vCC;
+}
+vCCs = document.getElementsByName('PC');
+for (var i=0; i<vCCs.length; i++)
+{
+var vCC = vCCs[i].parentNode;
+if (vCC.id != null && vCC.id != '') window['C'+vCC.id] = vCC;
+}
+}
+function reactOnResize() { if (m_flagResize == false) return; C.handleReactOnResize();}
+function addResizeListener(resizeListener) { m_resizeListeners[m_resizeListeners.length] = resizeListener; }
+function fillTextIdSpans() { C.replaceTextIds(); for (i=0; i<m_fillTextIdListeners.length; i++) m_fillTextIdListeners[i](); }
+function invokeMethodInModel(methodName) { C.invokeMethodInModel(methodName); }
+function getPropertyValue(propertyName) { return C.getPropertyValue(propertyName); }
+function setPropertyValue(propertyName,propertyValue) { C.setPropertyValue(propertyName,propertyValue); }
+function romu2(model) { C.reactOnModelUpdateHEADER(C_2); }
+function rohk3(param) { C.transferModelBUTTON(CB_3); }
+function rohk4(param) { C.transferModelBUTTON(CB_4); }
+function romuINTPAGEPOPUP() { C.romuINTPOPUP(); }
+function reactOnResize5() { C.reactOnResizePAGEBODY(C_5); }
+function rohk8(param) { C.rohkLABEL(CTD_8, param); }
+function romu10(model) { C.romuTEXTOUT(C_10); }
+function reactOnModelUpdate12() { C.romuTABAREA(C_12);}
+function rohk12(index) { C.showPageTABAREA(C_12,index);}
+function react12(evt) { C.reactTABAREA(C_12,evt); }
+function reactOnModelUpdate16() { C.reactOnModelUpdateCLIENTTREE(C_16); }
+function selectItem16(itemIndex, key) { C.selectItemCLIENTTREE(C_16,itemIndex, key); }
+function toggleItem16(itemIndex) { C.toggleItemCLIENTTREE(C_16,itemIndex); }
+function rollin16(index) {  if (m_dragMode ==true) C.rollinDragLinkCLIENTTREE(C_16, index); else C.rollinLinkCLIENTTREE(C_16, index); }
+function rollout16(index) { C.rolloutLinkCLIENTTREE(C_16, index); }
+function onContextMenuRequest16(itemIndex) { C.onContextMenuRequestCLIENTTREE(C_16, itemIndex); }
+function reactOnMouseDown16(nodeIndex,evt) { return C.reactOnMouseDownCLIENTTREE(C_16, evt, nodeIndex, "CLIENTTREE"); }
+function reactOnMouseUp16(nodeIndex,evt) { return C.reactOnMouseUpCLIENTTREE(C_16,nodeIndex,evt); }
+function rokd16(nodeIndex) { ; }
+function rokdMOZ16(e) { e.preventDefault(); C.rokdMOZCLIENTTREE(C_16, e); }
+function toggleArea19(passToModel) { C.toggleAreaAREA(C_19,passToModel,null,CSPAN_19); }
+function reactOnModelUpdate19() { C.romuAREA(C_19); }
+function romu22(model) { C.romuTEXTOUT(C_22); }
+function rohk25(param) { C.rohkLABEL(CTD_25, param); }
+function reactOnModelUpdate26(model) { C.reactOnModelUpdateRADIOBUTTON(C_26); }
+function rrb26(evt) { return C.reactRADIOBUTTON(C_26,evt);}
+function rohk27(param) { C.rohkLABEL(CTD_27, param); }
+function reactOnModelUpdate30(model) { C.reactOnModelUpdateRADIOBUTTON(C_30); }
+function rrb30(evt) { return C.reactRADIOBUTTON(C_30,evt);}
+function rohk31(param) { C.rohkLABEL(CTD_31, param); }
+function reactOnModelUpdate32(model) { C.reactOnModelUpdateDYNAVIS(C_32); }
+function rohk36(param) { C.transferModelBUTTON(CB_36); }
+function toggleArea37(passToModel) { C.toggleAreaAREA(C_37,passToModel,null,CSPAN_37); }
+function reactOnModelUpdate37() { C.romuAREA(C_37); }
+function romu40(model) { C.romuTEXTOUT(C_40); }
+function rohk43(param) { C.rohkLABEL(CTD_43, param); }
+function reactOnModelUpdate44(model) { C.reactOnModelUpdateRADIOBUTTON(C_44); }
+function rrb44(evt) { return C.reactRADIOBUTTON(C_44,evt);}
+function rohk45(param) { C.rohkLABEL(CTD_45, param); }
+function reactOnModelUpdate48(model) { C.reactOnModelUpdateRADIOBUTTON(C_48); }
+function rrb48(evt) { return C.reactRADIOBUTTON(C_48,evt);}
+function rohk49(param) { C.rohkLABEL(CTD_49, param); }
+function reactOnModelUpdate51(model) { C.reactOnModelUpdateDYNAVIS(C_51); }
+function rohk55(param) { C.transferModelBUTTON(CB_55); }
+function rohk59(param) { C.rohkLABEL(CTD_59, param); }
+function rohk60(param) { C.rohkLABEL(CTD_60, param); }
+function romu63(model) { C.romuFIELD(CF_63); }
+function romu64(model) { C.romuFIELD(CF_64); }
+function romu66(model) { C.romuFIELD(CF_66); }
+function romu67(model) { C.romuFIELD(CF_67); }
+function romu69(model) { C.romuFIELD(CF_69); }
+function romu70(model) { C.romuFIELD(CF_70); }
+function romu72(model) { C.romuFIELD(CF_72); }
+function romu73(model) { C.romuFIELD(CF_73); }
+function romu75(model) { C.romuFIELD(CF_75); }
+function romu76(model) { C.romuFIELD(CF_76); }
+function romu78(model) { C.romuFIELD(CF_78); }
+function romu79(model) { C.romuFIELD(CF_79); }
+function romu81(model) { C.romuFIELD(CF_81); }
+function romu82(model) { C.romuFIELD(CF_82); }
+function romu84(model) { C.romuFIELD(CF_84); }
+function romu85(model) { C.romuFIELD(CF_85); }
+function reactOnModelUpdate88(model) { CL.romuSTATUSBAR(C_88,C_IMAGE88); }
+function resetBeforeUpdate88(model) { CL.resetSTATUSBAR(C_88,C_IMAGE88); }
+</script>
+<iframe hidden id="csciframe" name="csciframe" tabIndex="-1" src="persfilteredit_JLIBS.html" style="width:0;height:0;left:0;top:0">
+</iframe>
+</body>
+</html>

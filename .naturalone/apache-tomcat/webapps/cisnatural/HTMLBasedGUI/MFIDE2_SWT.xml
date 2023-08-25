@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><mfpage separation="rows" sizing="89,*,38" border="15" bordercolor="#FFFFFF" casaindex="1" >
+
+
+        <mfframeset target="toppp" separation="rows" sizing="54,35" border="0" bordercolor="background-color: #F7F3EF" frameborder="false" framespacing="0" casaindex="2" >
+
+
+                <mfcisframe target="iiiii" cisurl="/HTMLBasedGUI/MFIDE2Header.html" withborder="false" withownborder="false" marginheight="0" marginwidth="0" casaindex="3" >
+
+
+                </mfcisframe>
+
+
+                <mfwpactivefunctions resizable="false" withborder="false" scrolling="false" framestyle="border: 0px solid #000000" bordercolor="background-color: #F7F3EF" marginheight="0" marginwidth="0" casaindex="4" >
+
+
+                </mfwpactivefunctions>
+
+
+        </mfframeset>
+
+
+        <mfframeset target="ZZZ" separation="cols" sizing="0,265,*,0" border="15" frameborder="true" casaindex="5" >
+
+
+                <mfhtmlframe target="dummmy" url="about:blank" resizable="false" casaindex="6" >
+
+
+                </mfhtmlframe>
+
+
+                <mfwpfunctions bootstrapclass="com.softwareag.cis.editor.EditorWorkplace" serversidescrolling="true" withplusminus="true" activefunctionsvariant="stripsel" withownborder="true" casaindex="7" >
+
+
+                </mfwpfunctions>
+
+
+                <mfwpcontent resizable="true" withborder="false" scrolling="false" withownborder="true" casaindex="8" >
+
+
+                </mfwpcontent>
+
+
+                <mfcisframe target="CISHELP" cisurl="/HTMLBasedGUI/onlinehelp.html" resizable="true" withborder="false" withownborder="true" casaindex="9" >
+
+
+                </mfcisframe>
+
+
+        </mfframeset>
+
+
+        <mfcisframe target="jjjjj" cisurl="/HTMLBasedGUI/MFIDE2Footer.html" casaindex="10" >
+
+
+        </mfcisframe>
+
+
+</mfpage>

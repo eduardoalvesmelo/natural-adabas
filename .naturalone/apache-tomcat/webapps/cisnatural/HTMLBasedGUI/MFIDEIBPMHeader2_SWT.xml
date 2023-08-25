@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.workplace.MFHeaderAdapter" translationreference="IBPM" darkbackground="true" casaindex="1" >
+
+
+        <pagebody vscroll="hidden" hscroll="hidden" horizdist="false" casaindex="2" >
+
+
+                <vdist height="10" casaindex="3" >
+
+
+                </vdist>
+
+
+                <itr takefullwidth="true" casaindex="4" >
+
+
+                        <hdist width="11" casaindex="5" >
+
+
+                        </hdist>
+
+
+                        <icon image="../HTMLBasedGUI/images/fav_monitoring.gif" method="showPageInWorkplace;com#softwareag#cis#admin#monitoring#html;Monitoring" titletextid="mfideHeader.icon9" casaindex="6" >
+
+
+                        </icon>
+
+
+                        <hdist width="6" casaindex="7" >
+
+
+                        </hdist>
+
+
+                        <icon image="../HTMLBasedGUI/images/fav_naviminus.gif" method="on0Size" titletextid="mfideHeader.icon15" casaindex="8" >
+
+
+                        </icon>
+
+
+                        <hdist width="6" casaindex="9" >
+
+
+                        </hdist>
+
+
+                        <icon image="../HTMLBasedGUI/images/fav_naviplus.gif" method="onNormalSize" titletextid="mfideHeader.icon16" casaindex="10" >
+
+
+                        </icon>
+
+
+                        <hdist width="6" casaindex="11" >
+
+
+                        </hdist>
+
+
+                        <icon image="../HTMLBasedGUI/images/fav_closeall.gif" method="closeAllActivities" titletextid="mfideHeader.icon17" casaindex="12" >
+
+
+                        </icon>
+
+
+                        <hdist width="100%" casaindex="13" >
+
+
+                        </hdist>
+
+
+                        <icon image="../HTMLBasedGUI/images/fujitsu.gif" align="center" casaindex="14" >
+
+
+                        </icon>
+
+
+                        <hdist width="40" casaindex="15" >
+
+
+                        </hdist>
+
+
+                </itr>
+
+
+        </pagebody>
+
+
+</page>

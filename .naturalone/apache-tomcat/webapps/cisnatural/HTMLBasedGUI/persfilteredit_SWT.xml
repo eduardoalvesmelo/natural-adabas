@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.pers.PersFilterEditAdapter" popupheight="400" popupwidth="600" translationreference="CIS_TOOLS" casaindex="1" >
+
+
+        <header withdistance="false" casaindex="2" >
+
+
+                <button image="../HTMLBasedGUI/images/save.gif" method="onSave" textid="btnSave" casaindex="3" >
+
+
+                </button>
+
+
+                <button method="onChangeScenario" textid="persfilteredit.button0" casaindex="4" >
+
+
+                </button>
+
+
+        </header>
+
+
+        <pagebody takefullheight="true" casaindex="5" >
+
+
+                <itr casaindex="6" >
+
+
+                        <hdist width="50%" casaindex="7" >
+
+
+                        </hdist>
+
+
+                        <label asplaintext="true" labelstyle="font-weight: bold" textid="lblScenario" casaindex="8" >
+
+
+                        </label>
+
+
+                        <hdist width="5" casaindex="9" >
+
+
+                        </hdist>
+
+
+                        <textout valueprop="scenario" casaindex="10" >
+
+
+                        </textout>
+
+
+                        <hdist width="50%" casaindex="11" >
+
+
+                        </hdist>
+
+
+                </itr>
+
+
+                <rowtabarea height="100%" page1="FILTER" page2="PROPOSAL" textid1="tabFilter" textid2="tabProposal" casaindex="12" >
+
+
+                        <tabpage fixlayout="true" id="FILTER" takefullheight="true" casaindex="13" >
+
+
+                                <itr fixlayout="true" height="100%" itrstyle="background-color: #FFFFFF" width="100%" casaindex="14" >
+
+
+                                        <coltable0 fixlayout="true" takefullheight="true" width="200" casaindex="15" >
+
+
+                                                <clienttree height="100%" selectionvisible="true" singleselect="true" treecollectionprop="aspectTree" withplusminus="true" casaindex="16" >
+
+
+                                                </clienttree>
+
+
+                                        </coltable0>
+
+
+                                        <hdist casaindex="17" >
+
+
+                                        </hdist>
+
+
+                                        <coltable0 fixlayout="true" width="100%" casaindex="18" >
+
+
+                                                <rowarea textid="areaMaintenance" visibleprop="visibilityAreaVisible" casaindex="19" >
+
+
+                                                        <itr casaindex="20" >
+
+
+                                                                <hdist width="150" casaindex="21" >
+
+
+                                                                </hdist>
+
+
+                                                                <textout textoutstyle="font-weight: bold" valueprop="aspectComment" width="200" casaindex="22" >
+
+
+                                                                </textout>
+
+
+                                                        </itr>
+
+
+                                                        <vdist height="10" casaindex="23" >
+
+
+                                                        </vdist>
+
+
+                                                        <itr casaindex="24" >
+
+
+                                                                <label textid="lblVisibility" width="150" casaindex="25" >
+
+
+                                                                </label>
+
+
+                                                                <radiobutton flush="server" value="true" valueprop="aspectValue" casaindex="26" >
+
+
+                                                                </radiobutton>
+
+
+                                                                <label asplaintext="true" textid="lblIsVisible" width="100" casaindex="27" >
+
+
+                                                                </label>
+
+
+                                                        </itr>
+
+
+                                                        <itr casaindex="28" >
+
+
+                                                                <hdist width="150" casaindex="29" >
+
+
+                                                                </hdist>
+
+
+                                                                <radiobutton flush="server" value="false" valueprop="aspectValue" casaindex="30" >
+
+
+                                                                </radiobutton>
+
+
+                                                                <label asplaintext="true" textid="lblIsInvisible" width="100" casaindex="31" >
+
+
+                                                                </label>
+
+
+                                                        </itr>
+
+
+                                                        <rowdynavis valueprop="visibilityRemoveValue" casaindex="32" >
+
+
+                                                                <vdist height="20" casaindex="33" >
+
+
+                                                                </vdist>
+
+
+                                                                <itr casaindex="34" >
+
+
+                                                                        <hdist width="150" casaindex="35" >
+
+
+                                                                        </hdist>
+
+
+                                                                        <button method="onRemoveValue" textid="btnRemoveValue" casaindex="36" >
+
+
+                                                                        </button>
+
+
+                                                                </itr>
+
+
+                                                        </rowdynavis>
+
+
+                                                </rowarea>
+
+
+                                                <rowarea textid="areaStatusMaintenance" visibleprop="visibilityStatusAreaVisible" casaindex="37" >
+
+
+                                                        <itr casaindex="38" >
+
+
+                                                                <hdist width="150" casaindex="39" >
+
+
+                                                                </hdist>
+
+
+                                                                <textout textoutstyle="font-weight: bold" valueprop="aspectComment" width="200" casaindex="40" >
+
+
+                                                                </textout>
+
+
+                                                        </itr>
+
+
+                                                        <vdist height="10" casaindex="41" >
+
+
+                                                        </vdist>
+
+
+                                                        <itr casaindex="42" >
+
+
+                                                                <label textid="lblEditStatus" width="150" casaindex="43" >
+
+
+                                                                </label>
+
+
+                                                                <radiobutton flush="server" value="INVISIBLE" valueprop="aspectValue" casaindex="44" >
+
+
+                                                                </radiobutton>
+
+
+                                                                <label asplaintext="true" textid="lblEditStatusINVISIBLE" casaindex="45" >
+
+
+                                                                </label>
+
+
+                                                        </itr>
+
+
+                                                        <itr casaindex="46" >
+
+
+                                                                <hdist width="150" casaindex="47" >
+
+
+                                                                </hdist>
+
+
+                                                                <radiobutton flush="server" value="DISPLAY" valueprop="aspectValue" casaindex="48" >
+
+
+                                                                </radiobutton>
+
+
+                                                                <label asplaintext="true" textid="lblEditStatusDISPLAY" casaindex="49" >
+
+
+                                                                </label>
+
+
+                                                        </itr>
+
+
+                                                        <vdist height="20" casaindex="50" >
+
+
+                                                        </vdist>
+
+
+                                                        <rowdynavis valueprop="visibilityRemoveValue" casaindex="51" >
+
+
+                                                                <vdist height="20" casaindex="52" >
+
+
+                                                                </vdist>
+
+
+                                                                <itr casaindex="53" >
+
+
+                                                                        <hdist width="150" casaindex="54" >
+
+
+                                                                        </hdist>
+
+
+                                                                        <button method="onRemoveValue" textid="btnRemoveValue" casaindex="55" >
+
+
+                                                                        </button>
+
+
+                                                                </itr>
+
+
+                                                        </rowdynavis>
+
+
+                                                </rowarea>
+
+
+                                        </coltable0>
+
+
+                                </itr>
+
+
+                        </tabpage>
+
+
+                        <tabpage display="none" fixlayout="true" id="PROPOSAL" takefullheight="true" casaindex="56" >
+
+
+                                <rowtablearea2 griddataprop="proposals" rowcount="8" width="100%" withborder="true" casaindex="57" >
+
+
+                                        <tr casaindex="58" >
+
+
+                                                <label asheadline="true" textid="lblAccessPath" width="50%" casaindex="59" >
+
+
+                                                </label>
+
+
+                                                <label asheadline="true" textid="lblValue" width="50%" casaindex="60" >
+
+
+                                                </label>
+
+
+                                        </tr>
+
+
+                                        <repeat casaindex="61" >
+
+
+                                                <tr casaindex="62" >
+
+
+                            <field xsdType="xs:string" displayonly="true" valueprop="name" width="50%" casaindex="63" >
+
+                            </field>
+
+                            <field xsdType="xs:string" valueprop="value" width="50%" casaindex="64" >
+
+                            </field>
+
+                                                </tr>
+
+
+                                        </repeat>
+
+
+                                </rowtablearea2>
+
+
+                                <vdist height="100%" casaindex="65" >
+
+
+                                </vdist>
+
+
+                        </tabpage>
+
+
+                </rowtabarea>
+
+
+                <vdist casaindex="66" >
+
+
+                </vdist>
+
+
+        </pagebody>
+
+
+        <statusbar withdistance="false" casaindex="67" >
+
+
+        </statusbar>
+
+
+</page>

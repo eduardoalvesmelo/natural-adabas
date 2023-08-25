@@ -1,0 +1,34 @@
+0001/** Fazer um programa para receber valores inteiros X, Y e Z do usuário e determinar se estes
+0002/** valores podem formar os lados de um triângulo. Em caso afirmativo, informar se o triângulo
+0003/** é equilátero, isósceles ou escaleno.
+0004/**  
+0005/** 
+0006/** :author eduar
+0007/* TODO Enter your code here
+0008DEFINE DATA LOCAL
+00091 #L1    (N2)
+00101 #L2    (N2)     
+00111 #L3    (N2)
+00121 #triangulo (a20)
+0013END-DEFINE
+0014*
+0015INPUT 'Informe o lado 1: ' #L1
+0016INPUT 'Informe o lado 2: ' #L2
+0017INPUT 'Informe o lado 3: ' #L3
+0018*
+0019decide for first condition
+0020    when #L1 = #L2 and #L2 = #L3 #triangulo := 'equilatero'
+0021    when #L1 <> #L2 and #L2 <> #L3 #triangulo := 'escaleno'
+0022    when none #triangulo := 'isósceles'
+0023end-decide
+0024*   
+0025write 'equilátero = todos os lados iguais'
+0026write 'isósceles = pelo menos dois lados iguais'
+0027write 'escaleno = quando todos os lados são diferentes'
+0028skip 1 
+0029write 'Lado 1: ' #L1
+0030write 'Lado 2: ' #L2
+0031write 'Lado 3: ' #L3
+0032write 'Tipo do triangulo: ' #triangulo
+0033*
+0034END

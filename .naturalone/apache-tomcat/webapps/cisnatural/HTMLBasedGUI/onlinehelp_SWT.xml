@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><page darkbackground="true" model="com.softwareag.cis.workplace.OnlineHelpAdapter" translationreference="CIS_TOOLS" casaindex="1" >
+
+
+        <titlebar textid="onlineHelp.titlebar0" withclose="true" closetitletextid="closePage" casaindex="2" >
+
+
+        </titlebar>
+
+
+        <pagebody horizdist="false" takefullheight="true" casaindex="3" >
+
+
+                <itr height="100%" width="100%" casaindex="4" >
+
+
+                        <subpage height="100%" scrolling="auto" valueprop="helpURL" width="100%" casaindex="5" >
+
+
+                        </subpage>
+
+
+                </itr>
+
+
+        </pagebody>
+
+
+</page>

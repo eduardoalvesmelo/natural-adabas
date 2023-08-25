@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'>
+<script>var m_perfPageLoadStart = new Date();
+var m_perfPageLoadEnd = null;
+var m_perfPageFocusEnd = null;</script>
+<link id="casabacstylesheet" rel="stylesheet" type="text/css" href="../cis/styles/CIS_DEFAULT.css">
+<script>
+try
+{
+if (parent.CasaSTYLESHEET == null)
+{
+var vParent = parent;
+while(vParent != null)
+{
+if(vParent.CasaSTYLESHEET != null && vParent.CasaSTYLESHEET != '')
+{
+parent.CasaSTYLESHEET = vParent.CasaSTYLESHEET;
+break;
+}
+if(vParent == vParent.parent) break;
+vParent = vParent.parent;
+}
+}
+if (parent.CasaSTYLESHEET != null && parent.CasaSTYLESHEET != '')
+{
+var vStyleSheet = document.getElementById('casabacstylesheet');
+if (vStyleSheet.href != parent.CasaSTYLESHEET) vStyleSheet.href = parent.CasaSTYLESHEET;
+}
+}
+catch (eeccxx) {}
+</script>
+<style>
+html {height:100%;}
+body {height:100%;}
+</style>
+</head>
+<body id='THISBODY' oncontextmenu='try { return C.reactOnContextMenuRequestPAGE(event); } catch(e) {}' onmousemove='try { return moveDrag(event); } catch(exc) {}' onmouseup='try { endDrag(event);C.CL().checkMozIO(parent); } catch (exc) {}' onkeydown='try { processHotKeys(event); } catch (exc) {}' class='PAGEBody' style='margin: 0' onclick='try { C.clickAway(); } catch (exc) {}; try { C.reactOnClickPage(event); } catch (exc) {}' onresize='try { reactOnResize(); } catch (exc) {}'	onload=' try { reactOnResize(); } catch (exc) {}'	onhelp='C.reactOnHelpPAGE(); return false;'  tabindex='-1' onblur='try { C.onBlurPAGE(event); } catch(e) {}' onfocus='try { C.onFocusPAGE(); } catch(e) {}' onmousewheel='if (event.shiftKey) C.CL().cancelEvent(event);' onwheel='if (event.shiftKey) C.CL().cancelEvent(event);' onmouseleave='try { return removeTHISOCCUPIED(); } catch(exc) {}' onmouseout ='try { return removeTHISOCCUPIED(); } catch(exc) {}'>
+<script>
+function gebid(pid) { return document.getElementById(pid); }
+var m_isSafari = navigator.userAgent.toLowerCase().indexOf( 'safari' ) != -1;
+function isSafari() { return m_isSafari; }
+function createFunction(name,param,code) { window[name] = new Function(param,code); return window[name]; }
+function createElement(name) { return document.createElement(name); }
+var N = null;
+function icc(iccMethodName, baseIndex, s) { C.addIccInfo(iccMethodName, baseIndex, s); iccExec(iccMethodName, s); }
+function iccExec(iccMethodName, s) {
+var o = C.decodeString(s,',');
+for (var i=0; i<o.length; i++) o[i] = eval(o[i]);
+eval(iccMethodName)(o[0],o[1],o[2],o[3],o[4],o[5],o[6],o[7],o[8],o[9],o[10],o[11],o[12],o[13],o[14],o[15],o[16],o[17],o[18],o[19],o[20],o[21],o[22],o[23],o[24],o[25],o[26],o[27],o[28],o[29],o[30],o[31],o[32],o[33],o[34],o[35],o[36],o[37],o[38],o[39],o[40],o[41],o[42],o[43],o[44],o[45],o[46],o[47],o[48],o[49]);
+}
+m_startPageDate = new Date();
+var m_pageCompletelyBuilt = false;
+var m_fillTextIdListeners = [];
+var m_flagResize = true;
+var m_centralContextMenu =false;
+function registerFillTextIdListener(listener)
+{
+m_fillTextIdListeners.push(listener);
+}
+</script>
+<table id='JUSTLOADING' style='table-layout: fixed;z-index: 100;cursor: progress; position: absolute; left: 0; top: 0; width: 100%; height: 100%' class='PAGEBody'>
+<tr><td align="center" valign="middle" class='FLASHPageSwitch'>&nbsp;</td></tr>
+</table>
+<table id='THISPAGE' cellspacing='0' cellpadding='0'  style='table-layout: auto;width:100%;height:100%;display:none'>
+<tr id="TITLEBARTITLEBARTR"  style=" ">
+<td colspan='50' width='100%' height='0' align='center'>
+<table width='100%' cellspacing=0 cellpadding=0 class="TITLEBARTable">
+<tr>
+<td width='100%'>
+<table id="TITLEBARTITLEBAR" width="100%" cellspacing=2 cellpadding=0 style='table-layout: fixed'>
+<tr>
+<td width="100%" class="TDAroundControl" >
+<div nowrap="true" class="TITLEBARCell" style="overflow-x: hidden;">&nbsp;<span id="$2">$war.titlebar.warpackager</span>&nbsp;</div>
+</td>
+</tr>
+</table>
+</td>
+<td width=0>
+<table width=0 cellspacing=0 cellpadding=0>
+<tr>
+<td id='TITLEBAR2CLOSE' title="$closePage" valign='middle' onmouseenter='if (C.checkIO() == false) return; C.CL().C_rollinIconROLLOVER(this);' onmouseleave='this.className = "ICONImage";' onclick='closePage2()'><div class='TITLEBARCellClose'>&nbsp;</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr id='TR3' >
+<td id="HDR3" colspan='50' width='100%' height='0' class="HEADERTopTable" style='padding-left:3px;padding-right:3px'>
+<a name="PC"></a><table id="HDRTA3" align="center" >
+<tr>
+<td id="TDB4"  width=0 colspan=1 rowspan=1 class='TDAroundControl' align='left' valign='middle' >
+<button type="button" id="B_4" data-testtoolid='endProcess' style=" "  name="CC" class="BUTTONInput">$1$btn.exit$2$</button>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td  colspan='50' width='100%' height='100%' valign='top' >
+<div id='PAGEDIV5' style='width: 100%; height: 100%;overflow: auto;padding:0 0 0 0;'>
+<table width="100%" style='height:100%;' cellspacing="0" cellpadding="0" >
+<tr><td colspan='50' width='100%' height='260px' valign='top' class='TDAroundControl' style='padding-top: 3px'>
+<table  id='TA_6' cellspacing="0" cellpadding="0" border="0" width='100%' height='260px' class='TABAREATable'>
+<tr>
+<td class='TDAroundControl' width="100%">
+<table cellspacing="0" cellpadding="4" border=0 width='100%'>
+<tr>
+<td width='0' class='TABAREACellRemaining'><div style='width:50px'>&nbsp;</div></td>
+<td tabindex='1' nowrap=true id="TPTD16" style='cursor:pointer;text-decoration:none; padding-bottom:4px; padding-top:4px' class='TABAREACellSelectedFirst' onkeypress="C.clickPageTABAREA(C_6, 0)"  onclick="C.clickPageTABAREA(C_6, 0)" title="" data-testtoolid='war.rowtabarea.deploymentscenario'><span id='$6_1'>$war.rowtabarea.deploymentscenario</span>&nbsp;&nbsp;</td>
+<td tabindex='1' nowrap=true id="TPTD26" style='cursor:pointer;text-decoration:none; padding-bottom:4px; padding-top:4px' class='TABAREACellUnselected' onkeypress="C.clickPageTABAREA(C_6, 1)" onclick="C.clickPageTABAREA(C_6, 1)" title="" data-testtoolid='war.rowtabarea.projectselection'><span id='$6_2'>$war.rowtabarea.projectselection</span>&nbsp;&nbsp;</td>
+<td width='100%' class='TABAREACellRemaining'>&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td width="100%" height="100%">
+<table class='TABAREACellSubpages' style=' border-left: 0;border-right: 0;' cellpadding=0 cellspacing=0 height='100%' width='100%'>
+<tr>
+<td width="100%" height="100%" valign='top' style='padding:5px 3px 5px 3px '>
+<table id="SCENARIO" width="100%" height="0" border="0" cellspacing="0" cellpadding="0" style=""  class='TABPAGETable'>
+<tr id='ITR8'  >
+<td   valign='top' colspan='50' class='TDAroundControl'  height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 ><tr>
+<td id='TD9' width='200px'  valign='top' class='TDAroundControl'>
+<table id='TAB9'   width="200px" cellspacing='0' cellpadding='0' align='left' >
+<tr style=' ' ><td height="45px" class='TDAroundControl' ></td></tr>
+<tr id='ITR11'  >
+<td   valign='top' colspan='50' class='TDAroundControl'  height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 ><tr>
+<td  id='RTD_12' rowspan=1 colspan=1 class='TDAroundControl' align='center' valign='middle'><input  type="radio"  data-testtoolid='clustered' id="RADIO12" name="clustered" onclick="rrb12(event);" onkeydown="rrb12(event); return C.reactRADIOBUTTON(C_12,event);" class="RADIOBUTTONEdit" title=""></td>
+<td id='TD13'    colspan=1 rowspan=1   class="LABELCellPlainText" style=" "  valign='middle'><div id="DIV13"  class="LABELDivText" style=" "><span id='$13'>$war.label.withfilesystemref</span>
+</div></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr id='ITR14'  >
+<td   valign='top' colspan='50' class='TDAroundControl'  height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 ><tr>
+<td  id='RTD_15' rowspan=1 colspan=1 class='TDAroundControl' align='center' valign='middle'><input  type="radio"  data-testtoolid='clustered' id="RADIO15" name="clustered" onclick="rrb15(event);" onkeydown="rrb15(event); return C.reactRADIOBUTTON(C_15,event);" class="RADIOBUTTONEdit" title=""></td>
+<td id='TD16'    colspan=1 rowspan=1   class="LABELCellPlainText" style=" "  valign='middle'><div id="DIV16"  class="LABELDivText" style=" "><span id='$16'>$war.label.fullyclusterable</span>
+</div></td>
+</tr>
+</table>
+</td>
+</tr>
+<span></span></table>
+</td>
+<td  id='TDI17' align='center' valign='middle' ><table cellspacing='0' cellpadding='0'><tr>
+<td tabindex=0 id='ICON17' style='width:0;'>
+<img   id='ICONIMG17' data-testtoolid='onWarUnclustered' border='0' src='images/warunclustered.gif' title="" galleryimg='false' ></td>
+</tr></table>
+</td>
+<td id='TD18'    colspan=1 rowspan=1 width='80px'  class="LABELCellPlainText" style=" font-size:10px;width:80px"  valign='middle'><div id="DIV18"  class="LABELDivText" style=" font-size:10px;width:80px"><span id='$18'>$war.label.withreftofile</span>
+</div></td>
+<td width=0 align='center' valign='middle'><span  id='HELPICON19' onmouseenter='if (C.checkIO() == false) return; this.className = "ICONImageRollOver";' onmouseleave='this.className = "ICONImage";' class='ICONImage'>
+<a onclick='transferModel19();'><img id='ICONIMG19' border='0' src='../HTMLBasedGUI/images/helpiconsmall.gif' title=""></a></span>
+</td>
+<td id='HD20' class='TDAroundControl' style='font-size:1px' width='30px'><div style='font-size:1px;height:1px;width:30px'></div></td>
+<td  id='TDI21' align='center' valign='middle' ><table cellspacing='0' cellpadding='0'><tr>
+<td tabindex=0 id='ICON21' style='width:0;'>
+<img   id='ICONIMG21' data-testtoolid='onWarClustered' border='0' src='images/warclustered.gif' title="" galleryimg='false' ></td>
+</tr></table>
+</td>
+<td id='TD22'    colspan=1 rowspan=1 width='80px'  class="LABELCellPlainText" style=" font-size:10px;width:80px"  valign='middle'><div id="DIV22"  class="LABELDivText" style=" font-size:10px;width:80px"><span id='$22'>$war.label.fullyclusterableno</span>
+</div></td>
+<td width=0 align='center' valign='middle'><span  id='HELPICON23' onmouseenter='if (C.checkIO() == false) return; this.className = "ICONImageRollOver";' onmouseleave='this.className = "ICONImage";' class='ICONImage'>
+<a onclick='transferModel23();'><img id='ICONIMG23' border='0' src='../HTMLBasedGUI/images/helpiconsmall.gif' title=""></a></span>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style=' ' ><td height="20px" class='TDAroundControl' ></td></tr>
+<tr id='ITR25'  >
+<td   valign='top' colspan='50' class='TDAroundControl' width='100%' height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 width='100%'><tr>
+<td id='TD26'    colspan=1 rowspan=1 width='200px'  class="LABELCellNormal" style=" ;width:200px"  valign='middle'><div id="DIV26"  class="LABELDivText" style=" ;width:200px"><span id='$26'>$war.label.cisrootloc</span>
+</div></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><table cellspacing=0 cellpadding=0 width='100%' style='table-layout: fixed'><tr><td width='100%'><input id="F_27" name="CC" class='FIELDInputEdit' data-testtoolid='rootLocation' type="text"    style=" width:100%;"></td><td valign="middle" width="16px"><div id="FIC_27"  onmouseup="C.reactOnValueHelpFIELD(CF_27,event);" style="background-repeat:no-repeat; width:16px;"><img width='16px' src='../HTMLBasedGUI/general/nothing.gif'></div></td></tr></table></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr id='ITR28'  >
+<td   valign='top' colspan='50' class='TDAroundControl' width='100%' height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 width='100%'><tr>
+<td id='TD29'    colspan=1 rowspan=1 width='200px'  class="LABELCellNormal" style=" ;width:200px"  valign='middle'><div id="DIV29"  class="LABELDivText" style=" ;width:200px"><span id='$29'>$war.label.logfileloc</span>
+</div></td>
+<td  width='100%'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><table cellspacing=0 cellpadding=0 width='100%' style='table-layout: fixed'><tr><td width='100%'><input id="F_30" name="CC" class='FIELDInputEdit' data-testtoolid='logFileLocation' type="text"    style=" width:100%;"></td><td valign="middle" width="16px"><div id="FIC_30"  onmouseup="C.reactOnValueHelpFIELD(CF_30,event);" style="background-repeat:no-repeat; width:16px;"><img width='16px' src='../HTMLBasedGUI/general/nothing.gif'></div></td></tr></table></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr id='ITR31'  >
+<td   valign='top' colspan='50' class='TDAroundControl'  height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 ><tr>
+<td id='TD32'    colspan=1 rowspan=1 width='200px'  class="LABELCellNormal" style=" ;width:200px"  valign='middle'><div id="DIV32"  class="LABELDivText" style=" ;width:200px"><span id='$32'>$war.label.switchoffdesigntime</span>
+</div></td>
+<td id='CBTD_33' width=0 class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='designTimeSwitchedOff' id="CB_33" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table id="PROJECT" width="100%" height="0" border="0" cellspacing="0" cellpadding="0" style=""  class='TABPAGETable'>
+<tr style=' ' ><td height="10px" class='TDAroundControl' ></td></tr>
+<tr id='ITR36'  >
+<td   valign='top' colspan='50' class='TDAroundControl' width='100%' height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 width='100%'><tr>
+<td id='TD37' width='200px'  valign='top' class='TDAroundControl'>
+<table id='TAB37'   width="200px" cellspacing='0' cellpadding='0' align='left' >
+<tr id='ITR38'  >
+<td   valign='top' colspan='50' class='TDAroundControl'  height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 ><tr>
+<td id='TD39'    colspan=1 rowspan=1 width='200px'  class="LABELCellNormal" style=" ;width:200px"  valign='middle'><div id="DIV39"  class="LABELDivText" style=" ;width:200px"><span id='$39'>$war.label.selectproj</span>
+</div></td>
+</tr>
+</table>
+</td>
+</tr>
+<span></span></table>
+</td>
+<td id='TD40' width='100%'  valign='top' class='TDAroundControl'>
+<table id='TAB40'   width="100%" cellspacing='0' cellpadding='0' align='left' >
+<tr><td colspan='50' class='TDAroundControl' >
+<table id='TAB41' data-testtoolid='projects_table'   cellpadding=0 class="TABLEAREATable" onmousewheel='reactOnMouseWheel41(event);'>
+<tr>
+<td class='TDAroundControl'  height='100%'>
+<table cellpadding=0 cellspacing=0 width='100%' >
+<tr>
+<td>
+<div id='DIV41' style='overflow-x:hidden;overflow-y: hidden' class="TABLEAREATable" >
+<table data-testtoolid='projects_innertable' class='TABLEAREABorder' style='' cellpadding=0 cellspacing=0>
+<tr id='STR43'>
+<td id='CBTD_44' width=0 class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='projects.items[0].selected' id="CB_44" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td id="TXTTD_45"    width='200px'  valign='middle' class='TEXTOUTColumn' ><div   data-testtoolid='projects.items[0].name'  id="S_45" class="TEXTOUTSpan" style=";; "></div>
+</td>
+</tr>
+<tr id='STR46'>
+<td id='CBTD_47' width=0 class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='projects.items[1].selected' id="CB_47" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td id="TXTTD_48"    width='200px'  valign='middle' class='TEXTOUTColumn' ><div   data-testtoolid='projects.items[1].name'  id="S_48" class="TEXTOUTSpan" style=";; "></div>
+</td>
+</tr>
+<tr id='STR49'>
+<td id='CBTD_50' width=0 class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='projects.items[2].selected' id="CB_50" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td id="TXTTD_51"    width='200px'  valign='middle' class='TEXTOUTColumn' ><div   data-testtoolid='projects.items[2].name'  id="S_51" class="TEXTOUTSpan" style=";; "></div>
+</td>
+</tr>
+<tr id='STR52'>
+<td id='CBTD_53' width=0 class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='projects.items[3].selected' id="CB_53" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td id="TXTTD_54"    width='200px'  valign='middle' class='TEXTOUTColumn' ><div   data-testtoolid='projects.items[3].name'  id="S_54" class="TEXTOUTSpan" style=";; "></div>
+</td>
+</tr>
+<tr id='STR55'>
+<td id='CBTD_56' width=0 class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='projects.items[4].selected' id="CB_56" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td id="TXTTD_57"    width='200px'  valign='middle' class='TEXTOUTColumn' ><div   data-testtoolid='projects.items[4].name'  id="S_57" class="TEXTOUTSpan" style=";; "></div>
+</td>
+</tr>
+<tr id='STR58'>
+<td id='CBTD_59' width=0 class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='projects.items[5].selected' id="CB_59" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td id="TXTTD_60"    width='200px'  valign='middle' class='TEXTOUTColumn' ><div   data-testtoolid='projects.items[5].name'  id="S_60" class="TEXTOUTSpan" style=";; "></div>
+</td>
+</tr>
+<tr id='STR61'>
+<td id='CBTD_62' width=0 class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='projects.items[6].selected' id="CB_62" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td id="TXTTD_63"    width='200px'  valign='middle' class='TEXTOUTColumn' ><div   data-testtoolid='projects.items[6].name'  id="S_63" class="TEXTOUTSpan" style=";; "></div>
+</td>
+</tr>
+<tr id='STR64'>
+<td id='CBTD_65' width=0 class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='projects.items[7].selected' id="CB_65" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td id="TXTTD_66"    width='200px'  valign='middle' class='TEXTOUTColumn' ><div   data-testtoolid='projects.items[7].name'  id="S_66" class="TEXTOUTSpan" style=";; "></div>
+</td>
+</tr>
+<tr id='STR67'>
+<td id='CBTD_68' width=0 class='TDAroundControl' rowspan=1 colspan=1  align='center' valign='middle'>
+<input  type="checkbox" data-testtoolid='projects.items[8].selected' id="CB_68" name="CC" class="CHECKBOXEdit" title="" >
+</td>
+<td id="TXTTD_69"    width='200px'  valign='middle' class='TEXTOUTColumn' ><div   data-testtoolid='projects.items[8].name'  id="S_69" class="TEXTOUTSpan" style=";; "></div>
+</td>
+</tr>
+</table>
+</div></td></tr></table></td>
+<td height="100%" class='TDAroundControl'>
+<div id="IDO_41" class="VSCROLLBAROuterDiv" style="width:18px;height:100%;overflow-y: auto" onscroll="reactOnScroll41();" onkeydown="reactOnKeyDown41(event);">
+<div id='ID_41' style='width:1px;height:10%'>
+<a name='PC'></a></div>
+</div>
+<script>
+function reactOnModelUpdate41(model) { C.reactOnModelUpdateVSCROLLBAR(C_41,CID_41); }
+function reactOnScroll41() { return C.reactOnScrollVSCROLLBAR(C_41,CID_41); }
+function reactOnMouseUp41() { return C.reactOnMouseUpVSCROLLBAR(C_41,CID_41); }
+function scrollUp41(delta) { return C.reactOnScrollUpVSCROLLBAR(C_41,CID_41,delta); }
+function scrollDown41(delta) { return C.reactOnScrollDownVSCROLLBAR(C_41,CID_41,delta); }
+function scrollPageUp41() { C.reactOnScrollPageUpVSCROLLBAR(C_41,CID_41); }
+function scrollPageDown41() { C.reactOnScrollPageDownVSCROLLBAR(C_41,CID_41); }
+function mozDragReact41(evt) { C.mozDragReactVSCROLLBAR(C_41,mozDragReact41,evt); }
+function reactOnKeyDown41(evt) { C.reactOnKeyDownSCROLLBAR(C_41,mozDragReact41,evt); }
+</script>
+</td>
+</tr>
+</table>
+<script>
+var m_heightOfRow41;
+var m_firstRun41 = true;
+var m_rowtableareaids41 = '';
+function getRowTableAreaIds41() { return m_rowtableareaids41; }
+CTAB_41 = document.getElementById('TAB41');
+CDIV_41 = document.getElementById('DIV41');
+CDIV_41.CASA_rows = [];
+CDIV_41.CASA_repeat = [];
+CDIV_41.CASA_rowcountprop = 'projects.rowCount';
+function reactOnResize41() { C.reactOnModelUpdateTABLEAREA(CDIV_41); }
+function reactOnModelUpdateTA41() { C.reactOnModelUpdateTABLEAREA(CDIV_41,true); }
+function registerRow41(pindex,prow) { if (m_firstRun41 == false) return; CDIV_41.CASA_repeat.push(pindex); CDIV_41.CASA_rows.push(prow); }
+function react41(evt) { C.CASA_event = evt; return C.reactTA(CDIV_41, evt,C_41,CID_41); }
+function reactOnMouseWheel41(ctrlEvent) { if (ctrlEvent.shiftKey) C.CL().cancelEvent(ctrlEvent); else { try { ae = document.activeElement; if(ae != document.body) ae.blur(); } catch (e) {}var scrolled; var scrollUp=true; if (ctrlEvent.detail && ctrlEvent.detail>0)scrollUp=false;else if (ctrlEvent.wheelDelta && ctrlEvent.wheelDelta<0)scrollUp=false;if (!scrollUp) scrolled =scrollDown41(2); else scrolled=scrollUp41(2); if (scrolled) C.CL().cancelEvent(ctrlEvent);} }
+</script>
+</td></tr>
+<span></span></table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td></tr>
+<tr id='TRAREA70'>
+<td id='TDAREA70' colspan='50' width='100%' height='100%' valign='top' class='TDAroundControl' style='padding-top:3px'>
+<table cellspacing=0 cellpadding=0 class="AREATableOnTop" style='height:100%;width:100%;'>
+<tr  onclick='toggleArea70(true);' style='cursor:pointer'>
+<td class='TDAroundControl' height='1px'>
+<table cellspacing=0 cellpadding=0 class='AREATableHeader'>
+<tr class="AREATitleRow" id='$T70' title="">
+<td><div id='AREALTC_70' class="AREALeftFromTitleCellNoBorder" ></div></td>
+<td align = "left" valign="middle" nowrap='true' class="AREATitleCell" >
+<table cellspacing=0 cellpadding=0>
+<tr>
+<td></td>
+<td align = "left" valign="middle" nowrap='true' class="AREALinks">
+<a tabindex='1' ><span id='$70'>$war.rowarea.checkandcreate</span></a>
+</td>
+</tr>
+</table>
+</td>
+<td style='font-size:1px;height:100%'><div class="AREARightFromTitleCell" ></div></td>
+<td style='font-size:1px;width:100%;height:100%' valign='middle'><div class="AREARightFromTitleCellRemaining" ><table width='100%'><tr><td width='100%' style='font-size:1px'>&nbsp;</td><td><span id='RWH_SPAN_70' valign='middle' style='font-size:10px;height:100%;margin-right:6px'  class="AREAToggleImg" >&nbsp;&nbsp;&nbsp;</span></td></tr></table></div></td><td style='font-size:1px;height:100%'><div class="AREARightTopCellNoBorder" ></div></td></tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height="100%">
+<div id='AREADIV70' class="AREATableContent" style='border-left:0;border-right:0;padding:0 5px 0 5px;width:100%;height:100%;min-height:100%; ;'>
+<table border=0 cellspacing='0' cellpadding='0' width='100%' height="100%">
+<tr><td height="3px"></td></tr>
+<tr id='ITR71'  >
+<td   valign='top' colspan='50' class='TDAroundControl'  height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 ><tr>
+<td id='TD72'    colspan=1 rowspan=1 width='200px'  class="LABELCellNormal" style=" ;width:200px"  valign='middle'><div id="DIV72"  class="LABELDivText" style=" ;width:200px"><span id='$72'>$war.label.warfiletocreate</span>
+</div></td>
+<td  width='300px'   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_73" name="CC" class='FIELDInputEdit' data-testtoolid='warFileName' type="text"    style=" width:300px;"></td>
+<td id='HD74' class='TDAroundControl' style='font-size:1px' width=0><div style='font-size:1px;height:3px;width:3px'></div></td>
+<td id="TDB75"  width=0 colspan=1 rowspan=1 class='TDAroundControl' align='left' valign='middle' >
+<button type="button" id="B_75" data-testtoolid='onCheckAndCreate' style=" "  name="CC" class="BUTTONInput">$1$war.btn.createwar$2$</button>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr id='ITR76'  >
+<td   valign='top' colspan='50' class='TDAroundControl'  height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 ><tr>
+<td id='HD77' class='TDAroundControl' style='font-size:1px' width='200px'><div style='font-size:1px;height:1px;width:200px'></div></td>
+<td id='TD78'    colspan=1 rowspan=1   class="LABELCellPlainText" style=" font-size:10px"  valign='middle'><div id="DIV78"  class="LABELDivText" style=" font-size:10px"><span id='$78'>$war.label.dependenton</span>
+</div></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style=' ' ><td height="3px" class='TDAroundControl' ></td></tr>
+<tr id='ITR80'  >
+<td   valign='top' colspan='50' class='TDAroundControl' width='100%' height='100%'>
+<div id='ITRD80'  style='width: 100%; height:100%;'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;table-layout: fixed;' cellpadding=0 width='100%'><tr>
+<td id='HD81' class='TDAroundControl' style='font-size:1px' width='200px'><div style='font-size:1px;height:1px;width:200px'></div></td>
+<td id='TD82' width='100%' height='100%' valign='top' class='TDAroundControl'>
+<div id='DIV82' style='width: 100%;height: 100%;overflow: hidden'>
+<table id='TAB82'  height='100%' width="100%" cellspacing='0' cellpadding='0' align='left' >
+<tr id='ITR83'  >
+<td   valign='top' colspan='50' class='TDAroundControl' width='100%' height='100%'>
+<div id='ITRD83'  style='width: 100%; height:100%;'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;table-layout: fixed;' cellpadding=0 width='100%'><tr>
+<td class='TDAroundControl' height='100%' width='100%'>
+<div id='TGRI_84' style='width: 100%; height: 100%'>
+<table onmousewheel='reactOnMouseWheel84(event);' cellspacing=0 cellpadding=0 style='table-layout: auto' width='100%' height='100%'>
+<tr>
+<td height='100%'  >
+<div id='TGRII_84' style='width: 100%; height: 100%; overflow: hidden'>
+<table cellpadding=0 cellspacing=0 width='100%' height='100%' style='table-layout: fixed'>
+<tr>
+<td width='100%' height='100%' colspan=1 rowspan=1 class='TDAroundControl'>
+<div onscroll='reactOnScroll84();'  id='TEXTGRIDDIV84' style='width:100%;height: 100%;overflow-x: scroll;overflow-y: hidden;' class='TEXTGRIDDiv' onresize='reactOnResize84()' onkeydown='reactOnKeyDown84(event);' oncontextmenu='C.parent.CASA_event = event; onContextMenuRequest84(null);event.stopPropagation(); return false;'>
+<span id='TEXTGRID84'></span></div></td>
+<script>
+var vColInfos84;
+function reactOnFillTextIds84() { C.reactOnFillTextIdsTEXTGRID(C_84); }
+function reactOnModelUpdate84(model) { C.reactOnModelUpdateTEXTGRID(C_84); }
+function selectRow84(rowIndex, ctrlKey, shiftKey, suppressSubmit) { C.selectRowTEXTGRID(C_84, rowIndex, ctrlKey, shiftKey, suppressSubmit); }
+function reactOnClick84(rowIndex) { C.reactOnClickTEXTGRID(C_84, rowIndex); }
+function reactOnDblClick84(rowIndex) { C.reactOnDblClickTEXTGRID(C_84, rowIndex); }
+function reactOnMouseDown84(evt) { return C.reactOnMouseDownTEXTGRID(C_84,evt); }
+function reactOnMouseUp84(evt) { return C.reactOnMouseUpTEXTGRID(C_84,evt);}
+function reactOnDblClickHeader84(evt) { return C.reactOnDoubleClickHeaderTEXTGRID(C_84,evt);}
+function reactOnResize84() { C.reactOnResizeTEXTGRID(C_84,C_DIV84); }
+function onContextMenuRequest84(rowIndex) { C.onContextMenuRequestROLLOVER(C_84, rowIndex); }
+function selectAllLines84() { C.selectAllLinesTEXTGRID(C_84); }
+function reactOnResizeMoz84() { C.reactOnResizeMozTEXTGRID(C_84,C_DIV84); }
+function reactOnKeyDown84(e) {if (e.keyCode == 40 && typeof C.onkey40TEXTGRID == 'function') C.onkey40TEXTGRID(C_84, C_DIV84, e); else if (e.keyCode == 38 && typeof C.onkey38TEXTGRID == 'function') C.onkey38TEXTGRID(C_84, C_DIV84, e); else if ((e.keyCode == 32 || e.keyCode == 13)  && typeof C.onkey32TEXTGRID == 'function') C.onkey32TEXTGRID(C_84, e); else if (e.keyCode == 33 && typeof C.onkey33TEXTGRID == 'function') C.onkey33TEXTGRID(C_84, C_DIV84, e); else if (e.keyCode == 34 && typeof C.onkey34TEXTGRID == 'function') C.onkey34TEXTGRID(C_84, C_DIV84, e);}
+function reactOnScroll84() { C_DIV84.scrollTop = 0; }
+</script>
+</tr>
+</table>
+</div>
+</td>
+<td height='100%' class='TDAroundControl'>
+<div id='TGRIII_84' style='height:100%'>
+<div id="IDO_10084" class="VSCROLLBAROuterDiv" style="width:18px;height:100%;overflow-y: auto" onscroll="reactOnScroll10084();" onkeydown="reactOnKeyDown10084(event);">
+<div id='ID_10084' style='width:1px;height:10%'>
+<a name='PC'></a></div>
+</div>
+<script>
+function reactOnModelUpdate10084(model) { C.reactOnModelUpdateVSCROLLBAR(C_10084,CID_10084); }
+function reactOnScroll10084() { return C.reactOnScrollVSCROLLBAR(C_10084,CID_10084); }
+function reactOnMouseUp10084() { return C.reactOnMouseUpVSCROLLBAR(C_10084,CID_10084); }
+function scrollUp10084(delta) { return C.reactOnScrollUpVSCROLLBAR(C_10084,CID_10084,delta); }
+function scrollDown10084(delta) { return C.reactOnScrollDownVSCROLLBAR(C_10084,CID_10084,delta); }
+function scrollPageUp10084() { C.reactOnScrollPageUpVSCROLLBAR(C_10084,CID_10084); }
+function scrollPageDown10084() { C.reactOnScrollPageDownVSCROLLBAR(C_10084,CID_10084); }
+function mozDragReact10084(evt) { C.mozDragReactVSCROLLBAR(C_10084,mozDragReact10084,evt); }
+function reactOnKeyDown10084(evt) { C.reactOnKeyDownSCROLLBAR(C_10084,mozDragReact10084,evt); }
+</script>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<script>
+function reactOnMouseWheel84(ctrlEvent) { if (ctrlEvent.shiftKey) C.CL().cancelEvent(ctrlEvent); else {var scrolled; var scrollUp=true; if (ctrlEvent.detail && ctrlEvent.detail>0)scrollUp=false;else if (ctrlEvent.wheelDelta && ctrlEvent.wheelDelta<0)scrollUp=false;if (!scrollUp) scrolled=scrollDown10084(2);else scrolled=scrollUp10084(2); if(scrolled) C.CL().cancelEvent(ctrlEvent);} }
+</script>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<span></span></table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr><td height="3px"></td></tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr style=' ' ><td height="3px" class='TDAroundControl' ></td></tr>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan='50' id="STATUSBARSTATUSBAR" class='TDAroundControl' width='100%' height='0' align='center'>
+<table width="100%" cellspacing="0" cellpadding="0" class="STATUSBARTable">
+<tr>
+<td class='TDAroundControl'>&nbsp;&nbsp;</td><td class='TDAroundControl' valign="middle"><span id='STATUSBARIMAGE87'></span></td>
+<td class='TDAroundControl'><div class='STATUSBARDivAfterIcon'></div></td>
+<td  nowrap='true' width="100%" class="STATUSBARCell" valign="middle">
+<span id='STATUSBAR87'></span>
+</td></tr>
+</table>
+</td>
+</tr>
+</table>
+<script>
+var CasaPAGE = document.getElementById('THISPAGE');
+var CasaLOADING = document.getElementById('JUSTLOADING');
+var m_dropInfo = null;
+var m_dragMode = false;
+var m_dragId = null;
+var m_dragType = null;
+var m_dropMethod = null;
+var m_blockIO = true;
+var m_blockIOByFlush = false;
+var m_startInitDate;
+var m_endInitDate;
+var m_resizeListeners = [];
+var m_helpIdPAGE = '';
+var C;
+var m_roi_firstusage;
+function reactOnInit(firstusage)
+{
+if (firstusage == undefined) firstusage = true;
+m_roi_firstusage = firstusage;if (parent.m_centralLib == null) { document.location.href = '../HTMLBasedGUI/general/aboutBlank.html'; return; }
+C = csciframe;
+CL = C.CL();
+m_resizeListeners = [];
+m_flagResize = true;
+m_startInitDate = new Date();
+C.addLogMessage('page.reactOnInit started - showPage date = ' + parent.m_showPageDate.getSeconds() + '/' + parent.m_showPageDate.getMilliseconds());
+C.addLogMessage('loading page started =' + m_perfPageLoadStart.getSeconds() + '/' + m_perfPageLoadStart.getMilliseconds());
+C.initGlobals();
+m_pageCompletelyBuilt = false;
+m_fillTextIdListeners = [];
+m_dragMode = false;
+m_dragId = null;
+m_dropMethod = null;
+m_blockIO = true;
+m_blockIOByFlush = false;
+var sid = parent.getCurrentSessionId();
+var pid = parent.getCurrentProcessId();
+var mid = parent.getCurrentModelId();
+var pageInitParam = parent.pageInitParam;
+if (pageInitParam == null) pageInitParam = '';
+C.setPageName('CIS_TOOLS');
+if (firstusage) generateCCs();
+if (firstusage) C_2 = gebid('TITLEBARTITLEBARTR');
+if (firstusage) CL.iccTITLEBAR(C,C_2,N,'2',N,N,N,N,N,N,N,'endProcess',N, N,'true');
+if (firstusage) C.addMLSpan(gebid('$2'));
+if (firstusage) C.addMLImage(gebid('TITLEBAR2CLOSE'));
+if (firstusage) C.iccBUTTON(CB_4,null,rohk4,C.reactBUTTON,N,N,N,'endProcess',N,N,N,N,N,'',N,'','1',N,N,N,N,N,N,N,N,N);
+if (firstusage) C_3 = CHDR3.parentNode;
+if (firstusage) C.iccHEADER(C_3,CHDR3,document.getElementById('HDRTA3'),romu3,N);
+if (firstusage) C_12 = gebid('RADIO12');
+if (firstusage) C_12.CASA_td = gebid('RTD_12');
+C_12.CASA_cti = '1';
+if (firstusage) C.initCasaControlRADIOBUTTON(C_12,rrb12,N);
+if (firstusage) C.addFocusable(C_12,true);
+if (firstusage) C.registerListener(reactOnModelUpdate12);
+C_12.CASA_valueprop = 'clustered';
+C_12.CASA_value = 'false';
+C_12.CASA_displayonly = 'false';
+C_12.CASA_flush = 'server';
+if (firstusage) CTD_13 = document.getElementById('TD13');
+if (firstusage) C_13 = document.getElementById('$13');
+if (firstusage) C.addMLTab(C_13, rohk13);
+if (firstusage) C_15 = gebid('RADIO15');
+if (firstusage) C_15.CASA_td = gebid('RTD_15');
+C_15.CASA_cti = '1';
+if (firstusage) C.initCasaControlRADIOBUTTON(C_15,rrb15,N);
+if (firstusage) C.addFocusable(C_15,true);
+if (firstusage) C.registerListener(reactOnModelUpdate15);
+C_15.CASA_valueprop = 'clustered';
+C_15.CASA_value = 'true';
+C_15.CASA_displayonly = 'false';
+C_15.CASA_flush = 'server';
+if (firstusage) CTD_16 = document.getElementById('TD16');
+if (firstusage) C_16 = document.getElementById('$16');
+if (firstusage) C.addMLTab(C_16, rohk16);
+if (firstusage) C_17 = gebid('ICON17');
+if (firstusage) C_17.CASA_td = gebid('TDI17');
+if (firstusage) C.iccICON(C_17,N,C.reactICON,'17','images/warunclustered.gif',N,N,N,N,N,'onWarUnclustered',N,N,'1',N,N,N,N,N,N,N,N,N,N,N);
+if (firstusage) CTD_18 = document.getElementById('TD18');
+if (firstusage) C_18 = document.getElementById('$18');
+if (firstusage) C.addMLTab(C_18, rohk18);
+if (firstusage) C_19 = document.getElementById('HELPICON19');
+C.initCasaControl(C_19);
+C_19.CASA_id = '19';
+C_19.CASA_image = '../HTMLBasedGUI/images/helpiconsmall.gif';
+C_19.CASA_helpid = 'deployment';
+C_19.CASA_memreferencevalue = 'inittini';
+C_19.CASA_memvisiblevalue = 'inittini';
+if (firstusage) C_21 = gebid('ICON21');
+if (firstusage) C_21.CASA_td = gebid('TDI21');
+if (firstusage) C.iccICON(C_21,N,C.reactICON,'21','images/warclustered.gif',N,N,N,N,N,'onWarClustered',N,N,'1',N,N,N,N,N,N,N,N,N,N,N);
+if (firstusage) CTD_22 = document.getElementById('TD22');
+if (firstusage) C_22 = document.getElementById('$22');
+if (firstusage) C.addMLTab(C_22, rohk22);
+if (firstusage) C_23 = document.getElementById('HELPICON23');
+C.initCasaControl(C_23);
+C_23.CASA_id = '23';
+C_23.CASA_image = '../HTMLBasedGUI/images/helpiconsmall.gif';
+C_23.CASA_helpid = 'deployment';
+C_23.CASA_memreferencevalue = 'inittini';
+C_23.CASA_memvisiblevalue = 'inittini';
+if (firstusage) CTD_26 = document.getElementById('TD26');
+if (firstusage) C_26 = document.getElementById('$26');
+if (firstusage) C.addMLTab(C_26, rohk26);
+if (firstusage) CF_27.CASA_fic = gebid("FIC_27");
+if (firstusage) C.iccFIELD(CF_27,romu27,C.reactFIELD,'rootLocation',N,'fileStatus',N,N,N,'openIdValueCombo',N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'5',N,N,N,N,N,N,false,N,N,true,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) CTD_29 = document.getElementById('TD29');
+if (firstusage) C_29 = document.getElementById('$29');
+if (firstusage) C.addMLTab(C_29, rohk29);
+if (firstusage) CF_30.CASA_fic = gebid("FIC_30");
+if (firstusage) C.iccFIELD(CF_30,romu30,C.reactFIELD,'logFileLocation',N,'fileStatus',N,N,N,'openIdValueCombo',N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'5',N,N,N,N,N,N,false,N,N,true,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) CTD_32 = document.getElementById('TD32');
+if (firstusage) C_32 = document.getElementById('$32');
+if (firstusage) C.addMLTab(C_32, rohk32);
+if (firstusage) C.iccCHECKBOX(CCB_33,N,romu33,C.reactCHECKBOX,'designTimeSwitchedOff','false','fileStatus',N,N,N,'1',N,N,N,N);
+if (firstusage) CCB_33.CASA_td = gebid('CBTD_33');
+if (firstusage) CTD_39 = document.getElementById('TD39');
+if (firstusage) C_39 = document.getElementById('$39');
+if (firstusage) C.addMLTab(C_39, rohk39);
+if (firstusage) C.iccCHECKBOX(CCB_44,N,romu44,C.reactCHECKBOX,'projects.items[0].selected','false','projects.items[0].selectedStatus','screen',N,N,'1',N,N,N,N);
+if (firstusage) CCB_44.CASA_td = gebid('CBTD_44');
+if (firstusage) C_45 = gebid('S_45');
+if (firstusage) C.iccTEXTOUT(C_45,N,'projects.items[0].name','null','null',N,N,N,N,N,N);
+C.registerListener(romu45);
+if (firstusage) C_43 = document.getElementById('STR43');
+C.iccSTR(C_43,'projects.items[0].selected','STRRowUnselected',N,N,N,N,N,N,N,N,N,'true');
+if (firstusage) C.registerListener(reactOnModelUpdate43);
+try { C.startFocusLine(); } catch(e) {}
+if (firstusage) C.iccCHECKBOX(CCB_47,N,romu47,C.reactCHECKBOX,'projects.items[1].selected','false','projects.items[1].selectedStatus','screen',N,N,'1',N,N,N,N);
+if (firstusage) CCB_47.CASA_td = gebid('CBTD_47');
+if (firstusage) C_48 = gebid('S_48');
+if (firstusage) C.iccTEXTOUT(C_48,N,'projects.items[1].name','null','null',N,N,N,N,N,N);
+C.registerListener(romu48);
+if (firstusage) C_46 = document.getElementById('STR46');
+C.iccSTR(C_46,'projects.items[1].selected','STRRowUnselected',N,N,N,N,N,N,N,N,N,'true');
+if (firstusage) C.registerListener(reactOnModelUpdate46);
+try { C.startFocusLine(); } catch(e) {}
+if (firstusage) C.iccCHECKBOX(CCB_50,N,romu50,C.reactCHECKBOX,'projects.items[2].selected','false','projects.items[2].selectedStatus','screen',N,N,'1',N,N,N,N);
+if (firstusage) CCB_50.CASA_td = gebid('CBTD_50');
+if (firstusage) C_51 = gebid('S_51');
+if (firstusage) C.iccTEXTOUT(C_51,N,'projects.items[2].name','null','null',N,N,N,N,N,N);
+C.registerListener(romu51);
+if (firstusage) C_49 = document.getElementById('STR49');
+C.iccSTR(C_49,'projects.items[2].selected','STRRowUnselected',N,N,N,N,N,N,N,N,N,'true');
+if (firstusage) C.registerListener(reactOnModelUpdate49);
+try { C.startFocusLine(); } catch(e) {}
+if (firstusage) C.iccCHECKBOX(CCB_53,N,romu53,C.reactCHECKBOX,'projects.items[3].selected','false','projects.items[3].selectedStatus','screen',N,N,'1',N,N,N,N);
+if (firstusage) CCB_53.CASA_td = gebid('CBTD_53');
+if (firstusage) C_54 = gebid('S_54');
+if (firstusage) C.iccTEXTOUT(C_54,N,'projects.items[3].name','null','null',N,N,N,N,N,N);
+C.registerListener(romu54);
+if (firstusage) C_52 = document.getElementById('STR52');
+C.iccSTR(C_52,'projects.items[3].selected','STRRowUnselected',N,N,N,N,N,N,N,N,N,'true');
+if (firstusage) C.registerListener(reactOnModelUpdate52);
+try { C.startFocusLine(); } catch(e) {}
+if (firstusage) C.iccCHECKBOX(CCB_56,N,romu56,C.reactCHECKBOX,'projects.items[4].selected','false','projects.items[4].selectedStatus','screen',N,N,'1',N,N,N,N);
+if (firstusage) CCB_56.CASA_td = gebid('CBTD_56');
+if (firstusage) C_57 = gebid('S_57');
+if (firstusage) C.iccTEXTOUT(C_57,N,'projects.items[4].name','null','null',N,N,N,N,N,N);
+C.registerListener(romu57);
+if (firstusage) C_55 = document.getElementById('STR55');
+C.iccSTR(C_55,'projects.items[4].selected','STRRowUnselected',N,N,N,N,N,N,N,N,N,'true');
+if (firstusage) C.registerListener(reactOnModelUpdate55);
+try { C.startFocusLine(); } catch(e) {}
+if (firstusage) C.iccCHECKBOX(CCB_59,N,romu59,C.reactCHECKBOX,'projects.items[5].selected','false','projects.items[5].selectedStatus','screen',N,N,'1',N,N,N,N);
+if (firstusage) CCB_59.CASA_td = gebid('CBTD_59');
+if (firstusage) C_60 = gebid('S_60');
+if (firstusage) C.iccTEXTOUT(C_60,N,'projects.items[5].name','null','null',N,N,N,N,N,N);
+C.registerListener(romu60);
+if (firstusage) C_58 = document.getElementById('STR58');
+C.iccSTR(C_58,'projects.items[5].selected','STRRowUnselected',N,N,N,N,N,N,N,N,N,'true');
+if (firstusage) C.registerListener(reactOnModelUpdate58);
+try { C.startFocusLine(); } catch(e) {}
+if (firstusage) C.iccCHECKBOX(CCB_62,N,romu62,C.reactCHECKBOX,'projects.items[6].selected','false','projects.items[6].selectedStatus','screen',N,N,'1',N,N,N,N);
+if (firstusage) CCB_62.CASA_td = gebid('CBTD_62');
+if (firstusage) C_63 = gebid('S_63');
+if (firstusage) C.iccTEXTOUT(C_63,N,'projects.items[6].name','null','null',N,N,N,N,N,N);
+C.registerListener(romu63);
+if (firstusage) C_61 = document.getElementById('STR61');
+C.iccSTR(C_61,'projects.items[6].selected','STRRowUnselected',N,N,N,N,N,N,N,N,N,'true');
+if (firstusage) C.registerListener(reactOnModelUpdate61);
+try { C.startFocusLine(); } catch(e) {}
+if (firstusage) C.iccCHECKBOX(CCB_65,N,romu65,C.reactCHECKBOX,'projects.items[7].selected','false','projects.items[7].selectedStatus','screen',N,N,'1',N,N,N,N);
+if (firstusage) CCB_65.CASA_td = gebid('CBTD_65');
+if (firstusage) C_66 = gebid('S_66');
+if (firstusage) C.iccTEXTOUT(C_66,N,'projects.items[7].name','null','null',N,N,N,N,N,N);
+C.registerListener(romu66);
+if (firstusage) C_64 = document.getElementById('STR64');
+C.iccSTR(C_64,'projects.items[7].selected','STRRowUnselected',N,N,N,N,N,N,N,N,N,'true');
+if (firstusage) C.registerListener(reactOnModelUpdate64);
+try { C.startFocusLine(); } catch(e) {}
+if (firstusage) C.iccCHECKBOX(CCB_68,N,romu68,C.reactCHECKBOX,'projects.items[8].selected','false','projects.items[8].selectedStatus','screen',N,N,'1',N,N,N,N);
+if (firstusage) CCB_68.CASA_td = gebid('CBTD_68');
+if (firstusage) C_69 = gebid('S_69');
+if (firstusage) C.iccTEXTOUT(C_69,N,'projects.items[8].name','null','null',N,N,N,N,N,N);
+C.registerListener(romu69);
+if (firstusage) C_67 = document.getElementById('STR67');
+C.iccSTR(C_67,'projects.items[8].selected','STRRowUnselected',N,N,N,N,N,N,N,N,N,'true');
+if (firstusage) C.registerListener(reactOnModelUpdate67);
+try { C.startFocusLine(); } catch(e) {}
+C.iccTA(CDIV_41,react41,reactOnModelUpdateTA41,'9','9','41',N,N,N,N,N,N,N,'false',false,N,firstusage);
+m_firstRun41 = false;
+C_41 = CID_41.parentNode;
+if (C_41 == null) C_41 = gebid('IDO_41');
+C.iccVSCROLLBAR(C_41,CID_41,reactOnModelUpdate41,'41','projects.topIndex','projects.size','projects.rowCount',9,'scroll','projects.param1');
+if (firstusage ) { if (CTAB_41.addEventListener) CTAB_41.addEventListener('DOMMouseScroll', reactOnMouseWheel41, false);}
+CDIV_41.CASA_griddataprop = 'projects';
+CDIV_41.CASA_topindexprop = 'projects.topIndex';
+CDIV_41.CASA_clipboardaccess = false;
+C_41.CASA_testtoolid = 'projects';
+C.registerListener(reactOnModelUpdate6);
+if (firstusage) C_6 = gebid('TA_6');
+C_6.CASA_stylevariant = '';
+if (firstusage) C_6.CASA_page1 = document.getElementById("SCENARIO");
+if (firstusage) C_6.CASA_TPTD1 = document.getElementById("TPTD16");
+if (firstusage) C_6.CASA_page2 = document.getElementById("PROJECT");
+if (firstusage) C_6.CASA_TPTD2 = document.getElementById("TPTD26");
+if (firstusage) C.iccTABAREA(C_6,react6);
+if (firstusage) C.addMLTab(document.getElementById('$6_1'), rohk6, 0);
+if (firstusage) C.addMLTab(document.getElementById('$6_2'), rohk6, 1);
+if (firstusage) CTD_72 = document.getElementById('TD72');
+if (firstusage) C_72 = document.getElementById('$72');
+if (firstusage) C.addMLTab(C_72, rohk72);
+if (firstusage) C.iccFIELD(CF_73,romu73,C.reactFIELD,'warFileName',N,N,N,N,N,N,N,N,'false',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccBUTTON(CB_75,null,rohk75,C.reactBUTTON,N,N,N,'onCheckAndCreate',N,N,N,N,N,'',N,'','1',N,N,N,N,N,N,N,N,N);
+if (firstusage) CTD_78 = document.getElementById('TD78');
+if (firstusage) C_78 = document.getElementById('$78');
+if (firstusage) C.addMLTab(C_78, rohk78);
+if (firstusage) C_84 = document.getElementById('TEXTGRID84');
+if (firstusage) C_DIV84 = document.getElementById('TEXTGRIDDIV84');
+if (firstusage) C.initCasaControlTEXTGRID(C_84,C_DIV84,reactOnMouseUp84);
+C.addMozDiv(C_DIV84);
+if (firstusage) C.registerListener(reactOnModelUpdate84);
+C_84.CASA_arrayprop = 'protocolLines.items';
+C_84.CASA_displayitemsprop = 'protocolLines.dspIts';
+C_84.CASA_id = '84';
+C_84.CASA_height = '100%';
+C_84.CASA_topindexprop = 'protocolLines.topIndex';
+C_84.CASA_param1prop = 'protocolLines.param1';
+C_84.CASA_lastselectprop = 'protocolLines.lastSelectedIndex';
+C_84.CASA_singleselect = false;
+C_84.CASA_dblclickonreturn = false;
+C_84.CASA_backgroundstyle = '';
+C_84.CASA_rowcount = 20;
+C_84.CASA_rowcountprop = 'protocolLines.rowCount';
+C_84.CASA_changeindexprop = 'protocolLines.changeIndex';
+C_84.CASA_personalizable = 'true';
+C_84.CASA_withselectioncolumn = true;
+C_84.CASA_selectalllinesprop = 'protocolLines.selectAllLines';
+C_84.CASA_columnsequenceprop = 'protocolLines.columnSequenceAsCSVString';
+C_84.CASA_sortsequenceprop = 'protocolLines.sortInfo.propertyIndexSortItemsAsCSVString';
+C_84.CASA_groupcolumnsequenceprop = 'protocolLines.groupColumnSequenceAsCSVString';
+C_84.CASA_stylevariant = '';
+C_84.CASA_sortprop = 'protocolLines.sortInfo';
+C_84.CASA_singleselectcontextmenu = true;
+C_84.CASA_tabindex = null;
+C_84.CASA_cti = 1;
+C.applyCasaTabIndexFor(C_84, C_DIV84, 'TEXTGRIDSSS2');
+C_84.CASA_colinfos = [];
+var vo;
+vo = new Object();
+vo.columntype = '0';
+vo.textid = 'war.txtgridsss.clm.protocol';
+vo.property = 'text';
+vo.width = '100%';
+vo.decimaldigits = -1;
+vo.cuttextline = true;
+vo.groupby = false;
+vo.sortorder = '-1';
+vo.sortascending = 'true';
+C_84.CASA_colinfos[0] = vo;
+addResizeListener(reactOnResizeMoz84);
+registerFillTextIdListener(reactOnFillTextIds84);
+C_84.CASA_testtoolid = 'protocolLines.items';
+C.addMozDiv(document.getElementById('TGRIII_84'));C.addMozDiv(document.getElementById('TGRII_84'));C.addMozDiv(document.getElementById('TGRI_84'));C_84.CASA_collectionselectprop = 'protocolLines.selectIndex';
+C_84.CASA_collectionshiftselectprop = 'protocolLines.shiftSelectIndex';
+C_84.CASA_collectionctrlselectprop = 'protocolLines.ctrlSelectIndex';
+C_10084 = CID_10084.parentNode;
+if (C_10084 == null) C_10084 = gebid('IDO_10084');
+C.iccVSCROLLBAR(C_10084,CID_10084,reactOnModelUpdate10084,'10084','protocolLines.topIndex','protocolLines.dspSize','protocolLines.rowCount',20,'scroll','protocolLines.param1');
+C_84.CASA_vscrollbar = document.getElementById('IDO_10084');
+if (firstusage) { C_DIV84.addEventListener('DOMMouseScroll', reactOnMouseWheel84, false);
+C_DIV84.addEventListener('mousewheel', reactOnMouseWheel84, false);}
+C_84.CASA_griddataprop = 'protocolLines';
+if (firstusage) CD_83 = document.getElementById('ITRD83');
+C.addMozDiv(CD_83);
+if (firstusage) CD_80 = document.getElementById('ITRD80');
+C.addMozDiv(CD_80);
+if (firstusage) C_70 = document.getElementById('AREADIV70');
+if (firstusage) CSPAN_70 = gebid('RWH_SPAN_70');
+C_70.CASA_stylevariant = '';
+if (firstusage) C.iccAREA(C_70, 70,N,'false',N,N,'100%',CSPAN_70,N,N,N,N,'false');
+if (firstusage) C.addMLSpan(gebid('$70'));
+C.addAreaTabIndexInfo(70,'war.rowarea.checkandcreate',1,null);
+if (firstusage) C_5 = document.getElementById('PAGEDIV5');
+if (firstusage) THISPAGEBODY = document.getElementById('PAGEDIV5');
+C.initCasaControlPAGEBODY(C_5);
+addResizeListener(reactOnResize5);
+if (firstusage) C.iccINTPOPUP();
+if (firstusage) CS_87 = document.getElementById('STATUSBARSTATUSBAR');if (firstusage) C_87 = document.getElementById('STATUSBAR87');if (firstusage) CL.iccSTATUSBAR(C_87,C);
+if (firstusage) C_IMAGE87 = document.getElementById('STATUSBARIMAGE87');if (firstusage) C.addFooterObject(CS_87);
+if (firstusage) C.registerListener(reactOnModelUpdate87);
+C_87.CASA_typeprop = 'messageType'
+C_87.CASA_shorttextprop = 'messageShortText'
+C_87.CASA_longtextprop = 'messageLongText'
+C.setPropertyValue('pageInitParam',pageInitParam);
+C.registerListenerAsFirst(reactOnModelUpdatePAGE);
+C.initWithModelIdAndSessionIdAndProcessId("com.softwareag.cis.editor.WarriorAdapter",mid,sid,pid);
+m_endInitDate = new Date();
+m_roi_firstusage = undefined;
+}
+function startDrag(dragHTML,eve) { return C.startDragPAGE(dragHTML,eve); }function moveDrag(eve) { return C.moveDragPAGE(eve); }
+function removeTHISOCCUPIED() { return C.removeTHISOCCUPIED(); }
+function endDrag(eve) { return C.endDragPAGE(eve); }
+function processHotKeys(evt) { C.processHotKeys(evt); }
+function reactOnModelUpdatePAGE(model) { C.reactOnModelUpdatePAGE(); }
+function generateCCs()
+{
+var vCCs = document.getElementsByName('CC');
+for (var i=0; i<vCCs.length; i++)
+{
+var vCC = vCCs[i];
+if (vCC.id != null && vCC.id != '') window['C'+vCC.id] = vCC;
+}
+vCCs = document.getElementsByName('PC');
+for (var i=0; i<vCCs.length; i++)
+{
+var vCC = vCCs[i].parentNode;
+if (vCC.id != null && vCC.id != '') window['C'+vCC.id] = vCC;
+}
+}
+function reactOnResize() { if (m_flagResize == false) return; C.handleReactOnResize();}
+function addResizeListener(resizeListener) { m_resizeListeners[m_resizeListeners.length] = resizeListener; }
+function fillTextIdSpans() { C.replaceTextIds(); for (i=0; i<m_fillTextIdListeners.length; i++) m_fillTextIdListeners[i](); }
+function invokeMethodInModel(methodName) { C.invokeMethodInModel(methodName); }
+function getPropertyValue(propertyName) { return C.getPropertyValue(propertyName); }
+function setPropertyValue(propertyName,propertyValue) { C.setPropertyValue(propertyName,propertyValue); }
+function closePage2() { CL.closePageTITLEBAR(C_2); }
+function romu3(model) { C.reactOnModelUpdateHEADER(C_3); }
+function rohk4(param) { C.transferModelBUTTON(CB_4); }
+function romuINTPAGEPOPUP() { C.romuINTPOPUP(); }
+function reactOnResize5() { C.reactOnResizePAGEBODY(C_5); }
+function reactOnModelUpdate6() { C.romuTABAREA(C_6);}
+function rohk6(index) { C.showPageTABAREA(C_6,index);}
+function react6(evt) { C.reactTABAREA(C_6,evt); }
+function reactOnModelUpdate12(model) { C.reactOnModelUpdateRADIOBUTTON(C_12); }
+function rrb12(evt) { return C.reactRADIOBUTTON(C_12,evt);}
+function rohk13(param) { C.rohkLABEL(CTD_13, param); }
+function reactOnModelUpdate15(model) { C.reactOnModelUpdateRADIOBUTTON(C_15); }
+function rrb15(evt) { return C.reactRADIOBUTTON(C_15,evt);}
+function rohk16(param) { C.rohkLABEL(CTD_16, param); }
+function rohk18(param) { C.rohkLABEL(CTD_18, param); }
+function transferModel19() { C.transferModelHELPICON(C_19); }
+function rohk22(param) { C.rohkLABEL(CTD_22, param); }
+function transferModel23() { C.transferModelHELPICON(C_23); }
+function rohk26(param) { C.rohkLABEL(CTD_26, param); }
+function romu27(model) { C.romuFIELD(CF_27); }
+function rohk29(param) { C.rohkLABEL(CTD_29, param); }
+function romu30(model) { C.romuFIELD(CF_30); }
+function rohk32(param) { C.rohkLABEL(CTD_32, param); }
+function romu33(model) { C.romuCHECKBOX(CCB_33); }
+function rohk39(param) { C.rohkLABEL(CTD_39, param); }
+function reactOnModelUpdate43() { C.romuSTR(C_43); }
+function romu44(model) { C.romuCHECKBOX(CCB_44); }
+function romu45(model) { C.romuTEXTOUT(C_45); }
+function reactOnModelUpdate46() { C.romuSTR(C_46); }
+function romu47(model) { C.romuCHECKBOX(CCB_47); }
+function romu48(model) { C.romuTEXTOUT(C_48); }
+function reactOnModelUpdate49() { C.romuSTR(C_49); }
+function romu50(model) { C.romuCHECKBOX(CCB_50); }
+function romu51(model) { C.romuTEXTOUT(C_51); }
+function reactOnModelUpdate52() { C.romuSTR(C_52); }
+function romu53(model) { C.romuCHECKBOX(CCB_53); }
+function romu54(model) { C.romuTEXTOUT(C_54); }
+function reactOnModelUpdate55() { C.romuSTR(C_55); }
+function romu56(model) { C.romuCHECKBOX(CCB_56); }
+function romu57(model) { C.romuTEXTOUT(C_57); }
+function reactOnModelUpdate58() { C.romuSTR(C_58); }
+function romu59(model) { C.romuCHECKBOX(CCB_59); }
+function romu60(model) { C.romuTEXTOUT(C_60); }
+function reactOnModelUpdate61() { C.romuSTR(C_61); }
+function romu62(model) { C.romuCHECKBOX(CCB_62); }
+function romu63(model) { C.romuTEXTOUT(C_63); }
+function reactOnModelUpdate64() { C.romuSTR(C_64); }
+function romu65(model) { C.romuCHECKBOX(CCB_65); }
+function romu66(model) { C.romuTEXTOUT(C_66); }
+function reactOnModelUpdate67() { C.romuSTR(C_67); }
+function romu68(model) { C.romuCHECKBOX(CCB_68); }
+function romu69(model) { C.romuTEXTOUT(C_69); }
+function toggleArea70(passToModel) { C.toggleAreaAREA(C_70,passToModel,null,CSPAN_70); }
+function rohk72(param) { C.rohkLABEL(CTD_72, param); }
+function romu73(model) { C.romuFIELD(CF_73); }
+function rohk75(param) { C.transferModelBUTTON(CB_75); }
+function rohk78(param) { C.rohkLABEL(CTD_78, param); }
+function reactOnModelUpdate87(model) { CL.romuSTATUSBAR(C_87,C_IMAGE87); }
+function resetBeforeUpdate87(model) { CL.resetSTATUSBAR(C_87,C_IMAGE87); }
+</script>
+<iframe hidden id="csciframe" name="csciframe" tabIndex="-1" src="com.softwareag.cis.editor.warrior_JLIBS.html" style="width:0;height:0;left:0;top:0">
+</iframe>
+</body>
+</html>

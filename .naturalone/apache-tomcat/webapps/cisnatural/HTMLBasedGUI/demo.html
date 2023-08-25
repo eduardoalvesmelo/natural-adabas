@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<script>
+function onInitFramesBelow()
+{
+try { document.getElementById('AAA').src = '../HTMLBasedGUI/workplace/header2.html'; } catch (eexxcc) {}
+try { document.getElementById('BBB').src = '/HTMLBasedGUI/workplace/grayblank.html'; } catch (eexxcc) {}
+var vMFCF5 = document.getElementById('TOPWORKPLACE');
+var vIP5 = '';
+if (parent.pageInitParamSL != null) vIP5 = '&' + parent.pageInitParamSL;
+frames['TOPWORKPLACE'].location.replace ('../servlet/StartCISPage?PAGEURL=/HTMLBasedGUI/com.softwareag.cis.workplace.MFInner.html&SESSIONID='+parent.getCurrentSessionId()+'&SUBSESSIONID='+parent.getCurrentProcessId()+'&ONUNLOADBEHAVIOUR=NOTHING&CENTRALLIB=PP' + vIP5);
+addCasabacFrame(frames['TOPWORKPLACE']);
+try { document.getElementById('BBB').src = '../HTMLBasedGUI/workplace/grayblank.html'; } catch (eexxcc) {}
+try { document.getElementById('EEE').src = '../HTMLBasedGUI/workplace/grayblank.html'; } catch (eexxcc) {}
+try { document.getElementById('FFFF').src = '../HTMLBasedGUI/workplace/footer2.html'; } catch (eexxcc) {}
+}
+</script>
+<script>
+var m_isCasabacMFPAGE = true;
+var m_casabacFrames = [];
+function onInitFrames() { onInitFramesBelow(); }
+function addCasabacFrame(pFrame) { m_casabacFrames.push(pFrame); }
+function getCasabacFrames() { return m_casabacFrames; }
+parent.bringToFrontSCP(location.href);</script>
+<html>
+<head>
+<title>Multi Frame Page</title>
+</head>
+<frameset border='0' frameborder='0' framespacing='0'  rows='40,*,10,15' style='' onload='onInitFrames();'>
+<frame marginheight='0' marginwidth='0'  style='' scrolling='no'  frameborder='0' id='AAA' name='AAA' src='../HTMLBasedGUI/general/aboutBlank.html'>
+<frameset id='CCC' name='CCC' border='0'  cols='10,*,3' style=''>
+<frame marginheight='0' marginwidth='0'  style='' scrolling='yes'  frameborder='0' id='BBB' name='BBB' src='../HTMLBasedGUI/general/aboutBlank.html'>
+<frame marginheight='0' marginwidth='0'  style=''  frameborder='0' id='TOPWORKPLACE' name='TOPWORKPLACE' scrolling='no' src='../HTMLBasedGUI/general/aboutBlank.html'>
+<frame marginheight='0' marginwidth='0'  style='' scrolling='yes'  frameborder='0' id='BBB' name='BBB' src='../HTMLBasedGUI/general/aboutBlank.html'>
+</frameset>
+<frame marginheight='0' marginwidth='0'  style='' scrolling='no'  frameborder='0' id='EEE' name='EEE' src='../HTMLBasedGUI/general/aboutBlank.html'>
+<frame marginheight='0' marginwidth='0'  style='' scrolling='no'  frameborder='0' id='FFFF' name='FFFF' src='../HTMLBasedGUI/general/aboutBlank.html'>
+</frameset>
+</html>

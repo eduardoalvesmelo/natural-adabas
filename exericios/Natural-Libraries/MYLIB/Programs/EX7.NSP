@@ -1,0 +1,32 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/**  Escreva um programa que receba a velocidade
+/**  máxima em uma avenida e a velocidade com que um motorista estava dirigindo nela.
+/**  Calcule a multa que o motorista vai receber, considerando que são pagos R$ 5,00 por cada
+/**  km/h que estiver acima da velocidade permitida (considere apenas números inteiros). Se a
+/**  velocidade do motorista estiver dentro do limite, o programa deve informar que não há
+/**  multa. 
+/**
+/** :author eduar
+/* TODO Enter your code here
+DEFINE DATA LOCAL
+1 #vel-max        (N3)
+1 #vel-max-mot  (N3)
+1 #vlr-pago        (N3.2)
+END-DEFINE
+*
+    input 'informe a velocidade máxima da pista: ' #vel-max    
+    input 'informe a velocidade que o motorista está dirigindo: ' #vel-max-mot
+*
+if #vel-max-mot > #vel-max
+    #vlr-pago := (#vel-max-mot - #vel-max) * 5
+    write 'Velocidade máxima da pista: ' #vel-max
+    write 'Velocidade em que o motorista foi pego dirigindo: ' #vel-max-mot
+    write 'Multa a pagar: ' #vlr-pago    
+else
+    write 'Não há multas a serem pagas'
+end-if    
+*
+END

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.TraceRecordAdapter" translationreference="CIS_TOOLS" casaindex="1" >
+
+
+        <titlebar textid="tr.recordperformance" closetitletextid="closePage" casaindex="2" >
+
+
+        </titlebar>
+
+
+        <header withdistance="false" casaindex="3" >
+
+
+                <button textid="btn.exit" method="endProcess" casaindex="4" >
+
+
+                </button>
+
+
+        </header>
+
+
+        <pagebody horizdist="false" takefullheight="true" casaindex="5" >
+
+
+                <rowarea textid="tr.rowarea.record" height="100%" withleftborder="false" withrightborder="false" casaindex="6" >
+
+
+                        <itr casaindex="7" >
+
+
+                                <label textid="tr.label.inthecisconf" width="100%" asplaintext="true" casaindex="8" >
+
+
+                                </label>
+
+
+                        </itr>
+
+
+                        <vdist height="10" casaindex="9" >
+
+
+                        </vdist>
+
+
+                        <itr width="100%" casaindex="10" >
+
+
+                                <label textid="tr.label.tracedir" width="200" casaindex="11" >
+
+
+                                </label>
+
+
+                <field xsdType="xs:string" validation="[0-9A-Za-z \/:]+" valueprop="traceDirectory" width="100%" displayonly="true" validationuserhint="valid file names, e.g. c:/temp/trace/ or /temp/trace/" casaindex="12" >
+
+                </field>
+
+                        </itr>
+
+
+                        <itr width="100%" casaindex="13" >
+
+
+                                <label textid="tr.label.tracename" width="200" casaindex="14" >
+
+
+                                </label>
+
+
+                <field xsdType="xs:string" validation="[0-9A-Za-z _]+" valueprop="traceName" width="100%" validationuserhint="Alphanumeric name, without &quot;strance&quot; characters." casaindex="15" >
+
+                </field>
+
+                        </itr>
+
+
+                        <vdist height="5" casaindex="16" >
+
+
+                        </vdist>
+
+
+                        <itr casaindex="17" >
+
+
+                                <hdist width="200" casaindex="18" >
+
+
+                                </hdist>
+
+
+                                <button textid="tr.btn.startrecord" method="onStartRecording" visibleprop="startRecordingVisible" casaindex="19" >
+
+
+                                </button>
+
+
+                                <button textid="tr.btn.stoprecord" method="onStopRecording" visibleprop="stopRecordingVisible" casaindex="20" >
+
+
+                                </button>
+
+
+                        </itr>
+
+
+                        <vdist height="20" casaindex="21" >
+
+
+                        </vdist>
+
+
+                        <rowdynavis valueprop="stopRecordingVisible" casaindex="22" >
+
+
+                                <itr width="100%" casaindex="23" >
+
+
+                                        <label textid="tr.label.nextrequ" width="200" casaindex="24" >
+
+
+                                        </label>
+
+
+                    <field xsdType="xs:string" valueprop="comment" width="100%" casaindex="25" >
+
+                    </field>
+
+                                        <hdist width="10" casaindex="26" >
+
+
+                                        </hdist>
+
+
+                                        <button textid="btn.set" method="onSetComment" width="80" casaindex="27" >
+
+
+                                        </button>
+
+
+                                </itr>
+
+
+                                <itr width="100%" casaindex="28" >
+
+
+                                        <hdist width="200" casaindex="29" >
+
+
+                                        </hdist>
+
+
+                                        <textout valueprop="comment" width="100%" casaindex="30" >
+
+
+                                        </textout>
+
+
+                                </itr>
+
+
+                                <vdist height="10" casaindex="31" >
+
+
+                                </vdist>
+
+
+                        </rowdynavis>
+
+
+                        <itr height="100%" fixlayout="true" width="100%" casaindex="32" >
+
+
+                                <textgrid2 griddataprop="recordedFiles" width="100%" height="100%" selectprop="selected" casaindex="33" >
+
+
+                                        <column textid="tr.txtgrid2.clm.file" property="name" width="100%" casaindex="34" >
+
+
+                                        </column>
+
+
+                                </textgrid2>
+
+
+                        </itr>
+
+
+                        <vdist casaindex="35" >
+
+
+                        </vdist>
+
+
+                        <itr width="100%" casaindex="36" >
+
+
+                                <hdist width="100%" casaindex="37" >
+
+
+                                </hdist>
+
+
+                                <button textid="btn.removeselfile" method="onRemoveSelectedFiles" image="../HTMLBasedGUI/images/remove.gif" width="210" casaindex="38" >
+
+
+                                </button>
+
+
+                        </itr>
+
+
+                </rowarea>
+
+
+                <vdist casaindex="39" >
+
+
+                </vdist>
+
+
+        </pagebody>
+
+
+        <statusbar withdistance="false" casaindex="40" >
+
+
+        </statusbar>
+
+
+        <timer intervalprop="refreshInterval" method="onRefresh" casaindex="41" >
+
+
+        </timer>
+
+
+</page>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<script>
+function onInitFramesBelow()
+{
+try { document.getElementById('CURRENTACTIVITIES').src = 'workplace/loading.html'; } catch (eexxcc) {}
+var vMFCF4 = document.getElementById('AVAILABLEACTIVITIES');
+var vIP4 = '';
+if (parent.pageInitParamSL != null) vIP4 = '&' + parent.pageInitParamSL;
+frames['AVAILABLEACTIVITIES'].location.replace ('../servlet/StartCISPage?PAGEURL=/HTMLBasedGUI/com.softwareag.cis.workplace.MFWorkplacePlusMinus.html&bootstrapClassName=com.softwareag.cis.editor.EditorWorkplace&activeFunctionsURL=/HTMLBasedGUI/com.softwareag.cis.workplace.MFActivities.html&SESSIONID='+parent.getCurrentSessionId()+'&SUBSESSIONID='+parent.getCurrentProcessId()+'&ONUNLOADBEHAVIOUR=REMOVESESSION&CENTRALLIB=PP' + vIP4);
+addCasabacFrame(frames['AVAILABLEACTIVITIES']);
+try { document.getElementById('CONTENT').src = 'workplace/loading.html'; } catch (eexxcc) {}
+}
+</script>
+<script>
+var m_isCasabacMFPAGE = true;
+var m_casabacFrames = [];
+function onInitFrames() { onInitFramesBelow(); }
+function addCasabacFrame(pFrame) { m_casabacFrames.push(pFrame); }
+function getCasabacFrames() { return m_casabacFrames; }
+parent.bringToFrontSCP(location.href);</script>
+<html>
+<head>
+<title>Multi Frame Page</title>
+</head>
+<frameset  rows='20,*' style='' onload='onInitFrames();'>
+<frame marginheight='0' marginwidth='0'  style='border: 0px solid #000000' scrolling='no' noresize frameborder='0' id='CURRENTACTIVITIES' name='CURRENTACTIVITIES' src='../HTMLBasedGUI/general/aboutBlank.html'>
+<frameset id='null' name='null'  cols='265,*' style='border: 0px solid #000000'>
+<frame marginheight='0' marginwidth='0'  style='border: 1 solid #808080;'  frameborder='0' id='AVAILABLEACTIVITIES' name='AVAILABLEACTIVITIES' scrolling='no' src='../HTMLBasedGUI/general/aboutBlank.html'>
+<frame marginheight='0' marginwidth='0'  style='border: 1 solid #808080;' scrolling='no'  frameborder='0' id='CONTENT' name='CONTENT' src='../HTMLBasedGUI/general/aboutBlank.html'>
+</frameset>
+</frameset>
+</html>

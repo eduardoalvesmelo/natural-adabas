@@ -1,0 +1,1416 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.EditorModel6" translationreference="editor" popupwidth="1024" popupheight="768" imagestopreload="../HTMLBasedGUI/images/xmlclosed.gif;../HTMLBasedGUI/images/xmlopened.gif;../HTMLBasedGUI/images/xmlendnode.gif;../HTMLBasedGUI/images/fileclosed.gif;../HTMLBasedGUI/images/cut.gif;../HTMLBasedGUI/images/copy.gif;../HTMLBasedGUI/images/copyTop.gif;../HTMLBasedGUI/images/copyBottom.gif;../HTMLBasedGUI/images/moveTop.gif;../HTMLBasedGUI/images/moveBottom.gif;../HTMLBasedGUI/images/remove.gif;../HTMLBasedGUI/images/newTopSubNode.gif;../HTMLBasedGUI/images/newBottomSubNode.gif;../HTMLBasedGUI/images/newTopSideNode.gif;../HTMLBasedGUI/images/newBottomSideNode.gif;../HTMLBasedGUI/images/pasteTop.gif;../HTMLBasedGUI/images/pasteBottom.gif" helpid="EDITORHELP" ispopup="true" casaindex="1" >
+
+
+        <pagebody horizdist="false" takefullheight="true" casaindex="2" >
+
+
+                <rowtabarea height="108" openedindexprop="rowtab" leftindent="50" withleftborder="false" withrightborder="false" withtoppadding="false" tabpagepaddingleft="1" tabpagepaddingright="1" tabpagepaddingtop="1" tabpagepaddingbottom="1" stylevariant="VAR1" textid1="ree6.rowtabarea4" page1="idPage1" textid2="ree6.rowtabarea5" page2="idPage2" textid3="ree6.absicon2" page3="idPage3" textid4="ree6.rowtabarea6" page4="idPage4" textid5="ree6.rowtabarea7" page5="idPage5" textid6="ree6.rowtabareaPlugins" page6="idPage6" casaindex="3" >
+
+
+                        <tabpage id="idPage1" takefullheight="true" casaindex="4" >
+
+
+                                <itr height="100%" itrstyle="background-color: #F4FAFF" casaindex="5" >
+
+
+                                        <hdist width="2" casaindex="6" >
+
+
+                                        </hdist>
+
+
+                                        <colarea textid="ree6.colarea16" takefullheight="true" titlerowontop="false" areastyle="font-size: 7; font-weight: bold" comment="Log" paddingleft="2" withcontenttoppadding="false" withcontentbottompadding="false" withtoppadding="false" stylevariant="VAR1" casaindex="7" >
+
+
+                                                <tr casaindex="8" >
+
+
+                                                        <icon image="general/nothing.gif" method="viewProtocol" align="left" textid="menuViewProtocol" displaymenuindicator="true" nameposition="aside" textsize="1" casaindex="9" >
+
+
+                                                        </icon>
+
+
+                                                        <hdist width="10" casaindex="10" >
+
+
+                                                        </hdist>
+
+
+                                                        <icon image="general/nothing.gif" method="viewLog" align="left" textid="menuViewLog" displaymenuindicator="true" nameposition="aside" textsize="1" casaindex="11" >
+
+
+                                                        </icon>
+
+
+                                                </tr>
+
+
+                                                <vdist casaindex="12" >
+
+
+                                                </vdist>
+
+
+                                                <tr casaindex="13" >
+
+
+                                                        <icon image="general/nothing.gif" method="viewServerLog" textid="menuViewServerLog" displaymenuindicator="true" nameposition="aside" textsize="1" casaindex="14" >
+
+
+                                                        </icon>
+
+
+                                                        <hdist casaindex="15" >
+
+
+                                                        </hdist>
+
+
+                                                        <hdist casaindex="16" >
+
+
+                                                        </hdist>
+
+
+                                                </tr>
+
+
+                                                <vdist height="100%" casaindex="17" >
+
+
+                                                </vdist>
+
+
+                                        </colarea>
+
+
+                                        <hdist width="2" casaindex="18" >
+
+
+                                        </hdist>
+
+
+                                        <colarea textid="ree6.colarea17" takefullheight="true" titlerowontop="false" areastyle="font-size: 7; font-weight: bold" comment="Configuration" paddingleft="2" withcontenttoppadding="false" withcontentbottompadding="false" withtoppadding="false" stylevariant="VAR1" casaindex="19" >
+
+
+                                                <itr casaindex="20" >
+
+
+                                                        <icon image="general/nothing.gif" method="viewXSD" comment="XML Schema (XSD)" textid="ree6.icon16" nameposition="aside" textsize="1" casaindex="21" >
+
+
+                                                        </icon>
+
+
+                                                </itr>
+
+
+                                                <vdist casaindex="22" >
+
+
+                                                </vdist>
+
+
+                                                <itr casaindex="23" >
+
+
+                                                        <icon image="general/nothing.gif" method="viewEditorConfig" comment="Preferences" textid="ree6.icon18" displaymenuindicator="true" nameposition="aside" textsize="1" casaindex="24" >
+
+
+                                                        </icon>
+
+
+                                                </itr>
+
+
+                                                <vdist height="100%" casaindex="25" >
+
+
+                                                </vdist>
+
+
+                                        </colarea>
+
+
+                                        <hdist width="5" casaindex="26" >
+
+
+                                        </hdist>
+
+
+                                </itr>
+
+
+                        </tabpage>
+
+
+                        <tabpage id="idPage2" takefullheight="true" casaindex="27" >
+
+
+                                <itr height="100%" itrstyle="background-color: #F4FAFF" casaindex="28" >
+
+
+                                        <colarea textid="ree6.colarea19" takefullheight="true" titlerowontop="false" areastyle="font-size: 7; font-weight: bold" comment="Clipboard" paddingleft="6" withcontenttoppadding="false" withcontentbottompadding="false" withtoppadding="false" stylevariant="VAR1" casaindex="29" >
+
+
+                                                <tr casaindex="30" >
+
+
+                                                        <icon image="images/toolbarcut.gif" method="cut" align="center" titletextid="menuEditCut" casaindex="31" >
+
+
+                                                        </icon>
+
+
+                                                        <hdist width="5" casaindex="32" >
+
+
+                                                        </hdist>
+
+
+                                                        <icon image="images/toolbarcopy.gif" method="copy" titletextid="menuEditCopy" casaindex="33" >
+
+
+                                                        </icon>
+
+
+                                                        <hdist width="10" casaindex="34" >
+
+
+                                                        </hdist>
+
+
+                                                        <icon image="images/toolbarundo.gif" method="undo" titletextid="menuEditUndo" textid="menuEditUndo" textsize="1" casaindex="35" >
+
+
+                                                        </icon>
+
+
+                                                        <hdist width="10" casaindex="36" >
+
+
+                                                        </hdist>
+
+
+                                                        <icon image="images/toolbarpasteasfirst.gif" method="paste" textid="menuEditPasteAsFirst" textsize="1" casaindex="37" >
+
+
+                                                        </icon>
+
+
+                                                        <hdist width="5" casaindex="38" >
+
+
+                                                        </hdist>
+
+
+                                                </tr>
+
+
+                                                <tr casaindex="39" >
+
+
+                                                        <icon image="images/toolbarremove.gif" method="removeNode" titletextid="menuEditDelete" casaindex="40" >
+
+
+                                                        </icon>
+
+
+                                                        <hdist casaindex="41" >
+
+
+                                                        </hdist>
+
+
+                                                        <hdist casaindex="42" >
+
+
+                                                        </hdist>
+
+
+                                                        <hdist casaindex="43" >
+
+
+                                                        </hdist>
+
+
+                                                        <icon image="images/toolbarredo.gif" method="redo" titletextid="menuEditRedo" textid="menuEditRedo" textsize="1" casaindex="44" >
+
+
+                                                        </icon>
+
+
+                                                        <hdist casaindex="45" >
+
+
+                                                        </hdist>
+
+
+                                                        <icon image="images/toolbarpasteaslast.gif" method="pasteBottom" textid="menuEditPasteAsLast" textsize="1" casaindex="46" >
+
+
+                                                        </icon>
+
+
+                                                        <hdist width="5" casaindex="47" >
+
+
+                                                        </hdist>
+
+
+                                                </tr>
+
+
+                                                <vdist height="100%" casaindex="48" >
+
+
+                                                </vdist>
+
+
+                                        </colarea>
+
+
+                                        <hdist width="2" casaindex="49" >
+
+
+                                        </hdist>
+
+
+                                        <colarea textid="ree6.colarea20" takefullheight="true" titlerowontop="false" areastyle="font-size: 7; font-weight: bold" comment="Text" paddingleft="2" withcontenttoppadding="false" withcontentbottompadding="false" withtoppadding="false" stylevariant="VAR1" casaindex="50" >
+
+
+                                                <tr casaindex="51" >
+
+
+                                                        <coltable0 casaindex="52" >
+
+
+                                                                <itr casaindex="53" >
+
+
+                                                                        <label textid="ree6.label3" width="40" comment="Font" asplaintext="true" labelstyle="font-size:10" casaindex="54" >
+
+
+                                                                        </label>
+
+
+                                    <field xsdType="xs:string" flush="screen" valueprop="fontFamily" width="120" fieldstyle="height: 18;font-size:9" popupmethod="openIdValueCombo" popupcombowidth="120" titletextid="ree6.field2" casaindex="55" >
+
+                                    </field>
+
+                                                                </itr>
+
+
+                                                                <itr casaindex="56" >
+
+
+                                                                        <icon image="images/bold.gif" method="onBold" titletextid="ree6.iconBold" casaindex="57" >
+
+
+                                                                        </icon>
+
+
+                                                                        <icon image="images/italic.gif" method="onItalic" titletextid="ree6.iconItalic" casaindex="58" >
+
+
+                                                                        </icon>
+
+
+                                                                        <hdist width="10" casaindex="59" >
+
+
+                                                                        </hdist>
+
+
+                                                                        <icon image="images/alignLeft.gif" method="onLeftAlign" titletextid="ree6.iconAlignLeft" casaindex="60" >
+
+
+                                                                        </icon>
+
+
+                                                                        <icon image="images/alignCenter.gif" method="onCenterAlign" titletextid="ree6.iconAlignCenter" casaindex="61" >
+
+
+                                                                        </icon>
+
+
+                                                                        <icon image="images/alignRight.gif" method="onRightAlign" titletextid="ree6.iconAlignRight" casaindex="62" >
+
+
+                                                                        </icon>
+
+
+                                                                </itr>
+
+
+                                                                <vdist casaindex="63" >
+
+
+                                                                </vdist>
+
+
+                                                        </coltable0>
+
+
+                                                        <hdist width="10" casaindex="64" >
+
+
+                                                        </hdist>
+
+
+                                                        <coltable0 casaindex="65" >
+
+
+                                                                <tr casaindex="66" >
+
+
+                                                                        <label textid="ree6.label4" comment="Size" asplaintext="true" labelstyle="font-size:10" casaindex="67" >
+
+
+                                                                        </label>
+
+
+                                                                        <hdist width="3" casaindex="68" >
+
+
+                                                                        </hdist>
+
+
+                                    <field xsdType="int" datatype="int" flush="screen" valueprop="font" width="50" fieldstyle="height: 18;font-size:9" popupmethod="openIdValueCombo" popupcombowidth="50" titletextid="ree6.field3" casaindex="69" >
+
+                                    </field>
+
+                                                                </tr>
+
+
+                                                                <tr casaindex="70" >
+
+
+                                                                        <label textid="ree6.label6" comment="color" asplaintext="true" labelstyle="font-size:10" casaindex="71" >
+
+
+                                                                        </label>
+
+
+                                                                        <hdist casaindex="72" >
+
+
+                                                                        </hdist>
+
+
+                                    <field xsdType="color" datatype="color" flush="server" valueprop="col" width="50" bgcolorprop="col" fgcolorprop="col" fieldstyle="height: 18;font-size:9" casaindex="73" >
+
+                                    </field>
+
+                                                                </tr>
+
+
+                                                        </coltable0>
+
+
+                                                </tr>
+
+
+                                                <vdist height="100%" casaindex="74" >
+
+
+                                                </vdist>
+
+
+                                        </colarea>
+
+
+                                        <hdist width="2" casaindex="75" >
+
+
+                                        </hdist>
+
+
+                                        <colarea textid="ree6.colarea21" takefullheight="true" titlerowontop="false" areastyle="font-size: 7; font-weight: bold" comment="Attributes" paddingleft="2" withcontenttoppadding="false" withcontentbottompadding="false" withtoppadding="false" stylevariant="VAR1" casaindex="76" >
+
+
+                                                <itr casaindex="77" >
+
+
+                                                        <icon image="general/nothing.gif" method="onPropertyEditor" comment="Property Editor" textid="ree6.icon22" displaymenuindicator="true" nameposition="aside" textsize="1" casaindex="78" >
+
+
+                                                        </icon>
+
+
+                                                </itr>
+
+
+                                                <vdist height="2" casaindex="79" >
+
+
+                                                </vdist>
+
+
+                                                <itr casaindex="80" >
+
+
+                                                        <icon image="general/nothing.gif" method="onEventEditor" comment="Event Editor" textid="ree6.icon30" displaymenuindicator="true" nameposition="aside" textsize="1" casaindex="81" >
+
+
+                                                        </icon>
+
+
+                                                </itr>
+
+
+                                        </colarea>
+
+
+                                        <hdist width="2" casaindex="82" >
+
+
+                                        </hdist>
+
+
+                                        <colarea textid="ree6.colarea22" takefullheight="true" titlerowontop="false" areastyle="font-size: 7; font-weight: bold" comment="Status" paddingleft="2" withcontenttoppadding="false" withcontentbottompadding="false" withtoppadding="false" stylevariant="VAR1" casaindex="83" >
+
+
+                                                <itr casaindex="84" >
+
+
+                                                        <icon image="images/toolbarxml.gif" method="viewXML" textid="menuViewXML" displaymenuindicator="true" nameposition="aside" textsize="1" casaindex="85" >
+
+
+                                                        </icon>
+
+
+                                                </itr>
+
+
+                                                <vdist height="2" casaindex="86" >
+
+
+                                                </vdist>
+
+
+                                                <itr casaindex="87" >
+
+
+                                                        <icon image="images/toolbarresources.gif" method="viewEditorResources" textid="menuViewResources" displaymenuindicator="true" nameposition="aside" textsize="1" casaindex="88" >
+
+
+                                                        </icon>
+
+
+                                                </itr>
+
+
+                                                <vdist height="100%" casaindex="89" >
+
+
+                                                </vdist>
+
+
+                                        </colarea>
+
+
+                                </itr>
+
+
+                        </tabpage>
+
+
+                        <tabpage id="idPage3" takefullheight="true" casaindex="90" >
+
+
+                                <itr height="100%" itrstyle="background-color: #F4FAFF" casaindex="91" >
+
+
+                                        <colarea textid="ree6.absicon2" titlerowontop="false" areastyle="font-size: 7; font-weight: bold" comment="Preview" paddingleft="2" withcontenttoppadding="false" withcontentbottompadding="false" withtoppadding="false" stylevariant="VAR1" casaindex="92" >
+
+
+                                                <tr casaindex="93" >
+
+
+                                                        <radiobutton valueprop="previewWithRealAdapter" value="false" flush="server" comment="Screen Test Only" textid="ree6.radiobutton2" labelstyle="font-size:8" casaindex="94" >
+
+
+                                                        </radiobutton>
+
+
+                                                </tr>
+
+
+                                                <tr casaindex="95" >
+
+
+                                                        <radiobutton valueprop="previewWithRealAdapter" value="true" flush="screen" comment="Run Application" textid="ree6.radiobutton3" labelstyle="font-size:8" casaindex="96" >
+
+
+                                                        </radiobutton>
+
+
+                                                </tr>
+
+
+                                                <vdist height="100%" casaindex="97" >
+
+
+                                                </vdist>
+
+
+                                        </colarea>
+
+
+                                        <hdist width="2" casaindex="98" >
+
+
+                                        </hdist>
+
+
+                                        <colarea textid="ed6.rowarea.SWTConfig" takefullheight="true" titlerowontop="false" areastyle="font-size: 7; font-weight: bold" comment="Preview Configuration" paddingleft="2" withcontenttoppadding="false" withcontentbottompadding="false" withtoppadding="false" stylevariant="VAR1" casaindex="99" >
+
+
+                                                <tr casaindex="100" >
+
+
+                                                        <radiobutton valueprop="previewDefaultVisible" value="true" flush="server" comment="SWT Mode" align="center" textid="ed6.RadioBttn.PreviewModeSWT" labelstyle="font-size:8" casaindex="101" >
+
+
+                                                        </radiobutton>
+
+
+                                                </tr>
+
+
+                                                <tr casaindex="102" >
+
+
+                                                        <radiobutton valueprop="previewDefaultVisible" value="false" flush="server" comment="HTML Mode" align="center" textid="ed6.RadioBttn.PreviewModeHTML" labelstyle="font-size:8" casaindex="103" >
+
+
+                                                        </radiobutton>
+
+
+                                                </tr>
+
+
+                                                <vdist height="100%" casaindex="104" >
+
+
+                                                </vdist>
+
+
+                                        </colarea>
+
+
+                                </itr>
+
+
+                        </tabpage>
+
+
+                        <tabpage id="idPage4" takefullheight="true" casaindex="105" >
+
+
+                                <itr height="100%" itrstyle="background-color: #F4FAFF" casaindex="106" >
+
+
+                                        <colarea textid="ree6.colarea25" takefullheight="true" titlerowontop="false" areastyle="font-size: 7; font-weight: bold" withtoppadding="false" stylevariant="VAR1" casaindex="107" >
+
+
+                                                <itr height="100%" valign="middle" casaindex="108" >
+
+
+                                                        <hdist width="10" casaindex="109" >
+
+
+                                                        </hdist>
+
+
+                                                        <icon image="../HTMLBasedGUI/images/ctrlHOTKEYS.gif" method="onHotkey" textid="ree6.icon38" displaymenuindicator="true" nameposition="aside" casaindex="110" >
+
+
+                                                        </icon>
+
+
+                                                </itr>
+
+
+                                        </colarea>
+
+
+                                </itr>
+
+
+                        </tabpage>
+
+
+                        <tabpage id="idPage5" takefullheight="true" casaindex="111" >
+
+
+                                <itr height="100%" itrstyle="background-color: #F4FAFF" casaindex="112" >
+
+
+                                        <coldynavis valueprop="showCodeAssistant" width="100" takefullheight="true" casaindex="113" >
+
+
+                                                <itr height="100%" itrstyle="padding-bottom:0" casaindex="114" >
+
+
+                                                        <colarea textid="ree6.colarea26a" width="100" takefullheight="true" titlerowontop="false" areastyle="font-size: 7; font-weight: bold" paddingleft="2" withtoppadding="false" stylevariant="VAR1" casaindex="115" >
+
+
+                                                                <vdist height="2" casaindex="116" >
+
+
+                                                                </vdist>
+
+
+                                                                <itr casaindex="117" >
+
+
+                                                                        <icon image="general/nothing.gif" method="onTab1" textid="ree6.icon40" textsize="1" casaindex="118" >
+
+
+                                                                        </icon>
+
+
+                                                                </itr>
+
+
+                                                        </colarea>
+
+
+                                                        <hdist width="2" casaindex="119" >
+
+
+                                                        </hdist>
+
+
+                                                </itr>
+
+
+                                        </coldynavis>
+
+
+                                        <colarea textid="ree6.colarea26" width="100" takefullheight="true" titlerowontop="false" areastyle="font-size: 7; font-weight: bold" comment="Data Binding" paddingleft="8" withtoppadding="false" stylevariant="VAR1" casaindex="120" >
+
+
+                                                <vdist height="2" casaindex="121" >
+
+
+                                                </vdist>
+
+
+                                                <itr casaindex="122" >
+
+
+                                                        <icon image="general/nothing.gif" method="onTab3" comment="XML Binding" textid="ree6.icon41" textsize="1" casaindex="123" >
+
+
+                                                        </icon>
+
+
+                                                </itr>
+
+
+                                        </colarea>
+
+
+                                        <hdist width="2" casaindex="124" >
+
+
+                                        </hdist>
+
+
+                                        <colarea textid="ree6.colarea27" width="100" takefullheight="true" titlerowontop="false" areastyle="font-size: 7; font-weight: bold" comment="Multilanguage Management" paddingleft="8" withtoppadding="false" stylevariant="VAR1" casaindex="125" >
+
+
+                                                <vdist casaindex="126" >
+
+
+                                                </vdist>
+
+
+                                                <itr casaindex="127" >
+
+
+                                                        <icon image="general/nothing.gif" method="onTab2" comment="Literal Assistant" textid="ree6.icon42" textsize="1" casaindex="128" >
+
+
+                                                        </icon>
+
+
+                                                </itr>
+
+
+                                        </colarea>
+
+
+                                        <hdist width="2" casaindex="129" >
+
+
+                                        </hdist>
+
+
+                                        <colarea textid="ree6.colarea28" width="100" takefullheight="true" titlerowontop="false" areastyle="font-size: 7; font-weight: bold" comment="Formula Editor" paddingleft="8" withtoppadding="false" stylevariant="VAR1" casaindex="130" >
+
+
+                                                <vdist casaindex="131" >
+
+
+                                                </vdist>
+
+
+                                                <itr casaindex="132" >
+
+
+                                                        <icon image="general/nothing.gif" method="onFormulaOverview" textid="ree6.icon45" textsize="1" casaindex="133" >
+
+
+                                                        </icon>
+
+
+                                                </itr>
+
+
+                                                <vdist height="2" casaindex="134" >
+
+
+                                                </vdist>
+
+
+                                                <itr casaindex="135" >
+
+
+                                                        <icon image="general/nothing.gif" method="onFormula" comment="Formula" textid="ree6.icon43" textsize="1" casaindex="136" >
+
+
+                                                        </icon>
+
+
+                                                </itr>
+
+
+                                        </colarea>
+
+
+                                        <hdist width="2" casaindex="137" >
+
+
+                                        </hdist>
+
+
+                                        <colarea textid="ree6.colarea29" width="100" takefullheight="true" titlerowontop="false" areastyle="font-size: 7; font-weight: bold" comment="Data Validation" paddingleft="8" withtoppadding="false" stylevariant="VAR1" casaindex="138" >
+
+
+                                                <vdist casaindex="139" >
+
+
+                                                </vdist>
+
+
+                                                <itr casaindex="140" >
+
+
+                                                        <icon image="general/nothing.gif" method="onValidationRulesOverView" textid="ree6.icon45" textsize="1" casaindex="141" >
+
+
+                                                        </icon>
+
+
+                                                </itr>
+
+
+                                                <vdist height="2" casaindex="142" >
+
+
+                                                </vdist>
+
+
+                                                <itr casaindex="143" >
+
+
+                                                        <icon image="general/nothing.gif" method="onValidationRules" comment="Validation Rules" textid="ree6.icon44" textsize="1" casaindex="144" >
+
+
+                                                        </icon>
+
+
+                                                </itr>
+
+
+                                        </colarea>
+
+
+                                        <hdist width="2" casaindex="145" >
+
+
+                                        </hdist>
+
+
+                                        <colarea textid="ree6.colarea30" width="100" takefullheight="true" titlerowontop="false" areastyle="font-size: 7; font-weight: bold" paddingleft="2" withtoppadding="false" stylevariant="VAR1" casaindex="146" >
+
+
+                                                <tr height="20" casaindex="147" >
+
+
+                                                        <icon image="general/nothing.gif" method="openInNewBrowserWindow" name="Start in new window" nameposition="aside" textsize="1" casaindex="148" >
+
+
+                                                        </icon>
+
+
+                                                </tr>
+
+
+                                        </colarea>
+
+
+                                </itr>
+
+
+                        </tabpage>
+
+
+                        <tabpage id="idPage6" takefullheight="true" casaindex="149" >
+
+
+                                <tr casaindex="150" >
+
+
+                                        <colarea name="Editor Extensions" takefullheight="true" titlerowontop="false" paddingleft="2" withtoppadding="false" stylevariant="VAR1" casaindex="151" >
+
+
+                                                <tr height="40" casaindex="152" >
+
+
+                                                        <iconlist iconlistprop="extensionICONLIST" vertical="false" cellspacing="3" textsize="1" casaindex="153" >
+
+
+                                                        </iconlist>
+
+
+                                                </tr>
+
+
+                                        </colarea>
+
+
+                                        <hdist width="100%" casaindex="154" >
+
+
+                                        </hdist>
+
+
+                                </tr>
+
+
+                        </tabpage>
+
+
+                </rowtabarea>
+
+
+                <vdist height="1" backgroundstyle="background-color: #F7F3EF" casaindex="155" >
+
+
+                </vdist>
+
+
+                <vsplit height="100%" widthleftprop="leftPartEditor6" casaindex="156" >
+
+
+                        <splitcell takefullheight="true" casaindex="157" >
+
+
+                                <vsplit height="100%" widthleftprop="widthViewControlsLayout" comment="widthViewControlsLayout" widthleft="415" casaindex="158" >
+
+
+                                        <splitcell takefullheight="true" casaindex="159" >
+
+
+                                                <hsplit height="100%" heighttop="75%" casaindex="160" >
+
+
+                                                        <splitcell takefullheight="true" casaindex="161" >
+
+
+                                                                <itr width="100%" casaindex="162" >
+
+
+                                                                        <label textid="ed6.label.layout" width="100%" asheadline="true" labelstyle="padding-left: 2px; font-size: 10px; font-weight: bold" casaindex="163" >
+
+
+                                                                        </label>
+
+
+                                                                        <icon image="../HTMLBasedGUI/images/layoutMinimize.gif" method="onHideLayoutTree" colstyle="background-color: #C0C9DA" spanstyle="background-color: #C0C9DA" casaindex="164" >
+
+
+                                                                        </icon>
+
+
+                                                                </itr>
+
+
+                                                                <rowtablearea2 griddataprop="nodes" rowcount="30" height="100%" width="100%" withborder="false" hscroll="true" singleselect="false" casaindex="165" >
+
+
+                                                                        <tr casaindex="166" >
+
+
+                                                                                <coltable0 casaindex="167" >
+
+
+                                                                                        <vdist height="8" casaindex="168" >
+
+
+                                                                                        </vdist>
+
+
+                                                                                </coltable0>
+
+
+                                                                        </tr>
+
+
+                                                                        <repeat casaindex="169" >
+
+
+                                                                                <str valueprop="selected" casaindex="170" >
+
+
+                                                                                        <treenode3 width="1000" withplusminus="true" imageprop="imageURL" singleselect="false" enabledrag="true" withtooltip="true" casaindex="171" >
+
+
+                                                                                        </treenode3>
+
+
+                                                                                </str>
+
+
+                                                                        </repeat>
+
+
+                                                                        <tr casaindex="172" >
+
+
+                                                                                <coltable0 casaindex="173" >
+
+
+                                                                                        <vdist height="8" casaindex="174" >
+
+
+                                                                                        </vdist>
+
+
+                                                                                </coltable0>
+
+
+                                                                        </tr>
+
+
+                                                                </rowtablearea2>
+
+
+                                                                <itr height="22" itrstyle="padding-top: 3px; padding-bottom: 4px" width="100%" casaindex="175" >
+
+
+                                                                        <hdist width="50%" casaindex="176" >
+
+
+                                                                        </hdist>
+
+
+                                                                        <icon image="../HTMLBasedGUI/images/arrowupfast.gif" method="moveUpTo1Pos" titletextid="ed6.icon.movenodefirst" casaindex="177" >
+
+
+                                                                        </icon>
+
+
+                                                                        <hdist casaindex="178" >
+
+
+                                                                        </hdist>
+
+
+                                                                        <icon image="images/arrowup.gif" method="moveNodeUp" withdistance="false" titletextid="ed6.icon.movenodeup" casaindex="179" >
+
+
+                                                                        </icon>
+
+
+                                                                        <hdist casaindex="180" >
+
+
+                                                                        </hdist>
+
+
+                                                                        <icon image="images/arrowdown.gif" method="moveNodeDown" withdistance="false" titletextid="ed6.icon.movenodedown" casaindex="181" >
+
+
+                                                                        </icon>
+
+
+                                                                        <hdist casaindex="182" >
+
+
+                                                                        </hdist>
+
+
+                                                                        <icon image="../HTMLBasedGUI/images/arrowdownfast.gif" method="moveDownToLastPos" titletextid="ed6.icon.movenodedownlast" casaindex="183" >
+
+
+                                                                        </icon>
+
+
+                                                                        <hdist width="50%" casaindex="184" >
+
+
+                                                                        </hdist>
+
+
+                                                                </itr>
+
+
+                                                        </splitcell>
+
+
+                                                        <splitcell takefullheight="true" casaindex="185" >
+
+
+                                                                <itr width="100%" casaindex="186" >
+
+
+                                                                        <label textid="attributesEdit" width="100%" asheadline="true" height="16" labelstyle="padding-left: 2px; font-size: 10px; font-weight: bold" casaindex="187" >
+
+
+                                                                        </label>
+
+
+                                                                </itr>
+
+
+                                                                <rowtablearea2 griddataprop="attributes" rowcount="30" height="100%" width="100%" withborder="true" hscroll="false" firstrowcolwidths="true" casaindex="188" >
+
+
+                                                                        <repeat casaindex="189" >
+
+
+                                                                                <tr casaindex="190" >
+
+
+                                            <field xsdType="xs:string" valueprop="attribute" width="50%" titleprop="tooltip" displayonly="true" noborder="true" casaindex="191" >
+
+                                            </field>
+
+                                            <field xsdType="xs:string" validationprop="regExp" valueprop="cvalue" width="50%" noborder="true" popupmethod="openIdValueCombo" popupprop="popupAvailable" validationuserhintprop="regExpFailureUserHint" helptext="attribute.html" casaindex="192" >
+
+                                            </field>
+
+                                                                                </tr>
+
+
+                                                                        </repeat>
+
+
+                                                                </rowtablearea2>
+
+
+                                                                <tabstrip2 tabstripprop="attributeCategories" align="left" scrollable="true" casaindex="193" >
+
+
+                                                                </tabstrip2>
+
+
+                                                                <vdist height="2" casaindex="194" >
+
+
+                                                                </vdist>
+
+
+                                                        </splitcell>
+
+
+                                                </hsplit>
+
+
+                                        </splitcell>
+
+
+                                        <splitcell takefullheight="true" casaindex="195" >
+
+
+                                                <itr takefullwidth="true" height="100%" casaindex="196" >
+
+
+                                                        <coltable0 width="100%" takefullheight="true" casaindex="197" >
+
+
+                                                                <itr width="100%" casaindex="198" >
+
+
+                                                                        <icon image="../HTMLBasedGUI/images/toggleleft.gif" method="onShowLayoutTree" visibleprop="widthLeftNotVisible" invisiblemode="invisible" colstyle="padding-left:3;background-color:#C0C9DA" spanstyle="background-color:#C0C9DA" casaindex="199" >
+
+
+                                                                        </icon>
+
+
+                                                                        <label textid="previewEdit" width="100%" asheadline="true" labelstyle="padding-left: 2px; font-size: 10px; font-weight: bold" casaindex="200" >
+
+
+                                                                        </label>
+
+
+                                                                        <icon image="../HTMLBasedGUI/images/layoutMinimize.gif" method="onViewPreviewMinimize" visibleprop="viewPreviewMinimizeVisible" invisiblemode="invisible" colstyle="background-color: #C0C9DA" spanstyle="background-color: #C0C9DA" casaindex="201" >
+
+
+                                                                        </icon>
+
+
+                                                                        <icon image="../HTMLBasedGUI/images/layoutMaximize.gif" method="onViewPreviewMaximize" visibleprop="viewPreviewMaximizeVisible" invisiblemode="invisible" colstyle="background-color: #C0C9DA" spanstyle="background-color: #C0C9DA" casaindex="202" >
+
+
+                                                                        </icon>
+
+
+                                                                </itr>
+
+
+                                                                <vdist height="5" casaindex="203" >
+
+
+                                                                </vdist>
+
+
+                                                                <itr takefullwidth="true" height="100%" fixlayout="true" visibleprop="previewDefaultVisible" casaindex="204" >
+
+
+                                                                        <hdist width="5" casaindex="205" >
+
+
+                                                                        </hdist>
+
+
+                                                                        <subcispage valueprop="subPageURL" refreshprop="refreshSubPage" width="100%" height="100%" borderwidth="1" sessionidprop="subPageSessionId" pagestyle="background-color: #C0C9DA" withownborder="false" casaindex="206" >
+
+
+                                                                        </subcispage>
+
+
+                                                                        <hdist width="5" casaindex="207" >
+
+
+                                                                        </hdist>
+
+
+                                                                </itr>
+
+
+                                                                <itr takefullwidth="true" height="100%" fixlayout="true" visibleprop="previewHTMLVisible" casaindex="208" >
+
+
+                                                                        <hdist width="5" casaindex="209" >
+
+
+                                                                        </hdist>
+
+
+                                                                        <subpage valueprop="subHTMLPreviewURL" height="100%" width="100%" pagestyle="border: 1px solid #808080" withownborder="false" casaindex="210" >
+
+
+                                                                        </subpage>
+
+
+                                                                        <hdist width="5" casaindex="211" >
+
+
+                                                                        </hdist>
+
+
+                                                                </itr>
+
+
+                                                                <vdist height="5" casaindex="212" >
+
+
+                                                                </vdist>
+
+
+                                                        </coltable0>
+
+
+                                                        <vline width="1" color="#808080" casaindex="213" >
+
+
+                                                        </vline>
+
+
+                                                        <hdist width="1" casaindex="214" >
+
+
+                                                        </hdist>
+
+
+                                                        <vline width="1" color="#808080" casaindex="215" >
+
+
+                                                        </vline>
+
+
+                                                        <coltable0 widthprop="viewControlsWidth" takefullheight="true" fixlayout="true" comment="width: 150" casaindex="216" >
+
+
+                                                                <itr width="100%" casaindex="217" >
+
+
+                                                                        <label textid="ed6.label.ctrls" width="100%" asheadline="true" labelstyle="padding-left: 2px; font-size: 10px; font-weight: bold" casaindex="218" >
+
+
+                                                                        </label>
+
+
+                                                                </itr>
+
+
+                                                                <buttonlist buttonlistprop="topButtons" buttonstyle="font-size:10px; height: 16" casaindex="219" >
+
+
+                                                                </buttonlist>
+
+
+                                                                <rowscrollarea height="100%" takefullwidth="true" takefullheight="true" areastyle="background-color: #FFFFFF" casaindex="220" >
+
+
+                                                                        <vdist casaindex="221" >
+
+
+                                                                        </vdist>
+
+
+                                                                        <tr casaindex="222" >
+
+
+                                                                                <hdist casaindex="223" >
+
+
+                                                                                </hdist>
+
+
+                                                                                <coltable0 width="100%" casaindex="224" >
+
+
+                                                                                        <iconlist iconlistprop="controlIcons" cellspacing="1" align="left" textsize="1" casaindex="225" >
+
+
+                                                                                        </iconlist>
+
+
+                                                                                </coltable0>
+
+
+                                                                        </tr>
+
+
+                                                                        <vdist height="100%" casaindex="226" >
+
+
+                                                                        </vdist>
+
+
+                                                                </rowscrollarea>
+
+
+                                                                <buttonlist buttonlistprop="bottomButtons" buttonstyle="font-size:10px; height: 16" casaindex="227" >
+
+
+                                                                </buttonlist>
+
+
+                                                        </coltable0>
+
+
+                                                </itr>
+
+
+                                        </splitcell>
+
+
+                                </vsplit>
+
+
+                        </splitcell>
+
+
+                        <splitcell takefullheight="true" casaindex="228" >
+
+
+                                <itr takefullwidth="true" height="100%" casaindex="229" >
+
+
+                                        <subcispage2 subcispageprop="extensionPage" width="100%" height="100%" borderwidth="0" casaindex="230" >
+
+
+                                        </subcispage2>
+
+
+                                </itr>
+
+
+                                <tabstrip2 tabstripprop="extensionStrip" align="left" scrollable="true" casaindex="231" >
+
+
+                                </tabstrip2>
+
+
+                        </splitcell>
+
+
+                </vsplit>
+
+
+                <itr height="0" visibleprop="changeHappened" casaindex="232" >
+
+
+                </itr>
+
+
+        </pagebody>
+
+
+        <statusbar typeprop="messageType" shorttextprop="messageShortText" longtextprop="messageLongText" withdistance="false" casaindex="233" >
+
+
+        </statusbar>
+
+
+        <hotkeys casaindex="234" >
+
+
+                <hotkey keycode="83" ctrlkey="true" shiftkey="true" method="onSave" casaindex="235" >
+
+
+                </hotkey>
+
+
+                <hotkey keycode="116" ctrlkey="true" shiftkey="true" method="onPreview" casaindex="236" >
+
+
+                </hotkey>
+
+
+                <hotkey keycode="117" ctrlkey="true" shiftkey="true" method="previewWithNewClasses" casaindex="237" >
+
+
+                </hotkey>
+
+
+                <hotkey keycode="118" ctrlkey="true" shiftkey="true" method="generateAndSave" casaindex="238" >
+
+
+                </hotkey>
+
+
+        </hotkeys>
+
+
+</page>

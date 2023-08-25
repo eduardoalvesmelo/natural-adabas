@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.HttpTraceAnalyzerAdapter" translationreference="editor" casaindex="1" >
+
+
+
+            <titlebar textid="editorHTTPTrace.titlebar0" closetitletextid="closePage" casaindex="2" >
+
+
+
+            </titlebar>
+
+
+
+            <header withdistance="false" casaindex="3" >
+
+
+
+                        <button method="endProcess" textid="editorHTTPTrace.button0" casaindex="4" >
+
+
+
+                        </button>
+
+
+
+            </header>
+
+
+
+            <pagebody takefullheight="true" casaindex="5" >
+
+
+
+                        <rowarea textid="editorHTTPTrace.rowarea0" casaindex="6" >
+
+
+
+                                    <itr casaindex="7" >
+
+
+
+                                                <hdist width="120" casaindex="8" >
+
+
+
+                                                </hdist>
+
+
+
+                                                <fileupload cfileprop="clientFileName" method="onLoadFinished" sfileprop="serverFileName" textid="editorHTTPTrace.fileupload0" casaindex="9" >
+
+
+
+                                                </fileupload>
+
+
+
+                                    </itr>
+
+
+
+                                    <vdist height="5" casaindex="10" >
+
+
+
+                                    </vdist>
+
+
+
+                                    <itr width="100%" casaindex="11" >
+
+
+
+                                                <label textid="editorHTTPTrace.label0" width="120" casaindex="12" >
+
+
+
+                                                </label>
+
+
+
+                <field xsdType="xs:string" displayonly="true" valueprop="clientFileName" width="100%" casaindex="13" >
+
+                </field>
+
+                                    </itr>
+
+
+
+                        </rowarea>
+
+
+
+                        <rowarea height="100%" textid="editorHTTPTrace.rowarea1" casaindex="14" >
+
+
+
+                        <itr casaindex="15" width="100%" height="100%" itrclass="PAGEBodyDark" >
+
+                <coltable0 casaindex="15" width="100%" takefullheight="true" >
+
+                    <rowscrollarea casaindex="15" height="100%" takefullwidth="true" hscroll="auto" takefullheight="true" >
+
+                        <itr casaindex="15" width="100%" height="100%" itrclass="REPORTOuterTable" >
+
+                            <ihtml casaindex="15" height="100%" valign="top" valueprop="report.html" >
+
+                            </ihtml>
+
+                        </itr>
+
+                    </rowscrollarea>
+
+                </coltable0>
+
+                <coldynavis casaindex="15" valueprop="report.showIconColumn" takefullheight="true" >
+
+                    <vdist casaindex="15" height="3" >
+
+                    </vdist>
+
+                    <tr casaindex="15" >
+
+                        <icon casaindex="15" image="../HTMLBasedGUI/images/pdf.gif" visibleprop="report.showPDF" method="report.onGeneratePDF" >
+
+                        </icon>
+
+                    </tr>
+
+                    <vdist casaindex="15" height="3" >
+
+                    </vdist>
+
+                    <tr casaindex="15" >
+
+                        <icon casaindex="15" image="../HTMLBasedGUI/images/printer.gif" visibleprop="report.showPrintVersion" method="report.onGeneratePrintVersion" >
+
+                        </icon>
+
+                    </tr>
+
+                    <vdist casaindex="15" height="3" >
+
+                    </vdist>
+
+                    <tr casaindex="15" >
+
+                        <icon casaindex="15" image="../HTMLBasedGUI/images/pdfupload.gif" visibleprop="report.showUpload" method="report.onUploadPDF" >
+
+                        </icon>
+
+                    </tr>
+
+                    <vdist casaindex="15" height="100%" >
+
+                    </vdist>
+
+                </coldynavis>
+
+            </itr>
+
+
+            
+                        </rowarea>
+
+
+
+                        <vdist casaindex="16" >
+
+
+
+                        </vdist>
+
+
+
+            </pagebody>
+
+
+
+            <statusbar withdistance="false" casaindex="17" >
+
+
+
+            </statusbar>
+
+
+
+</page>

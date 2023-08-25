@@ -1,0 +1,138 @@
+[07/20/2023 15:21:29.519]	Prepare start - ended. Port number: 0
+[07/20/2023 15:21:32.781]	Natural Development Server (2800) started. (Parameters: -onert -q -p2800 PARM=ONEPARM DFS=(NATSRV2800,localhost:1971,L,,NOSERVDIR))
+[07/20/2023 15:21:32.787]	Listener has been started. Port number: 2800
+[07/21/2023 07:43:30.418]	Details set. Port number: 2800
+[07/21/2023 07:43:30.424]	Prepare start - check ini file. Port number: 2800
+[07/21/2023 07:43:30.430]	Prepare start - check if started. Port number: 2800
+[07/21/2023 07:43:30.435]	Prepare start - create folders. Port number: 2800
+[07/21/2023 07:43:30.443]	Prepare start - ended. Port number: 2800
+[07/21/2023 07:43:33.638]	Natural Development Server (2800) started. (Parameters: -onert -q -p2800 PARM=ONEPARM DFS=(NATSRV2800,localhost:1971,L,,NOSERVDIR))
+[07/21/2023 07:43:33.643]	Listener has been started. Port number: 2800
+[07/21/2023 10:58:37.362]	Natural Development Server (2800) stopped.
+[07/21/2023 10:59:40.833]	Details set. Port number: 0
+[07/21/2023 10:59:40.839]	Prepare start - check ini file. Port number: 0
+[07/21/2023 10:59:40.844]	Prepare start - check if started. Port number: 0
+[07/21/2023 10:59:40.849]	Prepare start - create folders. Port number: 0
+[07/21/2023 10:59:40.868]	Prepare start - ended. Port number: 0
+[07/21/2023 10:59:44.028]	Natural Development Server (2800) started. (Parameters: -onert -q -p2800 PARM=ONEPARM DFS=(NATSRV2800,localhost:1971,L,,NOSERVDIR))
+[07/21/2023 10:59:44.035]	Listener has been started. Port number: 2800
+[07/21/2023 11:08:36.447]	Natural Development Server (2800) stopped.
+[07/21/2023 11:08:42.702]	Details set. Port number: 0
+[07/21/2023 11:08:42.712]	Prepare start - check ini file. Port number: 0
+[07/21/2023 11:08:42.731]	Prepare start - check if started. Port number: 0
+[07/21/2023 11:08:42.739]	Prepare start - create folders. Port number: 0
+[07/21/2023 11:08:42.750]	Prepare start - ended. Port number: 0
+[07/21/2023 11:08:45.899]	Natural Development Server (2800) started. (Parameters: -onert -q -p2800 PARM=ONEPARM DFS=(NATSRV2800,localhost:1971,L,,NOSERVDIR))
+[07/21/2023 11:08:45.907]	Listener has been started. Port number: 2800
+[07/21/2023 13:49:28.719]	Natural Development Server (2800) stopped.
+[07/21/2023 13:49:48.669]	Details set. Port number: 0
+[07/21/2023 13:49:48.676]	Prepare start - check ini file. Port number: 0
+[07/21/2023 13:49:48.682]	Prepare start - check if started. Port number: 0
+[07/21/2023 13:49:48.688]	Prepare start - create folders. Port number: 0
+[07/21/2023 13:49:48.709]	Prepare start - ended. Port number: 0
+[07/21/2023 13:49:51.866]	Natural Development Server (2800) started. (Parameters: -onert -q -p2800 PARM=ONEPARM DFS=(NATSRV2800,localhost:1971,L,,NOSERVDIR))
+[07/21/2023 13:49:51.875]	Listener has been started. Port number: 2800
+[07/24/2023 11:07:10.866]	Details set. Port number: 2800
+[07/24/2023 11:07:10.875]	Prepare start - check ini file. Port number: 2800
+[07/24/2023 11:07:10.886]	Prepare start - check if started. Port number: 2800
+[07/24/2023 11:07:10.896]	Prepare start - create folders. Port number: 2800
+[07/24/2023 11:07:10.924]	Prepare start - ended. Port number: 2800
+[07/24/2023 11:07:14.137]	Natural Development Server (2800) started. (Parameters: -onert -q -p2800 PARM=ONEPARM DFS=(NATSRV2800,localhost:1971,L,,NOSERVDIR))
+[07/24/2023 11:07:14.144]	Listener has been started. Port number: 2800
+[07/25/2023 08:23:08.795]	Details set. Port number: 2800
+[07/25/2023 08:23:08.801]	Prepare start - check ini file. Port number: 2800
+[07/25/2023 08:23:08.808]	Prepare start - check if started. Port number: 2800
+[07/25/2023 08:23:08.814]	Prepare start - create folders. Port number: 2800
+[07/25/2023 08:23:08.838]	Prepare start - ended. Port number: 2800
+[07/25/2023 08:23:12.109]	Natural Development Server (2800) started. (Parameters: -onert -q -p2800 PARM=ONEPARM DFS=(NATSRV2800,localhost:1971,L,,NOSERVDIR))
+[07/25/2023 08:23:12.124]	Listener has been started. Port number: 2800
+[07/25/2023 13:23:29.539]	Natural Development Server (2800) stopped.
+[07/25/2023 13:30:11.858]	Details set. Port number: 0
+[07/25/2023 13:30:11.866]	Prepare start - check ini file. Port number: 0
+[07/25/2023 13:30:11.874]	Prepare start - check if started. Port number: 0
+[07/25/2023 13:30:11.882]	Prepare start - create folders. Port number: 0
+[07/25/2023 13:30:11.903]	Prepare start - ended. Port number: 0
+[07/25/2023 13:30:15.117]	Natural Development Server (2800) started. (Parameters: -onert -q -p2800 PARM=ONEPARM DFS=(NATSRV2800,localhost:1971,L,,NOSERVDIR))
+[07/25/2023 13:30:15.124]	Listener has been started. Port number: 2800
+[07/26/2023 08:10:35.376]	Details set. Port number: 2800
+[07/26/2023 08:10:35.382]	Prepare start - check ini file. Port number: 2800
+[07/26/2023 08:10:35.389]	Prepare start - check if started. Port number: 2800
+[07/26/2023 08:10:35.395]	Prepare start - create folders. Port number: 2800
+[07/26/2023 08:10:35.416]	Prepare start - ended. Port number: 2800
+[07/26/2023 08:10:38.692]	Natural Development Server (2800) started. (Parameters: -onert -q -p2800 PARM=ONEPARM DFS=(NATSRV2800,localhost:1971,L,,NOSERVDIR))
+[07/26/2023 08:10:38.700]	Listener has been started. Port number: 2800
+[07/27/2023 08:29:08.890]	Details set. Port number: 2800
+[07/27/2023 08:29:08.896]	Prepare start - check ini file. Port number: 2800
+[07/27/2023 08:29:08.902]	Prepare start - check if started. Port number: 2800
+[07/27/2023 08:29:08.909]	Prepare start - create folders. Port number: 2800
+[07/27/2023 08:29:08.930]	Prepare start - ended. Port number: 2800
+[07/27/2023 08:29:12.178]	Natural Development Server (2800) started. (Parameters: -onert -q -p2800 PARM=ONEPARM DFS=(NATSRV2800,localhost:1971,L,,NOSERVDIR))
+[07/27/2023 08:29:12.185]	Listener has been started. Port number: 2800
+[07/28/2023 08:15:27.538]	Details set. Port number: 2800
+[07/28/2023 08:15:27.547]	Prepare start - check ini file. Port number: 2800
+[07/28/2023 08:15:27.553]	Prepare start - check if started. Port number: 2800
+[07/28/2023 08:15:27.559]	Prepare start - create folders. Port number: 2800
+[07/28/2023 08:15:27.583]	Prepare start - ended. Port number: 2800
+[07/28/2023 08:15:30.818]	Natural Development Server (2800) started. (Parameters: -onert -q -p2800 PARM=ONEPARM DFS=(NATSRV2800,localhost:1971,L,,NOSERVDIR))
+[07/28/2023 08:15:30.825]	Listener has been started. Port number: 2800
+[07/28/2023 13:38:52.965]	Natural Development Server (2800) stopped.
+[07/28/2023 13:39:49.725]	Details set. Port number: 0
+[07/28/2023 13:39:49.732]	Prepare start - check ini file. Port number: 0
+[07/28/2023 13:39:49.739]	Prepare start - check if started. Port number: 0
+[07/28/2023 13:39:49.746]	Prepare start - create folders. Port number: 0
+[07/28/2023 13:39:49.770]	Prepare start - ended. Port number: 0
+[07/28/2023 13:39:52.943]	Natural Development Server (2800) started. (Parameters: -onert -q -p2800 PARM=ONEPARM DFS=(NATSRV2800,localhost:1971,L,,NOSERVDIR))
+[07/28/2023 13:39:52.949]	Listener has been started. Port number: 2800
+[07/28/2023 13:55:34.672]	Natural Development Server (2800) stopped.
+[07/28/2023 13:55:41.125]	Details set. Port number: 0
+[07/28/2023 13:55:41.134]	Prepare start - check ini file. Port number: 0
+[07/28/2023 13:55:41.140]	Prepare start - check if started. Port number: 0
+[07/28/2023 13:55:41.151]	Prepare start - create folders. Port number: 0
+[07/28/2023 13:55:41.164]	Prepare start - ended. Port number: 0
+[07/28/2023 13:55:44.324]	Natural Development Server (2800) started. (Parameters: -onert -q -p2800 PARM=ONEPARM DFS=(NATSRV2800,localhost:1971,L,,NOSERVDIR))
+[07/28/2023 13:55:44.334]	Listener has been started. Port number: 2800
+[07/31/2023 08:01:42.103]	Details set. Port number: 2800
+[07/31/2023 08:01:42.111]	Prepare start - check ini file. Port number: 2800
+[07/31/2023 08:01:42.119]	Prepare start - check if started. Port number: 2800
+[07/31/2023 08:01:42.126]	Prepare start - create folders. Port number: 2800
+[07/31/2023 08:01:42.150]	Prepare start - ended. Port number: 2800
+[07/31/2023 08:01:45.424]	Natural Development Server (2800) started. (Parameters: -onert -q -p2800 PARM=ONEPARM DFS=(NATSRV2800,localhost:1971,L,,NOSERVDIR))
+[07/31/2023 08:01:45.431]	Listener has been started. Port number: 2800
+[07/31/2023 17:01:19.445]	Natural Development Server (2800) stopped.
+[08/01/2023 07:58:32.944]	Details set. Port number: 0
+[08/01/2023 07:58:32.952]	Prepare start - check ini file. Port number: 0
+[08/01/2023 07:58:32.958]	Prepare start - check if started. Port number: 0
+[08/01/2023 07:58:32.965]	Prepare start - create folders. Port number: 0
+[08/01/2023 07:58:32.988]	Prepare start - ended. Port number: 0
+[08/01/2023 07:58:36.188]	Natural Development Server (2800) started. (Parameters: -onert -q -p2800 PARM=ONEPARM DFS=(NATSRV2800,localhost:1971,L,,NOSERVDIR))
+[08/01/2023 07:58:36.195]	Listener has been started. Port number: 2800
+[08/02/2023 13:47:51.509]	Details set. Port number: 2800
+[08/02/2023 13:47:51.518]	Prepare start - check ini file. Port number: 2800
+[08/02/2023 13:47:51.525]	Prepare start - check if started. Port number: 2800
+[08/02/2023 13:47:51.531]	Prepare start - create folders. Port number: 2800
+[08/02/2023 13:47:51.566]	Prepare start - ended. Port number: 2800
+[08/02/2023 13:47:54.817]	Natural Development Server (2800) started. (Parameters: -onert -q -p2800 PARM=ONEPARM DFS=(NATSRV2800,localhost:1971,L,,NOSERVDIR))
+[08/02/2023 13:47:54.824]	Listener has been started. Port number: 2800
+[08/15/2023 11:45:13.834]	Details set. Port number: 2800
+[08/15/2023 11:45:13.842]	Prepare start - check ini file. Port number: 2800
+[08/15/2023 11:45:13.850]	Prepare start - check if started. Port number: 2800
+[08/15/2023 11:45:13.856]	Prepare start - create folders. Port number: 2800
+[08/15/2023 11:45:13.878]	Prepare start - ended. Port number: 2800
+[08/15/2023 11:45:17.102]	Natural Development Server (2800) started. (Parameters: -onert -q -p2800 PARM=ONEPARM DFS=(NATSRV2800,localhost:1971,L,,NOSERVDIR))
+[08/15/2023 11:45:17.108]	Listener has been started. Port number: 2800
+[08/15/2023 13:14:20.464]	Natural Development Server (2800) stopped.
+[08/17/2023 15:36:40.889]	Details set. Port number: 0
+[08/17/2023 15:36:40.896]	Prepare start - check ini file. Port number: 0
+[08/17/2023 15:36:40.907]	Prepare start - check if started. Port number: 0
+[08/17/2023 15:36:40.914]	Prepare start - create folders. Port number: 0
+[08/17/2023 15:36:40.939]	Prepare start - ended. Port number: 0
+[08/17/2023 15:36:44.212]	Natural Development Server (2800) started. (Parameters: -onert -q -p2800 PARM=ONEPARM DFS=(NATSRV2800,localhost:1971,L,,NOSERVDIR))
+[08/17/2023 15:36:44.218]	Listener has been started. Port number: 2800
+[08/18/2023 09:55:07.989]	Details set. Port number: 2800
+[08/18/2023 09:55:07.999]	Prepare start - check ini file. Port number: 2800
+[08/18/2023 09:55:08.007]	Prepare start - check if started. Port number: 2800
+[08/18/2023 09:55:08.015]	Prepare start - create folders. Port number: 2800
+[08/18/2023 09:55:08.040]	Prepare start - ended. Port number: 2800
+[08/18/2023 09:55:11.359]	Natural Development Server (2800) started. (Parameters: -onert -q -p2800 PARM=ONEPARM DFS=(NATSRV2800,localhost:1971,L,,NOSERVDIR))
+[08/18/2023 09:55:11.369]	Listener has been started. Port number: 2800
+[08/18/2023 10:26:38.646]	Natural Development Server (2800) stopped.

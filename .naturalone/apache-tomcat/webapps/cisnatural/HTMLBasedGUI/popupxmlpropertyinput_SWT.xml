@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.EditorXMLPropertyInputAdapter6" translationreference="CIS_XMLDATA" casaindex="1" >
+
+
+        <header withdistance="false" casaindex="2" >
+
+
+                <button textid="xe.btn.saveAndClose" method="onSave" image="../HTMLBasedGUI/images/save.gif" visibleprop="canBeSaved" invisiblemode="disabled" imagedisabled="../HTMLBasedGUI/images/saveinactive.gif" casaindex="3" >
+
+
+                </button>
+
+
+                <button textid="xe.btn.cancel" method="closePage" invisiblemode="disabled" casaindex="4" >
+
+
+                </button>
+
+
+        </header>
+
+
+        <pagebody takefullheight="true" casaindex="5" >
+
+
+                <vdist casaindex="6" >
+
+
+                </vdist>
+
+
+                <itr takefullwidth="true" height="100%" casaindex="7" >
+
+
+                        <coltable0 width="100%" takefullheight="true" casaindex="8" >
+
+
+                                <rowtabsubpages pagesprop="tabPageInfo" triggerserver="true" height="100%" borderwidth="0" pagestyle="border-right:0" casaindex="9" >
+
+
+                                </rowtabsubpages>
+
+
+                        </coltable0>
+
+
+                        <coltable0 width="350" takefullheight="true" casaindex="10" >
+
+
+                                <itr takefullwidth="true" height="100%" casaindex="11" >
+
+
+                                        <subpage valueprop="editorHelpURL" height="100%" width="100%" pagestyle="border:0" casaindex="12" >
+
+
+                                        </subpage>
+
+
+                                </itr>
+
+
+                        </coltable0>
+
+
+                </itr>
+
+
+                <vdist casaindex="13" >
+
+
+                </vdist>
+
+
+                <rowdynavis valueprop="modeVis" height="100" casaindex="14" >
+
+
+                        <rowareawithheader withtoppadding="false" casaindex="15" >
+
+
+                                <rowareaheader textid="xe.addNewMode" casaindex="16" >
+
+
+                                        <hdist width="100%" casaindex="17" >
+
+
+                                        </hdist>
+
+
+                                        <icon image="../HTMLBasedGUI/images/close.gif" method="onCancelNewMode" valign="middle" casaindex="18" >
+
+
+                                        </icon>
+
+
+                                        <hdist width="2" casaindex="19" >
+
+
+                                        </hdist>
+
+
+                                </rowareaheader>
+
+
+                                <rowareabody casaindex="20" >
+
+
+                                        <itr casaindex="21" >
+
+
+                                                <label textid="xe.modeName" width="100" casaindex="22" >
+
+
+                                                </label>
+
+
+                        <field xsdType="xs:string" valueprop="modeName" width="200" casaindex="23" >
+
+                        </field>
+
+                                        </itr>
+
+
+                                        <vdist casaindex="24" >
+
+
+                                        </vdist>
+
+
+                                        <itr casaindex="25" >
+
+
+                                                <hdist width="100" casaindex="26" >
+
+
+                                                </hdist>
+
+
+                                                <button textid="xe.btn.createExecute" method="onSaveNewMode" casaindex="27" >
+
+
+                                                </button>
+
+
+                                        </itr>
+
+
+                                        <vdist casaindex="28" >
+
+
+                                        </vdist>
+
+
+                                        <itr casaindex="29" >
+
+
+                                                <hdist width="100" casaindex="30" >
+
+
+                                                </hdist>
+
+
+                                                <label textid="xe.createNewModeHelp" asplaintext="true" casaindex="31" >
+
+
+                                                </label>
+
+
+                                        </itr>
+
+
+                                        <vdist casaindex="32" >
+
+
+                                        </vdist>
+
+
+                                </rowareabody>
+
+
+                        </rowareawithheader>
+
+
+                        <vdist casaindex="33" >
+
+
+                        </vdist>
+
+
+                </rowdynavis>
+
+
+        </pagebody>
+
+
+        <statusbar withdistance="false" casaindex="34" >
+
+
+        </statusbar>
+
+
+</page>

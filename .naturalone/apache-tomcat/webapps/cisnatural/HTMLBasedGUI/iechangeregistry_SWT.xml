@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="DummyAdapter" translationreference="demos" casaindex="1" >
+
+
+        <titlebar textid="iechangereg.titlebar0" closetitletextid="closePage" casaindex="2" >
+
+
+        </titlebar>
+
+
+        <header withdistance="false" casaindex="3" >
+
+
+                <button textid="iechangereg.button0" casaindex="4" >
+
+
+                </button>
+
+
+        </header>
+
+
+        <pagebody casaindex="5" >
+
+
+        </pagebody>
+
+
+        <statusbar withdistance="false" casaindex="6" >
+
+
+        </statusbar>
+
+
+</page>

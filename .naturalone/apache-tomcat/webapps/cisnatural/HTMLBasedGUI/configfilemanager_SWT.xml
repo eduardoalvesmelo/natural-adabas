@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.config.ConfigFileManagerAdapter" translationreference="demos" casaindex="1" >
+
+
+        <titlebar valueprop="title" closetitletextid="closePage" casaindex="2" >
+
+
+                <helpicon helpid="configurationmanager" titletextid="conFileMan.helpicon0" casaindex="3" >
+
+
+                </helpicon>
+
+
+        </titlebar>
+
+
+        <header align="left" withdistance="false" casaindex="4" >
+
+
+                <menu menucollectionprop="menu" casaindex="5" >
+
+
+                </menu>
+
+
+        </header>
+
+
+        <pagebody horizdist="false" paddingleft="5" takefullheight="true" casaindex="6" >
+
+
+                <rowdynavis height="100%" valueprop="fileOverviewVisible" casaindex="7" >
+
+
+                        <clienttree height="100%" imageclosed="../HTMLBasedGUI/images/config.gif" imageendnode="../HTMLBasedGUI/images/sort0.gif" imageopened="../HTMLBasedGUI/images/config.gif" selectionvisible="true" singleselect="true" treecollectionprop="files" withplusminus="true" casaindex="8" >
+
+
+                        </clienttree>
+
+
+                </rowdynavis>
+
+
+                <rowdynavis height="100%" valueprop="differencesVisible" casaindex="9" >
+
+
+                        <vdist height="8" casaindex="10" >
+
+
+                        </vdist>
+
+
+                        <itr height="100%" width="100%" casaindex="11" >
+
+
+                                <hdist casaindex="12" >
+
+
+                                </hdist>
+
+
+                                <coltable0 takefullheight="true" width="50%" casaindex="13" >
+
+
+                                        <rowarea textid="conFileMan.rowarea0" withtoppadding="false" casaindex="14" >
+
+
+                                                <itr casaindex="15" >
+
+
+                                                        <label textid="conFileMan.label0" width="100" casaindex="16" >
+
+
+                                                        </label>
+
+
+                                                        <hdist casaindex="17" >
+
+
+                                                        </hdist>
+
+
+                            <field xsdType="xs:string" popupinputonly="true" popupmethod="openIdValueCombo" valueprop="configFileName" width="100%" casaindex="18" >
+
+                            </field>
+
+                                                        <hdist casaindex="19" >
+
+
+                                                        </hdist>
+
+
+                                                </itr>
+
+
+                                                <itr casaindex="20" >
+
+
+                                                        <label textid="conFileMan.label1" width="100" casaindex="21" >
+
+
+                                                        </label>
+
+
+                                                        <hdist casaindex="22" >
+
+
+                                                        </hdist>
+
+
+                            <field xsdType="xs:string" popupinputonly="true" popupmethod="openIdValueCombo" valueprop="safetyCopyFileName" width="100%" casaindex="23" >
+
+                            </field>
+
+                                                        <hdist casaindex="24" >
+
+
+                                                        </hdist>
+
+
+                                                </itr>
+
+
+                                        </rowarea>
+
+
+                                        <vdist height="10" casaindex="25" >
+
+
+                                        </vdist>
+
+
+                                        <itr casaindex="26" >
+
+
+                                                <label asplaintext="true" labelstyle="color:#CC0000; font-weight:bold" textid="conFileMan.label2" casaindex="27" >
+
+
+                                                </label>
+
+
+                                        </itr>
+
+
+                                        <itr height="100%" width="100%" casaindex="28" >
+
+
+                                                <text height="100%" valueprop="configFile" width="100%" casaindex="29" >
+
+
+                                                </text>
+
+
+                                        </itr>
+
+
+                                </coltable0>
+
+
+                                <hdist width="5" casaindex="30" >
+
+
+                                </hdist>
+
+
+                                <coltable0 takefullheight="true" width="50%" casaindex="31" >
+
+
+                                        <itr casaindex="32" >
+
+
+                                                <hdist width="100%" casaindex="33" >
+
+
+                                                </hdist>
+
+
+                                                <button image="../HTMLBasedGUI/images/filelist.gif" method="onOpenOverview" textid="conFileMan.button0" casaindex="34" >
+
+
+                                                </button>
+
+
+                                        </itr>
+
+
+                                        <itr width="100%" casaindex="35" >
+
+
+                                                <label asplaintext="true" textid="conFileMan.label3" width="100%" casaindex="36" >
+
+
+                                                </label>
+
+
+                                        </itr>
+
+
+                                        <vdist height="38" casaindex="37" >
+
+
+                                        </vdist>
+
+
+                                        <itr casaindex="38" >
+
+
+                                                <textout textcolor="#CC0000" textoutstyle="font-weight: bold" valueprop="safetyCopyFileName" casaindex="39" >
+
+
+                                                </textout>
+
+
+                                        </itr>
+
+
+                                        <itr height="100%" width="100%" casaindex="40" >
+
+
+                                                <text displayonly="true" height="100%" valueprop="safetyCopy" width="100%" casaindex="41" >
+
+
+                                                </text>
+
+
+                                        </itr>
+
+
+                                </coltable0>
+
+
+                                <hdist casaindex="42" >
+
+
+                                </hdist>
+
+
+                        </itr>
+
+
+                        <vdist casaindex="43" >
+
+
+                        </vdist>
+
+
+                        <itr width="100%" casaindex="44" >
+
+
+                                <hdist casaindex="45" >
+
+
+                                </hdist>
+
+
+                                <button image="../HTMLBasedGUI/images/search.gif" method="onDiff" textid="conFileMan.button1" width="100%" casaindex="46" >
+
+
+                                </button>
+
+
+                                <hdist casaindex="47" >
+
+
+                                </hdist>
+
+
+                        </itr>
+
+
+                </rowdynavis>
+
+
+                <vdist casaindex="48" >
+
+
+                </vdist>
+
+
+        </pagebody>
+
+
+        <statusbar withdistance="false" casaindex="49" >
+
+
+        </statusbar>
+
+
+</page>

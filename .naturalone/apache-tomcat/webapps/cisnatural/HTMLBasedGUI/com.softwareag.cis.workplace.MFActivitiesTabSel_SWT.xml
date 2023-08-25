@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.workplace.MFActivitiesAdapter" occupiedpixelheight="0" occupiedpixelwidth="0" casaindex="1" >
+
+
+        <pagebody vscroll="hidden" hscroll="hidden" horizdist="false" casaindex="2" >
+
+
+                <vdist casaindex="3" >
+
+
+                </vdist>
+
+
+                <tabsel tabselprop="tabSelInfo" casaindex="4" >
+
+
+                </tabsel>
+
+
+                <dlmenu menuprop="menuData" align="center" onlyoneline="true" casaindex="5" >
+
+
+                </dlmenu>
+
+
+                <rowdiv height="100" divclass="WORKPLACEBelowTitle" casaindex="6" >
+
+
+                </rowdiv>
+
+
+        </pagebody>
+
+
+</page>

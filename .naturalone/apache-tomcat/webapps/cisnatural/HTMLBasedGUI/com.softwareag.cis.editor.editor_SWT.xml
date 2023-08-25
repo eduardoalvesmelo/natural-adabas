@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?><page ispopup="true" model="com.softwareag.cis.editor.EditorModel" popupheight="768" popupwidth="1024" translationreference="editor" casaindex="1" >
+
+
+        <titlebar valueprop="titlebar" closetitletextid="closePage" casaindex="2" >
+
+
+        </titlebar>
+
+
+        <header withdistance="false" casaindex="3" >
+
+
+                <button method="newFile" textid="buttonNew" casaindex="4" >
+
+
+                </button>
+
+
+                <button method="openFile" textid="buttonOpen" casaindex="5" >
+
+
+                </button>
+
+
+                <button method="save" textid="buttonSave" casaindex="6" >
+
+
+                </button>
+
+
+                <button method="saveAs" textid="buttonSaveAs" casaindex="7" >
+
+
+                </button>
+
+
+                <icon image="images/distance.gif" casaindex="8" >
+
+
+                </icon>
+
+
+                <button method="generateAndSaveHTML" textid="buttonPublish" casaindex="9" >
+
+
+                </button>
+
+
+                <icon image="images/distance.gif" casaindex="10" >
+
+
+                </icon>
+
+
+                <button method="endProcess" textid="buttonExit" casaindex="11" >
+
+
+                </button>
+
+
+        </header>
+
+
+        <pagebody verticalscrollbar="true" casaindex="12" >
+
+
+                <tr casaindex="13" >
+
+
+                        <td casaindex="14" >
+
+
+                                <table0 casaindex="15" >
+
+
+                                        <tr casaindex="16" >
+
+
+                                                <td valign="top" width="314" casaindex="17" >
+
+
+                                                        <table0 width="100%" casaindex="18" >
+
+
+                                                                <rowarea textid="areaNodes" casaindex="19" >
+
+
+                                                                        <tr casaindex="20" >
+
+
+                                                                                <td width="100%" casaindex="21" >
+
+
+                                                                                        <tablearea indexchange="20" maxindexprop="nodesMaxIndex" rowcountprop="nodesRowCount" topindexprop="nodesTopIndex" width="282" withborder="false" casaindex="22" >
+
+
+                                                                                                <tr casaindex="23" >
+
+
+                                                                                                        <label asheadline="true" textid="headlineTag" width="282" casaindex="24" >
+
+
+                                                                                                        </label>
+
+
+                                                                                                </tr>
+
+
+                                                                                                <repeat to="19" casaindex="25" >
+
+
+                                                                                                        <tr casaindex="26" >
+
+
+                                                                                                                <treenode imageclosed="images/xmlclosed.gif" imageendnode="images/xmlendnode.gif" imageopened="images/xmlopened.gif" index="$i$" indexprop="selectedNodeIndex" levelprop="nodes[$i$].hierarchyLevel" method="toggleNode" openedprop="nodes[$i$].opened" selectmethod="selectNode" textprop="nodes[$i$].displayName" width="1000" casaindex="27" >
+
+
+                                                                                                                </treenode>
+
+
+                                                                                                        </tr>
+
+
+                                                                                                </repeat>
+
+
+                                                                                        </tablearea>
+
+
+                                                                                </td>
+
+
+                                                                        </tr>
+
+
+                                                                        <vdist casaindex="28" >
+
+
+                                                                        </vdist>
+
+
+                                                                        <vdist casaindex="29" >
+
+
+                                                                        </vdist>
+
+
+                                                                        <tr casaindex="30" >
+
+
+                                                                                <td colspan="10" casaindex="31" >
+
+
+                                                                                        <icon image="images/arrowup.gif" method="moveNodeUp" titletextid="editor.icon26" withdistance="false" withtd="false" casaindex="32" >
+
+
+                                                                                        </icon>
+
+
+                                                                                        <icon image="images/arrowdown.gif" method="moveNodeDown" titletextid="editor.icon27" withdistance="false" withtd="false" casaindex="33" >
+
+
+                                                                                        </icon>
+
+
+                                                                                        <icon image="images/distance.gif" withdistance="false" withtd="false" casaindex="34" >
+
+
+                                                                                        </icon>
+
+
+                                                                                        <icon image="images/remove.gif" method="removeNode" titletextid="editor.icon28" withdistance="false" withtd="false" casaindex="35" >
+
+
+                                                                                        </icon>
+
+
+                                                                                        <icon image="images/distance.gif" withdistance="false" withtd="false" casaindex="36" >
+
+
+                                                                                        </icon>
+
+
+                                                                                        <icon image="images/cut.gif" method="cut" titletextid="editor.icon29" withdistance="false" withtd="false" casaindex="37" >
+
+
+                                                                                        </icon>
+
+
+                                                                                        <icon image="images/copy.gif" method="copy" titletextid="editor.icon30" withdistance="false" withtd="false" casaindex="38" >
+
+
+                                                                                        </icon>
+
+
+                                                                                        <icon image="images/paste.gif" method="paste" titletextid="editor.icon31" withdistance="false" withtd="false" casaindex="39" >
+
+
+                                                                                        </icon>
+
+
+                                                                                </td>
+
+
+                                                                        </tr>
+
+
+                                                                </rowarea>
+
+
+                                                                <vdist casaindex="40" >
+
+
+                                                                </vdist>
+
+
+                                                                <tr casaindex="41" >
+
+
+                                                                        <td casaindex="42" >
+
+
+                                                                                <tabarea height="100" page1="DIVATTRIBUTES" page2="DIVSUBNODES" textid1="areaAttributes" textid2="areaSubnodes" width="100%" casaindex="43" >
+
+
+                                                                                        <tabpage height="157" id="DIVATTRIBUTES" casaindex="44" >
+
+
+                                                                                                <tr casaindex="45" >
+
+
+                                                                                                        <td casaindex="46" >
+
+
+                                                                                                                <tablearea indexchange="5" maxindexprop="attributesMaxIndex" rowcountprop="attributesRowCount" topindexprop="attributesTopIndex" casaindex="47" >
+
+
+                                                                                                                        <tr casaindex="48" >
+
+
+                                                                                                                                <label asheadline="true" textid="labelAttribute" casaindex="49" >
+
+
+                                                                                                                                </label>
+
+
+                                                                                                                                <label asheadline="true" textid="labelValue" casaindex="50" >
+
+
+                                                                                                                                </label>
+
+
+                                                                                                                        </tr>
+
+
+                                                                                                                        <repeat to="4" casaindex="51" >
+
+
+                                                                                                                                <tr casaindex="52" >
+
+
+                                                                                                                                        <textout valueprop="attributes[$i$].attribute" width="160" casaindex="53" >
+
+
+                                                                                                                                        </textout>
+
+
+                                                                    <field xsdType="xs:string" helptext="attribute.html" length="17" popupmethod="openIdValueHelp" popupprop="attributes[$i$].popupAvailable" valueprop="attributes[$i$].value" casaindex="54" >
+
+                                                                    </field>
+
+                                                                                                                                </tr>
+
+
+                                                                                                                        </repeat>
+
+
+                                                                                                                </tablearea>
+
+
+                                                                                                        </td>
+
+
+                                                                                                </tr>
+
+
+                                                                                        </tabpage>
+
+
+                                                                                        <tabpage display="none" height="157" id="DIVSUBNODES" casaindex="55" >
+
+
+                                                                                                <tr casaindex="56" >
+
+
+                                                                                                        <textgrid height="128" selectprop="selected" singleselect="true" valueprop="validSubNodes" width="100%" casaindex="57" >
+
+
+                                                                                                                <column property="tagName" textid="headlineTagName" width="277" casaindex="58" >
+
+
+                                                                                                                </column>
+
+
+                                                                                                        </textgrid>
+
+
+                                                                                                </tr>
+
+
+                                                                                                <vdist casaindex="59" >
+
+
+                                                                                                </vdist>
+
+
+                                                                                                <tr casaindex="60" >
+
+
+                                                                                                        <td colspan="10" casaindex="61" >
+
+
+                                                                                                                <button method="addSubNodeFirst" textid="buttonAddFirst" withtd="false" casaindex="62" >
+
+
+                                                                                                                </button>
+
+
+                                                                                                                <button method="addSubNodeLast" textid="buttonAddLast" withtd="false" casaindex="63" >
+
+
+                                                                                                                </button>
+
+
+                                                                                                        </td>
+
+
+                                                                                                </tr>
+
+
+                                                                                        </tabpage>
+
+
+                                                                                </tabarea>
+
+
+                                                                        </td>
+
+
+                                                                </tr>
+
+
+                                                        </table0>
+
+
+                                                </td>
+
+
+                                                <hdist casaindex="64" >
+
+
+                                                </hdist>
+
+
+                                                <td valign="top" width="400" casaindex="65" >
+
+
+                                                        <table0 width="100%" casaindex="66" >
+
+
+                                                                <rowarea textid="areaPreview" casaindex="67" >
+
+
+                                                                        <tr casaindex="68" >
+
+
+                                                                                <td casaindex="69" >
+
+
+                                                                                        <subpage height="636" id="HTMLVIEWIFRAME" pageheightminus="58" pagewidthminus="360" valueprop="htmlPreview" width="665" casaindex="70" >
+
+
+                                                                                        </subpage>
+
+
+                                                                                </td>
+
+
+                                                                        </tr>
+
+
+                                                                        <vdist casaindex="71" >
+
+
+                                                                        </vdist>
+
+
+                                                                        <itr casaindex="72" >
+
+
+                                                                                <button method="generateHTML" textid="buttonPreview" casaindex="73" >
+
+
+                                                                                </button>
+
+
+                                                                                <hdist casaindex="74" >
+
+
+                                                                                </hdist>
+
+
+                                                                                <button method="createNewClassLoader" textid="buttonNewApp" casaindex="75" >
+
+
+                                                                                </button>
+
+
+                                                                                <hdist casaindex="76" >
+
+
+                                                                                </hdist>
+
+
+                                                                                <icon image="images/distance.gif" casaindex="77" >
+
+
+                                                                                </icon>
+
+
+                                                                                <hdist casaindex="78" >
+
+
+                                                                                </hdist>
+
+
+                                                                                <menubutton menuposition="above" textid="menubuttonView" casaindex="79" >
+
+
+                                                                                        <menuitem method="viewProtocol" pixelwidth="200" textid="editor.menuitem0" casaindex="80" >
+
+
+                                                                                        </menuitem>
+
+
+                                                                                        <menuitem method="viewLog" pixelwidth="200" textid="buttonViewLog" casaindex="81" >
+
+
+                                                                                        </menuitem>
+
+
+                                                                                        <menuitem method="viewXML" pixelwidth="200" textid="buttonViewXML" casaindex="82" >
+
+
+                                                                                        </menuitem>
+
+
+                                                                                        <menuitem method="viewAsPopup" pixelwidth="200" textid="editor.menuitem1" casaindex="83" >
+
+
+                                                                                        </menuitem>
+
+
+                                                                                </menubutton>
+
+
+                                                                        </itr>
+
+
+                                                                </rowarea>
+
+
+                                                        </table0>
+
+
+                                                </td>
+
+
+                                        </tr>
+
+
+                                </table0>
+
+
+                        </td>
+
+
+                </tr>
+
+
+        </pagebody>
+
+
+        <statusbar longtextprop="messageLongText" shorttextprop="messageShortText" typeprop="messageType" withdistance="false" casaindex="84" >
+
+
+        </statusbar>
+
+
+        <hotkeys casaindex="85" >
+
+
+                <hotkey ctrlkey="true" keycode="83" method="save" casaindex="86" >
+
+
+                </hotkey>
+
+
+        </hotkeys>
+
+
+</page>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.admin.EditorExtensionTagAdapter" translationreference="editor" stylesheetfile="../cis/styles/CIS_DEFAULT.css" darkbackground="true" casaindex="1" >
+
+
+        <pagebody horizdist="false" takefullheight="true" paddingtop="5" casaindex="2" >
+
+
+                <itr height="100%" fixlayout="true" width="100%" casaindex="3" >
+
+
+                        <coltable0 width="100%" takefullheight="true" casaindex="4" >
+
+
+                                <rowtablearea2 griddataprop="attributes" rowcount="25" height="100%" width="100%" withborder="true" hscroll="true" casaindex="5" >
+
+
+                                        <tr casaindex="6" >
+
+
+                                                <label textid="label.name" asheadline="true" height="15" labelstyle="padding-top: 1px;padding-left: 2px; font-size: 10px; font-weight: bold" casaindex="7" >
+
+
+                                                </label>
+
+
+                                                <label textid="label.defvalue" asheadline="true" height="15" labelstyle="padding-top: 1px;padding-left: 2px; font-size: 10px; font-weight: bold" casaindex="8" >
+
+
+                                                </label>
+
+
+                                        </tr>
+
+
+                                        <repeat casaindex="9" >
+
+
+                                                <str valueprop="selected" casaindex="10" >
+
+
+                            <field xsdType="xs:string" valueprop="name" width="50%" displayonly="true" noborder="true" casaindex="11" >
+
+                            </field>
+
+                            <field xsdType="xs:string" valueprop="defaultValue" width="50%" statusprop="defaultValueStatus" noborder="true" casaindex="12" >
+
+                            </field>
+
+                                                </str>
+
+
+                                        </repeat>
+
+
+                                </rowtablearea2>
+
+
+                                <vdist casaindex="13" >
+
+
+                                </vdist>
+
+
+                        </coltable0>
+
+
+                        <hdist width="5" casaindex="14" >
+
+
+                        </hdist>
+
+
+                        <coltable0 widthprop="helpAreaWidth" takefullheight="true" casaindex="15" >
+
+
+                                <tr casaindex="16" >
+
+
+                                        <ihtml valueprop="tabXMLDefaultsHTML" width="100%" height="100%" casaindex="17" >
+
+
+                                        </ihtml>
+
+
+                                </tr>
+
+
+                        </coltable0>
+
+
+                        <coltable0 width="20" casaindex="18" >
+
+
+                                <tr casaindex="19" >
+
+
+                                        <icon image="images/scrolllastpage.gif" method="onHidelHelp" titletextid="icon.label.hidehelp" casaindex="20" >
+
+
+                                        </icon>
+
+
+                                </tr>
+
+
+                                <vdist casaindex="21" >
+
+
+                                </vdist>
+
+
+                                <tr casaindex="22" >
+
+
+                                        <icon image="images/scrollfirstpage.gif" method="onShowHelp" titletextid="icon.label.showhelp" casaindex="23" >
+
+
+                                        </icon>
+
+
+                                </tr>
+
+
+                        </coltable0>
+
+
+                </itr>
+
+
+        </pagebody>
+
+
+</page>

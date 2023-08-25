@@ -1,0 +1,20 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** New Function FUN1.
+/**
+/** :author eduar
+/* TODO Enter your code here
+DEFINE FUNCTION FUN1
+    returns #return (n2)
+*
+define data parameter
+    1 #value-param (n2)
+end-define    
+*
+    #return := #value-param * 5
+*
+END-FUNCTION
+*
+END

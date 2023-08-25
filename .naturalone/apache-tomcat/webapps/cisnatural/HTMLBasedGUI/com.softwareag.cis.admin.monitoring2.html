@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'>
+<script>var m_perfPageLoadStart = new Date();
+var m_perfPageLoadEnd = null;
+var m_perfPageFocusEnd = null;</script>
+<link id="casabacstylesheet" rel="stylesheet" type="text/css" href="../cis/styles/CIS_DEFAULT.css">
+<script>
+var CASAstylesheetfile = '../cis/styles/CIS_DEFAULT.css';
+</script>
+<style>
+html {height:100%;}
+body {height:100%;}
+</style>
+</head>
+<body id='THISBODY' oncontextmenu='try { return C.reactOnContextMenuRequestPAGE(event); } catch(e) {}' onmousemove='try { return moveDrag(event); } catch(exc) {}' onmouseup='try { endDrag(event);C.CL().checkMozIO(parent); } catch (exc) {}' onkeydown='try { processHotKeys(event); } catch (exc) {}' class='PAGEBody' style='margin: 0' onclick='try { C.clickAway(); } catch (exc) {}; try { C.reactOnClickPage(event); } catch (exc) {}' onresize='try { reactOnResize(); } catch (exc) {}'	onload=' try { reactOnResize(); } catch (exc) {}'	onhelp='C.reactOnHelpPAGE(); return false;'  tabindex='-1' onblur='try { C.onBlurPAGE(event); } catch(e) {}' onfocus='try { C.onFocusPAGE(); } catch(e) {}' onmousewheel='if (event.shiftKey) C.CL().cancelEvent(event);' onwheel='if (event.shiftKey) C.CL().cancelEvent(event);' onmouseleave='try { return removeTHISOCCUPIED(); } catch(exc) {}' onmouseout ='try { return removeTHISOCCUPIED(); } catch(exc) {}'>
+<script>
+function gebid(pid) { return document.getElementById(pid); }
+var m_isSafari = navigator.userAgent.toLowerCase().indexOf( 'safari' ) != -1;
+function isSafari() { return m_isSafari; }
+function createFunction(name,param,code) { window[name] = new Function(param,code); return window[name]; }
+function createElement(name) { return document.createElement(name); }
+var N = null;
+function icc(iccMethodName, baseIndex, s) { C.addIccInfo(iccMethodName, baseIndex, s); iccExec(iccMethodName, s); }
+function iccExec(iccMethodName, s) {
+var o = C.decodeString(s,',');
+for (var i=0; i<o.length; i++) o[i] = eval(o[i]);
+eval(iccMethodName)(o[0],o[1],o[2],o[3],o[4],o[5],o[6],o[7],o[8],o[9],o[10],o[11],o[12],o[13],o[14],o[15],o[16],o[17],o[18],o[19],o[20],o[21],o[22],o[23],o[24],o[25],o[26],o[27],o[28],o[29],o[30],o[31],o[32],o[33],o[34],o[35],o[36],o[37],o[38],o[39],o[40],o[41],o[42],o[43],o[44],o[45],o[46],o[47],o[48],o[49]);
+}
+m_startPageDate = new Date();
+var m_pageCompletelyBuilt = false;
+var m_fillTextIdListeners = [];
+var m_flagResize = true;
+var m_centralContextMenu =false;
+function registerFillTextIdListener(listener)
+{
+m_fillTextIdListeners.push(listener);
+}
+</script>
+<table id='JUSTLOADING' style='table-layout: fixed;z-index: 100;cursor: progress; position: absolute; left: 0; top: 0; width: 100%; height: 100%' class='PAGEBody'>
+<tr><td align="center" valign="middle" class='FLASHPageSwitch'>&nbsp;</td></tr>
+</table>
+<table id='THISPAGE' cellspacing='0' cellpadding='0'  style='table-layout: auto;width:100%;height:100%;display:none'>
+<tr id="TITLEBARTITLEBARTR"  style=" ">
+<td colspan='50' width='100%' height='0' align='center'>
+<table width='100%' cellspacing=0 cellpadding=0 class="TITLEBARTable">
+<tr>
+<td width='100%'>
+<table id="TITLEBARTITLEBAR" width="100%" cellspacing=2 cellpadding=0 style='table-layout: fixed'>
+<tr>
+<td width="100%" class="TDAroundControl" >
+<div nowrap="true" class="TITLEBARCell" style="overflow-x: hidden;">&nbsp;<span id="$2">$monitoringTitle</span>&nbsp;</div>
+</td>
+</tr>
+</table>
+</td>
+<td width=0>
+<table width=0 cellspacing=0 cellpadding=0>
+<tr>
+<td id='TITLEBAR2CLOSE' title="$closePage" valign='middle' onmouseenter='if (C.checkIO() == false) return; C.CL().C_rollinIconROLLOVER(this);' onmouseleave='this.className = "ICONImage";' onclick='closePage2()'><div class='TITLEBARCellClose'>&nbsp;</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr id='TR3' >
+<td id="HDR3" colspan='50' width='100%' height='0' class="HEADERTopTable" style='padding-left:3px;padding-right:3px'>
+<a name="PC"></a><table id="HDRTA3" align="center" >
+<tr>
+<td id="TDB4"  width=0 colspan=1 rowspan=1 class='TDAroundControl' align='left' valign='middle' >
+<button type="button" id="B_4" data-testtoolid='refresh' style=" "  name="CC" class="BUTTONInput">$1$refresh$2$</button>
+</td>
+<td id="TDB5"  width=0 colspan=1 rowspan=1 class='TDAroundControl' align='left' valign='middle' >
+<button type="button" id="B_5" data-testtoolid='endProcess' style=" "  name="CC" class="BUTTONInput">$1$monit_button0$2$</button>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td  colspan='50' width='100%' height='100%' valign='top' >
+<div id='PAGEDIV6' style='width: 100%; height: 100%;overflow: auto;padding:0 3px 0 3px;'>
+<table width="100%" style='height:100%;' cellspacing="0" cellpadding="0" >
+<tr id='TRAREA7'>
+<td id='TDAREA7' colspan='50' width='100%'  valign='top' class='TDAroundControl' style='padding-top:3px'>
+<table cellspacing=0 cellpadding=0 class="AREATableOnTop" style='width:100%;'>
+<tr  onclick='toggleArea7(true);' style='cursor:pointer'>
+<td class='TDAroundControl' height='1px'>
+<table cellspacing=0 cellpadding=0 class='AREATableHeader'>
+<tr class="AREATitleRow" id='$T7' title="">
+<td><div id='AREALTC_7' class="AREALeftFromTitleCell" ></div></td>
+<td align = "left" valign="middle" nowrap='true' class="AREATitleCell" >
+<table cellspacing=0 cellpadding=0>
+<tr>
+<td></td>
+<td align = "left" valign="middle" nowrap='true' class="AREALinks">
+<a tabindex='1' ><span id='$7'>$memoryArea</span></a>
+</td>
+</tr>
+</table>
+</td>
+<td style='font-size:1px;height:100%'><div class="AREARightFromTitleCell" ></div></td>
+<td style='font-size:1px;width:100%;height:100%' valign='middle'><div class="AREARightFromTitleCellRemaining" ><table width='100%'><tr><td width='100%' style='font-size:1px'>&nbsp;</td><td><span id='RWH_SPAN_7' valign='middle' style='font-size:10px;height:100%;margin-right:6px'  class="AREAToggleImg" title="$toggletitle">&nbsp;&nbsp;&nbsp;</span></td></tr></table></div></td><td style='font-size:1px;height:100%'><div class="AREARightTopCell" ></div></td></tr>
+</table>
+</td>
+</tr>
+<tr>
+<td >
+<div id='AREADIV7' class="AREATableContent" style='padding:0 5px 0 5px;width:100%;'>
+<table border=0 cellspacing='0' cellpadding='0' width='100%' >
+<tr><td height="3px"></td></tr>
+<tr id='TR8'    >
+<td id='TD9'    colspan=1 rowspan=1 width='150px'  class="LABELCellNormal" style=" ;width:150px"  valign='middle'><div id="DIV9"  class="LABELDivText" style=" ;width:150px"><span id='$9'>$usedMemory</span>
+</div></td>
+<td  width=0   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_10" name="CC" class='FIELDInputEdit' data-testtoolid='usedMemory' type="text"    style=" "></td>
+</tr>
+<tr id='TR11'    >
+<td id='TD12'    colspan=1 rowspan=1 width='150px'  class="LABELCellNormal" style=" ;width:150px"  valign='middle'><div id="DIV12"  class="LABELDivText" style=" ;width:150px"><span id='$12'>$processMemory</span>
+</div></td>
+<td  width=0   style="overflow: hidden" class="TDAroundControl"  valign='middle'><input id="F_13" name="CC" class='FIELDInputEdit' data-testtoolid='totalMemory' type="text"    style=" "></td>
+<td id='HD14' class='TDAroundControl' style='font-size:1px' width=0><div style='font-size:1px;height:3px;width:3px'></div></td>
+<td id="TDB15"  width=0 colspan=1 rowspan=1 class='TDAroundControl' align='left' valign='middle' >
+<button type="button" id="B_15" data-testtoolid='collectGarbage' style=" "  name="CC" class="BUTTONInput">$1$collectGarbage$2$</button>
+</td>
+</tr>
+<tr><td height="3px"></td></tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr id='TRAREA16'>
+<td id='TDAREA16' colspan='50' width='100%' height='100%' valign='top' class='TDAroundControl' style='padding-top:3px'>
+<table cellspacing=0 cellpadding=0 class="AREATableOnTop" style='height:100%;width:100%;'>
+<tr  onclick='toggleArea16(true);' style='cursor:pointer'>
+<td class='TDAroundControl' height='1px'>
+<table cellspacing=0 cellpadding=0 class='AREATableHeader'>
+<tr class="AREATitleRow" id='$T16' title="">
+<td><div id='AREALTC_16' class="AREALeftFromTitleCell" ></div></td>
+<td align = "left" valign="middle" nowrap='true' class="AREATitleCell" >
+<table cellspacing=0 cellpadding=0>
+<tr>
+<td></td>
+<td align = "left" valign="middle" nowrap='true' class="AREALinks">
+<a tabindex='1' ><span id='$16'>$sessionsArea</span></a>
+</td>
+</tr>
+</table>
+</td>
+<td style='font-size:1px;height:100%'><div class="AREARightFromTitleCell" ></div></td>
+<td style='font-size:1px;width:100%;height:100%' valign='middle'><div class="AREARightFromTitleCellRemaining" ><table width='100%'><tr><td width='100%' style='font-size:1px'>&nbsp;</td><td><span id='RWH_SPAN_16' valign='middle' style='font-size:10px;height:100%;margin-right:6px'  class="AREAToggleImg" title="$toggletitle">&nbsp;&nbsp;&nbsp;</span></td></tr></table></div></td><td style='font-size:1px;height:100%'><div class="AREARightTopCell" ></div></td></tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height="100%">
+<div id='AREADIV16' class="AREATableContent" style='padding:0 5px 0 5px;width:100%;height:100%;min-height:100%; ;'>
+<table border=0 cellspacing='0' cellpadding='0' width='100%' height="100%">
+<tr><td height="3px"></td></tr>
+<tr id='ITR17'  >
+<td   valign='top' colspan='50' class='TDAroundControl' width='100%' height='100%'>
+<div id='ITRD17'  style='width: 100%; height:100%;'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;table-layout: fixed;' cellpadding=0 width='100%'><tr>
+<td width='100%' height='100%' colspan=1 rowspan=1 class='TDAroundControl'>
+<div onscroll='reactOnScroll18();'  id='TEXTGRIDDIV18' style='width:100%;height: 100%;overflow-x: scroll;overflow-y: scroll;' class='TEXTGRIDDiv' onresize='reactOnResize18()' onkeydown='reactOnKeyDown18(event);' oncontextmenu='C.parent.CASA_event = event; onContextMenuRequest18(null);event.stopPropagation(); return false;'>
+<span id='TEXTGRID18'></span></div></td>
+<script>
+var vColInfos18;
+function reactOnFillTextIds18() { C.reactOnFillTextIdsTEXTGRID(C_18); }
+function reactOnModelUpdate18(model) { C.reactOnModelUpdateTEXTGRID(C_18); }
+function selectRow18(rowIndex, ctrlKey, shiftKey, suppressSubmit) { C.selectRowTEXTGRID(C_18, rowIndex, ctrlKey, shiftKey, suppressSubmit); }
+function reactOnClick18(rowIndex) { C.reactOnClickTEXTGRID(C_18, rowIndex); }
+function reactOnDblClick18(rowIndex) { C.reactOnDblClickTEXTGRID(C_18, rowIndex); }
+function reactOnMouseDown18(evt) { return C.reactOnMouseDownTEXTGRID(C_18,evt); }
+function reactOnMouseUp18(evt) { return C.reactOnMouseUpTEXTGRID(C_18,evt);}
+function reactOnDblClickHeader18(evt) { return C.reactOnDoubleClickHeaderTEXTGRID(C_18,evt);}
+function reactOnResize18() { C.reactOnResizeTEXTGRID(C_18,C_DIV18); }
+function onContextMenuRequest18(rowIndex) { C.onContextMenuRequestROLLOVER(C_18, rowIndex); }
+function selectAllLines18() { C.selectAllLinesTEXTGRID(C_18); }
+function reactOnResizeMoz18() { C.reactOnResizeMozTEXTGRID(C_18,C_DIV18); }
+function reactOnKeyDown18(e) {if (e.keyCode == 40 && typeof C.onkey40TEXTGRID == 'function') C.onkey40TEXTGRID(C_18, C_DIV18, e); else if (e.keyCode == 38 && typeof C.onkey38TEXTGRID == 'function') C.onkey38TEXTGRID(C_18, C_DIV18, e); else if ((e.keyCode == 32 || e.keyCode == 13)  && typeof C.onkey32TEXTGRID == 'function') C.onkey32TEXTGRID(C_18, e); else if (e.keyCode == 33 && typeof C.onkey33TEXTGRID == 'function') C.onkey33TEXTGRID(C_18, C_DIV18, e); else if (e.keyCode == 34 && typeof C.onkey34TEXTGRID == 'function') C.onkey34TEXTGRID(C_18, C_DIV18, e);}
+function reactOnScroll18() {}
+</script>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr style=' ' ><td height="3px" class='TDAroundControl' ></td></tr>
+<tr id='ITR26'  >
+<td   valign='top' colspan='50' class='TDAroundControl'  height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 ><tr>
+<td id="TDB27"  width=0 colspan=1 rowspan=1 class='TDAroundControl' align='left' valign='middle' >
+<button type="button" id="B_27" data-testtoolid='remove' style=" "  name="CC" class="BUTTONInput">$1$remove$2$</button>
+</td>
+<td id='HD28' class='TDAroundControl' style='font-size:1px' width=0><div style='font-size:1px;height:3px;width:3px'></div></td>
+<td id="TDB29"  width=0 colspan=1 rowspan=1 class='TDAroundControl' align='left' valign='middle' >
+<button type="button" id="B_29" data-testtoolid='removeTEMPSessions' style=" "  name="CC" class="BUTTONInput">$1$removeTEMP$2$</button>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td height="3px"></td></tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr id='TRAREA30'>
+<td id='TDAREA30' colspan='50' width='100%'  valign='top' class='TDAroundControl' style='padding-top:3px'>
+<table cellspacing=0 cellpadding=0 class="AREATableOnTop" style='width:100%;'>
+<tr  onclick='toggleArea30(true);' style='cursor:pointer'>
+<td class='TDAroundControl' height='1px'>
+<table cellspacing=0 cellpadding=0 class='AREATableHeader'>
+<tr class="AREATitleRow" id='$T30' title="">
+<td><div id='AREALTC_30' class="AREALeftFromTitleCell" ></div></td>
+<td align = "left" valign="middle" nowrap='true' class="AREATitleCell" >
+<table cellspacing=0 cellpadding=0>
+<tr>
+<td></td>
+<td align = "left" valign="middle" nowrap='true' class="AREALinks">
+<a tabindex='1' ><span id='$30'>$systemmgmtArea</span></a>
+</td>
+</tr>
+</table>
+</td>
+<td style='font-size:1px;height:100%'><div class="AREARightFromTitleCell" ></div></td>
+<td style='font-size:1px;width:100%;height:100%' valign='middle'><div class="AREARightFromTitleCellRemaining" ><table width='100%'><tr><td width='100%' style='font-size:1px'>&nbsp;</td><td><span id='RWH_SPAN_30' valign='middle' style='font-size:10px;height:100%;margin-right:6px'  class="AREAToggleImg" title="$toggletitle">&nbsp;&nbsp;&nbsp;</span></td></tr></table></div></td><td style='font-size:1px;height:100%'><div class="AREARightTopCell" ></div></td></tr>
+</table>
+</td>
+</tr>
+<tr>
+<td >
+<div id='AREADIV30' class="AREATableContent" style='padding:0 5px 0 5px;width:100%;'>
+<table border=0 cellspacing='0' cellpadding='0' width='100%' >
+<tr><td height="3px"></td></tr>
+<tr id='ITR31'  >
+<td   valign='top' colspan='50' class='TDAroundControl'  height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 ><tr>
+<td id='TD32'    colspan=1 rowspan=1 width='150px'  class="LABELCellNormal" style=" ;width:150px"  valign='middle'><div id="DIV32"  class="LABELDivText" style=" ;width:150px"><span id='$32'>$lblClassloader</span>
+</div></td>
+<td id="TDB33"  width=0 colspan=1 rowspan=1 class='TDAroundControl' align='left' valign='middle' >
+<button type="button" id="B_33" data-testtoolid='createNewClassLoader' style=" "  name="CC" class="BUTTONInput">$1$createClassLoaderButton$2$</button>
+</td>
+<td id='HD34' class='TDAroundControl' style='font-size:1px' width='10px'><div style='font-size:1px;height:1px;width:10px'></div></td>
+<td id="TDB35"  width=0 colspan=1 rowspan=1 class='TDAroundControl' align='left' valign='middle' >
+<button type="button" id="B_35" data-testtoolid='refreshAjaxDeveloper' style=" "  name="CC" class="BUTTONInput">Refresh UIs</button>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style=' ' ><td height="3px" class='TDAroundControl' ></td></tr>
+<tr id='ITR37'  >
+<td   valign='top' colspan='50' class='TDAroundControl'  height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 ><tr>
+<td id='TD38'    colspan=1 rowspan=1 width='150px'  class="LABELCellNormal" style=" ;width:150px"  valign='middle'><div id="DIV38"  class="LABELDivText" style=" ;width:150px"><span id='$38'>$lblbTextBuffer</span>
+</div></td>
+<td id="TDB39"  width=0 colspan=1 rowspan=1 class='TDAroundControl' align='left' valign='middle' >
+<button type="button" id="B_39" data-testtoolid='refreshTextBuffers' style=" "  name="CC" class="BUTTONInput">$1$mlrefresh$2$</button>
+</td>
+<td id='HD40' class='TDAroundControl' style='font-size:1px' width=0><div style='font-size:1px;height:3px;width:3px'></div></td>
+<td id="TDB41"  width=0 colspan=1 rowspan=1 class='TDAroundControl' align='left' valign='middle' >
+<button type="button" id="B_41" data-testtoolid='refreshAccessPathBuffer' style=" "  name="CC" class="BUTTONInput">$1$accpathrefresh$2$</button>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style=' ' ><td height="3px" class='TDAroundControl' ></td></tr>
+<tr id='ITR43'  >
+<td   valign='top' colspan='50' class='TDAroundControl'  height='1px'>
+<table style='border-collapse: separate;border-spacing: 0 1px;height:100%;' cellpadding=0 ><tr>
+<td id='TD44'    colspan=1 rowspan=1 width='150px'  class="LABELCellNormal" style=" ;width:150px"  valign='middle'><div id="DIV44"  class="LABELDivText" style=" ;width:150px"><span id='$44'>$lblDebugMode</span>
+</div></td>
+<td  id='RTD_45' rowspan=1 colspan=1 class='TDAroundControl' align='center' valign='middle'><input  type="radio"  data-testtoolid='debugMode' id="RADIO45" name="debugMode" onclick="rrb45(event);" onkeydown="rrb45(event); return C.reactRADIOBUTTON(C_45,event);" class="RADIOBUTTONEdit" title=""></td>
+<td id='TD46'    colspan=1 rowspan=1   class="LABELCellPlainText" style=" "  valign='middle'><div id="DIV46"  class="LABELDivText" style=" "><span id='$46'>$lblDebugModeFalse</span>
+</div></td>
+<td id='HD47' class='TDAroundControl' style='font-size:1px' width='10px'><div style='font-size:1px;height:1px;width:10px'></div></td>
+<td  id='RTD_48' rowspan=1 colspan=1 class='TDAroundControl' align='center' valign='middle'><input  type="radio"  data-testtoolid='debugMode' id="RADIO48" name="debugMode" onclick="rrb48(event);" onkeydown="rrb48(event); return C.reactRADIOBUTTON(C_48,event);" class="RADIOBUTTONEdit" title=""></td>
+<td id='TD49'    colspan=1 rowspan=1   class="LABELCellPlainText" style=" "  valign='middle'><div id="DIV49"  class="LABELDivText" style=" "><span id='$49'>$lblDebugModeTrue</span>
+</div></td>
+<td id='HD50' class='TDAroundControl' style='font-size:1px' width='10px'><div style='font-size:1px;height:1px;width:10px'></div></td>
+<td id="TDB51"  width=0 colspan=1 rowspan=1 class='TDAroundControl' align='left' valign='middle' >
+<button type="button" id="B_51" data-testtoolid='showServerLog' style=" "  name="CC" class="BUTTONInput">$1$showServerLog$2$</button>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td height="3px"></td></tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style=' ' ><td height="3px" class='TDAroundControl' ></td></tr>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan='50' id="STATUSBARSTATUSBAR" class='TDAroundControl' width='100%' height='0' align='center'>
+<table width="100%" cellspacing="0" cellpadding="0" class="STATUSBARTable">
+<tr>
+<td class='TDAroundControl'>&nbsp;&nbsp;</td><td class='TDAroundControl' valign="middle"><span id='STATUSBARIMAGE53'></span></td>
+<td class='TDAroundControl'><div class='STATUSBARDivAfterIcon'></div></td>
+<td data-testtoolid='messageShortText' nowrap='true' width="100%" class="STATUSBARCell" valign="middle">
+<span id='STATUSBAR53'></span>
+</td></tr>
+</table>
+</td>
+</tr>
+</table>
+<script>
+var CasaPAGE = document.getElementById('THISPAGE');
+var CasaLOADING = document.getElementById('JUSTLOADING');
+var m_dropInfo = null;
+var m_dragMode = false;
+var m_dragId = null;
+var m_dragType = null;
+var m_dropMethod = null;
+var m_blockIO = true;
+var m_blockIOByFlush = false;
+var m_startInitDate;
+var m_endInitDate;
+var m_resizeListeners = [];
+var m_helpIdPAGE = '';
+var C;
+var m_roi_firstusage;
+function reactOnInit(firstusage)
+{
+if (firstusage == undefined) firstusage = true;
+m_roi_firstusage = firstusage;if (parent.m_centralLib == null) { document.location.href = '../HTMLBasedGUI/general/aboutBlank.html'; return; }
+C = csciframe;
+CL = C.CL();
+m_resizeListeners = [];
+m_flagResize = true;
+m_startInitDate = new Date();
+C.addLogMessage('page.reactOnInit started - showPage date = ' + parent.m_showPageDate.getSeconds() + '/' + parent.m_showPageDate.getMilliseconds());
+C.addLogMessage('loading page started =' + m_perfPageLoadStart.getSeconds() + '/' + m_perfPageLoadStart.getMilliseconds());
+C.initGlobals();
+m_pageCompletelyBuilt = false;
+m_fillTextIdListeners = [];
+m_dragMode = false;
+m_dragId = null;
+m_dropMethod = null;
+m_blockIO = true;
+m_blockIOByFlush = false;
+var sid = parent.getCurrentSessionId();
+var pid = parent.getCurrentProcessId();
+var mid = parent.getCurrentModelId();
+var pageInitParam = parent.pageInitParam;
+if (pageInitParam == null) pageInitParam = '';
+C.setPageName('ServerAdmin');
+if (firstusage) generateCCs();
+if (firstusage) C_2 = gebid('TITLEBARTITLEBARTR');
+if (firstusage) CL.iccTITLEBAR(C,C_2,N,'2',N,N,N,N,N,N,N,'endProcess',N, N,'true');
+if (firstusage) C.addMLSpan(gebid('$2'));
+if (firstusage) C.addMLImage(gebid('TITLEBAR2CLOSE'));
+if (firstusage) C.iccBUTTON(CB_4,null,rohk4,C.reactBUTTON,N,N,N,'refresh',N,N,N,N,N,'',N,'','1',N,N,N,N,N,N,N,N,N);
+if (firstusage) C.iccBUTTON(CB_5,null,rohk5,C.reactBUTTON,N,N,N,'endProcess',N,N,N,N,N,'',N,'','1',N,N,N,N,N,N,N,N,N);
+if (firstusage) C_3 = CHDR3.parentNode;
+if (firstusage) C.iccHEADER(C_3,CHDR3,document.getElementById('HDRTA3'),romu3,N);
+if (firstusage) CTD_9 = document.getElementById('TD9');
+if (firstusage) C_9 = document.getElementById('$9');
+if (firstusage) C.addMLTab(C_9, rohk9);
+if (firstusage) C.iccFIELD(CF_10,romu10,C.reactFIELD,'usedMemory',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) CTD_12 = document.getElementById('TD12');
+if (firstusage) C_12 = document.getElementById('$12');
+if (firstusage) C.addMLTab(C_12, rohk12);
+if (firstusage) C.iccFIELD(CF_13,romu13,C.reactFIELD,'totalMemory',N,N,N,N,N,N,N,N,'true',N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,'1',N,N,N,N,N,'1',N,N,N,N,N,N,false,N,N,false,N,N,N,N,'true',N,N,'false',N,N,N,N);
+if (firstusage) C.iccBUTTON(CB_15,null,rohk15,C.reactBUTTON,N,N,N,'collectGarbage',N,N,N,N,N,'',N,'','1',N,N,N,N,N,N,N,N,N);
+if (firstusage) C_7 = document.getElementById('AREADIV7');
+C.registerListener(reactOnModelUpdate7);
+if (firstusage) CSPAN_7 = gebid('RWH_SPAN_7');
+C_7.CASA_stylevariant = '';
+if (firstusage) C.iccAREA(C_7, 7,N,'false',N,N,N,CSPAN_7,N,N,N,N,'true');
+if (firstusage) C.addMLSpan(gebid('$7'));
+if (firstusage) C.addMLImage(gebid('RWH_SPAN_7'));
+C.addAreaTabIndexInfo(7,'memoryArea',1,null);
+if (firstusage) C_18 = document.getElementById('TEXTGRID18');
+if (firstusage) C_DIV18 = document.getElementById('TEXTGRIDDIV18');
+if (firstusage) C.initCasaControlTEXTGRID(C_18,C_DIV18,reactOnMouseUp18);
+C.addMozDiv(C_DIV18);
+C_DIV18.style.overflow = 'auto';
+if (firstusage) C.registerListener(reactOnModelUpdate18);
+C_18.CASA_arrayprop = 'sessions';
+C_18.CASA_displayitemsprop = 'sessions';
+C_18.CASA_id = '18';
+C_18.CASA_height = '100%';
+C_18.CASA_selectprop = 'selected';
+C_18.CASA_singleselect = false;
+C_18.CASA_dblclickonreturn = false;
+C_18.CASA_backgroundstyle = '';
+C_18.CASA_rowcount = -1;
+C_18.CASA_rowcountprop = 'null';
+C_18.CASA_personalizable = 'true';
+C_18.CASA_withselectioncolumn = true;
+C_18.CASA_stylevariant = '';
+C_18.CASA_singleselectcontextmenu = true;
+C_18.CASA_tabindex = null;
+C_18.CASA_cti = 1;
+C.applyCasaTabIndexFor(C_18, C_DIV18, 'TEXTGRID');
+C_18.CASA_colinfos = [];
+var vo;
+vo = new Object();
+vo.columntype = '0';
+vo.textid = 'client';
+vo.property = 'info';
+vo.width = '15%';
+vo.decimaldigits = -1;
+vo.cuttextline = true;
+vo.groupby = false;
+vo.sortorder = '-1';
+vo.sortascending = 'true';
+C_18.CASA_colinfos[0] = vo;
+vo = new Object();
+vo.columntype = '0';
+vo.textid = 'sessionId';
+vo.property = 'sessionId';
+vo.width = '15%';
+vo.decimaldigits = -1;
+vo.cuttextline = true;
+vo.groupby = false;
+vo.sortorder = '-1';
+vo.sortascending = 'true';
+C_18.CASA_colinfos[1] = vo;
+vo = new Object();
+vo.columntype = '0';
+vo.textid = 'loggedOnFor';
+vo.property = 'logonTime';
+vo.width = '30%';
+vo.decimaldigits = -1;
+vo.cuttextline = true;
+vo.groupby = false;
+vo.sortorder = '-1';
+vo.sortascending = 'true';
+C_18.CASA_colinfos[2] = vo;
+vo = new Object();
+vo.columntype = '0';
+vo.textid = 'lastActivitySince';
+vo.property = 'lastActivityTime';
+vo.width = '30%';
+vo.decimaldigits = -1;
+vo.cuttextline = true;
+vo.groupby = false;
+vo.sortorder = '-1';
+vo.sortascending = 'true';
+C_18.CASA_colinfos[3] = vo;
+vo = new Object();
+vo.columntype = '0';
+vo.textid = 'monit_column0';
+vo.property = 'justProcessing';
+vo.width = '70px';
+vo.decimaldigits = -1;
+vo.cuttextline = true;
+vo.groupby = false;
+vo.sortorder = '-1';
+vo.sortascending = 'true';
+C_18.CASA_colinfos[4] = vo;
+vo = new Object();
+vo.columntype = '0';
+vo.textid = 'noInteractionProcesses';
+vo.property = 'numberOfProcesses';
+vo.width = '10%';
+vo.decimaldigits = -1;
+vo.cuttextline = true;
+vo.groupby = false;
+vo.sortorder = '-1';
+vo.sortascending = 'true';
+C_18.CASA_colinfos[5] = vo;
+addResizeListener(reactOnResizeMoz18);
+registerFillTextIdListener(reactOnFillTextIds18);
+C_18.CASA_testtoolid = 'sessions';
+if (firstusage) CD_17 = document.getElementById('ITRD17');
+C.addMozDiv(CD_17);
+if (firstusage) C.iccBUTTON(CB_27,null,rohk27,C.reactBUTTON,N,N,N,'remove',N,N,N,N,N,'',N,'','1',N,N,N,N,N,N,N,N,N);
+if (firstusage) C.iccBUTTON(CB_29,null,rohk29,C.reactBUTTON,N,N,N,'removeTEMPSessions',N,N,N,N,N,'',N,'','1',N,N,N,N,N,N,N,N,N);
+if (firstusage) C_16 = document.getElementById('AREADIV16');
+C.registerListener(reactOnModelUpdate16);
+if (firstusage) CSPAN_16 = gebid('RWH_SPAN_16');
+C_16.CASA_stylevariant = '';
+if (firstusage) C.iccAREA(C_16, 16,N,'false',N,N,'100%',CSPAN_16,N,N,N,N,'true');
+if (firstusage) C.addMLSpan(gebid('$16'));
+if (firstusage) C.addMLImage(gebid('RWH_SPAN_16'));
+C.addAreaTabIndexInfo(16,'sessionsArea',1,null);
+if (firstusage) CTD_32 = document.getElementById('TD32');
+if (firstusage) C_32 = document.getElementById('$32');
+if (firstusage) C.addMLTab(C_32, rohk32);
+if (firstusage) C.iccBUTTON(CB_33,null,rohk33,C.reactBUTTON,N,N,N,'createNewClassLoader',N,N,N,N,N,'',N,'','1',N,N,N,N,N,N,N,N,N);
+if (firstusage) C.iccBUTTON(CB_35,null,rohk35,C.reactBUTTON,N,N,N,'refreshAjaxDeveloper',N,N,N,N,N,'',N,'','1',N,N,N,N,N,N,N,N,N);
+if (firstusage) CTD_38 = document.getElementById('TD38');
+if (firstusage) C_38 = document.getElementById('$38');
+if (firstusage) C.addMLTab(C_38, rohk38);
+if (firstusage) C.iccBUTTON(CB_39,null,rohk39,C.reactBUTTON,N,N,N,'refreshTextBuffers',N,N,N,N,N,'',N,'','1',N,N,N,N,N,N,N,N,N);
+if (firstusage) C.iccBUTTON(CB_41,null,rohk41,C.reactBUTTON,N,N,N,'refreshAccessPathBuffer',N,N,N,N,N,'',N,'','1',N,N,N,N,N,N,N,N,N);
+if (firstusage) CTD_44 = document.getElementById('TD44');
+if (firstusage) C_44 = document.getElementById('$44');
+if (firstusage) C.addMLTab(C_44, rohk44);
+if (firstusage) C_45 = gebid('RADIO45');
+if (firstusage) C_45.CASA_td = gebid('RTD_45');
+C_45.CASA_cti = '1';
+if (firstusage) C.initCasaControlRADIOBUTTON(C_45,rrb45,N);
+if (firstusage) C.addFocusable(C_45,true);
+if (firstusage) C.registerListener(reactOnModelUpdate45);
+C_45.CASA_valueprop = 'debugMode';
+C_45.CASA_value = 'false';
+C_45.CASA_displayonly = 'false';
+C_45.CASA_flush = 'server';
+if (firstusage) CTD_46 = document.getElementById('TD46');
+if (firstusage) C_46 = document.getElementById('$46');
+if (firstusage) C.addMLTab(C_46, rohk46);
+if (firstusage) C_48 = gebid('RADIO48');
+if (firstusage) C_48.CASA_td = gebid('RTD_48');
+C_48.CASA_cti = '1';
+if (firstusage) C.initCasaControlRADIOBUTTON(C_48,rrb48,N);
+if (firstusage) C.addFocusable(C_48,true);
+if (firstusage) C.registerListener(reactOnModelUpdate48);
+C_48.CASA_valueprop = 'debugMode';
+C_48.CASA_value = 'true';
+C_48.CASA_displayonly = 'false';
+C_48.CASA_flush = 'server';
+if (firstusage) CTD_49 = document.getElementById('TD49');
+if (firstusage) C_49 = document.getElementById('$49');
+if (firstusage) C.addMLTab(C_49, rohk49);
+if (firstusage) C.iccBUTTON(CB_51,null,rohk51,C.reactBUTTON,N,N,N,'showServerLog',N,N,N,N,N,'',N,'','1',N,N,N,N,N,N,N,N,N);
+if (firstusage) C_30 = document.getElementById('AREADIV30');
+C.registerListener(reactOnModelUpdate30);
+if (firstusage) CSPAN_30 = gebid('RWH_SPAN_30');
+C_30.CASA_stylevariant = '';
+if (firstusage) C.iccAREA(C_30, 30,N,'false',N,N,N,CSPAN_30,N,N,N,N,'true');
+if (firstusage) C.addMLSpan(gebid('$30'));
+if (firstusage) C.addMLImage(gebid('RWH_SPAN_30'));
+C.addAreaTabIndexInfo(30,'systemmgmtArea',1,null);
+if (firstusage) C_6 = document.getElementById('PAGEDIV6');
+if (firstusage) THISPAGEBODY = document.getElementById('PAGEDIV6');
+C.initCasaControlPAGEBODY(C_6);
+addResizeListener(reactOnResize6);
+if (firstusage) C.iccINTPOPUP();
+if (firstusage) CS_53 = document.getElementById('STATUSBARSTATUSBAR');if (firstusage) C_53 = document.getElementById('STATUSBAR53');if (firstusage) CL.iccSTATUSBAR(C_53,C);
+if (firstusage) C_IMAGE53 = document.getElementById('STATUSBARIMAGE53');if (firstusage) C.addFooterObject(CS_53);
+if (firstusage) C.registerListener(reactOnModelUpdate53);
+C_53.CASA_typeprop = 'messageType'
+C_53.CASA_shorttextprop = 'messageShortText'
+C_53.CASA_longtextprop = 'messageLongText'
+C.setPropertyValue('pageInitParam',pageInitParam);
+C.registerListenerAsFirst(reactOnModelUpdatePAGE);
+C.initWithModelIdAndSessionIdAndProcessId("com.softwareag.cis.zzz.ServerInfoModel",mid,sid,pid);
+m_endInitDate = new Date();
+m_roi_firstusage = undefined;
+}
+function startDrag(dragHTML,eve) { return C.startDragPAGE(dragHTML,eve); }function moveDrag(eve) { return C.moveDragPAGE(eve); }
+function removeTHISOCCUPIED() { return C.removeTHISOCCUPIED(); }
+function endDrag(eve) { return C.endDragPAGE(eve); }
+function processHotKeys(evt) { C.processHotKeys(evt); }
+function reactOnModelUpdatePAGE(model) { C.reactOnModelUpdatePAGE(); }
+function generateCCs()
+{
+var vCCs = document.getElementsByName('CC');
+for (var i=0; i<vCCs.length; i++)
+{
+var vCC = vCCs[i];
+if (vCC.id != null && vCC.id != '') window['C'+vCC.id] = vCC;
+}
+vCCs = document.getElementsByName('PC');
+for (var i=0; i<vCCs.length; i++)
+{
+var vCC = vCCs[i].parentNode;
+if (vCC.id != null && vCC.id != '') window['C'+vCC.id] = vCC;
+}
+}
+function reactOnResize() { if (m_flagResize == false) return; C.handleReactOnResize();}
+function addResizeListener(resizeListener) { m_resizeListeners[m_resizeListeners.length] = resizeListener; }
+function fillTextIdSpans() { C.replaceTextIds(); for (i=0; i<m_fillTextIdListeners.length; i++) m_fillTextIdListeners[i](); }
+function invokeMethodInModel(methodName) { C.invokeMethodInModel(methodName); }
+function getPropertyValue(propertyName) { return C.getPropertyValue(propertyName); }
+function setPropertyValue(propertyName,propertyValue) { C.setPropertyValue(propertyName,propertyValue); }
+function closePage2() { CL.closePageTITLEBAR(C_2); }
+function romu3(model) { C.reactOnModelUpdateHEADER(C_3); }
+function rohk4(param) { C.transferModelBUTTON(CB_4); }
+function rohk5(param) { C.transferModelBUTTON(CB_5); }
+function romuINTPAGEPOPUP() { C.romuINTPOPUP(); }
+function reactOnResize6() { C.reactOnResizePAGEBODY(C_6); }
+function toggleArea7(passToModel) { C.toggleAreaAREA(C_7,passToModel,null,CSPAN_7); }
+function reactOnModelUpdate7() { C.romuAREA(C_7); }
+function rohk9(param) { C.rohkLABEL(CTD_9, param); }
+function romu10(model) { C.romuFIELD(CF_10); }
+function rohk12(param) { C.rohkLABEL(CTD_12, param); }
+function romu13(model) { C.romuFIELD(CF_13); }
+function rohk15(param) { C.transferModelBUTTON(CB_15); }
+function toggleArea16(passToModel) { C.toggleAreaAREA(C_16,passToModel,null,CSPAN_16); }
+function reactOnModelUpdate16() { C.romuAREA(C_16); }
+function rohk27(param) { C.transferModelBUTTON(CB_27); }
+function rohk29(param) { C.transferModelBUTTON(CB_29); }
+function toggleArea30(passToModel) { C.toggleAreaAREA(C_30,passToModel,null,CSPAN_30); }
+function reactOnModelUpdate30() { C.romuAREA(C_30); }
+function rohk32(param) { C.rohkLABEL(CTD_32, param); }
+function rohk33(param) { C.transferModelBUTTON(CB_33); }
+function rohk35(param) { C.transferModelBUTTON(CB_35); }
+function rohk38(param) { C.rohkLABEL(CTD_38, param); }
+function rohk39(param) { C.transferModelBUTTON(CB_39); }
+function rohk41(param) { C.transferModelBUTTON(CB_41); }
+function rohk44(param) { C.rohkLABEL(CTD_44, param); }
+function reactOnModelUpdate45(model) { C.reactOnModelUpdateRADIOBUTTON(C_45); }
+function rrb45(evt) { return C.reactRADIOBUTTON(C_45,evt);}
+function rohk46(param) { C.rohkLABEL(CTD_46, param); }
+function reactOnModelUpdate48(model) { C.reactOnModelUpdateRADIOBUTTON(C_48); }
+function rrb48(evt) { return C.reactRADIOBUTTON(C_48,evt);}
+function rohk49(param) { C.rohkLABEL(CTD_49, param); }
+function rohk51(param) { C.transferModelBUTTON(CB_51); }
+function reactOnModelUpdate53(model) { CL.romuSTATUSBAR(C_53,C_IMAGE53); }
+function resetBeforeUpdate53(model) { CL.resetSTATUSBAR(C_53,C_IMAGE53); }
+</script>
+<iframe hidden id="csciframe" name="csciframe" tabIndex="-1" src="com.softwareag.cis.admin.monitoring2_JLIBS.html" style="width:0;height:0;left:0;top:0">
+</iframe>
+</body>
+</html>

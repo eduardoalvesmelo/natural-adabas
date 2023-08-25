@@ -1,0 +1,18 @@
+0001/** New Program X1.
+0002/**
+0003/** :author eduar
+0004/* TODO Enter your code here
+0005DEFINE DATA LOCAL
+00061 NUM1 (N3) /* NUMERICO COM 3 POSIÇÕES
+00071 NUM2 (N3) /* NUMERICO COM 3 POSICÕES
+00081 SOMA (N5) /*
+0009END-DEFINE
+0010
+0011INPUT 'Digite o primeiro número: ' NUM1
+0012INPUT 'Digite o segundo número: ' NUM2
+0013
+0014COMPUTE SOMA = NUM1 + NUM2
+0015
+0016DISPLAY 'A soma dos dois números é: ' SOMA
+0017
+0018END

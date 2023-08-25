@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.HotkeyInputAdapter" translationreference="editor" popupwidth="660" popupheight="255" casaindex="1" >
+
+
+        <pagebody horizdist="false" takefullheight="true" casaindex="2" >
+
+
+                <rowtablearea2 griddataprop="hotkeys" rowcount="7" width="100%" firstrowcolwidths="true" casaindex="3" >
+
+
+                        <tr casaindex="4" >
+
+
+                                <gridcolheader textid="editorHotKey.gridcolheader0" width="25" propref="selected" withsorticon="false" casaindex="5" >
+
+
+                                </gridcolheader>
+
+
+                                <gridcolheader textid="editorHotKey.gridcolheader1" width="150" propref="keycode" casaindex="6" >
+
+
+                                </gridcolheader>
+
+
+                                <gridcolheader textid="editorHotKey.gridcolheader2" width="85" propref="ctrlKey" casaindex="7" >
+
+
+                                </gridcolheader>
+
+
+                                <gridcolheader textid="editorHotKey.gridcolheader3" width="85" propref="shiftKey" casaindex="8" >
+
+
+                                </gridcolheader>
+
+
+                                <gridcolheader textid="editorHotKey.gridcolheader4" width="85" propref="altKey" casaindex="9" >
+
+
+                                </gridcolheader>
+
+
+                                <gridcolheader textid="editorHotKey.gridcolheader5" width="100%" propref="method" casaindex="10" >
+
+
+                                </gridcolheader>
+
+
+                                <hdist casaindex="11" >
+
+
+                                </hdist>
+
+
+                        </tr>
+
+
+                        <repeat casaindex="12" >
+
+
+                                <str valueprop="selected" casaindex="13" >
+
+
+                                        <selector valueprop="selected" width="100%" singleselect="false" casaindex="14" >
+
+
+                                        </selector>
+
+
+                    <field xsdType="xs:string" valueprop="keyCode" width="100%" noborder="true" transparentbackground="true" popupmethod="openIdValueCombo" casaindex="15" >
+
+                    </field>
+
+                    <field xsdType="xs:string" valueprop="ctrlKey" width="100%" noborder="true" transparentbackground="true" popupmethod="openIdValueCombo" casaindex="16" >
+
+                    </field>
+
+                    <field xsdType="xs:string" valueprop="shifKey" width="100%" noborder="true" transparentbackground="true" popupmethod="openIdValueCombo" casaindex="17" >
+
+                    </field>
+
+                    <field xsdType="xs:string" valueprop="altKey" width="100%" noborder="true" transparentbackground="true" popupmethod="openIdValueCombo" casaindex="18" >
+
+                    </field>
+
+                    <field xsdType="xs:string" valueprop="method" width="100%" noborder="true" transparentbackground="true" casaindex="19" >
+
+                    </field>
+
+                                        <hdist casaindex="20" >
+
+
+                                        </hdist>
+
+
+                                </str>
+
+
+                        </repeat>
+
+
+                </rowtablearea2>
+
+
+                <hline color="#999999" casaindex="21" >
+
+
+                </hline>
+
+
+        </pagebody>
+
+
+        <header align="left" casaindex="22" >
+
+
+                <button textid="editorHotKey.button0" textstyle="white-space: nowrap" method="onAddLine" image="../HTMLBasedGUI/images/ctrlHOTKEY.gif" casaindex="23" >
+
+
+                </button>
+
+
+                <button textid="editorHotKey.button1" textstyle="white-space: nowrap" method="onRemove" image="../HTMLBasedGUI/images/remove.gif" casaindex="24" >
+
+
+                </button>
+
+
+                <hdist width="100%" casaindex="25" >
+
+
+                </hdist>
+
+
+                <button textid="editorHotKey.button2" method="onOK" casaindex="26" >
+
+
+                </button>
+
+
+        </header>
+
+
+</page>

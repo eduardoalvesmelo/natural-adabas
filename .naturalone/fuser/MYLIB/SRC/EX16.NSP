@@ -1,0 +1,27 @@
+0001/** O número 3025 possui a seguinte característica: 30 + 25 = 55 -> 55*55 = 3025. Fazer um
+0002/** programa para obter todos os números de 4 algarismos com a mesma característica do
+0003/** número 3025. 
+0004/**
+0005/** :author eduar
+0006/* TODO Enter your code here
+0007DEFINE DATA LOCAL
+00081 #num-informado    (a4) 
+00091 #num-string       (A4)
+00101 #num-dois-dig-1   (A2)
+00111 #num-dois-dig-2   (A2)
+00121 #soma-dig-1-2     (N4)
+00131 #produto-dig-1-2  (N10)
+0014END-DEFINE       
+0015*
+0016    input 'Informe um numero de 4 digitos: ' #num-informado
+0017*
+0018    #num-dois-dig-1 := substring(#num-informado,1,2)
+0019    #num-dois-dig-2 := substring(#num-informado,3,2)     
+0020    #soma-dig-1-2   := val(#num-dois-dig-1) + val(#num-dois-dig-2)     
+0021    #produto-dig-1-2:= #soma-dig-1-2 * #soma-dig-1-2     
+0022*                
+0023    WRITE 'Número informado: ' #num-informado
+0024    WRITE 'Soma: ' #num-dois-dig-1 ' + ' #num-dois-dig-2 ' = ' #soma-dig-1-2
+0025    WRITE 'Produto: ' #soma-dig-1-2 ' * ' #soma-dig-1-2 ' = ' #produto-dig-1-2
+0026*     
+0027END

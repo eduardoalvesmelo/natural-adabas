@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><mfpage separation="rows" sizing="40,*,8" bordercolor="#FFFFFF" casaindex="1" >
+
+
+        <mfframeset target="YYY" separation="cols" sizing="*,0" border="10" casaindex="2" >
+
+
+                <mfwpactivefunctions resizable="false" withborder="false" scrolling="false" framestyle="border: 0px solid #000000" marginheight="0" marginwidth="0" casaindex="3" >
+
+
+                </mfwpactivefunctions>
+
+
+                <mfcisframe target="dummyTopRight" cisurl="/HTMLBasedGUI/empty.html" resizable="false" withborder="false" withownborder="false" casaindex="4" >
+
+
+                </mfcisframe>
+
+
+        </mfframeset>
+
+
+        <mfframeset target="ZZZ" separation="cols" sizing="265,*,0" border="10" frameborder="true" casaindex="5" >
+
+
+                <mfwpfunctions bootstrapinfourl="/HTMLBasedGUI/workplace/defaultbootstrapinfo.xml" serversidescrolling="false" withplusminus="false" activefunctionsvariant="/HTMLBasedGUI/MFActivities23.html" framestyle="border-width:1px; border-style:solid; border-color:#808080" withownborder="false" casaindex="6" >
+
+
+                </mfwpfunctions>
+
+
+                <mfwpcontent resizable="true" scrolling="false" framestyle="border-width:1px; border-style:solid; border-color:#808080" withownborder="false" casaindex="7" >
+
+
+                </mfwpcontent>
+
+
+                <mfcisframe target="CISHELP" cisurl="/HTMLBasedGUI/onlinehelp.html" resizable="true" withborder="false" framestyle="border: 1px solid #808080" withownborder="false" casaindex="8" >
+
+
+                </mfcisframe>
+
+
+        </mfframeset>
+
+
+        <mfhtmlframe target="dummmybottom" url="about:blank" resizable="false" withborder="false" scrolling="false" casaindex="9" >
+
+
+        </mfhtmlframe>
+
+
+</mfpage>

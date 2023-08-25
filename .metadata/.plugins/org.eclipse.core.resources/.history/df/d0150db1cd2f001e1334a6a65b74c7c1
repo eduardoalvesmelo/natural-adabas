@@ -1,0 +1,24 @@
+DB: 247 FILE: 227  - DBAD-CONTROLE                    DEFAULT SEQUENCE: 
+TYPE: ADABAS 
+ 
+T L DB Name                              F Leng  S D Remark 
+- - -- --------------------------------  - ----  - - -------------------- 
+*      >Natural Source Header 000000
+*      :CP
+*      
+*      
+*      :LineIncrement 10
+*      <Natural Source Header
+*   Generation started 
+*   at 2018-09-06 06:14:19 
+*   by user SAG 
+* 
+  1 B7 CO-HD-CODIGO                      N  2.0  N D CONTEUDO=01       D 
+*        CONTEUDO=01 
+M 1 EK CO-BICHADO-EK                     N  2.0  N 
+M 1 DS CO-BICHADO-DS                     N  2.0  N 
+M 1 DT CO-BICHADO-DT                     N  2.0  N 
+* OPT=331      SEDUC-DESENV                    YY03                YYY NNNNNU9N 
+* OPT=HOME                            VNN 
+* OPT= 
+* OPT=                                 D 

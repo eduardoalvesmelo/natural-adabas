@@ -1,0 +1,105 @@
+DB: 243 FILE: 024  - CVMT-VEICULO                     DEFAULT SEQUENCE: 
+TYPE: ADABAS 
+ 
+T L DB Name                              F Leng  S D Remark 
+- - -- --------------------------------  - ----  - - -------------------- 
+*      >Natural Source Header 000000
+*      :CP
+*      
+*      
+*      :LineIncrement 10
+*      <Natural Source Header
+*   Generation started 
+*   at 2021-11-23 09:42:48 
+*   by user SAG 
+* 
+  1 A3 VE-ANO-FABRIC-VEIC                N  4.0  N 
+  1 A4 VE-ANO-MOD-VEIC                   N  4.0  N 
+  1 A5 VE-COD-CARROC-VEIC                N  3.0  N 
+M 1 A6 VE-COD-CAT-VEIC                   N  2.0  N D 
+  1 A7 VE-COD-COMBUS-VEIC                N  2.0  N D 
+M 1 A8 VE-COD-COR-VEIC                   N  2.0  N 
+  1 A9 VE-COD-ESPE-VEIC                  N  2.0  N 
+  1 B1 VE-COD-FAIXA-IPVA-VEIC            A    2  N 
+  1 B2 VE-COD-MARCA-VEIC                 N  6.0  N D 
+  1 B3 VE-COD-PROCED-VEIC                N  1.0  N 
+  1 B4 VE-COD-REMARC-CHASSI              A    3  N 
+  1 B5 VE-COD-TIPO-VEIC                  N  2.0  N D 
+  1 B6 VE-NUM-CHASSI-VEIC                A   21  N D CHAVE UNICA        D 
+*        CHAVE UNICA 
+  1 A2 VE-NUM-CVA-SEFAZ                  N  9.0  N D CHAVE UNICA        D 
+*        CHAVE UNICA 
+  1 A0 VE-NUM-PLACA-ATUAL                A    7  N D CHAVE UNICA        D 
+*        CHAVE UNICA 
+  1 AA VE-NUM-PLACA-BAIX                 A    7  N D CHAVE UNICA        D 
+*        CHAVE UNICA 
+  1 AB VE-NUM-PLACA-BAIX-TEMP            A    7  N D CHAVE UNICA        D 
+*        CHAVE UNICA 
+  1 AC VE-NUM-PLACA-TRANSF               A    7  N D CHAVE UNICA        D 
+*        CHAVE UNICA 
+  1 C6 VE-NUM-PLACA-CINZA                A    7  N D 
+  1 A1 VE-NUM-RENAVAM                    N 11.0  N D CHAVE UNICA        D 
+*        CHAVE UNICA 
+  1 C5 VE-NUM-RTB-VEIC                   N 10.0  N 
+  1 B7 VE-QUANT-CILINDR-VEIC             N  4.0  N 
+M 1 AD VE-QUANT-EIXO-VEIC                N  2.0  N 
+  1 B8 VE-QUANT-POTEN-VEIC               N  3.0  N 
+  1 B9 VE-TOT-CAPACID-CARGA-VEIC         N  3.2  N 
+  1 B0 VE-TOT-CAPACID-LOTAC-VEIC         N  3.0  N 
+  1 C8 VE-TOT-CAPACID-TRACAO-VEIC        N  3.2  N 
+  1 C9 VE-TOT-PESO-BRUTO-VEIC            N  3.2  N 
+  1 AJ VE-IDENTIF-COMPRADOR-VEIC         A   21  N D 
+  1 BA VE-COD-MARCA-VEIC-IMPORTADO       N  9.0  N 
+  1 AK VE-NUM-PLACA-ADICIONAL            A    7  N D 
+  1 AL VE-NUM-CHASSI-IMPORTADO           A   21  N D 
+  1 AN VE-NUMERO-VISTORIA-VEICULO        N 12.0  N D CHAVE UNICA        D 
+*        CHAVE UNICA 
+  1 AO VE-NUM-BUTTON                     A   12  N D CHAVE UNICA        D 
+*        CHAVE UNICA 
+  1 AP VE-NUM-LACRE-BUTTON               N  6.0  N D CHAVE UNICA        D 
+*        CHAVE UNICA 
+  1 AM VE-NUMERO-DI-INFORMADO            N 10.0  N 
+  1 AQ VE-DATA-DI-INFORMADA              N  8.0  N 
+  1 AR VE-TIPO-TRANSPORTE                A    1  N D 
+  1 AS VE-NUM-MOTOR                      A   21  N D 
+  1 AT VE-NUMERO-CSV                     N 15.0  N 
+  1 AU VE-TERCEIRO-EIXO-ORIGINAL         A    1  N 
+  1 AZ VE-INDICADOR-TR230                N  8.0  N D 
+  1 BB VE-NUM-RNTRC                      N 14.0  N 
+  1 BC VE-DATA-VALID-RNTRC               N  8.0  N 
+  1 BD VE-IDENT-COMUNICACAO-VENDA        N 12.0  N   INDICA COMUNICACAO D 
+*        INDICA COMUNICACAO 
+*  *  * 
+  1 BE VE-INDIC-MODIF-TRANSFOR           N  1.0  N   1-ORIGINAL         D 
+*        1-ORIGINAL 
+*  *  * 
+*  *  * 
+*  *  * 
+  1 BG VE-DATA-ATUALIZACAO               N  8.0  N D 
+P 1 BR VE-ALTERA-RNTRC 
+  2 BS VE-RNTRC-ANTES                    A   22  N   NUMERO + DATA      D 
+*        NUMERO + DATA 
+  2 BT VE-QUEM-ATUALIZOU                 A    8  N 
+  2 BU VE-DATA-ATUALIZOU                 N  8.0  N 
+  1 CQ VE-DEBITO-MULTA                   N  7.2  N 
+  1 CR VE-DEBITO-LICENCIAMENTO           N  7.2  N 
+  1 CS VE-DEBITO-SEGURO                  N  7.2  N 
+  1 CT VE-DEBITO-DATA                    N  8.0  N D 
+  1 CU VE-MUNICIPIO-VEIC                 N  5.0  N D 
+  1 CV VE-EXERCICIO-VEIC                 N  4.0  N 
+  1 CW VE-DEBITO-IPVA                    N  7.2  N 
+  1 C3 VE-DATA-EMPLACAMENTO              N  8.0  N D 
+  1 C0 VE-INDICADOR-TR774                N  8.0  N D 
+  1 CZ VE-DATA-SAIDA-FROTA               N  8.0  N D 
+  1 AV VE-ID-PROPRIETARIO-ENDERECO       N 14.0  N 
+  1 AW VE-ID-COMPRADOR-ENDERECO          N 14.0  N 
+  1 AX VE-ID-ARRENDATARIO-ENDERECO       N 14.0  N 
+  1 AY VE-INDIC-NOVAS-OBS                N  1.0  N D 
+* 
+  1 SB VE-FINAL-PLACA-ATUAL              A    1  N S 
+*        -------- SOURCE FIELD(S) ------- 
+*        VE-NUM-PLACA-ATUAL(7-7) 
+* OPT=331      DESV-PRODAM-243                 YY03                YYY NNNNNU9N 
+* OPT=HOME                            VNY 
+* OPT= 
+* OPT=                                 D 

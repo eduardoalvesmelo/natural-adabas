@@ -1,0 +1,49 @@
+DB: 247 FILE: 230  - VAGA-PROJETO                     DEFAULT SEQUENCE: 
+TYPE: ADABAS 
+ 
+T L DB Name                              F Leng  S D Remark 
+- - -- --------------------------------  - ----  - - -------------------- 
+*      >Natural Source Header 000000
+*      :CP
+*      
+*      
+*      :LineIncrement 10
+*      <Natural Source Header
+*   Generation started 
+*   at 2018-09-06 06:14:38 
+*   by user SAG 
+* 
+  1 B6 PJ-COD-PROJETO                    N  5.0  N D 
+  1 BU PJ-NOME-PROJETO                   A   30  N 
+  1 BV PJ-CAPACIDADE                     N  3.0  N 
+  1 CA PJ-INDIC-SITUACAO                 N  1.0  N 
+  1 KB PJ-INDIC-FASE-ORIGEM              N  1.0  N 
+  1 KC PJ-ANO-INICIO                     N  4.0  N 
+  1 KD PJ-ANO-FIM                        N  4.0  N 
+  1 KE PJ-NOME-REDUZIDO                  A   10  N 
+  1 KF PJ-REDE                           A    1  N 
+  1 KG PJ-COD-MUNICIPIO                  N  5.0 
+  1 BZ PJ-DATA-INCLUSAO                  N  8.0  N 
+  1 B3 PJ-OPER-INCLUSAO                  A    8  N 
+  1 B1 PJ-DATA-ALTERACAO                 N  8.0  N 
+  1 KU PJ-OPER-ALTERACAO                 A    8  N 
+  1 KV PJ-PROGRAMA                       A    8  N 
+  1 LV PJ-INDIC-ACEITA-ESPECIAL          N  1.0  N   0-SIM , 1-NAO     D 
+*        0-SIM , 1-NAO 
+  1 LZ PJ-INDIC-TEMPO-INTEGRAL           N  1.0  N 
+  1 L1 PJ-INDIC-FINAL-DE-SEMANA          N  1.0  N 
+  1 MC PJ-INDIC-MULTISSERIADO            N  1.0  N   1=SIM 0=NAO       D 
+*        1=SIM 0=NAO 
+* 
+  1 TC PJ-REDE-MUN-PROJETO               A   11  N S KF 1 - 1 
+*        KF 1 - 1 
+*        -------- SOURCE FIELD(S) ------- 
+*        PJ-REDE(1-1) 
+*        PJ-COD-MUNICIPIO(1-5) 
+*        PJ-COD-PROJETO(1-5) 
+* 
+* 
+* OPT=331      SEDUC-DESENV                    YY03                YYY NNNNNU9N 
+* OPT=HOME                            VNN 
+* OPT= 
+* OPT=                                 D 

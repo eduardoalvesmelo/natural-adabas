@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.EditorViewXMLBindingAdapter" translationreference="CIS_EDIT" casaindex="1" >
+
+
+
+            <pagebody horizdist="false" takefullheight="true" casaindex="2" >
+
+
+
+                        <rowareawithheader height="100%" foldable="false" withleftborder="false" withtopborder="false" withrightborder="false" withbottomborder="false" withtoppadding="false" casaindex="3" >
+
+
+
+                                    <rowareaheader textid="wsdldataadpt.rowarea0" align="right" casaindex="4" >
+
+
+
+                                                <icon image="../HTMLBasedGUI/images/closecornergray.gif" method="onToolExit" valign="middle" casaindex="5" >
+
+
+
+                                                </icon>
+
+
+
+                                    </rowareaheader>
+
+
+
+                                    <rowareabody casaindex="6" >
+
+
+
+                                <rowtablearea2 griddataprop="grid.lines" rowcount="30" firstrowcolwidths="true" hscroll="true" width="100%" height="100%" vscroll="auto" withblockscrolling="false" casaindex="7" >
+
+                    <tr casaindex="7" >
+
+                        <label name=" " width="30" asheadline="true" casaindex="7" >
+
+                        </label>
+
+                        <flexline infoprop="grid.headerFL" casaindex="7" >
+
+                        </flexline>
+
+                        <hdist casaindex="7" >
+
+                        </hdist>
+
+                    </tr>
+
+                    <repeat casaindex="7" >
+
+                        <str valueprop="selected" showifempty="false" casaindex="7" >
+
+                            <selector valueprop="selected" withlinenum="false" width="30" singleselect="true" casaindex="7" >
+
+                            </selector>
+
+                            <flexline infoprop="/grid.contentFL" casaindex="7" >
+
+                            </flexline>
+
+
+                                            <hdist casaindex="7" >
+
+                            </hdist>
+
+                        </str>
+
+                    </repeat>
+
+                </rowtablearea2>
+
+
+                                    </rowareabody>
+
+
+
+                        </rowareawithheader>
+
+
+
+            </pagebody>
+
+
+
+</page>

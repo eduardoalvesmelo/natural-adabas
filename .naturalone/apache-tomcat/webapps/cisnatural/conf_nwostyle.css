@@ -1,0 +1,82 @@
+BODY {font-size: 10pt; color: black; font-family: Verdana; background-color: #FFFFFF}
+.TitlePage {font-size: 14pt; color: #339999; font-family: Verdana}
+.Title1 {font-weight: bold; font-size: 12pt; color: black; font-family: Verdana; text-decoration: none}
+.Title2 {font-size: 9pt; color: black; font-family: Verdana}
+.Title2Bold {background-color:#a59c8c; font-weight: bold; font-size: 9pt; color: black; font-family: Verdana}
+.Title3 {font-size: 8pt; color: black; font-family: Verdana}
+.Title4 {font-size: 6pt; color: black; font-family: Verdana}
+.headerCol{text-align: left; font-weight: bold; font-size: 10pt; color: black; font-family: Verdana}
+.inputText {font-size: 9pt; color: black; font-family: Verdana}
+.outputText {font-size: 9pt; color: black; font-family: Verdana}
+.outputLabel{font-weight: bold; font-size: 9pt; color: #6a6a6a; font-family: Verdana}
+.headerId {text-align: left; font-weight: bold; font-size: 9pt; color: black; font-family: Verdana}
+.headerType {text-align: left; font-weight: bold; font-size: 9pt; color: black; font-family: Verdana}
+.headerServer {text-align: left; font-weight: bold; font-size: 9pt; color: black; font-family: Verdana}
+.headerPort {text-align: left; font-weight: bold; font-size: 9pt; color: black; font-family: Verdana}
+.headerPrg {text-align: left; font-weight: bold; font-size: 9pt; color: black; font-family: Verdana}
+.headerPar {text-align: left; font-weight: bold; font-size: 9pt; color: black; font-family: Verdana}
+.headerEdit {text-align: left; font-weight: bold; font-size: 9pt; color: black; font-family: Verdana}
+.headerDel {text-align: left; font-weight: bold; font-size: 9pt; color: black; font-family: Verdana}
+.headerDuplicate {text-align: left; font-weight: bold; font-size: 9pt; color: black; font-family: Verdana}
+.idCol {background-color: #d7ffff; text-align: left; width: 20%}
+.typeCol {background-color: #d7ffff; text-align: left; width: 5%}
+.serverCol {background-color: #d7ffff; text-align: left; width: 10%}
+.portCol {background-color: #d7ffff; text-align: left; width: 5%}
+.prgCol {background-color: #d7ffff; text-align: left; width: 15%}
+.parCol {background-color: #d7ffff; text-align: left; width: 35%}
+.editCol {background-color: #d7ffff; text-align: left; width: 5%}
+.delCol {background-color: #d7ffff; text-align: left; width: 5%}
+.editSessCol21 {background-color: #ffffff; text-align: left; width: 20%}
+.editSessCol22 {background-color: #ffffff; text-align: left; width: 60%}
+.editSessCol23 {background-color: #ffffff; text-align: left; width: 20%}
+.editSessCol61 {background-color: #ffffff; text-align: left; width: 5%}
+.editSessCol62 {background-color: #ffffff; text-align: left; width: 28%}
+.editSessCol63 {background-color: #ffffff; text-align: left; width: 5%}
+.editSessCol64 {background-color: #ffffff; text-align: left; width: 28%}
+.editSessCol65 {background-color: #ffffff; text-align: left; width: 5%}
+.editSessCol66 {background-color: #ffffff; text-align: left; width: 28%}
+.tableWhite {background-color: #ffffff}
+.vtBodyBgColorTD1 {background-color: #FFFFFF}
+.showError {color: red; font-family: Verdana; font-size: 8pt; font-weight: bold}
+.showInfo {color: blue; font-family: Verdana; font-size: 8pt;font-weight: bold }
+.vtDataTD1 {padding:4px; background-position: right bottom; border-top: 1px solid #a59c8c; background-image: url('images/vtDataTDBg.gif'); 
+    border-left: 1px solid #a59c8c; 
+    background-repeat: no-repeat; 
+    background-color: #B3CCEB
+}
+.submitButtonColor {
+    border-right: #470501 1px solid; 
+    padding-right: 2px;
+    border-top: #ffffff 1px solid; 
+    padding-left: 2px; 
+    font-weight: normal; 
+    font-size: 13px; 
+    margin: 0px; 
+    border-left: #ffffff 1px solid; 
+    color: #ffffff; 
+    border-bottom: #470501 1px solid; 
+    font-family: Verdana; 
+    background-color: #a59c8c; 
+    text-align: center
+}
+.logErr {
+	MARGIN: 5px 15px 5px 0px
+}
+.AlrtErrTxt {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; VERTICAL-ALIGN: middle; COLOR: #000; TEXT-ALIGN: center
+}
+.AlrtTbl {
+	BORDER-RIGHT: #e1e1a7 1px solid; PADDING-RIGHT: 15px; BORDER-TOP: #e1e1a7 1px solid; PADDING-LEFT: 15px; PADDING-BOTTOM: 7px; BORDER-LEFT: #e1e1a7 1px solid; PADDING-TOP: 7px; BORDER-BOTTOM: #e1e1a7 1px solid; BACKGROUND-COLOR: #ffffcc
+}
+.AlrtMsgTxt {
+	COLOR: #000; PADDING-TOP: 6px; TEXT-ALIGN: left
+}
+.WelBoxl {
+	BORDER-RIGHT: #007ca4 1px solid; PADDING-RIGHT: 15px; BORDER-TOP: #007ca4 1px solid; PADDING-LEFT: 15px; PADDING-BOTTOM: 7px; BORDER-LEFT: #007ca4 1px solid; PADDING-TOP: 7px; BORDER-BOTTOM: #007ca4 1px solid; BACKGROUND-COLOR: #007ca4
+}
+.WelBox2 {background-color:#e2eff3}
+.WelBox3 {background-color:#f5f9fb}
+.WelT1 {font-weight: bold; font-size: 10pt; color: white; font-family: Verdana; text-decoration: none}
+.WelT2 {font-size: 8pt; color: black; font-family: Verdana}
+.WelT2Bold {font-weight: bold; font-size: 8pt; color: black; font-family: Verdana}
+.WelT3 {font-size: 8pt; color: black; font-family: Verdana}

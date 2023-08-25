@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.XMLSchemaDataAdapter" translationreference="editor" casaindex="1" >
+
+
+
+            <pagebody horizdist="false" takefullheight="true" casaindex="2" >
+
+
+
+                        <rowarea withleftborder="false" withrightborder="false" withtopborder="false" withtoppadding="false" casaindex="3" >
+
+
+
+                                    <rowdynavis valueprop="showUseInPage" casaindex="4" >
+
+
+
+                                                <tr casaindex="5" >
+
+
+
+                                                            <label asplaintext="true" textid="rexmlsd.label24" width="70" casaindex="6" >
+
+
+
+                                                            </label>
+
+
+
+                    <field xsdType="xs:string" statusprop="schemaStatus" valueprop="schema" width="100%" casaindex="7" >
+
+                    </field>
+
+                                                </tr>
+
+
+
+                                                <tr casaindex="8" >
+
+
+
+                                                            <hdist casaindex="9" >
+
+
+
+                                                            </hdist>
+
+
+
+                                                            <button invisiblemode="disabled" method="onLoadSchema" textid="rexmlsd.button6" visibleprop="loadButtonStatus" casaindex="10" >
+
+
+
+                                                            </button>
+
+
+
+                                                </tr>
+
+
+
+                                                <vdist height="8" casaindex="11" >
+
+
+
+                                                </vdist>
+
+
+
+                                                <vdist height="8" casaindex="12" >
+
+
+
+                                                </vdist>
+
+
+
+                                    </rowdynavis>
+
+
+
+                        </rowarea>
+
+
+
+                        <vdist height="4" casaindex="13" >
+
+
+
+                        </vdist>
+
+
+
+                        <rowtablearea2 firstrowcolwidths="true" griddataprop="lines" height="100%" rowcount="40" width="100%" withborder="false" casaindex="14" >
+
+
+
+                                    <repeat casaindex="15" >
+
+
+
+                                                <str valueprop="selected" casaindex="16" >
+
+
+
+                                                            <treenode3 enabledrag="false" imageclosed="../HTMLBasedGUI/images/xmlclosed.gif" imageopened="../HTMLBasedGUI/images/xmlopened.gif" width="100%" casaindex="17" >
+
+
+
+                                                <icon casaindex="18" imageprop="dragimage" draginfoprop="dragInfo" visibleprop="dragIconVisible" invisiblemode="invisible" >
+
+                        </icon>
+
+
+                        
+                                                            </treenode3>
+
+
+
+                                                            <hdist casaindex="19" >
+
+
+
+                                                            </hdist>
+
+
+
+                                                </str>
+
+
+
+                                    </repeat>
+
+
+
+                        </rowtablearea2>
+
+
+
+                        <rowarea withbottomborder="false" withleftborder="false" withrightborder="false" casaindex="20" >
+
+
+
+                                    <tr casaindex="21" >
+
+
+
+                                                <label asplaintext="true" textid="rexmlsd.label25" width="70" casaindex="22" >
+
+
+
+                                                </label>
+
+
+
+                <field xsdType="xs:string" displayonly="true" noborder="true" valueprop="nodeName" width="100%" casaindex="23" >
+
+                </field>
+
+                                    </tr>
+
+
+
+                                    <vdist height="2" casaindex="24" >
+
+
+
+                                    </vdist>
+
+
+
+                                    <tr casaindex="25" >
+
+
+
+                                                <label asplaintext="true" textid="rexmlsd.label26" casaindex="26" >
+
+
+
+                                                </label>
+
+
+
+                <field xsdType="xs:string" displayonly="true" noborder="true" valueprop="nodeType" width="100%" casaindex="27" >
+
+                </field>
+
+                                    </tr>
+
+
+
+                                    <tr casaindex="28" >
+
+
+
+                                                <label asplaintext="true" textid="rexmlsd.label27" casaindex="29" >
+
+
+
+                                                </label>
+
+
+
+                <field xsdType="xs:string" displayonly="true" noborder="true" valueprop="elementType" width="100%" casaindex="30" >
+
+                </field>
+
+                                    </tr>
+
+
+
+                                    <vdist height="2" casaindex="31" >
+
+
+
+                                    </vdist>
+
+
+
+                                    <itr takefullwidth="true" casaindex="32" >
+
+
+
+                                                <textgrid2 directselectevent="ondblclick" directselectmethod="onNodeControlSelected" griddataprop="nodeControlsTextgrid" height="100" selectprop="selected" singleselect="true" width="100%" withselectioncolumn="false" withtitlerow="false" casaindex="33" >
+
+
+
+                                                            <column imageprop="controlIconTextgrid" textid="wsdldataadpt.column0" width="100" withsorticon="false" casaindex="34" >
+
+
+
+                                                            </column>
+
+
+
+                                                            <column property="controlTextTextgrid" textid="wsdldataadpt.column1" width="100%" withsorticon="false" casaindex="35" >
+
+
+
+                                                            </column>
+
+
+
+                                                </textgrid2>
+
+
+
+                                    </itr>
+
+
+
+                        </rowarea>
+
+
+
+            </pagebody>
+
+
+
+</page>

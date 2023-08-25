@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><mfpage separation="rows" sizing="40,*,3,15" border="0" framesetstyle="border: 0px solid #000000" casaindex="1" >
+
+
+        <mfhtmlframe target="AAA" url="workplace/header2.html" resizable="false" withborder="false" scrolling="false" framestyle="border: 0px solid #000000" casaindex="2" >
+
+
+        </mfhtmlframe>
+
+
+        <mfframeset target="XXX" separation="cols" sizing="3,*,3" border="0" framesetstyle="border: 0px solid #000000" casaindex="3" >
+
+
+                <mfhtmlframe target="DDD" url="workplace/grayblank.html" resizable="false" withborder="false" scrolling="false" framestyle="border: 0px solid #000000" casaindex="4" >
+
+
+                </mfhtmlframe>
+
+
+                <mfcisframe target="FFF" cisurl="/HTMLBasedGUI/com.softwareag.cis.workplace.MFInner.html" resizable="false" unloadbehaviour="NOTHING" casaindex="5" >
+
+
+                </mfcisframe>
+
+
+                <mfhtmlframe target="EEE" url="workplace/grayblank.html" resizable="false" withborder="false" scrolling="false" framestyle="border: 0px solid #000000" casaindex="6" >
+
+
+                </mfhtmlframe>
+
+
+        </mfframeset>
+
+
+        <mfhtmlframe target="BBB" url="workplace/grayblank.html" resizable="false" withborder="false" scrolling="false" framestyle="border: 0px solid #000000" casaindex="7" >
+
+
+        </mfhtmlframe>
+
+
+        <mfhtmlframe target="CCC" url="workplace/footer2.html" resizable="false" withborder="false" scrolling="false" framestyle="border: 0px solid #000000" casaindex="8" >
+
+
+        </mfhtmlframe>
+
+
+</mfpage>

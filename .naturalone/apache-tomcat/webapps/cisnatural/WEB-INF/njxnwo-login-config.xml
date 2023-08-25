@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<!DOCTYPE policy PUBLIC
+      "-//JBoss//DTD JBOSS Security Config 3.0//EN"
+      "http://www.jboss.org/j2ee/dtd/security_config.dtd">
+
+<policy>
+  <application-policy name="NaturalWebIOAndAjaxRealm">
+    <authentication>
+    
+      <!-- Login module for SSX. Using SSX to authenticate against the local OS -->
+      <!--login-module code="com.softwareag.security.jaas.login.ssx.SSXLoginModule" flag="required">
+         <module-option name="template_section">OS</module-option>
+         <module-option name="rmiEnabled">true</module-option>       
+         <module-option name="rmiServerPort">31415</module-option>    
+         <module-option name="rmiServerAddress">localhost</module-option>                       
+      </login-module-->    
+    
+    
+      <!-- Login module for SSX. Using SSX together with an IAF server -->
+   		<!--login-module code="com.softwareag.security.jaas.login.ssx.SSXLoginModule" flag="required">
+      	<module-option name="template_section">IAF</module-option>
+      	<module-option name="serverHost">ssl://localhost:11971?TRUST_STORE=p:\\Program Files\\Software AG\\IAF\\v2.3\\Etc\\IAFCACert.pem&#x26;VERIFY_SERVER=N</module-option>
+      	<module-option name="homeDir">p:\\Program Files\\Software AG\\IAF\\v2.3\\bin</module-option>
+        <module-option name="rmiEnabled">true</module-option>
+        <module-option name="rmiServerPort">31415</module-option>
+        <module-option name="rmiServerAddress">localhost</module-option>
+        <module-option name="CreateGroups">false</module-option>
+        <module-option name="useLog">false</module-option>
+        <module-option name="logLevel">DEBUG</module-option>
+        <module-option name="logFile">c:/temp/sinjboss.log</module-option>
+      </login-module-->
+    
+      <!-- Login configuration for properties file based login module UsersRolesLoginModule -->
+      <login-module code="org.jboss.security.auth.spi.UsersRolesLoginModule" flag="required">
+        <module-option name="usersProperties">props/njxnwo-users.properties</module-option>
+        <module-option name="rolesProperties">props/njxnwo-roles.properties</module-option>
+        <module-option name="password-stacking">useFirstPass</module-option>
+      </login-module>  
+              
+      <!-- Login configuration for NJXLoginModule, which forwards given user ID and password to NJX -->
+      <login-module code="com.softwareag.njx.loginmodule.NJXLoginModule" flag="optional">
+        <module-option name="useFirstPass">true</module-option>              
+      </login-module>     
+    </authentication>
+  </application-policy>
+</policy>
+

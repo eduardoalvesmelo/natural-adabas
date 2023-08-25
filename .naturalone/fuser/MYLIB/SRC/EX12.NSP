@@ -1,0 +1,83 @@
+0001/** (Cortesia do Prof. Bogdan Tomoyuki Nassu) Zeca está organizando um bolão de futebol.
+0002/** Segundo suas regras, os apostadores informam o placar do jogo e ganham 10 pontos se
+0003/** acertarem o vencedor ou se acertarem que foi empate, e ganham mais 5 pontos para o placar
+0004/** de cada time que acertarem. A tabela a seguir dá um exemplo, considerando que o placar
+0005/** 10 - vencedor 
+0006/** 05 - acertar qtde gols dos times  
+0007/** real foi 3x2: 
+0008/** Placar-apostado |    Pontos |    Razão
+0009/**     0x1         |      0    | Não acertou o vencedor e nem o número de gols dos times.
+0010/**     0x2         |      5    | Não acertou o vencedor, mas acertou o número de gols do segundo time.
+0011/**     3x5         |      5    | Não acertou o vencedor, mas acertou o número de gols do primeiro time.
+0012/**     1x0         |     10    | Acertou o vencedor, mas não acertou o número de gols dos times.
+0013/**     3x1         |     15    | Acertou o vencedor e o número de gols do primeiro time.
+0014/**     3x2         |     20    | Acertou o vencedor e o número de gols de ambos os times. 
+0015/**
+0016/**
+0017DEFINE DATA LOCAL
+00181 #qtde-apostadores         (N2)
+00191 #resultado-time-1         (N2) init<5>
+00201 #resultado-time-2         (N2) init<4>
+00211 #time-vencedor            (N2) 
+00221 #time-vencedor-aposta     (N2/3)
+00231 #aposta-placar-usuario    (A20/3)
+00241 #aposta-placar-time-1     (N2/3)
+00251 #aposta-placar-time-2     (N2/3)
+00261 #qtde-pontos-ttl          (N2/3)
+00271 #i                        (N2)
+0028END-DEFINE                            
+0029*    
+0030input 'Informe a quantidade de apostadores' #qtde-apostadores
+0031for #i:= 1 to #qtde-apostadores    
+0032    input 'Informe o nome do apostador: ' #aposta-placar-usuario(#i)
+0033    input 'Informe o placar do time 1: ' #aposta-placar-time-1(#i)
+0034    input 'Informe o placar do time 2: ' #aposta-placar-time-2(#i)
+0035end-for                                                                                               
+0036*
+0037decide for first condition    
+0038   when #resultado-time-1 > #resultado-time-2
+0039    #time-vencedor:= 1
+0040   when #resultado-time-1 < #resultado-time-2
+0041       #time-vencedor:= 2
+0042   when none           
+0043       #time-vencedor:= 0
+0044end-decide
+0045*
+0046for #i:= 1 to #qtde-apostadores
+0047#qtde-pontos-ttl(#i):= 0
+0048decide for first condition    
+0049   when #aposta-placar-time-1(#i) > #aposta-placar-time-2(#i)
+0050    #time-vencedor-aposta(#i):= 1
+0051   when #aposta-placar-time-1(#i) < #aposta-placar-time-2(#i)
+0052       #time-vencedor-aposta(#i):= 2
+0053   when none           
+0054       #time-vencedor-aposta(#i):= 0
+0055end-decide
+0056*
+0057    if #aposta-placar-time-1(#i) = #resultado-time-1
+0058        #qtde-pontos-ttl(#i):= #qtde-pontos-ttl(#i) + 5
+0059    else
+0060        #qtde-pontos-ttl(#i):= #qtde-pontos-ttl(#i) + 0
+0061    end-if        
+0062*    
+0063    if #aposta-placar-time-2(#i) = #resultado-time-2
+0064        #qtde-pontos-ttl(#i):= #qtde-pontos-ttl(#i) + 5
+0065    else
+0066        #qtde-pontos-ttl(#i):= #qtde-pontos-ttl(#i) + 0
+0067    end-if
+0068*
+0069    if #time-vencedor-aposta(#i) = #time-vencedor and #time-vencedor <> 0 
+0070        #qtde-pontos-ttl(#i):= #qtde-pontos-ttl(#i) + 10
+0071    else
+0072        #qtde-pontos-ttl(#i):= #qtde-pontos-ttl(#i) + 0
+0073    end-if        
+0074end-for    
+0075*
+0076write 'Resultado: ' #resultado-time-1 'x' #resultado-time-2
+0077for #i:= 1 to #qtde-apostadores
+0078    write 'Nome do apostador: ' #aposta-placar-usuario(#i)
+0079    write 'Placar apostador '#i' :' #aposta-placar-time-1(#i) 'x' #aposta-placar-time-2(#i)
+0080    write 'Pontuação: ' #qtde-pontos-ttl(#i)
+0081end-for
+0082*
+0083END

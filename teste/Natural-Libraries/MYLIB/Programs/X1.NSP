@@ -1,0 +1,22 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** New Program X1.
+/**
+/** :author eduar
+/* TODO Enter your code here
+DEFINE DATA LOCAL
+1 NUM1 (N3) /* NUMERICO COM 3 POSIÇÕES
+1 NUM2 (N3) /* NUMERICO COM 3 POSICÕES
+1 SOMA (N5) /*
+END-DEFINE
+
+INPUT 'Digite o primeiro número: ' NUM1
+INPUT 'Digite o segundo número: ' NUM2
+
+COMPUTE SOMA = NUM1 + NUM2
+
+DISPLAY 'A soma dos dois números é: ' SOMA
+
+END

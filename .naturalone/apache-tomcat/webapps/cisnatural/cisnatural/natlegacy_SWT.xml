@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.adapter.cisnatural+natlegacy" darkbackground="true" casaindex="1" adapterlisteners="com.softwareag.cis.adapter.TriggerEventAdapterListener" >
+
+
+            <pagebody takefullheight="true" casaindex="2" >
+
+
+
+                        <rowarea name="Natural Web I/O Output" foldable="false" height="100%" casaindex="3" >
+
+
+
+                                    <itr takefullwidth="true" height="100%" casaindex="4" >
+
+
+
+                                                <subpage valueprop="subPageVal" height="100%" width="100%" casaindex="5" >
+
+
+
+                                                </subpage>
+
+
+
+                                    </itr>
+
+
+
+                        </rowarea>
+
+
+
+                        <rowarea name="Style Sheet" foldable="true" visibleprop="styleSheetVisible" foldedprop="styleSheetFold" withfadedtoggling="false" casaindex="6" >
+
+
+
+                                    <itr casaindex="7" >
+
+
+
+                                                <label name="Web I/O style sheet:" casaindex="8" >
+
+
+
+                                                </label>
+
+
+
+                                                <hdist width="20" casaindex="9" >
+
+
+
+                                                </hdist>
+
+
+
+                                                <combodyn2 valueprop="comboWebIO" validvaluesprop="comboWebIOValid" width="175" casaindex="10" >
+
+
+
+                                                </combodyn2>
+
+
+
+                                                <hdist width="20" casaindex="11" >
+
+
+
+                                                </hdist>
+
+
+
+                                                <button name="Apply" method="onChangeStyle" width="80" casaindex="12" >
+
+
+
+                                                </button>
+
+
+
+                                    </itr>
+
+
+
+                        </rowarea>
+
+
+
+            </pagebody>
+
+
+
+            <statusbar withdistance="false" casaindex="13" >
+
+
+
+            </statusbar>
+
+
+
+</page>

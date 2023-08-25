@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.FormulaandRulesOverviewAdapter" translationreference="editor" casaindex="1" >
+
+
+        <pagebody vscroll="hidden" hscroll="hidden" horizdist="false" takefullheight="true" casaindex="2" >
+
+
+                <itr takefullwidth="true" height="100%" casaindex="3" >
+
+
+                        <textgridsss2 griddataprop="overviewlines" rowcount="30" width="100%" height="100%" selectprop="selected" singleselect="true" onclickmethod="onLineSelected" casaindex="4" >
+
+
+                                <column name="No." property="id" width="50" textstyleprop="style" casaindex="5" >
+
+
+                                </column>
+
+
+                                <column name="Field" property="valuepropName" width="200" textstyleprop="style" casaindex="6" >
+
+
+                                </column>
+
+
+                                <column name="Value" property="attribute" width="100%" textstyleprop="style" casaindex="7" >
+
+
+                                </column>
+
+
+                        </textgridsss2>
+
+
+                </itr>
+
+
+        </pagebody>
+
+
+</page>

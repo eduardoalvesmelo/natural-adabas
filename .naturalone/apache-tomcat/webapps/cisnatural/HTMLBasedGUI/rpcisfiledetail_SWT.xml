@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.runtimepersistence.jdbc.CIFileDetailAdapter" popupheight="600" popupwidth="800" translationreference="jdbc" casaindex="1" >
+
+
+        <pagebody horizdist="false" takefullheight="true" casaindex="2" >
+
+
+                <itr height="100%" width="100%" casaindex="3" >
+
+
+                        <text height="100%" textareastyle="border: 0" valueprop="fileContent" width="100%" casaindex="4" >
+
+
+                        </text>
+
+
+                </itr>
+
+
+        </pagebody>
+
+
+        <titlebar withclose="false" casaindex="5" >
+
+
+                <button method="closePage" textid="jdbc.button5" casaindex="6" >
+
+
+                </button>
+
+
+        </titlebar>
+
+
+</page>

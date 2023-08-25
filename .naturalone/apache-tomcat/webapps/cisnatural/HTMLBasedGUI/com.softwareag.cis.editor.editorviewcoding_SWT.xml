@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.EditorViewCodingAdapter" translationreference="CIS_EDIT" casaindex="1" >
+
+
+        <hotkeys casaindex="2" >
+
+
+                <hotkey ctrlkey="true" keycode="37" method="shiftLeft" casaindex="3" >
+
+
+                </hotkey>
+
+
+                <hotkey ctrlkey="true" keycode="39" method="shiftRight" casaindex="4" >
+
+
+                </hotkey>
+
+
+        </hotkeys>
+
+
+        <pagebody horizdist="false" takefullheight="true" casaindex="5" >
+
+
+                <itr height="100%" width="100%" casaindex="6" >
+
+
+                        <coltable0 fixlayout="true" takefullheight="true" width="50%" casaindex="7" >
+
+
+                                <rowarea textid="codeAssBinding" withbottomborder="false" withleftborder="false" withrightborder="false" casaindex="8" >
+
+
+                                        <itr width="100%" casaindex="9" >
+
+
+                                                <coltable0 fixlayout="true" width="50%" casaindex="10" >
+
+
+                                                        <itr fixlayout="true" width="100%" casaindex="11" >
+
+
+                                                                <textgridsss2 directselectevent="onclick" directselectmethod="onPropertySelected" griddataprop="properties" hscroll="true" rowcount="12" selectprop="selected" singleselect="false" singleselectcontextmenu="false" width="100%" casaindex="12" >
+
+
+                                                                        <column align="center" property="state" textid="editor.column0" width="24" casaindex="13" >
+
+
+                                                                        </column>
+
+
+                                                                        <column align="left" property="name" textid="codeAssProperties" textstyleprop="textStyle" width="100%" casaindex="14" >
+
+
+                                                                        </column>
+
+
+                                                                </textgridsss2>
+
+
+                                                        </itr>
+
+
+                                                </coltable0>
+
+
+                                                <hdist casaindex="15" >
+
+
+                                                </hdist>
+
+
+                                                <coltable0 fixlayout="true" width="50%" casaindex="16" >
+
+
+                                                        <itr fixlayout="true" width="100%" casaindex="17" >
+
+
+                                                                <textgridsss2 directselectevent="onclick" directselectmethod="onMethodSelected" griddataprop="methods" hscroll="true" rowcount="12" selectprop="selected" singleselect="false" singleselectcontextmenu="false" width="100%" casaindex="18" >
+
+
+                                                                        <column align="center" property="state" textid="editor.column1" width="24" casaindex="19" >
+
+
+                                                                        </column>
+
+
+                                                                        <column align="left" property="name" textid="codeAssMethods" textstyleprop="textStyle" width="100%" casaindex="20" >
+
+
+                                                                        </column>
+
+
+                                                                </textgridsss2>
+
+
+                                                        </itr>
+
+
+                                                </coltable0>
+
+
+                                        </itr>
+
+
+                                        <vdist casaindex="21" >
+
+
+                                        </vdist>
+
+
+                                        <itr width="100%" casaindex="22" >
+
+
+                                                <button image="../HTMLBasedGUI/images/java.gif" method="onGenerateCode" textid="codeAssGenerateCode" width="100%" casaindex="23" >
+
+
+                                                </button>
+
+
+                                        </itr>
+
+
+                                </rowarea>
+
+
+                                <rowarea fixlayout="true" height="100%" textid="codeAssGenCode" withbottomborder="false" withleftborder="false" withrightborder="false" withtoppadding="false" casaindex="24" >
+
+
+                                        <itr fixlayout="true" height="100%" width="100%" casaindex="25" >
+
+
+                                                <text height="100%" textareastyle="font-family: sans serif; font-size: 8pt" valueprop="generatedCode" width="100%" wrap="off" casaindex="26" >
+
+
+                                                </text>
+
+
+                                        </itr>
+
+
+                                        <vdist casaindex="27" >
+
+
+                                        </vdist>
+
+
+                                        <itr casaindex="28" >
+
+
+                                                <button invisiblemode="disabled" method="shiftLeft" textid="menuCodeGenShiftLeft" visibleprop="takeOverFunctionalityVisisble" casaindex="29" >
+
+
+                                                </button>
+
+
+                                                <hdist casaindex="30" >
+
+
+                                                </hdist>
+
+
+                                                <button invisiblemode="disabled" method="shiftRight" textid="menuCodeGenShiftRight" visibleprop="takeOverFunctionalityVisisble" casaindex="31" >
+
+
+                                                </button>
+
+
+                                                <hdist width="100%" casaindex="32" >
+
+
+                                                </hdist>
+
+
+                                                <hdist casaindex="33" >
+
+
+                                                </hdist>
+
+
+                                                <button invisiblemode="disabled" method="onTakeOver" textid="codeAssTakeOver" visibleprop="takeOverFunctionalityVisisble" casaindex="34" >
+
+
+                                                </button>
+
+
+                                        </itr>
+
+
+                                </rowarea>
+
+
+                        </coltable0>
+
+
+                        <coltable0 takefullheight="true" width="50%" casaindex="35" >
+
+
+                                <rowarea fixlayout="true" height="100%" textid="codeAssAdapterCode" withbottomborder="false" withrightborder="false" casaindex="36" >
+
+
+                                        <itr fixlayout="true" height="100%" width="100%" casaindex="37" >
+
+
+                                                <textgridsss2 griddataprop="sourceCodeLines" height="100%" hscroll="true" rowcount="50" selectprop="selected" singleselectcontextmenu="false" stylevariant="VAR1" width="100%" withtitlerow="false" casaindex="38" >
+
+
+                                                        <column convertspaces="true" property="codeLine" textid="ed.txtgridsss.clm.codeline" textstyleprop="textStyle" width="100%" casaindex="39" >
+
+
+                                                        </column>
+
+
+                                                </textgridsss2>
+
+
+                                        </itr>
+
+
+                                </rowarea>
+
+
+                        </coltable0>
+
+
+                </itr>
+
+
+        </pagebody>
+
+
+</page>

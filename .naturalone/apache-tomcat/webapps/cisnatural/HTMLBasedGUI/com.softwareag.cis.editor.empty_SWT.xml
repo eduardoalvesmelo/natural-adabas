@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="DummyAdapter" stylesheetfile="../cis/styles/CIS_DEV.css" translationreference="editor" casaindex="1" >
+
+
+        <pagebody takefullheight="true" casaindex="2" >
+
+
+                <tr height="100%" casaindex="3" >
+
+
+                        <icon align="center" image="images/editorbackground.gif" valign="middle" casaindex="4" >
+
+
+                        </icon>
+
+
+                        <hdist width="50" casaindex="5" >
+
+
+                        </hdist>
+
+
+                </tr>
+
+
+                <vdist height="50" casaindex="6" >
+
+
+                </vdist>
+
+
+                <itr align="right" height="0" width="100%" casaindex="7" >
+
+
+                        <label align="right" asplaintext="true" labelstyle="font-size: 11px; color: #A00000" textalign="right" textid="ree.label2" casaindex="8" >
+
+
+                        </label>
+
+
+                        <hdist width="10" casaindex="9" >
+
+
+                        </hdist>
+
+
+                </itr>
+
+
+        </pagebody>
+
+
+</page>

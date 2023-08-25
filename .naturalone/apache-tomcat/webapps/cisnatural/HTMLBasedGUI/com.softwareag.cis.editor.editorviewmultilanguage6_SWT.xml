@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.EditorViewMultiLanguage6Adapter" translationreference="CIS_EDIT" casaindex="1" >
+
+
+        <hotkeys casaindex="2" >
+
+
+                <hotkey keycode="78" altkey="true" method="newTextId" casaindex="3" >
+
+
+                </hotkey>
+
+
+        </hotkeys>
+
+
+        <pagebody horizdist="false" takefullheight="true" casaindex="4" >
+
+
+                <rowareawithheader foldable="false" withleftborder="false" withtopborder="false" withrightborder="false" withbottomborder="false" withtoppadding="false" casaindex="5" >
+
+
+                        <rowareaheader textid="litAssLanguageSettings" align="right" casaindex="6" >
+
+
+                                <icon image="../HTMLBasedGUI/images/closecornergray.gif" method="onToolExit" valign="middle" casaindex="7" >
+
+
+                                </icon>
+
+
+                        </rowareaheader>
+
+
+                        <rowareabody casaindex="8" >
+
+
+                                <itr takefullwidth="true" casaindex="9" >
+
+
+                                        <coltable0 witdh="50%" casaindex="10" >
+
+
+                                                <itr casaindex="11" >
+
+
+                                                        <label textid="litAssLanguage" width="150" casaindex="12" >
+
+
+                                                        </label>
+
+
+                                                        <combodyn valueprop="language1" optarrayprop="languageOptions" size="1" flush="server" width="60" casaindex="13" >
+
+
+                                                        </combodyn>
+
+
+                                                        <hdist width="20" casaindex="14" >
+
+
+                                                        </hdist>
+
+
+                                                        <helpicon helpid="literaltranslator" titletextid="editorvml.helpicon1" casaindex="15" >
+
+
+                                                        </helpicon>
+
+
+                                                </itr>
+
+
+                                                <vdist casaindex="16" >
+
+
+                                                </vdist>
+
+
+                                                <itr casaindex="17" >
+
+
+                                                        <label textid="litAssCompareLang" width="150" casaindex="18" >
+
+
+                                                        </label>
+
+
+                                                        <combodyn valueprop="language2" optarrayprop="languageOptions" size="1" flush="server" width="60" casaindex="19" >
+
+
+                                                        </combodyn>
+
+
+                                                </itr>
+
+
+                                        </coltable0>
+
+
+                                        <hdist width="20" casaindex="20" >
+
+
+                                        </hdist>
+
+
+                                        <coltable0 witdh="50%" casaindex="21" >
+
+
+                                                <itr casaindex="22" >
+
+
+                                                        <radiobutton valueprop="disableSort" value="false" flush="server" name="Sort File on Save" casaindex="23" >
+
+
+                                                        </radiobutton>
+
+
+                                                </itr>
+
+
+                                                <itr casaindex="24" >
+
+
+                                                        <radiobutton valueprop="disableSort" value="true" flush="server" name="Append new Entries to End of File" casaindex="25" >
+
+
+                                                        </radiobutton>
+
+
+                                                </itr>
+
+
+                                        </coltable0>
+
+
+                                </itr>
+
+
+                        </rowareabody>
+
+
+                </rowareawithheader>
+
+
+                <rowareawithheader height="100%" foldable="false" casaindex="26" >
+
+
+                        <rowareaheader textid="litAssLiteralMaintenance" align="right" casaindex="27" >
+
+
+                                <icon image="../HTMLBasedGUI/images/layoutMinimize.gif" method="hideColumn" visibleprop="hide" invisiblemode="cleared" align="right" titletextid="litAssHideComparisonLanguage" casaindex="28" >
+
+
+                                </icon>
+
+
+                                <icon image="../HTMLBasedGUI/images/toggleleft.gif" method="showColumn" visibleprop="show" titletextid="litAssShowComparisonLanguage" casaindex="29" >
+
+
+                                </icon>
+
+
+                        </rowareaheader>
+
+
+                        <rowareabody casaindex="30" >
+
+
+                                <rowtablearea2 griddataprop="lines" rowcount="50" height="100%" width="100%" firstrowcolwidths="true" casaindex="31" >
+
+
+                                        <tr casaindex="32" >
+
+
+                                                <gridcolheader textid="reevml6.label12" width="18" casaindex="33" >
+
+
+                                                </gridcolheader>
+
+
+                                                <gridcolheader textid="reevml6.label13" width="22" casaindex="34" >
+
+
+                                                </gridcolheader>
+
+
+                                                <gridcolheader textid="litAssTextId" width="20%" casaindex="35" >
+
+
+                                                </gridcolheader>
+
+
+                                                <gridcolheader textid="litAssLanguage" width="80%" propref="language" casaindex="36" >
+
+
+                                                </gridcolheader>
+
+
+                                                <gridcolheader textid="litAssCompareLang" width="0%" propref="comparisonLan" casaindex="37" >
+
+
+                                                </gridcolheader>
+
+
+                                        </tr>
+
+
+                                        <repeat casaindex="38" >
+
+
+                                                <str valueprop="selected" casaindex="39" >
+
+
+                                                        <toggle valueprop="selected" flush="server" trueimage="../HTMLBasedGUI/images/toggleunselect.gif" falseimage="../HTMLBasedGUI/general/nothing.gif" width="13" height="15" casaindex="40" >
+
+
+                                                        </toggle>
+
+
+                                                        <imageout valueprop="stateImage" width="14" height="14" casaindex="41" >
+
+
+                                                        </imageout>
+
+
+                            <field xsdType="xs:string" valueprop="textId" width="100%" displayonly="true" fieldstyle="padding-top: 3px;border: 0" casaindex="42" >
+
+                            </field>
+
+                            <field xsdType="xs:string" flush="server" valueprop="text1" width="100%" statusprop="text1DisplayStatus" fieldstyle="padding-top: 3px;border: 0" casaindex="43" >
+
+                            </field>
+
+                            <field xsdType="xs:string" valueprop="text2" width="100%" displayonly="true" fieldstyle="padding-top: 3px;border: 0" casaindex="44" >
+
+                            </field>
+
+                                                </str>
+
+
+                                        </repeat>
+
+
+                                </rowtablearea2>
+
+
+                        </rowareabody>
+
+
+                </rowareawithheader>
+
+
+        </pagebody>
+
+
+</page>

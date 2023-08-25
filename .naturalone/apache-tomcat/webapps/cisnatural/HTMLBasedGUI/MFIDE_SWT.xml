@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><mfpage separation="rows" sizing="89,*,38" border="15" bordercolor="#FFFFFF" casaindex="1" >
+
+
+        <mfwpactivefunctions resizable="false" withborder="false" scrolling="false" framestyle="border: 0px solid #000000" marginheight="0" marginwidth="0" casaindex="2" >
+
+
+        </mfwpactivefunctions>
+
+
+        <mfframeset target="ZZZ" separation="cols" sizing="0,265,*,0" border="15" frameborder="true" casaindex="3" >
+
+
+                <mfhtmlframe target="dummmy" url="about:blank" casaindex="4" >
+
+
+                </mfhtmlframe>
+
+
+                <mfwpfunctions bootstrapclass="com.softwareag.cis.editor.EditorWorkplace" serversidescrolling="true" withplusminus="true" activefunctionsvariant="/HTMLBasedGUI/MFActivitiesIDE23.html" withownborder="true" pageurl="/HTMLBasedGUI/com.softwareag.cis.workplace.MFWorkplaceSSSPlusMinusWithoutFavorites.html" casaindex="5" >
+
+
+                </mfwpfunctions>
+
+
+                <mfwpcontent resizable="true" withborder="false" scrolling="false" withownborder="true" casaindex="6" >
+
+
+                </mfwpcontent>
+
+
+                <mfcisframe target="CISHELP" cisurl="/HTMLBasedGUI/onlinehelp.html" resizable="true" withborder="false" withownborder="true" casaindex="7" >
+
+
+                </mfcisframe>
+
+
+        </mfframeset>
+
+
+</mfpage>

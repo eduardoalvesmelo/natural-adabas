@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.popups.PopupRenameLayoutModel" translationreference="popupyesno" popupheight="140" casaindex="1" >
+
+
+        <pagebody vscroll="hidden" hscroll="hidden" takefullheight="true" paddingtop="5" casaindex="2" >
+
+
+                <itr height="20" align="center" casaindex="3" >
+
+
+                        <label name="New Name of Layout" asplaintext="true" nowrap="true" casaindex="4" >
+
+
+                        </label>
+
+
+                        <hdist width="10" casaindex="5" >
+
+
+                        </hdist>
+
+
+            <field xsdType="xs:string" valueprop="newFileName" casaindex="6" >
+
+            </field>
+
+                </itr>
+
+
+                <vdist height="5" casaindex="7" >
+
+
+                </vdist>
+
+
+                <itr align="center" casaindex="8" >
+
+
+                        <button textid="btnYes" method="onOk" casaindex="9" >
+
+
+                        </button>
+
+
+                        <hdist width="10" casaindex="10" >
+
+
+                        </hdist>
+
+
+                        <button textid="btnNo" method="onCancel" casaindex="11" >
+
+
+                        </button>
+
+
+                </itr>
+
+
+        </pagebody>
+
+
+</page>

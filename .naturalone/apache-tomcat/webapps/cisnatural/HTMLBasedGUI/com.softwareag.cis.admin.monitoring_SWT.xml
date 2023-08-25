@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.zzz.ServerInfoModel" translationreference="ServerAdmin" stylesheetfile="../cis/styles/CIS_DEFAULT.css" casaindex="1" >
+
+
+        <titlebar textid="monitoringTitle" closetitletextid="closePage" casaindex="2" >
+
+
+        </titlebar>
+
+
+        <header withdistance="false" casaindex="3" >
+
+
+                <button textid="refresh" method="refresh" casaindex="4" >
+
+
+                </button>
+
+
+                <button textid="monit_button0" method="endProcess" casaindex="5" >
+
+
+                </button>
+
+
+        </header>
+
+
+        <pagebody vscroll="auto" hscroll="auto" takefullheight="true" casaindex="6" >
+
+
+                <rowarea textid="memoryArea" toggleimgtitletextid="toggletitle" casaindex="7" >
+
+
+                        <tr casaindex="8" >
+
+
+                                <label textid="usedMemory" width="150" casaindex="9" >
+
+
+                                </label>
+
+
+                <field xsdType="xs:string" valueprop="usedMemory" displayonly="true" casaindex="10" >
+
+                </field>
+
+                        </tr>
+
+
+                        <tr casaindex="11" >
+
+
+                                <label textid="processMemory" width="150" casaindex="12" >
+
+
+                                </label>
+
+
+                <field xsdType="xs:string" valueprop="totalMemory" displayonly="true" casaindex="13" >
+
+                </field>
+
+                                <hdist casaindex="14" >
+
+
+                                </hdist>
+
+
+                                <button textid="collectGarbage" method="collectGarbage" casaindex="15" >
+
+
+                                </button>
+
+
+                        </tr>
+
+
+                </rowarea>
+
+
+                <rowarea textid="sessionsArea" height="100%" fixlayout="true" toggleimgtitletextid="toggletitle" casaindex="16" >
+
+
+                        <itr height="100%" fixlayout="true" width="100%" casaindex="17" >
+
+
+                                <textgrid arrayprop="sessions" width="100%" height="100%" selectprop="selected" hscroll="true" valueprop="sessions" casaindex="18" >
+
+
+                                        <column textid="client" property="info" width="15%" casaindex="19" >
+
+
+                                        </column>
+
+
+                                        <column textid="sessionId" property="sessionId" width="15%" casaindex="20" >
+
+
+                                        </column>
+
+
+                                        <column textid="loggedOnFor" property="logonTime" width="30%" casaindex="21" >
+
+
+                                        </column>
+
+
+                                        <column textid="lastActivitySince" property="lastActivityTime" width="30%" casaindex="22" >
+
+
+                                        </column>
+
+
+                                        <column textid="monit_column0" property="justProcessing" width="70" casaindex="23" >
+
+
+                                        </column>
+
+
+                                        <column textid="noInteractionProcesses" property="numberOfProcesses" width="10%" casaindex="24" >
+
+
+                                        </column>
+
+
+                                </textgrid>
+
+
+                        </itr>
+
+
+                        <vdist casaindex="25" >
+
+
+                        </vdist>
+
+
+                        <itr casaindex="26" >
+
+
+                                <button textid="remove" method="remove" casaindex="27" >
+
+
+                                </button>
+
+
+                                <hdist casaindex="28" >
+
+
+                                </hdist>
+
+
+                                <button textid="removeTEMP" method="removeTEMPSessions" casaindex="29" >
+
+
+                                </button>
+
+
+                        </itr>
+
+
+                </rowarea>
+
+
+                <rowarea textid="systemmgmtArea" toggleimgtitletextid="toggletitle" casaindex="30" >
+
+
+                        <itr casaindex="31" >
+
+
+                                <label textid="lblClassloader" width="150" casaindex="32" >
+
+
+                                </label>
+
+
+                                <button textid="createClassLoaderButton" method="createNewClassLoader" casaindex="33" >
+
+
+                                </button>
+
+
+                        </itr>
+
+
+                        <vdist casaindex="34" >
+
+
+                        </vdist>
+
+
+                        <itr casaindex="35" >
+
+
+                                <label textid="lblbTextBuffer" width="150" casaindex="36" >
+
+
+                                </label>
+
+
+                                <button textid="mlrefresh" method="refreshTextBuffers" casaindex="37" >
+
+
+                                </button>
+
+
+                                <hdist casaindex="38" >
+
+
+                                </hdist>
+
+
+                                <button textid="accpathrefresh" method="refreshAccessPathBuffer" casaindex="39" >
+
+
+                                </button>
+
+
+                        </itr>
+
+
+                        <vdist casaindex="40" >
+
+
+                        </vdist>
+
+
+                        <itr casaindex="41" >
+
+
+                                <label textid="lblDebugMode" width="150" casaindex="42" >
+
+
+                                </label>
+
+
+                                <radiobutton valueprop="debugMode" value="false" flush="server" casaindex="43" >
+
+
+                                </radiobutton>
+
+
+                                <label textid="lblDebugModeFalse" asplaintext="true" casaindex="44" >
+
+
+                                </label>
+
+
+                                <hdist width="10" casaindex="45" >
+
+
+                                </hdist>
+
+
+                                <radiobutton valueprop="debugMode" value="true" flush="server" casaindex="46" >
+
+
+                                </radiobutton>
+
+
+                                <label textid="lblDebugModeTrue" asplaintext="true" casaindex="47" >
+
+
+                                </label>
+
+
+                                <hdist width="10" casaindex="48" >
+
+
+                                </hdist>
+
+
+                                <button textid="showServerLog" method="showServerLog" casaindex="49" >
+
+
+                                </button>
+
+
+                        </itr>
+
+
+                </rowarea>
+
+
+                <vdist casaindex="50" >
+
+
+                </vdist>
+
+
+        </pagebody>
+
+
+        <statusbar typeprop="messageType" shorttextprop="messageShortText" longtextprop="messageLongText" withdistance="false" casaindex="51" >
+
+
+        </statusbar>
+
+
+</page>

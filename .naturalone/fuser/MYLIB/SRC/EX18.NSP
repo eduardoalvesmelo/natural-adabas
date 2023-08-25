@@ -1,0 +1,32 @@
+0001/** Fazer um programa para mostrar todos os números perfeitos entre 1 e 100. Número perfeito
+0002/** é todo número inteiro cuja soma dos seus divisores é igual ao dobro do próprio número. 
+0003/**
+0004/** :author eduar
+0005/* TODO Enter your code here
+0006DEFINE DATA LOCAL
+0007  1 #i              (N10) init<0>
+0008  1 #j              (N10) init<0>
+0009  1 #num            (N10) init<0>
+0010  1 #divisor        (N10) init<0>
+0011  1 #dividendo      (N10) init<0>
+0012  1 #quociente      (N10) init<0>
+0013  1 #resto          (N10) init<0>
+0014  1 #num-perfeito   (N10) init<0>
+0015END-DEFINE
+0016* input 'Informe um numero: ' #num
+0017for #j:= 1 to 30
+0018    for #i:= 1 to #j
+0019    #divisor:= #i
+0020    #dividendo:= #j
+0021    divide #divisor into #dividendo giving #quociente remainder #resto 
+0022        if #resto = 0 and #i <> #j
+0023            #num-perfeito:= #num-perfeito + #divisor
+0024            if #num-perfeito <> #j
+0025                write #j 'não é um número perfeito: '
+0026            else
+0027                write #j 'é um número perfeito: ' #num-perfeito
+0028            end-if
+0029        end-if
+0030    end-for
+0031end-for    
+0032END

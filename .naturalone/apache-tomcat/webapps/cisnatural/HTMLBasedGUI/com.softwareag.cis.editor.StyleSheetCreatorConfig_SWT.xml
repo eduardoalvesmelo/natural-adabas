@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.StyleSheetCreatorConfigAdapter" stylesheetfile="../cis/styles/CIS_DEFAULT.css" popupwidth="550" popupheight="400" pagename="CIS_EDIT" casaindex="1" >
+
+
+        <header casaindex="2" >
+
+
+                <button textid="configSave" method="onOK" image="../HTMLBasedGUI/images/save.gif" casaindex="3" >
+
+
+                </button>
+
+
+        </header>
+
+
+        <pagebody horizdist="false" takefullheight="true" casaindex="4" >
+
+
+                <itr height="22" fixlayout="true" width="100%" casaindex="5" >
+
+
+                        <label textid="configConfigFile" width="100%" asheadline="true" labelstyle="padding-left: 2px; font-size: 10px; font-weight: bold" casaindex="6" >
+
+
+                        </label>
+
+
+                </itr>
+
+
+                <vdist height="5" casaindex="7" >
+
+
+                </vdist>
+
+
+                <itr width="100%" casaindex="8" >
+
+
+                        <hdist width="5" casaindex="9" >
+
+
+                        </hdist>
+
+
+                        <coltable0 width="100%" casaindex="10" >
+
+
+                                <rowarea textid="scconfig.rowarea.location" withtoppadding="false" casaindex="11" >
+
+
+                                        <itr casaindex="12" >
+
+
+                                                <label textid="configName" width="100" casaindex="13" >
+
+
+                                                </label>
+
+
+                                                <textout valueprop="fileName" width="400" casaindex="14" >
+
+
+                                                </textout>
+
+
+                                        </itr>
+
+
+                                        <itr casaindex="15" >
+
+
+                                                <label textid="configDir" width="100" casaindex="16" >
+
+
+                                                </label>
+
+
+                        <field xsdType="xs:string" valueprop="project" width="100%" displayonly="true" casaindex="17" >
+
+                        </field>
+
+                                        </itr>
+
+
+                                </rowarea>
+
+
+                                <vdist height="5" casaindex="18" >
+
+
+                                </vdist>
+
+
+                        </coltable0>
+
+
+                        <hdist width="5" casaindex="19" >
+
+
+                        </hdist>
+
+
+                </itr>
+
+
+                <itr height="22" fixlayout="true" width="100%" casaindex="20" >
+
+
+                        <label textid="scconfig.stylesheetdir" width="100%" asheadline="true" labelstyle="padding-left: 2px; font-size: 10px; font-weight: bold" casaindex="21" >
+
+
+                        </label>
+
+
+                </itr>
+
+
+                <vdist height="5" casaindex="22" >
+
+
+                </vdist>
+
+
+                <itr height="100%" width="100%" casaindex="23" >
+
+
+                        <hdist width="5" casaindex="24" >
+
+
+                        </hdist>
+
+
+                        <coltable0 width="100%" takefullheight="true" casaindex="25" >
+
+
+                                <rowarea textid="scconfig.rowareadirectories" height="100%" withtoppadding="false" casaindex="26" >
+
+
+                                        <itr casaindex="27" >
+
+
+                                                <label textid="scconfig.label.stylesheetdir" width="100%" asplaintext="true" casaindex="28" >
+
+
+                                                </label>
+
+
+                                        </itr>
+
+
+                                        <vdist casaindex="29" >
+
+
+                                        </vdist>
+
+
+                                        <itr casaindex="30" >
+
+
+                                                <label textid="scconfig.label.keeptstylesheets" width="100%" asplaintext="true" casaindex="31" >
+
+
+                                                </label>
+
+
+                                        </itr>
+
+
+                                        <vdist height="10" casaindex="32" >
+
+
+                                        </vdist>
+
+
+                                        <itr casaindex="33" >
+
+
+                                                <label textid="scconfig.label.ownstylesheetskept" width="240" asplaintext="true" casaindex="34" >
+
+
+                                                </label>
+
+
+                                                <radiobutton valueprop="styleSheetDir" value="DEFAULT" flush="server" casaindex="35" >
+
+
+                                                </radiobutton>
+
+
+                                                <hdist casaindex="36" >
+
+
+                                                </hdist>
+
+
+                                                <label textid="scconfig.label.defaultlocation" asplaintext="true" casaindex="37" >
+
+
+                                                </label>
+
+
+                                        </itr>
+
+
+                                        <vdist height="10" casaindex="38" >
+
+
+                                        </vdist>
+
+
+                                        <itr casaindex="39" >
+
+
+                                                <hdist width="240" casaindex="40" >
+
+
+                                                </hdist>
+
+
+                                                <radiobutton valueprop="styleSheetDir" value="RELATIVE" flush="server" casaindex="41" >
+
+
+                                                </radiobutton>
+
+
+                                                <hdist casaindex="42" >
+
+
+                                                </hdist>
+
+
+                                                <label textid="scconfig.label.withinwebapp" width="100%" asplaintext="true" casaindex="43" >
+
+
+                                                </label>
+
+
+                                                <hdist width="10" casaindex="44" >
+
+
+                                                </hdist>
+
+
+                                        </itr>
+
+
+                                        <itr casaindex="45" >
+
+
+                                                <hdist width="263" casaindex="46" >
+
+
+                                                </hdist>
+
+
+                        <field xsdType="xs:string" valueprop="styleSheetDirectory" width="300" statusprop="styleSheetDirectoryStatus" casaindex="47" >
+
+                        </field>
+
+                                                <hdist width="10" casaindex="48" >
+
+
+                                                </hdist>
+
+
+                                        </itr>
+
+
+                                        <itr casaindex="49" >
+
+
+                                                <hdist width="263" casaindex="50" >
+
+
+                                                </hdist>
+
+
+                                                <label textid="scconfig.label.inputdirname" asplaintext="true" casaindex="51" >
+
+
+                                                </label>
+
+
+                                        </itr>
+
+
+                                        <vdist height="10" casaindex="52" >
+
+
+                                        </vdist>
+
+
+                                        <itr casaindex="53" >
+
+
+                                                <hdist width="240" casaindex="54" >
+
+
+                                                </hdist>
+
+
+                                                <radiobutton valueprop="styleSheetDir" value="ABSOLUTE" flush="server" casaindex="55" >
+
+
+                                                </radiobutton>
+
+
+                                                <hdist casaindex="56" >
+
+
+                                                </hdist>
+
+
+                                                <label textid="scconfig.label.outsidewebapp" width="100%" asplaintext="true" casaindex="57" >
+
+
+                                                </label>
+
+
+                                                <hdist width="10" casaindex="58" >
+
+
+                                                </hdist>
+
+
+                                        </itr>
+
+
+                                        <itr casaindex="59" >
+
+
+                                                <hdist width="263" casaindex="60" >
+
+
+                                                </hdist>
+
+
+                        <field xsdType="xs:string" valueprop="styleSheetDirectory2" width="100%" statusprop="styleSheetDirectoryStatus2" casaindex="61" >
+
+                        </field>
+
+                                                <hdist width="10" casaindex="62" >
+
+
+                                                </hdist>
+
+
+                                        </itr>
+
+
+                                        <vdist casaindex="63" >
+
+
+                                        </vdist>
+
+
+                                        <itr casaindex="64" >
+
+
+                                                <hdist width="263" casaindex="65" >
+
+
+                                                </hdist>
+
+
+                                                <label textid="scconfig.label.inputdirchoice" asplaintext="true" casaindex="66" >
+
+
+                                                </label>
+
+
+                                        </itr>
+
+
+                                        <vdist casaindex="67" >
+
+
+                                        </vdist>
+
+
+                                        <itr casaindex="68" >
+
+
+                                                <hdist width="263" casaindex="69" >
+
+
+                                                </hdist>
+
+
+                                                <label textid="scconfig.label.pleasenote" asplaintext="true" casaindex="70" >
+
+
+                                                </label>
+
+
+                                        </itr>
+
+
+                                </rowarea>
+
+
+                                <vdist height="5" casaindex="71" >
+
+
+                                </vdist>
+
+
+                        </coltable0>
+
+
+                        <hdist width="5" casaindex="72" >
+
+
+                        </hdist>
+
+
+                </itr>
+
+
+                <vdist height="100%" casaindex="73" >
+
+
+                </vdist>
+
+
+        </pagebody>
+
+
+        <statusbar withdistance="false" casaindex="74" >
+
+
+        </statusbar>
+
+
+</page>

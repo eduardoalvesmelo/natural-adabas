@@ -1,0 +1,38 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** Fazer um programa para receber valores inteiros X, Y e Z do usuário e determinar se estes
+/** valores podem formar os lados de um triângulo. Em caso afirmativo, informar se o triângulo
+/** é equilátero, isósceles ou escaleno.
+/**  
+/** 
+/** :author eduar
+/* TODO Enter your code here
+DEFINE DATA LOCAL
+1 #L1    (N2)
+1 #L2    (N2)     
+1 #L3    (N2)
+1 #triangulo (a20)
+END-DEFINE
+*
+INPUT 'Informe o lado 1: ' #L1
+INPUT 'Informe o lado 2: ' #L2
+INPUT 'Informe o lado 3: ' #L3
+*
+decide for first condition
+    when #L1 = #L2 and #L2 = #L3 #triangulo := 'equilatero'
+    when #L1 <> #L2 and #L2 <> #L3 #triangulo := 'escaleno'
+    when none #triangulo := 'isósceles'
+end-decide
+*   
+write 'equilátero = todos os lados iguais'
+write 'isósceles = pelo menos dois lados iguais'
+write 'escaleno = quando todos os lados são diferentes'
+skip 1 
+write 'Lado 1: ' #L1
+write 'Lado 2: ' #L2
+write 'Lado 3: ' #L3
+write 'Tipo do triangulo: ' #triangulo
+*
+END

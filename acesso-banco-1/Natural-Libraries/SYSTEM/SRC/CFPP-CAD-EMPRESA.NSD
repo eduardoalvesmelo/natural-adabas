@@ -1,0 +1,30 @@
+DB: 243 FILE: 247  - CFPP-CAD-EMPRESA                 DEFAULT SEQUENCE: 
+TYPE: ADABAS 
+ 
+T L DB Name                              F Leng  S D Remark 
+- - -- --------------------------------  - ----  - - -------------------- 
+*      >Natural Source Header 000000
+*      :CP
+*      
+*      
+*      :LineIncrement 10
+*      <Natural Source Header
+*   Generation started 
+*   at 2022-12-01 14:05:06 
+*   by user SAG 
+* 
+  1 DQ TCE-VP                            N  2.0  N D 
+  1 D8 TCE-GRUPO                         N  3.0    D 
+  1 D1 TCE-LOTACAO                       N 15.0    D 
+  1 DT TCE-NOME-EMPRESA                  A   40  N 
+  1 DU TCE-LOGRADOURO                    A   40  N 
+  1 DV TCE-NUMERO                        N  5.0  N 
+  1 DW TCE-COMPLEMENTO                   A   20  N 
+  1 DX TCE-CIDADE                        A   20  N 
+  1 DY TCE-CEP                           N  5.0  N 
+  1 DZ TCE-CEP-COMPLEMENTO               N  3.0  N 
+* 
+* OPT=331      DESV-PRODAM-243                 YY03                YYY NNNNNU9N 
+* OPT=HOME                            VNY 
+* OPT= 
+* OPT=                                 D 

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><mfpage separation="rows" sizing="79,*,20" border="0" frameborder="false" casaindex="1" >
+
+
+        <mfhtmlframe target="top" url="workplace/wp23headeride.html" resizable="false" scrolling="false" casaindex="2" >
+
+
+        </mfhtmlframe>
+
+
+        <mfframeset target="middle" separation="cols" sizing="35,*,30" border="0" frameborder="false" casaindex="3" >
+
+
+                <mfhtmlframe target="left" url="workplace/wp23aroundleft.html" resizable="false" scrolling="false" casaindex="4" >
+
+
+                </mfhtmlframe>
+
+
+                <mfcisframe target="center" cisurl="../HTMLBasedGUI/MFIDE23.html&amp;hideProjectTree=1" withborder="false" withownborder="false" marginwidth="0" casaindex="5" >
+
+
+                </mfcisframe>
+
+
+                <mfhtmlframe target="right" url="workplace/wp23aroundright.html" resizable="false" scrolling="false" casaindex="6" >
+
+
+                </mfhtmlframe>
+
+
+        </mfframeset>
+
+
+        <mfhtmlframe target="bottom" url="workplace/wp23aroundbottom.html" resizable="false" scrolling="false" casaindex="7" >
+
+
+        </mfhtmlframe>
+
+
+</mfpage>

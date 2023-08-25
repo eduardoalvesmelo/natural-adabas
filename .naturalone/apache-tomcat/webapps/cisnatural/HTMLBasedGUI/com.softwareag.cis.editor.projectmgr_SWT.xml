@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.edit.ProjectMgrAdapter" translationreference="CIS_TOOLS" stylesheetfile="../cis/styles/CIS_DEFAULT.css" casaindex="1" >
+
+
+        <titlebar textid="pm.titlebar.appproject" closetitletextid="closePage" casaindex="2" >
+
+
+        </titlebar>
+
+
+        <header withdistance="false" casaindex="3" >
+
+
+                <button textid="btn.exit" method="endProcess" casaindex="4" >
+
+
+                </button>
+
+
+        </header>
+
+
+        <pagebody vscroll="auto" hscroll="auto" horizdist="false" takefullheight="true" casaindex="5" >
+
+
+                <rowarea textid="pm.rowarea.existingapp" height="100%" withleftborder="false" withrightborder="false" casaindex="6" >
+
+
+                        <itr height="100%" fixlayout="true" width="100%" casaindex="7" >
+
+
+                                <textgrid2 griddataprop="projects" width="100%" height="100%" selectprop="selected" singleselect="false" hscroll="true" casaindex="8" >
+
+
+                                        <column textid="pm.txtgrid2.clm.pname" property="name" width="40%" casaindex="9" >
+
+
+                                        </column>
+
+
+                                        <column textid="pm.txtgrid2.clm.pdir" property="directory" width="60%" casaindex="10" >
+
+
+                                        </column>
+
+
+                                </textgrid2>
+
+
+                        </itr>
+
+
+                        <vdist pixelheight="5" casaindex="11" >
+
+
+                        </vdist>
+
+
+                        <itr casaindex="12" >
+
+
+                                <button textid="btn.new1" method="openNewArea" casaindex="13" >
+
+
+                                </button>
+
+
+                                <hdist casaindex="14" >
+
+
+                                </hdist>
+
+
+                                <button textid="btn.remove1" method="openRemoveArea" casaindex="15" >
+
+
+                                </button>
+
+
+                        </itr>
+
+
+                </rowarea>
+
+
+                <rowdynavis valueprop="newAreaOpened" casaindex="16" >
+
+
+                        <rowarea textid="pm.rowarea.ceatenewapp" withleftborder="false" withrightborder="false" casaindex="17" >
+
+
+                                <itr casaindex="18" >
+
+
+                                        <label textid="pn.label.appproject" width="150" casaindex="19" >
+
+
+                                        </label>
+
+
+                    <field xsdType="xs:string" valueprop="newProjectName" length="20" casaindex="20" >
+
+                    </field>
+
+                                        <hdist casaindex="21" >
+
+
+                                        </hdist>
+
+
+                                </itr>
+
+
+                                <vdist casaindex="22" >
+
+
+                                </vdist>
+
+
+                                <itr casaindex="23" >
+
+
+                                        <td width="150" casaindex="24" >
+
+
+                                        </td>
+
+
+                                        <button textid="btn.create" method="createProject" casaindex="25" >
+
+
+                                        </button>
+
+
+                                </itr>
+
+
+                                <vdist casaindex="26" >
+
+
+                                </vdist>
+
+
+                                <itr casaindex="27" >
+
+
+                                        <td width="150" casaindex="28" >
+
+
+                                        </td>
+
+
+                                        <label textid="pm.labeltext.pleasenote" asplaintext="true" casaindex="29" >
+
+
+                                        </label>
+
+
+                                </itr>
+
+
+                        </rowarea>
+
+
+                </rowdynavis>
+
+
+                <rowdynavis valueprop="removeAreaOpened" casaindex="30" >
+
+
+                        <rowarea textid="pm.rowarea.removeapp" withleftborder="false" withrightborder="false" casaindex="31" >
+
+
+                                <itr casaindex="32" >
+
+
+                                        <label textid="pm.labeltext.pleasepayatt" asplaintext="true" casaindex="33" >
+
+
+                                        </label>
+
+
+                                </itr>
+
+
+                                <vdist casaindex="34" >
+
+
+                                </vdist>
+
+
+                                <itr casaindex="35" >
+
+
+                                        <button textid="btn.donotremove" method="closeRemoveArea" casaindex="36" >
+
+
+                                        </button>
+
+
+                                        <hdist casaindex="37" >
+
+
+                                        </hdist>
+
+
+                                        <button textid="btn.remove2" method="removeSelectedDirectories" casaindex="38" >
+
+
+                                        </button>
+
+
+                                </itr>
+
+
+                        </rowarea>
+
+
+                </rowdynavis>
+
+
+                <vdist casaindex="39" >
+
+
+                </vdist>
+
+
+        </pagebody>
+
+
+        <statusbar withdistance="false" casaindex="40" >
+
+
+        </statusbar>
+
+
+</page>

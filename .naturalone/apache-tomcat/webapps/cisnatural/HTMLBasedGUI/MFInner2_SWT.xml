@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><mfpage separation="rows" sizing="86,*,0" border="15" bordercolor="#FFFFFF" casaindex="1" >
+
+
+        <mfframeset target="toppp" separation="rows" sizing="51,35" border="0px" frameborder="false" framespacing="0" casaindex="2" >
+
+
+                <mfhtmlframe target="iiiii" url="../HTMLBasedGUI/workplace/mfworkplaceheader2.html" resizable="false" withborder="false" scrolling="false" framestyle="border: 0px solid #FFFFFF" marginheight="0" marginwidth="0" casaindex="3" >
+
+
+                </mfhtmlframe>
+
+
+                <mfwpactivefunctions resizable="false" withborder="false" scrolling="false" framestyle="border: 0px solid #000000" marginheight="0" marginwidth="0" casaindex="4" >
+
+
+                </mfwpactivefunctions>
+
+
+        </mfframeset>
+
+
+        <mfframeset target="ZZZ" separation="cols" sizing="0,265,*,0" border="15" frameborder="true" casaindex="5" >
+
+
+                <mfhtmlframe target="dummmy" url="about:blank" casaindex="6" >
+
+
+                </mfhtmlframe>
+
+
+                <mfwpfunctions bootstrapclass="com.softwareag.cis.workplace.MFDefaultBootstrapInfoProvider" serversidescrolling="false" activefunctionsvariant="stripsel" withownborder="true" casaindex="7" >
+
+
+                </mfwpfunctions>
+
+
+                <mfwpcontent resizable="true" withborder="true" scrolling="false" withownborder="true" casaindex="8" >
+
+
+                </mfwpcontent>
+
+
+                <mfcisframe target="CISHELP" cisurl="/HTMLBasedGUI/onlinehelp.html" resizable="true" withborder="true" framestyle="border: 1 solid #808080;" casaindex="9" >
+
+
+                </mfcisframe>
+
+
+        </mfframeset>
+
+
+        <mfhtmlframe target="jjjjj" url="about:blank" casaindex="10" >
+
+
+        </mfhtmlframe>
+
+
+</mfpage>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.server.SecureErrorReactionAdapter" pagename="ErrorReaction" casaindex="1" >
+
+
+        <titlebar withclose="false" casaindex="2" >
+
+
+        </titlebar>
+
+
+        <pagebody horizdist="false" casaindex="3" >
+
+
+                <itr height="205" valign="middle" itrstyle="background-color: #687b9c" width="100%" casaindex="4" >
+
+
+                        <coltable0 width="20%" takefullheight="true" casaindex="5" >
+
+
+                                <itr takefullwidth="true" height="100%" valign="middle" casaindex="6" >
+
+
+                                        <hdist width="10" casaindex="7" >
+
+
+                                        </hdist>
+
+
+                                        <icon image="/HTMLBasedGUI/images/secure_error_icon.gif" casaindex="8" >
+
+
+                                        </icon>
+
+
+                                </itr>
+
+
+                        </coltable0>
+
+
+                        <coltable0 width="65%" takefullheight="true" casaindex="9" >
+
+
+                                <vdist height="40" casaindex="10" >
+
+
+                                </vdist>
+
+
+                                <itr takefullwidth="true" casaindex="11" >
+
+
+                                        <hdist width="10" casaindex="12" >
+
+
+                                        </hdist>
+
+
+                                        <label name="ERROR" width="100%" asplaintext="true" labelstyle="font-size:24;font-weight:bold;color:#FFFFFF" casaindex="13" >
+
+
+                                        </label>
+
+
+                                </itr>
+
+
+                                <itr takefullwidth="true" casaindex="14" >
+
+
+                                        <hdist width="10" casaindex="15" >
+
+
+                                        </hdist>
+
+
+                                        <label name="We are sorry, the development workplace is unavailable - please refer to the documentation to activate development tools." width="100%" asplaintext="true" labelstyle="font-size:12;font-weight:bold;color:#FFFFFF" casaindex="16" >
+
+
+                                        </label>
+
+
+                                </itr>
+
+
+                                <vdist height="35" casaindex="17" >
+
+
+                                </vdist>
+
+
+                        </coltable0>
+
+
+                        <coltable0 width="15%" takefullheight="true" casaindex="18" >
+
+
+                                <vdist height="12" casaindex="19" >
+
+
+                                </vdist>
+
+
+                        </coltable0>
+
+
+                </itr>
+
+
+        </pagebody>
+
+
+</page>

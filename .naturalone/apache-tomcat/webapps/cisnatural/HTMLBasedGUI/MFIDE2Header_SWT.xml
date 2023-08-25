@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.workplace.MFHeaderAdapter" translationreference="CIS_TOOLS" darkbackground="true" casaindex="1" >
+
+
+        <pagebody vscroll="hidden" hscroll="hidden" horizdist="false" takefullheight="true" casaindex="2" >
+
+
+                <vdist casaindex="3" >
+
+
+                </vdist>
+
+
+                <itr takefullwidth="true" height="100%" casaindex="4" >
+
+
+                        <hdist casaindex="5" >
+
+
+                        </hdist>
+
+
+                        <coltable0 width="100%" casaindex="6" >
+
+
+                                <itr casaindex="7" >
+
+
+                                        <hdist width="12" casaindex="8" >
+
+
+                                        </hdist>
+
+
+                                        <methodlink method="addHTMLPageToWorkplace;http://www#softwareag#com;Software AG" valueprop="homeLink" linkstyle="color: #808080; text-decoration: none; font-weight: bold" casaindex="9" >
+
+
+                                        </methodlink>
+
+
+                                        <hdist width="20" casaindex="10" >
+
+
+                                        </hdist>
+
+
+                                        <methodlink method="showPageInWorkplace;##/HTMLBasedGUI/com#softwareag#cis#workplace#about2#html;About" valueprop="aboutLink" linkstyle="color: #808080; text-decoration: none; font-weight: bold" casaindex="11" >
+
+
+                                        </methodlink>
+
+
+                                        <hdist width="5" casaindex="12" >
+
+
+                                        </hdist>
+
+
+                                </itr>
+
+
+                                <itr casaindex="13" >
+
+
+                                        <hdist width="11" casaindex="14" >
+
+
+                                        </hdist>
+
+
+                                        <icon image="../HTMLBasedGUI/images/fav_monitoring.gif" method="showPageInWorkplace;com#softwareag#cis#admin#monitoring#html;Monitoring" titletextid="mfideHeader.icon0" casaindex="15" >
+
+
+                                        </icon>
+
+
+                                        <hdist width="6" casaindex="16" >
+
+
+                                        </hdist>
+
+
+                                        <icon image="../HTMLBasedGUI/images/distance.gif" valign="middle" titletextid="mfd2Header.icon13" casaindex="17" >
+
+
+                                        </icon>
+
+
+                                        <hdist width="6" casaindex="18" >
+
+
+                                        </hdist>
+
+
+                                        <icon image="../HTMLBasedGUI/images/fav_naviminus.gif" method="on0Size" titletextid="mfideHeader.icon6" casaindex="19" >
+
+
+                                        </icon>
+
+
+                                        <hdist width="6" casaindex="20" >
+
+
+                                        </hdist>
+
+
+                                        <icon image="../HTMLBasedGUI/images/fav_naviplus.gif" method="onNormalSize" titletextid="mfideHeader.icon7" casaindex="21" >
+
+
+                                        </icon>
+
+
+                                        <hdist width="6" casaindex="22" >
+
+
+                                        </hdist>
+
+
+                                        <icon image="../HTMLBasedGUI/images/fav_closeall.gif" method="closeAllActivities" titletextid="mfideHeader.icon8" casaindex="23" >
+
+
+                                        </icon>
+
+
+                                </itr>
+
+
+                        </coltable0>
+
+
+                        <coltable0 takefullheight="true" casaindex="24" >
+
+
+                                <tr height="100%" casaindex="25" >
+
+
+                                        <icon image="../HTMLBasedGUI/images/cai.gif" align="center" casaindex="26" >
+
+
+                                        </icon>
+
+
+                                        <hdist width="40" casaindex="27" >
+
+
+                                        </hdist>
+
+
+                                </tr>
+
+
+                        </coltable0>
+
+
+                </itr>
+
+
+        </pagebody>
+
+
+</page>

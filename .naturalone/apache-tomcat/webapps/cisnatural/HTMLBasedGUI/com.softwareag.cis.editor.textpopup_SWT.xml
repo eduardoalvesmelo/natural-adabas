@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.TextPopupAdapter" translationreference="CIS_TOOLS" casaindex="1" >
+
+
+        <pagebody horizdist="false" takefullheight="true" casaindex="2" >
+
+
+                <itr height="100%" fixlayout="true" width="100%" casaindex="3" >
+
+
+                        <text valueprop="text" width="100%" height="100%" textareastyle="background-color: #000000; color: #D0FFD0; font-weight: bold" casaindex="4" >
+
+
+                        </text>
+
+
+                </itr>
+
+
+        </pagebody>
+
+
+        <titlebar withclose="false" casaindex="5" >
+
+
+                <button textid="btn.takeover" method="onTakeOver" casaindex="6" >
+
+
+                </button>
+
+
+        </titlebar>
+
+
+</page>

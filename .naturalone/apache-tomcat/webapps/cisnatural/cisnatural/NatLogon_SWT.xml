@@ -1,0 +1,1078 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.adapter.cisnatural+NatLogon" stylesheetfile="../cis/styles/CIS_DEFAULT.css" hotkeys="13;onConnect" casaindex="1" adapterlisteners="com.softwareag.cis.adapter.TriggerEventAdapterListener" >
+
+
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
+            <titlebar name="Logon To Natural" withclose="false" casaindex="19" >
+
+
+
+            </titlebar>
+
+
+
+            <pagebody takefullheight="false" casaindex="20" >
+
+
+
+                        <vdist height="5px" casaindex="21" >
+
+
+
+                        </vdist>
+
+
+
+                        <itr align="left" casaindex="22" >
+
+
+
+                                    <hdist width="40" casaindex="23" >
+
+
+
+                                    </hdist>
+
+
+
+                                    <icon image="../cisnatural/images/SAG_logo_login_200x73.png" align="left" casaindex="24" >
+
+
+
+                                    </icon>
+
+
+
+                        </itr>
+
+
+
+                        <vdist height="10" casaindex="25" >
+
+
+
+                        </vdist>
+
+
+
+                        <hline height="10" color="#00A1E1" casaindex="26" >
+
+
+
+                        </hline>
+
+
+
+                        <vdist height="15" casaindex="27" >
+
+
+
+                        </vdist>
+
+
+
+                        <itr align="right" casaindex="28" >
+
+
+
+                                    <textout valueprop="versionInfo" width="100%" textsize="2" textcolor="#233356" align="right" textoutstyle="font-weight: bold" casaindex="29" >
+
+
+
+                                    </textout>
+
+
+
+                                    <hdist width="10" casaindex="30" >
+
+
+
+                                    </hdist>
+
+
+
+                        </itr>
+
+
+
+                        <itr align="right" casaindex="31" >
+
+
+
+                                    <label name="Build: 6504" width="100%" align="right" casaindex="32" >
+
+
+
+                                    </label>
+
+
+
+                                    <hdist width="10" casaindex="33" >
+
+
+
+                                    </hdist>
+
+
+
+                        </itr>
+
+
+
+                        <vdist height="5" casaindex="34" >
+
+
+
+                        </vdist>
+
+
+
+                        <rowarea name="Connection Details" foldable="false" visibleprop="connectDetailsVisib" casaindex="35" >
+
+
+
+                                    <vdist height="10" casaindex="36" >
+
+
+
+                                    </vdist>
+
+
+
+                                    <itr visibleprop="sessionIDVisible" casaindex="37" >
+
+
+
+                                                <label name="Session ID:" width="130" casaindex="38" >
+
+
+
+                                                </label>
+
+
+
+                                                <hdist width="20" casaindex="39" >
+
+
+
+                                                </hdist>
+
+
+
+                                                <combodyn2 valueprop="sessionIDval" validvaluesprop="sessionIDValidValues" width="400" flush="server" casaindex="40" >
+
+
+
+                                                </combodyn2>
+
+
+
+                                    </itr>
+
+
+
+                                    <vdist height="10" casaindex="41" >
+
+
+
+                                    </vdist>
+
+
+
+                                    <itr takefullwidth="false" visibleprop="visibleHostPort" casaindex="42" >
+
+
+
+                                                <label name="Host name:" width="130" casaindex="43" >
+
+
+
+                                                </label>
+
+
+
+                                                <hdist width="20" casaindex="44" >
+
+
+
+                                                </hdist>
+
+
+
+                <field xsdType="xs:string" valueprop="hostAddress" width="130" title="Name or IP address of the machine, where Natural Web I/O Interface server is running on - mandantory" casaindex="45" >
+
+                </field>
+
+                                                <hdist width="30" casaindex="46" >
+
+
+
+                                                </hdist>
+
+
+
+                                                <label name="Port number:" width="100" casaindex="47" >
+
+
+
+                                                </label>
+
+
+
+                                                <hdist width="10" casaindex="48" >
+
+
+
+                                                </hdist>
+
+
+
+                <field xsdType="long" datatype="long" valueprop="hostPort" width="130" title="Port number of the Natural Web I/O Interface server - mandantory" casaindex="49" >
+
+                </field>
+
+                                                <hdist width="30" casaindex="50" >
+
+
+
+                                                </hdist>
+
+
+
+                                                <textout valueprop="errorTextHostPort" width="50%" textcolor="#FF0000" casaindex="51" >
+
+
+
+                                                </textout>
+
+
+
+                                    </itr>
+
+
+
+                                    <vdist height="10" casaindex="52" >
+
+
+
+                                    </vdist>
+
+
+
+                                    <itr takefullwidth="false" visibleprop="visibleUserPassword" casaindex="53" >
+
+
+
+                                                <label name="User name:" width="130" casaindex="54" >
+
+
+
+                                                </label>
+
+
+
+                                                <hdist width="20" casaindex="55" >
+
+
+
+                                                </hdist>
+
+
+
+                <field xsdType="xs:string" flush="server" validationprop="userValProp" valueprop="userName" width="130" displayprop="userNameDisplay" statusprop="userNameStatusProp" maxlengthprop="userMaxLen" validationuserhintprop="userValHintProp" title="Enter the user name here." casaindex="56" >
+
+                </field>
+
+                                                <hdist width="30" casaindex="57" >
+
+
+
+                                                </hdist>
+
+
+
+                                                <label name="Password:" width="100" visibleprop="passwordVisible" invisiblemode="cleared" casaindex="58" >
+
+
+
+                                                </label>
+
+
+
+                                                <hdist width="10" casaindex="59" >
+
+
+
+                                                </hdist>
+
+
+
+                <field xsdType="xs:string" valueprop="password" width="130" displayprop="passwordDispProp" statusprop="pwdStatusProp" invisiblemode="invisible" maxlengthprop="passwdMaxLen" password="true" title="Enter the password here." casaindex="60" >
+
+                </field>
+
+                                                <button name="Logout User" method="logoutUser" visibleprop="logoutButtonVisisble" invisiblemode="invisible" width="130" casaindex="61" >
+
+
+
+                                                </button>
+
+
+
+                                                <hdist width="30" casaindex="62" >
+
+
+
+                                                </hdist>
+
+
+
+                                                <textout valueprop="errorTextUser" width="50%" textcolor="#FF0000" casaindex="63" >
+
+
+
+                                                </textout>
+
+
+
+                                    </itr>
+
+
+
+                                    <vdist height="10" casaindex="64" >
+
+
+
+                                    </vdist>
+
+
+
+                                    <itr takefullwidth="false" visibleprop="visibleNaturalApp" casaindex="65" >
+
+
+
+                                                <label name="Application:" width="130" casaindex="66" >
+
+
+
+                                                </label>
+
+
+
+                                                <hdist width="20" casaindex="67" >
+
+
+
+                                                </hdist>
+
+
+
+                <field xsdType="xs:string" valueprop="natApplic" width="400" title="Enter the name of the startup script or the mainframe program here" casaindex="68" >
+
+                </field>
+
+                                                <hdist width="30" casaindex="69" >
+
+
+
+                                                </hdist>
+
+
+
+                                                <textout valueprop="errorNaturalApplic" width="50%" textcolor="#FF0000" casaindex="70" >
+
+
+
+                                                </textout>
+
+
+
+                                    </itr>
+
+
+
+                                    <vdist height="10" casaindex="71" >
+
+
+
+                                    </vdist>
+
+
+
+                                    <itr takefullwidth="false" visibleprop="visibleNaturalParams" casaindex="72" >
+
+
+
+                                                <label name="Natural parameters:" width="130" casaindex="73" >
+
+
+
+                                                </label>
+
+
+
+                                                <hdist width="20" casaindex="74" >
+
+
+
+                                                </hdist>
+
+
+
+                <field xsdType="xs:string" valueprop="natParameters" width="400" title="Stack parameters, parameter module or other natural specifiy information if needed" casaindex="75" >
+
+                </field>
+
+                                    </itr>
+
+
+
+                                    <vdist height="10" casaindex="76" >
+
+
+
+                                    </vdist>
+
+
+
+                                    <itr takefullwidth="false" visibleprop="visibleLanguage" casaindex="77" >
+
+
+
+                                                <label name="Language:" width="130" title="Select the language to be used for the application" casaindex="78" >
+
+
+
+                                                </label>
+
+
+
+                                                <hdist width="20" casaindex="79" >
+
+
+
+                                                </hdist>
+
+
+
+                                                <combofix valueprop="languageCombo" width="200" casaindex="80" >
+
+
+
+                                                            <combooption name="English" value="1" casaindex="81" >
+
+
+
+                                                            </combooption>
+
+
+
+                                                            <combooption name="German" value="2" casaindex="82" >
+
+
+
+                                                            </combooption>
+
+
+
+                                                            <combooption name="French" value="3" casaindex="83" >
+
+
+
+                                                            </combooption>
+
+
+
+                                                            <combooption name="Spanish" value="4" casaindex="84" >
+
+
+
+                                                            </combooption>
+
+
+
+                                                            <combooption name="Italian" value="5" casaindex="85" >
+
+
+
+                                                            </combooption>
+
+
+
+                                                            <combooption name="Dutch" value="6" casaindex="86" >
+
+
+
+                                                            </combooption>
+
+
+
+                                                            <combooption name="Turkish" value="7" casaindex="87" >
+
+
+
+                                                            </combooption>
+
+
+
+                                                            <combooption name="Danish" value="8" casaindex="88" >
+
+
+
+                                                            </combooption>
+
+
+
+                                                            <combooption name="Norwegian" value="9" casaindex="89" >
+
+
+
+                                                            </combooption>
+
+
+
+                                                            <combooption name="Albanian" value="10" casaindex="90" >
+
+
+
+                                                            </combooption>
+
+
+
+                                                            <combooption name="Portuguese" value="11" casaindex="91" >
+
+
+
+                                                            </combooption>
+
+
+
+                                                            <combooption name="Chinese Latin (Taiwan)" value="12" casaindex="92" >
+
+
+
+                                                            </combooption>
+
+
+
+                                                            <combooption name="Czech" value="13" casaindex="93" >
+
+
+
+                                                            </combooption>
+
+
+
+                                                            <combooption name="Slovak" value="14" casaindex="94" >
+
+
+
+                                                            </combooption>
+
+
+
+                                                            <combooption name="Finnish" value="15" casaindex="95" >
+
+
+
+                                                            </combooption>
+
+
+
+                                                            <combooption name="Hungarian" value="16" casaindex="96" >
+
+
+
+                                                            </combooption>
+
+
+
+                                                            <combooption name="Icelandic" value="17" casaindex="97" >
+
+
+
+                                                            </combooption>
+
+
+
+                                                            <combooption name="Korean" value="18" casaindex="98" >
+
+
+
+                                                            </combooption>
+
+
+
+                                                            <combooption name="Polish" value="19" casaindex="99" >
+
+
+
+                                                            </combooption>
+
+
+
+                                                            <combooption name="Romanian" value="20" casaindex="100" >
+
+
+
+                                                            </combooption>
+
+
+
+                                                            <combooption name="Swedish" value="21" casaindex="101" >
+
+
+
+                                                            </combooption>
+
+
+
+                                                            <combooption name="Croatian" value="22" casaindex="102" >
+
+
+
+                                                            </combooption>
+
+
+
+                                                            <combooption name="Catalan" value="23" casaindex="103" >
+
+
+
+                                                            </combooption>
+
+
+
+                                                            <combooption name="Basque" value="24" casaindex="104" >
+
+
+
+                                                            </combooption>
+
+
+
+                                                            <combooption name="Afrikaans" value="25" casaindex="105" >
+
+
+
+                                                            </combooption>
+
+
+
+                                                            <combooption name="Bulgarian" value="26" casaindex="106" >
+
+
+
+                                                            </combooption>
+
+
+
+                                                            <combooption name="Greek" value="27" casaindex="107" >
+
+
+
+                                                            </combooption>
+
+
+
+                                                            <combooption name="Japanese (Katakana)" value="28" casaindex="108" >
+
+
+
+                                                            </combooption>
+
+
+
+                                                            <combooption name="Russian" value="29" casaindex="109" >
+
+
+
+                                                            </combooption>
+
+
+
+                                                            <combooption name="Serbian" value="30" casaindex="110" >
+
+
+
+                                                            </combooption>
+
+
+
+                                                            <combooption name="Arabic" value="31" casaindex="111" >
+
+
+
+                                                            </combooption>
+
+
+
+                                                            <combooption name="Farsi" value="32" casaindex="112" >
+
+
+
+                                                            </combooption>
+
+
+
+                                                            <combooption name="Hebrew" value="33" casaindex="113" >
+
+
+
+                                                            </combooption>
+
+
+
+                                                            <combooption name="Urdu (Pakistan)" value="34" casaindex="114" >
+
+
+
+                                                            </combooption>
+
+
+
+                                                </combofix>
+
+
+
+                                    </itr>
+
+
+
+                                    <vdist height="10" casaindex="115" >
+
+
+
+                                    </vdist>
+
+
+
+                                    <itr visibleprop="visibleStyleSheet" casaindex="116" >
+
+
+
+                                                <label name="Style sheet:" width="130" title="Select the style sheet to be used for the character screens" casaindex="117" >
+
+
+
+                                                </label>
+
+
+
+                                                <hdist width="20" casaindex="118" >
+
+
+
+                                                </hdist>
+
+
+
+                                                <combodyn2 valueprop="comboWebIO" validvaluesprop="comboWebIOValid" width="200" casaindex="119" >
+
+
+
+                                                </combodyn2>
+
+
+
+                                    </itr>
+
+
+
+                                    <itr takefullwidth="true" casaindex="120" >
+
+
+
+                                                <textout valueprop="errorMsgProp" width="100%" textcolor="#FF0000" casaindex="121" >
+
+
+
+                                                </textout>
+
+
+
+                                    </itr>
+
+
+
+                        </rowarea>
+
+
+
+                        <rowarea name="Change Password" foldable="true" visibleprop="setPassVisible" foldedprop="setPassFolded" casaindex="122" >
+
+
+
+                                    <itr takefullwidth="false" casaindex="123" >
+
+
+
+                                                <label name="New password:" width="130" casaindex="124" >
+
+
+
+                                                </label>
+
+
+
+                                                <hdist width="20" casaindex="125" >
+
+
+
+                                                </hdist>
+
+
+
+                <field xsdType="xs:string" valueprop="newPassword" width="130" password="true" title="To change the current user password, enter the new password here." casaindex="126" >
+
+                </field>
+
+                                    </itr>
+
+
+
+                                    <vdist height="10" casaindex="127" >
+
+
+
+                                    </vdist>
+
+
+
+                                    <itr casaindex="128" >
+
+
+
+                                                <label name="Repeat new password:" width="150" casaindex="129" >
+
+
+
+                                                </label>
+
+
+
+                                                <hdist width="0" casaindex="130" >
+
+
+
+                                                </hdist>
+
+
+
+                <field xsdType="xs:string" valueprop="repNewPassword" width="130" password="true" title="Repeat the new password here." casaindex="131" >
+
+                </field>
+
+                                                <hdist width="20" casaindex="132" >
+
+
+
+                                                </hdist>
+
+
+
+                                                <textout valueprop="setPasswordVal" textcolor="#FF0000" casaindex="133" >
+
+
+
+                                                </textout>
+
+
+
+                                    </itr>
+
+
+
+                        </rowarea>
+
+
+
+                        <rowarea name="Messages From Natural" visibleprop="logonMsgVisible" casaindex="134" >
+
+
+
+                                    <itr takefullwidth="true" casaindex="135" >
+
+
+
+                                                <label name="Logon message:" visibleprop="visibLogonMsgLab" casaindex="136" >
+
+
+
+                                                </label>
+
+
+
+                                                <textout valueprop="logonMsg" width="80%" textcolor="#0000FF" casaindex="137" >
+
+
+
+                                                </textout>
+
+
+
+                                    </itr>
+
+
+
+                                    <vdist height="10" casaindex="138" >
+
+
+
+                                    </vdist>
+
+
+
+                                    <hline height="1" casaindex="139" >
+
+
+
+                                    </hline>
+
+
+
+                                    <vdist height="10" casaindex="140" >
+
+
+
+                                    </vdist>
+
+
+
+                                    <itr takefullwidth="true" casaindex="141" >
+
+
+
+                                                <label name="Natural message:" visibleprop="visibNatMessageLab" casaindex="142" >
+
+
+
+                                                </label>
+
+
+
+                                                <text valueprop="naturalMessages" width="80%" displayonly="true" textareastyle="border: 0px;color: #cc0000" casaindex="143" >
+
+
+
+                                                </text>
+
+
+
+                                    </itr>
+
+
+
+                                    <itr casaindex="144" >
+
+
+
+                                                <button name="Continue" method="onContinue" visibleprop="continueVisible" width="200" casaindex="145" >
+
+
+
+                                                </button>
+
+
+
+                                                <hdist width="20" casaindex="146" >
+
+
+
+                                                </hdist>
+
+
+
+                                                <button name="Disconnect" method="onDisconnect" visibleprop="disconnectVisible" width="200" casaindex="147" >
+
+
+
+                                                </button>
+
+
+
+                                    </itr>
+
+
+
+                        </rowarea>
+
+
+
+                        <vdist height="10" casaindex="148" >
+
+
+
+                        </vdist>
+
+
+
+                        <itr casaindex="149" >
+
+
+
+                                    <button name="Connect" method="onConnect" visibleprop="onConnectVisible" width="200" casaindex="150" >
+
+
+
+                                    </button>
+
+
+
+                        </itr>
+
+
+
+                        <vdist casaindex="151" >
+
+
+
+                        </vdist>
+
+
+
+            </pagebody>
+
+
+
+            <statusbar withdistance="false" casaindex="152" >
+
+
+
+            </statusbar>
+
+
+
+</page>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.popups.PopupOnlineHelpModel" popupwidth="800" popupheight="700" pagename="onlinehelp.html" casaindex="1" >
+
+
+        <pagebody horizdist="false" takefullheight="true" pagebodystyle="background-color: #FFFFFF" casaindex="2" >
+
+
+                <itr width="100%" height="100%" casaindex="3" >
+
+
+                        <subpage valueprop="subPageURL" height="100%" width="100%" casaindex="4" >
+
+
+                        </subpage>
+
+
+                </itr>
+
+
+        </pagebody>
+
+
+        <hotkeys casaindex="5" >
+
+
+                <hotkey keycode="13" method="onOK" casaindex="6" >
+
+
+                </hotkey>
+
+
+                <hotkey keycode="69" ctrlkey="true" altkey="true" method="onStartEditor" casaindex="7" >
+
+
+                </hotkey>
+
+
+        </hotkeys>
+
+
+</page>

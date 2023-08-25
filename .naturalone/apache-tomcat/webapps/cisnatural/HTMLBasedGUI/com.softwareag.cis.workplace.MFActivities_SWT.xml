@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.workplace.MFActivitiesAdapter" translationreference="workplace" occupiedpixelheight="0" occupiedpixelwidth="0" contextmenumethod="processAsDefault" casaindex="1" >
+
+
+        <pagebody vscroll="hidden" hscroll="hidden" horizdist="false" pagebodystyle="swt-background-color: #CECCE7" casaindex="2" >
+
+
+                <itr itrclass="WORKPLACEBelowTitle" casaindex="3" >
+
+
+                        <coltable0 casaindex="4" >
+
+
+                                <vdist height="2" casaindex="5" >
+
+
+                                </vdist>
+
+
+                                <itr casaindex="6" >
+
+
+                                        <icon image="images/takeout.gif" method="onTakeOut" visibleprop="takeOutVisible" valign="middle" colstyle="font-size: 14px" titletextid="onTakeOut" casaindex="7" >
+
+
+                                        </icon>
+
+
+                                        <hdist width="5" casaindex="8" >
+
+
+                                        </hdist>
+
+
+                                        <icon image="images/closecornersmall.gif" method="onCloseAll" visibleprop="closeAllVisible" valign="middle" colstyle="font-size: 14px" titletextid="onCloseAll" casaindex="9" >
+
+
+                                        </icon>
+
+
+                                </itr>
+
+
+                        </coltable0>
+
+
+                        <coltable0 width="100%" fixlayout="true" casaindex="10" >
+
+
+                                <tabstrip2 tabstripprop="activities2" align="right" scrollable="true" casaindex="11" >
+
+
+                                </tabstrip2>
+
+
+                        </coltable0>
+
+
+                </itr>
+
+
+                <itr height="100" itrclass="WORKPLACEBelowTitle" width="100%" casaindex="12" >
+
+
+                </itr>
+
+
+        </pagebody>
+
+
+</page>

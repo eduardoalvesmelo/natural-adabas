@@ -1,0 +1,18 @@
+* >Natural Source Header 000000
+* :Mode R
+* :CP
+* <Natural Source Header
+/** New Program EXE01.
+/**
+/** :author eduar
+/* TODO Enter your code here
+DEFINE DATA LOCAL
+1 TEST VIEW OF CFPP-TB-CONTROLES
+    2 TB-COD-TAB
+    2 TB-STATUS-TAB
+1 #TB-COD-TAB                    (N2)    
+END-DEFINE
+*
+DISPLAY NOTITLE TB-COD-TAB TB-STATUS-TAB
+*
+END

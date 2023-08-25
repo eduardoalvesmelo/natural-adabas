@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.test.PortletInfoAdapter" casaindex="1" >
+
+
+        <titlebar name="Portlet Information" casaindex="2" >
+
+
+        </titlebar>
+
+
+        <header withdistance="false" casaindex="3" >
+
+
+                <button name="Refresh" method="onRefresh" casaindex="4" >
+
+
+                </button>
+
+
+        </header>
+
+
+        <pagebody casaindex="5" >
+
+
+                <rowarea name="Portlet Request" casaindex="6" >
+
+
+                        <itr takefullwidth="true" casaindex="7" >
+
+
+                                <label name="Portlet Request" width="120" casaindex="8" >
+
+
+                                </label>
+
+
+                <field xsdType="xs:string" valueprop="portletRequest" width="100%" casaindex="9" >
+
+                </field>
+
+                        </itr>
+
+
+                </rowarea>
+
+
+                <rowarea name="Portlet Session" casaindex="10" >
+
+
+                        <itr takefullwidth="true" casaindex="11" >
+
+
+                                <label name="Portlet Session" width="120" casaindex="12" >
+
+
+                                </label>
+
+
+                                <text valueprop="portletSession" width="100%" height="100" casaindex="13" >
+
+
+                                </text>
+
+
+                        </itr>
+
+
+                </rowarea>
+
+
+                <rowarea name="Portlet Session" casaindex="14" >
+
+
+                        <itr takefullwidth="true" casaindex="15" >
+
+
+                                <label name="Portlet Config" width="120" casaindex="16" >
+
+
+                                </label>
+
+
+                                <text valueprop="portletConfig" width="100%" height="100" casaindex="17" >
+
+
+                                </text>
+
+
+                        </itr>
+
+
+                </rowarea>
+
+
+        </pagebody>
+
+
+        <statusbar withdistance="false" casaindex="18" >
+
+
+        </statusbar>
+
+
+</page>

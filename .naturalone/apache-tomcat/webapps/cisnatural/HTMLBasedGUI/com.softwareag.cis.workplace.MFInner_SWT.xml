@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><mfpage separation="rows" sizing="40,*" bordercolor="#F7F3EF" casaindex="1" >
+
+
+        <mfwpactivefunctions resizable="false" withborder="false" scrolling="false" framestyle="border: 0px solid #000000" casaindex="2" >
+
+
+        </mfwpactivefunctions>
+
+
+        <mfframeset target="ZZZ" separation="cols" sizing="265,*,0,30" casaindex="3" >
+
+
+                <mfframeset target="LEFTPART" separation="rows" sizing="*,87" casaindex="4" >
+
+
+                        <mfwpfunctions bootstrapclass="com.softwareag.cis.workplace.MFDefaultBootstrapInfoProvider" serversidescrolling="false" activefunctionsvariant="stripsel" framestyle="border: 1 solid #808080;" casaindex="5" >
+
+
+                        </mfwpfunctions>
+
+
+                        <mfhtmlframe target="NEWS" url="../HTMLBasedGUI/workplace/welcome.html" resizable="true" withborder="false" scrolling="true" framestyle="border: 1px solid #808080" casaindex="6" >
+
+
+                        </mfhtmlframe>
+
+
+                </mfframeset>
+
+
+                <mfwpcontent resizable="true" withborder="true" scrolling="false" framestyle="border: 1 solid #808080;" casaindex="7" >
+
+
+                </mfwpcontent>
+
+
+                <mfcisframe target="CISHELP" cisurl="/HTMLBasedGUI/onlinehelp.html" resizable="true" withborder="true" framestyle="border: 1 solid #808080;" casaindex="8" >
+
+
+                </mfcisframe>
+
+
+                <mfcisframe target="SIDEBAR" cisurl="/cisdemos/wprightsidebar.html" resizable="false" casaindex="9" >
+
+
+                </mfcisframe>
+
+
+        </mfframeset>
+
+
+</mfpage>

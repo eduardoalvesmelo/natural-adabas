@@ -1,0 +1,26 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** Fazer um programa para
+/**     a. receber do usuário um tempo em segundos, correspondente à duração de um evento qualquer (por ex. jogo de futebol)
+/**     b. calcular e mostrar ao usuário o tempo equivalente em horas, minutos e segundos 
+/**
+/** :author eduar
+/* TODO Enter your code here
+DEFINE DATA LOCAL
+1 S (N10.2) 
+1 M (N10.2) 
+1 H (N10.2) 
+END-DEFINE
+
+INPUT 'Informe o tempo em segundo de uma partida de futebol: ' S
+
+M := S / 60 / 60
+H := M / 60 
+
+WRITE 'O tempo em segundo: ' S 
+WRITE 'O tempo em minuto: ' M
+WRITE 'O tempo em hora: ' H 
+
+END

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<script>
+function onInitFramesBelow()
+{
+try { frames['CURRENTACTIVITIES'].location.replace('../HTMLBasedGUI/workplace/loading.html'); } catch (eexxcc) {}
+try { document.getElementById('dummmy').src = 'about:blank'; } catch (eexxcc) {}
+var vMFCF5 = document.getElementById('AVAILABLEACTIVITIES');
+var vIP5 = '';
+if (parent.pageInitParamSL != null) vIP5 = '&' + parent.pageInitParamSL;
+frames['AVAILABLEACTIVITIES'].location.replace ('../servlet/StartCISPage?PAGEURL=/HTMLBasedGUI/com.softwareag.cis.workplace.MFWorkplaceSSSPlusMinusWithoutFavorites.html&bootstrapClassName=com.softwareag.cis.editor.EditorWorkplace&activeFunctionsURL=/HTMLBasedGUI/MFActivitiesIDE23.html&SESSIONID='+parent.getCurrentSessionId()+'&SUBSESSIONID='+parent.getCurrentProcessId()+'&ONUNLOADBEHAVIOUR=REMOVESESSION&CENTRALLIB=PP&WITHOWNBORDER=true' + vIP5);
+addCasabacFrame(frames['AVAILABLEACTIVITIES']);
+var vMFCF6 = document.getElementById('CONTENT');
+var vIP6 = '';
+if (parent.pageInitParamSL != null) vIP6 = '&' + parent.pageInitParamSL;
+frames['CONTENT'].location.replace ('../servlet/StartCISPage?PAGEURL=../HTMLBasedGUI/workplace/loading.html&SESSIONID='+parent.getCurrentSessionId()+'&SUBSESSIONID='+parent.getCurrentProcessId()+'&ONUNLOADBEHAVIOUR=NOTHING&CENTRALLIB=PP&WITHOWNBORDER=true' + vIP6);
+addCasabacFrame(frames['CONTENT']);
+var vMFCF7 = document.getElementById('CISHELP');
+var vIP7 = '';
+if (parent.pageInitParamSL != null) vIP7 = '&' + parent.pageInitParamSL;
+frames['CISHELP'].location.replace ('../servlet/StartCISPage?PAGEURL=/HTMLBasedGUI/onlinehelp.html&SESSIONID='+parent.getCurrentSessionId()+'&SUBSESSIONID='+parent.getCurrentProcessId()+'&ONUNLOADBEHAVIOUR=NOTHING&CENTRALLIB=PP&WITHOWNBORDER=true' + vIP7);
+addCasabacFrame(frames['CISHELP']);
+}
+</script>
+<script>
+var m_isCasabacMFPAGE = true;
+var m_casabacFrames = [];
+function onInitFrames() { onInitFramesBelow(); }
+function addCasabacFrame(pFrame) { m_casabacFrames.push(pFrame); }
+function getCasabacFrames() { return m_casabacFrames; }
+parent.bringToFrontSCP(location.href);</script>
+<html>
+<head>
+<title>Multi Frame Page</title>
+</head>
+<frameset border='15' bordercolor='#FFFFFF'  rows='89,*,38' style='' onload='onInitFrames();'>
+<frame marginheight='0' marginwidth='0'  style='border: 0px solid #000000' scrolling='no' noresize frameborder='0' id='CURRENTACTIVITIES' name='CURRENTACTIVITIES' src='../HTMLBasedGUI/general/aboutBlank.html'>
+<frameset id='ZZZ' name='ZZZ' border='15' frameborder='1'  cols='0,265,*,0' style=''>
+<frame marginheight='0' marginwidth='0'  style='' scrolling='yes'  frameborder='0' id='dummmy' name='dummmy' src='../HTMLBasedGUI/general/aboutBlank.html'>
+<frame marginheight='0' marginwidth='0'  style=''  frameborder='0' id='AVAILABLEACTIVITIES' name='AVAILABLEACTIVITIES' scrolling='no' src='../HTMLBasedGUI/general/aboutBlank.html'>
+<frame marginheight='0' marginwidth='0'  style=''  frameborder='0' id='CONTENT' name='CONTENT' scrolling='no' src='../HTMLBasedGUI/general/aboutBlank.html'>
+<frame marginheight='0' marginwidth='0'  style=''  frameborder='0' id='CISHELP' name='CISHELP' scrolling='no' src='../HTMLBasedGUI/general/aboutBlank.html'>
+</frameset>
+</frameset>
+</html>

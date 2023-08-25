@@ -1,0 +1,12 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** New Function FUN1.
+/**
+/** :author eduar
+DEFINE FUNCTION FUN1
+/* TODO Enter your code here
+IGNORE
+END-FUNCTION
+END

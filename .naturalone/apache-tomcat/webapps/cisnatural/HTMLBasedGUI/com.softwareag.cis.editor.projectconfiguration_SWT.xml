@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.ViewEditorConfig5Adapter" translationreference="CIS_EDIT" stylesheetfile="../cis/styles/CIS_DEFAULT.css" popupwidth="550" popupheight="400" casaindex="1" >
+
+
+        <pagebody paddingleft="10" paddingright="10" paddingtop="10" casaindex="2" >
+
+
+                <vdist height="8" casaindex="3" >
+
+
+                </vdist>
+
+
+                <itr casaindex="4" >
+
+
+                        <hdist width="8" casaindex="5" >
+
+
+                        </hdist>
+
+
+                        <radiobutton valueprop="projectTreeView" value="package" flush="server" casaindex="6" >
+
+
+                        </radiobutton>
+
+
+                        <hdist width="8" casaindex="7" >
+
+
+                        </hdist>
+
+
+                        <label textid="editorHTTPTrace.label0" asplaintext="true" casaindex="8" >
+
+
+                        </label>
+
+
+                        <hdist width="4" casaindex="9" >
+
+
+                        </hdist>
+
+
+            <field xsdType="xs:string" maxlength="1" valueprop="packageSeparator" statusprop="packageSeparatorStatus" length="1" fieldstyle="text-align: center" casaindex="10" >
+
+            </field>
+
+                        <hdist width="4" casaindex="11" >
+
+
+                        </hdist>
+
+
+                        <label textid="editorHTTPTrace.label1" asplaintext="true" casaindex="12" >
+
+
+                        </label>
+
+
+                </itr>
+
+
+                <vdist casaindex="13" >
+
+
+                </vdist>
+
+
+                <itr casaindex="14" >
+
+
+                        <hdist width="8" casaindex="15" >
+
+
+                        </hdist>
+
+
+                        <radiobutton valueprop="projectTreeView" value="alphabetical" flush="server" casaindex="16" >
+
+
+                        </radiobutton>
+
+
+                        <hdist width="8" casaindex="17" >
+
+
+                        </hdist>
+
+
+                        <label textid="editorHTTPTrace.label2" asplaintext="true" casaindex="18" >
+
+
+                        </label>
+
+
+                </itr>
+
+
+                <vdist casaindex="19" >
+
+
+                </vdist>
+
+
+                <itr casaindex="20" >
+
+
+                        <hdist width="8" casaindex="21" >
+
+
+                        </hdist>
+
+
+                        <radiobutton valueprop="projectTreeView" value="donotgroup" flush="server" casaindex="22" >
+
+
+                        </radiobutton>
+
+
+                        <hdist width="8" casaindex="23" >
+
+
+                        </hdist>
+
+
+                        <label textid="editorHTTPTrace.label3" width="100%" asplaintext="true" casaindex="24" >
+
+
+                        </label>
+
+
+                </itr>
+
+
+                <vdist height="8" casaindex="25" >
+
+
+                </vdist>
+
+
+                <itr casaindex="26" >
+
+
+                        <hdist width="8" casaindex="27" >
+
+
+                        </hdist>
+
+
+                        <button textid="editorHTTPTrace.button0" method="onOK" image="../HTMLBasedGUI/images/save.gif" casaindex="28" >
+
+
+                        </button>
+
+
+                </itr>
+
+
+        </pagebody>
+
+
+        <statusbar casaindex="29" >
+
+
+        </statusbar>
+
+
+</page>

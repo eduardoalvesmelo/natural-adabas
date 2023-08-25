@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?><page darkbackground="true" model="com.softwareag.cis.editor.ViewEditorConfigAdapter" pagename="CIS_EDIT" popupheight="310" popupwidth="550" translationreference="editor" casaindex="1" >
+
+
+        <pagebody horizdist="false" takefullheight="true" vscroll="false" casaindex="2" >
+
+
+                <rowarea withbottomborder="false" withleftborder="false" withrightborder="false" withtoppadding="false" casaindex="3" >
+
+
+                        <itr height="30" takefullwidth="true" casaindex="4" >
+
+
+                                <hdist width="50%" casaindex="5" >
+
+
+                                </hdist>
+
+
+                                <button width="150" image="../HTMLBasedGUI/images/save.gif" method="onOK" textid="configSave" casaindex="6" >
+
+
+                                </button>
+
+
+                                <hdist width="50%" casaindex="7" >
+
+
+                                </hdist>
+
+
+                        </itr>
+
+
+                </rowarea>
+
+
+                <rowarea textid="configConfigFile" withbottomborder="false" withleftborder="false" withrightborder="false" withtoppadding="false" casaindex="8" >
+
+
+                        <itr casaindex="9" >
+
+
+                                <label textid="configName" width="100" casaindex="10" >
+
+
+                                </label>
+
+
+                                <textout valueprop="fileName" width="400" casaindex="11" >
+
+
+                                </textout>
+
+
+                        </itr>
+
+
+                        <itr casaindex="12" >
+
+
+                                <label textid="configDir" width="100" casaindex="13" >
+
+
+                                </label>
+
+
+                                <text displayonly="true" rows="3" valueprop="project" width="432" wrap="soft" casaindex="14" >
+
+
+                                </text>
+
+
+                        </itr>
+
+
+                </rowarea>
+
+
+                <rowdynavis valueprop="showCodeGenSettings" casaindex="15" >
+
+
+                        <rowarea height="100%" textid="configCodeAssSettings" withbottomborder="false" withleftborder="false" withrightborder="false" withtoppadding="false" casaindex="16" >
+
+
+                                <itr casaindex="17" >
+
+
+                                        <label textid="configCodeDir" width="150" casaindex="18" >
+
+
+                                        </label>
+
+
+                    <field xsdType="xs:string" valueprop="sourceDir" width="380" casaindex="19" >
+
+                    </field>
+
+                                </itr>
+
+
+                                <itr casaindex="20" >
+
+
+                                        <label textid="configPrefix" width="150" casaindex="21" >
+
+
+                                        </label>
+
+
+                    <field xsdType="xs:string" maxlength="9" length="12" valueprop="prefix" casaindex="22" >
+
+                    </field>
+
+                                </itr>
+
+
+                                <itr casaindex="23" >
+
+
+                                        <label textid="configSpacesPerTab" width="150" casaindex="24" >
+
+
+                                        </label>
+
+
+                    <field xsdType="int" datatype="int" maxlength="1" length="2" valueprop="tabWidth" casaindex="25" >
+
+                    </field>
+
+                                </itr>
+
+
+                                <itr casaindex="26" >
+
+
+                                        <label textid="configOneLine" casaindex="27" >
+
+
+                                        </label>
+
+
+                                        <hdist casaindex="28" >
+
+
+                                        </hdist>
+
+
+                                        <checkbox valueprop="oneLine" casaindex="29" >
+
+
+                                        </checkbox>
+
+
+                                </itr>
+
+
+                                <vdist height="100%" casaindex="30" >
+
+
+                                </vdist>
+
+
+                        </rowarea>
+
+
+                </rowdynavis>
+
+
+                <rowdynavis height="100%" valueprop="showSourceDirectory" casaindex="31" >
+
+
+                        <rowarea height="100%" textid="revec.rowarea0" withbottomborder="false" withleftborder="false" withrightborder="false" withtoppadding="false" casaindex="32" >
+
+
+                                <itr casaindex="33" >
+
+
+                                        <label textid="configCodeDir" width="150" casaindex="34" >
+
+
+                                        </label>
+
+
+                    <field xsdType="xs:string" valueprop="sourceDir" width="380" casaindex="35" >
+
+                    </field>
+
+                                </itr>
+
+
+                                <vdist height="100%" casaindex="36" >
+
+
+                                </vdist>
+
+
+                        </rowarea>
+
+
+                </rowdynavis>
+
+
+                <rowdynavis height="100%" valueprop="showXMLDirectory" casaindex="37" >
+
+
+                        <rowarea height="100%" textid="configXMLDirectorySettings" withbottomborder="false" withleftborder="false" withrightborder="false" withtoppadding="false" casaindex="38" >
+
+
+                                <itr casaindex="39" >
+
+
+                                        <label textid="configXMLDir" width="150" casaindex="40" >
+
+
+                                        </label>
+
+
+                    <field xsdType="xs:string" valueprop="xmlDir" width="380" casaindex="41" >
+
+                    </field>
+
+                                </itr>
+
+
+                                <vdist height="100%" casaindex="42" >
+
+
+                                </vdist>
+
+
+                        </rowarea>
+
+
+                </rowdynavis>
+
+
+                <vdist height="100%" casaindex="43" >
+
+
+                </vdist>
+
+
+        </pagebody>
+
+
+        <statusbar withdistance="false" casaindex="44" >
+
+
+        </statusbar>
+
+
+</page>

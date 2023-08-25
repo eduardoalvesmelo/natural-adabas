@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.workplace.SingleThreadWorkplaceAdapter" pagename="template1.html" casaindex="1" >
+
+
+        <pagebody vscroll="false" hscroll="false" casaindex="2" >
+
+
+                <vdist pixelheight="6" casaindex="3" >
+
+
+                </vdist>
+
+
+                <itr casaindex="4" >
+
+
+                        <subcispage valueprop="pageName" modelidprop="pageModelId" processidprop="pageProcessId" refreshprop="pageRefresh" height="600" width="600" pageheightminus="20" pagewidthminus="20" casaindex="5" >
+
+
+                        </subcispage>
+
+
+                </itr>
+
+
+        </pagebody>
+
+
+</page>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.natural.mapconverter.gui.PreviewerAdapter" casaindex="1" >
+
+
+        <titlebar name="Page Previewer" casaindex="2" >
+
+
+        </titlebar>
+
+
+        <header align="left" withdistance="false" casaindex="3" >
+
+
+        </header>
+
+
+        <pagebody horizdist="false" takefullheight="true" paddingleft="20" paddingright="20" paddingtop="20" paddingbottom="20" casaindex="4" >
+
+
+                <rowareawithheader visibleprop="selectLayout" casaindex="5" >
+
+
+                        <rowareaheader name="Select Layout" casaindex="6" >
+
+
+                                <icon image="../HTMLBasedGUI/images/preview2.gif" method="onPreviewLayout" valign="middle" title="Preview Layout XML Definition" casaindex="7" >
+
+
+                                </icon>
+
+
+                        </rowareaheader>
+
+
+                        <rowareabody casaindex="8" >
+
+
+                                <vdist height="10" casaindex="9" >
+
+
+                                </vdist>
+
+
+                                <itr casaindex="10" >
+
+
+                                        <label name="Project" width="100" title="Select the project containing the layout." casaindex="11" >
+
+
+                                        </label>
+
+
+                                        <combodyn2 valueprop="projectName" validvaluesprop="projectValues" width="250" flush="server" flushmethod="onProjectChanged" casaindex="12" >
+
+
+                                        </combodyn2>
+
+
+                                </itr>
+
+
+                                <vdist height="10" casaindex="13" >
+
+
+                                </vdist>
+
+
+                                <itr casaindex="14" >
+
+
+                                        <label name="Layout" width="100" title="Select the layout to preview." casaindex="15" >
+
+
+                                        </label>
+
+
+                                        <combodyn2 valueprop="layoutName" validvaluesprop="layoutNameValues" width="250" flush="server" flushmethod="onLayoutChanged" casaindex="16" >
+
+
+                                        </combodyn2>
+
+
+                                </itr>
+
+
+                                <vdist height="10" casaindex="17" >
+
+
+                                </vdist>
+
+
+                        </rowareabody>
+
+
+                </rowareawithheader>
+
+
+                <rowarea name="Preview" height="100%" casaindex="18" >
+
+
+                        <tr height="100%" casaindex="19" >
+
+
+                                <subcispage2 subcispageprop="previewPage" width="100%" height="100%" borderwidth="1" withownborder="true" casaindex="20" >
+
+
+                                </subcispage2>
+
+
+                        </tr>
+
+
+                </rowarea>
+
+
+        </pagebody>
+
+
+        <statusbar withdistance="false" casaindex="21" >
+
+
+        </statusbar>
+
+
+</page>

@@ -1,0 +1,15 @@
+* >Natural Source Header 000000
+* :Mode R
+* :CP
+* <Natural Source Header
+/** New Program EXE1.
+/**
+/** :author eduar
+/* TODO Enter your code here
+DEFINE DATA LOCAL
+1 #BIRTH (D) INIT <*DATX>
+END-DEFINE  
+
+write #BIRTH  (EM=NNNNNNNN', 'LLLLLLLLLL' 'DD'th')
+
+END

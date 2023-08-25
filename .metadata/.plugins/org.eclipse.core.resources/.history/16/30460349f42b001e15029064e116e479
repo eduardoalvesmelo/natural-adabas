@@ -1,0 +1,21 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** New Program EX15.
+/**
+/** :author eduar
+/* TODO Enter your code here
+DEFINE DATA LOCAL
+1 #i        (N4)
+1 #j        (N4)
+1 #num      (N4/10) init<1,2,3,4,5,6,7,8,9,10>
+1 #p        (N4) 
+1 #resto    (N4)    
+END-DEFINE                            
+*
+write title 'Imprimindo cartela'
+*
+write #num(*) (CD=GR)
+*        
+END

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.admin.EditorExtensionAdapter" translationreference="CIS_TOOLS" popupwidth="345" popupheight="150" casaindex="1" >
+
+
+        <pagebody horizdist="false" takefullheight="true" casaindex="2" >
+
+
+                <rowarea textid="exnt.rowarea.name" height="100%" withleftborder="false" withrightborder="false" withbottomborder="false" withtoppadding="false" casaindex="3" >
+
+
+                        <itr casaindex="4" >
+
+
+                        </itr>
+
+
+                        <itr align="center" casaindex="5" >
+
+
+                                <label textid="label.name" width="60" casaindex="6" >
+
+
+                                </label>
+
+
+                <field xsdType="xs:string" valueprop="newNamePrefix" width="50" length="20" casaindex="7" >
+
+                </field>
+
+                                <hdist casaindex="8" >
+
+
+                                </hdist>
+
+
+                                <label name=":" asplaintext="true" casaindex="9" >
+
+
+                                </label>
+
+
+                                <hdist casaindex="10" >
+
+
+                                </hdist>
+
+
+                <field xsdType="xs:string" valueprop="newName" length="20" casaindex="11" >
+
+                </field>
+
+                                <hdist casaindex="12" >
+
+
+                                </hdist>
+
+
+                        </itr>
+
+
+                        <vdist height="5" casaindex="13" >
+
+
+                        </vdist>
+
+
+                        <itr width="100%" casaindex="14" >
+
+
+                                <hdist width="50%" casaindex="15" >
+
+
+                                </hdist>
+
+
+                                <button textid="btn.ok" method="onFinishNewTagOrDT" casaindex="16" >
+
+
+                                </button>
+
+
+                                <hdist casaindex="17" >
+
+
+                                </hdist>
+
+
+                                <button textid="btn.cancel" method="closePage" casaindex="18" >
+
+
+                                </button>
+
+
+                                <hdist width="50%" casaindex="19" >
+
+
+                                </hdist>
+
+
+                        </itr>
+
+
+                        <vdist height="100%" casaindex="20" >
+
+
+                        </vdist>
+
+
+                </rowarea>
+
+
+        </pagebody>
+
+
+        <statusbar casaindex="21" >
+
+
+        </statusbar>
+
+
+</page>

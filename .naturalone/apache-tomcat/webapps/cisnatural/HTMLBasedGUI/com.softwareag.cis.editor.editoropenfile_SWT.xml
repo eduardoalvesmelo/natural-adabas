@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.OpenFileModel" translationreference="CIS_EDIT" popupwidth="440" popupheight="400" casaindex="1" >
+
+
+        <pagebody vscroll="hidden" hscroll="hidden" horizdist="false" takefullheight="true" casaindex="2" >
+
+
+                <itr height="100%" fixlayout="true" width="100%" casaindex="3" >
+
+
+                        <textgrid2 griddataprop="files" width="100%" height="100%" selectprop="selected" singleselect="true" hscroll="true" vscroll="auto" directselectmethod="selectionFinished" directselectevent="onclick" casaindex="4" >
+
+
+                                <column textid="newfileName" property="name" width="100%" casaindex="5" >
+
+
+                                </column>
+
+
+                        </textgrid2>
+
+
+                </itr>
+
+
+                <vdist casaindex="6" >
+
+
+                </vdist>
+
+
+                <itr casaindex="7" >
+
+
+                        <hdist width="50%" casaindex="8" >
+
+
+                        </hdist>
+
+
+                        <button textid="openfileCancel" method="closePage" casaindex="9" >
+
+
+                        </button>
+
+
+                        <hdist width="50%" casaindex="10" >
+
+
+                        </hdist>
+
+
+                </itr>
+
+
+                <vdist casaindex="11" >
+
+
+                </vdist>
+
+
+        </pagebody>
+
+
+</page>

@@ -1,0 +1,28 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** New Program EX19.
+/**
+/** :author eduar
+/* TODO Enter your code here
+DEFINE DATA LOCAL
+1 #NUMERO (I2)
+1 #DIVISOR (I2)
+1 #SOMA (N3)
+END-DEFINE
+
+FOR #NUMERO = 1 TO 100
+    RESET #SOMA
+
+    FOR #DIVISOR = 1 TO (#NUMERO / 2)
+        IF MOD(#NUMERO, #DIVISOR) = 0
+            ADD #DIVISOR TO #SOMA
+        END-IF
+    END-FOR
+
+    IF #SOMA = (#NUMERO * 2)
+        WRITE 'Número perfeito encontrado: ' #NUMERO
+    END-IF
+END-FOR
+END

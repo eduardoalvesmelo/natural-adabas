@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.adapter.cisnatural+NatDisconnect" hotkeys="13;onLogon" casaindex="1" adapterlisteners="com.softwareag.cis.adapter.TriggerEventAdapterListener" >
+
+
+            <titlebar name="Disconnected From Natural" withclose="false" casaindex="2" >
+
+
+
+            </titlebar>
+
+
+
+    
+    
+            <pagebody takefullheight="false" casaindex="4" >
+
+
+
+                        <vdist height="5px" casaindex="5" >
+
+
+
+                        </vdist>
+
+
+
+                        <itr align="left" casaindex="6" >
+
+
+
+                                    <hdist width="40" casaindex="7" >
+
+
+
+                                    </hdist>
+
+
+
+                                    <icon image="../cisnatural/images/SAG_logo_login_200x73.png" align="left" casaindex="8" >
+
+
+
+                                    </icon>
+
+
+
+                        </itr>
+
+
+
+                        <vdist height="10" casaindex="9" >
+
+
+
+                        </vdist>
+
+
+
+                        <hline height="10" color="#00A1E1" casaindex="10" >
+
+
+
+                        </hline>
+
+
+
+                        <vdist height="15" casaindex="11" >
+
+
+
+                        </vdist>
+
+
+
+                        <itr align="right" casaindex="12" >
+
+
+
+                                    <textout valueprop="versionInfo" width="100%" textsize="2" textcolor="#233356" align="right" textoutstyle="font-weight: bold" casaindex="13" >
+
+
+
+                                    </textout>
+
+
+
+                                    <hdist width="10" casaindex="14" >
+
+
+
+                                    </hdist>
+
+
+
+                        </itr>
+
+
+
+                        <rowarea name="Disconnect Message" foldable="false" casaindex="15" >
+
+
+
+                                    <itr takefullwidth="true" casaindex="16" >
+
+
+
+                                                <textout valueprop="disconnectMessage" width="80%" fgcolorprop="colorProp" casaindex="17" >
+
+
+
+                                                </textout>
+
+
+
+                                    </itr>
+
+
+
+                                    <vdist height="15" casaindex="18" >
+
+
+
+                                    </vdist>
+
+
+
+                                    <itr takefullwidth="true" casaindex="19" >
+
+
+
+                                                <button method="onLogon" nameprop="buttonName" width="200" casaindex="20" >
+
+
+
+                                                </button>
+
+
+
+                                    </itr>
+
+
+
+                        </rowarea>
+
+
+
+                        <vdist casaindex="21" >
+
+
+
+                        </vdist>
+
+
+
+            </pagebody>
+
+
+
+            <statusbar withdistance="false" casaindex="22" >
+
+
+
+            </statusbar>
+
+
+
+</page>

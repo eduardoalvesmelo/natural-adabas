@@ -1,0 +1,23 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** Fazer um programa para ler um número do usuário e determinar se este número é par ou não par. 
+/**
+/** :author eduar
+/* TODO Enter your code here
+DEFINE DATA LOCAL
+1 N1 (N2) 
+1 RESTO (N2.2)
+END-DEFINE
+
+INPUT 'Informe um numero : ' N1
+COMPUTE RESTO = N1 % 2
+
+IF N1 = 0
+    WRITE 'Erro: Divisão por zero não é permitida'
+ELSE IF RESTO == 0
+    WRITE 'O Numero ' N1 ' é par'
+ELSE    
+    WRITE 'O Numero ' N1 ' é impar' 
+END

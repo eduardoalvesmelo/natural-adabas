@@ -1,0 +1,41 @@
+0001/** Fazer um programa para receber um número inteiro do usuário e determinar se este número
+0002/** é primo ou não.
+0003/**
+0004/** :author eduar
+0005/* TODO Enter your code here
+0006DEFINE DATA LOCAL
+0007  1 #num-promo        (N4) init<0>
+0008  1 #divisor        (N4) init<0>
+0009  1 #dividendo        (N4) init<0>
+0010  1 #quociente        (N4) init<0>
+0011  1 #resto            (N4) init<0>
+0012  1 #primo            (N4/100) init<0>
+0013  1 #num            (N4) init<0>
+0014  1 #i                (N4) init<0>
+0015  1 #j                (N4) init<0>
+0016  1 #z                (N4) init<0>
+0017  1 #cont            (N4) init<0>
+0018END-DEFINE
+0019*
+0020for #j:= 1 to 100
+0021    for #i:= 1 to #j
+0022        #divisor:= #i
+0023        #dividendo:= #j
+0024        divide #divisor into #dividendo giving #quociente remainder #resto 
+0025        if #resto = 0
+0026            #cont:=#cont+1            
+0027        end-if
+0028    end-for
+0029    if #cont = 2
+0030        #z:=#z+1
+0031        #primo(#z):= #j
+0032    end-if
+0033    #cont:=0
+0034end-for    
+0035*
+0036for #i:= 1 to #z
+0037    write '=' #primo(#i)
+0038end-for    
+0039*
+0040END
+0041

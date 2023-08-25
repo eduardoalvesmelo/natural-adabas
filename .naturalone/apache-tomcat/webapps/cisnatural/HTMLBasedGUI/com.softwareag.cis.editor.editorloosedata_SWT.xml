@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.LooseDataModel" translationreference="CIS_EDIT" popupwidth="350px" popupheight="150px" casaindex="1" >
+
+
+        <pagebody vscroll="false" pageheightminus="74" verticalscrollbar="true" casaindex="2" >
+
+
+                <vdist height="10" casaindex="3" >
+
+
+                </vdist>
+
+
+                <itr width="100%" casaindex="4" >
+
+
+                        <hdist width="50%" casaindex="5" >
+
+
+                        </hdist>
+
+
+                        <label textid="loosedataQuestion" width="290" asplaintext="true" height="50" casaindex="6" >
+
+
+                        </label>
+
+
+                        <hdist width="50%" casaindex="7" >
+
+
+                        </hdist>
+
+
+                </itr>
+
+
+                <vdist height="10" casaindex="8" >
+
+
+                </vdist>
+
+
+                <itr width="100%" casaindex="9" >
+
+
+                        <hdist width="50%" casaindex="10" >
+
+
+                        </hdist>
+
+
+                        <button textid="loosedataSave" method="saveData" casaindex="11" >
+
+
+                        </button>
+
+
+                        <hdist casaindex="12" >
+
+
+                        </hdist>
+
+
+                        <button textid="loosedataLoose" method="looseData" casaindex="13" >
+
+
+                        </button>
+
+
+                        <hdist casaindex="14" >
+
+
+                        </hdist>
+
+
+                        <icon image="../HTMLBasedGUI/images/distance.gif" casaindex="15" >
+
+
+                        </icon>
+
+
+                        <hdist casaindex="16" >
+
+
+                        </hdist>
+
+
+                        <button textid="loosedataCancel" method="goBack" casaindex="17" >
+
+
+                        </button>
+
+
+                        <hdist width="50%" casaindex="18" >
+
+
+                        </hdist>
+
+
+                </itr>
+
+
+                <vdist height="10" casaindex="19" >
+
+
+                </vdist>
+
+
+        </pagebody>
+
+
+</page>

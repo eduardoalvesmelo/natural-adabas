@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.workplace.WorkplaceModel" occupiedpixelheight="0" occupiedpixelwidth="0" stylesheetfile="/HTMLBasedGUI/general/layout.css" translationreference="workplace" casaindex="1" >
+
+
+        <titlebar align="right" textid="wrkplace.titlebar4" withclose="false" closetitletextid="closePage" casaindex="2" >
+
+
+        </titlebar>
+
+
+        <tabstrip align="left" lightbackground="true" selectedindexprop="selectedSession" selectmethod="selectSession" valueprop="sessions" casaindex="3" >
+
+
+        </tabstrip>
+
+
+        <pagebody horizdist="false" hscroll="auto" takefullheight="true" vscroll="auto" casaindex="4" >
+
+
+                <vdist height="10" casaindex="5" >
+
+
+                </vdist>
+
+
+                <itr height="100%" width="100%" casaindex="6" >
+
+
+                        <coltable0 height="100%" width="0" casaindex="7" >
+
+
+                                <itr casaindex="8" >
+
+
+                                        <hdist width="40" casaindex="9" >
+
+
+                                        </hdist>
+
+
+                                </itr>
+
+
+                                <itr height="100%" width="100%" casaindex="10" >
+
+
+                                        <subpage height="100%" valueprop="menuPageName" width="100%" casaindex="11" >
+
+
+                                        </subpage>
+
+
+                                </itr>
+
+
+                        </coltable0>
+
+
+                        <coltable0 height="100%" width="100%" casaindex="12" >
+
+
+                                <itr fixlayout="true" height="100%" width="100%" casaindex="13" >
+
+
+                                        <subcispage height="100%" modelidprop="casaModelId" processidprop="casaProcessId" refreshprop="casaPageRefresh" valueprop="casaPageName" width="100%" casaindex="14" >
+
+
+                                        </subcispage>
+
+
+                                </itr>
+
+
+                        </coltable0>
+
+
+                        <hdist casaindex="15" >
+
+
+                        </hdist>
+
+
+                </itr>
+
+
+                <vdist casaindex="16" >
+
+
+                </vdist>
+
+
+        </pagebody>
+
+
+</page>

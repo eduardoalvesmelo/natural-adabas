@@ -1,0 +1,21 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** Descrição: leia a tabela CVMT-VEICULO e exiba na tela os campos informados em data
+/**
+/** :author eduar
+/* TODO Enter your code here
+DEFINE DATA LOCAL
+1 VM VIEW OF CVMT-VEICULO    /*VM apelido de view, CVMT_VEICULO os dados em questão
+    2 VE-ANO-FABRIC-VEIC    /*Campo da tabela CVMT-VEICULO
+    2 VE-ANO-MOD-VEIC         /*Campo da tabela CVMT-VEICULO
+    2 VE-COD-CARROC-VEIC    /*Campo da tabela CVMT-VEICULO
+1 #MSG                        (A100)    /* Campo criado pelo usuario não está vindo da view 
+END-DEFINE
+*    
+READ (10) VM    /*Leia 10 linhas da VW 
+    DISPLAY VE-ANO-FABRIC-VEIC VE-ANO-MOD-VEIC VE-COD-CARROC-VEIC    /* exiba os campos
+END-READ    /*finaliza o read
+*
+END

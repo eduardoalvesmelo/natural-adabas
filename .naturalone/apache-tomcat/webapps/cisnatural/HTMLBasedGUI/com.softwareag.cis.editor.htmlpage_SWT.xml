@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.EditorModel4" pagename="htmlpage.html" casaindex="1" >
+
+
+        <pagebody vscroll="false" hscroll="false" horizdist="false" takefullheight="true" casaindex="2" >
+
+
+                <itr width="100%" height="100%" casaindex="3" >
+
+
+                        <subpage valueprop="previewURL" height="100%" width="100%" casaindex="4" >
+
+
+                        </subpage>
+
+
+                </itr>
+
+
+        </pagebody>
+
+
+</page>

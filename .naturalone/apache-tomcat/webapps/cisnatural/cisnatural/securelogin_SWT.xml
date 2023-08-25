@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.adapter.cisnatural+securelogin" hotkeys="13;doLogin" natsinglebyte="true" xmlns:njx="http://www.softwareag.com/njx/njxMapConverter" casaindex="1" adapterlisteners="com.softwareag.cis.adapter.TriggerEventAdapterListener" >
+
+
+            <titlebar name="Logon to Natural for Ajax" withclose="false" casaindex="2" >
+
+
+
+            </titlebar>
+
+
+
+            <pagebody casaindex="3" >
+
+
+
+                        <vdist height="5px" casaindex="4" >
+
+
+
+                        </vdist>
+
+
+
+                        <itr align="left" casaindex="5" >
+
+
+
+                                    <hdist width="40" casaindex="6" >
+
+
+
+                                    </hdist>
+
+
+
+                                    <icon image="../cisnatural/images/SAG_logo_login_200x73.png" align="left" casaindex="7" >
+
+
+
+                                    </icon>
+
+
+
+                        </itr>
+
+
+
+                        <vdist height="10" casaindex="8" >
+
+
+
+                        </vdist>
+
+
+
+                        <hline height="10" color="#00A1E1" casaindex="9" >
+
+
+
+                        </hline>
+
+
+
+                        <vdist height="15" casaindex="10" >
+
+
+
+                        </vdist>
+
+
+
+                        <itr align="right" casaindex="11" >
+
+
+
+                                    <textout valueprop="versionInfo" width="100%" textsize="2" textcolor="#233356" align="right" textoutstyle="font-weight: bold" casaindex="12" >
+
+
+
+                                    </textout>
+
+
+
+                                    <hdist width="10" casaindex="13" >
+
+
+
+                                    </hdist>
+
+
+
+                        </itr>
+
+
+
+                        <rowarea name="Logon credentials" visibleprop="credsRowVisible" casaindex="14" >
+
+
+
+                                    <itr casaindex="15" >
+
+
+
+                                                <label name="User name:" width="130" casaindex="16" >
+
+
+
+                                                </label>
+
+
+
+                                                <hdist width="10" casaindex="17" >
+
+
+
+                                                </hdist>
+
+
+
+                <field xsdType="xs:string" valueprop="userNameProp" casaindex="18" >
+
+                </field>
+
+                                    </itr>
+
+
+
+                                    <vdist height="10" casaindex="19" >
+
+
+
+                                    </vdist>
+
+
+
+                                    <itr casaindex="20" >
+
+
+
+                                                <label name="Password:" width="130" casaindex="21" >
+
+
+
+                                                </label>
+
+
+
+                                                <hdist width="10" casaindex="22" >
+
+
+
+                                                </hdist>
+
+
+
+                <field xsdType="xs:string" valueprop="passwordProp" password="true" casaindex="23" >
+
+                </field>
+
+                                                <hdist width="50" casaindex="24" >
+
+
+
+                                                </hdist>
+
+
+
+                                                <button name="Logon" method="doLogin" casaindex="25" >
+
+
+
+                                                </button>
+
+
+
+                                    </itr>
+
+
+
+                                    <vdist height="10" casaindex="26" >
+
+
+
+                                    </vdist>
+
+
+
+                        </rowarea>
+
+
+
+                        <rowarea name="Error output" visibleprop="errorRowVisible" casaindex="27" >
+
+
+
+                                    <itr takefullwidth="true" casaindex="28" >
+
+
+
+                                                <textout valueprop="errorText" width="100%" textcolor="#FF0000" casaindex="29" >
+
+
+
+                                                </textout>
+
+
+
+                                    </itr>
+
+
+
+                        </rowarea>
+
+
+
+            </pagebody>
+
+
+
+            <statusbar withdistance="false" casaindex="30" >
+
+
+
+            </statusbar>
+
+
+
+            <itr casaindex="31" >
+
+
+
+            </itr>
+
+
+
+</page>

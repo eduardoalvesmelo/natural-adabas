@@ -1,0 +1,246 @@
+/* Do not delete this! */
+xml {display: none;}
+
+/* Defines defaults for the screen */
+body { 
+ 	  background-color: black; 
+    font-family:  Courier New;  
+    }
+ 
+/* Defines the main screen position  */
+.mainlayer {
+    width: 95%;
+    top: 5px;
+}
+
+/* Defines the main screen position for right-to-left  */
+.mainlayer_rtl{
+    width: 95%;
+    top: 0px;
+}
+
+/* Defines the PF keys screen position */
+.pfkeydiv {
+    height: 80px;
+    top: 500px;
+}
+
+/* Defines the PF keys screen position for right-to-left */
+.pfkeydiv_rtl {
+    height: 80px;
+    top: 500px;   
+}
+
+.ICONImage
+{
+	padding:1px;
+	cursor:pointer;
+	right: 5px; 
+	TOP: 0%; 
+	POSITION: absolute;
+}
+.ICONImage:hover
+{
+	padding:0;
+	border-width:1px;
+	border-style:solid;
+	border-left-color:#FFFFFF;
+	border-top-color:#FFFFFF;
+	border-right-color:#000000;
+	border-bottom-color:#000000;
+	cursor:pointer;
+}
+
+ 
+/* Defines the output fields  */
+.OutputField {
+        white-space:pre; 
+        border-width:0;       
+        font-size: 100%; 
+        font-family:  Courier New;        
+        background-color: black;
+}
+ 
+.FieldVariableBased {
+   /* font-style:italic; */
+}
+
+.FieldLiteralBased {
+    /*font-style:normal; */
+}
+      
+/* Defines the input fields  */
+.InputField { 
+      background-color: black ;      
+      font-size: 100%;
+			border-width: 0px;      
+			border-style: solid;
+			border-color: #555555;
+			border-width: 1px;
+			font-family: Courier New;
+}
+
+
+/* Text decoration */
+.natTextDecoUnderline { text-decoration:underline; }
+.natTextDecoBlinking {text-decoration:blink; }
+.natTextDecoNormal {text-decoration:normal;}
+
+/* font style */
+.natFontStyleItalic {font-style:italic;}
+.natFontStyleNormal {font-style:normal;}
+
+
+/* Font weight */
+.natFontWeightBold {font-weight:900; font-variant: normal }
+.natFontWeightNormal {font-weight:normal;}
+
+/* Defines the style for Natural windows */
+.naturalwindow {
+border-style:solid; 
+border-width:1px; 
+border-color: white;
+background-color: black;
+}
+
+/* Defines the style for titles for Natural windows */
+.wintitle {
+left:0px;
+top:1px;
+height: 17px;
+width: 100%;
+color: black;
+font-size: 100%;
+font-weight: bold;
+background-color: white;
+text-align: center;
+font-family:Verdana;
+border-bottom-style:solid;
+border-bottom-width:2px;
+border-bottom-color: white;
+}
+
+/* The Natural message line */
+.MessageLine {color: red; background-color: black; }
+
+
+/* Defines Natural color attributes for output fields */
+.natOutputRed {color: red; }
+.natOutputGreen {color: LimeGreen ; }
+.natOutputBlue {color: CornflowerBlue ;}
+.natOutputYellow {color: yellow;}
+.natOutputWhite {color: white; }
+.natOutputBlack {color: white;}
+.natOutputPink {color: pink; }
+.natOutputTurquoise{color: aqua ; }
+.natOutputTransparent{color: white ; }
+
+.natOutputRedIntensified {color: red; }
+.natOutputGreenIntensified {color: LimeGreen ; }
+.natOutputBlueIntensified {color: CornflowerBlue ;}
+.natOutputYellowIntensified {color: yellow;}
+.natOutputWhiteIntensified {color: white; }
+.natOutputBlackIntensified {color: white;}
+.natOutputPinkIntensified {color: pink; }
+.natOutputTurquoiseIntensified{color: aqua ; }
+.natOutputTransparentIntensified{color: white ; }
+
+
+/* Reverse Natural colors for output fields */
+.reverseOutputRed {background-color: red; color:black}
+.reverseOutputGreen {background-color: LimeGreen ; color:black}
+.reverseOutputBlue {background-color: CornflowerBlue ;color:black}
+.reverseOutputYellow {background-color: yellow;color:black}
+.reverseOutputWhite {background-color: white; color:black; }
+.reverseOutputBlack {background-color: white;color:black}
+.reverseOutputPink {background-color: pink; color:black}
+.reverseOutputTurquoise{background-color: aqua ;color:black }
+.reverseOutputTransparent{background-color: white ; color:black}
+
+/* Defines Natural color attributes for input fields */
+.natInputRed {color: red; }
+.natInputGreen {color: LimeGreen ; }
+.natInputBlue {color: CornflowerBlue ;}
+.natInputYellow {color: yellow;}
+.natInputWhite {color: white; ; }
+.natInputBlack {color: white;}
+.natInputPink {color: pink; }
+.natInputTurquoise{color: aqua ; }
+.natInputTransparent{color: white ; }
+
+.natInputRedIntensified {color: red; }
+.natInputGreenIntensified {color: LimeGreen ; }
+.natInputBlueIntensified {color: CornflowerBlue ;}
+.natInputYellowIntensified {color: yellow;}
+.natInputWhiteIntensified {color: white; ; }
+.natInputBlackIntensified {color: white;}
+.natInputPinkIntensified {color: pink; }
+.natInputTurquoiseIntensified{color: aqua ; }
+.natInputTransparentIntensified{color: white ; }
+
+/* Reverse Natural colors for input fields */
+.reverseInputRed {background-color: red; color:black}
+.reverseInputGreen {background-color: LimeGreen ; color:black}
+.reverseInputBlue {background-color: CornflowerBlue ;color:black}
+.reverseInputYellow {background-color: yellow;color:black}
+.reverseInputWhite {background-color: white; color:black; }
+.reverseInputBlack {background-color: white;color:black}
+.reverseInputPink {background-color: pink; color:black}
+.reverseInputTurquoise{background-color: aqua ;color:black }
+.reverseInputTransparent{background-color: white ; color:black}
+
+/* Defines the style of the PF key buttons */
+
+.PFButton { 
+	margin-bottom:5px; 
+	text-align:center;
+	border-style:ridge; 
+	width:60px;
+	height:24px;
+	border-width:3px; 
+	text-decoration:none; 
+	font-family: Verdana; 
+	font-size:11px;
+	padding-left:1px;
+	padding-right:1px;
+}
+
+.PFButton:hover   { 
+	color:#ff0; 
+	background-color:#222222; }
+
+.PFButtonArroundDiv
+{
+    margin: 2px; 
+    width:70px;
+    float:left;
+}
+
+/* PF key Toolbar */
+.TDAroundControl {
+	font-size: 1px;
+}
+
+.TDAroundControlDiv {
+    font-size: 1px; 
+    height: 1px; 
+    width: 2px;
+}
+
+.ToolBarButton {
+	margin-bottom:5px; 
+	text-align:center;
+	border-style:ridge; 
+	width:60px; 
+	border-width:3px; 
+	padding:2px; 
+	height:24px;
+	text-decoration:none; 
+	font-family: Verdana; 
+	font-size:11px;
+}
+
+.ToolBarButton:hover {
+    color:#ff0; 
+	background-color:#222222;
+}

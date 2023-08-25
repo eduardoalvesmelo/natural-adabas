@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.admin.ServerLogAdapter" translationreference="CIS_ADMIN" popupwidth="1000" popupheight="800" casaindex="1" >
+
+
+        <pagebody takefullheight="true" casaindex="2" >
+
+
+                <rowarea textid="tab.info" casaindex="3" >
+
+
+                        <itr takefullwidth="true" casaindex="4" >
+
+
+                                <hdist width="20" casaindex="5" >
+
+
+                                </hdist>
+
+
+                                <label textid="label.fileName" width="120" casaindex="6" >
+
+
+                                </label>
+
+
+                <field xsdType="xs:string" valueprop="fileName" width="100%" displayonly="true" casaindex="7" >
+
+                </field>
+
+                        </itr>
+
+
+                        <itr takefullwidth="true" casaindex="8" >
+
+
+                                <hdist width="20" casaindex="9" >
+
+
+                                </hdist>
+
+
+                                <label textid="label.directoryname" width="120" casaindex="10" >
+
+
+                                </label>
+
+
+                                <text valueprop="directoryName" width="100%" displayonly="true" rows="1" casaindex="11" >
+
+
+                                </text>
+
+
+                        </itr>
+
+
+                        <itr casaindex="12" >
+
+
+                                <hdist width="20" casaindex="13" >
+
+
+                                </hdist>
+
+
+                                <label textid="servlog.label0" width="120" casaindex="14" >
+
+
+                                </label>
+
+
+                                <radiobutton valueprop="debugMode" value="false" flush="server" casaindex="15" >
+
+
+                                </radiobutton>
+
+
+                                <label textid="lblDebugModeFalse" asplaintext="true" casaindex="16" >
+
+
+                                </label>
+
+
+                        </itr>
+
+
+                        <itr casaindex="17" >
+
+
+                                <hdist width="140" casaindex="18" >
+
+
+                                </hdist>
+
+
+                                <radiobutton valueprop="debugMode" value="true" flush="server" casaindex="19" >
+
+
+                                </radiobutton>
+
+
+                                <label textid="lblDebugModeTrue" asplaintext="true" casaindex="20" >
+
+
+                                </label>
+
+
+                        </itr>
+
+
+                        <itr casaindex="21" >
+
+
+                                <hdist width="20" casaindex="22" >
+
+
+                                </hdist>
+
+
+                                <label textid="secondspart1" width="120" casaindex="23" >
+
+
+                                </label>
+
+
+                                <hdist casaindex="24" >
+
+
+                                </hdist>
+
+
+                <field xsdType="int" datatype="int" valueprop="seconds" width="50" fieldstyle="text-align: right" casaindex="25" >
+
+                </field>
+
+                                <hdist casaindex="26" >
+
+
+                                </hdist>
+
+
+                                <label textid="secondspart2" asplaintext="true" casaindex="27" >
+
+
+                                </label>
+
+
+                                <hdist width="20" casaindex="28" >
+
+
+                                </hdist>
+
+
+                                <button textid="serverlog.button.refresh" method="onRefresh" image="../HTMLBasedGUI/images/refresh.gif" casaindex="29" >
+
+
+                                </button>
+
+
+                                <hdist casaindex="30" >
+
+
+                                </hdist>
+
+
+                                <button textid="serverlog.button.clear" method="onClear" image="../HTMLBasedGUI/images/remove.gif" casaindex="31" >
+
+
+                                </button>
+
+
+                                <hdist casaindex="32" >
+
+
+                                </hdist>
+
+
+                        </itr>
+
+
+                </rowarea>
+
+
+                <rowarea textid="rowarea.file" height="100%" casaindex="33" >
+
+
+                        <itr height="100%" fixlayout="true" width="100%" casaindex="34" >
+
+
+                                <text valueprop="logText" width="100%" height="100%" wrap="off" scroll="scroll" casaindex="35" >
+
+
+                                </text>
+
+
+                        </itr>
+
+
+                </rowarea>
+
+
+                <vdist casaindex="36" >
+
+
+                </vdist>
+
+
+        </pagebody>
+
+
+</page>

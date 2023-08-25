@@ -1,0 +1,8 @@
+Server version: Apache Tomcat/9.0.10
+Server built:   Jun 20 2018 17:32:21 UTC
+Server number:  9.0.10.0
+OS Name:        Windows 10
+OS Version:     10.0
+Architecture:   amd64
+JVM Version:    1.8.0_181-b02
+JVM Vendor:     Azul Systems, Inc.

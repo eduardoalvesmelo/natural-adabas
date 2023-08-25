@@ -1,0 +1,18 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** New Program PRG01.
+/**
+/** :author eduar
+/* TODO Enter your code here
+DEFINE DATA LOCAL
+1 VM VIEW OF CFPP-CAD-EMPRESA
+    2 TCE-VP
+    2 TCE-GRUPO
+    2 TCE-LOTACAO
+END-DEFINE
+READ(10) VM
+    DISPLAY TCE-VP TCE-GRUPO TCE-LOTACAO
+END-READ
+END

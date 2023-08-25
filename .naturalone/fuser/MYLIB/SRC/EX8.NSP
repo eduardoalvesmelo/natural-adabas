@@ -1,0 +1,36 @@
+0001/** Escreva um programa para receber do usuário um mês (de 1 a 12) e um ano (de 0 D.C. em
+0002/** diante) e mostrar o número de dias daquele mês daquele ano. Utilizar switch e levar em
+0003/** consideração anos bissextos para o cálculo. 
+0004/**
+0005/** :author eduar
+0006/* TODO Enter your code here
+0007DEFINE DATA LOCAL
+00081 #mes          (N3)
+00091 #mes-dias     (N2/12) init<31,28,31,30,31,30,31,31,30,31,30,31> 
+00101 #ano          (N4)
+00111 #ano-bissexto (L) init<false>
+00121 #i            (N2)
+00131 #resto        (N2)
+0014END-DEFINE
+0015*
+0016    input 'informe um mês (1..12): ' #mes    
+0017    input 'informe um ano (1..2023): ' #ano
+0018*
+0019divide 4 into #ano remainder #resto
+0020if #resto = 0 
+0021    #ano-bissexto := true
+0022end-if
+0023*
+0024if #ano-bissexto
+0025    write 'É um ano bissexto?: Sim'
+0026    if #mes-dias(#mes) = 28
+0027        write 'Quantidade de dias no mês escolhido: 29'
+0028    else
+0029        write 'Quantidade de dias no mês escolhido: ' #mes-dias(#mes)
+0030    end-if
+0031else
+0032    write 'É um ano bissexto?: Não'
+0033    write 'Quantidade de dias no mês escolhido: ' #mes-dias(#mes)    
+0034end-if     
+0035*
+0036END

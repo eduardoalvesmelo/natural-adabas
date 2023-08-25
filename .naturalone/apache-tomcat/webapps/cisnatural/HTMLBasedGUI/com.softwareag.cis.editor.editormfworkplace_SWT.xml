@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><page imagestopreload="../HTMLBasedGUI/images/fileclosed.gif;../HTMLBasedGUI/images/page.gif;../HTMLBasedGUI/general/buttonback_cis.jpg;../cis/styles/CIS_DEFAULT_dlmenuleft.gif;../cis/styles/CIS_DEFAULT_dlmenuright.gif;../HTMLBasedGUI/general/tanicon.gif;../cis/styles/CIS_DEFAULT_labelback.gif;../cis/styles/CIS_DEFAULT_tabareacellunselectedfirst.gif;../cis/styles/CIS_DEFAULT_tabareacellunselected.gif;../cis/styles/CIS_DEFAULT_tabareacellselectedfirst.gif;../cis/styles/CIS_DEFAULT_tabareacellselected.gif;../cis/styles/CIS_DEFAULT_tabsellightleft.gif;../cis/styles/CIS_DEFAULT_tabsellightright.gif;../cis/styles/CIS_DEFAULT_tabseldarkleft.gif;../cis/styles/CIS_DEFAULT_tabseldarkright.gif;../HTMLBasedGUI/general/tabsellastline.gif" model="com.softwareag.cis.editor.EditorMFWorkplaceAdapter" occupiedimage="images/wpoccupied.gif" occupiedpixelheight="5" occupiedpixelwidth="500" translationreference="CIS_EDIT" casaindex="1" >
+
+
+
+            <pagebody horizdist="false" hscroll="hidden" takefullheight="true" vscroll="hidden" casaindex="2" >
+
+
+
+                        <itr height="100%" width="100%" casaindex="3" >
+
+
+
+                                    <coldynavis takefullheight="true" valueprop="favouritesVisible" width="60" casaindex="4" >
+
+
+
+                                                <itr height="100%" itrclass="FAVOURITEBackground" itrstyle="swt-background-color: #7C7E85" width="100%" casaindex="5" >
+
+
+
+                                                            <coltable0 fixlayout="true" takefullheight="true" width="100%" casaindex="6" >
+
+
+
+                                                                        <vdist height="15" casaindex="7" >
+
+
+
+                                                                        </vdist>
+
+
+
+                                                                        <iconlist cellspacing="5" iconlistprop="favourites" casaindex="8" >
+
+
+
+                                                                        </iconlist>
+
+
+
+                                                                        <vdist height="100%" casaindex="9" >
+
+
+
+                                                                        </vdist>
+
+
+
+                                                                        <itr align="center" visibleprop="showBinFilled" casaindex="10" >
+
+
+
+                                                        <icon casaindex="11" image="../HTMLBasedGUI/images/bin.gif" titletextid="attribCompSav.dropicon0" dropmethod="onDropDustbin" dropinfoprop="dustbinDropInfo" >
+
+                            </icon>
+
+
+                            
+                                                                        </itr>
+
+
+
+                                                                        <itr align="center" visibleprop="showBinEmpty" casaindex="12" >
+
+
+
+                                                        <icon casaindex="13" image="../HTMLBasedGUI/images/binempty.gif" titletextid="attribCompSav.dropicon1" dropmethod="onDropDustbin" dropinfoprop="dustbinDropInfo" >
+
+                            </icon>
+
+
+                            
+                                                                        </itr>
+
+
+
+                                                                        <vdist height="20" casaindex="14" >
+
+
+
+                                                                        </vdist>
+
+
+
+                                                                        <tr casaindex="15" >
+
+
+
+                                                                                    <icon align="left" image="images/aaleft.gif" method="onZeroSize" withdistance="false" casaindex="16" >
+
+
+
+                                                                                    </icon>
+
+
+
+                                                                        </tr>
+
+
+
+                                                                        <tr casaindex="17" >
+
+
+
+                                                                                    <icon align="left" image="images/aamid.gif" method="onIconSize" withdistance="false" casaindex="18" >
+
+
+
+                                                                                    </icon>
+
+
+
+                                                                        </tr>
+
+
+
+                                                                        <tr casaindex="19" >
+
+
+
+                                                                                    <icon align="left" image="images/aaright.gif" method="onNormalSize" withdistance="false" casaindex="20" >
+
+
+
+                                                                                    </icon>
+
+
+
+                                                                        </tr>
+
+
+
+                                                            </coltable0>
+
+
+
+                                                            <coltable0 fixlayout="true" tablestyle="background-color: #808080" takefullheight="true" width="1" casaindex="21" >
+
+
+
+                                                            </coltable0>
+
+
+
+                                                            <coltable0 fixlayout="true" tablestyle="background-color: #E0E0E0" takefullheight="true" width="2" casaindex="22" >
+
+
+
+                                                            </coltable0>
+
+
+
+                                                            <coltable0 fixlayout="true" tablestyle="background-color: #808080" takefullheight="true" width="1" casaindex="23" >
+
+
+
+                                                            </coltable0>
+
+
+
+                                                </itr>
+
+
+
+                                    </coldynavis>
+
+
+
+                                    <coltable0 takefullheight="true" width="100%" casaindex="24" >
+
+
+
+                                                <buttonlist buttonlistprop="topButtons" casaindex="25" >
+
+
+
+                                                </buttonlist>
+
+
+
+                                                <clienttree enabledrag="true" height="100%" imageclosed="../HTMLBasedGUI/images/treeplus5.gif" imageclosedprop="imageClosed" imageendnode="../HTMLBasedGUI/images/treeendnode5.gif" imageopened="../HTMLBasedGUI/images/treeminus5.gif" imageopenedprop="imageOpened" oncontextmenumethod="reactOnContextMenuRequestTopicTree" selectionvisible="true" singleselect="false" treeclassprop="treeClass" treecollectionprop="nodes" treestyleprop="treeStyle" withplusminus="false" casaindex="26" >
+
+
+
+                                                </clienttree>
+
+
+
+                                                <buttonlist buttonlistprop="bottomButtons" casaindex="27" >
+
+
+
+                                                </buttonlist>
+
+
+
+                                    </coltable0>
+
+
+
+                        </itr>
+
+
+
+            </pagebody>
+
+
+
+</page>

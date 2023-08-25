@@ -1,0 +1,24 @@
+0001/** New Program X3.
+0002/**    Fazer um programa para receber 3 valores inteiros do usuário e mostrar a sua média (que pode não ser inteira).
+0003/** :author eduar
+0004/* TODO Enter your code here
+0005DEFINE DATA LOCAL
+00061 N1 (N2) 
+00071 N2 (N2) 
+00081 N3 (N2)
+00091 MEDIA (N2.2)
+0010END-DEFINE
+0011
+0012INPUT 'Informe o primeiro numero : ' N1
+0013INPUT 'Informe o segundo numero : ' N2
+0014INPUT 'Informe o terceiro numero : ' N3
+0015
+0016MEDIA := (N1 + N2 + N3) / 3
+0017 
+0018
+0019WRITE 'Primeiro numero lido : ' N1
+0020WRITE 'Segundo numero lido : ' N2
+0021WRITE 'Terceiro numero lido : ' N3 
+0022WRITE 'A média de ' N1 ',' N2 ',' N3 'é: ' MEDIA 
+0023
+0024END

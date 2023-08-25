@@ -1,0 +1,23 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** New Program PLUS_TWO.
+/**
+/** :author eduar
+/* TODO Enter your code here
+define data local
+1 n1 (n2)
+1 n2 (n2)
+1 soma (n3)
+end-define
+
+write 'Digie um numero' input n1 
+write 'Digie outro numero' input n2
+
+soma := n1 + n2
+
+write 'N1 = ' n1 / 'N2 = ' n2 / 'Total' soma
+
+
+END

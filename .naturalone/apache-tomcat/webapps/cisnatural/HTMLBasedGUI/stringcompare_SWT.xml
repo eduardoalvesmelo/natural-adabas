@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.StringCompareAdapter" popupheight="500" popupwidth="800" translationreference="CIS_TOOLS" casaindex="1" >
+
+
+        <pagebody horizdist="false" takefullheight="true" casaindex="2" >
+
+
+                <itr height="100%" width="100%" casaindex="3" >
+
+
+                        <coltable0 takefullheight="true" width="50%" casaindex="4" >
+
+
+                                <itr fixlayout="true" itrclass="LABELCellHeadline" width="100%" casaindex="5" >
+
+
+                                        <textout textoutstyle="color: #FFFFFF" valueprop="leftTitle" width="50%" casaindex="6" >
+
+
+                                        </textout>
+
+
+                                </itr>
+
+
+                                <itr fixlayout="true" height="100%" width="100%" casaindex="7" >
+
+
+                                        <textgridsss2 griddataprop="resultLines" height="100%" hscroll="true" rowcount="40" vscroll="true" width="100%" withtitlerow="false" casaindex="8" >
+
+
+                                                <column property="left" straighttext="true" textid="stringcompare.column0" textstyleprop="leftStyle" width="100%" casaindex="9" >
+
+
+                                                </column>
+
+
+                                        </textgridsss2>
+
+
+                                </itr>
+
+
+                        </coltable0>
+
+
+                        <coltable0 takefullheight="true" width="50%" casaindex="10" >
+
+
+                                <itr fixlayout="true" itrclass="LABELCellHeadline" width="100%" casaindex="11" >
+
+
+                                        <textout textoutstyle="color: #FFFFFF" valueprop="rightTitle" width="50%" casaindex="12" >
+
+
+                                        </textout>
+
+
+                                </itr>
+
+
+                                <itr fixlayout="true" height="100%" width="100%" casaindex="13" >
+
+
+                                        <textgridsss2 griddataprop="resultLines" height="100%" hscroll="true" rowcount="40" vscroll="true" width="100%" withtitlerow="false" casaindex="14" >
+
+
+                                                <column property="right" straighttext="true" textid="stringcompare.column1" textstyleprop="rightStyle" width="100%" casaindex="15" >
+
+
+                                                </column>
+
+
+                                        </textgridsss2>
+
+
+                                </itr>
+
+
+                        </coltable0>
+
+
+                </itr>
+
+
+        </pagebody>
+
+
+</page>

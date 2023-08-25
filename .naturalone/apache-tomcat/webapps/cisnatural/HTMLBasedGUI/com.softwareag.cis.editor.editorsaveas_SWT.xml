@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.SaveAsModel" popupwidth="360" popupheight="130" pagename="CIS_EDIT" ispopup="true" casaindex="1" >
+
+
+        <pagebody horizdist="false" takefullheight="true" casaindex="2" >
+
+
+                <rowarea textid="newfileFileName" height="100%" withleftborder="false" withrightborder="false" withbottomborder="false" withtoppadding="false" casaindex="3" >
+
+
+                        <tr casaindex="4" >
+
+
+                                <label textid="newfileName" width="100" casaindex="5" >
+
+
+                                </label>
+
+
+                <field xsdType="xs:string" valueprop="fileName" length="35" casaindex="6" >
+
+                </field>
+
+                        </tr>
+
+
+                        <vdist casaindex="7" >
+
+
+                        </vdist>
+
+
+                        <vdist casaindex="8" >
+
+
+                        </vdist>
+
+
+                        <tr casaindex="9" >
+
+
+                                <hdist width="100" casaindex="10" >
+
+
+                                </hdist>
+
+
+                                <button textid="ce.save" method="saveAs" casaindex="11" >
+
+
+                                </button>
+
+
+                        </tr>
+
+
+                        <vdist height="100%" casaindex="12" >
+
+
+                        </vdist>
+
+
+                </rowarea>
+
+
+        </pagebody>
+
+
+        <statusbar casaindex="13" >
+
+
+        </statusbar>
+
+
+</page>

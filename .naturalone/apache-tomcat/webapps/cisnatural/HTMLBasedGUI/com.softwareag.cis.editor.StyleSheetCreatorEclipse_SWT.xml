@@ -1,0 +1,1706 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.StyleSheetCreatorAdapter" translationreference="CIS_TOOLS" casaindex="1" >
+
+
+        <header align="right" casaindex="2" >
+
+
+                <button image="../HTMLBasedGUI/images/config.gif" invisiblemode="invisible" method="onOpenConfiguration" textid="btn.configuration" titletextid="btn.configuration.titletext" visibleprop="openAreaVisible" casaindex="3" >
+
+
+                </button>
+
+
+        </header>
+
+
+        <pagebody horizdist="false" takefullheight="true" casaindex="4" >
+
+
+                <rowarea textid="sc.rowarea.stylesheetvariant" withleftborder="false" withrightborder="false" casaindex="5" >
+
+
+                        <itr casaindex="6" >
+
+
+                                <label textid="sc.label.variant" width="150" casaindex="7" >
+
+
+                                </label>
+
+
+                <field xsdType="xs:string" popupmethod="openIdValueCombo" statusprop="variantStatus" valueprop="variant" width="200" casaindex="8" >
+
+                </field>
+
+                <field xsdType="xs:string" valueprop="ui" statusprop="uiStatus" width="0" casaindex="9" >
+
+</field>
+
+                        </itr>
+
+
+                        <vdist casaindex="10" >
+
+
+                        </vdist>
+
+
+                        <rowdynavis valueprop="saveAreaVisible" casaindex="11" >
+
+
+                                <itr casaindex="12" >
+
+
+                                        <hdist width="150" casaindex="13" >
+
+
+                                        </hdist>
+
+
+                                        <button method="onSave" textid="btn.save" casaindex="14" >
+
+
+                                        </button>
+
+
+                                        <hdist casaindex="15" >
+
+
+                                        </hdist>
+
+
+                                        <button method="onOtherVariant" textid="btn.othervariant" casaindex="16" >
+
+
+                                        </button>
+
+
+                                </itr>
+
+
+                                <vdist height="10" casaindex="17" >
+
+
+                                </vdist>
+
+
+                                <itr casaindex="18" >
+
+
+                                        <hdist width="150" casaindex="19" >
+
+
+                                        </hdist>
+
+
+                                        <label asplaintext="true" textid="sc.labeltext.afterfirsttime" casaindex="20" >
+
+
+                                        </label>
+
+
+                                </itr>
+
+
+                        </rowdynavis>
+
+
+                        <rowdynavis valueprop="openAreaVisible" casaindex="21" >
+
+
+                                <itr casaindex="22" >
+
+
+                                        <hdist width="150" casaindex="23" >
+
+
+                                        </hdist>
+
+
+                                        <button method="onOpen" textid="btn.open" casaindex="24" >
+
+
+                                        </button>
+
+
+                                        <hdist casaindex="25" >
+
+
+                                        </hdist>
+
+
+                                        <menubutton menuposition="below" textid="btn.refresh" casaindex="26" >
+
+
+                                                <menuitem method="onRefreshSelectedVariant" pixelwidth="150" textid="btn.selectvariant" casaindex="27" >
+
+
+                                                </menuitem>
+
+
+                                                <menuitem method="onRefreshAllVariants" pixelwidth="150" textid="btn.allvariants" casaindex="28" >
+
+
+                                                </menuitem>
+
+
+                                        </menubutton>
+
+
+                                </itr>
+
+
+                                <vdist height="50" casaindex="29" >
+
+
+                                </vdist>
+
+
+                                <itr casaindex="30" >
+
+
+                                        <hdist width="150" casaindex="31" >
+
+
+                                        </hdist>
+
+
+                                        <label asplaintext="true" textid="sc.labeltext.open" width="100%" casaindex="32" >
+
+
+                                        </label>
+
+
+                                </itr>
+
+
+                                <vdist height="5" casaindex="33" >
+
+
+                                </vdist>
+
+
+                                <itr casaindex="34" >
+
+
+                                        <hdist width="150" casaindex="35" >
+
+
+                                        </hdist>
+
+
+                                        <label asplaintext="true" textid="sc.labeltext.refresh" width="100%" casaindex="36" >
+
+
+                                        </label>
+
+
+                                </itr>
+
+
+                        </rowdynavis>
+
+
+                </rowarea>
+
+
+                <vdist height="20" casaindex="37" >
+
+
+                </vdist>
+
+
+                <rowtable0 fixlayout="100%" height="100%" casaindex="38" >
+
+
+                        <rowdynavis height="100%" valueprop="editAreaVisible" casaindex="39" >
+
+
+                                <rowtabarea height="100%" leftindent="50" page1="GENERAL" page2="GRIDS" page3="CONTROLS" page4="TABS" page5="WORKPLACE" page6="CSS" textid1="sc.tabpage.general" textid2="sc.tabpage.grids" textid3="sc.tabpage.individualcontrols" textid4="sc.tabpage.tabcontrols" textid5="sc.tabpage.workplace" textid6="sc.tabpage.styledetails" withleftborder="false" withrightborder="false" casaindex="40" >
+
+
+                                        <tabpage id="GENERAL" casaindex="41" >
+
+
+                                                <rowarea textid="sc.rowarea.font" casaindex="42" >
+
+
+                                                        <itr casaindex="43" >
+
+
+                                                                <label textid="sc.label.fontname" width="150" casaindex="44" >
+
+
+                                                                </label>
+
+
+                                <field xsdType="xs:string" valueprop="font" title="@@FONT@@" width="200" casaindex="45" >
+
+                                </field>
+
+                                                        </itr>
+
+
+                                                        <itr casaindex="46" >
+
+
+                                                                <label textid="sc.label.fontsize" width="150" casaindex="47" >
+
+
+                                                                </label>
+
+
+                                <field xsdType="xs:string" valueprop="fontSize" title="@@FONTSIZE@@" width="50" casaindex="48" >
+
+                                </field>
+
+                                                        </itr>
+
+
+                                                        <itr width="100%" casaindex="49" >
+
+
+                                                                <label textid="sc.label.color" width="120" casaindex="50" >
+
+
+                                                                </label>
+
+
+                                                                <label textid="sc.label.color1" width="30" casaindex="51" >
+
+
+                                                                </label>
+
+
+                                <field xsdType="color" datatype="color" valueprop="colorDark" title="@@FONTCOLORDARK@@" width="100" casaindex="52" >
+
+                                </field>
+
+                                                                <hdist width="10" casaindex="53" >
+
+
+                                                                </hdist>
+
+
+                                                                <label asplaintext="true" textid="sc.labeltext.stdtxtcolor" width="100%" casaindex="54" >
+
+
+                                                                </label>
+
+
+                                                        </itr>
+
+
+                                                        <itr casaindex="55" >
+
+
+                                                                <hdist width="120" casaindex="56" >
+
+
+                                                                </hdist>
+
+
+                                                                <label textid="sc.label.color2" width="30" casaindex="57" >
+
+
+                                                                </label>
+
+
+                                <field xsdType="color" datatype="color" valueprop="colorLight" title="@@FONTCOLORLIGHT@@" width="100" casaindex="58" >
+
+                                </field>
+
+                                                                <hdist width="10" casaindex="59" >
+
+
+                                                                </hdist>
+
+
+                                                                <label asplaintext="true" textid="sc.labeltext.inversecolor" width="100%" casaindex="60" >
+
+
+                                                                </label>
+
+
+                                                        </itr>
+
+
+                                                        <itr casaindex="61" >
+
+
+                                                                <hdist width="120" casaindex="62" >
+
+
+                                                                </hdist>
+
+
+                                                                <label textid="sc.label.color3" width="30" casaindex="63" >
+
+
+                                                                </label>
+
+
+                                <field xsdType="color" datatype="color" valueprop="colorInactive" title="@@FONTCOLORINACTIVE@@" width="100" casaindex="64" >
+
+                                </field>
+
+                                                                <hdist width="10" casaindex="65" >
+
+
+                                                                </hdist>
+
+
+                                                                <label asplaintext="true" textid="sc.labeltext.popuptxtcolor" width="100%" casaindex="66" >
+
+
+                                                                </label>
+
+
+                                                        </itr>
+
+
+                                                </rowarea>
+
+
+                                                <rowarea textid="sc.rowarea.bgcolors" casaindex="67" >
+
+
+                                                        <itr casaindex="68" >
+
+
+                                                                <label textid="sc.label.lightbg" width="150" casaindex="69" >
+
+
+                                                                </label>
+
+
+                                <field xsdType="color" datatype="color" valueprop="lightBackground" title="@@LIGHTBACKGROUND@@" width="100" casaindex="70" >
+
+                                </field>
+
+                                                        </itr>
+
+
+                                                        <itr casaindex="71" >
+
+
+                                                                <label textid="sc.label.darkbg" width="150" casaindex="72" >
+
+
+                                                                </label>
+
+
+                                <field xsdType="color" datatype="color" valueprop="darkBackground" title="@@DARKBACKGROUND@@" width="100" casaindex="73" >
+
+                                </field>
+
+                                                        </itr>
+
+
+                                                        <itr casaindex="74" >
+
+
+                                                                <label textid="sc.label.titlebar" width="150" casaindex="75" >
+
+
+                                                                </label>
+
+
+                                <field xsdType="color" datatype="color" valueprop="titlebarBackground" title="@@TITLEBARBACKGROUND@@" width="100" casaindex="76" >
+
+                                </field>
+
+                                                        </itr>
+
+
+                                                        <itr casaindex="77" >
+
+
+                                                                <label textid="sc.label.headlines" width="150" casaindex="78" >
+
+
+                                                                </label>
+
+
+                                <field xsdType="color" datatype="color" valueprop="headlineBackground" title="@@HEADLINEBACKGROUND@@" width="100" casaindex="79" >
+
+                                </field>
+
+                                                        </itr>
+
+
+                                                </rowarea>
+
+
+                                                <rowarea textid="sc.rowarea.inputcontrols" casaindex="80" >
+
+
+                                                        <itr casaindex="81" >
+
+
+                                                                <label textid="sc.label.editcolor" width="150" casaindex="82" >
+
+
+                                                                </label>
+
+
+                                <field xsdType="color" datatype="color" valueprop="editBackground" title="@@CONTROLEDITBACKGROUND@@" width="100" casaindex="83" >
+
+                                </field>
+
+                                                        </itr>
+
+
+                                                        <itr casaindex="84" >
+
+
+                                                                <label textid="sc.label.editpopupcolor" width="150" casaindex="85" >
+
+
+                                                                </label>
+
+
+                                <field xsdType="color" datatype="color" valueprop="popupInputOnlyBackground" title="@@CONTROLPOPUPINPUTONLYBACKGROUND@@" width="100" casaindex="86" >
+
+                                </field>
+
+                                                        </itr>
+
+
+                                                        <itr casaindex="87" >
+
+
+                                                                <label textid="sc.label.displaycolor" width="150" casaindex="88" >
+
+
+                                                                </label>
+
+
+                                <field xsdType="color" datatype="color" valueprop="displayBackground" title="@@CONTROLDISPLAYBACKGROUND@@" width="100" casaindex="89" >
+
+                                </field>
+
+                                                        </itr>
+
+
+                                                        <itr casaindex="90" >
+
+
+                                                                <label textid="sc.label.errctrl" width="150" casaindex="91" >
+
+
+                                                                </label>
+
+
+                                <field xsdType="color" datatype="color" valueprop="errorBackground" itle="@@CONTROLERRORBACKGROUND@@" width="100" casaindex="92" >
+
+                                </field>
+
+                                                        </itr>
+
+
+                                                        <itr casaindex="93" >
+
+
+                                                                <label textid="sc.label.selectedctrl" width="150" casaindex="94" >
+
+
+                                                                </label>
+
+
+                                <field xsdType="color" datatype="color" valueprop="selectedColor" title="@@SELECTEDBACKGROUND@@" width="100" casaindex="95" >
+
+                                </field>
+
+                                                        </itr>
+
+
+                                                        <vdist height="10" casaindex="96" >
+
+
+                                                        </vdist>
+
+
+                                                        <itr casaindex="97" >
+
+
+                                                                <label textid="sc.label.ctrlborder" width="150" casaindex="98" >
+
+
+                                                                </label>
+
+
+                                <field xsdType="color" datatype="color" valueprop="fieldBorderColor" title="@@FIELDBORDERCOLOR@@" width="100" casaindex="99" >
+
+                                </field>
+
+                                                        </itr>
+
+
+                                                </rowarea>
+
+
+                                        </tabpage>
+
+
+                                        <tabpage display="none" id="GRIDS" casaindex="100" >
+
+
+                                                <itr casaindex="101" >
+
+
+                                                        <hdist width="150" casaindex="102" >
+
+
+                                                        </hdist>
+
+
+                                                        <label asplaintext="true" textid="label.default" width="100" casaindex="103" >
+
+
+                                                        </label>
+
+
+                                                        <hdist width="20" casaindex="104" >
+
+
+                                                        </hdist>
+
+
+                                                        <label asplaintext="true" textid="label.var1" width="100" casaindex="105" >
+
+
+                                                        </label>
+
+
+                                                        <label asplaintext="true" textid="label.var2" width="100" casaindex="106" >
+
+
+                                                        </label>
+
+
+                                                </itr>
+
+
+                                                <itr casaindex="107" >
+
+
+                                                        <label textid="sc.label.oddrows" width="150" casaindex="108" >
+
+
+                                                        </label>
+
+
+                            <field xsdType="color" datatype="color" valueprop="oddRowColor" title="@@ODDCELLBACKGROUND@@" width="100" casaindex="109" >
+
+                            </field>
+
+                                                        <hdist width="20" casaindex="110" >
+
+
+                                                        </hdist>
+
+
+                            <field xsdType="color" datatype="color" valueprop="oddRowColorVAR1" title="@@ODDCELLBACKGROUNDVAR1@@" width="100" casaindex="111" >
+
+                            </field>
+
+                            <field xsdType="color" datatype="color" valueprop="oddRowColorVAR2" title="@@ODDCELLBACKGROUNDVAR2@@" width="100" casaindex="112" >
+
+                            </field>
+
+                                                </itr>
+
+
+                                                <itr casaindex="113" >
+
+
+                                                        <label textid="sc.label.evenrows" width="150" casaindex="114" >
+
+
+                                                        </label>
+
+
+                            <field xsdType="color" datatype="color" valueprop="evenRowColor" title="@@EVENCELLBACKGROUND@@" width="100" casaindex="115" >
+
+                            </field>
+
+                                                        <hdist width="20" casaindex="116" >
+
+
+                                                        </hdist>
+
+
+                            <field xsdType="color" datatype="color" valueprop="evenRowColorVAR1" title="@@EVENCELLBACKGROUNDVAR1@@" width="100" casaindex="117" >
+
+                            </field>
+
+                            <field xsdType="color" datatype="color" valueprop="evenRowColorVAR2" title="@@EVENCELLBACKGROUNDVAR2@@" width="100" casaindex="118" >
+
+                            </field>
+
+                                                </itr>
+
+
+                                                <itr casaindex="119" >
+
+
+                                                        <label textid="sc.label.emptyrows" width="150" casaindex="120" >
+
+
+                                                        </label>
+
+
+                            <field xsdType="color" datatype="color" valueprop="emptyRowColor" title="@@EMPTYCELLBACKGROUND@@" width="100" casaindex="121" >
+
+                            </field>
+
+                                                        <hdist width="20" casaindex="122" >
+
+
+                                                        </hdist>
+
+
+                            <field xsdType="color" datatype="color" valueprop="emptyRowColorVAR1" title="@@EMPTYCELLBACKGROUNDVAR1@@" width="100" casaindex="123" >
+
+                            </field>
+
+                            <field xsdType="color" datatype="color" valueprop="emptyRowColorVAR2" title="@@EMPTYCELLBACKGROUNDVAR2@@" width="100" casaindex="124" >
+
+                            </field>
+
+                                                </itr>
+
+
+                                                <itr casaindex="125" >
+
+
+                                                        <label textid="sc.label.selectedrows" width="150" casaindex="126" >
+
+
+                                                        </label>
+
+
+                            <field xsdType="color" datatype="color" valueprop="selectedRowColor" title="@@SELECTEDCELLBACKGROUND@@" width="100" casaindex="127" >
+
+                            </field>
+
+                                                        <hdist width="20" casaindex="128" >
+
+
+                                                        </hdist>
+
+
+                            <field xsdType="color" datatype="color" valueprop="selectedRowColorVAR1" title="@@SELECTEDCELLBACKGROUNDVAR1@@" width="100" casaindex="129" >
+
+                            </field>
+
+                            <field xsdType="color" datatype="color" valueprop="selectedRowColorVAR2" title="@@SELECTEDCELLBACKGROUNDVAR1@@" width="100" casaindex="130" >
+
+                            </field>
+
+                                                </itr>
+
+
+                                                <vdist height="20" casaindex="131" >
+
+
+                        </vdist>
+
+
+                                                <itr casaindex="132" >
+
+
+                                                         <hdist width="150" casaindex="133" >
+
+
+                            </hdist>
+
+
+                                                         <label name="Variables are shown as tool-tips" width="200" casaindex="134" >
+
+
+                            </label>
+
+
+                                                </itr>
+
+
+                                        </tabpage>
+
+
+                                        <tabpage display="none" id="CONTROLS" casaindex="135" >
+
+
+                                                <rowarea textid="sc.rowarea.field" casaindex="136" >
+
+
+                                                        <itr casaindex="137" >
+
+
+                                                                <label textid="label.stdheight" width="150" casaindex="138" >
+
+
+                                                                </label>
+
+
+                                <field xsdType="xs:string" valueprop="fieldHeight" width="200" casaindex="139" >
+
+                                </field>
+
+                                                        </itr>
+
+
+                                                </rowarea>
+
+
+                                                <rowarea textid="sc.rowarea.button" casaindex="140" >
+
+
+                                                        <itr casaindex="141" >
+
+
+                                                                <label textid="sc.label.bgcolor" width="150" casaindex="142" >
+
+
+                                                                </label>
+
+
+                                <field xsdType="color" datatype="color" valueprop="buttonColor" width="200" casaindex="143" >
+
+                                </field>
+
+                                                        </itr>
+
+
+                                                        <itr casaindex="144" >
+
+
+                                                                <label textid="sc.label.bgimage" width="150" casaindex="145" >
+
+
+                                                                </label>
+
+
+                                <field xsdType="xs:string" valueprop="buttonImage" width="400" casaindex="146" >
+
+                                </field>
+
+                                                        </itr>
+
+
+                                                        <itr casaindex="147" >
+
+
+                                                                <hdist width="150" casaindex="148" >
+
+
+                                                                </hdist>
+
+
+                                                                <label asplaintext="true" textid="sc.labeltext.ifcolorspecified" casaindex="149" >
+
+
+                                                                </label>
+
+
+                                                        </itr>
+
+
+                                                        <itr casaindex="150" >
+
+
+                                                                <label textid="label.stdheight" width="150" casaindex="151" >
+
+
+                                                                </label>
+
+
+                                <field xsdType="xs:string" valueprop="buttonHeight" width="200" casaindex="152" >
+
+                                </field>
+
+                                                        </itr>
+
+
+                                                </rowarea>
+
+
+                                                <rowarea textid="sc.rowarea.titlebar" casaindex="153" >
+
+
+                                                        <itr casaindex="154" >
+
+
+                                                                <label textid="label.stdheight" width="150" casaindex="155" >
+
+
+                                                                </label>
+
+
+                                <field xsdType="xs:string" valueprop="titlebarHeight" width="200" casaindex="156" >
+
+                                </field>
+
+                                                        </itr>
+
+
+                                                </rowarea>
+
+
+                                        </tabpage>
+
+
+                                        <tabpage display="none" id="TABS" casaindex="157" >
+
+
+                                                <rowarea textid="sc.rowarea.tabareactrls" casaindex="158" >
+
+
+                                                        <itr casaindex="159" >
+
+
+                                                                <label textid="label.style" width="150" casaindex="160" >
+
+
+                                                                </label>
+
+
+                                                                <radiobutton valueprop="tabImageStyle" casaindex="161" >
+
+
+                                                                </radiobutton>
+
+
+                                                                <label asplaintext="true" textid="label.default" casaindex="162" >
+
+
+                                                                </label>
+
+
+                                                        </itr>
+
+
+                                                        <itr casaindex="163" >
+
+
+                                                                <hdist width="150" casaindex="164" >
+
+
+                                                                </hdist>
+
+
+                                                                <radiobutton value="edged" valueprop="tabImageStyle" casaindex="165" >
+
+
+                                                                </radiobutton>
+
+
+                                                                <label asplaintext="true" textid="sc.label.edgedstyle" casaindex="166" >
+
+
+                                                                </label>
+
+
+                                                        </itr>
+
+
+                                                        <vdist height="20" casaindex="167" >
+
+
+                                                        </vdist>
+
+
+                                                        <itr casaindex="168" >
+
+
+                                                                <label textid="sc.label.activesel" titletextid="stylesheeteditlabel0" width="150" casaindex="169" >
+
+
+                                                                </label>
+
+
+                                                                <checkbox valueprop="markSelection" casaindex="170" >
+
+
+                                                                </checkbox>
+
+
+                                                                <hdist width="20" casaindex="171" >
+
+
+                                                                </hdist>
+
+
+                                <field xsdType="color" datatype="color" valueprop="highlight1" width="150" casaindex="172" >
+
+                                </field>
+
+                                                                <hdist casaindex="173" >
+
+
+                                                                </hdist>
+
+
+                                <field xsdType="color" datatype="color" valueprop="highlight2" width="150" casaindex="174" >
+
+                                </field>
+
+                                                        </itr>
+
+
+                                                        <vdist height="20" casaindex="175" >
+
+
+                                                        </vdist>
+
+
+                                                        <itr casaindex="176" >
+
+
+                                                                <label textid="sc.label.seltabbgcolor" width="250" casaindex="177" >
+
+
+                                                                </label>
+
+
+                                                                <radiobutton value="DEFAULT" valueprop="tabSelected" casaindex="178" >
+
+
+                                                                </radiobutton>
+
+
+                                                                <label asplaintext="true" textid="sc.label.defaultdarkbgcolor" casaindex="179" >
+
+
+                                                                </label>
+
+
+                                                        </itr>
+
+
+                                                        <itr casaindex="180" >
+
+
+                                                                <hdist width="250" casaindex="181" >
+
+
+                                                                </hdist>
+
+
+                                                                <radiobutton value="CUST" valueprop="tabSelected" casaindex="182" >
+
+
+                                                                </radiobutton>
+
+
+                                                                <label asplaintext="true" textid="label.customized" casaindex="183" >
+
+
+                                                                </label>
+
+
+                                                                <hdist width="10" casaindex="184" >
+
+
+                                                                </hdist>
+
+
+                                <field xsdType="color" datatype="color" valueprop="tabsBGSelected" width="150" casaindex="185" >
+
+                                </field>
+
+                                                        </itr>
+
+
+                                                        <itr casaindex="186" >
+
+
+                                                                <label textid="sc.label.unseltabbgcolor" width="250" casaindex="187" >
+
+
+                                                                </label>
+
+
+                                                                <radiobutton value="DEFAULT" valueprop="tabUnselected" casaindex="188" >
+
+
+                                                                </radiobutton>
+
+
+                                                                <label asplaintext="true" textid="label.default" casaindex="189" >
+
+
+                                                                </label>
+
+
+                                                        </itr>
+
+
+                                                        <itr casaindex="190" >
+
+
+                                                                <hdist width="250" casaindex="191" >
+
+
+                                                                </hdist>
+
+
+                                                                <radiobutton value="DARK" valueprop="tabUnselected" casaindex="192" >
+
+
+                                                                </radiobutton>
+
+
+                                                                <label asplaintext="true" textid="sc.label.darktitlebar" casaindex="193" >
+
+
+                                                                </label>
+
+
+                                                        </itr>
+
+
+                                                        <itr casaindex="194" >
+
+
+                                                                <hdist width="250" casaindex="195" >
+
+
+                                                                </hdist>
+
+
+                                                                <radiobutton value="CUST" valueprop="tabUnselected" casaindex="196" >
+
+
+                                                                </radiobutton>
+
+
+                                                                <label asplaintext="true" textid="label.customized" casaindex="197" >
+
+
+                                                                </label>
+
+
+                                                                <hdist width="10" casaindex="198" >
+
+
+                                                                </hdist>
+
+
+                                <field xsdType="color" datatype="color" valueprop="tabsBGUnselected" width="150" casaindex="199" >
+
+                                </field>
+
+                                                        </itr>
+
+
+                                                </rowarea>
+
+
+                                                <rowarea textid="sc.rowarea.tabstripctrl" casaindex="200" >
+
+
+                                                        <itr casaindex="201" >
+
+
+                                                                <label textid="label.style" width="150" casaindex="202" >
+
+
+                                                                </label>
+
+
+                                                                <radiobutton value="DEFAULT" valueprop="tabStripStyle" casaindex="203" >
+
+
+                                                                </radiobutton>
+
+
+                                                                <label asplaintext="true" textid="label.default" casaindex="204" >
+
+
+                                                                </label>
+
+
+                                                        </itr>
+
+
+                                                        <itr casaindex="205" >
+
+
+                                                                <hdist width="150" casaindex="206" >
+
+
+                                                                </hdist>
+
+
+                                                                <radiobutton value="edged" valueprop="tabStripStyle" casaindex="207" >
+
+
+                                                                </radiobutton>
+
+
+                                                                <label asplaintext="true" textid="sc.label.edgedstyle" casaindex="208" >
+
+
+                                                                </label>
+
+
+                                                        </itr>
+
+
+                                                        <vdist height="20" casaindex="209" >
+
+
+                                                        </vdist>
+
+
+                                                        <itr casaindex="210" >
+
+
+                                                                <label textid="sc.label.seltabbgcolor" width="250" casaindex="211" >
+
+
+                                                                </label>
+
+
+                                                                <radiobutton value="DEFAULT" valueprop="tabStripSelected" casaindex="212" >
+
+
+                                                                </radiobutton>
+
+
+                                                                <label asplaintext="true" textid="sc.label.defaultdarkbgcolor" casaindex="213" >
+
+
+                                                                </label>
+
+
+                                                        </itr>
+
+
+                                                        <itr casaindex="214" >
+
+
+                                                                <hdist width="250" casaindex="215" >
+
+
+                                                                </hdist>
+
+
+                                                                <radiobutton value="CUST" valueprop="tabStripSelected" casaindex="216" >
+
+
+                                                                </radiobutton>
+
+
+                                                                <label asplaintext="true" textid="label.customized" casaindex="217" >
+
+
+                                                                </label>
+
+
+                                                                <hdist width="10" casaindex="218" >
+
+
+                                                                </hdist>
+
+
+                                <field xsdType="color" datatype="color" valueprop="tabStripBGSelected" width="150" casaindex="219" >
+
+                                </field>
+
+                                                        </itr>
+
+
+                                                        <itr casaindex="220" >
+
+
+                                                                <label textid="sc.label.unseltabbgcolor" width="250" casaindex="221" >
+
+
+                                                                </label>
+
+
+                                                                <radiobutton value="DEFAULT" valueprop="tabStripUnselected" casaindex="222" >
+
+
+                                                                </radiobutton>
+
+
+                                                                <label asplaintext="true" textid="sc.label.defaultdarkbgcolor" casaindex="223" >
+
+
+                                                                </label>
+
+
+                                                        </itr>
+
+
+                                                        <itr casaindex="224" >
+
+
+                                                                <hdist width="250" casaindex="225" >
+
+
+                                                                </hdist>
+
+
+                                                                <radiobutton value="CUST" valueprop="tabStripUnselected" casaindex="226" >
+
+
+                                                                </radiobutton>
+
+
+                                                                <label asplaintext="true" textid="label.customized" casaindex="227" >
+
+
+                                                                </label>
+
+
+                                                                <hdist width="10" casaindex="228" >
+
+
+                                                                </hdist>
+
+
+                                <field xsdType="color" datatype="color" valueprop="tabStripBGUnselected" width="150" casaindex="229" >
+
+                                </field>
+
+                                                        </itr>
+
+
+                                                        <itr casaindex="230" >
+
+
+                                                                <label textid="label.rolloverbgcolor" width="250" casaindex="231" >
+
+
+                                                                </label>
+
+
+                                                                <radiobutton value="DEFAULT" valueprop="tabStripRollover" casaindex="232" >
+
+
+                                                                </radiobutton>
+
+
+                                                                <label asplaintext="true" textid="sc.label.defaultdarkbgcolor" casaindex="233" >
+
+
+                                                                </label>
+
+
+                                                        </itr>
+
+
+                                                        <itr casaindex="234" >
+
+
+                                                                <hdist width="250" casaindex="235" >
+
+
+                                                                </hdist>
+
+
+                                                                <radiobutton value="CUST" valueprop="tabStripRollover" casaindex="236" >
+
+
+                                                                </radiobutton>
+
+
+                                                                <label asplaintext="true" textid="label.customized" casaindex="237" >
+
+
+                                                                </label>
+
+
+                                                                <hdist width="10" casaindex="238" >
+
+
+                                                                </hdist>
+
+
+                                <field xsdType="color" datatype="color" valueprop="tabStripBGRollover" width="150" casaindex="239" >
+
+                                </field>
+
+                                                        </itr>
+
+
+                                                </rowarea>
+
+
+                                        </tabpage>
+
+
+                                        <tabpage display="none" id="WORKPLACE" casaindex="240" >
+
+
+                                                <itr casaindex="241" >
+
+
+                                                        <label textid="sc.label.topic1color" width="150" casaindex="242" >
+
+
+                                                        </label>
+
+
+                            <field xsdType="color" datatype="color" valueprop="colorTopic1" width="200" casaindex="243" >
+
+                            </field>
+
+                                                </itr>
+
+
+                                                <itr casaindex="244" >
+
+
+                                                        <label textid="sc.label.topic2color" width="150" casaindex="245" >
+
+
+                                                        </label>
+
+
+                            <field xsdType="color" datatype="color" valueprop="colorTopic2" width="200" casaindex="246" >
+
+                            </field>
+
+                                                </itr>
+
+
+                                                <itr casaindex="247" >
+
+
+                                                        <label textid="sc.label.topic3color" width="150" casaindex="248" >
+
+
+                                                        </label>
+
+
+                            <field xsdType="color" datatype="color" valueprop="colorTopic3" width="200" casaindex="249" >
+
+                            </field>
+
+                                                </itr>
+
+
+                                                <itr casaindex="250" >
+
+
+                                                        <label textid="sc.label.topic4color" width="150" casaindex="251" >
+
+
+                                                        </label>
+
+
+                            <field xsdType="color" datatype="color" valueprop="colorTopic4" width="200" casaindex="252" >
+
+                            </field>
+
+                                                </itr>
+
+
+                                                <itr casaindex="253" >
+
+
+                                                        <label textid="sc.label.topic5color" width="150" casaindex="254" >
+
+
+                                                        </label>
+
+
+                            <field xsdType="color" datatype="color" valueprop="colorTopic5" width="200" casaindex="255" >
+
+                            </field>
+
+                                                </itr>
+
+
+                                                <itr casaindex="256" >
+
+
+                                                        <label textid="sc.label.topic6color" width="150" casaindex="257" >
+
+
+                                                        </label>
+
+
+                            <field xsdType="color" datatype="color" valueprop="colorTopic6" width="200" casaindex="258" >
+
+                            </field>
+
+                                                </itr>
+
+
+                                                <itr casaindex="259" >
+
+
+                                                        <label textid="sc.label.topic7color" width="150" casaindex="260" >
+
+
+                                                        </label>
+
+
+                            <field xsdType="color" datatype="color" valueprop="colorTopic7" width="200" casaindex="261" >
+
+                            </field>
+
+                                                </itr>
+
+
+                                                <itr casaindex="262" >
+
+
+                                                        <label textid="sc.label.topic8color" width="150" casaindex="263" >
+
+
+                                                        </label>
+
+
+                            <field xsdType="color" datatype="color" valueprop="colorTopic8" width="200" casaindex="264" >
+
+                            </field>
+
+                                                </itr>
+
+
+                                                <itr casaindex="265" >
+
+
+                                                        <label textid="sc.label.topic9color" width="150" casaindex="266" >
+
+
+                                                        </label>
+
+
+                            <field xsdType="color" datatype="color" valueprop="colorTopic9" width="200" casaindex="267" >
+
+                            </field>
+
+                                                </itr>
+
+
+                                                <itr casaindex="268" >
+
+
+                                                        <label textid="sc.label.topic10color" width="150" casaindex="269" >
+
+
+                                                        </label>
+
+
+                            <field xsdType="color" datatype="color" valueprop="colorTopic10" width="200" casaindex="270" >
+
+                            </field>
+
+                                                </itr>
+
+
+                                        </tabpage>
+
+
+                                        <tabpage display="none" fixlayout="true" id="CSS" takefullheight="true" casaindex="271" >
+
+
+                                                <itr casaindex="272" >
+
+
+                                                        <label textid="label.variable" casaindex="273" >
+
+
+                                                        </label>
+
+
+                                                        <hdist width="5" casaindex="274" >
+
+
+                                                        </hdist>
+
+
+                            <field xsdType="xs:string" flush="server" flushmethod="onSearchVarCrossRef" valueprop="varcrossref" width="180" popupmethod="openIdValueCombo" casaindex="275" >
+
+                            </field>
+
+                                                        <hdist width="5" casaindex="276" >
+
+
+                                                        </hdist>
+
+
+                                                                                         <icon image="../HTMLBasedGUI/images/refreshCross.gif" imageinactive="../HTMLBasedGUI/images/refreshCrossInactive.gif" method="onSearchVarCrossRef" visibleprop="searchStatus" title="Refresh list" casaindex="277" >
+
+
+       						                            </icon>
+
+
+                                                                                                                     <hdist width="15" casaindex="278" >
+
+
+                                                        </hdist>
+
+
+                                                        <label textid="label.value" casaindex="279" >
+
+
+                                                        </label>
+
+
+                                                                                     <hdist width="5" casaindex="280" >
+
+
+                                                        </hdist>
+
+
+                                                                                           <field xsdType="xs:string" valueprop="crossrefval" width="150" displayprop="crossrefvalprop" casaindex="281" >
+
+                            </field>
+
+                                                        <hdist width="5" casaindex="282" >
+
+
+                                                        </hdist>
+
+
+                                                                                        <button textid="btn.updatecrossref" method="onUpdateVarCrossRef" casaindex="283" >
+
+
+                                                        </button>
+
+
+                                                </itr>
+
+
+        				                        <vdist height="5" casaindex="284" >
+
+
+        				                        </vdist>
+
+
+                                                               <itr height="100%" width="100%" casaindex="285" >
+
+
+                                                        <coltable0 fixlayout="true" tablestyle="background-color: #FFFFFF" takefullheight="true" width="300" casaindex="286" >
+
+
+                                                                <rowtablearea2 griddataprop="styleTree" height="100%" hscroll="false" rowcount="30" vscroll="auto" width="100%" withborder="false" casaindex="287" >
+
+
+                                                                        <repeat casaindex="288" >
+
+
+                                                                                <tr casaindex="289" >
+
+
+                                                                                        <treenode3 width="100%" withplusminus="true" casaindex="290" >
+
+
+                                                                                        </treenode3>
+
+
+                                                                                </tr>
+
+
+                                                                        </repeat>
+
+
+                                                                </rowtablearea2>
+
+
+                                                        </coltable0>
+
+
+                                                        <textgrid2 directselectevent="onclick" directselectmethod="onSelectAttribute" griddataprop="attributes" height="100%" selectprop="selected" singleselect="true" width="100%" casaindex="291" >
+
+
+                                                                <column property="attribute" textid="label.attribute" textstyleprop="rowStyle" width="125" casaindex="292" >
+
+
+                                                                </column>
+
+
+                                                                <column property="value" textid="label.value" textstyleprop="rowStyle" width="100%" casaindex="293" >
+
+
+                                                                </column>
+
+
+                                                        </textgrid2>
+
+
+                                                </itr>
+
+
+                                                <vdist casaindex="294" >
+
+
+                                                </vdist>
+
+
+                                                <rowtable0 fixlayout="true" height="25" casaindex="295" >
+
+
+                                                        <itr visibleprop="styleFieldVisible" casaindex="296" >
+
+
+                                                                <hdist width="315" casaindex="297" >
+
+
+                                                                </hdist>
+
+
+                                <field xsdType="xs:string" valueprop="styleAttribute" width="125" casaindex="298" >
+
+                                </field>
+
+                                <field xsdType="xs:string" valueprop="styleValue" width="100%" casaindex="299" >
+
+                                </field>
+
+                                                                <hdist casaindex="300" >
+
+
+                                                                </hdist>
+
+
+                                                                <button method="onAddStyleAttribute" textid="btn.update" casaindex="301" >
+
+
+                                                                </button>
+
+
+                                                        </itr>
+
+
+                                                </rowtable0>
+
+
+                                        </tabpage>
+
+
+                                </rowtabarea>
+
+
+                        </rowdynavis>
+
+
+                </rowtable0>
+
+
+                <vdist casaindex="302" >
+
+
+                </vdist>
+
+
+        </pagebody>
+
+
+        <statusbar withdistance="false" casaindex="303" >
+
+
+        </statusbar>
+
+
+</page>

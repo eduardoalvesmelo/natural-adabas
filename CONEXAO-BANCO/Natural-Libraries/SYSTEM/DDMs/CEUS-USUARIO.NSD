@@ -1,0 +1,185 @@
+DB: 243 FILE: 154  - CEUS-USUARIO                     DEFAULT SEQUENCE: 
+TYPE: ADABAS 
+ 
+T L DB Name                              F Leng  S D Remark 
+- - -- --------------------------------  - ----  - - -------------------- 
+*      >Natural Source Header 000000
+*      :CP
+*      
+*      
+*      :LineIncrement 10
+*      <Natural Source Header
+*   Generation started 
+*   at 2019-10-21 11:17:08 
+*   by user SAG 
+* 
+*  Generation started 
+*  at 2019-01-23 22:39:04 
+*  by user SAG 
+* 
+*  eneration started 
+*  t 2018-11-14 09:57:04 
+*  y user SAG 
+* 
+*  neration started 
+*   2018-09-08 22:22:32 
+*   user SAG 
+* 
+  1 AA US-USUARIO-RACF                   A    8  N D 
+  1 AW US-CEUS-WEB-TICKET                B    8  N D This field was incor 
+*        This field was incor 
+*       This field was incor 
+*      This field was incorporated 
+*      from FDT on 2018-11-05 
+  1 AX US-CEUS-TTL-DATA-HORA             A   14  N   This field was incor 
+*        This field was incor 
+*       This field was incor 
+*      This field was incorporated 
+*      from FDT on 2018-11-05 
+  1 AZ US-CEUS-TTL-DATAHORA              P 13.0  N   This field was incor 
+*        This field was incor 
+*       This field was incor 
+*      This field was incorporated 
+*      from FDT on 2018-11-05 
+  1 B5 US-USUARIO-RACF-EXC               A    8  N D 
+  1 CC US-USUARIO-RESP-EXC               A    8  N 
+  1 AB US-GRUPO-RACF                     A    8  N D 
+  1 AC US-NOME-USUARIO                   A   20  N D 
+  1 AD US-CONTA-PAG                      A    4  N 
+  1 B6 US-DATA-INCLUSAO                  N  8.0  N 
+  1 CD US-DATA-EXCLUSAO                  N  8.0  N 
+G 1 AE US-CONTA-EXE 
+  2 AF US-CLIENTE                        A    2  N 
+  2 AG US-DPTO                           A    2  N 
+  1 A1 US-LOTACAO                        A   20  N D 
+  1 AR US-QTD-SISTEMAS                   N  3.0  N 
+  1 BI US-SUBLOTACAO                     A   20  N D 
+  1 B7 US-CPF                            N 11.0  N D 
+  1 B8 US-EMAIL                          A   60  N D 
+  1 B9 US-FONE                           N 10.0  N 
+  1 B0 US-FRASE                          A   60  N 
+  1 CA US-RESPOSTA                       A   60  N 
+  1 CB US-DATA-ENVIO                     N  8.0  N 
+  1 AS US-DATA-ENVIO-LDAP                N  8.0  N D 
+  1 AT US-HORA-ENVIO-LDAP                N  7.0  N 
+  1 AU US-UID-NUMBER-LDAP                N 22.0  N 
+  1 AV US-FL-SINCRONIZADO-LDAP           A    1  N D 
+* 
+  1 S1 US-GRUPO-USUARIO-RACF             A   16  N S (AB + AA)         D 
+*        (AB + AA)         D 
+*        -------- SOURCE FIELD(S) ------- 
+*        US-GRUPO-RACF(1-8) 
+*        US-USUARIO-RACF(1-8) 
+*       (AB + AA)         D 
+*       -------- SOURCE FIELD(S) -- 
+*       US-GRUPO-RACF(1-8) 
+*       US-USUARIO-RACF(1-8) 
+*      (AB + AA)         D 
+*      -------- SOURCE FIELD(S) -- 
+*      US-GRUPO-RACF(1-8) 
+*      US-USUARIO-RACF(1-8) 
+*     (AB + AA) 
+*     -------- SOURCE FIELD(S) -- 
+*     US-GRUPO-RACF(1-8) 
+*     US-USUARIO-RACF(1-8) 
+  1 S2 US-CLIENTE-USUARIO-RACF           A   10  N S (AF + AA)         D 
+*        (AF + AA)         D 
+*        -------- SOURCE FIELD(S) ------- 
+*        US-CLIENTE(1-2) 
+*        US-USUARIO-RACF(1-8) 
+*       (AF + AA)         D 
+*       -------- SOURCE FIELD(S) -- 
+*       US-CLIENTE(1-2) 
+*       US-USUARIO-RACF(1-8) 
+*      (AF + AA)         D 
+*      -------- SOURCE FIELD(S) -- 
+*      US-CLIENTE(1-2) 
+*      US-USUARIO-RACF(1-8) 
+*     (AF + AA) 
+*     -------- SOURCE FIELD(S) -- 
+*     US-CLIENTE(1-2) 
+*     US-USUARIO-RACF(1-8) 
+  1 S8 US-LOTACAO-USUARIO-RACF           A   28  N S (A1 + AA)         D 
+*        (A1 + AA)         D 
+*        -------- SOURCE FIELD(S) ------- 
+*        US-LOTACAO(1-20) 
+*        US-USUARIO-RACF(1-8) 
+*       (A1 + AA)         D 
+*       -------- SOURCE FIELD(S) -- 
+*       US-LOTACAO(1-20) 
+*       US-USUARIO-RACF(1-8) 
+*      (A1 + AA)         D 
+*      -------- SOURCE FIELD(S) -- 
+*      US-LOTACAO(1-20) 
+*      US-USUARIO-RACF(1-8) 
+*     (A1 + AA) 
+*     -------- SOURCE FIELD(S) -- 
+*     US-LOTACAO(1-20) 
+*     US-USUARIO-RACF(1-8) 
+  1 S4 US-GRUPO-CPF                      A   19  N S (AB + B7)         D 
+*        (AB + B7)         D 
+*        -------- SOURCE FIELD(S) ------- 
+*        US-GRUPO-RACF(1-8) 
+*        US-CPF(1-11) 
+*       (AB + B7)         D 
+*       -------- SOURCE FIELD(S) -- 
+*       US-GRUPO-RACF(1-8) 
+*       US-CPF(1-11) 
+*      (AB + B7)         D 
+*      -------- SOURCE FIELD(S) -- 
+*      US-GRUPO-RACF(1-8) 
+*      US-CPF(1-11) 
+*     (AB + B7) 
+*     -------- SOURCE FIELD(S) -- 
+*     US-GRUPO-RACF(1-8) 
+*     US-CPF(1-11) 
+  1 S9 US-CLIENTE-CPF                    A   13  N S (AF + B7)         D 
+*        (AF + B7)         D 
+*        -------- SOURCE FIELD(S) ------- 
+*        US-CLIENTE(1-2) 
+*        US-CPF(1-11) 
+*       (AF + B7)         D 
+*       -------- SOURCE FIELD(S) -- 
+*       US-CLIENTE(1-2) 
+*       US-CPF(1-11) 
+*      (AF + B7)         D 
+*      -------- SOURCE FIELD(S) -- 
+*      US-CLIENTE(1-2) 
+*      US-CPF(1-11) 
+*     (AF + B7) 
+*     -------- SOURCE FIELD(S) -- 
+*     US-CLIENTE(1-2) 
+*     US-CPF(1-11) 
+  1 S0 US-LOTACAO-CPF                    A   31  N S (A1 + B7)         D 
+*        (A1 + B7)         D 
+*        -------- SOURCE FIELD(S) ------- 
+*        US-LOTACAO(1-20) 
+*        US-CPF(1-11) 
+*       (A1 + B7)         D 
+*       -------- SOURCE FIELD(S) -- 
+*       US-LOTACAO(1-20) 
+*       US-CPF(1-11) 
+*      (A1 + B7)         D 
+*      -------- SOURCE FIELD(S) -- 
+*      US-LOTACAO(1-20) 
+*      US-CPF(1-11) 
+*     (A1 + B7) 
+*     -------- SOURCE FIELD(S) -- 
+*     US-LOTACAO(1-20) 
+*     US-CPF(1-11) 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* OPT=331      DESV-PRODAM-243                 YY03                YYY NNNNNU9N 
+* OPT=HOME                            VNY 
+* OPT= 
+* OPT=                                 D 

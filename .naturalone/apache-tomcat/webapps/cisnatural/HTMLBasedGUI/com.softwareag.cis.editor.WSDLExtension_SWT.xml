@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.extension.wsdl.WSDLExtensionAdapter" translationreference="CIS_Tools" casaindex="1" >
+
+
+
+            <pagebody vscroll="hidden" horizdist="false" takefullheight="true" casaindex="2" >
+
+
+
+                        <rowtable0 tablestyle="background-color: #deebf7" casaindex="3" >
+
+
+
+                                    <vdist height="5" casaindex="4" >
+
+
+
+                                    </vdist>
+
+
+
+                                    <rowdynavis valueprop="showUseInPage" casaindex="5" >
+
+
+
+                                                <itr fixlayout="true" visibleprop="isXCIPage" casaindex="6" >
+
+
+
+                                                            <hdist width="5" casaindex="7" >
+
+
+
+                                                            </hdist>
+
+
+
+                                                            <label textid="wsdldataadpt.labelRef" width="90" asplaintext="true" casaindex="8" >
+
+
+
+                                                            </label>
+
+
+
+                    <field xsdType="xs:string" flush="server" flushmethod="onWsdlRefChanged" valueprop="wsdlRef" width="100%" popupmethod="openIdValueCombo" casaindex="9" >
+
+                    </field>
+
+                                                            <hdist width="5" casaindex="10" >
+
+
+
+                                                            </hdist>
+
+
+
+                                                </itr>
+
+
+
+                                                <itr fixlayout="true" casaindex="11" >
+
+
+
+                                                            <hdist width="5" casaindex="12" >
+
+
+
+                                                            </hdist>
+
+
+
+                                                            <label textid="wsdldataadpt.label0" width="90" asplaintext="true" casaindex="13" >
+
+
+
+                                                            </label>
+
+
+
+                    <field xsdType="xs:string" valueprop="wsdl" width="100%" statusprop="wsdlStatus" casaindex="14" >
+
+                    </field>
+
+                                                            <hdist width="5" casaindex="15" >
+
+
+
+                                                            </hdist>
+
+
+
+                                                </itr>
+
+
+
+                                                <vdist height="5" casaindex="16" >
+
+
+
+                                                </vdist>
+
+
+
+                                                <itr casaindex="17" >
+
+
+
+                                                            <hdist width="95" casaindex="18" >
+
+
+
+                                                            </hdist>
+
+
+
+                                                            <hdist casaindex="19" >
+
+
+
+                                                            </hdist>
+
+
+
+                                                            <button textid="wsdldataadpt.button0" method="onLoadWSDL" visibleprop="loadButtonStatus" invisiblemode="invisible" casaindex="20" >
+
+
+
+                                                            </button>
+
+
+
+                                                </itr>
+
+
+
+                                                <itr casaindex="21" >
+
+
+
+                                                </itr>
+
+
+
+                                                <vdist height="5" casaindex="22" >
+
+
+
+                                                </vdist>
+
+
+
+                                                <itr casaindex="23" >
+
+
+
+                                                            <hdist width="5" casaindex="24" >
+
+
+
+                                                            </hdist>
+
+
+
+                                                            <label textid="wsdldataadpt.label1" width="90" asplaintext="true" casaindex="25" >
+
+
+
+                                                            </label>
+
+
+
+                                                            <combodyn2 valueprop="service" validvaluesprop="serviceItems" width="100%" flush="server" statusprop="serviceStatus" renderasfield="true" casaindex="26" >
+
+
+
+                                                            </combodyn2>
+
+
+
+                                                            <hdist width="5" casaindex="27" >
+
+
+
+                                                            </hdist>
+
+
+
+                                                </itr>
+
+
+
+                                                <itr casaindex="28" >
+
+
+
+                                                            <hdist width="5" casaindex="29" >
+
+
+
+                                                            </hdist>
+
+
+
+                                                            <label textid="wsdldataadpt.label2" width="90" asplaintext="true" casaindex="30" >
+
+
+
+                                                            </label>
+
+
+
+                                                            <combodyn2 valueprop="port" validvaluesprop="portItems" width="100%" flush="server" statusprop="portStatus" renderasfield="true" casaindex="31" >
+
+
+
+                                                            </combodyn2>
+
+
+
+                                                            <hdist width="5" casaindex="32" >
+
+
+
+                                                            </hdist>
+
+
+
+                                                </itr>
+
+
+
+                                                <itr casaindex="33" >
+
+
+
+                                                            <hdist width="5" casaindex="34" >
+
+
+
+                                                            </hdist>
+
+
+
+                                                            <label textid="wsdldataadpt.label3" width="90" asplaintext="true" casaindex="35" >
+
+
+
+                                                            </label>
+
+
+
+                                                            <combodyn2 valueprop="operation" validvaluesprop="operationItems" width="100%" flush="server" statusprop="operationStatus" renderasfield="true" casaindex="36" >
+
+
+
+                                                            </combodyn2>
+
+
+
+                                                            <hdist width="5" casaindex="37" >
+
+
+
+                                                            </hdist>
+
+
+
+                                                </itr>
+
+
+
+                                                <vdist height="5" casaindex="38" >
+
+
+
+                                                </vdist>
+
+
+
+                                                <itr casaindex="39" >
+
+
+
+                                                            <hdist width="95" casaindex="40" >
+
+
+
+                                                            </hdist>
+
+
+
+                                                            <button textid="wsdldataadpt.button1" method="onUseInPage" visibleprop="loadButtonStatus" invisiblemode="invisible" casaindex="41" >
+
+
+
+                                                            </button>
+
+
+
+                                                </itr>
+
+
+
+                                                <vdist height="5" casaindex="42" >
+
+
+
+                                                </vdist>
+
+
+
+                                    </rowdynavis>
+
+
+
+                                    <rowdynavis valueprop="showChangeWSDL" casaindex="43" >
+
+
+
+                                                <itr takefullwidth="true" casaindex="44" >
+
+
+
+                                                            <hdist width="5" casaindex="45" >
+
+
+
+                                                            </hdist>
+
+
+
+                    <field xsdType="xs:string" valueprop="pageWSDLData" width="100%" statusprop="wsdlStatus" displayonly="true" noborder="true" casaindex="46" >
+
+                    </field>
+
+                                                            <hdist width="5" casaindex="47" >
+
+
+
+                                                            </hdist>
+
+
+
+                                                </itr>
+
+
+
+                                                <vdist casaindex="48" >
+
+
+
+                                                </vdist>
+
+
+
+                                                <itr casaindex="49" >
+
+
+
+                                                            <hdist width="5" casaindex="50" >
+
+
+
+                                                            </hdist>
+
+
+
+                                                            <button textid="wsdldataadpt.button2" method="onChangeWSDL" casaindex="51" >
+
+
+
+                                                            </button>
+
+
+
+                                                            <hdist width="5" casaindex="52" >
+
+
+
+                                                            </hdist>
+
+
+
+                                                </itr>
+
+
+
+                                    </rowdynavis>
+
+
+
+                                    <vdist height="4" casaindex="53" >
+
+
+
+                                    </vdist>
+
+
+
+                        </rowtable0>
+
+
+
+                        <hline casaindex="54" >
+
+
+
+                        </hline>
+
+
+
+                        <rowtablearea2 griddataprop="operationData" rowcount="20" height="100%" width="100%" withborder="false" firstrowcolwidths="true" casaindex="55" >
+
+
+
+                                    <repeat casaindex="56" >
+
+
+
+                                                <str valueprop="selected" showifempty="false" casaindex="57" >
+
+
+
+                                                            <treenode3 width="100%" withplusminus="true" imageopened="../HTMLBasedGUI/general/nothing.gif" imageclosed="../HTMLBasedGUI/general/nothing.gif" imageendnode="../HTMLBasedGUI/general/nothing.gif" enabledrag="false" casaindex="58" >
+
+
+
+                                                <icon casaindex="59" imageprop="dragimage" draginfoprop="dragInfo" invisiblemode="invisible" imagewidth="20" imageheight="20" >
+
+                        </icon>
+
+
+                        
+                                                            </treenode3>
+
+
+
+                                                </str>
+
+
+
+                                    </repeat>
+
+
+
+                        </rowtablearea2>
+
+
+
+                        <hline casaindex="60" >
+
+
+
+                        </hline>
+
+
+
+                        <vdist height="4" backgroundstyle="background-color: #F0FFF0" casaindex="61" >
+
+
+
+                        </vdist>
+
+
+
+                        <itr takefullwidth="100%" itrstyle="background-color: #F0FFF0" casaindex="62" >
+
+
+
+                                    <hdist width="5" casaindex="63" >
+
+
+
+                                    </hdist>
+
+
+
+                                    <coltable0 width="100%" casaindex="64" >
+
+
+
+                                                <itr casaindex="65" >
+
+
+
+                                                            <label textid="wsdldataadpt.label4" width="90" asplaintext="true" casaindex="66" >
+
+
+
+                                                            </label>
+
+
+
+                    <field xsdType="xs:string" valueprop="nodeName" width="100%" displayonly="true" noborder="true" casaindex="67" >
+
+                    </field>
+
+                                                </itr>
+
+
+
+                                                <itr casaindex="68" >
+
+
+
+                                                            <label textid="wsdldataadpt.label5" width="90" asplaintext="true" casaindex="69" >
+
+
+
+                                                            </label>
+
+
+
+                    <field xsdType="xs:string" valueprop="nodeType" width="100%" displayonly="true" noborder="true" casaindex="70" >
+
+                    </field>
+
+                                                </itr>
+
+
+
+                                                <itr casaindex="71" >
+
+
+
+                                                            <label textid="wsdldataadpt.label6" width="90" asplaintext="true" casaindex="72" >
+
+
+
+                                                            </label>
+
+
+
+                    <field xsdType="xs:string" valueprop="elementType" width="100%" displayonly="true" noborder="true" casaindex="73" >
+
+                    </field>
+
+                                                </itr>
+
+
+
+                                                <vdist height="2" casaindex="74" >
+
+
+
+                                                </vdist>
+
+
+
+                                                <itr takefullwidth="true" casaindex="75" >
+
+
+
+                                                            <textgrid2 griddataprop="nodeControlsTextgrid" width="100%" height="80" selectprop="selected" singleselect="true" withselectioncolumn="false" withtitlerow="false" directselectmethod="onNodeControlSelected" directselectevent="ondblclick" casaindex="76" >
+
+
+
+                                                                        <column textid="wsdldataadpt.column0" width="70" align="center" imageprop="controlIconTextgrid" withsorticon="false" casaindex="77" >
+
+
+
+                                                                        </column>
+
+
+
+                                                                        <column textid="wsdldataadpt.column1" property="controlTextTextgrid" width="100%" withsorticon="false" casaindex="78" >
+
+
+
+                                                                        </column>
+
+
+
+                                                            </textgrid2>
+
+
+
+                                                </itr>
+
+
+
+                                    </coltable0>
+
+
+
+                                    <hdist width="5" casaindex="79" >
+
+
+
+                                    </hdist>
+
+
+
+                        </itr>
+
+
+
+                        <vdist height="5" casaindex="80" >
+
+
+
+                        </vdist>
+
+
+
+            </pagebody>
+
+
+
+</page>

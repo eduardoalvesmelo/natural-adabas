@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.TranslateAdapter" translationreference="CIS_TOOLS" stylesheetfile="../cis/styles/CIS_DEFAULT.css" casaindex="1" >
+
+
+        <hotkeys casaindex="2" >
+
+
+                <hotkey keycode="78" altkey="true" method="newTextId" casaindex="3" >
+
+
+                </hotkey>
+
+
+        </hotkeys>
+
+
+        <titlebar textid="lt.titlebar.littranslationmanagement" closetitletextid="closePage" casaindex="4" >
+
+
+        </titlebar>
+
+
+        <header withdistance="false" casaindex="5" >
+
+
+                <button textid="btn.save" method="save" casaindex="6" >
+
+
+                </button>
+
+
+        </header>
+
+
+        <pagebody horizdist="false" casaindex="7" >
+
+
+                <itr width="100%" casaindex="8" >
+
+
+                        <colarea textid="lt.colarea.translation" width="50%" withleftborder="false" withrightborder="false" casaindex="9" >
+
+
+                                <itr casaindex="10" >
+
+
+                                        <label textid="lt.label.appproject" width="150" casaindex="11" >
+
+
+                                        </label>
+
+
+                    <field xsdType="xs:string" flush="server" valueprop="project" statusprop="headerStatus" length="40" popupmethod="openIdValueHelp" casaindex="12" >
+
+                    </field>
+
+                                </itr>
+
+
+                                <itr casaindex="13" >
+
+
+                                        <label textid="lt.label.dir" width="150" casaindex="14" >
+
+
+                                        </label>
+
+
+                    <field xsdType="xs:string" valueprop="directory" length="40" displayonly="true" casaindex="15" >
+
+                    </field>
+
+                                </itr>
+
+
+                                <itr casaindex="16" >
+
+
+                                        <label textid="lt.label.layout" width="150" casaindex="17" >
+
+
+                                        </label>
+
+
+                    <field xsdType="xs:string" flush="server" valueprop="fileName" statusprop="headerStatus" length="40" popupmethod="openIdValueHelp" casaindex="18" >
+
+                    </field>
+
+                                </itr>
+
+
+                                <itr casaindex="19" >
+
+
+                                        <label textid="lt.label.transfile" width="150" casaindex="20" >
+
+
+                                        </label>
+
+
+                    <field xsdType="xs:string" valueprop="translationFileName" statusprop="headerStatus" length="40" casaindex="21" >
+
+                    </field>
+
+                                </itr>
+
+
+                                <vdist casaindex="22" >
+
+
+                                </vdist>
+
+
+                                <itr casaindex="23" >
+
+
+                                        <hdist width="150" casaindex="24" >
+
+
+                                        </hdist>
+
+
+                                        <button textid="lt.btn.usedefaultcsv" method="onUseDefault" casaindex="25" >
+
+
+                                        </button>
+
+
+                                </itr>
+
+
+                                <vdist casaindex="26" >
+
+
+                                </vdist>
+
+
+                                <vdist casaindex="27" >
+
+
+                                </vdist>
+
+
+                                <itr casaindex="28" >
+
+
+                                        <label textid="btn.language" width="150" casaindex="29" >
+
+
+                                        </label>
+
+
+                    <field xsdType="xs:string" valueprop="language1" statusprop="headerStatus" length="3" casaindex="30" >
+
+                    </field>
+
+                                </itr>
+
+
+                                <itr casaindex="31" >
+
+
+                                        <label textid="lt.btn.comparelanguage" width="150" casaindex="32" >
+
+
+                                        </label>
+
+
+                    <field xsdType="xs:string" valueprop="language2" statusprop="headerStatus" length="3" casaindex="33" >
+
+                    </field>
+
+                                </itr>
+
+
+                                <vdist casaindex="34" >
+
+
+                                </vdist>
+
+
+                                <itr casaindex="35" >
+
+
+                                        <td width="150" casaindex="36" >
+
+
+                                        </td>
+
+
+                                        <button textid="lt.btn.loadlit" method="load" casaindex="37" >
+
+
+                                        </button>
+
+
+                                </itr>
+
+
+                                <vdist height="100%" casaindex="38" >
+
+
+                                </vdist>
+
+
+                        </colarea>
+
+
+                        <hdist casaindex="39" >
+
+
+                        </hdist>
+
+
+                        <colarea textid="lt.colarea.hints" width="50%" takefullheight="true" withrightborder="false" casaindex="40" >
+
+
+                                <tr casaindex="41" >
+
+
+                                        <ihtml valueprop="htmlHelpText" width="100%" height="100%" casaindex="42" >
+
+
+                                        </ihtml>
+
+
+                                </tr>
+
+
+                        </colarea>
+
+
+                </itr>
+
+
+                <rowarea textid="lt.rowtablearea2.literalmaintenace" withleftborder="false" withrightborder="false" casaindex="43" >
+
+
+                        <rowtablearea2 griddataprop="lines" rowcount="12" width="100%" firstrowcolwidths="true" casaindex="44" >
+
+
+                                <tr casaindex="45" >
+
+
+                                        <td width="25" casaindex="46" >
+
+
+                                        </td>
+
+
+                                        <label width="25" comment="No textid: attribCompSav.label1" asplaintext="true" casaindex="47" >
+
+
+                                        </label>
+
+
+                                        <label textid="label.textid" width="20%" asheadline="true" casaindex="48" >
+
+
+                                        </label>
+
+
+                                        <label textid="label.language" width="40%" asheadline="true" casaindex="49" >
+
+
+                                        </label>
+
+
+                                        <label textid="label.comparisonlanguage" width="40%" asheadline="true" casaindex="50" >
+
+
+                                        </label>
+
+
+                                </tr>
+
+
+                                <repeat casaindex="51" >
+
+
+                                        <str valueprop="selected" casaindex="52" >
+
+
+                                                <checkbox valueprop="selected" flush="screen" casaindex="53" >
+
+
+                                                </checkbox>
+
+
+                                                <icon image="images/literals.gif" method="onOpenTextInPopup" visibleprop="iconVisible" imageinactive="general/nothing.gif" valign="middle" titletextid="lt.icon.title.edittextpopup" casaindex="54" >
+
+
+                                                </icon>
+
+
+                        <field xsdType="xs:string" valueprop="textId" width="20%" noborder="true" transparentbackground="true" casaindex="55" >
+
+                        </field>
+
+                        <field xsdType="xs:string" valueprop="text1" width="40%" noborder="true" transparentbackground="true" casaindex="56" >
+
+                        </field>
+
+                        <field xsdType="xs:string" valueprop="text2" width="40%" displayonly="true" noborder="true" transparentbackground="false" casaindex="57" >
+
+                        </field>
+
+                                        </str>
+
+
+                                </repeat>
+
+
+                        </rowtablearea2>
+
+
+                        <vdist casaindex="58" >
+
+
+                        </vdist>
+
+
+                        <vdist casaindex="59" >
+
+
+                        </vdist>
+
+
+                        <itr casaindex="60" >
+
+
+                                <button textid="btn.newtextid" method="newTextId" casaindex="61" >
+
+
+                                </button>
+
+
+                                <hdist casaindex="62" >
+
+
+                                </hdist>
+
+
+                                <button textid="btn.removeselectedtxtid" method="removeTextIds" casaindex="63" >
+
+
+                                </button>
+
+
+                        </itr>
+
+
+                </rowarea>
+
+
+        </pagebody>
+
+
+        <statusbar withdistance="false" casaindex="64" >
+
+
+        </statusbar>
+
+
+</page>

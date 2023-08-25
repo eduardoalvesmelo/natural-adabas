@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.workplace.MFHeaderAdapter" translationreference="CIS_TOOLS" casaindex="1" >
+
+
+        <pagebody vscroll="hidden" hscroll="hidden" casaindex="2" >
+
+
+                <itr casaindex="3" >
+
+
+                        <hdist width="6" casaindex="4" >
+
+
+                        </hdist>
+
+
+                        <button textid="mfd2Header.button0" method="addHTMLPageToWorkplace;http://www#softwareag#com;Software AG" stylevariant="VAR2" casaindex="5" >
+
+
+                        </button>
+
+
+                        <hdist width="5" casaindex="6" >
+
+
+                        </hdist>
+
+
+                        <button textid="mfd2Header.button1" method="showPageInWorkplace;##/HTMLBasedGUI/com#softwareag#cis#workplace#about#html;About" stylevariant="VAR2" casaindex="7" >
+
+
+                        </button>
+
+
+                        <hdist width="5" casaindex="8" >
+
+
+                        </hdist>
+
+
+                        <button textid="mfd2Header.button2" method="workplaceLogout" stylevariant="VAR2" casaindex="9" >
+
+
+                        </button>
+
+
+                        <hdist width="5" casaindex="10" >
+
+
+                        </hdist>
+
+
+                </itr>
+
+
+                <itr casaindex="11" >
+
+
+                        <hdist width="12" casaindex="12" >
+
+
+                        </hdist>
+
+
+                        <icon image="../HTMLBasedGUI/images/fav_monitoring.gif" method="showPageInWorkplace;com#softwareag#cis#admin#monitoring#html;Monitoring" valign="top" titletextid="mfd2Header.icon8" casaindex="13" >
+
+
+                        </icon>
+
+
+                        <hdist width="6" casaindex="14" >
+
+
+                        </hdist>
+
+
+                        <icon image="../HTMLBasedGUI/images/fav_hello.gif" method="showPageInWorkplace;/cisdemos/DEMO_HelloWorld#html;Hello World!" valign="top" titletextid="mfd2Header.icon9" casaindex="15" >
+
+
+                        </icon>
+
+
+                        <hdist width="6" casaindex="16" >
+
+
+                        </hdist>
+
+
+                        <icon image="../HTMLBasedGUI/images/fav_dbquery.gif" method="showPageInWorkplace;/cisdemos/DEMO_ReportingDBQuery#html;DBQuery Control" valign="top" titletextid="mfd2Header.icon10" casaindex="17" >
+
+
+                        </icon>
+
+
+                        <hdist width="6" casaindex="18" >
+
+
+                        </hdist>
+
+
+                        <icon image="../HTMLBasedGUI/images/fav_print.gif" method="showPageInWorkplace;/cisdemos/DEMO_FOP2Invoice#html;Invoice Demo" valign="top" titletextid="mfd2Header.icon11" casaindex="19" >
+
+
+                        </icon>
+
+
+                        <hdist width="6" casaindex="20" >
+
+
+                        </hdist>
+
+
+                        <icon image="../HTMLBasedGUI/images/fav_chart.gif" method="showPageInWorkplace;/cisdemos/DEMO_ChartOverview#html;SVG Charts" valign="top" titletextid="mfd2Header.icon12" casaindex="21" >
+
+
+                        </icon>
+
+
+                        <hdist width="6" casaindex="22" >
+
+
+                        </hdist>
+
+
+                        <icon image="../HTMLBasedGUI/images/distance.gif" valign="middle" titletextid="mfd2Header.icon13" casaindex="23" >
+
+
+                        </icon>
+
+
+                        <hdist width="6" casaindex="24" >
+
+
+                        </hdist>
+
+
+                        <icon image="../HTMLBasedGUI/images/fav_naviminus.gif" method="on0Size" valign="top" titletextid="mfd2Header.icon13" casaindex="25" >
+
+
+                        </icon>
+
+
+                        <hdist width="6" casaindex="26" >
+
+
+                        </hdist>
+
+
+                        <icon image="../HTMLBasedGUI/images/fav_naviplus.gif" method="onNormalSize" valign="top" titletextid="mfd2Header.icon14" casaindex="27" >
+
+
+                        </icon>
+
+
+                        <hdist width="6" casaindex="28" >
+
+
+                        </hdist>
+
+
+                        <icon image="../HTMLBasedGUI/images/fav_closeall.gif" method="closeAllActivities" valign="top" titletextid="mfd2Header.icon15" casaindex="29" >
+
+
+                        </icon>
+
+
+                </itr>
+
+
+        </pagebody>
+
+
+</page>

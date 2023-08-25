@@ -1,0 +1,139 @@
+28-Jul-2023 08:15:44.717 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.10
+28-Jul-2023 08:15:44.719 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 20 2018 17:32:21 UTC
+28-Jul-2023 08:15:44.719 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.10.0
+28-Jul-2023 08:15:44.719 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+28-Jul-2023 08:15:44.719 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+28-Jul-2023 08:15:44.719 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Jul-2023 08:15:44.719 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\SoftwareAG\jvm\jvm\jre
+28-Jul-2023 08:15:44.720 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_181-b02
+28-Jul-2023 08:15:44.720 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Azul Systems, Inc.
+28-Jul-2023 08:15:44.720 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\ws-natural\.naturalone\apache-tomcat
+28-Jul-2023 08:15:44.720 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\SoftwareAG\naturalone\apache-tomcat
+28-Jul-2023 08:15:44.720 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Jul-2023 08:15:44.720 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\ws-natural\.naturalone\apache-tomcat\conf\logging.properties
+28-Jul-2023 08:15:44.720 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmn128m
+28-Jul-2023 08:15:44.720 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms512m
+28-Jul-2023 08:15:44.720 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1024m
+28-Jul-2023 08:15:44.720 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\SoftwareAG\Designer\eclipse\.\..\..\naturalone\apache-tomcat\endorsed
+28-Jul-2023 08:15:44.720 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\ws-natural\.naturalone\apache-tomcat
+28-Jul-2023 08:15:44.720 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\SoftwareAG\Designer\eclipse\.\..\..\naturalone\apache-tomcat
+28-Jul-2023 08:15:44.720 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\ws-natural\.naturalone\apache-tomcat\temp
+28-Jul-2023 08:15:44.721 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\SoftwareAG\jvm\jvm\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\app\eduar\product\21c\dbhomeXE\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Users\ilhas\Downloads\JasperIntegration\WINDOWS.X64_213000_db_home\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\eduar\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\bin;;C:\Users\eduar\AppData\Local\Programs\Microsoft VS Code\bin;.]
+28-Jul-2023 08:15:45.513 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-28080"]
+28-Jul-2023 08:15:45.697 INFORMAÇÕES [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Jul-2023 08:15:45.703 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1350 ms
+28-Jul-2023 08:15:45.738 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Jul-2023 08:15:45.738 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.10
+28-Jul-2023 08:15:45.782 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\ws-natural\.naturalone\apache-tomcat\webapps\cisnatural.war]
+28-Jul-2023 08:15:49.688 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Jul-2023 08:15:49.826 INFORMAÇÕES [main] com.sun.faces.config.ConfigureListener.contextInitialized Inicializando Mojarra 2.2.0 ( 20130502-2118 https://svn.java.net/svn/mojarra~svn/tags/2.2.0@11930) para o contexto '/cisnatural'
+28-Jul-2023 08:15:50.938 INFORMAÇÕES [main] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: Anotações PostConstruct/PreDestroy presentes.  Os métodos ManagedBeans marcados com essas anotações informarão as anotações processadas.
+28-Jul-2023 08:15:51.506 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\ws-natural\.naturalone\apache-tomcat\webapps\cisnatural.war] has finished in [5,725] ms
+28-Jul-2023 08:15:51.507 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ws-natural\.naturalone\apache-tomcat\webapps\docs]
+28-Jul-2023 08:15:51.530 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ws-natural\.naturalone\apache-tomcat\webapps\docs] has finished in [23] ms
+28-Jul-2023 08:15:51.530 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ws-natural\.naturalone\apache-tomcat\webapps\examples]
+28-Jul-2023 08:15:52.569 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ws-natural\.naturalone\apache-tomcat\webapps\examples] has finished in [1,039] ms
+28-Jul-2023 08:15:52.572 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ws-natural\.naturalone\apache-tomcat\webapps\host-manager]
+28-Jul-2023 08:15:52.619 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ws-natural\.naturalone\apache-tomcat\webapps\host-manager] has finished in [47] ms
+28-Jul-2023 08:15:52.619 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ws-natural\.naturalone\apache-tomcat\webapps\manager]
+28-Jul-2023 08:15:52.657 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ws-natural\.naturalone\apache-tomcat\webapps\manager] has finished in [38] ms
+28-Jul-2023 08:15:52.658 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ws-natural\.naturalone\apache-tomcat\webapps\ROOT]
+28-Jul-2023 08:15:52.693 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ws-natural\.naturalone\apache-tomcat\webapps\ROOT] has finished in [35] ms
+28-Jul-2023 08:15:52.699 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-28080"]
+28-Jul-2023 08:15:52.709 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in 7005 ms
+28-Jul-2023 13:39:00.362 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+28-Jul-2023 13:39:00.370 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-28080"]
+28-Jul-2023 13:39:00.555 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Jul-2023 13:39:00.676 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-28080"]
+28-Jul-2023 13:39:00.678 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-28080"]
+28-Jul-2023 13:40:05.512 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.10
+28-Jul-2023 13:40:05.515 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 20 2018 17:32:21 UTC
+28-Jul-2023 13:40:05.516 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.10.0
+28-Jul-2023 13:40:05.516 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+28-Jul-2023 13:40:05.516 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+28-Jul-2023 13:40:05.516 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Jul-2023 13:40:05.517 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\SoftwareAG\jvm\jvm\jre
+28-Jul-2023 13:40:05.517 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_181-b02
+28-Jul-2023 13:40:05.517 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Azul Systems, Inc.
+28-Jul-2023 13:40:05.517 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\ws-natural\.naturalone\apache-tomcat
+28-Jul-2023 13:40:05.517 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\SoftwareAG\naturalone\apache-tomcat
+28-Jul-2023 13:40:05.518 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Jul-2023 13:40:05.518 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\ws-natural\.naturalone\apache-tomcat\conf\logging.properties
+28-Jul-2023 13:40:05.518 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmn128m
+28-Jul-2023 13:40:05.519 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms512m
+28-Jul-2023 13:40:05.519 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1024m
+28-Jul-2023 13:40:05.519 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\SoftwareAG\Designer\eclipse\.\..\..\naturalone\apache-tomcat\endorsed
+28-Jul-2023 13:40:05.519 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\ws-natural\.naturalone\apache-tomcat
+28-Jul-2023 13:40:05.519 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\SoftwareAG\Designer\eclipse\.\..\..\naturalone\apache-tomcat
+28-Jul-2023 13:40:05.519 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\ws-natural\.naturalone\apache-tomcat\temp
+28-Jul-2023 13:40:05.519 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\SoftwareAG\jvm\jvm\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\app\eduar\product\21c\dbhomeXE\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Users\ilhas\Downloads\JasperIntegration\WINDOWS.X64_213000_db_home\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\eduar\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\bin;;C:\Users\eduar\AppData\Local\Programs\Microsoft VS Code\bin;.]
+28-Jul-2023 13:40:05.819 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-28080"]
+28-Jul-2023 13:40:05.948 INFORMAÇÕES [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Jul-2023 13:40:05.956 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1072 ms
+28-Jul-2023 13:40:05.991 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Jul-2023 13:40:05.991 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.10
+28-Jul-2023 13:40:06.044 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\ws-natural\.naturalone\apache-tomcat\webapps\cisnatural.war]
+28-Jul-2023 13:40:11.664 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Jul-2023 13:40:11.782 INFORMAÇÕES [main] com.sun.faces.config.ConfigureListener.contextInitialized Inicializando Mojarra 2.2.0 ( 20130502-2118 https://svn.java.net/svn/mojarra~svn/tags/2.2.0@11930) para o contexto '/cisnatural'
+28-Jul-2023 13:40:12.951 INFORMAÇÕES [main] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: Anotações PostConstruct/PreDestroy presentes.  Os métodos ManagedBeans marcados com essas anotações informarão as anotações processadas.
+28-Jul-2023 13:40:13.527 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\ws-natural\.naturalone\apache-tomcat\webapps\cisnatural.war] has finished in [7,482] ms
+28-Jul-2023 13:40:13.527 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ws-natural\.naturalone\apache-tomcat\webapps\docs]
+28-Jul-2023 13:40:13.550 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ws-natural\.naturalone\apache-tomcat\webapps\docs] has finished in [23] ms
+28-Jul-2023 13:40:13.550 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ws-natural\.naturalone\apache-tomcat\webapps\examples]
+28-Jul-2023 13:40:14.592 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ws-natural\.naturalone\apache-tomcat\webapps\examples] has finished in [1,042] ms
+28-Jul-2023 13:40:14.593 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ws-natural\.naturalone\apache-tomcat\webapps\host-manager]
+28-Jul-2023 13:40:14.638 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ws-natural\.naturalone\apache-tomcat\webapps\host-manager] has finished in [45] ms
+28-Jul-2023 13:40:14.638 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ws-natural\.naturalone\apache-tomcat\webapps\manager]
+28-Jul-2023 13:40:14.673 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ws-natural\.naturalone\apache-tomcat\webapps\manager] has finished in [35] ms
+28-Jul-2023 13:40:14.674 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ws-natural\.naturalone\apache-tomcat\webapps\ROOT]
+28-Jul-2023 13:40:14.700 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ws-natural\.naturalone\apache-tomcat\webapps\ROOT] has finished in [26] ms
+28-Jul-2023 13:40:14.703 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-28080"]
+28-Jul-2023 13:40:14.711 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in 8755 ms
+28-Jul-2023 13:55:40.532 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+28-Jul-2023 13:55:40.538 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-28080"]
+28-Jul-2023 13:55:40.734 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Jul-2023 13:55:40.816 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-28080"]
+28-Jul-2023 13:55:40.820 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-28080"]
+28-Jul-2023 13:55:55.450 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.10
+28-Jul-2023 13:55:55.453 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 20 2018 17:32:21 UTC
+28-Jul-2023 13:55:55.453 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.10.0
+28-Jul-2023 13:55:55.453 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+28-Jul-2023 13:55:55.454 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+28-Jul-2023 13:55:55.454 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Jul-2023 13:55:55.454 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\SoftwareAG\jvm\jvm\jre
+28-Jul-2023 13:55:55.454 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_181-b02
+28-Jul-2023 13:55:55.454 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Azul Systems, Inc.
+28-Jul-2023 13:55:55.454 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\ws-natural\.naturalone\apache-tomcat
+28-Jul-2023 13:55:55.454 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\SoftwareAG\naturalone\apache-tomcat
+28-Jul-2023 13:55:55.454 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Jul-2023 13:55:55.454 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\ws-natural\.naturalone\apache-tomcat\conf\logging.properties
+28-Jul-2023 13:55:55.454 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmn128m
+28-Jul-2023 13:55:55.454 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms512m
+28-Jul-2023 13:55:55.455 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1024m
+28-Jul-2023 13:55:55.455 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\SoftwareAG\Designer\eclipse\.\..\..\naturalone\apache-tomcat\endorsed
+28-Jul-2023 13:55:55.455 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\ws-natural\.naturalone\apache-tomcat
+28-Jul-2023 13:55:55.455 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\SoftwareAG\Designer\eclipse\.\..\..\naturalone\apache-tomcat
+28-Jul-2023 13:55:55.455 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\ws-natural\.naturalone\apache-tomcat\temp
+28-Jul-2023 13:55:55.455 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\SoftwareAG\jvm\jvm\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\app\eduar\product\21c\dbhomeXE\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Users\ilhas\Downloads\JasperIntegration\WINDOWS.X64_213000_db_home\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\eduar\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\bin;;C:\Users\eduar\AppData\Local\Programs\Microsoft VS Code\bin;.]
+28-Jul-2023 13:55:55.535 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-28080"]
+28-Jul-2023 13:55:55.674 INFORMAÇÕES [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Jul-2023 13:55:55.679 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1920 ms
+28-Jul-2023 13:55:55.704 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Jul-2023 13:55:55.705 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.10
+28-Jul-2023 13:55:55.731 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\ws-natural\.naturalone\apache-tomcat\webapps\cisnatural.war]
+28-Jul-2023 13:55:59.579 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Jul-2023 13:55:59.694 INFORMAÇÕES [main] com.sun.faces.config.ConfigureListener.contextInitialized Inicializando Mojarra 2.2.0 ( 20130502-2118 https://svn.java.net/svn/mojarra~svn/tags/2.2.0@11930) para o contexto '/cisnatural'
+28-Jul-2023 13:56:01.106 INFORMAÇÕES [main] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: Anotações PostConstruct/PreDestroy presentes.  Os métodos ManagedBeans marcados com essas anotações informarão as anotações processadas.
+28-Jul-2023 13:56:02.021 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\ws-natural\.naturalone\apache-tomcat\webapps\cisnatural.war] has finished in [6,289] ms
+28-Jul-2023 13:56:02.022 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ws-natural\.naturalone\apache-tomcat\webapps\docs]
+28-Jul-2023 13:56:02.035 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ws-natural\.naturalone\apache-tomcat\webapps\docs] has finished in [14] ms
+28-Jul-2023 13:56:02.035 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ws-natural\.naturalone\apache-tomcat\webapps\examples]
+28-Jul-2023 13:56:02.282 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ws-natural\.naturalone\apache-tomcat\webapps\examples] has finished in [247] ms
+28-Jul-2023 13:56:02.282 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ws-natural\.naturalone\apache-tomcat\webapps\host-manager]
+28-Jul-2023 13:56:02.305 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ws-natural\.naturalone\apache-tomcat\webapps\host-manager] has finished in [23] ms
+28-Jul-2023 13:56:02.305 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ws-natural\.naturalone\apache-tomcat\webapps\manager]
+28-Jul-2023 13:56:02.324 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ws-natural\.naturalone\apache-tomcat\webapps\manager] has finished in [19] ms
+28-Jul-2023 13:56:02.325 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ws-natural\.naturalone\apache-tomcat\webapps\ROOT]
+28-Jul-2023 13:56:02.340 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ws-natural\.naturalone\apache-tomcat\webapps\ROOT] has finished in [15] ms
+28-Jul-2023 13:56:02.342 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-28080"]
+28-Jul-2023 13:56:02.350 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in 6670 ms

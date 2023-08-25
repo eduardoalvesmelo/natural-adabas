@@ -1,0 +1,30 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** Fazer um programa para mostrar os 15 primeiros termos da série de Fibonacci. 
+/**
+/** :author eduar
+/* TODO Enter your code here
+DEFINE DATA LOCAL
+  1 #fibonacci-value (N2)
+  1 #first-number (N2) INIT <1>
+  1 #second-number (N2) INIT <1>
+  1 #limit (N2) INIT <17>
+  1 #counter (N2)
+END-DEFINE
+
+* Inicialize a sequência com os dois primeiros números
+#fibonacci-value := #first-number
+DISPLAY #fibonacci-value
+#fibonacci-value := #second-number
+DISPLAY #fibonacci-value
+
+* Gere a sequência Fibonacci
+FOR #counter = 3 TO #limit
+  #fibonacci-value := #fibonacci-value + #second-number
+  #first-number := #second-number
+  #second-number := #fibonacci-value
+  DISPLAY #fibonacci-value
+END-FOR
+END

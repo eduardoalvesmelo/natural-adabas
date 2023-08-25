@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<script>
+function onInitFramesBelow()
+{
+try { document.getElementById('top').src = 'workplace/wp23headeride.html'; } catch (eexxcc) {}
+try { document.getElementById('left').src = 'workplace/wp23aroundleft.html'; } catch (eexxcc) {}
+var vMFCF5 = document.getElementById('center');
+var vIP5 = '';
+if (parent.pageInitParamSL != null) vIP5 = '&' + parent.pageInitParamSL;
+frames['center'].location.replace ('../servlet/StartCISPage?PAGEURL=../HTMLBasedGUI/MFIDE23.html&hideProjectTree=1&SESSIONID='+parent.getCurrentSessionId()+'&SUBSESSIONID='+parent.getCurrentProcessId()+'&ONUNLOADBEHAVIOUR=NOTHING&CENTRALLIB=PP' + vIP5);
+addCasabacFrame(frames['center']);
+try { document.getElementById('right').src = 'workplace/wp23aroundright.html'; } catch (eexxcc) {}
+try { document.getElementById('bottom').src = 'workplace/wp23aroundbottom.html'; } catch (eexxcc) {}
+}
+</script>
+<script>
+var m_isCasabacMFPAGE = true;
+var m_casabacFrames = [];
+function onInitFrames() { onInitFramesBelow(); }
+function addCasabacFrame(pFrame) { m_casabacFrames.push(pFrame); }
+function getCasabacFrames() { return m_casabacFrames; }
+parent.bringToFrontSCP(location.href);</script>
+<html>
+<head>
+<title>Multi Frame Page</title>
+</head>
+<frameset border='0' frameborder='0'  rows='79,*,20' style='' onload='onInitFrames();'>
+<frame marginheight='0' marginwidth='0'  style='' scrolling='no' noresize frameborder='0' id='top' name='top' src='../HTMLBasedGUI/general/aboutBlank.html'>
+<frameset id='middle' name='middle' border='0' frameborder='0'  cols='35,*,30' style=''>
+<frame marginheight='0' marginwidth='0'  style='' scrolling='no' noresize frameborder='0' id='left' name='left' src='../HTMLBasedGUI/general/aboutBlank.html'>
+<frame marginheight='0' marginwidth='0'  style=''  frameborder='0' id='center' name='center' scrolling='no' src='../HTMLBasedGUI/general/aboutBlank.html'>
+<frame marginheight='0' marginwidth='0'  style='' scrolling='no' noresize frameborder='0' id='right' name='right' src='../HTMLBasedGUI/general/aboutBlank.html'>
+</frameset>
+<frame marginheight='0' marginwidth='0'  style='' scrolling='no' noresize frameborder='0' id='bottom' name='bottom' src='../HTMLBasedGUI/general/aboutBlank.html'>
+</frameset>
+</html>

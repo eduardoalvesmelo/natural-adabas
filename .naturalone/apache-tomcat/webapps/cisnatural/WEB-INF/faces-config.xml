@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!-- Copyright 2005 Sun Microsystems, Inc. All rights reserved. You may not modify, use, reproduce, or distribute this software except in compliance with the terms of the License at: http://developer.sun.com/berkeley_license.html
+$Id: faces-config.xml,v 1.2 2005/03/26 10:06:44 inder Exp $ -->
+
+<!DOCTYPE faces-config PUBLIC
+  "-//Sun Microsystems, Inc.//DTD JavaServer Faces Config 1.0//EN"
+  "http://java.sun.com/dtd/web-facesconfig_1_0.dtd">
+
+<faces-config>
+  <application>
+    <locale-config>
+       <default-locale>en</default-locale>
+       <supported-locale>en</supported-locale>
+     </locale-config>
+  </application>
+
+  <!--
+   - managed beans
+  -->
+  <managed-bean>
+    <managed-bean-name>nwoSessionBean</managed-bean-name>
+    <managed-bean-class>com.softwareag.nwo.conftool.NwoSession</managed-bean-class>
+    <managed-bean-scope>request</managed-bean-scope>
+  </managed-bean>
+  
+    <managed-bean>
+    <managed-bean-name>nwoUserBean</managed-bean-name>
+    <managed-bean-class>com.softwareag.nwo.conftool.NwoUser</managed-bean-class>
+    <managed-bean-scope>request</managed-bean-scope>
+  </managed-bean>
+
+  <managed-bean>
+    <managed-bean-name>nwoSettings</managed-bean-name>
+    <managed-bean-class>com.softwareag.nwo.conftool.NwoSettings</managed-bean-class>
+    <managed-bean-scope>session</managed-bean-scope>
+  </managed-bean>
+
+  <managed-bean>
+    <managed-bean-name>nwoLoggerBean</managed-bean-name>
+    <managed-bean-class>com.softwareag.nwo.conftool.NwoLoggerXML</managed-bean-class>
+    <managed-bean-scope>request</managed-bean-scope>
+  </managed-bean>
+
+  <!--
+   - navigation rules
+  -->  
+  <navigation-rule>
+    <from-view-id>/conf_leftFrame.jsp</from-view-id>
+    <navigation-case>
+      <from-outcome>logout</from-outcome>
+      <to-view-id>/conf_logout.jsp</to-view-id>
+    </navigation-case>
+  </navigation-rule>
+
+  <navigation-rule>
+    <from-view-id>/conf_listSessions.jsp</from-view-id>
+    <navigation-case>
+      <from-outcome>editSession</from-outcome>
+      <to-view-id>/conf_editsession.jsp</to-view-id>
+    </navigation-case>
+  </navigation-rule>
+  
+  <navigation-rule>
+    <from-view-id>/conf_editsession.jsp</from-view-id>
+    <navigation-case>
+      <from-outcome>listSessions</from-outcome>
+      <to-view-id>/conf_listSessions.jsp</to-view-id>
+      <redirect/>
+    </navigation-case>
+    <navigation-case>
+      <from-outcome>cancelSession</from-outcome>
+      <to-view-id>/conf_listSessions.jsp</to-view-id>
+      <redirect/>
+    </navigation-case>
+  </navigation-rule>
+  
+  <navigation-rule>
+    <from-view-id>/conf_listSessions.jsp</from-view-id>
+    <navigation-case>
+      <from-outcome>editUser</from-outcome>
+      <to-view-id>/conf_edituser.jsp</to-view-id>
+    </navigation-case>
+  </navigation-rule>  
+  
+  <navigation-rule>
+    <from-view-id>/conf_edituser.jsp</from-view-id>
+    <navigation-case>
+      <from-outcome>listSessions</from-outcome>
+      <to-view-id>/conf_listSessions.jsp</to-view-id>
+      <redirect/>
+    </navigation-case>
+    <navigation-case>
+      <from-outcome>cancelUser</from-outcome>
+      <to-view-id>/conf_listSessions.jsp</to-view-id>
+      <redirect/>
+    </navigation-case>
+  </navigation-rule>  
+
+</faces-config>

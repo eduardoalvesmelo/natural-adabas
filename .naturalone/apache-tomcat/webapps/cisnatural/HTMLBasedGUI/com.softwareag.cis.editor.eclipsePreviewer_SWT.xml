@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.adapter.PreviewerAdapter" casaindex="1" >
+
+
+        <pagebody horizdist="false" takefullheight="true" paddingleft="20" paddingright="20" paddingtop="20" paddingbottom="20" casaindex="2" >
+
+
+                <itr takefullwidth="true" height="100%" casaindex="3" >
+
+
+                        <subcispage2 subcispageprop="previewPage" width="100%" height="100%" borderwidth="1" casaindex="4" >
+
+
+                        </subcispage2>
+
+
+                </itr>
+
+
+        </pagebody>
+
+
+    </page>

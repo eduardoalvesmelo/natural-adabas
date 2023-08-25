@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.ViewEditorConfig5Adapter" pagename="CIS_EDIT" casaindex="1" >
+
+
+        <header casaindex="2" >
+
+
+                <button textid="configSave" method="onOK" image="../HTMLBasedGUI/images/save.gif" casaindex="3" >
+
+
+                </button>
+
+
+        </header>
+
+
+        <pagebody horizdist="false" takefullwidth="true" casaindex="4" >
+
+
+                <itr height="22" fixlayout="true" takefullwidth="true" casaindex="5" >
+
+
+                        <label textid="configConfigFile" width="100%" asheadline="true" labelstyle="padding-left: 2px; font-size: 10px; font-weight: bold" casaindex="6" >
+
+
+                        </label>
+
+
+                </itr>
+
+
+                <vdist height="5" casaindex="7" >
+
+
+                </vdist>
+
+
+                <itr takefullwidth="true" casaindex="8" >
+
+
+                        <hdist width="5" casaindex="9" >
+
+
+                        </hdist>
+
+
+                        <coltable0 width="100%" casaindex="10" >
+
+
+                                <rowarea textid="configPathInfo" withtoppadding="false" casaindex="11" >
+
+
+                                        <itr casaindex="12" >
+
+
+                                                <label textid="configName" width="100" casaindex="13" >
+
+
+                                                </label>
+
+
+                                                <textout valueprop="fileName" width="400" casaindex="14" >
+
+
+                                                </textout>
+
+
+                                        </itr>
+
+
+                                        <itr casaindex="15" >
+
+
+                                                <label textid="configDir" width="100" casaindex="16" >
+
+
+                                                </label>
+
+
+                                                <text valueprop="project" width="432" displayonly="true" wrap="soft" rows="3" casaindex="17" >
+
+
+                                                </text>
+
+
+                                        </itr>
+
+
+                                </rowarea>
+
+
+                                <vdist height="5" casaindex="18" >
+
+
+                                </vdist>
+
+
+                        </coltable0>
+
+
+                        <hdist width="5" casaindex="19" >
+
+
+                        </hdist>
+
+
+                </itr>
+
+
+                <rowdynavis valueprop="showCodeGenSettings" casaindex="20" >
+
+
+                        <itr height="22" fixlayout="true" takefullwidth="true" casaindex="21" >
+
+
+                                <label textid="configCodeAssSettings" width="100%" asheadline="true" labelstyle="padding-left: 2px; font-size: 10px; font-weight: bold" casaindex="22" >
+
+
+                                </label>
+
+
+                        </itr>
+
+
+                        <vdist height="5" casaindex="23" >
+
+
+                        </vdist>
+
+
+                        <itr takefullwidth="true" casaindex="24" >
+
+
+                                <hdist width="5" casaindex="25" >
+
+
+                                </hdist>
+
+
+                                <coltable0 width="100%" casaindex="26" >
+
+
+                                        <rowarea textid="ec.general" withtoppadding="false" casaindex="27" >
+
+
+                                                <itr casaindex="28" >
+
+
+                                                        <label textid="configCodeDir" width="150" casaindex="29" >
+
+
+                                                        </label>
+
+
+                            <field xsdType="xs:string" valueprop="sourceDir" width="380" casaindex="30" >
+
+                            </field>
+
+                                                </itr>
+
+
+                                                <itr casaindex="31" >
+
+
+                                                        <label textid="configSpacesPerTab" width="150" casaindex="32" >
+
+
+                                                        </label>
+
+
+                            <field xsdType="int" datatype="int" maxlength="1" valueprop="tabWidth" length="2" casaindex="33" >
+
+                            </field>
+
+                                                </itr>
+
+
+                                                <itr casaindex="34" >
+
+
+                                                        <label textid="configOneLine" casaindex="35" >
+
+
+                                                        </label>
+
+
+                                                        <hdist casaindex="36" >
+
+
+                                                        </hdist>
+
+
+                                                        <checkbox valueprop="oneLine" casaindex="37" >
+
+
+                                                        </checkbox>
+
+
+                                                </itr>
+
+
+                                        </rowarea>
+
+
+                                        <vdist height="5" casaindex="38" >
+
+
+                                        </vdist>
+
+
+                                        <rowarea textid="ec.classMembers" withtoppadding="false" casaindex="39" >
+
+
+                                                <itr casaindex="40" >
+
+
+                                                        <label textid="configPrefix" width="150" casaindex="41" >
+
+
+                                                        </label>
+
+
+                            <field xsdType="xs:string" maxlength="9" valueprop="prefix" length="12" casaindex="42" >
+
+                            </field>
+
+                                                </itr>
+
+
+                                                <itr casaindex="43" >
+
+
+                                                        <label textid="memberQualifier" width="150" casaindex="44" >
+
+
+                                                        </label>
+
+
+                            <field xsdType="xs:string" valueprop="memberQualifier" popupmethod="openIdValueCombo" popupinputonly="true" casaindex="45" >
+
+                            </field>
+
+                                                </itr>
+
+
+                                        </rowarea>
+
+
+                                        <vdist height="5" casaindex="46" >
+
+
+                                        </vdist>
+
+
+                                        <rowarea textid="ec.validation" withtoppadding="false" casaindex="47" >
+
+
+                                                <itr casaindex="48" >
+
+
+                                                        <label textid="disablePropNameValidation" width="150" casaindex="49" >
+
+
+                                                        </label>
+
+
+                                                        <hdist casaindex="50" >
+
+
+                                                        </hdist>
+
+
+                                                        <checkbox valueprop="disablePropNameValidation" flush="server" casaindex="51" >
+
+
+                                                        </checkbox>
+
+
+                                                </itr>
+
+
+                                                <itr takefullwidth="true" casaindex="52" >
+
+
+                                                        <label textid="propNameValidation" width="150" casaindex="53" >
+
+
+                                                        </label>
+
+
+                            <field xsdType="xs:string" valueprop="propNameValidation" width="100%" casaindex="54" >
+
+                            </field>
+
+                                                </itr>
+
+
+                                                <vdist height="100%" casaindex="55" >
+
+
+                                                </vdist>
+
+
+                                        </rowarea>
+
+
+                                        <vdist height="5" casaindex="56" >
+
+
+                                        </vdist>
+
+
+                                </coltable0>
+
+
+                                <hdist width="5" casaindex="57" >
+
+
+                                </hdist>
+
+
+                        </itr>
+
+
+                        <vdist height="100%" casaindex="58" >
+
+
+                        </vdist>
+
+
+                </rowdynavis>
+
+
+                <rowdynavis valueprop="showXMLDirectory" casaindex="59" >
+
+
+                        <itr height="3" itrstyle="background-color: #FFFFFF" takefullwidth="true" casaindex="60" >
+
+
+                        </itr>
+
+
+                        <itr takefullwidth="true" casaindex="61" >
+
+
+                                <hdist width="4" casaindex="62" >
+
+
+                                </hdist>
+
+
+                                <colarea textid="configXMLDirectorySettings" width="100%" casaindex="63" >
+
+
+                                        <itr casaindex="64" >
+
+
+                                                <label textid="configXMLDir" width="150" casaindex="65" >
+
+
+                                                </label>
+
+
+                        <field xsdType="xs:string" valueprop="xmlDir" width="380" casaindex="66" >
+
+                        </field>
+
+                                        </itr>
+
+
+                                </colarea>
+
+
+                        </itr>
+
+
+                </rowdynavis>
+
+
+                <rowdynavis valueprop="showSourceDirectory" casaindex="67" >
+
+
+                        <itr itrstyle="background-color: #FFFFFF" takefullwidth="true" casaindex="68" >
+
+
+                        </itr>
+
+
+                        <rowarea textid="ec.java" casaindex="69" >
+
+
+                                <itr casaindex="70" >
+
+
+                                        <label textid="configCodeDir" width="150" casaindex="71" >
+
+
+                                        </label>
+
+
+                    <field xsdType="xs:string" valueprop="sourceDir" width="380" casaindex="72" >
+
+                    </field>
+
+                                </itr>
+
+
+                                <vdist casaindex="73" >
+
+
+                                </vdist>
+
+
+                        </rowarea>
+
+
+                </rowdynavis>
+
+
+                <rowdynavis valueprop="showCodeGenSettings" casaindex="74" >
+
+
+                        <itr height="22" fixlayout="true" takefullwidth="true" casaindex="75" >
+
+
+                                <label textid="ec.attributes" width="100%" asheadline="true" labelstyle="padding-left: 2px; font-size: 10px; font-weight: bold" casaindex="76" >
+
+
+                                </label>
+
+
+                        </itr>
+
+
+                        <vdist height="5" casaindex="77" >
+
+
+                        </vdist>
+
+
+                        <itr takefullwidth="true" casaindex="78" >
+
+
+                                <hdist width="5" casaindex="79" >
+
+
+                                </hdist>
+
+
+                                <coltable0 width="100%" casaindex="80" >
+
+
+                                        <rowarea textid="ec.dynvalidvalues" withtoppadding="false" casaindex="81" >
+
+
+                                                <itr casaindex="82" >
+
+
+                                                        <label textid="ec.javaClassName" width="150" casaindex="83" >
+
+
+                                                        </label>
+
+
+                            <field xsdType="xs:string" valueprop="validValuesProvider" width="380" casaindex="84" >
+
+                            </field>
+
+                                                </itr>
+
+
+                                        </rowarea>
+
+
+                                        <vdist height="5" casaindex="85" >
+
+
+                                        </vdist>
+
+
+                                </coltable0>
+
+
+                                <hdist width="5" casaindex="86" >
+
+
+                                </hdist>
+
+
+                        </itr>
+
+
+                        <vdist height="100%" casaindex="87" >
+
+
+                        </vdist>
+
+
+                </rowdynavis>
+
+
+                <rowdynavis valueprop="showCodeGenSettings" casaindex="88" >
+
+
+                        <itr height="22" fixlayout="true" takefullwidth="true" casaindex="89" >
+
+
+                                <label textid="ec.previewSettings" width="100%" asheadline="true" labelstyle="padding-left: 2px; font-size: 10px; font-weight: bold" casaindex="90" >
+
+
+                                </label>
+
+
+                        </itr>
+
+
+                        <vdist height="5" casaindex="91" >
+
+
+                        </vdist>
+
+
+                        <itr takefullwidth="true" casaindex="92" >
+
+
+                                <hdist width="5" casaindex="93" >
+
+
+                                </hdist>
+
+
+                                <coltable0 width="100%" casaindex="94" >
+
+
+                                        <rowarea textid="ec.previewWithLatestClasses" withtoppadding="false" casaindex="95" >
+
+
+                                                <itr casaindex="96" >
+
+
+                                                        <radiobutton valueprop="showQuickPreview" value="true" textid="ec.previewWithLatestClassesShow" hdistpixelwidth="5" casaindex="97" >
+
+
+                                                        </radiobutton>
+
+
+                                                </itr>
+
+
+                                                <itr casaindex="98" >
+
+
+                                                        <radiobutton valueprop="showQuickPreview" value="false" textid="ec.previewWithLatestClassesHide" hdistpixelwidth="5" casaindex="99" >
+
+
+                                                        </radiobutton>
+
+
+                                                </itr>
+
+
+                                        </rowarea>
+
+
+                                        <vdist height="5" casaindex="100" >
+
+
+                                        </vdist>
+
+
+                                </coltable0>
+
+
+                                <hdist width="5" casaindex="101" >
+
+
+                                </hdist>
+
+
+                        </itr>
+
+
+                        <itr takefullwidth="true" casaindex="102" >
+
+
+                                <hdist width="5" casaindex="103" >
+
+
+                                </hdist>
+
+
+                                <coltable0 width="100%" casaindex="104" >
+
+
+                                        <rowarea textid="ec.previewScreenTestOnly" withtoppadding="false" casaindex="105" >
+
+
+                                                <itr casaindex="106" >
+
+
+                                                        <radiobutton valueprop="previewWithDummyAdapter" value="true" textid="ec.previewWithDummyAdapter" hdistpixelwidth="5" casaindex="107" >
+
+
+                                                        </radiobutton>
+
+
+                                                </itr>
+
+
+                                                <itr casaindex="108" >
+
+
+                                                        <radiobutton valueprop="previewWithDummyAdapter" value="false" textid="ec.previewWithRealAdapter" hdistpixelwidth="5" casaindex="109" >
+
+
+                                                        </radiobutton>
+
+
+                                                </itr>
+
+
+                                        </rowarea>
+
+
+                                        <vdist height="5" casaindex="110" >
+
+
+                                        </vdist>
+
+
+                                </coltable0>
+
+
+                                <hdist width="5" casaindex="111" >
+
+
+                                </hdist>
+
+
+                        </itr>
+
+
+                        <vdist height="100%" casaindex="112" >
+
+
+                        </vdist>
+
+
+                </rowdynavis>
+
+
+                <vdist height="100%" casaindex="113" >
+
+
+                </vdist>
+
+
+        </pagebody>
+
+
+        <statusbar withdistance="false" casaindex="114" >
+
+
+        </statusbar>
+
+
+</page>

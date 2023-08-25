@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.LayoutStringExternalizer" translationreference="editor" casaindex="1" >
+
+
+        <titlebar textid="relse.titlebar1" closetitletextid="closePage" casaindex="2" >
+
+
+        </titlebar>
+
+
+        <header withdistance="false" casaindex="3" >
+
+
+        </header>
+
+
+        <pagebody casaindex="4" >
+
+
+                <itr casaindex="5" >
+
+
+                        <hdist width="3" casaindex="6" >
+
+
+                        </hdist>
+
+
+                        <label textid="relse.label7" width="100" casaindex="7" >
+
+
+                        </label>
+
+
+            <field xsdType="xs:string" valueprop="layoutPath" width="100%" casaindex="8" >
+
+            </field>
+
+                        <hdist casaindex="9" >
+
+
+                        </hdist>
+
+
+                </itr>
+
+
+                <itr casaindex="10" >
+
+
+                        <hdist width="3" casaindex="11" >
+
+
+                        </hdist>
+
+
+                        <label textid="relse.label8" width="100" casaindex="12" >
+
+
+                        </label>
+
+
+            <field xsdType="xs:string" valueprop="mlFile" width="100%" casaindex="13" >
+
+            </field>
+
+                </itr>
+
+
+                <itr casaindex="14" >
+
+
+                        <hdist width="3" casaindex="15" >
+
+
+                        </hdist>
+
+
+                        <label textid="relse.label9" width="100" casaindex="16" >
+
+
+                        </label>
+
+
+            <field xsdType="xs:string" valueprop="idPrefix" casaindex="17" >
+
+            </field>
+
+                </itr>
+
+
+                <itr casaindex="18" >
+
+
+                        <hdist width="103" casaindex="19" >
+
+
+                        </hdist>
+
+
+                        <button method="parseLayout" textid="relse.button2" casaindex="20" >
+
+
+                        </button>
+
+
+                </itr>
+
+
+                <vdist casaindex="21" >
+
+
+                </vdist>
+
+
+                <rowtablearea2 firstrowcolwidths="true" griddataprop="lines" rowcount="20" casaindex="22" >
+
+
+                        <tr casaindex="23" >
+
+
+                                <label textid="relse.label10" width="50" casaindex="24" >
+
+
+                                </label>
+
+
+                                <label textid="relse.label11" width="70%" casaindex="25" >
+
+
+                                </label>
+
+
+                                <label textid="relse.label12" width="30%" casaindex="26" >
+
+
+                                </label>
+
+
+                                <label textid="relse.label13" width="100" casaindex="27" >
+
+
+                                </label>
+
+
+                        </tr>
+
+
+                        <repeat casaindex="28" >
+
+
+                                <str valueprop="selected" casaindex="29" >
+
+
+                                        <checkbox valueprop="selected" width="10" casaindex="30" >
+
+
+                                        </checkbox>
+
+
+                    <field xsdType="xs:string" displayonly="true" transparentbackground="true" valueprop="path" width="100%" casaindex="31" >
+
+                    </field>
+
+                    <field xsdType="xs:string" displayonly="true" transparentbackground="true" valueprop="name" width="100%" casaindex="32" >
+
+                    </field>
+
+                    <field xsdType="xs:string" valueprop="id" width="100%" casaindex="33" >
+
+                    </field>
+
+                                </str>
+
+
+                        </repeat>
+
+
+                </rowtablearea2>
+
+
+                <vdist casaindex="34" >
+
+
+                </vdist>
+
+
+                <itr casaindex="35" >
+
+
+                        <button method="refactor" textid="relse.button3" casaindex="36" >
+
+
+                        </button>
+
+
+                </itr>
+
+
+        </pagebody>
+
+
+        <statusbar withdistance="false" casaindex="37" >
+
+
+        </statusbar>
+
+
+</page>

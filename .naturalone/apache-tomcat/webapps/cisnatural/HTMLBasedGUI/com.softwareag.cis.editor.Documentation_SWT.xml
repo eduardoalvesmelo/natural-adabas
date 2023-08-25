@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.editor.DocumentationAdapter" translationreference="CIS_TOOLS" casaindex="1" >
+
+
+        <titlebar textid="documentation.titlebar0" closetitletextid="closePage" casaindex="2" >
+
+
+        </titlebar>
+
+
+        <itr takefullwidth="true" height="35" comment="Heute ist Freitag" itrstyle="background-color: #EDEDE4" casaindex="3" >
+
+
+                <hdist width="100%" casaindex="4" >
+
+
+                </hdist>
+
+
+                <label name="Select your Application:" width="180" asplaintext="true" casaindex="5" >
+
+
+                </label>
+
+
+                <radiobutton valueprop="selectedProj" value="1" flush="server" name="Application Designer" casaindex="6" >
+
+
+                </radiobutton>
+
+
+                <radiobutton valueprop="selectedProj" value="2" flush="server" name="Application Composer" casaindex="7" >
+
+
+                </radiobutton>
+
+
+                <radiobutton valueprop="selectedProj" value="3" flush="server" name="Natural for AJAX" casaindex="8" >
+
+
+                </radiobutton>
+
+
+                <hdist width="10" casaindex="9" >
+
+
+                </hdist>
+
+
+        </itr>
+
+
+        <pagebody takefullheight="true" casaindex="10" >
+
+
+                <vsplit height="100%" widthleftprop="widthLeft" widthleft="250" casaindex="11" >
+
+
+                        <splitcell takefullheight="true" casaindex="12" >
+
+
+                                <clienttree treecollectionprop="tree" height="100%" withplusminus="true" singleselect="false" selectionvisible="true" casaindex="13" >
+
+
+                                </clienttree>
+
+
+                        </splitcell>
+
+
+                        <splitcell takefullheight="true" casaindex="14" >
+
+
+                                <itr casaindex="15" >
+
+
+                                </itr>
+
+
+                                <itr height="100%" width="100%" casaindex="16" >
+
+
+                                        <subpage valueprop="tagDescription" height="100%" width="100%" scrolling="yes" casaindex="17" >
+
+
+                                        </subpage>
+
+
+                                </itr>
+
+
+                        </splitcell>
+
+
+                </vsplit>
+
+
+        </pagebody>
+
+
+</page>

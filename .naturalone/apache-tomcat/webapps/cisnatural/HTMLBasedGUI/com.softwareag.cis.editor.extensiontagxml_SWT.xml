@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.admin.EditorExtensionTagAdapter" translationreference="editor" stylesheetfile="../cis/styles/CIS_DEFAULT.css" darkbackground="true" casaindex="1" >
+
+
+        <pagebody horizdist="false" takefullheight="true" paddingtop="5" casaindex="2" >
+
+
+                <itr casaindex="3" >
+
+
+                        <hdist width="5" casaindex="4" >
+
+
+                        </hdist>
+
+
+                        <label textid="label.douwantto" width="235" asplaintext="true" casaindex="5" >
+
+
+                        </label>
+
+
+                        <radiobutton valueprop="controlType" value="control" flush="server" casaindex="6" >
+
+
+                        </radiobutton>
+
+
+                        <hdist casaindex="7" >
+
+
+                        </hdist>
+
+
+                        <label textid="label.no" asplaintext="true" casaindex="8" >
+
+
+                        </label>
+
+
+                </itr>
+
+
+                <itr casaindex="9" >
+
+
+                        <hdist width="240" casaindex="10" >
+
+
+                        </hdist>
+
+
+                        <radiobutton valueprop="controlType" value="container" flush="server" casaindex="11" >
+
+
+                        </radiobutton>
+
+
+                        <hdist casaindex="12" >
+
+
+                        </hdist>
+
+
+                        <label textid="label.yesthectrl" width="100%" asplaintext="true" casaindex="13" >
+
+
+                        </label>
+
+
+                </itr>
+
+
+                <itr height="100%" width="100%" casaindex="14" >
+
+
+                        <coltable0 width="100%" takefullheight="true" casaindex="15" >
+
+
+                                <rowdynavis valueprop="containerXMLNotVis" height="100%" casaindex="16" >
+
+
+                                        <itr height="15" fixlayout="true" width="100%" casaindex="17" >
+
+
+                                                <label textid="label.xmlopeneditor" width="100%" asheadline="true" height="16" labelstyle="padding-left: 2px; font-size: 10px; font-weight: bold" casaindex="18" >
+
+
+                                                </label>
+
+
+                                        </itr>
+
+
+                                        <itr height="100%" width="100%" casaindex="19" >
+
+
+                                                <text valueprop="macroXML" width="100%" height="100%" wrap="off" casaindex="20" >
+
+
+                                                </text>
+
+
+                                        </itr>
+
+
+                                </rowdynavis>
+
+
+                                <rowdynavis valueprop="containerXMLVis" height="100%" casaindex="21" >
+
+
+                                        <itr height="15" fixlayout="true" width="100%" casaindex="22" >
+
+
+                                                <label textid="label.xmlshorttag" width="100%" asheadline="true" height="16" labelstyle="padding-left: 2px; font-size: 10px; font-weight: bold" casaindex="23" >
+
+
+                                                </label>
+
+
+                                        </itr>
+
+
+                                        <itr height="200" width="100%" casaindex="24" >
+
+
+                                                <text valueprop="macroXML" width="100%" height="100%" wrap="off" casaindex="25" >
+
+
+                                                </text>
+
+
+                                        </itr>
+
+
+                                        <vdist casaindex="26" >
+
+
+                                        </vdist>
+
+
+                                        <itr height="15" fixlayout="true" width="100%" casaindex="27" >
+
+
+                                                <label textid="label.closingxml" width="100%" asheadline="true" height="16" labelstyle="padding-left: 2px; font-size: 10px; font-weight: bold" casaindex="28" >
+
+
+                                                </label>
+
+
+                                        </itr>
+
+
+                                        <itr height="100%" width="100%" casaindex="29" >
+
+
+                                                <text valueprop="macroXMLEndTag" width="100%" height="100%" wrap="off" casaindex="30" >
+
+
+                                                </text>
+
+
+                                        </itr>
+
+
+                                </rowdynavis>
+
+
+                        </coltable0>
+
+
+                        <hdist width="10" casaindex="31" >
+
+
+                        </hdist>
+
+
+                        <coldynavis valueprop="helpAreaVis" width="250" takefullheight="true" casaindex="32" >
+
+
+                                <tr casaindex="33" >
+
+
+                                        <ihtml valueprop="tab3HTML" width="100%" height="100%" casaindex="34" >
+
+
+                                        </ihtml>
+
+
+                                </tr>
+
+
+                        </coldynavis>
+
+
+                        <coltable0 width="20" casaindex="35" >
+
+
+                                <tr casaindex="36" >
+
+
+                                        <icon image="images/scrolllastpage.gif" method="onHidelHelp" titletextid="icon.label.hidehelp" casaindex="37" >
+
+
+                                        </icon>
+
+
+                                </tr>
+
+
+                                <vdist casaindex="38" >
+
+
+                                </vdist>
+
+
+                                <tr casaindex="39" >
+
+
+                                        <icon image="images/scrollfirstpage.gif" method="onShowHelp" titletextid="icon.label.showhelp" casaindex="40" >
+
+
+                                        </icon>
+
+
+                                </tr>
+
+
+                        </coltable0>
+
+
+                </itr>
+
+
+        </pagebody>
+
+
+</page>

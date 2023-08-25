@@ -1,0 +1,28 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** New Program PRG01.
+/**
+/** :author eduar
+/* TODO Enter your code here
+DEFINE DATA LOCAL
+    LOCAL USING MYLDA
+END-DEFINE
+*
+  INPUT 'Informe a quantidade de termos a ser exibidos: ' #num-termos
+  #fibonacci(1):= #ant-1
+  #fibonacci(2):= #ant-2
+*
+  FOR #i:= 3 to #num-termos
+      #prox:= #ant-1 + #ant-2
+      #fibonacci(#i):= #prox
+      #ant-2:= #ant-1  
+      #ant-1:= #prox
+  END-FOR
+*
+  FOR #i:= 1 to #num-termos
+      WRITE '=' #fibonacci(#i)
+  END-FOR
+*  
+END

@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.natural.mapconverter.gui.MapConverterAdapter" casaindex="1" >
+
+
+        <titlebar name="Map Converter" casaindex="2" >
+
+
+        </titlebar>
+
+
+        <header align="left" withdistance="false" casaindex="3" >
+
+
+                <menu menucollectionprop="listMenu" casaindex="4" >
+
+
+                </menu>
+
+
+        </header>
+
+
+        <pagebody horizdist="false" takefullheight="true" paddingleft="20" paddingright="20" paddingtop="20" paddingbottom="20" casaindex="5" >
+
+
+ 			        <vsplit height="100%" widthleftprop="splitLeft" casaindex="6" >
+
+
+				            <splitcell takefullheight="true" casaindex="7" >
+
+
+					                <rowarea name="Select Project" casaindex="8" >
+
+
+						                    <vdist height="10" casaindex="9" >
+
+
+						                    </vdist>
+
+
+						                    <itr casaindex="10" >
+
+
+							                        <label name="Project" width="100" title="Layout files are generated into the selected project." casaindex="11" >
+
+
+							                        </label>
+
+
+							                        <combodyn2 valueprop="projectName" validvaluesprop="projectValues" width="250" flush="server" flushmethod="onProjectChanged" casaindex="12" >
+
+
+							                        </combodyn2>
+
+
+						                    </itr>
+
+
+						                    <vdist height="10" casaindex="13" >
+
+
+						                    </vdist>
+
+
+                    					                </rowarea>
+
+
+					                <rowareawithheader casaindex="14" >
+
+
+                                <rowareaheader name="Select Conversion Rules" casaindex="15" >
+
+
+                                        <icon image="../HTMLBasedGUI/images/toolbarxml.gif" valign="middle" method="onShowRules" title="Show Rules" casaindex="16" >
+
+
+                                        </icon>
+
+
+                                                </rowareaheader>
+
+
+                                <rowareabody casaindex="17" >
+
+
+						                        <vdist height="10" casaindex="18" >
+
+
+						                        </vdist>
+
+
+						                        <itr casaindex="19" >
+
+
+							                            <hdist width="100" casaindex="20" >
+
+
+							                            </hdist>
+
+
+							                            <radiobutton valueprop="defaultRules" value="1" flush="server" flushmethod="onDefaultRulesChanged" statusprop="stDefaultRules" name="Use default rules" casaindex="21" >
+
+
+							                            </radiobutton>
+
+
+							                            <radiobutton valueprop="defaultRules" value="0" flush="server" flushmethod="onDefaultRulesChanged" statusprop="stDefaultRules" name="Use project rules" casaindex="22" >
+
+
+							                            </radiobutton>
+
+
+						                        </itr>
+
+
+						                        <vdist height="10" casaindex="23" >
+
+
+						                        </vdist>
+
+
+						                        <itr casaindex="24" >
+
+
+							                            <label name="Rules" width="100" title="XML file containing the conversion rules" casaindex="25" >
+
+
+							                            </label>
+
+
+							                            <combodyn2 valueprop="rulesName" validvaluesprop="rulesValues" width="250" casaindex="26" >
+
+
+							                            </combodyn2>
+
+
+						                        </itr>
+
+
+												                        <vdist height="10" casaindex="27" >
+
+
+						                        </vdist>
+
+
+					                    </rowareabody>
+
+
+					                </rowareawithheader>
+
+
+					                <rowareawithheader casaindex="28" >
+
+
+						                     <rowareaheader name="Select Natural Map Extracts" casaindex="29" >
+
+
+							                        <icon image="../HTMLBasedGUI/images/toolbarxml.gif" valign="middle" method="onShowMap" title="Show map extract" casaindex="30" >
+
+
+							                        </icon>
+
+
+                						                    </rowareaheader>
+
+
+						                    <rowareabody casaindex="31" >
+
+
+							                        <vdist height="10" casaindex="32" >
+
+
+							                        </vdist>
+
+
+							                        <itr casaindex="33" >
+
+
+							                                <label name="Map extract input folder" width="100" title="Folder containing the map XML files extracted from Natural" casaindex="34" >
+
+
+								                            </label>
+
+
+								<field xsdType="xs:string" flush="server" flushmethod="onMapFolderChanged" valueprop="mapFolder" width="250" casaindex="35" >
+
+								</field>
+
+							                        </itr>
+
+
+							                        <itr casaindex="36" >
+
+
+								                            <label name="Select map extract" width="100" title="Map XML file extracted from Natural" casaindex="37" >
+
+
+								                            </label>
+
+
+								                            <combodyn2 valueprop="mapName" validvaluesprop="mapValues" width="250" casaindex="38" >
+
+
+								                            </combodyn2>
+
+
+							                        </itr>
+
+
+													                        <vdist height="10" casaindex="39" >
+
+
+							                        </vdist>
+
+
+						                    </rowareabody>
+
+
+					                </rowareawithheader>
+
+
+					                <rowareawithheader casaindex="40" >
+
+
+						                     <rowareaheader name="Conversion Results" casaindex="41" >
+
+
+						                         <icon image="../HTMLBasedGUI/images/toolbarxml.gif" valign="middle" method="onShowLayout" title="Show Layout XML Definition" casaindex="42" >
+
+
+							                        </icon>
+
+
+      							                        <hdist width="6" casaindex="43" >
+
+
+                        </hdist>
+
+
+          							                         <icon image="../HTMLBasedGUI/images/preview2.gif" valign="middle" method="onPreviewLayout" title="Preview Layout XML Definition" visibleprop="previewVis" casaindex="44" >
+
+
+							                        </icon>
+
+
+      						                    </rowareaheader>
+
+
+						                    <rowareabody casaindex="45" >
+
+
+						                        <vdist height="10" casaindex="46" >
+
+
+						                        </vdist>
+
+
+						                        <itr casaindex="47" >
+
+
+							                            <hdist width="10" casaindex="48" >
+
+
+							                            </hdist>
+
+
+							                             <combodyn2 valueprop="layoutName" validvaluesprop="layoutNameValues" statusprop="stLayoutNameValues" width="250" casaindex="49" >
+
+
+							                            </combodyn2>
+
+
+						                        </itr>
+
+
+ 						                        <vdist height="10" casaindex="50" >
+
+
+						                        </vdist>
+
+
+    						                        <itr height="150" width="100%" casaindex="51" >
+
+
+									                            <text valueprop="statusText" width="100%" height="100%" displayonly="true" wrap="off" casaindex="52" >
+
+
+							                            </text>
+
+
+						                         </itr>
+
+
+   											                        <vdist height="10" casaindex="53" >
+
+
+						                        </vdist>
+
+
+                   					                    </rowareabody>
+
+
+					                </rowareawithheader>
+
+
+				            </splitcell>
+
+
+ 				            <splitcell takefullheight="true" casaindex="54" >
+
+
+										   											                <tr height="100%" casaindex="55" >
+
+
+						                    <subcispage2 subcispageprop="mapPage" width="100%" height="100%" borderwidth="1" withownborder="true" casaindex="56" >
+
+
+						                    </subcispage2>
+
+
+					                </tr>
+
+
+									            </splitcell>
+
+
+		        </vsplit>
+
+
+                </pagebody>
+
+
+             <statusbar withdistance="false" casaindex="57" >
+
+
+        </statusbar>
+
+
+</page>

@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.zzz.ServerInfoModel" translationreference="ServerAdmin" casaindex="1" >
+
+
+        <header withdistance="false" casaindex="2" >
+
+
+                <button method="refresh" textid="refresh" casaindex="3" >
+
+
+                </button>
+
+
+        </header>
+
+
+        <pagebody hscroll="auto" takefullheight="true" vscroll="auto" casaindex="4" >
+
+
+                <rowarea textid="memoryArea" casaindex="5" >
+
+
+                        <tr casaindex="6" >
+
+
+                                <label textid="usedMemory" width="150" casaindex="7" >
+
+
+                                </label>
+
+
+                <field xsdType="xs:string" displayonly="true" valueprop="usedMemory" casaindex="8" >
+
+                </field>
+
+                        </tr>
+
+
+                        <tr casaindex="9" >
+
+
+                                <label textid="processMemory" width="150" casaindex="10" >
+
+
+                                </label>
+
+
+                <field xsdType="xs:string" displayonly="true" valueprop="totalMemory" casaindex="11" >
+
+                </field>
+
+                                <hdist casaindex="12" >
+
+
+                                </hdist>
+
+
+                                <button method="collectGarbage" textid="collectGarbage" casaindex="13" >
+
+
+                                </button>
+
+
+                        </tr>
+
+
+                </rowarea>
+
+
+                <rowarea fixlayout="true" height="100%" textid="sessionsArea" casaindex="14" >
+
+
+                        <itr fixlayout="true" height="100%" width="100%" casaindex="15" >
+
+
+                                <textgrid arrayprop="sessions" height="100%" hscroll="true" selectprop="selected" valueprop="sessions" width="100%" casaindex="16" >
+
+
+                                        <column property="info" textid="client" width="15%" casaindex="17" >
+
+
+                                        </column>
+
+
+                                        <column property="sessionId" textid="sessionId" width="15%" casaindex="18" >
+
+
+                                        </column>
+
+
+                                        <column property="logonTime" textid="loggedOnFor" width="30%" casaindex="19" >
+
+
+                                        </column>
+
+
+                                        <column property="lastActivityTime" textid="lastActivitySince" width="30%" casaindex="20" >
+
+
+                                        </column>
+
+
+                                        <column property="justProcessing" textid="monit_column1" width="70" casaindex="21" >
+
+
+                                        </column>
+
+
+                                        <column property="numberOfProcesses" textid="noInteractionProcesses" width="10%" casaindex="22" >
+
+
+                                        </column>
+
+
+                                </textgrid>
+
+
+                        </itr>
+
+
+                        <vdist casaindex="23" >
+
+
+                        </vdist>
+
+
+                        <itr casaindex="24" >
+
+
+                                <button method="remove" textid="remove" casaindex="25" >
+
+
+                                </button>
+
+
+                                <hdist casaindex="26" >
+
+
+                                </hdist>
+
+
+                                <button method="removeTEMPSessions" textid="removeTEMP" casaindex="27" >
+
+
+                                </button>
+
+
+                        </itr>
+
+
+                </rowarea>
+
+
+                <rowarea textid="systemmgmtArea" casaindex="28" >
+
+
+                        <itr casaindex="29" >
+
+
+                                <label textid="lblClassloader" width="150" casaindex="30" >
+
+
+                                </label>
+
+
+                                <button method="createNewClassLoader" textid="createClassLoaderButton" casaindex="31" >
+
+
+                                </button>
+
+
+                        </itr>
+
+
+                        <vdist casaindex="32" >
+
+
+                        </vdist>
+
+
+                        <itr casaindex="33" >
+
+
+                                <label textid="lblbTextBuffer" width="150" casaindex="34" >
+
+
+                                </label>
+
+
+                                <button method="refreshTextBuffers" textid="mlrefresh" casaindex="35" >
+
+
+                                </button>
+
+
+                                <hdist casaindex="36" >
+
+
+                                </hdist>
+
+
+                                <button method="refreshAccessPathBuffer" textid="accpathrefresh" casaindex="37" >
+
+
+                                </button>
+
+
+                        </itr>
+
+
+                        <vdist casaindex="38" >
+
+
+                        </vdist>
+
+
+                        <itr casaindex="39" >
+
+
+                                <label textid="lblDebugMode" width="150" casaindex="40" >
+
+
+                                </label>
+
+
+                                <radiobutton flush="server" value="false" valueprop="debugMode" casaindex="41" >
+
+
+                                </radiobutton>
+
+
+                                <label asplaintext="true" textid="lblDebugModeFalse" casaindex="42" >
+
+
+                                </label>
+
+
+                                <hdist width="10" casaindex="43" >
+
+
+                                </hdist>
+
+
+                                <radiobutton flush="server" value="true" valueprop="debugMode" casaindex="44" >
+
+
+                                </radiobutton>
+
+
+                                <label asplaintext="true" textid="lblDebugModeTrue" casaindex="45" >
+
+
+                                </label>
+
+
+                                <hdist width="10" casaindex="46" >
+
+
+                                </hdist>
+
+
+                                <button method="showServerLog" textid="showServerLog" casaindex="47" >
+
+
+                                </button>
+
+
+                        </itr>
+
+
+                </rowarea>
+
+
+                <vdist casaindex="48" >
+
+
+                </vdist>
+
+
+        </pagebody>
+
+
+        <statusbar longtextprop="messageLongText" shorttextprop="messageShortText" typeprop="messageType" withdistance="false" casaindex="49" >
+
+
+        </statusbar>
+
+
+</page>

@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?><page model="com.softwareag.cis.admin.EditorExtensionAdapter" translationreference="editor" casaindex="1" >
+
+
+           <header align="left" casaindex="2" >
+
+
+                <menu menucollectionprop="menu" casaindex="3" >
+
+
+                </menu>
+
+
+                <hdist width="100" casaindex="4" >
+
+
+                </hdist>
+
+
+                <icon image="../HTMLBasedGUI/images/new.gif" method="onCreateFile" titletextid="ce.icon.title.newEdExtension" casaindex="5" >
+
+
+                </icon>
+
+
+                <icon image="../HTMLBasedGUI/images/open.gif" method="onOpenFile" titletextid="ce.icon.title.openfile" casaindex="6" >
+
+
+                </icon>
+
+
+                <hdist casaindex="7" >
+
+
+                </hdist>
+
+
+                <icon image="../HTMLBasedGUI/images/distance.gif" casaindex="8" >
+
+
+                </icon>
+
+
+                <hdist casaindex="9" >
+
+
+                </hdist>
+
+
+                <icon image="../HTMLBasedGUI/images/save.gif" method="onSave" titletextid="ce.icon.title.save" casaindex="10" >
+
+
+                </icon>
+
+
+        </header>
+
+
+        <pagebody horizdist="false" takefullheight="true" casaindex="11" >
+
+
+                <vsplit height="100%" widthleft="220" casaindex="12" >
+
+
+                        <splitcell takefullheight="true" casaindex="13" >
+
+
+                                <itr height="15" fixlayout="true" width="100%" casaindex="14" >
+
+
+                                        <label textid="ce.label.xmltags" width="100%" asheadline="true" height="16" labelstyle="padding-left: 2px; font-size: 10px; font-weight: bold" casaindex="15" >
+
+
+                                        </label>
+
+
+                                </itr>
+
+
+                                <rowtablearea2 griddataprop="tree" rowcount="43" height="100%" width="100%" withborder="false" hscroll="true" casaindex="16" >
+
+
+                                        <vdist height="5" casaindex="17" >
+
+
+                                        </vdist>
+
+
+                                        <repeat casaindex="18" >
+
+
+                                                <tr casaindex="19" >
+
+
+                                                        <hdist width="5" casaindex="20" >
+
+
+                                                        </hdist>
+
+
+                                                        <treenode3 width="1000" withplusminus="true" imageopened="images/xmlopened.gif" imageclosed="images/xmlclosed.gif" imageendnode="images/xmlendnode.gif" singleselect="false" enabledrag="false" withlines="true" withtooltip="true" casaindex="21" >
+
+
+                                                        </treenode3>
+
+
+                                                </tr>
+
+
+                                        </repeat>
+
+
+                                </rowtablearea2>
+
+
+                                <rowarea withleftborder="false" withtopborder="false" withrightborder="false" withbottomborder="false" withtoppadding="false" casaindex="22" >
+
+
+                                        <itr width="100%" casaindex="23" >
+
+
+                                                <hdist width="50%" casaindex="24" >
+
+
+                                                </hdist>
+
+
+                                                <icon image="../HTMLBasedGUI/images/new.gif" method="onTagAdd" titletextid="ce.icon.label.newctrl" casaindex="25" >
+
+
+                                                </icon>
+
+
+                                                <hdist casaindex="26" >
+
+
+                                                </hdist>
+
+
+                                                <icon image="images/distance.gif" casaindex="27" >
+
+
+                                                </icon>
+
+
+                                                <hdist casaindex="28" >
+
+
+                                                </hdist>
+
+
+                                                <icon image="../HTMLBasedGUI/images/new.gif" method="onDatatypeAdd" titletextid="ce.icon.label.newdatat" casaindex="29" >
+
+
+                                                </icon>
+
+
+                                                <hdist width="50" casaindex="30" >
+
+
+                                                </hdist>
+
+
+                                                <icon image="../HTMLBasedGUI/images/remove.gif" method="onTreeItemRemove" titletextid="ce.icon.label.selline" casaindex="31" >
+
+
+                                                </icon>
+
+
+                                                <hdist width="50%" casaindex="32" >
+
+
+                                                </hdist>
+
+
+                                        </itr>
+
+
+                                </rowarea>
+
+
+                        </splitcell>
+
+
+                        <splitcell takefullheight="true" casaindex="33" >
+
+
+                                <vdist height="10" casaindex="34" >
+
+
+                                </vdist>
+
+
+                                <rowdynavis valueprop="generalHelpVis" height="100%" casaindex="35" >
+
+
+                                        <rowscrollarea height="100%" takefullwidth="true" takefullheight="true" casaindex="36" >
+
+
+                                                <itr height="100%" width="100%" casaindex="37" >
+
+
+                                                        <hdist width="10" casaindex="38" >
+
+
+                                                        </hdist>
+
+
+                                                        <ihtml valueprop="infoTopHTML" width="100%" height="100%" valign="top" casaindex="39" >
+
+
+                                                        </ihtml>
+
+
+                                                        <hdist width="10" casaindex="40" >
+
+
+                                                        </hdist>
+
+
+                                                </itr>
+
+
+                                        </rowscrollarea>
+
+
+                                </rowdynavis>
+
+
+                                <rowdynavis valueprop="generalHelpNotVis" height="100%" casaindex="41" >
+
+
+                                        <itr width="100%" casaindex="42" >
+
+
+                                                <hdist width="10" casaindex="43" >
+
+
+                                                </hdist>
+
+
+                                                <ihtml valueprop="infoTopHTML" width="100%" height="200" casaindex="44" >
+
+
+                                                </ihtml>
+
+
+                                                <hdist width="10" casaindex="45" >
+
+
+                                                </hdist>
+
+
+                                        </itr>
+
+
+                                        <vdist height="10" casaindex="46" >
+
+
+                                        </vdist>
+
+
+                                        <itr height="100%" fixlayout="true" casaindex="47" >
+
+
+                                                <hdist width="10" casaindex="48" >
+
+
+                                                </hdist>
+
+
+                                                <coltable0 width="100%" takefullheight="true" casaindex="49" >
+
+
+                                                        <rowdynavis valueprop="tabPageVis" height="100%" casaindex="50" >
+
+
+                                                                <rowtabsubpages pagesprop="subPageInfo" height="100%" leftindent="30" pagestyle="border:2" casaindex="51" >
+
+
+                                                                </rowtabsubpages>
+
+
+                                                        </rowdynavis>
+
+
+                                                </coltable0>
+
+
+                                                <hdist width="10" casaindex="52" >
+
+
+                                                </hdist>
+
+
+                                        </itr>
+
+
+                                </rowdynavis>
+
+
+                                <vdist height="10" casaindex="53" >
+
+
+                                </vdist>
+
+
+                        </splitcell>
+
+
+                </vsplit>
+
+
+        </pagebody>
+
+
+        <statusbar withdistance="false" casaindex="54" >
+
+
+        </statusbar>
+
+
+</page>
